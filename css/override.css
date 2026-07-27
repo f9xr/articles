@@ -1,45 +1,259 @@
-hr {
-  margin-top: 30px;
-  margin-bottom: 20px;
+/* ============================================
+   F9XR Articles — Dark Theme Override
+   Matches f9xr.github.io aesthetic
+   ============================================ */
+
+/* --- Base & Background --- */
+body {
+  background-color: #0a0a0a !important;
+  color: #d4d4d4 !important;
+  font-family: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif !important;
+  line-height: 1.7;
 }
 
-/* Post navigation links */
+/* --- Links --- */
+a {
+  color: #4fc3f7 !important;
+  text-decoration: none !important;
+  transition: color 0.2s ease;
+}
+a:hover {
+  color: #81d4fa !important;
+  text-decoration: underline !important;
+}
+
+/* --- Headings --- */
+h1, h2, h3, h4, h5, h6 {
+  color: #f0f0f0 !important;
+  font-weight: 700;
+  margin-top: 1.8em;
+  margin-bottom: 0.6em;
+}
+h1 { font-size: 2.2em; border-bottom: 1px solid #222; padding-bottom: 0.3em; }
+h2 { font-size: 1.7em; }
+h3 { font-size: 1.35em; }
+h4 { font-size: 1.15em; }
+
+/* --- Paragraphs --- */
+p {
+  margin-bottom: 1.2em;
+  color: #c8c8c8;
+}
+
+/* --- Code Blocks --- */
+code {
+  background-color: #1a1a2e !important;
+  color: #e0e0e0 !important;
+  border: 1px solid #2a2a3e !important;
+  border-radius: 6px !important;
+  padding: 0.15em 0.4em;
+  font-size: 0.9em;
+}
+pre {
+  background-color: #0d1117 !important;
+  border: 1px solid #1e2a3a !important;
+  border-radius: 8px !important;
+  padding: 1.2em;
+  overflow-x: auto;
+  margin: 1.5em 0;
+}
+pre code {
+  background: none !important;
+  border: none !important;
+  padding: 0;
+  font-size: 0.88em;
+  line-height: 1.6;
+}
+
+/* --- Blockquotes --- */
+blockquote {
+  border-left: 4px solid #4fc3f7 !important;
+  background-color: #111 !important;
+  padding: 0.8em 1.2em;
+  margin: 1.5em 0;
+  border-radius: 0 8px 8px 0;
+  color: #aaa !important;
+}
+
+/* --- Lists --- */
+ul, ol {
+  color: #c8c8c8;
+  margin-bottom: 1.2em;
+}
+li {
+  margin-bottom: 0.4em;
+}
+
+/* --- Tables --- */
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin: 1.5em 0;
+}
+th {
+  background-color: #1a1a2e !important;
+  color: #f0f0f0 !important;
+  padding: 0.8em;
+  text-align: left;
+  border-bottom: 2px solid #4fc3f7 !important;
+}
+td {
+  padding: 0.7em;
+  border-bottom: 1px solid #222 !important;
+  color: #c8c8c8;
+}
+tr:hover td {
+  background-color: #111 !important;
+}
+
+/* --- Horizontal Rules --- */
+hr {
+  border: none !important;
+  border-top: 1px solid #222 !important;
+  margin: 2.5em 0;
+}
+
+/* --- Images --- */
+img {
+  max-width: 100%;
+  border-radius: 8px;
+  margin: 1em 0;
+}
+
+/* --- Main Container --- */
+.page-content, .post-content, .home-page {
+  max-width: 780px;
+  margin: 0 auto;
+  padding: 2em 1.5em;
+}
+
+/* --- Site Header --- */
+.site-header {
+  background-color: #0d0d0d !important;
+  border-bottom: 1px solid #1a1a1a !important;
+  padding: 1em 0;
+}
+.site-title, .site-title a {
+  color: #f0f0f0 !important;
+  font-weight: 700;
+  font-size: 1.3em;
+}
+.site-tagline {
+  color: #888 !important;
+  font-size: 0.85em;
+}
+
+/* --- Site Navigation --- */
+.site-nav a {
+  color: #aaa !important;
+  font-size: 0.9em;
+  margin-left: 1.2em;
+  transition: color 0.2s;
+}
+.site-nav a:hover {
+  color: #4fc3f7 !important;
+}
+
+/* --- Post Meta --- */
+.post-meta {
+  color: #777 !important;
+  font-size: 0.85em;
+  margin-bottom: 1.5em;
+}
+
+/* --- Post Content --- */
+.post-content {
+  font-size: 1.05em;
+}
+
+/* --- Share Buttons --- */
+#share-buttons > div > svg {
+  fill: #555 !important;
+}
+#share-buttons > div:hover > svg {
+  fill: #4fc3f7 !important;
+}
+#share-buttons > div.facebook:hover > svg { fill: #3B5998; }
+#share-buttons > div.twitter:hover > svg { fill: #55ACEE; }
+#share-buttons > div.linkedin:hover > svg { fill: #0077b5; }
+#share-buttons > div.instagram:hover > svg { fill: #C73B92; }
+#share-buttons > div.youtube:hover > svg { fill: #FF0000; }
+#share-buttons > div.mail:hover > svg { fill: #7D7D7D; }
+
+/* --- Post Navigation --- */
 .post_navi {
   display: flex;
+  gap: 1em;
 }
-
 .post_navi-label {
   font-size: 0.8em;
   opacity: 0.5;
+  color: #888 !important;
 }
-
 .post_navi .post_navi-item {
-  padding: 0 2.2em;
+  padding: 1em 1.5em;
   width: 50%;
   position: relative;
-  color: inherit !important;
+  color: #aaa !important;
+  background-color: #111 !important;
+  border: 1px solid #1e1e1e !important;
+  border-radius: 8px;
+  transition: border-color 0.2s, background-color 0.2s;
+  text-decoration: none !important;
 }
-
+.post_navi .post_navi-item:hover {
+  border-color: #4fc3f7 !important;
+  background-color: #151520 !important;
+  text-decoration: none !important;
+}
 .post_navi .nav_prev {
   text-align: left;
 }
-
 .post_navi .nav_next {
   text-align: right;
 }
-
-.post_navi .nav_prev .post_navi-arrow {
-  left: 0;
-}
-
-.post_navi .nav_next .post_navi-arrow {
-  right: 0;
-}
-
 .post_navi .post_navi-arrow {
-  position: absolute;
-  top: 50%;
-  transform: translateY(-50%);
-  font-size: 2.5em;
+  font-size: 1.8em;
   opacity: 0.3;
+  color: #4fc3f7 !important;
+}
+.post_navi .post_navi-item span {
+  color: #d0d0d0 !important;
+  font-weight: 500;
+}
+
+/* --- Footer --- */
+.site-footer {
+  border-top: 1px solid #1a1a1a !important;
+  background-color: #0a0a0a !important;
+  color: #666 !important;
+  padding: 2em 0;
+  text-align: center;
+}
+.site-footer a {
+  color: #888 !important;
+}
+.site-footer a:hover {
+  color: #4fc3f7 !important;
+}
+
+/* --- Selection --- */
+::selection {
+  background-color: #4fc3f7 !important;
+  color: #0a0a0a !important;
+}
+
+/* --- Scrollbar --- */
+::-webkit-scrollbar {
+  width: 8px;
+}
+::-webkit-scrollbar-track {
+  background: #0a0a0a;
+}
+::-webkit-scrollbar-thumb {
+  background: #333;
+  border-radius: 4px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: #555;
 }

@@ -2,6 +2,22 @@
 layout: default
 ---
 <link href="/css/override.css" rel="stylesheet" type="text/css">
+
+<div style="text-align:center; margin-bottom:2em; padding-bottom:1em; border-bottom:1px solid #1a1a1a;">
+  <a href="https://f9xr.github.io" style="text-decoration:none;">
+    <span style="font-size:1.6em; font-weight:800; color:#f0f0f0; letter-spacing:0.05em;">F9<span style="color:#4fc3f7;">XR</span></span>
+  </a>
+  <div style="margin-top:0.3em;">
+    <a href="https://f9xr.github.io" style="color:#666; font-size:0.8em;">Main Site</a>
+    <span style="color:#333; margin:0 0.6em;">|</span>
+    <a href="/" style="color:#4fc3f7; font-size:0.8em;">Articles</a>
+    <span style="color:#333; margin:0 0.6em;">|</span>
+    <a href="https://f9xr.github.io/pages/about.html" style="color:#666; font-size:0.8em;">About</a>
+    <span style="color:#333; margin:0 0.6em;">|</span>
+    <a href="https://f9xr.github.io/pages/contact.html" style="color:#666; font-size:0.8em;">Contact</a>
+  </div>
+</div>
+
 <article class="post h-entry" itemscope itemtype="http://schema.org/BlogPosting">
 
   <header class="post-header">
@@ -13,8 +29,12 @@ layout: default
       </time>
       {% assign author = page.author | default: site.author %}
       {%- if author -%}
-        • <span itemprop="author" itemscope itemtype="http://schema.org/Person"><span class="p-author h-card" itemprop="name">{{ author }}</span></span>
-      {%- endif -%}</p>
+        &nbsp;&mdash;&nbsp;
+        <span itemprop="author" itemscope itemtype="http://schema.org/Person">
+          <span class="p-author h-card" itemprop="name">{{ author }}</span>
+        </span>
+      {%- endif -%}
+    </p>
   </header>
 
   <div class="share-links">
