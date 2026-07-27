@@ -1,3 +1,10 @@
+---
+layout: post
+image: "https://f9xr.github.io/assets/og-image.webp"
+---
+
+![F9XR Team — Engineering Digital Growth](https://f9xr.github.io/assets/og-image.webp)
+
 ## Engineering Digital Growth: An Introduction to F9XR Team
 
 In a digital landscape saturated with generic templates and surface-level web design, **F9XR Team** takes a fundamentally different approach. We are a digital architecture agency based in India with a global client footprint, focused on building high-performance web ecosystems, AI-powered systems, and local SEO infrastructure that generates measurable revenue.
