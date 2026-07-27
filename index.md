@@ -4,6 +4,54 @@ title: F9XR Articles
 description: "Engineering digital growth — technical insights, architecture notes, and strategies from the F9XR Team on web performance, AI integration, and local SEO."
 ---
 
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "WebSite",
+  "name": "F9XR Articles",
+  "url": "https://f9xrteam.github.io/articles",
+  "description": "Engineering digital growth — technical insights, architecture notes, and strategies from the F9XR Team on web performance, AI integration, and local SEO.",
+  "publisher": {
+    "@type": "Organization",
+    "name": "F9XR Team",
+    "url": "https://f9xr.github.io",
+    "logo": {
+      "@type": "ImageObject",
+      "url": "https://f9xr.github.io/logo.webp"
+    }
+  },
+  "potentialAction": {
+    "@type": "SearchAction",
+    "target": {
+      "@type": "EntryPoint",
+      "urlTemplate": "https://f9xrteam.github.io/articles/archive?q={search_term_string}"
+    },
+    "query-input": "required name=search_term_string"
+  }
+}
+</script>
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "Organization",
+  "name": "F9XR Team",
+  "url": "https://f9xr.github.io",
+  "logo": "https://f9xr.github.io/logo.webp",
+  "sameAs": [
+    "https://github.com/f9xr",
+    "https://linkedin.com/company/f9xrteam",
+    "https://instagram.com/f9xrteam",
+    "https://www.youtube.com/@QuarterlyLIV"
+  ],
+  "contactPoint": {
+    "@type": "ContactPoint",
+    "email": "tontufytservices@gmail.com",
+    "contactType": "customer service"
+  }
+}
+</script>
+
 <div style="text-align:center; padding:2em 0 1em;">
   <p style="color:#aaa; max-width:520px; margin:0 auto; font-size:1.05em;">
     Engineering digital growth — technical insights, architecture notes, and strategies from the F9XR Team.

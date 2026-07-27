@@ -1,8 +1,37 @@
 ---
-layout: page
+layout: default
 title: Archive — F9XR Articles
 description: "Complete archive of all articles by F9XR Team covering web architecture, AI integration, local SEO, and digital growth strategies."
 ---
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "CollectionPage",
+  "name": "Archive — F9XR Articles",
+  "description": "Complete archive of all articles by F9XR Team covering web architecture, AI integration, local SEO, and digital growth strategies.",
+  "url": "{{ '/archive' | absolute_url }}",
+  "isPartOf": {
+    "@type": "WebSite",
+    "name": "F9XR Articles",
+    "url": "https://f9xrteam.github.io/articles"
+  },
+  "mainEntity": {
+    "@type": "ItemList",
+    "itemListElement": [
+      {%- for post in site.posts %}
+      {
+        "@type": "ListItem",
+        "position": {{ forloop.index }},
+        "url": "{{ post.url | absolute_url }}"
+      }{%- unless forloop.last %},{% endunless %}
+      {%- endfor %}
+    ]
+  }
+}
+</script>
+
+<div style="max-width:800px; margin:0 auto; padding:2em 1em;">
 
 <h2 style="color:#f0f0f0; border-bottom:1px solid #1e1e1e; padding-bottom:0.5em;">All Articles</h2>
 
@@ -19,3 +48,5 @@ description: "Complete archive of all articles by F9XR Team covering web archite
     {% endfor %}
   </ul>
 {% endfor %}
+
+</div>
