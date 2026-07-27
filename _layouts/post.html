@@ -1,22 +1,6 @@
 ---
 layout: default
 ---
-<link href="/css/override.css" rel="stylesheet" type="text/css">
-
-<div style="text-align:center; margin-bottom:2em; padding-bottom:1em; border-bottom:1px solid #1a1a1a;">
-  <a href="https://f9xr.github.io" style="text-decoration:none;">
-    <span style="font-size:1.6em; font-weight:800; color:#f0f0f0; letter-spacing:0.05em;">F9<span style="color:#4fc3f7;">XR</span></span>
-  </a>
-  <div style="margin-top:0.3em;">
-    <a href="https://f9xr.github.io" style="color:#666; font-size:0.8em;">Main Site</a>
-    <span style="color:#333; margin:0 0.6em;">|</span>
-    <a href="/" style="color:#4fc3f7; font-size:0.8em;">Articles</a>
-    <span style="color:#333; margin:0 0.6em;">|</span>
-    <a href="https://f9xr.github.io/pages/about.html" style="color:#666; font-size:0.8em;">About</a>
-    <span style="color:#333; margin:0 0.6em;">|</span>
-    <a href="https://f9xr.github.io/pages/contact.html" style="color:#666; font-size:0.8em;">Contact</a>
-  </div>
-</div>
 
 <article class="post h-entry" itemscope itemtype="http://schema.org/BlogPosting">
 
@@ -35,7 +19,20 @@ layout: default
         </span>
       {%- endif -%}
     </p>
+    {%- if page.tags and page.tags.size > 0 -%}
+    <div class="post-tags" style="margin-top:0.5em;">
+      {%- for tag in page.tags -%}
+        <span style="display:inline-block; background:#1a1a2e; color:#4fc3f7; padding:0.2em 0.6em; border-radius:4px; font-size:0.78em; margin-right:0.4em;">{{ tag }}</span>
+      {%- endfor -%}
+    </div>
+    {%- endif -%}
   </header>
+
+  {% if page.image %}
+  <div class="post-hero" style="margin-bottom:1.5em;">
+    <img src="{{ page.image }}" alt="{{ page.title | escape }}" style="width:100%; border-radius:8px;" itemprop="image">
+  </div>
+  {% endif %}
 
   <div class="share-links">
     {% include sharelinks.html %}
@@ -48,3 +45,36 @@ layout: default
 
   <a class="u-url" href="{{ page.url | relative_url }}" hidden></a>
 </article>
+
+<!-- JSON-LD Structured Data -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BlogPosting",
+  "headline": "{{ page.title | escape }}",
+  "description": "{{ page.description | default: site.description | strip_html | truncatewords: 55 | escape }}",
+  "image": "{{ page.image | default: 'https://f9xr.github.io/assets/og-image.webp' }}",
+  "datePublished": "{{ page.date | date_to_xmlschema }}",
+  "dateModified": "{{ page.last_modified_at | default: page.date | date_to_xmlschema }}",
+  "author": {
+    "@type": "Organization",
+    "name": "{{ page.author | default: site.author }}",
+    "url": "https://f9xr.github.io"
+  },
+  "publisher": {
+    "@type": "Organization",
+    "name": "F9XR Team",
+    "url": "https://f9xr.github.io",
+    "logo": {
+      "@type": "ImageObject",
+      "url": "https://f9xr.github.io/logo.webp"
+    }
+  },
+  "mainEntityOfPage": {
+    "@type": "WebPage",
+    "@id": "{{ page.url | absolute_url }}"
+  },
+  "wordCount": {{ page.content | strip_html | number_of_words }},
+  "keywords": "{{ page.tags | join: ', ' | default: 'F9XR, web development, AI, SEO, digital architecture' }}"
+}
+</script>

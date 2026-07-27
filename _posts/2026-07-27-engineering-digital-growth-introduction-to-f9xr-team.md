@@ -1,13 +1,19 @@
 ---
 layout: post
+title: "Engineering Digital Growth: An Introduction to F9XR Team"
+description: "Discover how F9XR Team engineers high-performance web ecosystems, AI-powered systems, and local SEO infrastructure for businesses worldwide. A complete introduction to our services, philosophy, and results."
 image: "https://f9xr.github.io/assets/og-image.webp"
+tags: [F9XR, web development, AI integration, local SEO, digital architecture, web performance]
+keywords: "F9XR Team, web development agency, AI integration, local SEO, Google Business optimization, web performance, digital architecture, WordPress development, GPT chatbot, India tech company"
 ---
 
-![F9XR Team — Engineering Digital Growth](https://f9xr.github.io/assets/og-image.webp)
+<div class="youtube-embed" style="position:relative; padding-bottom:56.25%; height:0; overflow:hidden; margin-bottom:2em;">
+  <iframe src="https://www.youtube.com/embed/05cr4W9uyA" title="F9XR Team — Watch and How We Do" style="position:absolute; top:0; left:0; width:100%; height:100%; border:0;" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen loading="lazy"></iframe>
+</div>
 
 ## Engineering Digital Growth: An Introduction to F9XR Team
 
-In a digital landscape saturated with generic templates and surface-level web design, **F9XR Team** takes a fundamentally different approach. We are a digital architecture agency based in India with a global client footprint, focused on building high-performance web ecosystems, AI-powered systems, and local SEO infrastructure that generates measurable revenue.
+In a digital landscape saturated with generic templates and surface-level web design, **F9XR Team** takes a fundamentally different approach. We are a digital architecture agency based in India with a global client footprint, focused on building [high-performance web ecosystems](https://f9xr.github.io/pages/services.html), AI-powered systems, and [local SEO infrastructure](https://f9xr.github.io/services/google-business-optimization.html) that generates measurable revenue.
 
 This article introduces who we are, what we engineer, and the technical philosophy that drives every project we deliver.
 
@@ -31,7 +37,7 @@ F9XR Team exists to close this gap with precision-engineered solutions.
 
 #### 1. Web Ecosystems
 
-We don't build "websites" — we architect conversion engines. Every project is built mobile-first, speed-optimized, and structured to turn visitors into paying clients.
+We don't build "websites" — we architect [conversion engines](https://f9xr.github.io/services/website-rentals.html). Every project is built mobile-first, speed-optimized, and structured to turn visitors into paying clients.
 
 - **WordPress & Custom Framework Builds** — choosing the right stack for the right problem
 - **Core Web Vitals Optimization** — targeting sub-second load times with zero bloat
@@ -40,7 +46,7 @@ We don't build "websites" — we architect conversion engines. Every project is 
 
 #### 2. Local SEO Dominance
 
-For clinics, salons, gyms, and service-based businesses, local search is everything. We optimize **Google Business Profiles**, local citations, and review architecture to put your brand at the top of the map.
+For clinics, salons, gyms, and service-based businesses, [local search is everything](https://f9xr.github.io/services/google-business-optimization.html). We optimize **Google Business Profiles**, local citations, and review architecture to put your brand at the top of the map.
 
 - **GMB Profile Optimization** — categories, posts, Q&A, and photo strategy
 - **Local Citation Building** — consistent NAP across directories
@@ -49,7 +55,7 @@ For clinics, salons, gyms, and service-based businesses, local search is everyth
 
 #### 3. AI Integration
 
-We build custom AI modules tailored to specific industries — from automated booking systems to intelligent lead scoring and content generation pipelines.
+We build [custom AI modules](https://f9xr.github.io/services/ai-visibility-optimization.html) tailored to specific industries — from automated booking systems to intelligent lead scoring and content generation pipelines.
 
 - **GPT-Powered Chatbots** — handling up to 90% of inbound DMs autonomously
 - **AI Content Workflows** — automated blog generation, social media scheduling
@@ -58,7 +64,7 @@ We build custom AI modules tailored to specific industries — from automated bo
 
 #### 4. Technical Maintenance
 
-Digital assets require ongoing care. Our maintenance infrastructure keeps your systems secure, fast, and online.
+Digital assets require ongoing care. Our [maintenance infrastructure](https://f9xr.github.io/services/data-management.html) keeps your systems secure, fast, and online.
 
 - **24/7 Uptime Monitoring** — instant alerts on downtime
 - **Weekly Off-site Backups** — encrypted cloud redundancy
@@ -103,13 +109,13 @@ Our infrastructure delivers measurable outcomes:
 
 ### Working With F9XR Team
 
-We operate on a project-based accountability model with three engagement tiers:
+We operate on a project-based accountability model with three [engagement tiers](https://f9xr.github.io/pages/portfolio.html):
 
 1. **Starter Website** — Modern, SEO-ready foundation for businesses escaping technical debt
 2. **Growth Pack** — Total business solution with premium design, advanced SEO, and AI functionality
 3. **Custom Architecture** — Full-scale digital systems for enterprise and fintech requirements
 
-Every engagement starts with a **free website audit** — a technical assessment of your current infrastructure, competitor landscape, and growth opportunities.
+Every engagement starts with a **[free website audit](https://f9xr.github.io/pages/contact.html)** — a technical assessment of your current infrastructure, competitor landscape, and growth opportunities.
 
 ---
 

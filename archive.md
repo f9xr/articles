@@ -1,6 +1,7 @@
 ---
 layout: page
-title: Archive
+title: Archive — F9XR Articles
+description: "Complete archive of all articles by F9XR Team covering web architecture, AI integration, local SEO, and digital growth strategies."
 ---
 
 <h2 style="color:#f0f0f0; border-bottom:1px solid #1e1e1e; padding-bottom:0.5em;">All Articles</h2>
@@ -11,6 +12,9 @@ title: Archive
     {% for post in tag[1] %}
       <li style="padding:0.5em 0; border-bottom:1px solid #151515;">
         <a href="{{ post.url }}" style="color:#d0d0d0;">{{ post.date | date: "%B %Y" }} — {{ post.title }}</a>
+        {%- if post.description -%}
+          <p style="color:#777; font-size:0.85em; margin:0.2em 0 0 0;">{{ post.description | truncatewords: 20 }}</p>
+        {%- endif -%}
       </li>
     {% endfor %}
   </ul>

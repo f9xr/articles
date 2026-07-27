@@ -1,6 +1,8 @@
 title: "F9XR Articles"
 author: "F9XR Team"
 description: "Engineering digital growth — insights on web architecture, AI integration, local SEO, and high-performance digital systems from the F9XR Team."
+url: "https://f9xrteam.github.io"
+baseurl: "/articles"
 email: "tontufytservices@gmail.com"
 twitter_username: "QuarterlyLIV"
 github_username: "f9xr"
@@ -9,6 +11,9 @@ instagram_username: "f9xrteam"
 youtube_username: "QuarterlyLIV"
 pinterest_username: "f9xr"
 facebook_username: "f9xrteam"
+
+lang: "en"
+locale: "en_US"
 
 #########################################################################################
 ######### Nothing below needs to be changed (unless you know what you're doing) #########
@@ -35,3 +40,9 @@ defaults:
       type: post
     values:
       tags: Other
+      layout: post
+  - scope:
+      path: ""
+      type: pages
+    values:
+      layout: page
