@@ -10,7 +10,7 @@ permalink: /author/
 <div style="display:flex; align-items:center; gap:1.5em; margin-bottom:2em; flex-wrap:wrap;">
    <img src="https://f9xr.github.io/logo.webp" alt="F9XR Team" width="80" height="80" style="border-radius:50%; border:2px solid #1e2024;">
   <div>
-     <h1 style="margin:0; font-size:1.6em; border:none; background:none; -webkit-text-fill-color:#f8f9fa;">F9XR Team</h1>
+     <h1 style="margin:0; font-size:1.6em; border:none; background:none; -webkit-text-fill-color:#f8f9fa;">F9XR Editorial Team</h1>
      <p style="color:#8b8b8b; margin:0.2em 0 0 0; font-size:0.95em;">Digital Architecture Agency</p>
   </div>
 </div>
