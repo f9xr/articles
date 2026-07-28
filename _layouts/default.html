@@ -18,10 +18,10 @@
     {%- include footer.html -%}
 
     <!-- highlight.js (deferred to avoid render-blocking) -->
-    <script defer src="/js/highlightjs/highlight.min.js"></script>
-    <script defer src="/js/highlightjs/languages/plaintext.min.js"></script>
-    <script defer src="/js/highlightjs/languages/powershell.min.js"></script>
-    <script defer src="/js/highlightjs/languages/tsql.min.js"></script>
+    <script defer src="{{ '/js/highlightjs/highlight.min.js' | relative_url }}"></script>
+    <script defer src="{{ '/js/highlightjs/languages/plaintext.min.js' | relative_url }}"></script>
+    <script defer src="{{ '/js/highlightjs/languages/powershell.min.js' | relative_url }}"></script>
+    <script defer src="{{ '/js/highlightjs/languages/tsql.min.js' | relative_url }}"></script>
     <script defer>hljs.highlightAll();</script>
 
   </body>
