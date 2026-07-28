@@ -1,0 +1,47 @@
+# F9XR Articles
+
+> Engineering digital growth — technical insights, architecture notes, and strategies from the F9XR Team on web performance, AI integration, and local SEO.
+
+F9XR Articles is the blog platform for F9XR Team, a digital architecture agency based in India with a global client footprint. We build high-performance web ecosystems, AI-powered systems, and local SEO infrastructure that generates measurable revenue.
+
+## Key Topics
+
+- Web architecture and Core Web Vitals optimization
+- AI integration (GPT chatbots, workflow automation, lead scoring)
+- Local SEO (Google Business Profile optimization, citations, reviews)
+- Digital systems design and technical maintenance
+- WordPress and custom framework development
+
+## Main Site
+
+- [F9XR Team Home](https://f9xr.github.io) — Main business site
+- [Services](https://f9xr.github.io/pages/services.html) — Web ecosystems, local SEO, AI integration, maintenance
+- [Portfolio](https://f9xr.github.io/pages/portfolio.html) — Client projects and case studies
+- [Contact](https://f9xr.github.io/pages/contact.html) — Get a free website audit
+
+## Articles
+
+- [Engineering Digital Growth: An Introduction to F9XR Team](https://f9xr.github.io/articles/) — Who we are, what we engineer, and our technical philosophy
+
+## About
+
+- [About F9XR Team](https://f9xr.github.io/articles/author/) — Team expertise, track record, and technical philosophy
+- [Article Archive](https://f9xr.github.io/articles/archive/) — All published articles
+
+## Social
+
+- GitHub: https://github.com/f9xr
+- LinkedIn: https://linkedin.com/company/f9xrteam
+- Instagram: https://instagram.com/f9xrteam
+- YouTube: https://www.youtube.com/@QuarterlyLIV
+
+## Contact
+
+- Email: tontufytservices@gmail.com
+
+## Details
+
+- Built with Jekyll, hosted on GitHub Pages
+- Static site with dark theme, responsive design
+- SEO-optimized with JSON-LD structured data, Open Graph, Twitter Cards
+- Articles cover web performance, AI integration, local SEO, and digital architecture

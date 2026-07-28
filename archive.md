@@ -14,7 +14,7 @@ description: "Complete archive of all articles by F9XR Team covering web archite
   "isPartOf": {
     "@type": "WebSite",
     "name": "F9XR Articles",
-    "url": "https://f9xrteam.github.io/articles"
+    "url": "{{ '/' | absolute_url }}"
   },
   "mainEntity": {
     "@type": "ItemList",
@@ -36,7 +36,7 @@ description: "Complete archive of all articles by F9XR Team covering web archite
 <h2 style="color:#f0f0f0; border-bottom:1px solid #1e1e1e; padding-bottom:0.5em;">All Articles</h2>
 
 {% for tag in site.tags %}
-  <h3 style="color:#4fc3f7; margin-top:1.5em;">{{ tag[0] }}</h3>
+  <h3 style="color:#3b82f6; margin-top:1.5em;">{{ tag[0] }}</h3>
   <ul style="list-style:none; padding-left:0;">
     {% for post in tag[1] %}
       <li style="padding:0.5em 0; border-bottom:1px solid #151515;">

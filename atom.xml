@@ -1,0 +1,35 @@
+---
+---
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <title>{{ site.title | escape }}</title>
+  <subtitle>{{ site.description | escape }}</subtitle>
+  <link href="{{ '/feed.xml' | absolute_url }}" rel="self" type="application/atom+xml"/>
+  <link href="{{ '/' | absolute_url }}" rel="alternate" type="text/html"/>
+  <id>{{ '/' | absolute_url }}</id>
+  <author>
+    <name>{{ site.author | escape }}</name>
+    <email>{{ site.email | escape }}</email>
+  </author>
+  <generator>Feed for Atom, jekyll-feed v{{ jekyll-feed.version }}</generator>
+  {% assign posts = site.posts | where: "published", false | sort: "date" | reverse %}
+  {% for post in posts limit:20 %}
+  <entry>
+    <title>{{ post.title | xml_escape }}</title>
+    <link href="{{ post.url | absolute_url }}" rel="alternate" type="text/html" title="{{ post.title | xml_escape }}"/>
+    <published>{{ post.date | date_to_xmlschema }}</published>
+    <updated>{{ post.last_modified_at | default: post.date | date_to_xmlschema }}</updated>
+    <id>{{ post.url | absolute_url }}</id>
+    <content type="html" xml:lang="{{ site.lang }}" xml:base="{{ post.url | absolute_url }}">
+      {{ post.content | xml_escape }}
+    </content>
+    {% if post.description %}
+    <summary type="html">{{ post.description | xml_escape }}</summary>
+    {% endif %}
+    {% for tag in post.tags %}
+    <category term="{{ tag | xml_escape }}" label="{{ tag | xml_escape }}"/>
+    {% endfor %}
+    <link rel="enclosure" href="{{ post.image | default: 'https://f9xr.github.io/assets/og-image.webp' }}" type="image/webp"/>
+  </entry>
+  {% endfor %}
+</feed>

@@ -9,7 +9,7 @@ description: "Engineering digital growth — technical insights, architecture no
   "@context": "https://schema.org",
   "@type": "WebSite",
   "name": "F9XR Articles",
-  "url": "https://f9xrteam.github.io/articles",
+  "url": "{{ '/' | absolute_url }}",
   "description": "Engineering digital growth — technical insights, architecture notes, and strategies from the F9XR Team on web performance, AI integration, and local SEO.",
   "publisher": {
     "@type": "Organization",
@@ -24,7 +24,7 @@ description: "Engineering digital growth — technical insights, architecture no
     "@type": "SearchAction",
     "target": {
       "@type": "EntryPoint",
-      "urlTemplate": "https://f9xrteam.github.io/articles/archive?q={search_term_string}"
+      "urlTemplate": "{{ '/archive' | absolute_url }}?q={search_term_string}"
     },
     "query-input": "required name=search_term_string"
   }
@@ -53,14 +53,15 @@ description: "Engineering digital growth — technical insights, architecture no
 </script>
 
 <div style="text-align:center; padding:2em 0 1em;">
-  <p style="color:#aaa; max-width:520px; margin:0 auto; font-size:1.05em;">
+   <h1 style="font-size:1.8em; color:#f8f9fa; margin-bottom:0.3em; border:none; background:none; -webkit-text-fill-color:#f8f9fa;">F9XR Articles</h1>
+   <p style="color:#8b8b8b; max-width:520px; margin:0 auto; font-size:1.05em;">
     Engineering digital growth — technical insights, architecture notes, and strategies from the F9XR Team.
   </p>
   <div style="margin-top:1em;">
-    <a href="https://f9xr.github.io" style="color:#4fc3f7; font-size:0.88em; margin:0 0.5em;">Main Site</a>
-    <a href="https://f9xr.github.io/pages/services.html" style="color:#aaa; font-size:0.88em; margin:0 0.5em;">Services</a>
-    <a href="https://f9xr.github.io/pages/portfolio.html" style="color:#aaa; font-size:0.88em; margin:0 0.5em;">Portfolio</a>
-    <a href="https://f9xr.github.io/pages/contact.html" style="color:#aaa; font-size:0.88em; margin:0 0.5em;">Contact</a>
+     <a href="https://f9xr.github.io" style="color:#3b82f6; font-size:0.88em; margin:0 0.5em;">Main Site</a>
+     <a href="https://f9xr.github.io/pages/services.html" style="color:#8b8b8b; font-size:0.88em; margin:0 0.5em;">Services</a>
+     <a href="https://f9xr.github.io/pages/portfolio.html" style="color:#8b8b8b; font-size:0.88em; margin:0 0.5em;">Portfolio</a>
+     <a href="https://f9xr.github.io/pages/contact.html" style="color:#8b8b8b; font-size:0.88em; margin:0 0.5em;">Contact</a>
   </div>
 </div>
 
@@ -79,6 +80,6 @@ description: "Engineering digital growth — technical insights, architecture no
   {%- else -%}
     <p style="color:#bbb;">{{ post.content | strip_html | truncate: 200 }}</p>
   {%- endif -%}
-  <a href="{{ post.url | relative_url }}" style="color:#4fc3f7; font-size:0.9em;">Read more &rarr;</a>
+   <a href="{{ post.url | relative_url }}" style="color:#3b82f6; font-size:0.9em;">Read more &rarr;</a>
 </article>
 {% endfor %}
