@@ -24,6 +24,33 @@
     <script defer src="{{ '/js/highlightjs/languages/tsql.min.js' | relative_url }}"></script>
     <script defer>hljs.highlightAll();</script>
 
+    <script>
+    (function() {
+      var header = document.querySelector('.site-header');
+      var lastScroll = 0;
+      var ticking = false;
+      window.addEventListener('scroll', function() {
+        if (!ticking) {
+          window.requestAnimationFrame(function() {
+            var current = window.pageYOffset;
+            if (current > 60) {
+              if (current > lastScroll) {
+                header.style.transform = 'translateY(-100%)';
+              } else {
+                header.style.transform = 'translateY(0)';
+              }
+            } else {
+              header.style.transform = 'translateY(0)';
+            }
+            lastScroll = current;
+            ticking = false;
+          });
+          ticking = true;
+        }
+      });
+    })();
+    </script>
+
   </body>
 
 </html>

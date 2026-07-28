@@ -314,12 +314,13 @@ img:hover {
 .site-header {
   background: linear-gradient(180deg, #0a0a0a 0%, #000000 100%) !important;
   border-bottom: 1px solid #1e2024 !important;
-  padding: 1.2em 0;
+  padding: 0.3em 0;
   position: sticky;
   top: 0;
   z-index: 100;
   backdrop-filter: blur(12px);
   -webkit-backdrop-filter: blur(12px);
+  transition: transform 0.25s ease;
 }
 .site-header .wrapper {
   max-width: 900px;
@@ -758,7 +759,7 @@ footer ul {
   height: 40px !important;
   width: auto !important;
   border: none !important;
-  border-radius: 0 !important;
+  border-radius: 8px !important;
   margin: 0 !important;
   box-shadow: none !important;
   transition: transform 0.3s ease, opacity 0.3s ease !important;
@@ -874,7 +875,7 @@ footer ul {
   background: rgba(0, 0, 0, 0.8) !important;
 }
 .footer-bottom p {
-  color: #1e2024 !important;
+  color: #71717a !important;
   font-size: 0.88em !important;
   margin: 0 !important;
 }
