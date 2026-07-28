@@ -19,14 +19,6 @@ description: "Engineering digital growth — technical insights, architecture no
       "@type": "ImageObject",
       "url": "https://f9xr.github.io/logo.webp"
     }
-  },
-  "potentialAction": {
-    "@type": "SearchAction",
-    "target": {
-      "@type": "EntryPoint",
-      "urlTemplate": "{{ '/archive' | absolute_url }}?q={search_term_string}"
-    },
-    "query-input": "required name=search_term_string"
   }
 }
 </script>

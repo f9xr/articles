@@ -1,11 +1,11 @@
 ---
 layout: post
 title: "Engineering Digital Growth: An Introduction to F9XR Team"
-description: "Discover how F9XR Team engineers high-performance web ecosystems, AI-powered systems, and local SEO infrastructure for businesses worldwide. A complete introduction to our services, philosophy, and results."
+description: "How F9XR Team builds high-performance web ecosystems, AI-powered systems, and local SEO infrastructure for measurable business growth."
 image: "https://f9xr.github.io/assets/og-image.webp"
 dateModified: 2026-07-28
 youtube_id: "05cr4W9uyA"
-video_duration: "M3M45S"
+video_duration: "PT3M45S"
 tags: [F9XR, web development, AI integration, local SEO, digital architecture, web performance]
 keywords: "F9XR Team, web development agency, AI integration, local SEO, Google Business optimization, web performance, digital architecture, WordPress development, GPT chatbot, India tech company"
 faq:

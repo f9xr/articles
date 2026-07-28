@@ -338,7 +338,7 @@ layout: default
   "thumbnailUrl": "https://img.youtube.com/vi/{{ page.youtube_id }}/maxresdefault.jpg",
   "embedUrl": "https://www.youtube.com/embed/{{ page.youtube_id }}",
   "uploadDate": "{{ page.date | date_to_xmlschema }}",
-  "duration": "PT{{ page.video_duration | default: '10M0S' }}",
+  "duration": "{{ page.video_duration | default: 'PT10M0S' }}",
   "publisher": {
     "@type": "Organization",
     "name": "F9XR Team",
