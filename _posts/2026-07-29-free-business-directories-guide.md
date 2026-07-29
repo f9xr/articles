@@ -128,7 +128,11 @@ If you are launching a new product, startup, or app, these directories help you 
 - F6S
 - XEED
 
-<a href="https://f9xr.github.io/directories/business-listing-sites.html" target="_blank" rel="noopener noreferrer">F9XR Directories</a> curates over 100 of these platforms in one place, organized by category, so you do not have to hunt for them yourself.
+<a href="https://f9xr.github.io/directories/business-listing-sites.html" target="_blank" rel="noopener noreferrer" style="display:inline-block; margin:0.3em 0; background:linear-gradient(135deg, #3b82f6, #2563eb); color:#fff !important; padding:0.7em 1.6em; border-radius:8px; font-weight:600; text-decoration:none !important; transition:opacity 0.2s;" onmouseover="this.style.opacity='0.9'" onmouseout="this.style.opacity='1'">Open Business Listing Sites</a>
+<br><br>
+F9XR Directories curates over 100 of these platforms in one place, organized by category, so you do not have to hunt for them yourself.
+<br><br>
+<a href="https://f9xr.github.io/directories" target="_blank" rel="noopener noreferrer" style="display:inline-block; background:transparent; color:#3b82f6 !important; border:2px solid #3b82f6; padding:0.6em 1.5em; border-radius:8px; font-weight:600; text-decoration:none !important; transition:all 0.2s;" onmouseover="this.style.background='rgba(59,130,246,0.1)'" onmouseout="this.style.background='transparent'">Browse All Directories &rarr;</a>
 
 ---
 
@@ -275,7 +279,7 @@ We submit your business to top local directories that drive real leads and build
 
 No Bots. Just Real Citations. Our team manually submits your business to the best local directories and citation platforms. No shortcuts - just real listings that get approved and indexed by search engines. Getting your business listed on 100+ directories sounds time consuming, right? That is where we come in. Simply fill out our quick form with your business details, and we will handle everything else.
 
-<a href="https://f9xr.github.io/services/we-do-for-you.html" target="_blank" rel="noopener noreferrer" class="cta-button" style="display:inline-block; margin-top:0.5em; background:linear-gradient(135deg, #3b82f6, #2563eb); color:#fff; padding:0.7em 1.6em; border-radius:8px; font-weight:600; text-decoration:none; transition:opacity 0.2s;" onmouseover="this.style.opacity='0.9'" onmouseout="this.style.opacity='1'">Learn More</a>
+<a href="https://f9xr.github.io/services/we-do-for-you.html" target="_blank" rel="noopener noreferrer" style="display:inline-block; margin-top:0.5em; background:linear-gradient(135deg, #3b82f6, #2563eb); color:#fff !important; padding:0.7em 1.6em; border-radius:8px; font-weight:600; text-decoration:none !important; transition:opacity 0.2s;" onmouseover="this.style.opacity='0.9'" onmouseout="this.style.opacity='1'">Learn More</a>
 
 ---
 

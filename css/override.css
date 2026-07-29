@@ -88,6 +88,15 @@ p {
   line-height: 1.8;
 }
 
+/* --- Buttons --- */
+a.btn, a.cta-button, a[style*="border-radius:8px"] {
+  color: #fff !important;
+  text-decoration: none !important;
+}
+a.btn-outline, a[style*="border:2px solid"] {
+  text-decoration: none !important;
+}
+
 /* --- Strong & Emphasis --- */
 strong {
   color: #f0f0f0;
