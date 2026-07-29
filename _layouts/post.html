@@ -77,7 +77,7 @@ layout: default
     {% if forloop.first %}{% continue %}{% endif %}
     {% assign h2_count = h2_count | plus: 1 %}
     {% assign heading_text = word | split: "</h2>" | first %}
-    {% assign heading_clean = heading_text | strip_html | strip %}
+    {% assign heading_clean = heading_text | prepend: "<" | strip_html | strip %}
     {% assign heading_slug = heading_clean | slugify %}
     {% assign headings = headings | push: heading_clean %}
     {% assign slug_headings = slug_headings | push: heading_slug %}
@@ -185,13 +185,34 @@ layout: default
     </div>
   </div>
 
+  <!-- Related Posts -->
+  {% if site.related_posts and site.related_posts.size > 0 %}
+  <section class="related-posts" style="margin-top:3em; padding-top:2em; border-top:1px solid #111111;">
+    <h3 style="color:#f0f0f0; font-size:1.1em; margin-bottom:1.2em; display:flex; align-items:center; gap:0.4em;">
+      <i class="fa-solid fa-link" style="color:#3b82f6; font-size:0.85em;"></i>
+      Related Articles
+    </h3>
+    <div style="display:grid; grid-template-columns:repeat(auto-fill, minmax(280px, 1fr)); gap:1em;">
+      {% for related in site.related_posts limit:3 %}
+      <a href="{{ related.url | relative_url }}" style="display:block; background:linear-gradient(135deg, rgba(59,130,246,0.03) 0%, rgba(10,10,10,0.6) 100%); border:1px solid #1e2024; border-radius:10px; padding:1.2em 1.4em; text-decoration:none; transition:all 0.3s;" onmouseover="this.style.borderColor='#2563eb'; this.style.background='linear-gradient(135deg, rgba(59,130,246,0.06) 0%, rgba(10,10,10,0.8) 100%)';" onmouseout="this.style.borderColor='#1e2024'; this.style.background='linear-gradient(135deg, rgba(59,130,246,0.03) 0%, rgba(10,10,10,0.6) 100%)';">
+        <p style="margin:0 0 0.4em 0; color:#8b8b8b; font-size:0.78em;">{{ related.date | date: "%b %d, %Y" }}</p>
+        <p style="margin:0; color:#f0f0f0; font-size:0.92em; font-weight:600; line-height:1.4;">{{ related.title }}</p>
+        {% if related.description %}
+        <p style="margin:0.5em 0 0 0; color:#71717a; font-size:0.82em; line-height:1.5;">{{ related.description | truncate: 100 }}</p>
+        {% endif %}
+      </a>
+      {% endfor %}
+    </div>
+  </section>
+  {% endif %}
+
   <!-- Comments Section -->
   <section class="post-comments" id="comments" style="margin-top:3em; padding-top:2em; border-top:1px solid #111111;">
     <h3 style="color:#f0f0f0; font-size:1.1em; margin-bottom:1.2em;">Comments</h3>
     <script src="https://utteranc.es/client.js"
             repo="f9xr/articles"
             issue-term="pathname"
-            theme="github-light"
+            theme="dark-blue"
             crossorigin="anonymous"
             async>
     </script>
