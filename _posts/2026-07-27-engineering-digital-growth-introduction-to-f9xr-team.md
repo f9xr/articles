@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Engineering Digital Growth: An Introduction to F9XR Team"
+title: "Engineering Digital Growth with F9XR Team"
 description: "How F9XR Team builds high-performance web ecosystems, AI-powered systems, and local SEO infrastructure for measurable business growth."
 image: "https://f9xr.github.io/assets/og-image.webp"
 dateModified: 2026-07-28
@@ -25,7 +25,7 @@ faq:
   <iframe src="https://www.youtube.com/embed/l-52kGRwH_Y" title="F9XR Team — Watch and How We Do" style="position:absolute; top:0; left:0; width:100%; height:100%; border:0;" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen loading="lazy"></iframe>
 </div>
 
-## Engineering Digital Growth: An Introduction to F9XR Team
+## Engineering Digital Growth with F9XR Team
 
 In a digital landscape saturated with generic templates and surface-level web design, **F9XR Team** takes a fundamentally different approach. We are a digital architecture agency based in India with a global client footprint, focused on building [high-performance web ecosystems](https://f9xr.github.io/pages/services.html), AI-powered systems, and [local SEO infrastructure](https://f9xr.github.io/services/google-business-optimization.html) that generates measurable revenue.
 

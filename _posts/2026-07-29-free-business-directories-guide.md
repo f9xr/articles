@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Free Business Directories: Boost Local SEO and Get Found"
+title: "Free Business Directories to Boost Local SEO"
 description: "List your business on free business directories to boost local SEO, earn backlinks, and get found by more customers. Complete guide with practical tips."
 image: "https://f9xr.github.io/articles/assets/f9xr-dic.png"
 date: 2026-07-29
@@ -232,30 +232,6 @@ The same consistency, completeness, and authority signals that help you rank on 
 - Directory listings also power AI search results in tools like ChatGPT and Perplexity
 - Maintain and update your listings quarterly for best results
 - <a href="https://f9xr.github.io/directories/business-listing-sites.html" target="_blank" rel="noopener noreferrer">F9XR Directories</a> curates over 100 free platforms to simplify the process
-
----
-
-## FAQ
-
-### How many business directories should I list on?
-
-Start with 10 to 15 high quality directories. Focus on getting these fully completed and optimized before adding more. Most businesses see strong results from 30 to 50 well maintained listings.
-
-### Do I need to pay for directory submissions?
-
-No. The majority of business directories offer free listings. Some platforms charge for premium features like enhanced profiles or analytics, but the basic listing is always free. Avoid services that promise to submit your business to hundreds of directories for a fee. Many use automated submissions that create low quality, inconsistent listings.
-
-### How do I know if a directory is worth my time?
-
-Check <a href="https://ahrefs.com/blog/domain-rating/" target="_blank" rel="noopener noreferrer">domain authority</a>, moderation quality, community activity, and niche relevance. A directory with active moderation, real user engagement, and a domain authority above 30 is worth submitting to. Dead directories with no recent activity or moderation are not.
-
-### Can directory listings hurt my SEO?
-
-Low quality directories filled with spam can hurt your SEO. Link farms and directories that auto approve every submission can get your site associated with spam networks. Stick to reputable, moderated directories and you will be safe.
-
-### What is the difference between a directory listing and a citation?
-
-A directory listing is a full business profile on a directory platform. A citation is any mention of your business name, address, or phone number on the web, even without a full profile. Both build local SEO signals, but directory listings provide more complete trust signals.
 
 ---
 

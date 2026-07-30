@@ -39,6 +39,7 @@ layout: post
 title: "Your Article Title"
 description: "2-3 sentence summary for the AI summary box, feeds, and JSON-LD"
 image: "https://f9xr.github.io/assets/og-image.webp"  # or custom hero image URL
+image_caption: "Optional caption for the hero image"  # optional, adds <figcaption> below hero
 date: YYYY-MM-DD
 dateModified: YYYY-MM-DD  # optional, if updating
 author: "F9XR Team"  # or custom author
@@ -54,7 +55,7 @@ video_duration: ""  # optional, ISO 8601
 
 **Rules:**
 - `layout` must always be `post`
-- `title` must be under 60 characters. Catchy, attractive, unique. Include the target keyword.
+- `title` must be under 60 characters (ideally 50-55). The full rendered `<title>` tag appends ` — F9XR Articles` (~16 chars), so a 60-char title produces a 76-char tag which exceeds the 70-char SEO limit. Keep titles tight. Catchy, attractive, unique. Include the target keyword.
 - `description` must be under 160 characters. Include target keyword and a CTA. This appears in the AI summary box, feeds, SEO meta, and JSON-LD.
 - `date` defaults to today unless specified
 - `tags` must be an array of exactly 10 relevant tags. Include the target keyword as the first tag.
@@ -125,6 +126,7 @@ Add tables where comparisons or data help clarity.
 - In the conclusion: one sentence mentioning F9XR Team's services (website development, website redesign, local SEO, digital presence). Subtle. Natural.
 
 **Content rules:**
+- Never use `<h1>` or `# ` in the post body — the layout auto-generates the H1 from the front-matter `title`. Using a second H1 creates duplicate H1 issues.
 - Use `##` and `###` headings (H2 → auto-TOC, H3 → sub-sections)
 - Include real statistics with sources where possible
 - Use tables for comparisons, data, checklists
@@ -155,7 +157,7 @@ Alongside the article body, generate each of these as part of the post front-mat
 
 | Deliverable | Requirement |
 |---|---|
-| **SEO Title** | Under 60 characters. Catchy, attractive, unique. Include target keyword. |
+| **SEO Title** | Under 60 characters (target 50-55). Full `<title>` tag (title + " — F9XR Articles") must stay under 70. Catchy, attractive, unique. Include target keyword. |
 | **Meta Description** | Under 160 characters. Include target keyword and a CTA. |
 | **URL Slug** | Short, keyword-rich, hyphenated. |
 | **FAQ Schema (JSON-LD)** | `ApplicationLD+JSON` script. Include in the post body or as a separate include. |
@@ -191,6 +193,7 @@ Confirm the file is at `_posts/YYYY-MM-DD-slug.md` and has:
 - Valid YAML front-matter with no syntax errors
 - Correct Jekyll naming convention
 - All required fields present
+- **Title length ≤ 60 characters** — count manually or use `"title".Length` in PowerShell. The full rendered `<title>` tag will be `title + " — F9XR Articles"` — must stay under 70 total.
 - Body reads naturally, educational tone, no AI-isms
 - FAQ section matches front-matter
 - Internal links use `https://f9xr.github.io/...` format

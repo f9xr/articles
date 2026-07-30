@@ -94,15 +94,17 @@ Built with Jekyll, hosted on GitHub Pages, auto-deployed on push to `main`.
 
 Copy this into each post task:
 
-- [ ] Title is SEO-optimized (includes primary keyword, under 60 chars)
+- [ ] Title is SEO-optimized (includes primary keyword, under 60 chars, full `<title>` tag stays under 70)
 - [ ] Description is 2-3 sentences, under 160 chars, includes primary keyword
 - [ ] Tags array has 3-5 relevant tags
 - [ ] Keywords string covers primary + 3-5 related terms
 - [ ] FAQ has 3-5 questions derived from content
 - [ ] Hero image URL is set (or default og-image.webp)
+- [ ] Hero image has `title`, `alt`, and optional `image_caption` for SEO
 - [ ] Internal links connect to f9xr.github.io service pages and related posts
 - [ ] External links open in new tab with `rel="noopener noreferrer"`
-- [ ] Heading hierarchy: H1 (title) → H2 sections → H3 subsections (no jumps)
+- [ ] No `<h1>` or `# ` in the body — only the layout auto-generates one H1 from the front-matter title
+- [ ] Heading hierarchy: H1 (layout-generated) → H2 sections → H3 subsections (no jumps)
 - [ ] At least 2 H2 headings for Table of Contents to auto-generate
 - [ ] Reading time estimate is reasonable (200 words/min)
 - [ ] Code blocks have language tags for syntax highlighting

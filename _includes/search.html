@@ -1,0 +1,97 @@
+<div class="search-container" style="position:relative; max-width:500px; margin:0 auto 2em;">
+  <div style="display:flex; align-items:center; background:rgba(255,255,255,0.05); border:1px solid #1e2024; border-radius:10px; padding:0.4em 0.4em 0.4em 1em; transition:border-color 0.2s;">
+    <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="#71717a" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" style="flex-shrink:0;"><circle cx="11" cy="11" r="8"/><path d="m21 21-4.3-4.3"/></svg>
+    <input type="text" id="searchInput" placeholder="Search articles..." aria-label="Search articles" style="flex:1; background:none; border:none; color:#f0f0f0; font-size:0.9em; padding:0.6em 0.8em; outline:none;">
+    <button id="searchClearBtn" onclick="clearSearch()" style="display:none; background:none; border:none; color:#71717a; cursor:pointer; padding:0.4em; font-size:1em;" aria-label="Clear search">&times;</button>
+  </div>
+  <div id="searchResults" style="position:absolute; top:100%; left:0; right:0; background:#0a0a0a; border:1px solid #1e2024; border-radius:10px; margin-top:4px; max-height:400px; overflow-y:auto; display:none; z-index:1000; box-shadow:0 8px 32px rgba(0,0,0,0.4);"></div>
+</div>
+
+<script>
+(function() {
+  var searchIndex = [];
+  var posts = [
+    {% for post in site.posts %}
+    {
+      "title": "{{ post.title | escape }}",
+      "description": "{{ post.description | default: '' | escape }}",
+      "url": "{{ post.url | relative_url }}",
+      "date": "{{ post.date | date: '%b %d, %Y' }}",
+      "tags": "{{ post.tags | join: ', ' | escape }}"
+    }{% unless forloop.last %},{% endunless %}
+    {% endfor %}
+  ];
+  searchIndex = posts;
+
+  var input = document.getElementById('searchInput');
+  var results = document.getElementById('searchResults');
+  var clearBtn = document.getElementById('searchClearBtn');
+  var debounceTimer;
+
+  if (!input) return;
+
+  input.addEventListener('input', function() {
+    clearTimeout(debounceTimer);
+    debounceTimer = setTimeout(performSearch, 200);
+  });
+
+  input.addEventListener('focus', function() {
+    if (this.value.trim().length > 0) performSearch();
+  });
+
+  input.addEventListener('keydown', function(e) {
+    if (e.key === 'Escape') {
+      clearSearch();
+    }
+  });
+
+  document.addEventListener('click', function(e) {
+    if (!e.target.closest('.search-container')) {
+      results.style.display = 'none';
+    }
+  });
+
+  function performSearch() {
+    var query = input.value.trim().toLowerCase();
+    if (query.length < 1) {
+      results.style.display = 'none';
+      clearBtn.style.display = 'none';
+      return;
+    }
+    clearBtn.style.display = 'block';
+
+    var matches = searchIndex.filter(function(post) {
+      return post.title.toLowerCase().includes(query) ||
+             post.description.toLowerCase().includes(query) ||
+             post.tags.toLowerCase().includes(query);
+    }).slice(0, 8);
+
+    if (matches.length === 0) {
+      results.innerHTML = '<div style="padding:1em; color:#71717a; font-size:0.88em; text-align:center;">No articles found</div>';
+      results.style.display = 'block';
+      return;
+    }
+
+    var html = '';
+    matches.forEach(function(post) {
+      var titleHighlighted = post.title.replace(new RegExp('(' + query.replace(/[.*+?^${}()|[\]\\]/g, '\\$&') + ')', 'gi'), '<strong style="color:#3b82f6;">$1</strong>');
+      html += '<a href="' + post.url + '" style="display:block; padding:0.8em 1em; border-bottom:1px solid #151515; text-decoration:none; transition:background 0.15s;" onmouseover="this.style.background=\'rgba(59,130,246,0.06)\'" onmouseout="this.style.background=\'transparent\'" onfocus="this.style.background=\'rgba(59,130,246,0.1)\'" onblur="this.style.background=\'transparent\'">';
+      html += '<div style="color:#f0f0f0; font-size:0.9em; font-weight:600; margin-bottom:0.15em;">' + titleHighlighted + '</div>';
+      if (post.description) {
+        html += '<div style="color:#71717a; font-size:0.78em; line-height:1.4;">' + post.description.substring(0, 100) + '</div>';
+      }
+      html += '<div style="color:#555; font-size:0.72em; margin-top:0.3em;">' + post.date + ' &middot; ' + post.tags.substring(0, 60) + '</div>';
+      html += '</a>';
+    });
+    results.innerHTML = html;
+    results.style.display = 'block';
+  }
+
+  window.clearSearch = function() {
+    input.value = '';
+    results.style.display = 'none';
+    clearBtn.style.display = 'none';
+    input.focus();
+  };
+})();
+</script>

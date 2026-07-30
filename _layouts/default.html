@@ -9,11 +9,30 @@
 
     {%- include header.html -%}
 
+    <div id="searchSection" style="display:none; padding:1em 0;">
+      <div class="wrapper">
+        {% include search.html %}
+      </div>
+    </div>
+
     <main id="main-content" class="page-content" aria-label="Content">
       <div class="wrapper">
         {{ content }}
       </div>
     </main>
+
+    <script>
+    function toggleSearch() {
+      var el = document.getElementById('searchSection');
+      if (el.style.display === 'none' || el.style.display === '') {
+        el.style.display = 'block';
+        var input = document.getElementById('searchInput');
+        if (input) { input.focus(); }
+      } else {
+        el.style.display = 'none';
+      }
+    }
+    </script>
 
     {%- include footer.html -%}
 

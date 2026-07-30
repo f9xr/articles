@@ -45,7 +45,7 @@ description: "Engineering digital growth — technical insights, architecture no
 </script>
 
 <div style="text-align:center; padding:2em 0 1em;">
-   <h1 style="font-size:1.8em; color:#f8f9fa; margin-bottom:0.3em; border:none; background:none; -webkit-text-fill-color:#f8f9fa;">F9XR Articles</h1>
+   <div style="font-size:1.8em; color:#f8f9fa; margin-bottom:0.3em; border:none; background:none; -webkit-text-fill-color:#f8f9fa;">F9XR Articles</div>
    <p style="color:#8b8b8b; max-width:520px; margin:0 auto; font-size:1.05em;">
     Engineering digital growth — technical insights, architecture notes, and strategies from the F9XR Team.
   </p>
