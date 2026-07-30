@@ -3,6 +3,17 @@
    Colors matched to f9xr.github.io
    ============================================ */
 
+/* --- Font Metric Overrides --- */
+/* Reduces CLS during web font swap by matching fallback font metrics to Inter */
+@font-face {
+  font-family: 'Inter-Fallback';
+  src: local('Arial'), local('Helvetica Neue'), local('Segoe UI'), local('Roboto'), local('sans-serif');
+  size-adjust: 99%;
+  ascent-override: 90%;
+  descent-override: 22%;
+  line-gap-override: 0%;
+}
+
 /* --- Reset & Base --- */
 *, *::before, *::after {
   box-sizing: border-box;
@@ -17,7 +28,7 @@ html {
 body {
   background-color: #000000 !important;
   color: #c9d1d9 !important;
-  font-family: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif !important;
+  font-family: 'Inter', 'Inter-Fallback', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif !important;
   line-height: 1.75;
   font-size: 16px;
 }
@@ -1279,6 +1290,152 @@ details summary:focus-visible {
 #searchResults::-webkit-scrollbar-track { background:transparent; }
 #searchResults::-webkit-scrollbar-thumb { background:#1e2024; border-radius:3px; }
 #searchResults::-webkit-scrollbar-thumb:hover { background:#30363d; }
+
+/* --- Archive Page --- */
+.archive-container {
+  max-width:800px;
+  margin:0 auto;
+  padding:2em 1em;
+}
+.archive-heading {
+  color:#f0f0f0;
+  border-bottom:1px solid #1e1e1e;
+  padding-bottom:0.5em;
+  font-size:1.6em;
+}
+.archive-tag-heading {
+  color:#3b82f6;
+  margin-top:1.5em;
+  font-size:1.1em;
+}
+.archive-list {
+  list-style:none;
+  padding-left:0;
+}
+.archive-item {
+  padding:0.5em 0;
+  border-bottom:1px solid #151515;
+}
+.archive-link {
+  color:#d0d0d0;
+}
+.archive-link:hover {
+  color:#f0f0f0;
+}
+.archive-description {
+  color:#777;
+  font-size:0.85em;
+  margin:0.2em 0 0 0;
+}
+
+/* --- 404 Page --- */
+.error-container {
+  text-align:center;
+  padding:3em 1em 2em;
+  max-width:700px;
+  margin:0 auto;
+}
+.error-code {
+  font-size:6em;
+  font-weight:800;
+  line-height:1;
+  background:linear-gradient(135deg, #3b82f6, #a855f7);
+  -webkit-background-clip:text;
+  -webkit-text-fill-color:transparent;
+  background-clip:text;
+  margin-bottom:0.1em;
+}
+.error-heading {
+  color:#f0f0f0;
+  margin-bottom:0.4em;
+  font-size:1.4em;
+}
+.error-description {
+  color:#8b8b8b;
+  font-size:1em;
+  margin-bottom:2em;
+  max-width:450px;
+  margin-left:auto;
+  margin-right:auto;
+}
+.error-actions {
+  display:flex;
+  gap:0.8em;
+  justify-content:center;
+  flex-wrap:wrap;
+  margin-top:1.5em;
+}
+.error-btn {
+  display:inline-flex;
+  align-items:center;
+  gap:0.4em;
+  padding:0.7em 1.6em;
+  border-radius:8px;
+  font-weight:600;
+  text-decoration:none;
+  transition:all 0.2s;
+}
+.error-btn-primary {
+  background:#3b82f6;
+  color:#000;
+}
+.error-btn-primary:hover {
+  opacity:0.9;
+}
+.error-btn-secondary {
+  background:rgba(59,130,246,0.1);
+  color:#3b82f6;
+  border:1px solid rgba(59,130,246,0.3);
+}
+.error-btn-secondary:hover {
+  background:rgba(59,130,246,0.15);
+}
+.error-btn-ghost {
+  background:rgba(139,139,139,0.1);
+  color:#8b8b8b;
+  border:1px solid #1e2024;
+}
+.error-btn-ghost:hover {
+  background:rgba(139,139,139,0.15);
+}
+.error-latest {
+  margin-top:3em;
+  text-align:left;
+}
+.error-latest-heading {
+  color:#f0f0f0;
+  font-size:1em;
+  margin-bottom:1em;
+  text-align:center;
+}
+.error-latest-grid {
+  display:grid;
+  grid-template-columns:repeat(auto-fill, minmax(240px, 1fr));
+  gap:0.8em;
+}
+.error-latest-card {
+  display:block;
+  padding:1em 1.2em;
+  background:rgba(59,130,246,0.03);
+  border:1px solid #1e2024;
+  border-radius:8px;
+  text-decoration:none;
+  transition:all 0.2s;
+}
+.error-latest-card:hover {
+  border-color:#2563eb;
+}
+.error-latest-date {
+  color:#8b8b8b;
+  font-size:0.75em;
+  margin-bottom:0.3em;
+}
+.error-latest-title {
+  color:#f0f0f0;
+  font-size:0.88em;
+  font-weight:600;
+  line-height:1.4;
+}
 
 /* --- Print Styles for PDF --- */
 @media print {

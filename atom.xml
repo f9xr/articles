@@ -1,4 +1,6 @@
 ---
+layout: null
+permalink: /atom.xml
 ---
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
@@ -11,7 +13,7 @@
     <name>{{ site.author | escape }}</name>
     <email>{{ site.email | escape }}</email>
   </author>
-  <generator>Feed for Atom, jekyll-feed v{{ jekyll-feed.version }}</generator>
+  <generator>Feed for Atom, jekyll-feed</generator>
   {% assign posts = site.posts | sort: "date" | reverse %}
   {% for post in posts limit:20 %}
   <entry>

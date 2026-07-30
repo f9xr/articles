@@ -4,6 +4,7 @@ title: "Free Business Directories to Boost Local SEO"
 description: "List your business on free business directories to boost local SEO, earn backlinks, and get found by more customers. Complete guide with practical tips."
 image: "https://f9xr.github.io/articles/assets/f9xr-dic.png"
 date: 2026-07-29
+dateModified: 2026-07-30
 author: "F9XR Team"
 tags: [free business directories, business directory listing, local SEO, online business listing, backlink building, small business marketing, startup growth, digital presence, citation building, F9XR Directories]
 keywords: "free business directories, business directory listing, local SEO, online business listing, backlink building, small business marketing, startup directory, citation building, Google Business Profile, F9XR Directories"
