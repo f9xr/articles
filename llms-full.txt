@@ -10,7 +10,7 @@ F9XR Articles is the blog platform for F9XR Team, a digital architecture agency 
 
 Published: July 27, 2026
 Author: F9XR Team
-URL: https://f9xr.github.io/articles/
+URL: https://f9xr.github.io/articles/2026/07/27/engineering-digital-growth-introduction-to-f9xr-team.html
 Tags: F9XR, web development, AI integration, local SEO, digital architecture, web performance
 
 In a digital landscape saturated with generic templates and surface-level web design, F9XR Team takes a fundamentally different approach. We are a digital architecture agency based in India with a global client footprint, focused on building high-performance web ecosystems, AI-powered systems, and local SEO infrastructure that generates measurable revenue.

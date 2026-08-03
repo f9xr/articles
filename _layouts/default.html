@@ -34,6 +34,26 @@
     }
     </script>
 
+    <script>
+    // Wrap tables in a scrollable container so wide tables don't break mobile layouts
+    (function() {
+      function wrapTables() {
+        document.querySelectorAll('.post-content table').forEach(function(t) {
+          if (t.closest('.table-scroll')) return;
+          var wrap = document.createElement('div');
+          wrap.className = 'table-scroll';
+          t.parentNode.insertBefore(wrap, t);
+          wrap.appendChild(t);
+        });
+      }
+      if (document.readyState === 'loading') {
+        document.addEventListener('DOMContentLoaded', wrapTables);
+      } else {
+        wrapTables();
+      }
+    })();
+    </script>
+
     {%- include footer.html -%}
 
     <!-- highlight.js (deferred to avoid render-blocking) -->

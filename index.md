@@ -1,6 +1,7 @@
 ---
 layout: page
 title: F9XR Articles
+title_hidden: true
 description: "Engineering digital growth — technical insights, architecture notes, and strategies from the F9XR Team on web performance, AI integration, and local SEO."
 ---
 
@@ -44,34 +45,81 @@ description: "Engineering digital growth — technical insights, architecture no
 }
 </script>
 
-<div style="text-align:center; padding:2em 0 1em;">
-   <div style="font-size:1.8em; color:#f8f9fa; margin-bottom:0.3em; border:none; background:none; -webkit-text-fill-color:#f8f9fa;">F9XR Articles</div>
-   <p style="color:#8b8b8b; max-width:520px; margin:0 auto; font-size:1.05em;">
-    Engineering digital growth — technical insights, architecture notes, and strategies from the F9XR Team.
-  </p>
-  <div style="margin-top:1em;">
-     <a href="https://f9xr.github.io" style="color:#3b82f6; font-size:0.88em; margin:0 0.5em;">Main Site</a>
-     <a href="https://f9xr.github.io/pages/services.html" style="color:#8b8b8b; font-size:0.88em; margin:0 0.5em;">Services</a>
-     <a href="https://f9xr.github.io/pages/portfolio.html" style="color:#8b8b8b; font-size:0.88em; margin:0 0.5em;">Portfolio</a>
-     <a href="https://f9xr.github.io/pages/contact.html" style="color:#8b8b8b; font-size:0.88em; margin:0 0.5em;">Contact</a>
+<section class="index-hero">
+  <h1 class="index-title">F9XR Articles</h1>
+  <p class="index-tagline">Engineering digital growth &mdash; technical insights, architecture notes, and strategies from the F9XR Team on web performance, AI integration, and local SEO.</p>
+  <div class="index-links">
+    <a class="index-link index-link-primary" href="https://f9xr.github.io">Main Site</a>
+    <a class="index-link" href="https://f9xr.github.io/pages/services.html">Services</a>
+    <a class="index-link" href="https://f9xr.github.io/pages/portfolio.html">Portfolio</a>
+    <a class="index-link" href="https://f9xr.github.io/pages/contact.html">Contact</a>
+    <button type="button" class="index-link index-link-search" onclick="toggleSearch(); return false;"><i class="fa-solid fa-magnifying-glass" style="font-size:0.85em;"></i> Search</button>
   </div>
-</div>
+</section>
 
-<hr style="border-top:1px solid #1e1e1e; margin:1.5em 0;">
+{% if site.posts.size > 0 %}
 
-{% for post in site.posts %}
-<article style="margin-bottom:2em; padding-bottom:1.5em; border-bottom:1px solid #151515;">
-  <h2 style="margin-top:0;"><a href="{{ post.url | relative_url }}" style="color:#f0f0f0;">{{ post.title | escape }}</a></h2>
-  <p style="color:#888; font-size:0.85em; margin-bottom:0.8em;">
-    {% assign date_format = site.minima.date_format | default: "%b %-d, %Y" %}
-    {{ post.date | date: date_format }}
-    &nbsp;&mdash;&nbsp; {{ post.author | default: site.author }}
-  </p>
-  {%- if post.description -%}
-    <p style="color:#bbb;">{{ post.description }}</p>
-  {%- else -%}
-    <p style="color:#bbb;">{{ post.content | strip_html | truncate: 200 }}</p>
-  {%- endif -%}
-   <a href="{{ post.url | relative_url }}" style="color:#3b82f6; font-size:0.9em;">Read more &rarr;</a>
-</article>
-{% endfor %}
+<section class="index-section">
+  <h2 class="index-section-title"><i class="fa-solid fa-star" style="color:#a855f7; font-size:0.8em;"></i> Latest Article</h2>
+  {% assign featured = site.posts.first %}
+  <a class="featured-post" href="{{ featured.url | relative_url }}">
+    {% if featured.image %}
+    <img class="featured-post-img" src="{{ featured.image }}" alt="{{ featured.title | escape }}" loading="lazy">
+    {% endif %}
+    <div class="featured-post-body">
+      <div class="featured-post-meta">
+        <span class="featured-post-date">{{ featured.date | date: "%b %d, %Y" }}</span>
+        <span class="featured-post-read">{{ featured.content | strip_html | number_of_words | divided_by: 200 | plus: 1 }} min read</span>
+        {% if featured.tags.first %}
+        <span class="featured-post-tag">{{ featured.tags.first }}</span>
+        {% endif %}
+      </div>
+      <h3 class="featured-post-title">{{ featured.title | escape }}</h3>
+      <p class="featured-post-desc">{{ featured.description | default: (featured.content | strip_html | truncate: 180) }}</p>
+      <span class="featured-post-cta">Read article <i class="fa-solid fa-arrow-right"></i></span>
+    </div>
+  </a>
+</section>
+
+{% if site.posts.size > 1 %}
+<section class="index-section">
+  <h2 class="index-section-title"><i class="fa-solid fa-newspaper" style="color:#3b82f6; font-size:0.8em;"></i> All Articles</h2>
+  <div class="post-grid">
+    {% for post in site.posts offset:1 %}
+    <a class="post-card" href="{{ post.url | relative_url }}">
+      {% if post.image %}
+      <img class="post-card-img" src="{{ post.image }}" alt="{{ post.title | escape }}" loading="lazy">
+      {% endif %}
+      <div class="post-card-body">
+        <div class="post-card-meta">
+          <span class="post-card-date">{{ post.date | date: "%b %d, %Y" }}</span>
+          <span class="post-card-read">{{ post.content | strip_html | number_of_words | divided_by: 200 | plus: 1 }} min read</span>
+        </div>
+        <h3 class="post-card-title">{{ post.title | escape }}</h3>
+        <p class="post-card-desc">{{ post.description | default: (post.content | strip_html | truncate: 140) }}</p>
+        {% if post.tags %}
+        <div class="post-card-tags">
+          {% for tag in post.tags limit:3 %}
+          <span class="post-card-tag">{{ tag }}</span>
+          {% endfor %}
+        </div>
+        {% endif %}
+        <span class="post-card-cta">Read more <i class="fa-solid fa-arrow-right"></i></span>
+      </div>
+    </a>
+    {% endfor %}
+  </div>
+</section>
+{% endif %}
+
+<section class="index-section">
+  <h2 class="index-section-title"><i class="fa-solid fa-tags" style="color:#00ff88; font-size:0.8em;"></i> Browse by Topic</h2>
+  <div class="index-tags">
+    {% assign all_tags = site.posts | map: "tags" | join: "," | split: "," | uniq | sort %}
+    {% for tag in all_tags %}
+    <a class="index-tag" href="{{ '/archive.html' | relative_url }}#{{ tag | slugify }}">{{ tag }}</a>
+    {% endfor %}
+  </div>
+</section>
+
+{% endif %}

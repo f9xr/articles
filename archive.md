@@ -36,7 +36,7 @@ description: "Complete archive of all articles by F9XR Team covering web archite
 <h1 class="archive-heading">All Articles</h1>
 
 {% for tag in site.tags %}
-  <h2 class="archive-tag-heading">{{ tag[0] }}</h2>
+  <h2 class="archive-tag-heading" id="{{ tag[0] | slugify }}">{{ tag[0] }}</h2>
   <ul class="archive-list">
     {% for post in tag[1] %}
       <li class="archive-item">
