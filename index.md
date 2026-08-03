@@ -75,7 +75,8 @@ description: "Engineering digital growth — technical insights, architecture no
         {% endif %}
       </div>
       <h3 class="featured-post-title">{{ featured.title | escape }}</h3>
-      <p class="featured-post-desc">{{ featured.description | default: (featured.content | strip_html | truncate: 180) }}</p>
+      {% assign featured_desc = featured.content | strip_html | truncate: 180 %}
+      <p class="featured-post-desc">{{ featured.description | default: featured_desc }}</p>
       <span class="featured-post-cta">Read article <i class="fa-solid fa-arrow-right"></i></span>
     </div>
   </a>
@@ -96,7 +97,8 @@ description: "Engineering digital growth — technical insights, architecture no
           <span class="post-card-read">{{ post.content | strip_html | number_of_words | divided_by: 200 | plus: 1 }} min read</span>
         </div>
         <h3 class="post-card-title">{{ post.title | escape }}</h3>
-        <p class="post-card-desc">{{ post.description | default: (post.content | strip_html | truncate: 140) }}</p>
+        {% assign post_desc = post.content | strip_html | truncate: 140 %}
+        <p class="post-card-desc">{{ post.description | default: post_desc }}</p>
         {% if post.tags %}
         <div class="post-card-tags">
           {% for tag in post.tags limit:3 %}
