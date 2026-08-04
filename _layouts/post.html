@@ -63,6 +63,8 @@ layout: default
     <img src="{{ page.image }}" alt="{{ page.title | escape }}" title="{{ page.title | escape }}" width="1200" height="630" itemprop="image" loading="lazy">
     {% if page.image_caption %}
     <figcaption class="post-hero-caption">{{ page.image_caption }}</figcaption>
+    {% elsif page.image_credit %}
+    <figcaption class="post-hero-caption">{{ page.image_credit }}</figcaption>
     {% endif %}
   </div>
   {% endif %}

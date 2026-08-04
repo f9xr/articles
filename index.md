@@ -62,21 +62,28 @@ description: "Engineering digital growth — technical insights, architecture no
 <section class="index-section">
   <h2 class="index-section-title"><i class="fa-solid fa-star" style="color:#a855f7; font-size:0.8em;"></i> Latest Article</h2>
   {% assign featured = site.posts.first %}
-  <a class="featured-post" href="{{ featured.url | relative_url }}">
+  <a class="featured-post" href="{{ featured.url | relative_url }}" itemscope itemtype="https://schema.org/Article">
     {% if featured.image %}
-    <img class="featured-post-img" src="{{ featured.image }}" alt="{{ featured.title | escape }}" loading="lazy">
+    <img class="featured-post-img" src="{{ featured.image }}" alt="{{ featured.title | escape }}" loading="eager" itemprop="image">
     {% endif %}
     <div class="featured-post-body">
       <div class="featured-post-meta">
-        <span class="featured-post-date">{{ featured.date | date: "%b %d, %Y" }}</span>
-        <span class="featured-post-read">{{ featured.content | strip_html | number_of_words | divided_by: 200 | plus: 1 }} min read</span>
+        <span class="featured-post-date"><i class="fa-regular fa-calendar" style="font-size:0.85em;"></i> <time datetime="{{ featured.date | date: '%Y-%m-%d' }}" itemprop="datePublished">{{ featured.date | date: "%b %d, %Y" }}</time></span>
+        {% if featured.dateModified %}
+        <span class="featured-post-updated"><i class="fa-solid fa-pen-to-square" style="font-size:0.75em;"></i> Updated {{ featured.dateModified | date: "%b %d, %Y" }}</span>
+        {% endif %}
+        <span class="featured-post-read"><i class="fa-regular fa-clock" style="font-size:0.85em;"></i> {{ featured.content | strip_html | number_of_words | divided_by: 200 | plus: 1 }} min read</span>
         {% if featured.tags.first %}
         <span class="featured-post-tag">{{ featured.tags.first }}</span>
         {% endif %}
       </div>
-      <h3 class="featured-post-title">{{ featured.title | escape }}</h3>
-      {% assign featured_desc = featured.content | strip_html | truncate: 180 %}
-      <p class="featured-post-desc">{{ featured.description | default: featured_desc }}</p>
+      <h3 class="featured-post-title" itemprop="headline">{{ featured.title | escape }}</h3>
+      {% assign featured_desc = featured.content | strip_html | truncate: 200 %}
+      <p class="featured-post-desc" itemprop="description">{{ featured.description | default: featured_desc }}</p>
+      <div class="featured-post-author" itemprop="author" itemscope itemtype="https://schema.org/Person">
+        <span class="featured-post-author-avatar"><i class="fa-solid fa-user-circle"></i></span>
+        <span class="featured-post-author-name" itemprop="name">{{ featured.author | default: "F9XR Team" }}</span>
+      </div>
       <span class="featured-post-cta">Read article <i class="fa-solid fa-arrow-right"></i></span>
     </div>
   </a>
@@ -87,18 +94,25 @@ description: "Engineering digital growth — technical insights, architecture no
   <h2 class="index-section-title"><i class="fa-solid fa-newspaper" style="color:#3b82f6; font-size:0.8em;"></i> All Articles</h2>
   <div class="post-grid">
     {% for post in site.posts offset:1 %}
-    <a class="post-card" href="{{ post.url | relative_url }}">
+    <a class="post-card" href="{{ post.url | relative_url }}" itemscope itemtype="https://schema.org/Article">
       {% if post.image %}
-      <img class="post-card-img" src="{{ post.image }}" alt="{{ post.title | escape }}" loading="lazy">
+      <img class="post-card-img" src="{{ post.image }}" alt="{{ post.title | escape }}" loading="lazy" itemprop="image">
       {% endif %}
       <div class="post-card-body">
         <div class="post-card-meta">
-          <span class="post-card-date">{{ post.date | date: "%b %d, %Y" }}</span>
-          <span class="post-card-read">{{ post.content | strip_html | number_of_words | divided_by: 200 | plus: 1 }} min read</span>
+          <span class="post-card-date"><i class="fa-regular fa-calendar" style="font-size:0.85em;"></i> <time datetime="{{ post.date | date: '%Y-%m-%d' }}" itemprop="datePublished">{{ post.date | date: "%b %d, %Y" }}</time></span>
+          {% if post.dateModified %}
+          <span class="post-card-updated"><i class="fa-solid fa-pen-to-square" style="font-size:0.75em;"></i> Updated {{ post.dateModified | date: "%b %d, %Y" }}</span>
+          {% endif %}
+          <span class="post-card-read"><i class="fa-regular fa-clock" style="font-size:0.85em;"></i> {{ post.content | strip_html | number_of_words | divided_by: 200 | plus: 1 }} min read</span>
         </div>
-        <h3 class="post-card-title">{{ post.title | escape }}</h3>
-        {% assign post_desc = post.content | strip_html | truncate: 140 %}
-        <p class="post-card-desc">{{ post.description | default: post_desc }}</p>
+        <h3 class="post-card-title" itemprop="headline">{{ post.title | escape }}</h3>
+        {% assign post_desc = post.content | strip_html | truncate: 160 %}
+        <p class="post-card-desc" itemprop="description">{{ post.description | default: post_desc }}</p>
+        <div class="post-card-author" itemprop="author" itemscope itemtype="https://schema.org/Person">
+          <span class="post-card-author-avatar"><i class="fa-solid fa-user-circle"></i></span>
+          <span class="post-card-author-name" itemprop="name">{{ post.author | default: "F9XR Team" }}</span>
+        </div>
         {% if post.tags %}
         <div class="post-card-tags">
           {% for tag in post.tags limit:3 %}
@@ -106,7 +120,7 @@ description: "Engineering digital growth — technical insights, architecture no
           {% endfor %}
         </div>
         {% endif %}
-        <span class="post-card-cta">Read more <i class="fa-solid fa-arrow-right"></i></span>
+        <span class="post-card-cta">Read article <i class="fa-solid fa-arrow-right"></i></span>
       </div>
     </a>
     {% endfor %}

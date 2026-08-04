@@ -2,7 +2,7 @@
 layout: post
 title: "F9XR SEO CodeBase Auditor: 24 Pillars, One Command"
 description: "Use F9XR's free SEO CodeBase Auditor skill to run a 24-pillar SEO audit on your site's source code and get copy-paste fixes. Step-by-step guide."
-image: "https://f9xr.github.io/assets/og-image.webp"
+image: "https://f9xr.github.io/assets/screenshots/seo-auditor-skill.webp"
 date: 2026-07-31
 author: "F9XR Team"
 tags: [SEO CodeBase Auditor, technical SEO audit, on-page SEO, Core Web Vitals, structured data, internal linking, SEO automation, AI SEO audit, website audit, F9XR]
