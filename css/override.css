@@ -205,54 +205,45 @@ li > ul, li > ol {
 /* --- Tables --- */
 table {
   width: 100%;
-  border-collapse: separate;
-  border-spacing: 0;
+  border-collapse: collapse !important;
   margin: 1.6em 0;
-  border: 1px solid #2a2d32;
+  border: 1px solid #2a2d32 !important;
   border-radius: 12px;
   overflow: hidden;
-  background-color: #0d0d0d !important;
+  color: #b1bac4;
   box-shadow: 0 2px 12px rgba(0, 0, 0, 0.3);
+}
+table tr {
+  background-color: #0d0d0d !important;
+}
+table tr:nth-child(even) {
+  background-color: #121212 !important;
 }
 thead {
   background-color: #111111 !important;
 }
 th {
   color: #f8f9fa !important;
+  background-color: #111111 !important;
   font-weight: 600;
   font-size: 0.88em;
   text-transform: uppercase;
   letter-spacing: 0.04em;
   padding: 0.9em 1.1em;
   text-align: left;
+  border: 1px solid #2a2d32 !important;
   border-bottom: 2px solid #3b82f6 !important;
-  border-right: 1px solid #1e2024 !important;
   white-space: nowrap;
-  background-color: #111111 !important;
-}
-th:last-child {
-  border-right: none !important;
 }
 td {
-  padding: 0.85em 1.1em;
-  border-bottom: 1px solid #1e2024 !important;
-  border-right: 1px solid #1e2024 !important;
   color: #b1bac4;
   font-size: 0.95em;
   line-height: 1.6;
-  background-color: transparent !important;
-}
-td:last-child {
-  border-right: none !important;
-}
-tr:last-child td {
-  border-bottom: none !important;
-}
-tr:nth-child(even) td {
-  background-color: rgba(59, 130, 246, 0.025) !important;
+  padding: 0.85em 1.1em;
+  border: 1px solid #2a2d32 !important;
 }
 tr:hover td {
-  background-color: rgba(59, 130, 246, 0.07) !important;
+  background-color: rgba(59, 130, 246, 0.08) !important;
 }
 td:first-child {
   font-weight: 500;
@@ -265,12 +256,15 @@ td:first-child {
   overflow-x: auto;
   -webkit-overflow-scrolling: touch;
   margin: 1.6em 0;
-  border-radius: 10px;
+  border-radius: 12px;
+  border: 1px solid #2a2d32;
 }
 .table-scroll table {
   width: auto;
   min-width: 100%;
   margin: 0;
+  border: none !important;
+  border-radius: 0;
 }
 
 /* --- Horizontal Rules --- */
