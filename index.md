@@ -81,7 +81,7 @@ description: "Engineering digital growth — technical insights, architecture no
       {% assign featured_desc = featured.content | strip_html | truncate: 200 %}
       <p class="featured-post-desc" itemprop="description">{{ featured.description | default: featured_desc }}</p>
       <div class="featured-post-author" itemprop="author" itemscope itemtype="https://schema.org/Person">
-        <span class="featured-post-author-avatar"><i class="fa-solid fa-user-circle"></i></span>
+        <span class="featured-post-author-avatar"><img src="https://f9xr.github.io/logo.webp" alt="F9XR Team" loading="lazy"></span>
         <span class="featured-post-author-name" itemprop="name">{{ featured.author | default: "F9XR Team" }}</span>
       </div>
       <span class="featured-post-cta">Read article <i class="fa-solid fa-arrow-right"></i></span>
@@ -110,7 +110,7 @@ description: "Engineering digital growth — technical insights, architecture no
         {% assign post_desc = post.content | strip_html | truncate: 160 %}
         <p class="post-card-desc" itemprop="description">{{ post.description | default: post_desc }}</p>
         <div class="post-card-author" itemprop="author" itemscope itemtype="https://schema.org/Person">
-          <span class="post-card-author-avatar"><i class="fa-solid fa-user-circle"></i></span>
+          <span class="post-card-author-avatar"><img src="https://f9xr.github.io/logo.webp" alt="F9XR Team" loading="lazy"></span>
           <span class="post-card-author-name" itemprop="name">{{ post.author | default: "F9XR Team" }}</span>
         </div>
         {% if post.tags %}

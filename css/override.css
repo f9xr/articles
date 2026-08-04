@@ -1796,9 +1796,22 @@ details summary:focus-visible {
   border-bottom: 1px solid #111111;
 }
 .featured-post-author-avatar {
-  color: #3b82f6;
-  font-size: 1.2em;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 24px;
+  height: 24px;
   line-height: 1;
+  flex-shrink: 0;
+}
+.featured-post-author-avatar img {
+  width: 24px;
+  height: 24px;
+  border-radius: 50%;
+  border: 1px solid #1e2024;
+  margin: 0;
+  object-fit: cover;
+  box-shadow: none;
 }
 .featured-post-author-name {
   color: #8b8b8b;
@@ -1893,9 +1906,22 @@ details summary:focus-visible {
   padding: 0.4em 0;
 }
 .post-card-author-avatar {
-  color: #3b82f6;
-  font-size: 1.1em;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 22px;
+  height: 22px;
   line-height: 1;
+  flex-shrink: 0;
+}
+.post-card-author-avatar img {
+  width: 22px;
+  height: 22px;
+  border-radius: 50%;
+  border: 1px solid #1e2024;
+  margin: 0;
+  object-fit: cover;
+  box-shadow: none;
 }
 .post-card-author-name {
   color: #8b8b8b;
