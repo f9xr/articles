@@ -1,15 +1,45 @@
-
 <!-- Site build date: {{ "now" | date: "%FT%T%z" }} -->
 <head>
   <meta charset="utf-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="generator" content="Jekyll (GitHub Pages)">
+
+  <!-- Robots -->
+  {%- if page.noindex %}
+  <meta name="robots" content="noindex, nofollow">
+  {%- else %}
   <meta name="robots" content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1">
-  <meta name="author" content="{{ site.author }}">
+  {%- endif %}
+
+  <!-- Primary SEO -->
+  {%- assign page_title = page.title | default: site.title -%}
+  {%- if page_title contains site.title -%}
+  <title>{{ page_title | escape }}</title>
+  {%- else -%}
+  <title>{{ page_title | escape }} | {{ site.title | escape }}</title>
+  {%- endif %}
+  <meta name="description" content="{{ page.description | default: site.description | escape }}">
+  <meta name="author" content="{{ page.author | default: site.author }}">
+  <link rel="canonical" href="{{ page.url | replace:'index.html','' | absolute_url }}">
+
+  <!-- Keywords -->
+  {%- assign meta_keywords = page.keywords | default: '' -%}
+  {%- if meta_keywords == '' and page.tags -%}
+    {%- assign meta_keywords = page.tags | join: ', ' -%}
+  {%- endif -%}
+  {%- if meta_keywords == '' -%}
+    {%- assign meta_keywords = site.keywords | default: 'F9XR, web development, AI integration, local SEO, digital architecture, web performance' -%}
+  {%- endif -%}
+  <meta name="keywords" content="{{ meta_keywords | escape }}">
+
   <meta name="theme-color" content="#0a0a0a">
-  <meta name="language" content="{{ site.lang }}">
+  <meta name="msapplication-TileColor" content="#0a0a0a">
+  <meta name="language" content="{{ page.lang | default: site.lang }}">
   <meta name="revisit-after" content="7 days">
   <meta name="rating" content="general">
+  <meta name="format-detection" content="telephone=no">
+  <meta name="referrer" content="strict-origin-when-cross-origin">
 
   <!-- Favicons -->
   <link rel="icon" type="image/png" sizes="32x32" href="https://f9xr.github.io/assets/favicon-32x32.png">
@@ -17,29 +47,102 @@
   <link rel="apple-touch-icon" sizes="180x180" href="https://f9xr.github.io/assets/apple-touch-icon.png">
   <link rel="manifest" href="https://f9xr.github.io/assets/site.webmanifest">
 
-  <!-- SEO (jekyll-seo-tag generates title, description, canonical, OG, and Twitter meta) -->
-  {% seo %}
-
-  <!-- Open Graph extras (jekyll-seo-tag does not generate these) -->
-  <meta property="og:site_name" content="{{ site.title }}">
+  <!-- Open Graph -->
+  {%- assign default_og_image = 'https://f9xr.github.io/assets/og-image.webp' -%}
+  {%- assign page_og_image = page.image | default: default_og_image -%}
+  {%- assign page_og_ext = page_og_image | split: '?' | first | split: '.' | last | downcase -%}
+  {%- case page_og_ext -%}
+    {%- when 'png' -%}{%- assign page_og_mime = 'image/png' -%}
+    {%- when 'jpg' -%}{%- assign page_og_mime = 'image/jpeg' -%}
+    {%- when 'jpeg' -%}{%- assign page_og_mime = 'image/jpeg' -%}
+    {%- when 'gif' -%}{%- assign page_og_mime = 'image/gif' -%}
+    {%- when 'avif' -%}{%- assign page_og_mime = 'image/avif' -%}
+    {%- when 'webp' -%}{%- assign page_og_mime = 'image/webp' -%}
+    {%- else -%}{%- assign page_og_mime = '' -%}
+  {%- endcase -%}
+  {%- if page.date -%}
+    {%- assign page_og_type = 'article' -%}
+  {%- elsif page.url contains '/author' -%}
+    {%- assign page_og_type = 'profile' -%}
+  {%- else -%}
+    {%- assign page_og_type = 'website' -%}
+  {%- endif -%}
+  <meta property="og:type" content="{{ page_og_type }}">
+  <meta property="og:title" content="{{ page_title | escape }}">
+  <meta property="og:description" content="{{ page.description | default: site.description | escape }}">
+  <meta property="og:url" content="{{ page.url | replace:'index.html','' | absolute_url }}">
+  <meta property="og:site_name" content="{{ site.title | escape }}">
   <meta property="og:locale" content="{{ site.locale }}">
-  <meta property="og:image" content="https://f9xr.github.io/assets/og-image.webp">
-  <meta property="og:image:alt" content="{{ page.title | default: site.title | escape }}">
+  <meta property="og:image" content="{{ page_og_image }}">
+  <meta property="og:image:secure_url" content="{{ page_og_image }}">
+  {%- if page_og_mime != '' %}
+  <meta property="og:image:type" content="{{ page_og_mime }}">
+  {%- endif %}
+  <meta property="og:image:alt" content="{{ page.image_alt | default: page_title | escape }}">
+  {%- if page_og_image == default_og_image %}
   <meta property="og:image:width" content="1200">
   <meta property="og:image:height" content="630">
-  {%- if page.tags and page.tags.size > 0 %}
-  <meta property="article:tag" content="{{ page.tags | first }}">
   {%- endif %}
+  {%- if page.dateModified or page.last_modified_at %}
+  <meta property="og:updated_time" content="{{ page.dateModified | default: page.last_modified_at | date_to_xmlschema }}">
+  {%- endif %}
+
+  <!-- Article / Profile specifics -->
   {%- if page.date %}
   <meta property="article:published_time" content="{{ page.date | date_to_xmlschema }}">
-  {%- endif %}
   {%- if page.dateModified %}
   <meta property="article:modified_time" content="{{ page.dateModified | date_to_xmlschema }}">
   {%- elsif page.last_modified_at %}
   <meta property="article:modified_time" content="{{ page.last_modified_at | date_to_xmlschema }}">
   {%- endif %}
-  <meta property="article:author" content="{{ page.author | default: site.author }}">
+  <meta property="article:author" content="{{ '/author/' | absolute_url }}">
   <meta property="article:section" content="{{ page.tags | first | default: 'Articles' }}">
+  {%- if site.facebook_username %}
+  <meta property="article:publisher" content="https://www.facebook.com/{{ site.facebook_username }}">
+  {%- endif %}
+  {%- for tag in page.tags %}
+  <meta property="article:tag" content="{{ tag | escape }}">
+  {%- endfor %}
+  {%- endif %}
+  {%- if page.url contains '/author' %}
+  <meta property="profile:username" content="{{ site.author | escape }}">
+  {%- endif %}
+
+  <!-- Twitter Card -->
+  <meta name="twitter:card" content="{% if page.image %}summary_large_image{% else %}summary{% endif %}">
+  <meta name="twitter:title" content="{{ page_title | escape }}">
+  <meta name="twitter:description" content="{{ page.description | default: site.description | escape }}">
+  <meta name="twitter:image" content="{{ page_og_image }}">
+  <meta name="twitter:image:alt" content="{{ page.image_alt | default: page_title | escape }}">
+  {%- if site.twitter_username %}
+  <meta name="twitter:site" content="@{{ site.twitter_username }}">
+  <meta name="twitter:creator" content="@{{ site.twitter_username }}">
+  {%- endif %}
+
+  <!-- Dublin Core -->
+  <meta name="dc.title" content="{{ page_title | escape }}">
+  <meta name="dc.description" content="{{ page.description | default: site.description | escape }}">
+  <meta name="dc.subject" content="{{ meta_keywords | escape }}">
+  <meta name="dc.creator" content="{{ page.author | default: site.author | escape }}">
+  <meta name="dc.publisher" content="{{ site.title | escape }}">
+  <meta name="dc.date" content="{{ page.date | default: site.time | date_to_xmlschema }}">
+  <meta name="dc.type" content="Text">
+  <meta name="dc.format" content="text/html">
+  <meta name="dc.language" content="{{ site.lang }}">
+  <meta name="dc.rights" content="Copyright 2026 F9XR Team, CC BY 4.0">
+
+  <!-- Google Scholar citations (article pages) -->
+  {%- if page.date %}
+  <meta name="citation_title" content="{{ page.title | escape }}">
+  <meta name="citation_author" content="{{ page.author | default: site.author | escape }}">
+  <meta name="citation_publication_date" content="{{ page.date | date: '%Y/%m/%d' }}">
+  <meta name="citation_online_date" content="{{ page.date | date: '%Y/%m/%d' }}">
+  <meta name="citation_journal_title" content="{{ site.title | escape }}">
+  <meta name="citation_publisher" content="F9XR Team">
+  <meta name="citation_language" content="{{ site.lang }}">
+  <meta name="citation_keywords" content="{{ meta_keywords | escape }}">
+  <meta name="citation_abstract" content="{{ page.description | default: site.description | escape }}">
+  {%- endif %}
 
   <!-- Hreflang -->
   <link rel="alternate" hreflang="{{ site.lang }}" href="{{ page.url | replace:'index.html','' | absolute_url }}">

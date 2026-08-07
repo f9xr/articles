@@ -2,6 +2,7 @@
 layout: page
 title: "About the Author — F9XR Team"
 description: "Learn about F9XR Team — a digital architecture agency specializing in high-performance web ecosystems, AI integration, local SEO, and technical maintenance."
+keywords: "F9XR Team, digital architecture agency, web development, AI integration, local SEO, web performance, technical SEO, about F9XR"
 permalink: /author/
 ---
 

@@ -3,6 +3,7 @@ layout: page
 title: F9XR Articles
 title_hidden: true
 description: "Engineering digital growth — technical insights, architecture notes, and strategies from the F9XR Team on web performance, AI integration, and local SEO."
+keywords: "F9XR Articles, engineering digital growth, web architecture, AI integration, local SEO, web performance, Core Web Vitals, technical SEO, F9XR Team blog"
 ---
 
 <script type="application/ld+json">

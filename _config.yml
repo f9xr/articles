@@ -1,6 +1,8 @@
 title: "F9XR Articles"
 author: "F9XR Team"
 description: "Engineering digital growth — insights on web architecture, AI integration, local SEO, and high-performance digital systems from the F9XR Team."
+keywords: "F9XR, F9XR Team, web architecture, AI integration, local SEO, digital growth, web performance, technical SEO, digital architecture, engineering digital growth"
+# twitter_username: "f9xrteam"   # uncomment to emit twitter:site / twitter:creator meta tags
 url: "https://f9xr.github.io"
 baseurl: "/articles"
 email: "tontufytservices@gmail.com"

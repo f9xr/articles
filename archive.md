@@ -2,6 +2,7 @@
 layout: default
 title: Archive — F9XR Articles
 description: "Complete archive of all articles by F9XR Team covering web architecture, AI integration, local SEO, and digital growth strategies."
+keywords: "F9XR articles archive, web architecture, AI integration, local SEO, digital growth, technical SEO, all articles"
 ---
 
 <script type="application/ld+json">
