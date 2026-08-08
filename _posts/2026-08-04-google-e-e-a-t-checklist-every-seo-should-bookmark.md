@@ -3,6 +3,8 @@ layout: post
 title: "The 1-Page Google E-E-A-T Checklist Every SEO Should Bookmark"
 description: "A one-page E-E-A-T checklist for Experience, Expertise, Authoritativeness, and Trustworthiness. Run it before you publish any page in 2026."
 image: "https://images.unsplash.com/photo-1455390582262-044cdead277a?q=80&w=1200&h=630&auto=format&fit=crop"
+image_width: 1200
+image_height: 630
 image_credit: "Photo by <a href=\"https://unsplash.com/@aaronburden?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText\" target=\"_blank\" rel=\"noopener noreferrer\">Aaron Burden</a> on <a href=\"https://unsplash.com/photos/y02jEX_B0O0?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText\" target=\"_blank\" rel=\"noopener noreferrer\">Unsplash</a>"
 date: 2026-08-04
 author: "F9XR Team"

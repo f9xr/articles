@@ -141,18 +141,37 @@ layout: default
   document.addEventListener('DOMContentLoaded', function() {
     var toc = document.getElementById('table-of-contents');
     if (!toc) return;
-    toc.querySelectorAll('a[href^="#"]').forEach(function(link) {
+    var links = toc.querySelectorAll('a[href^="#"]');
+    var spyTargets = [];
+    links.forEach(function(link) {
+      var id = link.getAttribute('href').substring(1);
+      var target = document.getElementById(id);
+      if (target) {
+        spyTargets.push({ link: link, target: target });
+      }
       link.addEventListener('click', function(e) {
         e.preventDefault();
-        var id = this.getAttribute('href').substring(1);
-        var target = document.getElementById(id);
-        if (target) {
+        var t = document.getElementById(id);
+        if (t) {
           var headerH = document.querySelector('.site-header').offsetHeight + 16;
-          var top = target.getBoundingClientRect().top + window.pageYOffset - headerH;
+          var top = t.getBoundingClientRect().top + window.pageYOffset - headerH;
           window.scrollTo({ top: top, behavior: 'smooth' });
         }
       });
     });
+
+    if ('IntersectionObserver' in window && spyTargets.length) {
+      var spy = new IntersectionObserver(function(entries) {
+        entries.forEach(function(entry) {
+          if (entry.isIntersecting) {
+            spyTargets.forEach(function(item) {
+              item.link.classList.toggle('active', item.target === entry.target);
+            });
+          }
+        });
+      }, { rootMargin: '-90px 0px -70% 0px', threshold: 0 });
+      spyTargets.forEach(function(item) { spy.observe(item.target); });
+    }
   });
   </script>
 
@@ -290,28 +309,6 @@ layout: default
   </section>
   {% endif %}
 
-  <!-- F9XR Team CTA -->
-  <section class="f9xr-cta" style="margin-top:3em; padding:2.5em 2em; background:linear-gradient(135deg, rgba(59,130,246,0.08) 0%, rgba(168,85,247,0.05) 50%, rgba(10,10,10,0.8) 100%); border:1px solid #1e2024; border-radius:16px; text-align:center; overflow:hidden; position:relative;">
-    <div style="display:flex; justify-content:center; gap:0.4em; margin-bottom:0.8em;">
-      <i class="fa-solid fa-rocket" style="color:#3b82f6;"></i>
-    </div>
-    <h2 style="margin:0 0 0.5em 0; font-size:1.5em; color:#f8f9fa; display:flex; align-items:center; justify-content:center; gap:0.5em; flex-wrap:wrap;">
-      Ready to Build a Stronger Digital Presence?
-    </h2>
-    <p style="max-width:640px; margin:0 auto 1.4em auto; color:#b1bac4; font-size:0.98em; line-height:1.7;">
-      The F9XR Team helps business owners turn websites into conversion engines. From website development and redesign to local SEO and AI-powered visibility, we engineer systems that bring in results, not just traffic.
-    </p>
-    <div style="display:flex; justify-content:center; gap:0.8em; flex-wrap:wrap;">
-      <a href="https://f9xr.github.io/pages/services.html" target="_blank" rel="noopener noreferrer" style="display:inline-flex; align-items:center; gap:0.5em; padding:0.8em 1.8em; background:linear-gradient(135deg, #3b82f6, #2563eb); color:#fff !important; border-radius:10px; font-weight:600; text-decoration:none !important; transition:all 0.25s; box-shadow:0 4px 16px rgba(59,130,246,0.25);" onmouseover="this.style.transform='translateY(-2px)'; this.style.boxShadow='0 8px 24px rgba(59,130,246,0.35)';" onmouseout="this.style.transform='translateY(0)'; this.style.boxShadow='0 4px 16px rgba(59,130,246,0.25)';">
-        Explore Our Services
-        <i class="fa-solid fa-arrow-right" style="font-size:0.8em;"></i>
-      </a>
-      <a href="https://f9xr.github.io/pages/contact.html" target="_blank" rel="noopener noreferrer" style="display:inline-flex; align-items:center; gap:0.5em; padding:0.8em 1.8em; background:transparent; color:#3b82f6 !important; border:2px solid #3b82f6; border-radius:10px; font-weight:600; text-decoration:none !important; transition:all 0.25s;" onmouseover="this.style.background='rgba(59,130,246,0.1)'" onmouseout="this.style.background='transparent'">
-        Get a Free Website Audit
-      </a>
-    </div>
-  </section>
-
   <!-- Comments Section -->
   <section class="post-comments" id="comments" style="margin-top:3em; padding-top:2em; border-top:1px solid #111111;">
     <h3 style="color:#f0f0f0; font-size:1.1em; margin-bottom:1.2em;">Comments</h3>
@@ -332,6 +329,26 @@ layout: default
     </div>
     {% include navlinks.html %}
   </footer>
+
+  <!-- F9XR Team CTA -->
+  <section class="f9xr-cta">
+    <div class="f9xr-cta-icon">
+      <i class="fa-solid fa-rocket"></i>
+    </div>
+    <h2 class="f9xr-cta-title">Ready to Build a Stronger Digital Presence?</h2>
+    <p class="f9xr-cta-text">
+      The F9XR Team helps business owners turn websites into conversion engines. From website development and redesign to local SEO and AI-powered visibility, we engineer systems that bring in results, not just traffic.
+    </p>
+    <div class="f9xr-cta-actions">
+      <a href="https://f9xr.github.io/pages/services.html" target="_blank" rel="noopener noreferrer" class="f9xr-cta-btn f9xr-cta-btn-primary">
+        Explore Our Services
+        <i class="fa-solid fa-arrow-right"></i>
+      </a>
+      <a href="https://f9xr.github.io/pages/contact.html" target="_blank" rel="noopener noreferrer" class="f9xr-cta-btn f9xr-cta-btn-ghost">
+        Get a Free Website Audit
+      </a>
+    </div>
+  </section>
 
   <a class="u-url" href="{{ page.url | relative_url }}" hidden></a>
 

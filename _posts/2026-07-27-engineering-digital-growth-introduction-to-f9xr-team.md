@@ -3,6 +3,8 @@ layout: post
 title: "Engineering Digital Growth with F9XR Team"
 description: "How F9XR Team builds high-performance web ecosystems, AI-powered systems, and local SEO infrastructure for measurable business growth."
 image: "https://images.unsplash.com/photo-1498050108023-c5249f4df085?q=80&w=1200&h=630&auto=format&fit=crop"
+image_width: 1200
+image_height: 630
 image_credit: "Photo by <a href=\"https://unsplash.com/@cgower?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText\" target=\"_blank\" rel=\"noopener noreferrer\">Christopher Gower</a> on <a href=\"https://unsplash.com/photos/m_HRfLhgABo?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText\" target=\"_blank\" rel=\"noopener noreferrer\">Unsplash</a>"
 dateModified: 2026-07-28
 youtube_id: "05cr4W9uyA"

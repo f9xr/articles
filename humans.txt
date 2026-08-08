@@ -1,0 +1,32 @@
+# F9XR Articles — Humans.txt
+
+## Team
+
+F9XR Team — a digital architecture agency based in India serving a global
+client footprint. We build high-performance web ecosystems, AI-powered
+systems, and local SEO infrastructure.
+
+## Site
+
+This site is built with Jekyll, hosted on GitHub Pages, and maintained by
+the F9XR Team. The source is open and available at
+https://github.com/f9xr/articles
+
+## Built with
+
+- Jekyll (static site generator)
+- GitHub Pages (hosting)
+- minima (theme base)
+- Font Awesome (icons)
+- highlight.js (code highlighting)
+
+## Thanks
+
+- The Jekyll and GitHub Pages open source communities
+- The contributors to the minima theme
+- The readers who share and improve this content
+
+## Contact
+
+For security issues, see security.txt.
+For business inquiries, visit https://f9xr.github.io/pages/contact.html

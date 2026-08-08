@@ -145,6 +145,14 @@ Every engagement starts with a free website audit — a technical assessment of 
 - YouTube: QuarterlyLIV
 - Contact: Hire Us
 
+### Site Files
+
+- [llms.txt](https://f9xr.github.io/articles/llms.txt) — Concise site summary
+- [ai.txt](https://f9xr.github.io/articles/ai.txt) — Orientation for AI agents
+- [humans.txt](https://f9xr.github.io/articles/humans.txt) — Team and credits
+- [security.txt](https://f9xr.github.io/articles/security.txt) — Security contact
+- [sitemap.xml](https://f9xr.github.io/articles/sitemap.xml) — All crawlable pages
+
 ---
 
 *F9XR Team — Engineering digital growth from India to the global digital world.*

@@ -3,9 +3,9 @@ https://arvow.com/prompts/backlinks-prompt-pack
 
 Blog article topic : 
 Technical SEO Checklist
+ 
 
-The "No-Code" E-E-A-T Checklist: 10 Site Tweaks You Can Do Before Lunch
-The 1-Page Google E-E-A-T Checklist Every SEO Should Bookmark    
+
 
 https://f9xr.github.io/assets/screenshots/F9XR_GoogleAnalytics.png
 https://f9xr.github.io/assets/screenshots/F9XR_GoogleSearch.png
