@@ -10,7 +10,42 @@ layout: default
   <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M18 15l-6-6-6 6"/></svg>
 </a>
 
-<article class="post h-entry" itemscope itemtype="http://schema.org/BlogPosting">
+{% assign content_html = content %}
+{% assign h2_count = 0 %}
+{% assign headings = "" | split: "" %}
+{% assign slug_headings = "" | split: "" %}
+{% assign words = content_html | split: "<h2" %}
+{% for word in words %}
+  {% if forloop.first %}{% continue %}{% endif %}
+  {% assign h2_count = h2_count | plus: 1 %}
+  {% assign heading_text = word | split: "</h2>" | first %}
+  {% assign heading_clean = heading_text | prepend: "<" | strip_html | strip %}
+  {% assign heading_slug = heading_clean | slugify %}
+  {% assign headings = headings | push: heading_clean %}
+  {% assign slug_headings = slug_headings | push: heading_slug %}
+{% endfor %}
+
+<article class="post h-entry {% if h2_count >= 2 %}has-sidebar{% endif %}" itemscope itemtype="http://schema.org/BlogPosting">
+
+  <div class="post-layout">
+
+  {% if h2_count >= 2 %}
+  <aside class="post-sidebar" aria-label="Table of Contents">
+    <nav class="sidebar-toc" id="table-of-contents" aria-label="Table of contents">
+      <h2 class="sidebar-toc-title">
+        <i class="fa-solid fa-list-ul" style="color:#3b82f6; font-size:0.9em;"></i>
+        Table of Contents
+      </h2>
+      <ol class="sidebar-toc-list">
+        {% for h in headings %}
+        <li><a href="#{{ slug_headings[forloop.index0] }}">{{ h }}</a></li>
+        {% endfor %}
+      </ol>
+    </nav>
+  </aside>
+  {% endif %}
+
+  <div class="post-main">
 
   <!-- Breadcrumbs -->
   <nav aria-label="Breadcrumb" style="margin-bottom:1.5em;">
@@ -101,44 +136,11 @@ layout: default
     {% include sharelinks.html %}
   </div>
 
-  <!-- Table of Contents -->
-  {% assign content_html = content %}
-  {% assign h2_count = 0 %}
-  {% assign headings = "" | split: "" %}
-  {% assign slug_headings = "" | split: "" %}
-  {% assign words = content_html | split: "<h2" %}
-  {% for word in words %}
-    {% if forloop.first %}{% continue %}{% endif %}
-    {% assign h2_count = h2_count | plus: 1 %}
-    {% assign heading_text = word | split: "</h2>" | first %}
-    {% assign heading_clean = heading_text | prepend: "<" | strip_html | strip %}
-    {% assign heading_slug = heading_clean | slugify %}
-    {% assign headings = headings | push: heading_clean %}
-    {% assign slug_headings = slug_headings | push: heading_slug %}
-  {% endfor %}
-  {% if h2_count >= 2 %}
-  <details class="post-toc" id="table-of-contents" open style="background:linear-gradient(135deg, rgba(59,130,246,0.04) 0%, rgba(10,10,10,0.8) 100%); border:1px solid #1e2024; border-radius:12px; margin-bottom:2em; overflow:hidden;">
-    <summary style="cursor:pointer; padding:0.9em 1.4em; display:flex; align-items:center; justify-content:space-between; list-style:none; user-select:none;">
-      <span style="color:#f0f0f0; font-size:0.9em; font-weight:600; text-transform:uppercase; letter-spacing:0.05em;">Table of Contents</span>
-      <span class="toc-toggle" style="color:#71717a; font-size:0.8em; transition:transform 0.2s;">&#9660;</span>
-    </summary>
-    <nav style="padding:0 1.4em 1em 1.4em;">
-      <ol style="margin:0; padding-left:1.2em; list-style-type:decimal; counter-reset:toc;">
-        {% for h in headings %}
-        <li style="margin-bottom:0.3em; line-height:1.5;"><a href="#{{ slug_headings[forloop.index0] }}" style="color:#8b8b8b; font-size:0.88em; text-decoration:none; transition:color 0.2s;" onmouseover="this.style.color='#3b82f6'" onmouseout="this.style.color='#8b8b8b'">{{ h }}</a></li>
-        {% endfor %}
-      </ol>
-    </nav>
-  </details>
+  <!-- Table of Contents: rendered in the sticky left sidebar (open by default) -->
   <script>
   document.addEventListener('DOMContentLoaded', function() {
     var toc = document.getElementById('table-of-contents');
     if (!toc) return;
-    toc.querySelector('summary').addEventListener('click', function() {
-      var arrow = this.querySelector('.toc-toggle');
-      if (toc.open) { arrow.style.transform = 'rotate(-90deg)'; }
-      else { arrow.style.transform = 'rotate(0deg)'; }
-    });
     toc.querySelectorAll('a[href^="#"]').forEach(function(link) {
       link.addEventListener('click', function(e) {
         e.preventDefault();
@@ -153,7 +155,6 @@ layout: default
     });
   });
   </script>
-  {% endif %}
 
   {% if page.description %}
   <div class="ai-summary" style="background:linear-gradient(135deg, rgba(168,85,247,0.06) 0%, rgba(59,130,246,0.04) 100%); border:1px solid #1e2024; border-left:3px solid #a855f7; border-radius:12px; padding:1.2em 1.5em; margin-bottom:2em;">
@@ -273,7 +274,7 @@ layout: default
   <section class="post-faq" style="margin-top:2.5em; padding-top:2em; border-top:1px solid #111111;">
     <h2 style="font-size:1.3em; margin-bottom:1em; display:flex; align-items:center; gap:0.4em;">
       <i class="fa-solid fa-circle-question" style="color:#3b82f6; font-size:0.85em;"></i>
-      Frequently Asked Questions
+      Related Questions
     </h2>
     <div style="display:flex; flex-direction:column; gap:0.6em;">
       {% for item in page.faq %}
@@ -288,6 +289,28 @@ layout: default
     </div>
   </section>
   {% endif %}
+
+  <!-- F9XR Team CTA -->
+  <section class="f9xr-cta" style="margin-top:3em; padding:2.5em 2em; background:linear-gradient(135deg, rgba(59,130,246,0.08) 0%, rgba(168,85,247,0.05) 50%, rgba(10,10,10,0.8) 100%); border:1px solid #1e2024; border-radius:16px; text-align:center; overflow:hidden; position:relative;">
+    <div style="display:flex; justify-content:center; gap:0.4em; margin-bottom:0.8em;">
+      <i class="fa-solid fa-rocket" style="color:#3b82f6;"></i>
+    </div>
+    <h2 style="margin:0 0 0.5em 0; font-size:1.5em; color:#f8f9fa; display:flex; align-items:center; justify-content:center; gap:0.5em; flex-wrap:wrap;">
+      Ready to Build a Stronger Digital Presence?
+    </h2>
+    <p style="max-width:640px; margin:0 auto 1.4em auto; color:#b1bac4; font-size:0.98em; line-height:1.7;">
+      The F9XR Team helps business owners turn websites into conversion engines. From website development and redesign to local SEO and AI-powered visibility, we engineer systems that bring in results, not just traffic.
+    </p>
+    <div style="display:flex; justify-content:center; gap:0.8em; flex-wrap:wrap;">
+      <a href="https://f9xr.github.io/pages/services.html" target="_blank" rel="noopener noreferrer" style="display:inline-flex; align-items:center; gap:0.5em; padding:0.8em 1.8em; background:linear-gradient(135deg, #3b82f6, #2563eb); color:#fff !important; border-radius:10px; font-weight:600; text-decoration:none !important; transition:all 0.25s; box-shadow:0 4px 16px rgba(59,130,246,0.25);" onmouseover="this.style.transform='translateY(-2px)'; this.style.boxShadow='0 8px 24px rgba(59,130,246,0.35)';" onmouseout="this.style.transform='translateY(0)'; this.style.boxShadow='0 4px 16px rgba(59,130,246,0.25)';">
+        Explore Our Services
+        <i class="fa-solid fa-arrow-right" style="font-size:0.8em;"></i>
+      </a>
+      <a href="https://f9xr.github.io/pages/contact.html" target="_blank" rel="noopener noreferrer" style="display:inline-flex; align-items:center; gap:0.5em; padding:0.8em 1.8em; background:transparent; color:#3b82f6 !important; border:2px solid #3b82f6; border-radius:10px; font-weight:600; text-decoration:none !important; transition:all 0.25s;" onmouseover="this.style.background='rgba(59,130,246,0.1)'" onmouseout="this.style.background='transparent'">
+        Get a Free Website Audit
+      </a>
+    </div>
+  </section>
 
   <!-- Comments Section -->
   <section class="post-comments" id="comments" style="margin-top:3em; padding-top:2em; border-top:1px solid #111111;">
@@ -311,6 +334,10 @@ layout: default
   </footer>
 
   <a class="u-url" href="{{ page.url | relative_url }}" hidden></a>
+
+  </div><!-- /.post-main -->
+  </div><!-- /.post-layout -->
+
 </article>
 
 <!-- JSON-LD Structured Data -->
@@ -697,7 +724,7 @@ function downloadPDF() {
     }
 
     // TOC link enter to scroll
-    if (e.key === 'Enter' && e.target.closest('.post-toc a')) {
+    if (e.key === 'Enter' && e.target.closest('.sidebar-toc a')) {
       e.preventDefault();
       e.target.click();
       return;
