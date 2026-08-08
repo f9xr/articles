@@ -29,7 +29,7 @@ This stopped being a small technical detail. A growing share of people get answe
 
 Below is the full breakdown of the essential txt files your codebase should have in 2026, why each one matters for traditional SEO, answer engine optimization (AEO), and generative engine optimization (GEO), and exactly what to put in them.
 
-## Why txt files matter more in 2026
+## Why txt files matter more in 2026?
 
 Search engines and AI models both rely on simple, predictable files to understand a site quickly, without guessing. Think of it as leaving clear instructions at the front door instead of making a visitor wander through every room.
 
@@ -145,7 +145,7 @@ Not just for developers. A clear README at the root of your codebase explains wh
 | ai.txt | /ai.txt | Sets AI content usage terms | GEO, content control |
 | README.md | / (repo root) | Documents the project | Developer trust, maintainability |
 
-## How to actually implement these files without breaking anything
+## How to actually implement these files without breaking anything?
 
 ### Step 1: Audit what you already have
 
@@ -183,7 +183,7 @@ Open ai.txt and you'll see what a well written machine instruction looks like. I
   <figcaption>Photo by <a href="https://unsplash.com/@hostreviews?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText" target="_blank" rel="noopener noreferrer">Stephen Phillips - Hostreviews.co.uk</a> on <a href="https://unsplash.com/photos/monitor-screengrab-shr_Xn8S8QU?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText" target="_blank" rel="noopener noreferrer">Unsplash</a></figcaption>
 </figure>
 
-## How F9XR Team helps businesses get this right
+## How F9XR Team helps businesses get this right?
 
 Most business owners didn't start their company to spend weekends figuring out .well-known directories and Markdown syntax, and honestly, they shouldn't have to. This is exactly the kind of foundational, technical groundwork F9XR Team handles for the businesses it works with, alongside broader [website development](https://f9xr.github.io/pages/services.html){:target="_blank" rel="noopener noreferrer"} and [local SEO strategy](https://f9xr.github.io/services/google-business-optimization.html){:target="_blank" rel="noopener noreferrer"}.
 
@@ -193,7 +193,7 @@ Rather than manually checking file by file, F9XR Team uses a purpose built Codeb
 
 In practice, that means a business gets a clear report of what's missing, what's broken, and what's actively hurting its visibility with both Google and AI search tools, without needing to understand the underlying standards itself. You can read more about how that skill works in the [F9XR SEO Codebase Auditor guide](https://f9xr.github.io/articles/2026/07/31/f9xr-seo-codebase-auditor-skill-guide.html). It's the kind of quiet, technical groundwork that doesn't show up in a flashy before and after screenshot, but consistently shows up in whether a business actually gets found.
 
-## Key Takeaways
+## Key Takeaways:
 
 - Core txt files like robots.txt, llms.txt, and security.txt sitting in your codebase root now directly influence both traditional SEO and AI visibility in tools like ChatGPT, Gemini, Claude, and Perplexity.
 - llms.txt is the most significant newer addition, a Markdown file that gives AI models a clean summary of your site to improve citation accuracy and discovery.

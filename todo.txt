@@ -9,3 +9,5 @@ The 1-Page Google E-E-A-T Checklist Every SEO Should Bookmark
 
 https://f9xr.github.io/assets/screenshots/F9XR_GoogleAnalytics.png
 https://f9xr.github.io/assets/screenshots/F9XR_GoogleSearch.png
+
+https://f9xr.github.io/sitemap-image.xml

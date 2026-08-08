@@ -2,7 +2,8 @@
 layout: post
 title: "Engineering Digital Growth with F9XR Team"
 description: "How F9XR Team builds high-performance web ecosystems, AI-powered systems, and local SEO infrastructure for measurable business growth."
-image: "https://f9xr.github.io/assets/og-image.webp"
+image: "https://images.unsplash.com/photo-1498050108023-c5249f4df085?q=80&w=1200&h=630&auto=format&fit=crop"
+image_credit: "Photo by <a href=\"https://unsplash.com/@cgower?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText\" target=\"_blank\" rel=\"noopener noreferrer\">Christopher Gower</a> on <a href=\"https://unsplash.com/photos/m_HRfLhgABo?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText\" target=\"_blank\" rel=\"noopener noreferrer\">Unsplash</a>"
 dateModified: 2026-07-28
 youtube_id: "05cr4W9uyA"
 video_duration: "PT3M45S"
@@ -44,6 +45,11 @@ The engineering gap is real:
 - **Disconnected systems** where the website, SEO, and customer engagement tools don't communicate
 
 F9XR Team exists to close this gap with precision-engineered solutions.
+
+<figure class="post-figure">
+  <img src="https://images.unsplash.com/photo-1522071820081-009f0129c71c?q=80&w=1200&h=800&auto=format&fit=crop" alt="Small team collaborating around a table with laptops and notebooks" title="F9XR Team collaborating on a digital growth project" width="1200" height="800" loading="lazy" />
+  <figcaption>Photo by <a href="https://unsplash.com/@anniespratt?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText" target="_blank" rel="noopener noreferrer">Annie Spratt</a> on <a href="https://unsplash.com/photos/QckxruozjRg?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText" target="_blank" rel="noopener noreferrer">Unsplash</a></figcaption>
+</figure>
 
 ---
 
@@ -117,9 +123,9 @@ We follow a structured methodology that treats every project as an engineering p
 
 Beyond client projects, we build and maintain our own digital assets:
 
-- **Foil AI** ([foilai.in](https://foilai.in)) — Next-generation AI image generation
-- **VroAI** ([vroai.in](https://vroai.in)) — Advanced AI chatbot and GPT service platform
-- **iCryptos Dashboards** ([ttearncrypto.github.io](https://ttearncrypto.github.io)) — Fintech analytics dashboards built on React
+- **Foil AI** ([foilai.in](https://foilai.in){:target="_blank" rel="noopener noreferrer"}) — Next-generation AI image generation
+- **VroAI** ([vroai.in](https://vroai.in){:target="_blank" rel="noopener noreferrer"}) — Advanced AI chatbot and GPT service platform
+- **iCryptos Dashboards** ([ttearncrypto.github.io](https://ttearncrypto.github.io){:target="_blank" rel="noopener noreferrer"}) — Fintech analytics dashboards built on React
 - **40+ Digital Portals** — news networks, tools, and business platforms globally
 
 These aren't side projects. They're live systems that generate revenue, serve real users, and stress-test the same techniques we apply to client work. When we recommend a caching strategy or an AI workflow, it's because we've already deployed it in production.
@@ -171,10 +177,10 @@ Every engagement starts with a **[free website audit](https://f9xr.github.io/pag
 
 - **Website:** [f9xr.github.io](https://f9xr.github.io)
 - **Email:** tontufytservices@gmail.com
-- **Instagram:** [@f9xrteam](https://instagram.com/f9xrteam)
-- **LinkedIn:** [F9XR Team](https://linkedin.com/company/f9xrteam)
-- **GitHub:** [f9xr](https://github.com/f9xr)
-- **YouTube:** [QuarterlyLIV](https://www.youtube.com/@QuarterlyLIV)
+- **Instagram:** [@f9xrteam](https://instagram.com/f9xrteam){:target="_blank" rel="noopener noreferrer"}
+- **LinkedIn:** [F9XR Team](https://linkedin.com/company/f9xrteam){:target="_blank" rel="noopener noreferrer"}
+- **GitHub:** [f9xr](https://github.com/f9xr){:target="_blank" rel="noopener noreferrer"}
+- **YouTube:** [QuarterlyLIV](https://www.youtube.com/@QuarterlyLIV){:target="_blank" rel="noopener noreferrer"}
 - **Contact:** [Hire Us](https://f9xr.github.io/pages/contact.html)
 
 ---

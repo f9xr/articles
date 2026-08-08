@@ -34,6 +34,11 @@ An audit against the source code closes that gap. It runs before deployment, aga
 
 That's the idea behind the F9XR SEO CodeBase Auditor skill. It gives any AI coding assistant a structured way to read your repository and judge it against 24 SEO pillars, and it returns fixes you can paste straight into your files.
 
+<figure class="post-figure">
+  <img src="https://images.unsplash.com/photo-1461749280684-dccba630e2f6?q=80&w=1200&h=800&auto=format&fit=crop" alt="Close-up of source code on a monitor with syntax highlighting" title="Audit your source code, not just your rendered pages" width="1200" height="800" loading="lazy" />
+  <figcaption>Photo by <a href="https://unsplash.com/@ilyapavlov?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText" target="_blank" rel="noopener noreferrer">Ilya Pavlov</a> on <a href="https://unsplash.com/photos/OqtafYT5kTw?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText" target="_blank" rel="noopener noreferrer">Unsplash</a></figcaption>
+</figure>
+
 ## What Is the SEO CodeBase Auditor Skill?
 
 The skill is a single `SKILL.md` file. You drop it into the root of any codebase, and in any AI assistant that can reference a file, you run a prompt like this:
@@ -42,15 +47,15 @@ The skill is a single `SKILL.md` file. You drop it into the root of any codebase
 
 The AI then works through the whole repository. HTML, Markdown, JavaScript, CSS, JSON, config files. It maps the file tree, discovers every URL, checks each file against the pillars that apply, and writes `seo_audit_report.md` plus a CSV export. No API keys. No subscription. No crawler hitting your production server.
 
-It works with Cursor, GitHub Copilot, Claude, ChatGPT, Windsurf, Cline, Aider, and any other assistant that supports file references. The F9XR team released it as open source. You can read the full breakdown on the [product page](https://f9xr.github.io/seo-audit-report-skill/) and grab the file from the [GitHub repository](https://github.com/f9xr/seo-audit-report-skill).
+It works with Cursor, GitHub Copilot, Claude, ChatGPT, Windsurf, Cline, Aider, and any other assistant that supports file references. The F9XR team released it as open source. You can read the full breakdown on the [product page](https://f9xr.github.io/seo-audit-report-skill/) and grab the file from the [GitHub repository](https://github.com/f9xr/seo-audit-report-skill){:target="_blank" rel="noopener noreferrer"}.
 
-The main difference from SaaS tools: those check what a URL serves. This skill reads what your code contains. So it catches issues before a single page goes live, and it adapts to your stack. A plain HTML site gets a different audit than a Next.js app, which gets a different audit than an Astro site. As Google's own [SEO starter guide](https://developers.google.com/search/docs/fundamentals/seo-starter-guide) makes clear, most of what hurts rankings is baked into how a site is built, not how it's marketed.
+The main difference from SaaS tools: those check what a URL serves. This skill reads what your code contains. So it catches issues before a single page goes live, and it adapts to your stack. A plain HTML site gets a different audit than a Next.js app, which gets a different audit than an Astro site. As Google's own [SEO starter guide](https://developers.google.com/search/docs/fundamentals/seo-starter-guide){:target="_blank" rel="noopener noreferrer"} makes clear, most of what hurts rankings is baked into how a site is built, not how it's marketed.
 
 ## How to Run a Full SEO Audit in Six Steps
 
 ### Step 1: Download SKILL.md
 
-Head to the [GitHub repository](https://github.com/f9xr/seo-audit-report-skill), grab `SKILL.md`. It's one file of structured instructions. No installation.
+Head to the [GitHub repository](https://github.com/f9xr/seo-audit-report-skill){:target="_blank" rel="noopener noreferrer"}, grab `SKILL.md`. It's one file of structured instructions. No installation.
 
 ### Step 2: Drop It Into Your Project Root
 
@@ -102,7 +107,7 @@ The skill doesn't dump findings onto the page. It works through five passes:
 4. **Report.** Write `seo_audit_report.md` following the output blueprint.
 5. **Critique.** Review the report the way a competitor's SEO lead would. Every severity label and fix has to be defensible. Drop any finding that's noise.
 
-That last pass matters. Most AI-generated audits produce false positives. This skill is built around restraint: no finding gets included unless it cites a specific Google guideline, ranking factor, or [schema.org specification](https://schema.org/), and no finding ships without the exact replacement code.
+That last pass matters. Most AI-generated audits produce false positives. This skill is built around restraint: no finding gets included unless it cites a specific Google guideline, ranking factor, or [schema.org specification](https://schema.org/){:target="_blank" rel="noopener noreferrer"}, and no finding ships without the exact replacement code.
 
 ## What a Good Finding Looks Like
 
@@ -118,13 +123,18 @@ That format is why the skill works for busy teams. You don't get a score and a s
 
 **Structured data actually works.** Schema is easy to write and easy to get wrong. The skill validates JSON-LD against schema.org requirements, checks the required fields for each type, and flags missing rich result opportunities. For a local business, that can mean the difference between a plain listing and a snippet with ratings and an address.
 
-**Core Web Vitals get fixed in code, not after the fact.** The performance pillar checks LCP candidates, image dimensions, font loading, render-blocking scripts, and DOM size against Google's official [Core Web Vitals thresholds](https://web.dev/articles/vitals). All of those are fixable in the build, which is far cheaper than optimizing a live site that's already underperforming.
+**Core Web Vitals get fixed in code, not after the fact.** The performance pillar checks LCP candidates, image dimensions, font loading, render-blocking scripts, and DOM size against Google's official [Core Web Vitals thresholds](https://web.dev/articles/vitals){:target="_blank" rel="noopener noreferrer"}. All of those are fixable in the build, which is far cheaper than optimizing a live site that's already underperforming.
 
 **Internal linking stops leaking equity.** The skill maps orphan pages, link depth, anchor text diversity, and silo architecture. Fixing internal links is one of the fastest ranking wins available, and it costs nothing but editing a few templates.
 
 **You become ready for AI search.** Pillar 18 covers AI Overview extraction readiness, featured snippet targeting, and voice search. Content structured for answer engines is increasingly what ChatGPT and Perplexity cite. The skill checks for definitional answers early in the content, FAQ formatting, and entity richness.
 
 Teams using the skill report cutting audit time from half a day to a couple of minutes. The [case study on the skill](https://f9xr.github.io/case-studies/seo-audit-report-skill.html) breaks down those numbers, and the [launch announcement](https://f9xr.github.io/announcements/f9xr-launches-seo-codebase-auditor-skill.html) explains why F9XR built it open source instead of selling it as another dashboard.
+
+<figure class="post-figure">
+  <img src="https://images.unsplash.com/photo-1551288049-bebda4e38f71?q=80&w=1200&h=800&auto=format&fit=crop" alt="Laptop screen showing analytics dashboard with charts and graphs" title="Track your SEO improvements after fixing audit findings" width="1200" height="800" loading="lazy" />
+  <figcaption>Photo by <a href="https://unsplash.com/@lukechesser?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText" target="_blank" rel="noopener noreferrer">Luke Chesser</a> on <a href="https://unsplash.com/photos/JKUTrJ4vK00?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText" target="_blank" rel="noopener noreferrer">Unsplash</a></figcaption>
+</figure>
 
 ## A Practical Example: Fixing Your Own Blog
 
@@ -136,7 +146,7 @@ The same workflow works on any content site. Run the audit, take the Quick Wins,
 
 Be honest about what a codebase audit does and doesn't do. It fixes technical issues. It won't replace content strategy, link building, or a well-researched keyword plan. What it does is remove the technical drag so everything else works harder. A great article buried under broken metadata still loses. The same article with a proper title, schema, and internal links actually competes.
 
-Related reading on this site: our [guide to free business directories](https://f9xr.github.io/articles/2026/07/29/free-business-directories-guide/) covers the off-site side of visibility, and the [F9XR Team introduction](https://f9xr.github.io/articles/2026/07/27/engineering-digital-growth-introduction-to-f9xr-team/) explains the full digital presence approach.
+Related reading on this site: our [guide to free business directories](https://f9xr.github.io/articles/2026/07/29/free-business-directories-guide.html) covers the off-site side of visibility, and the [F9XR Team introduction](https://f9xr.github.io/articles/2026/07/27/engineering-digital-growth-introduction-to-f9xr-team.html) explains the full digital presence approach.
 
 If you'd rather hand the audit and the fixes to a team, F9XR offers [website development, redesign, local SEO, and digital presence services](https://f9xr.github.io/pages/services.html). There's also [AI visibility optimization](https://f9xr.github.io/services/ai-visibility-optimization.html) if getting cited by answer engines is the goal. You can [reach the team here](https://f9xr.github.io/pages/contact.html). The skill stays free either way.
 
@@ -148,7 +158,7 @@ If you'd rather hand the audit and the fixes to a team, F9XR offers [website dev
 - Focused prompts let you audit one area, like Core Web Vitals or structured data, without a full run.
 - A codebase audit removes technical drag; pair it with content strategy and link building for the full picture.
 
-## FAQ
+## Related Questions
 
 ### What is the F9XR SEO CodeBase Auditor skill?
 

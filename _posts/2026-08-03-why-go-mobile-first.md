@@ -3,7 +3,7 @@ layout: post
 title: "Why Go Mobile-First in 2026: Design and Engineering"
 description: "Mobile-first design wins in 2026. See the traffic data, the behavior gap, and a practical plan to go mobile-first and close the mobile conversion gap."
 image: "https://images.unsplash.com/photo-1533228100845-08145b01de14?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8M3x8bW9iaWxlJTIwY2hyb21lfGVufDB8fDB8fHww"
-image_credit: "Photo by <a href=\"https://unsplash.com/@charlesdeluvio?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText\" target=\"_blank\" rel=\"noopener\">charlesdeluvio</a> on <a href=\"https://unsplash.com/photos/black-android-smartphone-showing-google-site-on-white-surface-leqrylJNYUQ?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText\" target=\"_blank\" rel=\"noopener\">Unsplash</a>"
+image_credit: "Photo by <a href=\"https://unsplash.com/@charlesdeluvio?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText\" target=\"_blank\" rel=\"noopener noreferrer\">Charles Deluvio</a> on <a href=\"https://unsplash.com/photos/black-android-smartphone-showing-google-site-on-white-surface-leqrylJNYUQ?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText\" target=\"_blank\" rel=\"noopener noreferrer\">Unsplash</a>"
 date: 2026-08-03
 author: "F9XR Team"
 tags: [mobile-first design, mobile-first, responsive web design, mobile SEO, Core Web Vitals, mobile conversion rate, mobile traffic, mobile UX, web performance, digital presence]
@@ -82,6 +82,11 @@ The case for mobile-first goes beyond raw traffic share. It's also about how dif
 
 The numbers point to one fix: friction. Checkout forms, payment flows, and trust signals are exactly the layer where mobile-first engineering, not mobile-friendly styling alone, closes the gap. People will buy on their phones. The flow just makes it harder than it needs to be.
 
+<figure class="post-figure">
+  <img src="https://images.unsplash.com/photo-1554672408-730436b60dde?q=80&w=1200&h=800&auto=format&fit=crop" alt="Person holding a cell phone in their hand" title="Mobile users browse and buy from the palm of their hand" width="1200" height="800" loading="lazy" />
+  <figcaption>Photo by <a href="https://unsplash.com/@charlesdeluvio?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText" target="_blank" rel="noopener noreferrer">Charles Deluvio</a> on <a href="https://unsplash.com/photos/6OF-Ly-5oJY?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText" target="_blank" rel="noopener noreferrer">Unsplash</a></figcaption>
+</figure>
+
 ## The Engineering Case for Mobile-First
 
 Mobile-first has direct technical consequences for performance, discoverability, and infrastructure cost. It stops being a pure UX decision the moment you ship.
@@ -92,7 +97,7 @@ Mobile-first has direct technical consequences for performance, discoverability,
 
 **Android's dominance changes the testing matrix.** Android's share of the mobile market has consistently been reported in the low-to-high 60s to low 70s percentage range across recent 2025 and 2026 data (StatCounter, Cloudflare), against roughly a quarter to a third for iOS depending on methodology. A mobile-first engineering approach has to be tested primarily against Android's much wider range of screen sizes, chipsets, and browser versions. Chrome alone leads the mobile browser market at roughly two-thirds share, well ahead of Safari. Don't assume iOS Safari behavior generalizes.
 
-This is the same discipline covered in our piece on [building a custom technical codebase auditor](https://f9xr.github.io/articles/2026/07/31/f9xr-seo-codebase-auditor-skill-guide/). Render-blocking assets and hydration delays hurt mobile users first and hardest, and those are exactly the issues a code-level audit catches before they ship.
+This is the same discipline covered in our piece on [building a custom technical codebase auditor](https://f9xr.github.io/articles/2026/07/31/f9xr-seo-codebase-auditor-skill-guide.html). Render-blocking assets and hydration delays hurt mobile users first and hardest, and those are exactly the issues a code-level audit catches before they ship.
 
 ## What Going Mobile-First Looks Like in Practice
 
@@ -100,11 +105,11 @@ Concretely, going mobile-first changes a handful of default decisions across des
 
 - **Design from a 375px viewport outward**, not from a 1440px canvas inward. Every layout decision has to survive the smallest realistic screen before it's allowed to expand. That's the difference between a grid that degrades and one that was built to start small.
 - **Treat thumb reach as a hard constraint**, not an afterthought. Primary actions belong in the bottom half of the screen, not tucked into a top corner that assumes a mouse cursor. Keep touch targets at least 48 by 48 pixels, the minimum Google recommends in its [responsive design guide](https://web.dev/learn/design){:target="_blank" rel="noopener noreferrer"}, and leave enough space between them to prevent fat-finger taps.
-- **Budget performance for the median device and median connection**, not the flagship phone on office Wi-Fi. Serve reasonable payloads, defer non-critical scripts, and set explicit dimensions on images and embeds so the page doesn't shift as it loads. This is the same performance discipline the [SEO CodeBase Auditor](https://f9xr.github.io/articles/2026/07/31/f9xr-seo-codebase-auditor-skill-guide/) applies to [Core Web Vitals](https://web.dev/articles/vitals){:target="_blank" rel="noopener noreferrer"}, where mobile thresholds are stricter than desktop ones.
+- **Budget performance for the median device and median connection**, not the flagship phone on office Wi-Fi. Serve reasonable payloads, defer non-critical scripts, and set explicit dimensions on images and embeds so the page doesn't shift as it loads. This is the same performance discipline the [SEO CodeBase Auditor](https://f9xr.github.io/articles/2026/07/31/f9xr-seo-codebase-auditor-skill-guide.html) applies to [Core Web Vitals](https://web.dev/articles/vitals){:target="_blank" rel="noopener noreferrer"}, where mobile thresholds are stricter than desktop ones.
 - **Redesign checkout and conversion flows specifically for mobile friction**, since that's where the traffic-versus-conversion gap actually lives. Autofill, saved payment methods, and fewer form fields do more for mobile revenue than a redesigned homepage does.
 - **Assume interrupted sessions**, and build state persistence and fast re-entry into the product instead of expecting a single unbroken visit.
 
-Agencies that build this way, like F9XR, treat mobile-first as the starting assumption rather than a checklist item. The team's [introduction post](https://f9xr.github.io/articles/2026/07/27/engineering-digital-growth-introduction-to-f9xr-team/) walks through that full digital presence approach: mobile-first builds, speed-optimized pages, and local SEO infrastructure that works from a phone screen first.
+Agencies that build this way, like F9XR, treat mobile-first as the starting assumption rather than a checklist item. The team's [introduction post](https://f9xr.github.io/articles/2026/07/27/engineering-digital-growth-introduction-to-f9xr-team.html) walks through that full digital presence approach: mobile-first builds, speed-optimized pages, and local SEO infrastructure that works from a phone screen first.
 
 ## The Bottom Line
 
@@ -120,7 +125,7 @@ Going mobile-first means refusing to let desktop set the ceiling for what mobile
 - The engineering case includes mobile-first indexing, Android's fragmented testing matrix, and budgets for slower median connections.
 - Start with the 375px viewport, thumb reach, performance budgets, mobile-native checkout flows, and interrupted-session support.
 
-## FAQ
+## Related Questions
 
 ### What does mobile-first design mean?
 

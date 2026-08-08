@@ -2,7 +2,8 @@
 layout: post
 title: "The 1-Page Google E-E-A-T Checklist Every SEO Should Bookmark"
 description: "A one-page E-E-A-T checklist for Experience, Expertise, Authoritativeness, and Trustworthiness. Run it before you publish any page in 2026."
-image: "https://f9xr.github.io/assets/og-image.webp"
+image: "https://images.unsplash.com/photo-1455390582262-044cdead277a?q=80&w=1200&h=630&auto=format&fit=crop"
+image_credit: "Photo by <a href=\"https://unsplash.com/@aaronburden?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText\" target=\"_blank\" rel=\"noopener noreferrer\">Aaron Burden</a> on <a href=\"https://unsplash.com/photos/y02jEX_B0O0?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText\" target=\"_blank\" rel=\"noopener noreferrer\">Unsplash</a>"
 date: 2026-08-04
 author: "F9XR Team"
 tags: [E-E-A-T, Google E-E-A-T, SEO checklist, quality rater guidelines, AI Overviews, content quality, YMYL, SEO 2026, digital presence, F9XR]
@@ -65,13 +66,18 @@ Google's own framing treats trust as the center of gravity. Expertise, experienc
 - [ ] No dark patterns, no misleading claims, hidden affiliate motives, or deceptive formatting
 - [ ] Site is secure (HTTPS) with no intrusive, trust-eroding ad experience
 
+<figure class="post-figure">
+  <img src="https://images.unsplash.com/photo-1579017308347-e53e0d2fc5e9?q=80&w=1200&h=800&auto=format&fit=crop" alt="Person writing in a notebook with a pen while reviewing notes" title="Checking an E-E-A-T content checklist before publishing" width="1200" height="800" loading="lazy" />
+  <figcaption>Photo by <a href="https://unsplash.com/@marcospradobr?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText" target="_blank" rel="noopener noreferrer">Marcos Paulo Prado</a> on <a href="https://unsplash.com/photos/tcyW6Im5Uug?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText" target="_blank" rel="noopener noreferrer">Unsplash</a></figcaption>
+</figure>
+
 ## Why E-E-A-T Matters More in 2026, Not Less
 
 The framework is nearly a decade old, but its weight has grown as AI-generated and AI-paraphrased content has flooded search results. Recent search-industry analysis found that sites publishing original data gained visibility after the March 2026 Google core update, while AI-paraphrased content lost the large majority of its traffic in the same period. That gap didn't exist when most competing content was human-written by default. The signal that used to separate good SEO from bad SEO is now the signal that separates real expertise from content laundering.
 
 One thing to be precise about: Google doesn't publish an E-E-A-T score. It's a rater framework used to train and evaluate the systems, and no single number ever comes out of it. But the underlying signals it describes, author reputation, factual accuracy, content depth, external validation, correlate strongly enough with both rankings and [AI Overview citations](https://developers.google.com/search/docs/fundamentals/search-quality){:target="_blank" rel="noopener noreferrer"} that you can't treat it as optional anymore.
 
-For context on how those signals get judged in practice, the [official Search Quality Evaluator Guidelines](https://guidelines.raterhub.com/searchqualityevaluatorguidelines.pdf){:target="_blank" rel="noopener noreferrer"} are public, so you can read the exact instructions raters follow. The [SEO CodeBase Auditor skill](https://f9xr.github.io/articles/2026/07/31/f9xr-seo-codebase-auditor-skill-guide/) treats E-E-A-T as one of its 24 audit pillars, checking author schema, trust signals, and factual sourcing in the code itself. And if AI Overviews are part of your traffic plan, [AI visibility optimization](https://f9xr.github.io/services/ai-visibility-optimization.html) covers the citation side of the same framework.
+For context on how those signals get judged in practice, the [official Search Quality Evaluator Guidelines](https://guidelines.raterhub.com/searchqualityevaluatorguidelines.pdf){:target="_blank" rel="noopener noreferrer"} are public, so you can read the exact instructions raters follow. The [SEO CodeBase Auditor skill](https://f9xr.github.io/articles/2026/07/31/f9xr-seo-codebase-auditor-skill-guide.html) treats E-E-A-T as one of its 24 audit pillars, checking author schema, trust signals, and factual sourcing in the code itself. And if AI Overviews are part of your traffic plan, [AI visibility optimization](https://f9xr.github.io/services/ai-visibility-optimization.html) covers the citation side of the same framework.
 
 ## Quick Gut-Check Before You Publish
 
@@ -86,7 +92,7 @@ If you can only ask one question per pillar, ask these:
 
 If any answer is no or not sure, that's the pillar to fix before the page goes live, not after it fails to rank.
 
-Local businesses have a head start on some of these signals when they build citations and profiles correctly. Our [guide to free business directories](https://f9xr.github.io/articles/2026/07/29/free-business-directories-guide/) shows how consistent listings feed the authority and trust side of the checklist, and the [F9XR Team introduction](https://f9xr.github.io/articles/2026/07/27/engineering-digital-growth-introduction-to-f9xr-team/) walks through a full digital presence approach that bakes these trust signals into the build.
+Local businesses have a head start on some of these signals when they build citations and profiles correctly. Our [guide to free business directories](https://f9xr.github.io/articles/2026/07/29/free-business-directories-guide.html) shows how consistent listings feed the authority and trust side of the checklist, and the [F9XR Team introduction](https://f9xr.github.io/articles/2026/07/27/engineering-digital-growth-introduction-to-f9xr-team.html) walks through a full digital presence approach that bakes these trust signals into the build.
 
 ## Key Takeaways
 
@@ -96,7 +102,7 @@ Local businesses have a head start on some of these signals when they build cita
 - Original data gained visibility after the March 2026 core update while AI-paraphrased content lost most of its traffic.
 - Run the checklist against every page before publishing, and fix the weakest pillar first.
 
-## FAQ
+## Related Questions
 
 ### What does E-E-A-T stand for?
 

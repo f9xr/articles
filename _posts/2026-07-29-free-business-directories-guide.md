@@ -49,6 +49,11 @@ Here is why they matter for your business:
 
 Research shows that 67% of consumers check business directories weekly to find local products and services. And businesses with consistent directory listings see up to 4x more visibility in local search results compared to those with incomplete or missing listings.
 
+<figure class="post-figure">
+  <img src="https://images.unsplash.com/photo-1524661135-423995f22d0b?q=80&w=1200&h=800&auto=format&fit=crop" alt="Close-up of a world map with colored pins marking locations" title="Business directories connect you to local search traffic worldwide" width="1200" height="800" loading="lazy" />
+  <figcaption>Photo by <a href="https://unsplash.com/@drwmrk?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText" target="_blank" rel="noopener noreferrer">Andrew Stutesman</a> on <a href="https://unsplash.com/photos/l68Z6eF2peA?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText" target="_blank" rel="noopener noreferrer">Unsplash</a></figcaption>
+</figure>
+
 ---
 
 ## Types of Business Directories You Should Know
@@ -221,6 +226,11 @@ When a user asks ChatGPT "find me a plumber in Austin" or asks Perplexity "what 
 Being listed on high authority directories increases your chances of being cited in AI responses. This is called Answer Engine Optimization or AEO, and it is becoming as important as traditional SEO.
 
 The same consistency, completeness, and authority signals that help you rank on Google also help you get recommended by AI assistants.
+
+<figure class="post-figure">
+  <img src="https://images.unsplash.com/photo-1483478550801-ceba5fe50e8e?q=80&w=1200&h=800&auto=format&fit=crop" alt="Person holding a smartphone in their hands, representing AI search" title="Directory listings feed AI search engines and assistants" width="1200" height="800" loading="lazy" />
+  <figcaption>Photo by <a href="https://unsplash.com/@frostroomhead?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText" target="_blank" rel="noopener noreferrer">Rodion Kutsaiev</a> on <a href="https://unsplash.com/photos/0VGG7cqTwCo?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText" target="_blank" rel="noopener noreferrer">Unsplash</a></figcaption>
+</figure>
 
 ---
 
