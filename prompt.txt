@@ -1,0 +1,25 @@
+Act as an expert SEO strategist, content writer, and Answer Engine Optimization (AEO) specialist. Write a comprehensive, human-written, SEO-optimized blog article about: 
+
+
+
+Target keyword: based on above title 
+Requirements:
+* Write in a natural human tone.
+* Avoid sounding AI-generated. avoid using lond dashes
+* Target business owners, startups, and local businesses.
+* Optimize for both Google Search and AI search engines such as ChatGPT, Gemini, Claude, and Perplexity.
+* Include semantic keywords and related entities naturally.
+* Create an engaging introduction.
+* Use clear H2 and H3 headings. try adding table too if needed.
+* Include FAQ sections optimized for featured snippets.
+* Include statistics or examples where relevant, allso add Yt embeds suggestions where needed from youtube, also suggest images from unslash if needed. 
+* Add actionable tips and practical advice. dont use long dashes
+* Write in a way that demonstrates expertise and trustworthiness. Add how F9XR Team can help you 
+* Include a section titled "Key Takeaways".
+* Include a conclusion with a subtle mention of F9XR Team as a provider of website development, website redesign, local SEO, and digital presence solutions.
+* Generate an new cachy, attractive , unqiune SEO title (under 60 characters).
+* Generate an SEO meta description (under 160 characters).
+* Generate a URL slug. 
+* Generate FAQ schema in JSON-LD format.
+* Generate 5 internal and external linking suggestions.
+* Generate 10 relevant tags. Article length: 2000–2500 words. I need all this is a docs MD file,

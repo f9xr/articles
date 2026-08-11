@@ -83,6 +83,7 @@ permalink: /author/
     "https://github.com/f9xr",
     "https://linkedin.com/company/f9xrteam",
     "https://instagram.com/f9xrteam",
+    "https://www.threads.com/@f9xrteam",
     "https://www.youtube.com/@QuarterlyLIV"
   ],
   "knowsAbout": [

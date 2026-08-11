@@ -180,6 +180,7 @@ Every engagement starts with a **[free website audit](https://f9xr.github.io/pag
 - **Website:** [f9xr.github.io](https://f9xr.github.io)
 - **Email:** tontufytservices@gmail.com
 - **Instagram:** [@f9xrteam](https://instagram.com/f9xrteam){:target="_blank" rel="noopener noreferrer"}
+- **Threads:** [@f9xrteam](https://www.threads.com/@f9xrteam){:target="_blank" rel="noopener noreferrer"}
 - **LinkedIn:** [F9XR Team](https://linkedin.com/company/f9xrteam){:target="_blank" rel="noopener noreferrer"}
 - **GitHub:** [f9xr](https://github.com/f9xr){:target="_blank" rel="noopener noreferrer"}
 - **YouTube:** [QuarterlyLIV](https://www.youtube.com/@QuarterlyLIV){:target="_blank" rel="noopener noreferrer"}
