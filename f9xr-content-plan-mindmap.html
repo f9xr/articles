@@ -1,0 +1,385 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width,initial-scale=1,maximum-scale=1,user-scalable=no">
+<title>F9XR Articles — Content Plan Mind Map</title>
+<style>
+*{margin:0;padding:0;box-sizing:border-box}
+html,body{width:100%;height:100%;overflow:hidden;font-family:'Segoe UI',system-ui,-apple-system,sans-serif;background:#fff;touch-action:none;user-select:none;-webkit-user-select:none}
+#bg{position:fixed;inset:0;z-index:0;background-image:radial-gradient(#d1d5db 1px,transparent 1px);background-size:28px 28px}
+#vp{position:fixed;inset:0;z-index:1;overflow:hidden}
+#world{position:absolute;left:0;top:0;transform-origin:0 0}
+#svg{position:absolute;left:0;top:0;width:1px;height:1px;overflow:visible;z-index:1}
+
+.nd{position:absolute;z-index:5;cursor:pointer;transition:filter .15s,transform .15s}
+.nd:hover{z-index:50;filter:brightness(1.02);transform:scale(1.04)}
+
+.nd-root{width:140px;height:70px;border-radius:20px;background:linear-gradient(135deg,#1e293b,#334155);display:flex;flex-direction:column;align-items:center;justify-content:center;box-shadow:0 8px 32px rgba(30,41,59,.25),0 0 0 3px #e2e8f0;z-index:20}
+.nd-root h2{font-size:16px;font-weight:800;color:#fff;letter-spacing:-.5px}
+.nd-root span{font-size:9px;color:#94a3b8;letter-spacing:1.5px;margin-top:2px}
+
+.nd-silo{height:50px;min-width:105px;border-radius:25px;padding:0 20px;display:flex;align-items:center;gap:8px;z-index:15;box-shadow:0 4px 20px rgba(0,0,0,.12)}
+.nd-silo b{font-size:15px;color:#fff;text-shadow:0 1px 2px rgba(0,0,0,.2)}
+.nd-silo em{font-style:normal;font-size:10px;color:rgba(255,255,255,.75);background:rgba(0,0,0,.15);border-radius:10px;padding:2px 8px;font-weight:700}
+
+.nd-pillar{min-width:150px;padding:10px 16px;background:#fff;border-radius:12px;text-align:center;z-index:12;box-shadow:0 3px 16px rgba(0,0,0,.08)}
+.nd-pillar .tag{font-size:8px;font-weight:800;letter-spacing:1px;text-transform:uppercase}
+.nd-pillar .nm{font-size:12px;font-weight:700;color:#1e293b;margin-top:3px;line-height:1.3}
+
+.nd-hub{min-width:115px;padding:10px 14px;background:#fff;border-radius:12px;text-align:center;z-index:10;box-shadow:0 3px 14px rgba(0,0,0,.07)}
+.nd-hub .nm{font-size:13px;font-weight:700}
+.nd-hub .ct{font-size:10px;color:#64748b;margin-top:2px}
+.nd-hub .lk{display:inline-block;font-size:8px;font-weight:700;padding:3px 8px;border-radius:5px;margin-top:4px}
+.nd-hub .gaps-badge{display:inline-block;font-size:8px;font-weight:700;padding:2px 7px;border-radius:5px;margin-top:3px;background:#dcfce7;color:#15803d;margin-left:3px}
+
+/* Existing post node */
+.nd-post{max-width:155px;padding:8px 11px;background:#fff;border-radius:10px;z-index:6;box-shadow:0 2px 10px rgba(0,0,0,.06)}
+.nd-post .row{display:flex;align-items:flex-start;gap:5px}
+.nd-post .dot{width:7px;height:7px;border-radius:50%;margin-top:3px;flex-shrink:0}
+.nd-post .nm{font-size:11px;font-weight:500;color:#1e293b;line-height:1.35}
+.nd-post .go{font-size:8px;font-weight:700;margin-top:3px;display:block}
+.nd-post .wrn{font-size:8px;color:#92400e;margin-top:3px;background:#fef3c7;padding:2px 6px;border-radius:4px;display:inline-block}
+/* Link pills on posts */
+.nd-post .link-pills{display:flex;flex-wrap:wrap;gap:2px;margin-top:4px}
+.nd-post .lp{font-size:7px;font-weight:700;padding:1px 5px;border-radius:3px;background:#eff6ff;color:#2563eb;white-space:nowrap}
+
+/* GAP node — suggested new content */
+.nd-gap{max-width:155px;padding:8px 11px;border-radius:10px;z-index:6;background:#f0fdf4;border:2px dashed #22c55e80;box-shadow:0 2px 10px rgba(34,197,94,.1)}
+.nd-gap .row{display:flex;align-items:flex-start;gap:5px}
+.nd-gap .plus{width:16px;height:16px;border-radius:50%;background:#22c55e;color:#fff;font-size:12px;font-weight:700;display:flex;align-items:center;justify-content:center;flex-shrink:0;margin-top:1px;line-height:1}
+.nd-gap .nm{font-size:11px;font-weight:600;color:#15803d;line-height:1.35}
+.nd-gap .kw{font-size:8px;color:#4ade80;font-family:monospace;margin-top:3px;display:block}
+.nd-gap .pri{font-size:7px;font-weight:800;padding:2px 6px;border-radius:4px;margin-top:3px;display:inline-block;text-transform:uppercase;letter-spacing:.5px}
+.nd-gap .pri-high{background:#fef2f2;color:#dc2626}
+.nd-gap .pri-med{background:#fffbeb;color:#d97706}
+.nd-gap .pri-low{background:#f0fdf4;color:#16a34a}
+
+#bar{position:fixed;top:0;left:0;right:0;z-index:200;background:rgba(255,255,255,.94);backdrop-filter:blur(16px);-webkit-backdrop-filter:blur(16px);border-bottom:1px solid #e5e7eb;padding:10px 14px}
+#bar h1{font-size:14px;font-weight:800;color:#0f172a;letter-spacing:-.3px}
+#bar p{font-size:10px;color:#64748b;line-height:1.5;margin-top:2px}
+#bar .legend{display:flex;flex-wrap:wrap;gap:8px;margin-top:5px;align-items:center}
+#bar .legend .it{display:flex;align-items:center;gap:3px;font-size:9px;color:#64748b}
+
+.ctrl{position:fixed;z-index:200;display:flex;gap:5px}
+.ctrl button{width:44px;height:44px;border-radius:12px;border:1.5px solid #e2e8f0;background:#fff;font-size:20px;font-weight:600;color:#334155;cursor:pointer;display:flex;align-items:center;justify-content:center;box-shadow:0 2px 10px rgba(0,0,0,.06)}
+.ctrl button:active{background:#f1f5f9}
+#zCtrl{bottom:20px;right:14px;flex-direction:column}
+#zLbl{position:fixed;bottom:26px;left:14px;z-index:200;background:#fff;border:1.5px solid #e2e8f0;border-radius:8px;padding:5px 12px;font-size:11px;color:#64748b;font-weight:700;box-shadow:0 1px 6px rgba(0,0,0,.05)}
+
+/* Toggle for gaps */
+#gapToggle{position:fixed;top:auto;bottom:76px;right:14px;z-index:200;background:#22c55e;color:#fff;border:none;border-radius:12px;padding:8px 12px;font-size:11px;font-weight:700;cursor:pointer;box-shadow:0 3px 12px rgba(34,197,94,.3);display:flex;align-items:center;gap:5px}
+#gapToggle.off{background:#94a3b8}
+</style>
+</head>
+<body>
+<div id="bg"></div>
+
+<div id="bar">
+  <h1>F9XR Articles — Content Plan + Gap Analysis</h1>
+  <p>Tap <b>silo</b> → branches · Tap <b>hub</b> → posts + suggested gaps · Tap <b>post</b> → open page</p>
+  <div class="legend">
+    <div class="it"><span style="display:inline-block;width:10px;height:10px;border-radius:50%;background:#7c3aed"></span> Existing</div>
+    <div class="it"><span style="display:inline-block;width:10px;height:10px;border-radius:5px;border:2px dashed #22c55e;background:#f0fdf4"></span> <b style="color:#15803d">NEW Gap</b></div>
+    <div class="it"><span style="display:inline-block;width:14px;height:9px;border-radius:3px;background:#eff6ff;font-size:6px;color:#2563eb;text-align:center;line-height:9px;font-weight:700">→</span> Link targets</div>
+    <div class="it"><span style="display:inline-block;width:10px;height:10px;border-radius:3px;border:2px solid #f59e0b;background:#fffbeb"></span> Missing pillar</div>
+  </div>
+</div>
+
+<div id="vp"><div id="world"><svg id="svg"></svg></div></div>
+
+<div class="ctrl" id="zCtrl">
+  <button onclick="Z(1)">+</button>
+  <button onclick="Z(-1)">−</button>
+  <button onclick="RESET()">↺</button>
+</div>
+<div id="zLbl">42%</div>
+<button id="gapToggle" onclick="toggleGaps()">✦ Gaps ON</button>
+
+<script>
+const B="https://f9xr.github.io/articles";
+let showGaps=true;
+
+const SL=[
+{id:"perf",n:"Web Performance",c:"#16a34a",p:{t:"⚠ Web Performance Pillar",u:""},b:[
+{h:"Speed & Core Web Vitals",lk:"→ Pillar",ps:[
+],gaps:[
+{t:"How to Pass Core Web Vitals",kw:"core web vitals technical guide",pri:"high"},
+{t:"CLS Fixes for WordPress Sites",kw:"fix cumulative layout shift wordpress",pri:"high"},
+{t:"Improve LCP Score in 2026",kw:"improve lcp score 2026",pri:"high"},
+]},
+{h:"Lighthouse & Audits",lk:"→ Pillar",ps:[
+],gaps:[
+{t:"Reading Your Lighthouse Report",kw:"lighthouse report what matters",pri:"med"},
+{t:"SEO Audit Checklist 2026",kw:"seo audit checklist 2026",pri:"high"},
+]},
+{h:"Hosting & CDN",lk:"→ Pillar",ps:[
+],gaps:[
+{t:"How Hosting Choice Affects TTFB",kw:"time to first byte hosting",pri:"med"},
+]},
+{h:"Mobile Performance",lk:"→ Pillar",ps:[
+{t:"Why Go Mobile-First in 2026",u:"/2026/08/03/why-go-mobile-first/",ln:["Pillar","Speed Hub"]},
+],gaps:[
+]},
+]},
+
+{id:"ai",n:"AI Integration",c:"#7c3aed",p:{t:"⚠ AI Integration Pillar",u:""},b:[
+{h:"AI Skills & Tools",lk:"→ Pillar",ps:[
+{t:"7 AI Skills Saving Marketers 20+ Hours Weekly",u:"/2026/08/11/ai-skills-saving-marketers-20-hours-weekly/",ln:["Pillar","Workflow Hub"]},
+],gaps:[
+]},
+{h:"Chatbots & GPT",lk:"→ Pillar",ps:[
+],gaps:[
+{t:"Building a GPT Chatbot for Your Business",kw:"build gpt chatbot for website cost",pri:"high"},
+]},
+{h:"Workflow Automation",lk:"→ Pillar",ps:[
+],gaps:[
+{t:"Automating Lead Capture with AI Workflows",kw:"ai lead generation automation",pri:"high"},
+]},
+{h:"Content Generation",lk:"→ Pillar",ps:[
+],gaps:[
+{t:"Using AI for Content: Where It Works",kw:"ai for content creation",pri:"med"},
+]},
+{h:"Smart Scoring",lk:"→ Pillar",ps:[
+],gaps:[
+{t:"Behavioral Lead Scoring with AI Pipelines",kw:"ai lead scoring pipeline",pri:"med"},
+]},
+]},
+
+{id:"local",n:"Local SEO",c:"#0284c7",p:{t:"⚠ Local SEO Pillar",u:""},b:[
+{h:"Google Business Profile",lk:"→ Pillar",ps:[
+],gaps:[
+{t:"Google Business Profile Audit",kw:"google business profile audit checklist",pri:"high"},
+]},
+{h:"Citations & Directories",lk:"→ Pillar + Links Hub",ps:[
+{t:"Free Business Directories to Boost Local SEO",u:"/2026/07/29/free-business-directories-guide/",ln:["Pillar","Link Building Hub"]},
+],gaps:[
+{t:"Local Citations: Where to List Your Business",kw:"local citations for small business",pri:"med"},
+]},
+{h:"Review Strategy",lk:"→ Pillar",ps:[
+],gaps:[
+{t:"Building a Review Generation System",kw:"how to get more google reviews",pri:"med"},
+]},
+{h:"Local Rank Tracking",lk:"→ Pillar",ps:[
+],gaps:[
+{t:"Track Local Rankings Without Expensive Tools",kw:"track local keyword rankings free",pri:"med"},
+]},
+{h:"Small Business Growth",lk:"→ Pillar",ps:[
+{t:"10 Small Business Trends in India for 2026",u:"/2026/08/08/small-indian-business-trends-2026/",ln:["Pillar"]},
+],gaps:[
+]},
+{h:"Link Building",lk:"→ Pillar + Citations Hub",ps:[
+{t:"Get Backlinks in 2026: Free &amp; Paid AI Methods",u:"/2026/08/07/get-backlinks-2026-free-paid-ai-methods/",ln:["Pillar","Citations Hub"]},
+],gaps:[
+{t:"Guest Posting Strategy That Works",kw:"guest posting strategy 2026",pri:"med"},
+{t:"Broken Link Building Guide",kw:"broken link building",pri:"low"},
+]},
+]},
+
+{id:"arch",n:"Digital Architecture",c:"#0d9488",p:{t:"⚠ Architecture Pillar",u:""},b:[
+{h:"Static Sites & Jekyll",lk:"→ Pillar",ps:[
+],gaps:[
+{t:"Why Static Sites Still Win for Content-First Projects",kw:"jekyll vs wordpress for blog 2026",pri:"high"},
+{t:"Netlify vs Cloudflare Pages vs GitHub Pages",kw:"github pages vs netlify vs cloudflare",pri:"med"},
+]},
+{h:"Framework Choices",lk:"→ Pillar",ps:[
+],gaps:[
+{t:"WordPress vs Custom Build: Choosing the Right Stack",kw:"wordpress vs custom build",pri:"med"},
+]},
+{h:"Web Security",lk:"→ Pillar",ps:[
+],gaps:[
+{t:"Security Headers Every Site Should Have",kw:"security headers checklist",pri:"med"},
+]},
+{h:"Monitoring",lk:"→ Pillar",ps:[
+],gaps:[
+{t:"Uptime Monitoring for Client Sites",kw:"uptime monitoring setup",pri:"low"},
+]},
+]},
+
+{id:"tech",n:"Technical SEO",c:"#ea580c",p:{t:"⚠ Technical SEO Pillar",u:""},b:[
+{h:"SEO Audits & Tools",lk:"→ Pillar + Codebase Hub",ps:[
+{t:"F9XR SEO CodeBase Auditor: 24 Pillars, One Command",u:"/2026/07/31/f9xr-seo-codebase-auditor-skill-guide/",ln:["Pillar","Codebase Hub"]},
+],gaps:[
+{t:"Technical SEO Audit Checklist 2026",kw:"technical seo audit checklist",pri:"high"},
+]},
+{h:"Codebase & TXT Files",lk:"→ Pillar + Audits Hub",ps:[
+{t:"Essential Txt Files for SEO, AEO &amp; GEO in 2026",u:"/2026/08/08/essential-txt-files-seo-aeo-geo-2026/",ln:["Pillar","Audits Hub"]},
+],gaps:[
+{t:"llms.txt Strategy for AI Search Visibility",kw:"llms.txt best practices",pri:"med"},
+]},
+{h:"Content Quality & E-E-A-T",lk:"→ Pillar",ps:[
+{t:"The 1-Page Google E-E-A-T Checklist Every SEO Should Bookmark",u:"/2026/08/04/google-e-e-a-t-checklist-every-seo-should-bookmark/",ln:["Pillar","Content Hub"]},
+],gaps:[
+{t:"Answer Engine Optimization (AEO) Guide",kw:"answer engine optimization",pri:"high"},
+{t:"Generative Engine Optimization (GEO) Guide",kw:"generative engine optimization",pri:"med"},
+]},
+{h:"Case Studies & Deep-Dives",lk:"→ Pillar + All Silos",ps:[
+{t:"Engineering Digital Growth with F9XR Team",u:"/2026/07/27/engineering-digital-growth-introduction-to-f9xr-team/",ln:["Pillar","All Silos"]},
+],gaps:[
+{t:"From 40 to 95 Lighthouse Score: A Migration Story",kw:"lighthouse score migration case study",pri:"high"},
+{t:"Schema Markup for a Multi-Location Business",kw:"schema markup multi location business",pri:"med"},
+]},
+]},
+];
+
+// ═══════ ENGINE ═══════
+let exS=new Set(["perf"]),exH=new Set(),nPos={},edgeArr=[],chMap={};
+let pan={x:0,y:0},zm=0.42,drag=null,moved=0,pinchD=0,pinchZ=0;
+const R1=370,R2=280,R3=190;
+const svgEl=document.getElementById('svg'),world=document.getElementById('world');
+const OFF={root:[-70,-35],silo:[-56,-25],pillar:[-80,-32],hub:[-62,-38],post:[-75,-28],gap:[-75,-28]};
+
+function allItems(hub){return [...hub.ps,...(showGaps&&hub.gaps?hub.gaps.map(g=>({...g,isGap:true})):[])]}
+
+function layout(){
+  const p={},e=[],ch={};
+  p.root=nPos.root||{x:0,y:0};ch.root=[];
+  const n=SL.length,st=2*Math.PI/n;
+  SL.forEach((s,i)=>{
+    const a=-Math.PI/2+st*i,sx=Math.cos(a)*R1,sy=Math.sin(a)*R1;
+    p[s.id]=nPos[s.id]||{x:sx,y:sy};ch.root.push(s.id);ch[s.id]=[];
+    e.push({f:'root',t:s.id,c:s.c,w:5});
+    if(exS.has(s.id)){
+      const pid=s.id+'_p';
+      p[pid]=nPos[pid]||{x:p[s.id].x+Math.cos(a)*130,y:p[s.id].y+Math.sin(a)*130};
+      ch[s.id].push(pid);ch[pid]=[];
+      e.push({f:s.id,t:pid,c:s.c,w:3,d:1});
+      const hubs=s.b,sp=Math.min(st*.82,Math.PI*.6),hSt=hubs.length>1?sp/(hubs.length-1):0,hA=a-sp/2;
+      hubs.forEach((hub,hi)=>{
+        const ha=hubs.length>1?hA+hSt*hi:a,hid=s.id+'-'+hi;
+        p[hid]=nPos[hid]||{x:p[s.id].x+Math.cos(ha)*R2,y:p[s.id].y+Math.sin(ha)*R2};
+        ch[s.id].push(hid);ch[hid]=[];
+        e.push({f:s.id,t:hid,c:s.c,w:3.5});
+        if(exH.has(hid)){
+          const items=allItems(hub);
+          const pSp=Math.min(hSt||st*.5,Math.PI*.45),pSt=items.length>1?pSp/(items.length-1):0,pA=ha-pSp/2;
+          items.forEach((item,pi)=>{
+            const pa=items.length>1?pA+pSt*pi:ha,postId=hid+'-'+pi;
+            p[postId]=nPos[postId]||{x:p[hid].x+Math.cos(pa)*R3,y:p[hid].y+Math.sin(pa)*R3};
+            ch[hid].push(postId);ch[postId]=[];
+            e.push({f:hid,t:postId,c:item.isGap?'#22c55e':s.c,w:item.isGap?1.5:2,d:item.isGap?1:0});
+          });
+        }
+      });
+    }
+  });
+  nPos=p;edgeArr=e;chMap=ch;
+}
+
+function desc(id){const r=[],k=chMap[id]||[];k.forEach(c=>{r.push(c);r.push(...desc(c))});return r}
+
+function meta(id){
+  if(id==='root')return{tp:'root'};
+  for(const s of SL){
+    if(s.id===id)return{tp:'silo',s};
+    if(id===s.id+'_p')return{tp:'pillar',s};
+    for(let i=0;i<s.b.length;i++){
+      const h=s.id+'-'+i;
+      if(id===h)return{tp:'hub',s,h:s.b[i],hi:i};
+      const items=allItems(s.b[i]);
+      for(let j=0;j<items.length;j++){
+        if(id===h+'-'+j){
+          const item=items[j];
+          return item.isGap?{tp:'gap',s,g:item}:{tp:'post',s,p:item};
+        }
+      }
+    }
+  }
+  return null;
+}
+
+function bz(x1,y1,x2,y2){const dx=x2-x1;return`M${x1} ${y1}C${x1+dx*.45} ${y1} ${x2-dx*.45} ${y2} ${x2} ${y2}`}
+
+function drawRopes(){
+  let h='';
+  edgeArr.forEach(e=>{
+    const a=nPos[e.f],b=nPos[e.t];if(!a||!b)return;
+    const d=bz(a.x,a.y,b.x,b.y);
+    h+=`<path d="${d}" stroke="${e.c}" stroke-width="${e.w+8}" fill="none" stroke-linecap="round" opacity=".07"/>`;
+    h+=`<path d="${d}" stroke="${e.c}" stroke-width="${e.w}" fill="none" stroke-linecap="round" opacity="${e.d?.35:.55}"${e.d?' stroke-dasharray="8 5"':''}/>`;
+    h+=`<circle cx="${a.x}" cy="${a.y}" r="${Math.min(e.w*.6,3)}" fill="${e.c}" opacity=".3"/>`;
+    h+=`<circle cx="${b.x}" cy="${b.y}" r="${Math.min(e.w*.6,3)}" fill="${e.c}" opacity=".3"/>`;
+  });
+  svgEl.innerHTML=h;
+}
+
+function drawNodes(){
+  world.querySelectorAll('.nd').forEach(e=>e.remove());
+  Object.keys(nPos).forEach(id=>{
+    const p=nPos[id],m=meta(id);if(!m)return;
+    const d=document.createElement('div');d.className='nd';d.dataset.nid=id;
+    const o=OFF[m.tp]||[-50,-20];
+
+    if(m.tp==='root'){
+      d.className+=' nd-root';
+      d.innerHTML='<h2>F9XR Articles</h2><span>CONTENT PLAN</span>';
+    }else if(m.tp==='silo'){
+      d.className+=' nd-silo';
+      const ct=m.s.b.reduce((a,b)=>a+b.ps.length,0);
+      const gc=m.s.b.reduce((a,b)=>a+(b.gaps?b.gaps.length:0),0);
+      d.style.background=m.s.c;d.style.boxShadow='0 4px 24px '+m.s.c+'40'+(exS.has(id)?',0 0 0 4px '+m.s.c+'50':'');
+      d.innerHTML=`<b>${m.s.n}</b><em>${ct}${showGaps&&gc?' +'+gc:''}</em>`;
+    }else if(m.tp==='pillar'){
+      d.className+=' nd-pillar';const w=m.s.p.t.startsWith('⚠');
+      d.style.border='3px solid '+(w?'#f59e0b':m.s.c);if(w)d.style.background='#fffbeb';
+      d.innerHTML=`<div class="tag" style="color:${w?'#b45309':m.s.c}">${w?'⚠ MISSING PILLAR':'★ PILLAR PAGE'}</div><div class="nm">${m.s.p.t}</div>`;
+    }else if(m.tp==='hub'){
+      d.className+=' nd-hub';const gc=m.h.gaps?m.h.gaps.length:0;
+      d.style.borderLeft='5px solid '+m.s.c;d.style.boxShadow='0 3px 14px rgba(0,0,0,.07)'+(exH.has(id)?',0 0 0 3px '+m.s.c+'30':'');
+      d.innerHTML=`<div class="nm" style="color:${m.s.c}">${m.h.h}</div><div class="ct">${m.h.ps.length} posts</div>${m.h.lk?`<div class="lk" style="background:${m.s.c}12;color:${m.s.c}">${m.h.lk}</div>`:''}${showGaps&&gc?`<div class="gaps-badge">+${gc} gaps</div>`:''}`;
+    }else if(m.tp==='post'){
+      d.className+=' nd-post';const w=m.p.w;
+      d.style.border='1.5px solid '+(w?'#fbbf24':m.s.c+'28');if(w)d.style.background='#fffbeb';
+      let lnk='';
+      if(m.p.ln&&m.p.ln.length){lnk='<div class="link-pills">'+m.p.ln.map(l=>'<span class="lp">→'+l+'</span>').join('')+'</div>';}
+      d.innerHTML=`<div class="row"><span class="dot" style="background:${m.s.c}"></span><span class="nm">${m.p.t}</span></div>${w?'<div class="wrn">⚠ '+w+'</div>':''}${lnk}<span class="go" style="color:${m.s.c}">↗ Open</span>`;
+    }else if(m.tp==='gap'){
+      d.className+=' nd-gap';
+      const pc=m.g.pri==='high'?'pri-high':m.g.pri==='med'?'pri-med':'pri-low';
+      d.innerHTML=`<div class="row"><span class="plus">+</span><span class="nm">${m.g.t}</span></div><span class="kw">🎯 ${m.g.kw}</span><span class="pri ${pc}">${m.g.pri} priority</span>`;
+    }
+    d.style.left=(p.x+o[0])+'px';d.style.top=(p.y+o[1])+'px';
+    world.appendChild(d);
+  });
+}
+
+function updateTransform(){const vw=innerWidth,vh=innerHeight;world.style.transform=`translate(${vw/2+pan.x}px,${vh/2+pan.y}px) scale(${zm})`;document.getElementById('zLbl').textContent=Math.round(zm*100)+'%'}
+function render(){layout();drawRopes();drawNodes();updateTransform()}
+
+function gp(e){const t=e.touches?e.touches[0]:e;return{x:t.clientX,y:t.clientY}}
+document.getElementById('vp').addEventListener('pointerdown',function(e){
+  const nd=e.target.closest('.nd');const pp=gp(e);moved=0;
+  if(nd){const snap={};for(const k in nPos)snap[k]={...nPos[k]};drag={tp:'node',id:nd.dataset.nid,sx:pp.x,sy:pp.y,snap}}
+  else{drag={tp:'pan',sx:pp.x-pan.x,sy:pp.y-pan.y}}
+});
+document.addEventListener('pointermove',function(e){
+  if(!drag)return;const pp=gp(e);
+  if(drag.tp==='pan'){const nx=pp.x-drag.sx,ny=pp.y-drag.sy;moved+=Math.abs(nx-pan.x)+Math.abs(ny-pan.y);pan.x=nx;pan.y=ny;updateTransform()}
+  else{const dx=(pp.x-drag.sx)/zm,dy=(pp.y-drag.sy)/zm;moved+=Math.abs(dx)+Math.abs(dy);
+    const ids=[drag.id,...desc(drag.id)],snap=drag.snap;
+    ids.forEach(nid=>{if(snap[nid])nPos[nid]={x:snap[nid].x+dx,y:snap[nid].y+dy}});
+    drawRopes();
+    ids.forEach(nid=>{const el=world.querySelector(`[data-nid="${nid}"]`);if(!el||!nPos[nid])return;const p=nPos[nid],m=meta(nid),o=OFF[m.tp]||[-50,-20];el.style.left=(p.x+o[0])+'px';el.style.top=(p.y+o[1])+'px'});
+  }
+});
+document.addEventListener('pointerup',function(){
+  if(!drag)return;const d=drag;drag=null;
+  if(moved<10){const m=meta(d.id);if(!m)return;
+    if(m.tp==='silo'){if(exS.has(d.id)){exS.delete(d.id);m.s.b.forEach((_,i)=>exH.delete(d.id+'-'+i))}else exS.add(d.id);render()}
+    else if(m.tp==='hub'){exH.has(d.id)?exH.delete(d.id):exH.add(d.id);render()}
+    else if(m.tp==='pillar'&&m.s.p.u){window.open(B+m.s.p.u,'_blank')}
+    else if(m.tp==='post'&&m.p.u){window.open(B+m.p.u,'_blank')}
+  }
+});
+document.getElementById('vp').addEventListener('touchstart',function(e){if(e.touches.length===2){e.preventDefault();pinchD=Math.hypot(e.touches[0].clientX-e.touches[1].clientX,e.touches[0].clientY-e.touches[1].clientY);pinchZ=zm}},{passive:false});
+document.addEventListener('touchmove',function(e){if(e.touches.length===2&&pinchD){e.preventDefault();const d=Math.hypot(e.touches[0].clientX-e.touches[1].clientX,e.touches[0].clientY-e.touches[1].clientY);zm=Math.max(.12,Math.min(2.5,pinchZ*(d/pinchD)));updateTransform()}},{passive:false});
+document.addEventListener('touchend',()=>{pinchD=0});
+
+function Z(dir){zm=Math.max(.12,Math.min(2.5,zm+dir*.1));updateTransform()}
+function RESET(){pan={x:0,y:0};zm=.42;exS=new Set(["perf"]);exH=new Set();nPos={};render()}
+function toggleGaps(){showGaps=!showGaps;document.getElementById('gapToggle').textContent=showGaps?'✦ Gaps ON':'✦ Gaps OFF';document.getElementById('gapToggle').className=showGaps?'':'off';nPos={};exH=new Set();render()}
+
+render();
+</script>
+</body>
+</html>
