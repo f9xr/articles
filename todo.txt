@@ -25,3 +25,5 @@ Top claude code skills every marketing agency needs
 
 Make blogs on tools
 Data cleaning
+
+mindmap
