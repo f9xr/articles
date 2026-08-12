@@ -64,13 +64,13 @@ Less flashy than the others on this list, but arguably the most foundational. [s
 
 ### 4. ReactBits
 
-A large, growing collection of free animated React components and effects, text animations, backgrounds, interactive buttons, organized for developers who want one particular effect rather than a whole design system.
+[ReactBits](https://reactbits.dev){:target="_blank" rel="noopener noreferrer"} is a large, growing collection of free animated React components and effects, text animations, backgrounds, interactive buttons, organized for developers who want one particular effect rather than a whole design system.
 
 **When to reach for it:** when you know exactly what single effect you're missing, like a specific text reveal animation or interactive background, and don't want to build it from scratch.
 
 ### 5. Motion Primitives
 
-A focused library of animation components built on Framer Motion, designed to make adding smooth, professional feeling transitions and micro interactions far easier than writing custom animation code from scratch.
+[Motion Primitives](https://motion-primitives.com){:target="_blank" rel="noopener noreferrer"} is a focused library of animation components built on Framer Motion, designed to make adding smooth, professional feeling transitions and micro interactions far easier than writing custom animation code from scratch.
 
 **Where you'll recognize this style:** the smooth, understated page transitions and element reveals used across countless modern product and portfolio sites.
 
@@ -78,7 +78,7 @@ A focused library of animation components built on Framer Motion, designed to ma
 
 ### 6. Hover.dev
 
-A collection of free, copy paste Tailwind CSS components with a strong focus on hover states and interactive details, the small touches that make a site feel responsive and alive rather than static.
+[Hover.dev](https://www.hover.dev){:target="_blank" rel="noopener noreferrer"} is a collection of free, copy paste Tailwind CSS components with a strong focus on hover states and interactive details, the small touches that make a site feel responsive and alive rather than static.
 
 **When to reach for it:** buttons, cards, and navigation elements that currently have no hover feedback at all, one of the fastest, cheapest upgrades you can make to a vibe coded site.
 
@@ -92,7 +92,7 @@ A collection of free, copy paste Tailwind CSS components with a strong focus on 
 
 ### 8. Rive
 
-A tool for creating lightweight, interactive vector animations that respond to user input, think animated icons, loading states, and illustrations that react to clicks or scrolling, all optimized to stay fast on real websites.
+[Rive](https://rive.app){:target="_blank" rel="noopener noreferrer"} is a tool for creating lightweight, interactive vector animations that respond to user input, think animated icons, loading states, and illustrations that react to clicks or scrolling, all optimized to stay fast on real websites.
 
 **When to reach for it:** icons, empty states, and small illustrative moments that need to feel polished without the performance cost of heavier animation formats.
 
@@ -104,13 +104,13 @@ A tool for creating lightweight, interactive vector animations that respond to u
 
 ### 10. Haikei
 
-A free generator for custom SVG backgrounds, blobs, waves, gradients, and abstract shapes, that produces unique, on brand visuals instead of the same three gradient presets showing up on every other AI built site.
+[Haikei](https://haikei.app){:target="_blank" rel="noopener noreferrer"} is a free generator for custom SVG backgrounds, blobs, waves, gradients, and abstract shapes, that produces unique, on brand visuals instead of the same three gradient presets showing up on every other AI built site.
 
 **When to reach for it:** section backgrounds and dividers, anywhere you'd otherwise reach for a generic gradient or stock background pattern.
 
 ### 11. Blobmaker (or a Mesh Gradient Generator)
 
-A simple, free tool for generating organic, custom blob shapes and mesh gradients that can be dropped in as background elements or decorative accents, giving a site visual texture without relying on stock imagery.
+[Blobmaker](https://www.blobmaker.app){:target="_blank" rel="noopener noreferrer"} is a simple, free tool for generating organic, custom blob shapes and mesh gradients that can be dropped in as background elements or decorative accents, giving a site visual texture without relying on stock imagery.
 
 **When to reach for it:** hero backgrounds and accent shapes where you want depth and color without commissioning custom illustration work.
 

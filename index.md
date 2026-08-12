@@ -59,6 +59,44 @@ keywords: "F9XR Articles, engineering digital growth, web architecture, AI integ
   </div>
 </section>
 
+<section class="velocity-hero" id="velocity-hero">
+  <p class="velocity-eyebrow"><i class="fa-solid fa-arrow-down" style="font-size:0.8em;"></i> Scroll to explore</p>
+  <h2 class="velocity-title">Engineering digital growth<br>that <span>moves</span> your business</h2>
+  <p class="velocity-sub">Scroll-driven motion, performance insights, and practical strategies from the F9XR Team. The faster you scroll, the harder this hero reacts.</p>
+  <div class="velocity-marquee" aria-hidden="true">
+    <div class="velocity-marquee-track">
+      <span>F9XR Articles</span><span>Web Performance</span><span>AI Integration</span><span>Local SEO</span><span>Technical Insights</span><span>Architecture Notes</span><span>Core Web Vitals</span>
+      <span>F9XR Articles</span><span>Web Performance</span><span>AI Integration</span><span>Local SEO</span><span>Technical Insights</span><span>Architecture Notes</span><span>Core Web Vitals</span>
+    </div>
+  </div>
+</section>
+
+<script>
+(function() {
+  var hero = document.getElementById('velocity-hero');
+  if (!hero || window.matchMedia('(prefers-reduced-motion: reduce)').matches) return;
+  var lastY = window.pageYOffset;
+  var vel = 0;
+  var raf = null;
+  function update() {
+    var speed = Math.min(Math.abs(vel) / 900, 1);
+    hero.style.setProperty('--vel', speed.toFixed(3));
+    var progress = Math.min(window.pageYOffset / window.innerHeight, 1);
+    hero.style.setProperty('--scroll', progress.toFixed(3));
+    vel *= 0.9;
+    raf = null;
+  }
+  function onScroll() {
+    var y = window.pageYOffset;
+    vel = vel * 0.8 + (y - lastY) * 0.6;
+    lastY = y;
+    if (!raf) raf = requestAnimationFrame(update);
+  }
+  window.addEventListener('scroll', onScroll, { passive: true });
+  update();
+})();
+</script>
+
 {% if site.posts.size > 0 %}
 
 <section class="index-section">
@@ -129,6 +167,49 @@ keywords: "F9XR Articles, engineering digital growth, web architecture, AI integ
   </div>
 </section>
 {% endif %}
+
+<section class="index-section">
+  <h2 class="index-section-title"><i class="fa-solid fa-calendar-days" style="color:#3b82f6; font-size:0.8em;"></i> Articles by Month</h2>
+  <div class="index-accordion">
+    {% assign posts_by_month = site.posts | group_by_exp: "post", "post.date | date: '%B %Y'" %}
+    {% for group in posts_by_month %}
+    <details class="accordion-item"{% if forloop.first %} open{% endif %}>
+      <summary class="accordion-header">
+        <span class="accordion-title">{{ group.name }}</span>
+        <span class="accordion-count">{{ group.items.size }} article{% if group.items.size != 1 %}s{% endif %}</span>
+        <span class="accordion-chevron"><i class="fa-solid fa-chevron-down"></i></span>
+      </summary>
+      <div class="accordion-body">
+        <ul class="accordion-list">
+          {% for post in group.items %}
+          <li class="accordion-link">
+            <a href="{{ post.url | relative_url }}" itemscope itemtype="https://schema.org/Article">
+              <span class="accordion-link-title" itemprop="headline">{{ post.title | escape }}</span>
+              <span class="accordion-link-date"><time datetime="{{ post.date | date: '%Y-%m-%d' }}" itemprop="datePublished">{{ post.date | date: "%b %d" }}</time></span>
+            </a>
+          </li>
+          {% endfor %}
+        </ul>
+      </div>
+    </details>
+    {% endfor %}
+  </div>
+</section>
+
+<script>
+(function() {
+  var items = Array.prototype.slice.call(document.querySelectorAll('.index-accordion .accordion-item'));
+  items.forEach(function(item) {
+    item.addEventListener('toggle', function() {
+      if (item.open) {
+        items.forEach(function(other) {
+          if (other !== item) other.open = false;
+        });
+      }
+    });
+  });
+})();
+</script>
 
 <section class="index-section">
   <h2 class="index-section-title"><i class="fa-solid fa-tags" style="color:#00ff88; font-size:0.8em;"></i> Browse by Topic</h2>
