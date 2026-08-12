@@ -28,6 +28,10 @@ faq:
   <iframe src="https://www.youtube.com/embed/l-52kGRwH_Y" title="F9XR Team — Watch and How We Do" style="position:absolute; top:0; left:0; width:100%; height:100%; border:0;" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen loading="lazy"></iframe>
 </div>
 
+<div class="youtube-embed" style="position:relative; padding-bottom:56.25%; height:0; overflow:hidden; margin-bottom:2em;">
+  <iframe src="https://www.youtube.com/embed/Deq0tMGHGIM" title="Introduction to the F9XR Team" style="position:absolute; top:0; left:0; width:100%; height:100%; border:0;" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen loading="lazy"></iframe>
+</div>
+
 ## Engineering Digital Growth with F9XR Team
 
 In a digital landscape saturated with generic templates and surface-level web design, **F9XR Team** takes a fundamentally different approach. We are a digital architecture agency based in India with a global client footprint, focused on building [high-performance web ecosystems](https://f9xr.github.io/pages/services.html), AI-powered systems, and [local SEO infrastructure](https://f9xr.github.io/services/google-business-optimization.html) that generates measurable revenue.

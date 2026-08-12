@@ -8,6 +8,7 @@ image_height: 820
 date: 2026-07-29
 dateModified: 2026-07-30
 author: "F9XR Team"
+youtube_id: "nclSgwuT8sw"
 tags: [free business directories, business directory listing, local SEO, online business listing, backlink building, small business marketing, startup growth, digital presence, citation building, F9XR Directories]
 keywords: "free business directories, business directory listing, local SEO, online business listing, backlink building, small business marketing, startup directory, citation building, Google Business Profile, F9XR Directories"
 faq:
@@ -30,6 +31,10 @@ The missing piece is often simpler than you think. Your business is not listed w
 Free business directories solve this. They put your name, address, phone number, and website on platforms that customers and search engines already trust. And they cost you nothing but time.
 
 This guide covers everything you need to know about free business directories. What they are, why they still work in 2026, which ones matter most, and how to submit your business without wasting hours.
+
+<div class="youtube-embed" style="position:relative; padding-bottom:56.25%; height:0; overflow:hidden; margin-bottom:2em;">
+  <iframe src="https://www.youtube.com/embed/nclSgwuT8sw" title="Free business directories explained" style="position:absolute; top:0; left:0; width:100%; height:100%; border:0;" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen loading="lazy"></iframe>
+</div>
 
 ---
 
@@ -147,6 +152,10 @@ F9XR Directories curates over 100 of these platforms in one place, organized by 
 ## How to Submit Your Business to Free Directories
 
 Follow this step by step process to get the most value from every submission.
+
+<div class="youtube-embed" style="position:relative; padding-bottom:56.25%; height:0; overflow:hidden; margin-bottom:2em;">
+  <iframe src="https://www.youtube.com/embed/qWqY24VJKI0" title="How to submit your business to free directories" style="position:absolute; top:0; left:0; width:100%; height:100%; border:0;" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen loading="lazy"></iframe>
+</div>
 
 ### Step 1: Prepare Your Business Information
 

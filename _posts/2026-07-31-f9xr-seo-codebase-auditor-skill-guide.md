@@ -8,6 +8,7 @@ image_height: 630
 image_credit: "Photo by <a href=\"https://unsplash.com/@kmuza?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText\" target=\"_blank\" rel=\"noopener noreferrer\">Carlos Muza</a> on <a href=\"https://unsplash.com/photos/hpjSkU2UYSU?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText\" target=\"_blank\" rel=\"noopener noreferrer\">Unsplash</a>"
 date: 2026-07-31
 author: "F9XR Team"
+youtube_id: "05cr4W9uyAA"
 tags: [SEO CodeBase Auditor, technical SEO audit, on-page SEO, Core Web Vitals, structured data, internal linking, SEO automation, AI SEO audit, website audit, F9XR]
 keywords: "SEO CodeBase Auditor, SEO codebase audit, technical SEO audit, 24 pillar SEO audit, on-page SEO, Core Web Vitals, structured data, internal linking, AI SEO audit, F9XR Team"
 faq:
@@ -26,6 +27,10 @@ faq:
 SEO problems hide in code, not in content. A page can look perfect in a browser and still fail search engines because the title tag is missing, the images have no dimensions, or the schema is invalid. You rarely see those issues on the screen. You see them as rankings that slowly slide, months after a site ships.
 
 This guide shows you how to catch those problems before they cost you. You'll learn how to use F9XR's [SEO CodeBase Auditor skill](https://f9xr.github.io/seo-audit-report-skill/) to run a 24-pillar SEO audit against your actual source code and get back a report where every finding comes with the exact fix.
+
+<div class="youtube-embed" style="position:relative; padding-bottom:56.25%; height:0; overflow:hidden; margin-bottom:2em;">
+  <iframe src="https://www.youtube.com/embed/05cr4W9uyAA" title="Watch the F9XR SEO CodeBase Auditor in action" style="position:absolute; top:0; left:0; width:100%; height:100%; border:0;" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen loading="lazy"></iframe>
+</div>
 
 ## Why a Code-Level SEO Audit Beats a Crawler
 
