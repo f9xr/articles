@@ -89,7 +89,7 @@ mindmap
   <figcaption>AI search tools now answer a growing share of business questions directly. Being cited here is a separate skill from ranking on Google.</figcaption>
 </figure>
 
-## Foundation first: giving AI crawlers access
+## Foundation first: giving AI crawlers access:
 
 ### 1. Check that your robots.txt isn't accidentally blocking AI crawlers
 

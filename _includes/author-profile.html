@@ -1,0 +1,55 @@
+{% assign ap = site.data.authors[include.author_key] %}
+{% assign ap_name = ap.name | default: include.author_key %}
+{% assign ap_avatar = ap.avatar | default: 'https://f9xr.github.io/logo.webp' | relative_url %}
+{% assign ap_role = ap.role | default: 'Author at F9XR Articles' %}
+
+<div class="author-page">
+  <a href="{{ '/' | relative_url }}" class="author-back"><i class="fa-solid fa-arrow-left" style="font-size:0.72em;"></i> All Articles</a>
+
+  <header class="author-hero">
+    <img src="{{ ap_avatar }}" alt="{{ ap_name }}" width="96" height="96" loading="eager">
+    <div class="author-hero-info">
+      <h1 class="author-name">{{ ap_name }}</h1>
+      <p class="author-role">{{ ap_role }}</p>
+      <div class="author-actions">
+        {% if ap.linkedin %}
+        <a href="{{ ap.linkedin }}" target="_blank" rel="noopener noreferrer" class="author-btn author-btn-linkedin"><i class="fa-brands fa-linkedin-in"></i> LinkedIn</a>
+        {% endif %}
+        <a href="{{ '/archive.html' | relative_url }}" class="author-btn author-btn-ghost"><i class="fa-solid fa-newspaper"></i> Articles</a>
+      </div>
+    </div>
+  </header>
+
+  <div class="author-bio">
+    {{ include.bio | markdownify }}
+  </div>
+
+  <section class="author-section author-connect">
+    <h2 class="author-section-title"><i class="fa-solid fa-link" style="color:#3b82f6; font-size:0.8em;"></i> Connect</h2>
+    <div class="author-actions">
+      {% if ap.linkedin %}
+      <a href="{{ ap.linkedin }}" target="_blank" rel="noopener noreferrer" class="author-btn author-btn-linkedin"><i class="fa-brands fa-linkedin-in"></i> LinkedIn</a>
+      {% endif %}
+      <a href="mailto:{{ site.email }}" class="author-btn author-btn-ghost"><i class="fa-solid fa-envelope"></i> Email</a>
+      <a href="{{ '/archive.html' | relative_url }}" class="author-btn author-btn-ghost"><i class="fa-solid fa-newspaper"></i> Browse Articles</a>
+    </div>
+  </section>
+</div>
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "Person",
+  "name": "{{ ap_name }}",
+  "url": "{{ page.url | absolute_url }}",
+  "image": "{{ ap_avatar | absolute_url }}",
+  "jobTitle": "{{ ap_role }}",
+  "description": "{{ page.description | escape }}",
+  "sameAs": [{% if ap.linkedin %}"{{ ap.linkedin }}"{% endif %}],
+  "publisher": {
+    "@type": "Organization",
+    "name": "F9XR Team",
+    "url": "https://f9xr.github.io"
+  }
+}
+</script>

@@ -1,0 +1,15 @@
+# Author registry
+# Lookup key must match the `author:` value used in a post's front matter.
+"F9XR Team":
+  name: "F9XR Team"
+  role: "Digital Architecture Agency"
+  avatar: "https://f9xr.github.io/logo.webp"
+  url: "/authors/f9xr-team/"
+  linkedin: "https://linkedin.com/company/f9xrteam"
+
+"Mohammed Ahetasham Uddin":
+  name: "Mohammed Ahetasham Uddin"
+  role: "Contributor"
+  avatar: "/assets/AHETASHAM.jpg"
+  url: "/authors/ahetasham/"
+  linkedin: "https://www.linkedin.com/in/ahetasham-uddin-4b9797295"

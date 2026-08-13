@@ -46,7 +46,7 @@ The heart of it is NAP, which stands for name, address, and phone number. Those 
 
 That consistency is the whole point. Google wants to confirm you are one real business, not a shell that changes details depending on which page it's looking at.
 
-## Why a consistency audit matters more in 2026
+## Why a consistency audit matters more in 2026?
 
 Two things raised the stakes recently, and they're related.
 
@@ -58,7 +58,7 @@ AI engines don't rank results the way a search index does. They check the facts 
 
 This is measurable. A 2026 Semrush analysis found that businesses with NAP inconsistencies across three or more sources were excluded from Google AI Mode local answers 74% of the time.
 
-### What the ranking data says
+### What the ranking data says?
 
 The numbers behind traditional local rankings point the same direction. In a [2026 audit of 200 businesses across 41 platforms](https://backlynk.io/blog/nap-consistency-checker-2026-citation-audit-local-seo/){:target="_blank" rel="noopener noreferrer"}, 73% had at least one NAP inconsistency and only 27% were fully consistent. Fully consistent businesses appeared in the Google local pack 2.3x more often than businesses with major mismatches.
 
@@ -68,7 +68,7 @@ The [Moz local search ranking factors](https://moz.com/local-search-ranking-fact
 
 One more number matters here. Citation signals carry roughly 7% to 11% of local ranking weight depending on which study you read. That sounds small until you realize it's a hygiene layer. Inconsistency doesn't need to rank high to hurt you. It quietly caps how much your profile, reviews, and on page work can lift you. As one 2026 analysis put it, cleaning up three existing citations beats adding thirty new ones.
 
-### What the AI search data says
+### What the AI search data says?
 
 The AI side is where the gap is widening fastest. Consumers don't trust AI results blindly. BrightLocal's data shows 88% of AI users fact-check the recommendations they get, usually back on Google. But that check happens after the shortlist is made. If the AI never surfaces you because your data is messy, you never reach the shortlist at all.
 
@@ -102,7 +102,7 @@ Read that table and you'll notice most of it is formatting. "Suite 200" versus "
 
 The scary row is the last one. A completely different name spelling, in 9% of businesses. That's not a formatting quirk. In the eyes of a search engine, that's two separate entities.
 
-## How to run a consistency audit in five steps
+## How to run a consistency audit in five steps?
 
 You don't need a tool subscription to get most of the value here. This takes a few hours the first time and less each quarter after that.
 

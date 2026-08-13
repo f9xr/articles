@@ -71,6 +71,14 @@ keywords: "F9XR Articles, engineering digital growth, web architecture, AI integ
   </div>
 </section>
 
+<section class="index-section index-video-section" aria-label="Introducing F9XR Team">
+  <h2 class="index-section-title"><i class="fa-solid fa-circle-play" style="color:#3b82f6; font-size:0.8em;"></i> Watch &amp; Learn</h2>
+  <div class="index-video">
+    <iframe class="youtube-embed" src="https://www.youtube.com/embed/l-52kGRwH_Y" title="Introducing F9XR Team: Digital Growth Agency - AI-Powered Web Design &amp; Local SEO Growth Agency" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen loading="lazy"></iframe>
+  </div>
+  <p class="index-video-caption">Introducing F9XR Team &mdash; AI-powered web design &amp; local SEO growth agency.</p>
+</section>
+
 <script>
 (function() {
   var hero = document.getElementById('velocity-hero');
@@ -102,7 +110,8 @@ keywords: "F9XR Articles, engineering digital growth, web architecture, AI integ
 <section class="index-section">
   <h2 class="index-section-title"><i class="fa-solid fa-star" style="color:#3b82f6; font-size:0.8em;"></i> Latest Article</h2>
   {% assign featured = site.posts.first %}
-  <a class="featured-post" href="{{ featured.url | relative_url }}" itemscope itemtype="https://schema.org/Article">
+  {% assign featured_author = site.data.authors[featured.author] %}
+  <article class="featured-post" itemscope itemtype="https://schema.org/Article">
     {% if featured.image %}
     <img class="featured-post-img" src="{{ featured.image }}" alt="{{ featured.title | escape }}" loading="eager" itemprop="image">
     {% endif %}
@@ -117,16 +126,23 @@ keywords: "F9XR Articles, engineering digital growth, web architecture, AI integ
         <span class="featured-post-tag">{{ featured.tags.first }}</span>
         {% endif %}
       </div>
-      <h3 class="featured-post-title" itemprop="headline">{{ featured.title | escape }}</h3>
+      <h3 class="featured-post-title" itemprop="headline"><a href="{{ featured.url | relative_url }}" class="stretched-link" itemprop="url">{{ featured.title | escape }}</a></h3>
       {% assign featured_desc = featured.content | strip_html | truncate: 200 %}
       <p class="featured-post-desc" itemprop="description">{{ featured.description | default: featured_desc }}</p>
       <div class="featured-post-author" itemprop="author" itemscope itemtype="https://schema.org/Person">
-        <span class="featured-post-author-avatar"><img src="https://f9xr.github.io/logo.webp" alt="F9XR Team" loading="lazy"></span>
-        <span class="featured-post-author-name" itemprop="name">{{ featured.author | default: "F9XR Team" }}</span>
+        <img class="featured-post-author-avatar" src="{{ featured_author.avatar | default: 'https://f9xr.github.io/logo.webp' | relative_url }}" alt="{{ featured_author.name | default: 'F9XR Team' }}" loading="lazy">
+        {% if featured_author.url %}
+        <a class="featured-post-author-link" href="{{ featured_author.url | relative_url }}" itemprop="url"><span class="featured-post-author-name" itemprop="name">{{ featured_author.name | default: featured.author | default: "F9XR Team" }}</span></a>
+        {% else %}
+        <span class="featured-post-author-name" itemprop="name">{{ featured_author.name | default: featured.author | default: "F9XR Team" }}</span>
+        {% endif %}
+        {% if featured_author.linkedin %}
+        <a class="featured-post-linkedin" href="{{ featured_author.linkedin }}" target="_blank" rel="noopener noreferrer" aria-label="{{ featured_author.name }} on LinkedIn"><i class="fa-brands fa-linkedin-in"></i></a>
+        {% endif %}
       </div>
       <span class="featured-post-cta">Read article <i class="fa-solid fa-arrow-right"></i></span>
     </div>
-  </a>
+  </article>
 </section>
 
 {% if site.posts.size > 1 %}
@@ -134,7 +150,8 @@ keywords: "F9XR Articles, engineering digital growth, web architecture, AI integ
   <h2 class="index-section-title"><i class="fa-solid fa-newspaper" style="color:#3b82f6; font-size:0.8em;"></i> All Articles</h2>
   <div class="post-grid">
     {% for post in site.posts offset:1 %}
-    <a class="post-card" href="{{ post.url | relative_url }}" itemscope itemtype="https://schema.org/Article">
+    {% assign author = site.data.authors[post.author] %}
+    <article class="post-card" itemscope itemtype="https://schema.org/Article">
       {% if post.image %}
       <img class="post-card-img" src="{{ post.image }}" alt="{{ post.title | escape }}" loading="lazy" itemprop="image">
       {% endif %}
@@ -146,12 +163,19 @@ keywords: "F9XR Articles, engineering digital growth, web architecture, AI integ
           {% endif %}
           <span class="post-card-read"><i class="fa-regular fa-clock" style="font-size:0.85em;"></i> {{ post.content | strip_html | number_of_words | divided_by: 200 | plus: 1 }} min read</span>
         </div>
-        <h3 class="post-card-title" itemprop="headline">{{ post.title | escape }}</h3>
+        <h3 class="post-card-title" itemprop="headline"><a href="{{ post.url | relative_url }}" class="stretched-link" itemprop="url">{{ post.title | escape }}</a></h3>
         {% assign post_desc = post.content | strip_html | truncate: 160 %}
         <p class="post-card-desc" itemprop="description">{{ post.description | default: post_desc }}</p>
         <div class="post-card-author" itemprop="author" itemscope itemtype="https://schema.org/Person">
-          <span class="post-card-author-avatar"><img src="https://f9xr.github.io/logo.webp" alt="F9XR Team" loading="lazy"></span>
-          <span class="post-card-author-name" itemprop="name">{{ post.author | default: "F9XR Team" }}</span>
+          <img class="post-card-author-avatar" src="{{ author.avatar | default: 'https://f9xr.github.io/logo.webp' | relative_url }}" alt="{{ author.name | default: 'F9XR Team' }}" loading="lazy">
+          {% if author.url %}
+          <a class="post-card-author-link" href="{{ author.url | relative_url }}" itemprop="url"><span class="post-card-author-name" itemprop="name">{{ author.name | default: post.author | default: "F9XR Team" }}</span></a>
+          {% else %}
+          <span class="post-card-author-name" itemprop="name">{{ author.name | default: post.author | default: "F9XR Team" }}</span>
+          {% endif %}
+          {% if author.linkedin %}
+          <a class="post-card-linkedin" href="{{ author.linkedin }}" target="_blank" rel="noopener noreferrer" aria-label="{{ author.name }} on LinkedIn"><i class="fa-brands fa-linkedin-in"></i></a>
+          {% endif %}
         </div>
         {% if post.tags %}
         <div class="post-card-tags">
@@ -162,7 +186,7 @@ keywords: "F9XR Articles, engineering digital growth, web architecture, AI integ
         {% endif %}
         <span class="post-card-cta">Read article <i class="fa-solid fa-arrow-right"></i></span>
       </div>
-    </a>
+    </article>
     {% endfor %}
   </div>
 </section>
