@@ -1,9 +1,12 @@
 ---
-layout: default
+layout: page
 title: Archive — F9XR Articles
+title_hidden: true
 description: "Complete archive of all articles by F9XR Team covering web architecture, AI integration, local SEO, and digital growth strategies."
 keywords: "F9XR articles archive, web architecture, AI integration, local SEO, digital growth, technical SEO, all articles"
 ---
+
+<div class="ed-site">
 
 <script type="application/ld+json">
 {
@@ -32,22 +35,98 @@ keywords: "F9XR articles archive, web architecture, AI integration, local SEO, d
 }
 </script>
 
-<div class="archive-container">
+<header class="ed-masthead">
+  <div class="ed-masthead-brand">
+    <img src="https://f9xr.github.io/logo.webp" alt="F9XR Team" class="ed-masthead-logo" width="28" height="28">
+    <span class="ed-masthead-name">F9XR <em>Articles</em></span>
+  </div>
+  <div class="ed-masthead-meta">
+    <span class="ed-mono">{{ site.time | date: "%B %d, %Y" }}</span>
+    <span class="ed-mono">Engineering digital growth</span>
+  </div>
+  <nav class="ed-masthead-links" aria-label="Quick links">
+    <a href="https://f9xr.github.io">Main Site</a>
+    <a href="https://f9xr.github.io/pages/services.html">Services</a>
+    <a href="https://f9xr.github.io/pages/portfolio.html">Portfolio</a>
+    <a href="https://f9xr.github.io/pages/contact.html">Contact</a>
+    <button type="button" class="ed-masthead-search" onclick="toggleSearch(); return false;"><i class="fa-solid fa-magnifying-glass"></i> Search</button>
+  </nav>
+</header>
 
-<h1 class="archive-heading">All Articles</h1>
+{% if site.posts.size > 0 %}
+
+{% assign archive_total_words = 0 %}
+{% for p in site.posts %}
+  {% assign archive_total_words = archive_total_words | plus: p.content | strip_html | number_of_words %}
+{% endfor %}
+{% assign archive_avg_min = archive_total_words | divided_by: 200.0 | divided_by: site.posts.size | round: 0 %}
+
+<section class="ed-archive-hero" aria-label="Archive overview">
+  <div class="ed-archive-intro">
+    <p class="ed-kicker"><i class="fa-solid fa-archive"></i> The Complete Archive</p>
+    <h1 class="ed-archive-title">All Articles</h1>
+    <p class="ed-archive-sub">Engineering notes, architecture deep-dives, and growth strategies from the F9XR Team — everything published, indexed by topic.</p>
+  </div>
+  <div class="ed-stats">
+    <div class="ed-stat">
+      <span class="ed-stat-value"><em>{{ site.posts.size }}</em></span>
+      <span class="ed-stat-label">Articles</span>
+    </div>
+    <div class="ed-stat">
+      <span class="ed-stat-value"><em>{{ site.tags.size }}</em></span>
+      <span class="ed-stat-label">Topics</span>
+    </div>
+    <div class="ed-stat">
+      <span class="ed-stat-value">{{ archive_total_words | divided_by: 1000 }}K<em>+</em></span>
+      <span class="ed-stat-label">Words Published</span>
+    </div>
+    <div class="ed-stat">
+      <span class="ed-stat-value">~<em>{{ archive_avg_min }}</em> min</span>
+      <span class="ed-stat-label">Avg. Read Time</span>
+    </div>
+  </div>
+</section>
+
+<section class="ed-topics" aria-label="Browse by topic">
+  <div class="ed-sec-head">
+    <h2 class="ed-sec-title">Browse by Topic</h2>
+    <span class="ed-mono">{{ site.tags.size }} categories</span>
+  </div>
+  <div class="index-tags">
+    {% assign archive_all_tags = site.posts | map: "tags" | join: "," | split: "," | uniq | sort %}
+    {% for tag in archive_all_tags %}
+    <a class="index-tag" href="#{{ tag | slugify }}">{{ tag }}</a>
+    {% endfor %}
+  </div>
+</section>
 
 {% for tag in site.tags %}
-  <h2 class="archive-tag-heading" id="{{ tag[0] | slugify }}">{{ tag[0] }}</h2>
-  <ul class="archive-list">
+<section class="ed-topic" id="{{ tag[0] | slugify }}" aria-label="Articles tagged {{ tag[0] }}">
+  <div class="ed-sec-head">
+    <h2 class="ed-sec-title">{{ tag[0] }}</h2>
+    <span class="ed-mono">{{ tag[1].size }} article{% if tag[1].size != 1 %}s{% endif %}</span>
+  </div>
+  <div class="ed-grid">
     {% for post in tag[1] %}
-      <li class="archive-item">
-        <a href="{{ post.url | relative_url }}" class="archive-link">{{ post.date | date: "%B %Y" }} — {{ post.title }}</a>
-        {%- if post.description -%}
-          <p class="archive-description">{{ post.description | truncatewords: 20 }}</p>
-        {%- endif -%}
-      </li>
+    {% assign t_author = site.data.authors[post.author] %}
+    {% assign t_min = post.content | strip_html | number_of_words | divided_by: 200 | plus: 1 %}
+    {% assign t_desc = post.content | strip_html | truncate: 120 %}
+    <article class="ed-card" itemscope itemtype="https://schema.org/Article">
+      <a class="ed-card-img" href="{{ post.url | relative_url }}" aria-label="{{ post.title | escape }}"{% if post.image %} style="background-image:url('{{ post.image }}');"{% endif %}></a>
+      <div class="ed-card-meta">
+        <span class="ed-tag">{{ post.tags.first | default: "Article" }}</span>
+        <span class="ed-mono">{{ post.date | date: "%b %d, %Y" }}</span>
+        <span class="ed-mono">{{ t_author.name | default: post.author }}</span>
+      </div>
+      <h3 class="ed-card-title" itemprop="headline"><a href="{{ post.url | relative_url }}" itemprop="url">{{ post.title | escape }}</a></h3>
+      <p class="ed-card-desc" itemprop="description">{{ post.description | default: t_desc }}</p>
+      <span class="ed-card-foot">{{ t_min }} min read</span>
+    </article>
     {% endfor %}
-  </ul>
+  </div>
+</section>
 {% endfor %}
+
+{% endif %}
 
 </div>
