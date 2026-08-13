@@ -51,6 +51,11 @@ Keyword lists, competitor gap analysis, content audits, these used to eat entire
 
 **Practical tip:** use AI to generate a first pass keyword and topic list, then manually verify search intent for your top priority terms before writing. AI is excellent at breadth. Human judgment still decides which topics deserve your time.
 
+<figure class="post-figure">
+  <img src="https://f9xr.github.io/assets/AI_Search.png" alt="AI search tools like ChatGPT and Perplexity answering a business question" title="AEO work is about being cited by AI search tools" width="1379" height="884" loading="lazy" />
+  <figcaption>Answer Engine Optimization is about getting cited by AI search tools, not just ranked by Google.</figcaption>
+</figure>
+
 ## 3. Automated Technical SEO and Codebase Audits
 
 This is one of the least talked about, most time consuming parts of marketing, and it's exactly where F9XR's [SEO Codebase Auditor skill](https://f9xr.github.io/articles/2026/07/31/f9xr-seo-codebase-auditor-skill-guide.html){:target="_blank" rel="noopener noreferrer"} comes in.

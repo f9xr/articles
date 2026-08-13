@@ -81,6 +81,11 @@ One thing to be precise about: Google doesn't publish an E-E-A-T score. It's a r
 
 For context on how those signals get judged in practice, the [official Search Quality Evaluator Guidelines](https://guidelines.raterhub.com/searchqualityevaluatorguidelines.pdf){:target="_blank" rel="noopener noreferrer"} are public, so you can read the exact instructions raters follow. The [SEO CodeBase Auditor skill](https://f9xr.github.io/articles/2026/07/31/f9xr-seo-codebase-auditor-skill-guide.html) treats E-E-A-T as one of its 24 audit pillars, checking author schema, trust signals, and factual sourcing in the code itself. And if AI Overviews are part of your traffic plan, [AI visibility optimization](https://f9xr.github.io/services/ai-visibility-optimization.html) covers the citation side of the same framework.
 
+<figure class="post-figure">
+  <img src="https://f9xr.github.io/assets/screenshots/F9XR_GoogleSearch.png" alt="F9XR Team appearing across Google search results" title="Trust signals show up as consistent, visible results" width="1352" height="1107" loading="lazy" />
+  <figcaption>Trust signals that pass the E-E-A-T bar show up as consistent, visible results across search.</figcaption>
+</figure>
+
 ## Quick Gut-Check Before You Publish
 
 If you can only ask one question per pillar, ask these:

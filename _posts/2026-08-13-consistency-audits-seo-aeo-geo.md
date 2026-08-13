@@ -29,6 +29,11 @@ Most businesses have at least one of these mismatches live right now. Name spell
 
 This post covers why an information consistency audit matters for classic SEO, for answer engine optimization (AEO), and for generative engine optimization (GEO) in 2026. It also covers what the latest data says about how often businesses get this wrong, and a five step checklist you can run without hiring anyone.
 
+<figure class="post-figure">
+  <img src="https://f9xr.github.io/assets/AI_Search.png" alt="AI search tools like ChatGPT and Perplexity answering a business question" title="AI tools cross-check your business details across many sources before recommending you" width="1379" height="884" loading="lazy" />
+  <figcaption>AI tools cross-check your business details across many sources before recommending you. Inconsistent data is a fast way off the answer list.</figcaption>
+</figure>
+
 ## What is an information consistency audit?
 
 An information consistency audit is a review of every place your business details appear online. Your website. Your Google Business Profile. Directories like Yelp, Bing Places, and Apple Business Connect. Review sites. Social profiles. And the data aggregators that quietly feed hundreds of downstream sites.

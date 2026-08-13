@@ -189,6 +189,11 @@ Open ai.txt and you'll see what a well written machine instruction looks like. I
 
 Most business owners didn't start their company to spend weekends figuring out .well-known directories and Markdown syntax, and honestly, they shouldn't have to. This is exactly the kind of foundational, technical groundwork F9XR Team handles for the businesses it works with, alongside broader [website development](https://f9xr.github.io/pages/services.html){:target="_blank" rel="noopener noreferrer"} and [local SEO strategy](https://f9xr.github.io/services/google-business-optimization.html){:target="_blank" rel="noopener noreferrer"}.
 
+<figure class="post-figure">
+  <img src="https://f9xr.github.io/assets/screenshots/F9XR_GoogleSearch.png" alt="F9XR Team appearing across Google search results" title="The payoff of clean machine readable files and consistent business data" width="1352" height="1107" loading="lazy" />
+  <figcaption>The payoff of the foundational work in this article: a brand showing up consistently across search results.</figcaption>
+</figure>
+
 ### F9XR's Codebase Auditor skill: doing this on autopilot
 
 Rather than manually checking file by file, F9XR Team uses a purpose built Codebase Auditor skill that scans a website's root directory and codebase structure automatically. It checks for the presence, accuracy, and health of files like robots.txt, sitemap.xml, llms.txt, and security.txt, flags misconfigurations like an accidental Disallow blocking key pages, and generates missing files based on the business's actual services, location, and target audience.
