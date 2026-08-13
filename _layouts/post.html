@@ -41,24 +41,30 @@ layout: default
 
   {% if toc_count >= 2 %}
   <aside class="post-sidebar" aria-label="Table of Contents">
-    <nav class="sidebar-toc" id="table-of-contents" aria-label="Table of contents">
-      <h2 class="sidebar-toc-title">
-        <i class="fa-solid fa-list-ul" style="color:#3b82f6; font-size:0.9em;"></i>
-        Table of Contents
-      </h2>
-      <ol class="sidebar-toc-list">
-        {% for i in (0..toc_count) %}
-          {% assign lvl = toc_levels[i] %}
-          {% if lvl == "2" %}
-          <li class="toc-l2"><a href="#{{ slug_headings[i] }}">{{ headings[i] }}</a></li>
-          {% elsif lvl == "3" %}
-          <li class="toc-l3"><a href="#{{ slug_headings[i] }}">{{ headings[i] }}</a></li>
-          {% elsif lvl == "4" %}
-          <li class="toc-l4"><a href="#{{ slug_headings[i] }}">{{ headings[i] }}</a></li>
-          {% endif %}
-        {% endfor %}
-      </ol>
-    </nav>
+    <details class="sidebar-toc-details">
+      <summary class="sidebar-toc-summary">
+        <span class="sidebar-toc-summary-label"><i class="fa-solid fa-list-ul" style="color:#3b82f6;"></i> Table of Contents</span>
+        <span class="sidebar-toc-chevron"><i class="fa-solid fa-chevron-down"></i></span>
+      </summary>
+      <nav class="sidebar-toc" id="table-of-contents" aria-label="Table of contents">
+        <h2 class="sidebar-toc-title">
+          <i class="fa-solid fa-list-ul" style="color:#3b82f6; font-size:0.9em;"></i>
+          Table of Contents
+        </h2>
+        <ol class="sidebar-toc-list">
+          {% for i in (0..toc_count) %}
+            {% assign lvl = toc_levels[i] %}
+            {% if lvl == "2" %}
+            <li class="toc-l2"><a href="#{{ slug_headings[i] }}">{{ headings[i] }}</a></li>
+            {% elsif lvl == "3" %}
+            <li class="toc-l3"><a href="#{{ slug_headings[i] }}">{{ headings[i] }}</a></li>
+            {% elsif lvl == "4" %}
+            <li class="toc-l4"><a href="#{{ slug_headings[i] }}">{{ headings[i] }}</a></li>
+            {% endif %}
+          {% endfor %}
+        </ol>
+      </nav>
+    </details>
   </aside>
   {% endif %}
 
@@ -147,7 +153,7 @@ layout: default
       <svg viewBox="0 0 24 24" fill="currentColor"><path d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm-2 15l-5-5 1.41-1.41L10 14.17l7.59-7.59L19 8l-9 9z"/></svg>
       <span>Define</span>
     </button>
-    <span class="toolbar-btn" style="cursor:default; font-size:0.75em; color:#555; border-color:transparent;">
+    <span class="toolbar-btn toolbar-hint" style="cursor:default; font-size:0.75em; color:#555; border-color:transparent;">
       <kbd style="background:#151515; padding:0.1em 0.4em; border-radius:3px; font-size:0.85em;">N</kbd> next
       <kbd style="background:#151515; padding:0.1em 0.4em; border-radius:3px; font-size:0.85em; margin-left:0.3em;">P</kbd> prev
     </span>
