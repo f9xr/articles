@@ -23,13 +23,8 @@ faq:
     a: "We focus on building measurable revenue systems, not just websites. Every line of code and credential belongs to the client with zero proprietary lock-in."
 ---
 
-<div class="youtube-embed" style="position:relative; padding-bottom:56.25%; height:0; overflow:hidden; margin-bottom:2em;">
-  <iframe src="https://www.youtube.com/embed/l-52kGRwH_Y" title="F9XR Team — Watch and How We Do" style="position:absolute; top:0; left:0; width:100%; height:100%; border:0;" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen loading="lazy"></iframe>
-</div>
 
-<div class="youtube-embed" style="position:relative; padding-bottom:56.25%; height:0; overflow:hidden; margin-bottom:2em;">
-  <iframe src="https://www.youtube.com/embed/Deq0tMGHGIM" title="Introduction to the F9XR Team" style="position:absolute; top:0; left:0; width:100%; height:100%; border:0;" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen loading="lazy"></iframe>
-</div>
+
 
 ## Engineering Digital Growth with F9XR Team
 
@@ -38,6 +33,10 @@ In a digital landscape saturated with generic templates and surface-level web de
 This article introduces who we are, what we engineer, and the technical philosophy that drives every project we deliver.
 
 ---
+
+<div class="youtube-embed" style="position:relative; padding-bottom:56.25%; height:0; overflow:hidden; margin-bottom:2em;">
+  <iframe src="https://www.youtube.com/embed/l-52kGRwH_Y" title="F9XR Team — Watch and How We Do" style="position:absolute; top:0; left:0; width:100%; height:100%; border:0;" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen loading="lazy"></iframe>
+</div>
 
 ### The Problem We Solve
 
@@ -51,10 +50,7 @@ The engineering gap is real:
 
 F9XR Team exists to close this gap with precision-engineered solutions.
 
-<figure class="post-figure">
-  <img src="https://images.unsplash.com/photo-1522071820081-009f0129c71c?q=80&w=1200&h=800&auto=format&fit=crop" alt="Small team collaborating around a table with laptops and notebooks" title="F9XR Team collaborating on a digital growth project" width="1200" height="800" loading="lazy" />
-  <figcaption>Photo by <a href="https://unsplash.com/@anniespratt?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText" target="_blank" rel="noopener noreferrer">Annie Spratt</a> on <a href="https://unsplash.com/photos/QckxruozjRg?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText" target="_blank" rel="noopener noreferrer">Unsplash</a></figcaption>
-</figure>
+
 
 ---
 
@@ -131,6 +127,11 @@ We follow a structured methodology that treats every project as an engineering p
 
 ### Infrastructure & Tools
 
+<figure class="post-figure">
+  <img src="https://images.unsplash.com/photo-1522071820081-009f0129c71c?q=80&w=1200&h=800&auto=format&fit=crop" alt="Small team collaborating around a table with laptops and notebooks" title="F9XR Team collaborating on a digital growth project" width="1200" height="800" loading="lazy" />
+  <figcaption>Photo by <a href="https://unsplash.com/@anniespratt?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText" target="_blank" rel="noopener noreferrer">Annie Spratt</a> on <a href="https://unsplash.com/photos/QckxruozjRg?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText" target="_blank" rel="noopener noreferrer">Unsplash</a></figcaption>
+</figure>
+
 Beyond client projects, we build and maintain our own digital assets:
 
 - **Foil AI** ([foilai.in](https://foilai.in){:target="_blank" rel="noopener noreferrer"}) — Next-generation AI image generation
@@ -180,6 +181,11 @@ We operate on a project-based accountability model with three [engagement tiers]
 3. **Custom Architecture** — Full-scale digital systems for enterprise and fintech requirements
 
 Every engagement starts with a **[free website audit](https://f9xr.github.io/pages/contact.html)** — a technical assessment of your current infrastructure, competitor landscape, and growth opportunities.
+
+<div class="youtube-embed" style="position:relative; padding-bottom:56.25%; height:0; overflow:hidden; margin-bottom:2em;">
+  <iframe src="https://www.youtube.com/embed/Deq0tMGHGIM" title="Introduction to the F9XR Team" style="position:absolute; top:0; left:0; width:100%; height:100%; border:0;" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen loading="lazy"></iframe>
+</div>
+
 
 ---
 

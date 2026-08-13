@@ -457,6 +457,16 @@ img:hover {
   margin: 0 0 0.2em 0;
   line-height: 1.4;
 }
+.sidebar-toc-list .toc-l3 a {
+  margin-left: 0.9em;
+  font-size: 0.78em;
+  color: #8b939e;
+}
+.sidebar-toc-list .toc-l4 a {
+  margin-left: 1.7em;
+  font-size: 0.74em;
+  color: #7c8490;
+}
 .sidebar-toc-list a {
   display: block;
   color: #9aa3ad;
@@ -692,8 +702,8 @@ img:hover {
 
 /* --- Post Content Typography --- */
 .post-content {
-  font-size: 1.08em;
-  line-height: 1.75;
+  font-size: 1.16em;
+  line-height: 1.78;
 }
 .post-content > *:first-child {
   margin-top: 0;

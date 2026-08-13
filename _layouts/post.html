@@ -11,28 +11,35 @@ layout: default
 </a>
 
 {% assign content_html = content %}
-{% assign h2_count = 0 %}
+{% assign toc_levels = "" | split: "" %}
 {% assign headings = "" | split: "" %}
 {% assign slug_headings = "" | split: "" %}
-{% assign words = content_html | split: "<h2" %}
-{% for word in words %}
+{% assign h_parts = content_html | split: "<h" %}
+{% for part in h_parts %}
   {% if forloop.first %}{% continue %}{% endif %}
-  {% assign h2_count = h2_count | plus: 1 %}
-  {% assign heading_text = word | split: "</h2>" | first %}
-  {% assign heading_clean = heading_text | prepend: "<" | strip_html | strip %}
-  {% assign heading_slug = heading_clean | slugify %}
-  {% assign headings = headings | push: heading_clean %}
-  {% assign slug_headings = slug_headings | push: heading_slug %}
+  {% assign lvl = part | slice: 0, 1 %}
+  {% if lvl == "2" or lvl == "3" or lvl == "4" %}
+    {% assign heading_raw = part | split: "</h" | first %}
+    {% assign heading_inner = heading_raw | split: ">" %}
+    {% assign heading_clean = heading_inner | slice: 1, heading_inner.size | join: ">" | strip_html | strip %}
+    {% if heading_clean != "" %}
+      {% assign heading_slug = heading_clean | slugify %}
+      {% assign toc_levels = toc_levels | push: lvl %}
+      {% assign headings = headings | push: heading_clean %}
+      {% assign slug_headings = slug_headings | push: heading_slug %}
+    {% endif %}
+  {% endif %}
 {% endfor %}
+{% assign toc_count = toc_levels.size %}
 
 {% assign post_author = site.data.authors[page.author] %}
 {% assign post_author_url = post_author.url | default: '/authors/f9xr-team/' %}
 
-<article class="post h-entry {% if h2_count >= 2 %}has-sidebar{% endif %}" itemscope itemtype="http://schema.org/BlogPosting">
+<article class="post h-entry {% if toc_count >= 2 %}has-sidebar{% endif %}" itemscope itemtype="http://schema.org/BlogPosting">
 
   <div class="post-layout">
 
-  {% if h2_count >= 2 %}
+  {% if toc_count >= 2 %}
   <aside class="post-sidebar" aria-label="Table of Contents">
     <nav class="sidebar-toc" id="table-of-contents" aria-label="Table of contents">
       <h2 class="sidebar-toc-title">
@@ -40,8 +47,15 @@ layout: default
         Table of Contents
       </h2>
       <ol class="sidebar-toc-list">
-        {% for h in headings %}
-        <li><a href="#{{ slug_headings[forloop.index0] }}">{{ h }}</a></li>
+        {% for i in (0..toc_count) %}
+          {% assign lvl = toc_levels[i] %}
+          {% if lvl == "2" %}
+          <li class="toc-l2"><a href="#{{ slug_headings[i] }}">{{ headings[i] }}</a></li>
+          {% elsif lvl == "3" %}
+          <li class="toc-l3"><a href="#{{ slug_headings[i] }}">{{ headings[i] }}</a></li>
+          {% elsif lvl == "4" %}
+          <li class="toc-l4"><a href="#{{ slug_headings[i] }}">{{ headings[i] }}</a></li>
+          {% endif %}
         {% endfor %}
       </ol>
     </nav>
