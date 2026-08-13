@@ -100,7 +100,7 @@ keywords: "F9XR Articles, engineering digital growth, web architecture, AI integ
 {% if site.posts.size > 0 %}
 
 <section class="index-section">
-  <h2 class="index-section-title"><i class="fa-solid fa-star" style="color:#a855f7; font-size:0.8em;"></i> Latest Article</h2>
+  <h2 class="index-section-title"><i class="fa-solid fa-star" style="color:#3b82f6; font-size:0.8em;"></i> Latest Article</h2>
   {% assign featured = site.posts.first %}
   <a class="featured-post" href="{{ featured.url | relative_url }}" itemscope itemtype="https://schema.org/Article">
     {% if featured.image %}
@@ -212,7 +212,7 @@ keywords: "F9XR Articles, engineering digital growth, web architecture, AI integ
 </script>
 
 <section class="index-section">
-  <h2 class="index-section-title"><i class="fa-solid fa-tags" style="color:#00ff88; font-size:0.8em;"></i> Browse by Topic</h2>
+  <h2 class="index-section-title"><i class="fa-solid fa-tags" style="color:#3b82f6; font-size:0.8em;"></i> Browse by Topic</h2>
   <div class="index-tags">
     {% assign all_tags = site.posts | map: "tags" | join: "," | split: "," | uniq | sort %}
     {% for tag in all_tags %}
