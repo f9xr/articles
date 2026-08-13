@@ -2,10 +2,9 @@
 layout: post
 title: "Engineering Digital Growth with F9XR Team"
 description: "How F9XR Team builds high-performance web ecosystems, AI-powered systems, and local SEO infrastructure for measurable business growth."
-image: "https://images.unsplash.com/photo-1498050108023-c5249f4df085?q=80&w=1200&h=630&auto=format&fit=crop"
-image_width: 1200
-image_height: 630
-image_credit: "Photo by <a href=\"https://unsplash.com/@cgower?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText\" target=\"_blank\" rel=\"noopener noreferrer\">Christopher Gower</a> on <a href=\"https://unsplash.com/photos/m_HRfLhgABo?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText\" target=\"_blank\" rel=\"noopener noreferrer\">Unsplash</a>"
+image: "https://f9xr.github.io/articles/assets/f9xr-team-solutions.png"
+image_width: 1600
+image_height: 893
 dateModified: 2026-07-28
 youtube_id: "05cr4W9uyA"
 video_duration: "PT3M45S"
@@ -60,6 +59,11 @@ F9XR Team exists to close this gap with precision-engineered solutions.
 ---
 
 ### Core Engineering Verticals
+
+<figure class="post-figure">
+  <img src="{{ site.baseurl }}/assets/f9xr-team-solutions.png" alt="F9XR Team — Engineering Digital Growth solutions overview" title="F9XR Team solutions for web, AI, and local SEO" width="1600" height="893" loading="lazy" />
+  <figcaption>F9XR Team — engineering digital growth across web ecosystems, local SEO, and AI integration</figcaption>
+</figure>
 
 #### 1. Web Ecosystems
 
