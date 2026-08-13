@@ -212,7 +212,39 @@ layout: default
   {% endif %}
 
   <div class="post-content e-content" itemprop="articleBody">
-    {{ content }}
+    {% assign also_read = page.next %}
+    {% if also_read == nil and page.previous %}
+      {% assign also_read = page.previous %}
+    {% endif %}
+
+    {% assign also_blocks = content | split: "</h2>" %}
+    {% if also_blocks.size > 1 %}
+      {% assign also_mid = also_blocks.size | plus: 1 | divided_by: 2 %}
+      {% assign also_rem = also_blocks.size | minus: also_mid %}
+      {% assign content_first = also_blocks | slice: 0, also_mid | join: "</h2>" %}
+      {% assign content_second = also_blocks | slice: also_mid, also_rem | join: "</h2>" %}
+      {% assign content_first = content_first | append: "</h2>" %}
+      {{ content_first }}
+
+      {% if also_read %}
+      <aside class="also-read">
+        <div class="also-read-label"><i class="fa-solid fa-book-open-reader"></i> Also Read</div>
+        <a class="also-read-link" href="{{ also_read.url | relative_url }}">{{ also_read.title | escape }}</a>
+        <span class="also-read-arrow"><i class="fa-solid fa-arrow-right"></i></span>
+      </aside>
+      {% endif %}
+
+      {{ content_second }}
+    {% else %}
+      {{ content }}
+      {% if also_read %}
+      <aside class="also-read">
+        <div class="also-read-label"><i class="fa-solid fa-book-open-reader"></i> Also Read</div>
+        <a class="also-read-link" href="{{ also_read.url | relative_url }}">{{ also_read.title | escape }}</a>
+        <span class="also-read-arrow"><i class="fa-solid fa-arrow-right"></i></span>
+      </aside>
+      {% endif %}
+    {% endif %}
   </div>
 
   <!-- Keywords -->

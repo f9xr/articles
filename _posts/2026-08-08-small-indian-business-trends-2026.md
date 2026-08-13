@@ -7,7 +7,7 @@ image_width: 1200
 image_height: 630
 image_credit: "Photo by <a href=\"https://unsplash.com/@anniespratt?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText\" target=\"_blank\" rel=\"noopener noreferrer\">Annie Spratt</a> on <a href=\"https://unsplash.com/photos/QckxruozjRg?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText\" target=\"_blank\" rel=\"noopener noreferrer\">Unsplash</a>"
 date: 2026-08-08
-author: "F9XR Team"
+author: "F9XR Editorial Team"
 tags: [small business India trends 2026, AI for small business, MSME formalization, ONDC ecommerce, small business credit, leadership development, owner-led businesses, India business economy, local SEO small business, F9XR Team]
 keywords: "small business trends India 2026, AI for small business, MSME trends, Udyam registration, ONDC for small business, GST e-invoicing, small business credit India, local SEO India, digital presence small business, F9XR Team"
 faq:

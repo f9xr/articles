@@ -11,18 +11,82 @@
     <div class="author-hero-info">
       <h1 class="author-name">{{ ap_name }}</h1>
       <p class="author-role">{{ ap_role }}</p>
+      {% if ap.headline %}
+      <p class="author-headline">{{ ap.headline }}</p>
+      {% endif %}
       <div class="author-actions">
         {% if ap.linkedin %}
         <a href="{{ ap.linkedin }}" target="_blank" rel="noopener noreferrer" class="author-btn author-btn-linkedin"><i class="fa-brands fa-linkedin-in"></i> LinkedIn</a>
+        {% endif %}
+        {% if ap.instagram %}
+        <a href="{{ ap.instagram }}" target="_blank" rel="noopener noreferrer" class="author-btn author-btn-instagram"><i class="fa-brands fa-instagram"></i> Instagram</a>
         {% endif %}
         <a href="{{ '/archive.html' | relative_url }}" class="author-btn author-btn-ghost"><i class="fa-solid fa-newspaper"></i> Articles</a>
       </div>
     </div>
   </header>
 
-  <div class="author-bio">
-    {{ include.bio | markdownify }}
-  </div>
+  <section class="author-section author-bio">
+    <h2 class="author-section-title"><i class="fa-solid fa-user" style="color:#3b82f6; font-size:0.8em;"></i> About</h2>
+    <div class="author-bio-body">
+      {{ include.bio | markdownify }}
+    </div>
+  </section>
+
+  {% if ap.experience %}
+  <section class="author-section author-experience">
+    <h2 class="author-section-title"><i class="fa-solid fa-briefcase" style="color:#3b82f6; font-size:0.8em;"></i> Experience</h2>
+    <div class="author-timeline">
+      {% for job in ap.experience %}
+      <article class="author-exp-card">
+        <div class="author-exp-avatar">{{ job.company | slice: 0, 1 }}</div>
+        <div class="author-exp-body">
+          <h3 class="author-exp-title">{{ job.title }}</h3>
+          {% if job.company %}
+          <p class="author-exp-company">
+            {% if job.company_url %}<a href="{{ job.company_url }}" target="_blank" rel="noopener noreferrer">{{ job.company }}</a>{% else %}{{ job.company }}{% endif %}
+            {% if job.employment_type %}<span class="author-exp-type">{{ job.employment_type }}</span>{% endif %}
+          </p>
+          {% endif %}
+          {% if job.highlights %}
+          <ul class="author-exp-list">
+            {% for h in job.highlights %}
+            <li>{{ h }}</li>
+            {% endfor %}
+          </ul>
+          {% endif %}
+        </div>
+        <div class="author-exp-meta">
+          <span class="author-exp-period"><i class="fa-regular fa-calendar"></i> {{ job.period }}</span>
+          <span class="author-exp-location"><i class="fa-solid fa-location-dot"></i> {{ job.location }}</span>
+        </div>
+      </article>
+      {% endfor %}
+    </div>
+  </section>
+  {% endif %}
+
+  {% if ap.education %}
+  <section class="author-section author-education">
+    <h2 class="author-section-title"><i class="fa-solid fa-graduation-cap" style="color:#3b82f6; font-size:0.8em;"></i> Education</h2>
+    <div class="author-timeline">
+      {% for edu in ap.education %}
+      <article class="author-exp-card author-edu-card">
+        <div class="author-exp-avatar"><i class="fa-solid fa-graduation-cap"></i></div>
+        <div class="author-exp-body">
+          <h3 class="author-exp-title">{{ edu.degree }}</h3>
+          {% if edu.school %}
+          <p class="author-exp-company">{{ edu.school }}</p>
+          {% endif %}
+          {% if edu.extra %}
+          <p class="author-edu-extra">{{ edu.extra }}</p>
+          {% endif %}
+        </div>
+      </article>
+      {% endfor %}
+    </div>
+  </section>
+  {% endif %}
 
   <section class="author-section author-connect">
     <h2 class="author-section-title"><i class="fa-solid fa-link" style="color:#3b82f6; font-size:0.8em;"></i> Connect</h2>
@@ -30,7 +94,21 @@
       {% if ap.linkedin %}
       <a href="{{ ap.linkedin }}" target="_blank" rel="noopener noreferrer" class="author-btn author-btn-linkedin"><i class="fa-brands fa-linkedin-in"></i> LinkedIn</a>
       {% endif %}
-      <a href="mailto:{{ site.email }}" class="author-btn author-btn-ghost"><i class="fa-solid fa-envelope"></i> Email</a>
+      {% if ap.instagram %}
+      <a href="{{ ap.instagram }}" target="_blank" rel="noopener noreferrer" class="author-btn author-btn-instagram"><i class="fa-brands fa-instagram"></i> Instagram</a>
+      {% endif %}
+      {% if ap.github %}
+      <a href="{{ ap.github }}" target="_blank" rel="noopener noreferrer" class="author-btn author-btn-ghost"><i class="fa-brands fa-github"></i> GitHub</a>
+      {% endif %}
+      {% if ap.threads %}
+      <a href="{{ ap.threads }}" target="_blank" rel="noopener noreferrer" class="author-btn author-btn-ghost"><i class="fa-brands fa-threads"></i> Threads</a>
+      {% endif %}
+      {% if ap.youtube %}
+      <a href="{{ ap.youtube }}" target="_blank" rel="noopener noreferrer" class="author-btn author-btn-ghost"><i class="fa-brands fa-youtube"></i> YouTube</a>
+      {% endif %}
+      {% if ap.email %}
+      <a href="mailto:{{ ap.email }}" class="author-btn author-btn-email"><i class="fa-solid fa-envelope"></i> Email</a>
+      {% endif %}
       <a href="{{ '/archive.html' | relative_url }}" class="author-btn author-btn-ghost"><i class="fa-solid fa-newspaper"></i> Browse Articles</a>
     </div>
   </section>
@@ -43,9 +121,27 @@
   "name": "{{ ap_name }}",
   "url": "{{ page.url | absolute_url }}",
   "image": "{{ ap_avatar | absolute_url }}",
+  {% if ap.email %}"email": "{{ ap.email }}",{% endif %}
   "jobTitle": "{{ ap_role }}",
   "description": "{{ page.description | escape }}",
-  "sameAs": [{% if ap.linkedin %}"{{ ap.linkedin }}"{% endif %}],
+  "sameAs": [
+    {% if ap.linkedin %}"{{ ap.linkedin }}",{% endif %}
+    {% if ap.instagram %}"{{ ap.instagram }}",{% endif %}
+    {% if ap.github %}"{{ ap.github }}",{% endif %}
+    {% if ap.threads %}"{{ ap.threads }}",{% endif %}
+    {% if ap.youtube %}"{{ ap.youtube }}"{% endif %}
+  ],
+  "worksFor": {
+    "@type": "Organization",
+    "name": "F9XR Team",
+    "url": "https://f9xr.github.io"
+  },
+  {% if ap.education %}"alumniOf": [
+    {% for edu in ap.education %}{
+      "@type": "EducationalOrganization",
+      "name": "{{ edu.school }}"
+    }{% unless forloop.last %},{% endunless %}{% endfor %}
+  ],{% endif %}
   "publisher": {
     "@type": "Organization",
     "name": "F9XR Team",

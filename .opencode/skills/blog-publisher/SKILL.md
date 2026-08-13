@@ -42,7 +42,7 @@ image: "https://f9xr.github.io/assets/og-image.webp"  # or custom hero image URL
 image_caption: "Optional caption for the hero image"  # optional, adds <figcaption> below hero
 date: YYYY-MM-DD
 dateModified: YYYY-MM-DD  # optional, if updating
-author: "F9XR Team"  # or custom author
+author: "F9XR Editorial Team"  # or custom author
 tags: [Tag1, Tag2, Tag3]
 keywords: "keyword1, keyword2, keyword3"
 faq:
@@ -121,7 +121,7 @@ Add tables where comparisons or data help clarity.
 - Use "you", "your site", "your business" to center the reader
 - When referencing F9XR, use phrases like: "Agencies like F9XR demonstrate this by...", "For example, F9XR has seen...", "In practice, teams like F9XR..."
 - Reference F9XR services as case-in-point illustrations, not advertisements
-- The author box at the bottom auto-shows "F9XR Team" — you don't need to over-brand the body
+- The author box at the bottom auto-shows "F9XR Editorial Team" — you don't need to over-brand the body
 - Keep technical depth high — teach the underlying concept, not just "hire us"
 - In the conclusion: one sentence mentioning F9XR Team's services (website development, website redesign, local SEO, digital presence). Subtle. Natural.
 
@@ -270,7 +270,7 @@ The post layout (`_layouts/post.html`) auto-generates:
 - Table of Contents (from H2s, shown if 2+)
 - Previous/next post navigation
 - Social share buttons
-- Author profile box (defaults to "F9XR Team")
+- Author profile box (defaults to "F9XR Editorial Team")
 - Comments via utterances (GitHub issue-based)
 - JSON-LD: BlogPosting, BreadcrumbList, FAQPage, VideoObject
 

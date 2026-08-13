@@ -1,13 +1,13 @@
 ---
 layout: page
-title: "About the Author — F9XR Team"
+title: "About the Author — F9XR Editorial Team"
 title_hidden: true
-description: "Learn about F9XR Team — a digital architecture agency specializing in high-performance web ecosystems, AI integration, local SEO, and technical maintenance."
-keywords: "F9XR Team, digital architecture agency, web development, AI integration, local SEO, web performance, technical SEO, about F9XR"
+description: "Learn about the F9XR Editorial Team — the digital architecture agency behind F9XR Articles, specializing in high-performance web ecosystems, AI integration, local SEO, and technical maintenance."
+keywords: "F9XR Editorial Team, F9XR Articles, digital architecture agency, web development, AI integration, local SEO, web performance, technical SEO, about F9XR"
 permalink: /authors/f9xr-team/
-author_key: "F9XR Team"
+author_key: "F9XR Editorial Team"
 bio: |
-  **F9XR Team** is a digital architecture agency based in India with a global client footprint. We specialize in building high-performance web ecosystems, AI-powered systems, and local SEO infrastructure that generates measurable revenue for businesses.
+  **F9XR Editorial Team** is the publishing arm of F9XR, a digital architecture agency based in India with a global client footprint. The team specializes in building high-performance web ecosystems, AI-powered systems, and local SEO infrastructure that generates measurable revenue for businesses.
 
   We don't build generic websites. We engineer conversion engines — systems designed from the ground up to turn visitors into paying clients. Every project is built mobile-first, speed-optimized, and structured for search visibility.
 

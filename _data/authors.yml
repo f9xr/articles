@@ -1,15 +1,36 @@
 # Author registry
 # Lookup key must match the `author:` value used in a post's front matter.
-"F9XR Team":
-  name: "F9XR Team"
+"F9XR Editorial Team":
+  name: "F9XR Editorial Team"
   role: "Digital Architecture Agency"
   avatar: "https://f9xr.github.io/logo.webp"
   url: "/authors/f9xr-team/"
   linkedin: "https://linkedin.com/company/f9xrteam"
+  instagram: "https://instagram.com/f9xrteam"
+  github: "https://github.com/f9xr"
+  threads: "https://www.threads.com/@f9xrteam"
+  youtube: "https://www.youtube.com/@QuarterlyLIV"
 
 "Mohammed Ahetasham Uddin":
   name: "Mohammed Ahetasham Uddin"
-  role: "Contributor"
+  role: "Client Relations Associate"
+  headline: "B.Com (Hons) @ Gitam · ACCA Candidate · Bridging Financial Markets & Strategic Marketing"
   avatar: "/assets/AHETASHAM.jpg"
   url: "/authors/ahetasham/"
+  email: "ahetashamuddin@gmail.com"
   linkedin: "https://www.linkedin.com/in/ahetasham-uddin-4b9797295"
+  instagram: "https://www.instagram.com/ahetasham_"
+  experience:
+    - title: "Client Relations Associate"
+      company: "F9XR Team"
+      company_url: "https://f9xr.github.io"
+      employment_type: "Full-time"
+      period: "Apr 2024 - Present"
+      location: "Hyderabad, Telangana, India · Hybrid"
+      highlights:
+        - "Own client relationships across F9XR's digital growth engagements, keeping every project aligned with business goals."
+        - "Bridge marketing strategy, AI-driven web work, and local SEO delivery into measurable outcomes for clients."
+  education:
+    - degree: "B.Com (Hons)"
+      school: "Gitam University"
+      extra: "ACCA Candidate"

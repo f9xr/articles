@@ -7,7 +7,7 @@ image_width: 1200
 image_height: 630
 image_credit: "Photo by <a href=\"https://unsplash.com/@ilyapavlov?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText\" target=\"_blank\" rel=\"noopener noreferrer\">Ilya Pavlov</a> on <a href=\"https://unsplash.com/photos/OqtafYT5kTw?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText\" target=\"_blank\" rel=\"noopener noreferrer\">Unsplash</a>"
 date: 2026-08-12
-author: "F9XR Team"
+author: "F9XR Editorial Team"
 tags: [vibe coded site, premium website design, free UI component libraries, AI website design, shadcn ui, website animation tools, startup website design, modern web design tools, website redesign tips, AI generated website fixes]
 keywords: "vibe coded site, vibe coding tools, premium website design, free UI component libraries, AI website design, website animation tools, AI generated website fixes, website redesign tips"
 faq:

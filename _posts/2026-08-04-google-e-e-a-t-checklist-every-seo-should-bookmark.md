@@ -7,7 +7,7 @@ image_width: 1200
 image_height: 630
 image_credit: "Photo by <a href=\"https://unsplash.com/@aaronburden?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText\" target=\"_blank\" rel=\"noopener noreferrer\">Aaron Burden</a> on <a href=\"https://unsplash.com/photos/y02jEX_B0O0?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText\" target=\"_blank\" rel=\"noopener noreferrer\">Unsplash</a>"
 date: 2026-08-04
-author: "F9XR Team"
+author: "F9XR Editorial Team"
 tags: [E-E-A-T, Google E-E-A-T, SEO checklist, quality rater guidelines, AI Overviews, content quality, YMYL, SEO 2026, digital presence, F9XR]
 keywords: "E-E-A-T, Google E-E-A-T checklist, E-E-A-T framework, SEO checklist, quality rater guidelines, Experience Expertise Authoritativeness Trustworthiness, AI Overview citations, YMYL content, F9XR Team"
 faq:

@@ -7,7 +7,7 @@ image_width: 1200
 image_height: 630
 image_credit: "Photo by <a href=\"https://unsplash.com/@carlosmuza?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText\" target=\"_blank\" rel=\"noopener noreferrer\">Carlos Muza</a> on <a href=\"https://unsplash.com/photos/HRzj2Hd5wWY?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText\" target=\"_blank\" rel=\"noopener noreferrer\">Unsplash</a>"
 date: 2026-08-11
-author: "F9XR Team"
+author: "F9XR Editorial Team"
 tags: [AI skills for marketers, AI marketing productivity, AI content drafting, technical SEO audit, AEO answer engine optimization, AI workflow automation, F9XR SEO Codebase Auditor, AI marketing statistics 2026, local business digital presence, AI powered ad optimization]
 keywords: "AI skills for marketers, AI marketing productivity, AI content drafting, technical SEO audit, AEO answer engine optimization, AI workflow automation, AI marketing statistics 2026, local business digital presence, AI powered ad optimization"
 faq:
@@ -52,7 +52,7 @@ Keyword lists, competitor gap analysis, content audits, these used to eat entire
 **Practical tip:** use AI to generate a first pass keyword and topic list, then manually verify search intent for your top priority terms before writing. AI is excellent at breadth. Human judgment still decides which topics deserve your time.
 
 <figure class="post-figure">
-  <img src="https://f9xr.github.io/assets/AI_Search.png" alt="AI search tools like ChatGPT and Perplexity answering a business question" title="AEO work is about being cited by AI search tools" width="1379" height="884" loading="lazy" />
+  <img src="https://f9xr.github.io/articles/assets/AI_Search.png" alt="AI search tools like ChatGPT and Perplexity answering a business question" title="AEO work is about being cited by AI search tools" width="1379" height="884" loading="lazy" />
   <figcaption>Answer Engine Optimization is about getting cited by AI search tools, not just ranked by Google.</figcaption>
 </figure>
 

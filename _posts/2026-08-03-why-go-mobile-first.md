@@ -7,7 +7,7 @@ image_width: 1200
 image_height: 630
 image_credit: "Photo by <a href=\"https://unsplash.com/@charlesdeluvio?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText\" target=\"_blank\" rel=\"noopener noreferrer\">Charles Deluvio</a> on <a href=\"https://unsplash.com/photos/black-android-smartphone-showing-google-site-on-white-surface-leqrylJNYUQ?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText\" target=\"_blank\" rel=\"noopener noreferrer\">Unsplash</a>"
 date: 2026-08-03
-author: "F9XR Team"
+author: "F9XR Editorial Team"
 tags: [mobile-first design, mobile-first, responsive web design, mobile SEO, Core Web Vitals, mobile conversion rate, mobile traffic, mobile UX, web performance, digital presence]
 keywords: "mobile-first design, mobile-first, mobile traffic share, mobile SEO, mobile conversion rate, Core Web Vitals, responsive design, mobile UX, mobile-first engineering, F9XR Team"
 faq:

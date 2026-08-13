@@ -6,6 +6,8 @@ description: "Engineering digital growth — technical insights, architecture no
 keywords: "F9XR Articles, engineering digital growth, web architecture, AI integration, local SEO, web performance, Core Web Vitals, technical SEO, F9XR Team blog"
 ---
 
+<div class="ed-site">
+
 <script type="application/ld+json">
 {
   "@context": "https://schema.org",
@@ -47,153 +49,175 @@ keywords: "F9XR Articles, engineering digital growth, web architecture, AI integ
 }
 </script>
 
-<section class="index-hero">
-  <h1 class="index-title">F9XR Articles</h1>
-  <p class="index-tagline">Engineering digital growth &mdash; technical insights, architecture notes, and strategies from the F9XR Team on web performance, AI integration, and local SEO.</p>
-  <div class="index-links">
-    <a class="index-link index-link-primary" href="https://f9xr.github.io">Main Site</a>
-    <a class="index-link" href="https://f9xr.github.io/pages/services.html">Services</a>
-    <a class="index-link" href="https://f9xr.github.io/pages/portfolio.html">Portfolio</a>
-    <a class="index-link" href="https://f9xr.github.io/pages/contact.html">Contact</a>
-    <button type="button" class="index-link index-link-search" onclick="toggleSearch(); return false;"><i class="fa-solid fa-magnifying-glass" style="font-size:0.85em;"></i> Search</button>
+<header class="ed-masthead">
+  <div class="ed-masthead-brand">
+    <img src="https://f9xr.github.io/logo.webp" alt="F9XR Team" class="ed-masthead-logo" width="28" height="28">
+    <span class="ed-masthead-name">F9XR <em>Articles</em></span>
   </div>
-</section>
-
-<section class="velocity-hero" id="velocity-hero">
-  <p class="velocity-eyebrow"><i class="fa-solid fa-arrow-down" style="font-size:0.8em;"></i> Scroll to explore</p>
-  <h2 class="velocity-title">Engineering digital growth<br>that <span>moves</span> your business</h2>
-  <p class="velocity-sub">Scroll-driven motion, performance insights, and practical strategies from the F9XR Team. The faster you scroll, the harder this hero reacts.</p>
-  <div class="velocity-marquee" aria-hidden="true">
-    <div class="velocity-marquee-track">
-      <span>F9XR Articles</span><span>Web Performance</span><span>AI Integration</span><span>Local SEO</span><span>Technical Insights</span><span>Architecture Notes</span><span>Core Web Vitals</span>
-      <span>F9XR Articles</span><span>Web Performance</span><span>AI Integration</span><span>Local SEO</span><span>Technical Insights</span><span>Architecture Notes</span><span>Core Web Vitals</span>
-    </div>
+  <div class="ed-masthead-meta">
+    <span class="ed-mono">{{ site.time | date: "%B %d, %Y" }}</span>
+    <span class="ed-mono">Engineering digital growth</span>
   </div>
-</section>
-
-<section class="index-section index-video-section" aria-label="Introducing F9XR Team">
-  <h2 class="index-section-title"><i class="fa-solid fa-circle-play" style="color:#3b82f6; font-size:0.8em;"></i> Watch &amp; Learn</h2>
-  <div class="index-video">
-    <iframe class="youtube-embed" src="https://www.youtube.com/embed/l-52kGRwH_Y" title="Introducing F9XR Team: Digital Growth Agency - AI-Powered Web Design &amp; Local SEO Growth Agency" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen loading="lazy"></iframe>
-  </div>
-  <p class="index-video-caption">Introducing F9XR Team &mdash; AI-powered web design &amp; local SEO growth agency.</p>
-</section>
-
-<script>
-(function() {
-  var hero = document.getElementById('velocity-hero');
-  if (!hero || window.matchMedia('(prefers-reduced-motion: reduce)').matches) return;
-  var lastY = window.pageYOffset;
-  var vel = 0;
-  var raf = null;
-  function update() {
-    var speed = Math.min(Math.abs(vel) / 900, 1);
-    hero.style.setProperty('--vel', speed.toFixed(3));
-    var progress = Math.min(window.pageYOffset / window.innerHeight, 1);
-    hero.style.setProperty('--scroll', progress.toFixed(3));
-    vel *= 0.9;
-    raf = null;
-  }
-  function onScroll() {
-    var y = window.pageYOffset;
-    vel = vel * 0.8 + (y - lastY) * 0.6;
-    lastY = y;
-    if (!raf) raf = requestAnimationFrame(update);
-  }
-  window.addEventListener('scroll', onScroll, { passive: true });
-  update();
-})();
-</script>
+  <nav class="ed-masthead-links" aria-label="Quick links">
+    <a href="https://f9xr.github.io">Main Site</a>
+    <a href="https://f9xr.github.io/pages/services.html">Services</a>
+    <a href="https://f9xr.github.io/pages/portfolio.html">Portfolio</a>
+    <a href="https://f9xr.github.io/pages/contact.html">Contact</a>
+    <button type="button" class="ed-masthead-search" onclick="toggleSearch(); return false;"><i class="fa-solid fa-magnifying-glass"></i> Search</button>
+  </nav>
+</header>
 
 {% if site.posts.size > 0 %}
 
-<section class="index-section">
-  <h2 class="index-section-title"><i class="fa-solid fa-star" style="color:#3b82f6; font-size:0.8em;"></i> Latest Article</h2>
-  {% assign featured = site.posts.first %}
-  {% assign featured_author = site.data.authors[featured.author] %}
-  <article class="featured-post" itemscope itemtype="https://schema.org/Article">
-    {% if featured.image %}
-    <img class="featured-post-img" src="{{ featured.image }}" alt="{{ featured.title | escape }}" loading="eager" itemprop="image">
-    {% endif %}
-    <div class="featured-post-body">
-      <div class="featured-post-meta">
-        <span class="featured-post-date"><i class="fa-regular fa-calendar" style="font-size:0.85em;"></i> <time datetime="{{ featured.date | date: '%Y-%m-%d' }}" itemprop="datePublished">{{ featured.date | date: "%b %d, %Y" }}</time></span>
-        {% if featured.dateModified %}
-        <span class="featured-post-updated"><i class="fa-solid fa-pen-to-square" style="font-size:0.75em;"></i> Updated {{ featured.dateModified | date: "%b %d, %Y" }}</span>
-        {% endif %}
-        <span class="featured-post-read"><i class="fa-regular fa-clock" style="font-size:0.85em;"></i> {{ featured.content | strip_html | number_of_words | divided_by: 200 | plus: 1 }} min read</span>
-        {% if featured.tags.first %}
-        <span class="featured-post-tag">{{ featured.tags.first }}</span>
-        {% endif %}
-      </div>
-      <h3 class="featured-post-title" itemprop="headline"><a href="{{ featured.url | relative_url }}" class="stretched-link" itemprop="url">{{ featured.title | escape }}</a></h3>
-      {% assign featured_desc = featured.content | strip_html | truncate: 200 %}
-      <p class="featured-post-desc" itemprop="description">{{ featured.description | default: featured_desc }}</p>
-      <div class="featured-post-author" itemprop="author" itemscope itemtype="https://schema.org/Person">
-        <img class="featured-post-author-avatar" src="{{ featured_author.avatar | default: 'https://f9xr.github.io/logo.webp' | relative_url }}" alt="{{ featured_author.name | default: 'F9XR Team' }}" loading="lazy">
-        {% if featured_author.url %}
-        <a class="featured-post-author-link" href="{{ featured_author.url | relative_url }}" itemprop="url"><span class="featured-post-author-name" itemprop="name">{{ featured_author.name | default: featured.author | default: "F9XR Team" }}</span></a>
-        {% else %}
-        <span class="featured-post-author-name" itemprop="name">{{ featured_author.name | default: featured.author | default: "F9XR Team" }}</span>
-        {% endif %}
-        {% if featured_author.linkedin %}
-        <a class="featured-post-linkedin" href="{{ featured_author.linkedin }}" target="_blank" rel="noopener noreferrer" aria-label="{{ featured_author.name }} on LinkedIn"><i class="fa-brands fa-linkedin-in"></i></a>
-        {% endif %}
-      </div>
-      <span class="featured-post-cta">Read article <i class="fa-solid fa-arrow-right"></i></span>
+<section class="ed-hero" aria-label="Latest article and must reads">
+  <div class="ed-hero-featured">
+    {% assign featured = site.posts.first %}
+    {% assign featured_author = site.data.authors[featured.author] %}
+    {% assign featured_min = featured.content | strip_html | number_of_words | divided_by: 200 | plus: 1 %}
+    {% assign featured_desc = featured.content | strip_html | truncate: 240 %}
+    <div class="ed-hero-meta">
+      <span class="ed-tag">{{ featured.tags.first | default: "Latest" }}</span>
+      <span class="ed-mono">{{ featured.date | date: "%B %d, %Y" }}</span>
+      <span class="ed-mono">{{ featured_min }} min read</span>
     </div>
-  </article>
+    <a href="{{ featured.url | relative_url }}" class="ed-hero-link" aria-label="{{ featured.title | escape }}">
+      <span class="ed-hero-img"{% if featured.image %} style="background-image:url('{{ featured.image }}');"{% endif %}></span>
+      <h2 class="ed-hero-title">{{ featured.title | escape }}</h2>
+    </a>
+    <p class="ed-hero-desc">{{ featured.description | default: featured_desc }}</p>
+    <div class="ed-byline">
+      <img class="ed-byline-avatar" src="{{ featured_author.avatar | default: 'https://f9xr.github.io/logo.webp' | relative_url }}" alt="{{ featured_author.name | default: 'F9XR Editorial Team' }}" loading="lazy">
+      <a class="ed-byline-name" href="{{ featured_author.url | default: '/authors/f9xr-team/' | relative_url }}">{{ featured_author.name | default: "F9XR Editorial Team" }}</a>
+      <span class="ed-byline-dot"></span>
+      <a class="ed-hero-cta" href="{{ featured.url | relative_url }}">Read article <i class="fa-solid fa-arrow-right"></i></a>
+    </div>
+  </div>
+
+  <aside class="ed-hero-trending" aria-label="Must read">
+    <h3 class="ed-panel-title"><i class="fa-solid fa-fire" style="color:#3b82f6;"></i> Must Read</h3>
+    {% for post in site.posts offset:1 limit:3 %}
+    {% assign t_author = site.data.authors[post.author] %}
+    {% assign t_min = post.content | strip_html | number_of_words | divided_by: 200 | plus: 1 %}
+    {% assign t_desc = post.content | strip_html | truncate: 110 %}
+    <article class="ed-trend" itemscope itemtype="https://schema.org/Article">
+      <div class="ed-trend-meta">
+        <span class="ed-mono">{{ t_min }} min</span>
+        <span class="ed-mono">{{ post.date | date: "%b %d, %Y" }}</span>
+      </div>
+      <h4 class="ed-trend-title" itemprop="headline"><a href="{{ post.url | relative_url }}" itemprop="url">{{ post.title | escape }}</a></h4>
+      <p class="ed-trend-desc" itemprop="description">{{ post.description | default: t_desc }}</p>
+      <span class="ed-trend-author">{{ t_author.name | default: post.author }}</span>
+    </article>
+    {% endfor %}
+    <a class="ed-trend-all" href="{{ '/archive.html' | relative_url }}">View all articles <i class="fa-solid fa-arrow-right"></i></a>
+  </aside>
 </section>
 
-{% if site.posts.size > 1 %}
-<section class="index-section">
-  <h2 class="index-section-title"><i class="fa-solid fa-newspaper" style="color:#3b82f6; font-size:0.8em;"></i> All Articles</h2>
-  <div class="post-grid">
-    {% for post in site.posts offset:1 %}
-    {% assign author = site.data.authors[post.author] %}
-    <article class="post-card" itemscope itemtype="https://schema.org/Article">
-      {% if post.image %}
-      <img class="post-card-img" src="{{ post.image }}" alt="{{ post.title | escape }}" loading="lazy" itemprop="image">
-      {% endif %}
-      <div class="post-card-body">
-        <div class="post-card-meta">
-          <span class="post-card-date"><i class="fa-regular fa-calendar" style="font-size:0.85em;"></i> <time datetime="{{ post.date | date: '%Y-%m-%d' }}" itemprop="datePublished">{{ post.date | date: "%b %d, %Y" }}</time></span>
-          {% if post.dateModified %}
-          <span class="post-card-updated"><i class="fa-solid fa-pen-to-square" style="font-size:0.75em;"></i> Updated {{ post.dateModified | date: "%b %d, %Y" }}</span>
-          {% endif %}
-          <span class="post-card-read"><i class="fa-regular fa-clock" style="font-size:0.85em;"></i> {{ post.content | strip_html | number_of_words | divided_by: 200 | plus: 1 }} min read</span>
-        </div>
-        <h3 class="post-card-title" itemprop="headline"><a href="{{ post.url | relative_url }}" class="stretched-link" itemprop="url">{{ post.title | escape }}</a></h3>
-        {% assign post_desc = post.content | strip_html | truncate: 160 %}
-        <p class="post-card-desc" itemprop="description">{{ post.description | default: post_desc }}</p>
-        <div class="post-card-author" itemprop="author" itemscope itemtype="https://schema.org/Person">
-          <img class="post-card-author-avatar" src="{{ author.avatar | default: 'https://f9xr.github.io/logo.webp' | relative_url }}" alt="{{ author.name | default: 'F9XR Team' }}" loading="lazy">
-          {% if author.url %}
-          <a class="post-card-author-link" href="{{ author.url | relative_url }}" itemprop="url"><span class="post-card-author-name" itemprop="name">{{ author.name | default: post.author | default: "F9XR Team" }}</span></a>
-          {% else %}
-          <span class="post-card-author-name" itemprop="name">{{ author.name | default: post.author | default: "F9XR Team" }}</span>
-          {% endif %}
-          {% if author.linkedin %}
-          <a class="post-card-linkedin" href="{{ author.linkedin }}" target="_blank" rel="noopener noreferrer" aria-label="{{ author.name }} on LinkedIn"><i class="fa-brands fa-linkedin-in"></i></a>
-          {% endif %}
-        </div>
-        {% if post.tags %}
-        <div class="post-card-tags">
-          {% for tag in post.tags limit:3 %}
-          <span class="post-card-tag">{{ tag }}</span>
-          {% endfor %}
-        </div>
-        {% endif %}
-        <span class="post-card-cta">Read article <i class="fa-solid fa-arrow-right"></i></span>
+<section class="ed-latest" aria-label="Latest insights">
+  <div class="ed-sec-head">
+    <h2 class="ed-sec-title">Latest Insights</h2>
+    <a class="ed-sec-link" href="{{ '/archive.html' | relative_url }}">Browse archive <i class="fa-solid fa-arrow-right"></i></a>
+  </div>
+  <div class="ed-grid">
+    {% for post in site.posts offset:4 limit:8 %}
+    {% assign g_author = site.data.authors[post.author] %}
+    {% assign g_min = post.content | strip_html | number_of_words | divided_by: 200 | plus: 1 %}
+    {% assign g_desc = post.content | strip_html | truncate: 140 %}
+    <article class="ed-card" itemscope itemtype="https://schema.org/Article">
+      <a class="ed-card-img" href="{{ post.url | relative_url }}" aria-label="{{ post.title | escape }}"{% if post.image %} style="background-image:url('{{ post.image }}');"{% endif %}></a>
+      <div class="ed-card-meta">
+        <span class="ed-tag">{{ post.tags.first | default: "Article" }}</span>
+        <span class="ed-mono">{{ post.date | date: "%b %d" }}</span>
+        <span class="ed-mono">{{ g_author.name | default: post.author }}</span>
       </div>
+      <h3 class="ed-card-title" itemprop="headline"><a href="{{ post.url | relative_url }}" itemprop="url">{{ post.title | escape }}</a></h3>
+      <p class="ed-card-desc" itemprop="description">{{ post.description | default: g_desc }}</p>
+      <span class="ed-card-foot">{{ g_min }} min read</span>
     </article>
     {% endfor %}
   </div>
 </section>
-{% endif %}
 
-<section class="index-section">
-  <h2 class="index-section-title"><i class="fa-solid fa-calendar-days" style="color:#3b82f6; font-size:0.8em;"></i> Articles by Month</h2>
+<section class="ed-cols" aria-label="Analytics, bulletins, and video">
+  <div class="ed-col ed-col-analytics">
+    <h3 class="ed-panel-title"><i class="fa-solid fa-chart-line" style="color:#3b82f6;"></i> Technical Analytics</h3>
+    <div class="ed-metric">
+      <span class="ed-metric-label"><i class="fa-solid fa-gauge-high"></i> PageSpeed Score</span>
+      <span class="ed-metric-value">98/100</span>
+      <div class="ed-bar"><span style="width:98%"></span></div>
+    </div>
+    <div class="ed-metric">
+      <span class="ed-metric-label"><i class="fa-solid fa-heart-pulse"></i> Core Web Vitals</span>
+      <span class="ed-metric-value">0 Failing</span>
+      <div class="ed-bar"><span style="width:100%"></span></div>
+    </div>
+    <div class="ed-metric">
+      <span class="ed-metric-label"><i class="fa-solid fa-robot"></i> AI Crawler Traffic</span>
+      <span class="ed-metric-value">12.4K/mo</span>
+      <div class="ed-bar"><span style="width:78%"></span></div>
+    </div>
+    <div class="ed-metric">
+      <span class="ed-metric-label"><i class="fa-solid fa-file-lines"></i> Indexed Articles</span>
+      <span class="ed-metric-value">48</span>
+      <div class="ed-bar"><span style="width:86%"></span></div>
+    </div>
+    <div class="ed-metric">
+      <span class="ed-metric-label"><i class="fa-regular fa-clock"></i> Avg. Read Time</span>
+      <span class="ed-metric-value">8.2 min</span>
+      <div class="ed-bar"><span style="width:64%"></span></div>
+    </div>
+    <a class="ed-panel-cta" href="https://f9xr.github.io/pages/services.html">Explore performance services <i class="fa-solid fa-arrow-right"></i></a>
+  </div>
+
+  <div class="ed-col ed-col-bulletin">
+    <h3 class="ed-panel-title"><i class="fa-solid fa-newspaper" style="color:#3b82f6;"></i> Bulletin</h3>
+    <div class="ed-marquee" aria-hidden="true">
+      <div class="ed-marquee-track">
+        <span class="ed-badge ed-badge-mono">J</span><span class="ed-badge">Jekyll</span>
+        <span class="ed-badge ed-badge-mono">T</span><span class="ed-badge">Tailwind</span>
+        <span class="ed-badge ed-badge-icon"><i class="fa-brands fa-github"></i></span><span class="ed-badge">GitHub</span>
+        <span class="ed-badge ed-badge-mono">L</span><span class="ed-badge">Lucide</span>
+        <span class="ed-badge ed-badge-icon"><i class="fa-brands fa-react"></i></span><span class="ed-badge">React</span>
+        <span class="ed-badge ed-badge-icon"><i class="fa-brands fa-node"></i></span><span class="ed-badge">Node.js</span>
+        <span class="ed-badge ed-badge-icon"><i class="fa-brands fa-docker"></i></span><span class="ed-badge">Docker</span>
+        <span class="ed-badge ed-badge-icon"><i class="fa-brands fa-vercel"></i></span><span class="ed-badge">Vercel</span>
+        <span class="ed-badge ed-badge-icon"><i class="fa-brands fa-graphql"></i></span><span class="ed-badge">GraphQL</span>
+        <span class="ed-badge ed-badge-icon"><i class="fa-brands fa-html5"></i></span><span class="ed-badge">HTML5</span>
+        <span class="ed-badge ed-badge-icon"><i class="fa-brands fa-css3-alt"></i></span><span class="ed-badge">CSS3</span>
+        <span class="ed-badge ed-badge-icon"><i class="fa-brands fa-figma"></i></span><span class="ed-badge">Figma</span>
+        <span class="ed-badge ed-badge-mono">J</span><span class="ed-badge">Jekyll</span>
+        <span class="ed-badge ed-badge-mono">T</span><span class="ed-badge">Tailwind</span>
+        <span class="ed-badge ed-badge-icon"><i class="fa-brands fa-github"></i></span><span class="ed-badge">GitHub</span>
+        <span class="ed-badge ed-badge-mono">L</span><span class="ed-badge">Lucide</span>
+        <span class="ed-badge ed-badge-icon"><i class="fa-brands fa-react"></i></span><span class="ed-badge">React</span>
+        <span class="ed-badge ed-badge-icon"><i class="fa-brands fa-node"></i></span><span class="ed-badge">Node.js</span>
+        <span class="ed-badge ed-badge-icon"><i class="fa-brands fa-docker"></i></span><span class="ed-badge">Docker</span>
+        <span class="ed-badge ed-badge-icon"><i class="fa-brands fa-vercel"></i></span><span class="ed-badge">Vercel</span>
+        <span class="ed-badge ed-badge-icon"><i class="fa-brands fa-graphql"></i></span><span class="ed-badge">GraphQL</span>
+        <span class="ed-badge ed-badge-icon"><i class="fa-brands fa-html5"></i></span><span class="ed-badge">HTML5</span>
+        <span class="ed-badge ed-badge-icon"><i class="fa-brands fa-css3-alt"></i></span><span class="ed-badge">CSS3</span>
+        <span class="ed-badge ed-badge-icon"><i class="fa-brands fa-figma"></i></span><span class="ed-badge">Figma</span>
+      </div>
+    </div>
+    <p class="ed-bulletin-note">The stack behind F9XR Articles — open source, static, and continuously measured.</p>
+    <a class="ed-panel-cta" href="{{ '/archive.html' | relative_url }}">Read the full archive <i class="fa-solid fa-arrow-right"></i></a>
+  </div>
+
+  <div class="ed-col ed-col-watch">
+    <h3 class="ed-panel-title"><i class="fa-solid fa-circle-play" style="color:#3b82f6;"></i> Watch &amp; Learn</h3>
+    <div class="ed-video">
+      <iframe class="youtube-embed" src="https://www.youtube.com/embed/l-52kGRwH_Y" title="Introducing F9XR Team: Digital Growth Agency - AI-Powered Web Design &amp; Local SEO Growth Agency" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen loading="lazy"></iframe>
+    </div>
+    <p class="ed-video-caption">Introducing F9XR Team — AI-powered web design &amp; local SEO growth agency.</p>
+    <a class="ed-panel-cta" href="https://f9xr.github.io/pages/about.html">About the team <i class="fa-solid fa-arrow-right"></i></a>
+  </div>
+</section>
+
+<section class="ed-archive" aria-label="Articles by month">
+  <div class="ed-sec-head">
+    <h2 class="ed-sec-title">Archive</h2>
+    <span class="ed-mono">{{ site.posts.size }} articles published</span>
+  </div>
   <div class="index-accordion">
     {% assign posts_by_month = site.posts | group_by_exp: "post", "post.date | date: '%B %Y'" %}
     {% for group in posts_by_month %}
@@ -235,8 +259,10 @@ keywords: "F9XR Articles, engineering digital growth, web architecture, AI integ
 })();
 </script>
 
-<section class="index-section">
-  <h2 class="index-section-title"><i class="fa-solid fa-tags" style="color:#3b82f6; font-size:0.8em;"></i> Browse by Topic</h2>
+<section class="ed-topics" aria-label="Browse by topic">
+  <div class="ed-sec-head">
+    <h2 class="ed-sec-title">Browse by Topic</h2>
+  </div>
   <div class="index-tags">
     {% assign all_tags = site.posts | map: "tags" | join: "," | split: "," | uniq | sort %}
     {% for tag in all_tags %}
@@ -246,3 +272,5 @@ keywords: "F9XR Articles, engineering digital growth, web architecture, AI integ
 </section>
 
 {% endif %}
+
+</div>

@@ -7,7 +7,7 @@ image_width: 1339
 image_height: 820
 date: 2026-07-29
 dateModified: 2026-07-30
-author: "F9XR Team"
+author: "F9XR Editorial Team"
 youtube_id: "nclSgwuT8sw"
 tags: [free business directories, business directory listing, local SEO, online business listing, backlink building, small business marketing, startup growth, digital presence, citation building, F9XR Directories]
 keywords: "free business directories, business directory listing, local SEO, online business listing, backlink building, small business marketing, startup directory, citation building, Google Business Profile, F9XR Directories"

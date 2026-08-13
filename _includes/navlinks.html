@@ -1,21 +1,45 @@
-<hr>
-<div class="post_navi">
+<nav class="post-nav" aria-label="Continue reading">
   {%- if page.previous.url -%}
-  <a class="post_navi-item nav_prev" href="{{ page.previous.url | relative_url }}" title="{{ page.previous.title }}">
-    <div class="post_navi-arrow">&larr;</div><div class="post_navi-label">Previous</div><div><span>{{ page.previous.title }}</span></div>
+  <a class="post-nav-card post-nav-prev" href="{{ page.previous.url | relative_url }}" title="{{ page.previous.title }}">
+    <div class="post-nav-thumb" {% if page.previous.image %}style="background-image:url('{{ page.previous.image }}');"{% endif %}></div>
+    <div class="post-nav-body">
+      <span class="post-nav-chip">Previous article</span>
+      <h4 class="post-nav-title">{{ page.previous.title }}</h4>
+      <span class="post-nav-date">{{ page.previous.date | date: "%b %-d, %Y" }}</span>
+    </div>
+    <span class="post-nav-arrow"><i class="fa-solid fa-arrow-left-long"></i></span>
   </a>
   {%- else -%}
-  <a class="post_navi-item nav_prev" href="{{ '/' | absolute_url }}" title="F9XR Articles Home">
-    <div class="post_navi-arrow">&larr;</div><div class="post_navi-label">Back to</div><div><span>F9XR Articles</span></div>
+  <a class="post-nav-card post-nav-prev" href="{{ '/' | absolute_url }}" title="F9XR Articles Home">
+    <div class="post-nav-thumb post-nav-thumb-logo"></div>
+    <div class="post-nav-body">
+      <span class="post-nav-chip">Back to</span>
+      <h4 class="post-nav-title">F9XR Articles</h4>
+      <span class="post-nav-date">Browse all articles</span>
+    </div>
+    <span class="post-nav-arrow"><i class="fa-solid fa-arrow-left-long"></i></span>
   </a>
   {%- endif -%}
+
   {%- if page.next.url -%}
-  <a class="post_navi-item nav_next" href="{{ page.next.url | relative_url }}" title="{{ page.next.title }}">
-    <div class="post_navi-arrow">&rarr;</div><div class="post_navi-label">Next</div><div><span>{{ page.next.title }}</span></div>
+  <a class="post-nav-card post-nav-next" href="{{ page.next.url | relative_url }}" title="{{ page.next.title }}">
+    <span class="post-nav-arrow"><i class="fa-solid fa-arrow-right-long"></i></span>
+    <div class="post-nav-body">
+      <span class="post-nav-chip">Next article</span>
+      <h4 class="post-nav-title">{{ page.next.title }}</h4>
+      <span class="post-nav-date">{{ page.next.date | date: "%b %-d, %Y" }}</span>
+    </div>
+    <div class="post-nav-thumb" {% if page.next.image %}style="background-image:url('{{ page.next.image }}');"{% endif %}></div>
   </a>
   {%- else -%}
-  <a class="post_navi-item nav_next" href="{{ 'archive.html' | absolute_url }}" title="Blog Archive">
-    <div class="post_navi-arrow">&rarr;</div><div class="post_navi-label">View</div><div><span>All Articles</span></div>
+  <a class="post-nav-card post-nav-next" href="{{ 'archive.html' | absolute_url }}" title="Blog Archive">
+    <span class="post-nav-arrow"><i class="fa-solid fa-arrow-right-long"></i></span>
+    <div class="post-nav-body">
+      <span class="post-nav-chip">View</span>
+      <h4 class="post-nav-title">All Articles</h4>
+      <span class="post-nav-date">Read the full archive</span>
+    </div>
+    <div class="post-nav-thumb post-nav-thumb-archive"></div>
   </a>
   {%- endif -%}
-</div>
+</nav>
