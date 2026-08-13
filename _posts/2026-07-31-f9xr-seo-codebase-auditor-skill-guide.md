@@ -7,6 +7,7 @@ image_width: 1200
 image_height: 630
 image_credit: "Photo by <a href=\"https://unsplash.com/@kmuza?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText\" target=\"_blank\" rel=\"noopener noreferrer\">Carlos Muza</a> on <a href=\"https://unsplash.com/photos/hpjSkU2UYSU?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText\" target=\"_blank\" rel=\"noopener noreferrer\">Unsplash</a>"
 date: 2026-07-31
+dateModified: 2026-07-31
 author: "F9XR Editorial Team"
 youtube_id: "05cr4W9uyAA"
 tags: [SEO CodeBase Auditor, technical SEO audit, on-page SEO, Core Web Vitals, structured data, internal linking, SEO automation, AI SEO audit, website audit, F9XR]

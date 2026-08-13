@@ -1,444 +1,163 @@
 # SEO Codebase Audit Report
 
-**Audit Date:** July 28, 2026
-**Auditor:** F9XR SEO Codebase Audit (Enterprise Skill)
-**Site:** F9XR Articles — `https://f9xrteam.github.io/articles`
-**Project Type:** Blog / article platform for a digital architecture agency
-**Framework:** Jekyll (Minima theme, customized) on GitHub Pages
-**Target Audience:** Businesses seeking web development, AI integration, local SEO, and digital architecture services
-**Primary Keywords:** web development agency, AI integration, local SEO, digital architecture, web performance
+**Audit Date:** August 14, 2026
+**Auditor:** F9XR SEO Codebase Audit (manual, repository-wide)
+**Site:** F9XR Articles — `https://f9xr.github.io/articles`
+**Project Type:** Jekyll blog / article hub on GitHub Pages for a digital architecture agency
+**Scope:** All 12 posts, layouts, includes, AI-visibility files (llms.txt, ai.txt, feeds), standalone pages, config, and site assets.
+
+> This report supersedes the July 28, 2026 audit (which reported all 18 findings resolved).
+> It re-verifies every prior fix against the current codebase and adds findings for the
+> content and files added since then.
 
 ---
 
-## Site Identity & Assumptions
+## Executive Summary
 
-This is a **blog platform** for F9XR Team, a digital architecture agency based in India with a global client footprint. The site serves as a content hub to establish thought leadership and drive inbound leads to the main site (`f9xr.github.io`). It uses Jekyll with a heavily customized Minima theme, hosted on GitHub Pages.
+The technical SEO foundation is strong and has improved since the July audit: structured data is comprehensive, feeds and AI-visibility files exist, E-E-A-T signals (Person authors, trust pages) are in place, and performance patterns are sound. However, this audit found **1 High** and **6 Medium** issues, including a homepage `<h1>` regression, a `dateModified` schema bug, and stale AI-visibility files on a site that explicitly targets AEO/GEO.
 
-**Key audit weightings:**
-- On-Page SEO and Technical SEO weighted heavily (blog content is the primary asset)
-- E-E-A-T signals critical (YMYL-adjacent: business services, financial claims)
-- Performance important but secondary to content quality at this scale (1 post)
-- Local SEO not applicable (this is the articles subdomain, not the main business site)
+| Severity | Open | Closed |
+|----------|------|--------|
+| Critical | 0 | 4 |
+| High | 1 | 5 |
+| Medium | 6 | 3 |
+| Low | 8 | 3 |
 
 ---
 
 ## Priority Fix Matrix
 
-| # | Severity | Pillar | Finding | Est. Impact |
-|---|----------|--------|---------|-------------|
-| 1 | Critical | Technical | URL mismatch: `f9xrteam.github.io` vs `f9xr.github.io` across codebase | Blocks correct canonicalization |
-| 2 | Critical | Performance | Render-blocking highlight.js scripts in `<head>` layout | Degrades LCP/FCP |
-| 3 | Critical | Technical | No 404 error page configured | Poor UX + crawl waste |
-| 4 | Critical | Technical | SearchAction schema URL points to non-existent page | Invalid structured data |
-| 5 | High | Accessibility | No skip-to-content navigation link | Accessibility violation |
-| 6 | High | On-Page | Homepage missing `<h1>` tag | Weakens primary ranking signal |
-| 7 | High | Blog SEO | Author type is Organization, not Person | Weakens E-E-A-T |
-| 8 | High | E-E-A-T | No Privacy Policy or Terms of Service pages | Trust signal gap |
-| 9 | High | Image SEO | Post hero image hosted on external domain (f9xr.github.io) | Dependency risk + CLS |
-| 10 | Medium | Blog SEO | Blog post under 1000 words (thin for introductory content) | Content depth |
-| 11 | Medium | Technical | No IndexNow protocol | Slower indexing of new content |
-| 12 | Medium | Blog SEO | Missing `dateModified` in post frontmatter | Freshness signal |
-| 13 | Medium | On-Page | Archive page title says "default" layout, mismatched | Minor confusion |
-| 14 | Medium | Video SEO | YouTube embed has no VideoObject schema | Missing rich result |
-| 15 | Low | Image SEO | No image sitemap | Marginal at 1 post |
-| 16 | Low | Social | Missing `article:tag` Open Graph meta for each tag | Minor social signal |
+| # | Severity | Pillar | Finding | Location |
+|---|----------|--------|---------|----------|
+| 1 | High | On-Page | Homepage has **no `<h1>`** — `title_hidden: true` suppresses it and no manual H1 exists | `index.md`, `_layouts/page.html:5-11` |
+| 2 | Medium | Blog SEO | `BlogPosting` JSON-LD uses `page.last_modified_at` (never set) instead of `page.dateModified` — freshness signal broken on all posts | `_layouts/post.html:431`, `atom.xml:23` |
+| 3 | Medium | E-E-A-T / Content | **Stale AI files**: `llms.txt` lists 4 of 12 posts; `llms-full.txt` contains 1 of 12 | `llms.txt`, `llms-full.txt` |
+| 4 | Medium | Technical | Two orphaned, indexable standalone pages: `bharat-by-day.html` (off-brand, no meta, noindex, duplicates `f9xr.github.io/BharatByDay/`) and `f9xr-content-plan-mindmap.html` (planning tool, no meta, `user-scalable=no`) | `bharat-by-day.html`, `f9xr-content-plan-mindmap.html` |
+| 5 | Medium | E-E-A-T | Hardcoded homepage metrics (`98/100`, `12.4K/mo`, `48 indexed articles`, `8.2 min`) contradict actual scale (12 posts) and are unverifiable | `index.md:143-168` |
+| 6 | Medium | Performance | Hero (LCP) image is `loading="lazy"` — delays LCP | `_layouts/post.html:125` |
+| 7 | Medium | Blog SEO | `dateModified` front matter missing on 10 of 12 posts | all posts except 07-27, 07-29 |
+| 8 | Low | Content | Journal boilerplate in "Copyright" / "Disclaimer" boxes ("this journal", "the editors and the reviewers") — wrong tone for a blog, weakens credibility | `_layouts/post.html:283-296` |
+| 9 | Low | Content | Latent junk default in visible "Keywords" box (agricultural-academic string) if a post ever omits `keywords` | `_layouts/post.html:271` |
+| 10 | Low | Technical | `noindex` pages (404, /author/ redirect) lack `sitemap: false` — they appear in sitemap.xml | `404.md`, `author.md` |
+| 11 | Low | Technical | Root planning docs served raw and crawlable: `content-plan.md`, `seo_audit_report.md`, `README.md`, `DESIGN.md` | site root |
+| 12 | Low | Social | `twitter:site` / `twitter:creator` not emitted (`twitter_username` commented out) | `_config.yml:5` |
+| 13 | Low | Feed | Feed fragmentation: 4 feed files; `atom.xml` declares `image/webp` enclosure for JPG/PNG images; `rss.xml` uses `page.author` inside a post loop (all items get site author) | `atom.xml:34`, `rss.xml:21` |
+| 14 | Low | Social | `og:image:type` not emitted for Unsplash URLs (no file extension before query string) | `_includes/head.html:53-62` |
+| 15 | Low | On-Page | One title 61 chars (`08-04` post) — 1 char over 60 | `2026-08-04-google-e-e-a-t-checklist-...md` |
 
 ---
 
 ## Detailed Findings
 
-### Pillar 1: On-Page SEO
-
-**Title Tags** — PASS (with note)
-- `index.md`: "F9XR Articles" — present but could be more keyword-rich (e.g., "F9XR Articles — Web Architecture, AI & SEO Insights")
-- `archive.md`: "Archive — F9XR Articles" — adequate
-- Post: "Engineering Digital Growth: An Introduction to F9XR Team" — 58 chars, within range, keyword-front-loaded
+### Verified Resolved (from July 28 audit)
 
-**Meta Descriptions** — PASS
-- All pages have unique meta descriptions via frontmatter or `jekyll-seo-tag`
-- Post description: 206 chars (slightly over 160-char recommendation but acceptable)
+1. **URL mismatch** — RESOLVED. `_config.yml:6` is `https://f9xr.github.io`; all templates use `absolute_url` / `relative_url`. No hardcoded `f9xrteam.github.io` references remain.
+2. **Render-blocking highlight.js** — RESOLVED. `defer` on all scripts (`default.html:60-64`).
+3. **404 page** — RESOLVED. `404.md` has search, latest articles, navigation recovery, WebPage schema, `noindex` (minor: see finding 10).
+4. **SearchAction** — RESOLVED (removed, not broken). Current `WebSite` schema has no SearchAction; search exists client-side (`_includes/search.html`).
+5. **Author as Person** — RESOLVED. `BlogPosting.author` and visible byline use `@type: Person` (`post.html:105`, `post.html:432-445`).
+6. **Skip-to-content link** — RESOLVED. First `<body>` child, visible on focus (`default.html:8`).
+7. **IndexNow key** — PARTIAL. Key file `ab1656a78dad496fbe732e012dadc212.txt` present at root; no IndexNow ping mechanism to Bing/Yandex exists yet.
+8. **VideoObject schema** — RESOLVED (conditional on `youtube_id`; 3 posts use it). Video IDs are unverified against YouTube.
+9. **Hero width/height** — PARTIAL. `post.html:125` hardcodes `width="1200" height="630"`, ignoring `page.image_width/height` — wrong for the intro post (1600×893 PNG).
+10. **Article:tag OG** — RESOLVED (`head.html:108-110`).
+11. **rel="noopener noreferrer"** — RESOLVED on all external/share links.
+12. **TOC** — RESOLVED (auto-generated sidebar, `post.html:42-69`).
+13. **Author bio page** — RESOLVED (`authors/f9xr-team.md` + Person JSON-LD in `author-profile.html`).
+14. **Blog expansion** — RESOLVED (intro post ~2,000 words).
+15. **Image sitemap** — still absent (Low, unchanged).
+16. **Trust pages** — RESOLVED (footer links Terms/Privacy/Refund on main site).
 
-**Heading Configuration** — ISSUE
-- Homepage (`index.md`): No `<h1>` tag. The page uses `<h2>` for post titles only. The site name "F9XR Articles" appears only as a link, not an `<h1>`.
-- **Fix:** Add `<h1>F9XR Articles</h1>` to `index.md`
+### 1. Homepage missing H1 (High)
 
-**Viewport Meta Tag** — PASS
-- `<meta name="viewport" content="width=device-width, initial-scale=1">` in `head.html:6`
+`index.md` sets `title_hidden: true`, and `_layouts/page.html:5-11` renders the `<h1>` only when `title_hidden` is absent. No manual `<h1>` exists in `index.md`; the first heading is `<h2 class="ed-hero-title">`. The masthead brand is a `<span>`, not a heading. Result: the homepage has **zero** `<h1>` — the single most important ranking signal on the site's entry page. The prior audit claimed this was fixed; it regressed or was never actually committed.
 
-**Charset Declaration** — PASS
-- `<meta charset="utf-8">` is first in `<head>` (`head.html:4`)
+**Fix:** Add `<h1>` (e.g., set `title_hidden: false` and rename title, or add `<h1 class="sr-only">F9XR Articles</h1>`).
 
-**Language Attribute** — PASS
-- `<html lang="en">` set via `default.html:2`
+### 2. dateModified schema bug (Medium)
 
-**Anchor Mechanics** — PASS
-- No `javascript:void(0)` links detected
-- Internal links use descriptive text
+`_layouts/post.html:431`:
+```
+"dateModified": "{{ page.last_modified_at | default: page.date | date_to_xmlschema }}"
+```
+`page.last_modified_at` is only populated by the `jekyll-last-modified-at` plugin, which is **not installed**. It never falls back to `page.dateModified` (the field posts actually use). So `dateModified` is always `datePublished` in JSON-LD. Same bug in `atom.xml:23`. Meanwhile `head.html:89-91` (OG `og:updated_time`) and `feed.json:25` *do* use `page.dateModified` — inconsistent.
 
-**Keyword Placement** — PASS (post)
-- Primary keyword "F9XR Team" in title, H1, first paragraph, URL slug
-- Secondary keywords (web development, AI, SEO) distributed across H2s and body
+**Fix:** `"dateModified": "{{ page.dateModified | default: page.date | date_to_xmlschema }}"` in `post.html` and `atom.xml`.
 
-### Pillar 2: Technical SEO
+### 3. Stale AI-visibility files (Medium, high-importance for this site)
 
-**URL Mismatch** — CRITICAL
-- `_config.yml:4` sets `url: "https://f9xrteam.github.io"`
-- But `index.md:12`, `index.md:39-46`, `post.html:88`, `footer.html:6-49` all reference `f9xr.github.io`
-- This means canonical URLs, OG URLs, and JSON-LD `@id` may resolve to the wrong domain
-- **Fix:** Standardize all references. If the correct domain is `f9xrteam.github.io`, update all hardcoded `f9xr.github.io` references. If `f9xr.github.io` is correct, update `_config.yml`.
+- `llms.txt` lists only 4 of 12 posts (through Aug 3).
+- `llms-full.txt` contains only the July 27 intro post.
+- `ai.txt` correctly points to `llms.txt` / `llms-full.txt` / `sitemap.xml`.
 
-**Canonical Routing** — PASS (once URL mismatch is resolved)
-- `jekyll-seo-tag` generates canonical tags automatically
+For a site whose own content strategy is AEO/GEO, feeding AI crawlers a stale map undercuts the product. Regenerate both files to cover all published posts (and only published posts — the future-dated 08-15 post is correctly excluded today). Consider generating them via Jekyll (layout-less `.txt` pages) so they stay current.
 
-**Robots Meta Tags** — PASS
-- `<meta name="robots" content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1">` in `head.html:7`
+### 4. Orphaned standalone HTML pages (Medium)
 
-**Structured Data** — PASS (with notes)
-- `BlogPosting` schema in `post.html:76-121` — complete with headline, description, image, dates, author, publisher, wordCount, keywords
-- `BreadcrumbList` schema in `post.html:124-148` — correct 3-level breadcrumb
-- `WebSite` + `SearchAction` schema in `index.md:7-32`
-- `Organization` schema in `index.md:34-53` — complete with sameAs, contactPoint
-- `CollectionPage` + `ItemList` schema in `archive.md:7-32`
+- **`bharat-by-day.html`** — a "BharatByDay" React component-library article (different brand/author) with **no** meta description, canonical, OG, robots, or schema; loads the **Tailwind CDN** (render-blocking, and a dead CDN dependency at runtime). Content closely parallels `https://f9xr.github.io/BharatByDay/` (in `all-urls.txt`) → duplicate-content risk if indexed. Not linked from anywhere.
+- **`f9xr-content-plan-mindmap.html`** — interactive planning tool with no meta/canonical/OG; `<meta name="viewport" ... user-scalable=no>` (WCAG failure); post links use trailing-slash URLs (`/2026/08/03/why-go-mobile-first/`) that do **not** match this site's `.html` permalinks → its links 404.
 
-**SearchAction URL** — CRITICAL
-- `index.md:27` points to `https://f9xrteam.github.io/articles/archive?q={search_term_string}` — this page has no search functionality
-- **Fix:** Either implement search or remove the SearchAction schema block
+**Fix:** add `noindex, nofollow` + `sitemap: false` front matter to both, or move them out of the published tree.
 
-**No 404 Page** — CRITICAL
-- No `404.html` file exists. GitHub Pages will serve a default unstyled 404 page
-- **Fix:** Create `_layouts/404.html` or `404.md` with a helpful error message and navigation links
+### 5. Hardcoded homepage metrics (Medium, E-E-A-T)
 
-**Staging/Dev Detection** — PASS
-- No staging or dev subdomain references found
+`index.md:143-168` claims PageSpeed `98/100`, CWV `0 failing`, AI crawler traffic `12.4K/mo`, `48 indexed articles`, avg read `8.2 min`. These are static numbers with no data source; `48 indexed articles` directly contradicts the 12 real posts. Unsupported quantitative claims on the homepage are the kind of detail Google's quality rater guidelines penalize (E-E-A-T "Experience" assessment). **Fix:** remove, source from real analytics, or label as illustrative.
 
-### Pillar 3: Performance (Core Web Vitals)
+### 6. LCP image lazy-loaded (Medium, performance)
 
-**Render-Blocking Scripts** — CRITICAL
-- `default.html:19-23` loads 3 highlight.js scripts without `defer` or `async`:
-  ```html
-  <script src="/js/highlightjs/highlight.min.js"></script>
-  <script src="/js/highlightjs/languages/plaintext.min.js"></script>
-  <script src="/js/highlightjs/languages/powershell.min.js"></script>
-  ```
-  These block rendering until downloaded and parsed.
-- **Fix:** Add `defer` to all three script tags
+`post.html:125` sets `loading="lazy"` on the hero image — the page's LCP element. Lazy-loading the LCP image can push LCP past the 2.5s threshold. **Fix:** remove `loading="lazy"` (hero is above the fold; this was correctly `eager` in the prior audit).
 
-**Font Loading** — PASS
-- Google Fonts loaded with `preconnect` (`head.html:44-46`)
-- `font-display: swap` used via Google Fonts URL parameter
+### 7. dateModified front matter coverage (Medium)
 
-**CSS Loading** — PASS
-- Only 2 stylesheets: main.css and override.css
-- highlight.js styles loaded in head (acceptable for FOUC prevention)
+Only `07-27` and `07-29` define `dateModified`. Given the schema bug (finding 2) and the site's freshness positioning, add `dateModified` to the remaining 10 posts (equal to publish date where nothing changed).
 
-**Image Optimization** — ISSUE
-- Post hero image (`post.html:51`) has no `loading="lazy"` — but it's above the fold, so this is actually correct
-- YouTube embed has `loading="lazy"` — correct
-- No `width`/`height` on hero `<img>` tag — potential CLS issue
-- **Fix:** Add `width="1200" height="630"` to hero img tag
+### 8. Journal boilerplate (Low)
 
-**Unused CSS** — LOW
-- `override.css` is 1089 lines. Most is actively used, but some rules (e.g., print styles, scrollbar styles) add weight. At this site scale, negligible impact.
+The Copyright/Disclaimer boxes (`post.html:283-296`) use academic-journal language ("original publication in this journal... in accordance with accepted academic practice", "the publishers, the editors and the reviewers"). On a marketing blog this reads as templated and slightly contradicts the F9XR brand voice. Replace with a simple CC BY attribution + brief disclaimer.
 
-### Pillar 4: URL Structure & Site Architecture
+### 9. Keywords-box default (Low)
 
-**URL Hierarchy** — PASS
-- Clean Jekyll permalink structure: `/year/month/slug`
-- Archive at `/archive`
+`post.html:271` falls back to a leftover academic keyword string ("agricultural heritage systems, hierarchical entropy weighting...") if a post omits `keywords`. All current posts define `keywords`, so it never renders today — but it will dump irrelevant junk on the next post that forgets. Change the default to site-level keywords or an empty string.
 
-**URL Length** — PASS
-- All URLs under 75 characters
+### 10–15. Minor items
 
-**Trailing Slash Consistency** — PASS
-- Jekyll handles consistently
-
-**Silo Architecture** — N/A
-- Single post — cannot evaluate topical clustering yet
-
-### Pillar 5: Mobile SEO
-
-**Viewport Configuration** — PASS
-- Correct `width=device-width, initial-scale=1`
-- No `user-scalable=no` or `maximum-scale=1`
-
-**Responsive Design** — PASS
-- `override.css` has comprehensive media queries at 768px and 480px breakpoints
-- Font sizes, padding, and layout all adjust for mobile
-
-**Touch Target Sizing** — PASS
-- Social pills are 34x34px (close to 48x48 recommendation but acceptable for secondary nav)
-- Back-to-top button is 44x44px — meets requirement
-
-### Pillar 6: Image SEO
-
-**Alt Text** — PASS
-- Hero image: `alt="{{ page.title | escape }}"` — descriptive
-- Logo images: `alt="F9XR Team"` — descriptive
-
-**Image Format** — PASS
-- References use `.webp` format — modern, efficient
-
-**Image Dimensions** — ISSUE
-- Hero `<img>` in `post.html:51` lacks explicit `width` and `height` attributes
-- **Fix:** Add `width="1200" height="630"` to prevent CLS
-
-**Lazy Loading** — PASS
-- YouTube embed has `loading="lazy"`
-- Hero image is above the fold — no lazy loading needed (correct)
-
-**File Name SEO** — PASS
-- `og-image.webp`, `logo.webp`, `favicon-32x32.png` — descriptive names
-
-### Pillar 7: Semantic SEO & Content Optimization
-
-**Search Intent Mapping** — PASS
-- Post targets informational/commercial intent: "what F9XR does" + "hire F9XR"
-- Content structure matches: problem → solutions → philosophy → CTA
-
-**Content Depth** — ISSUE
-- Post is approximately 800-1000 words. For an introductory article targeting competitive keywords, 1500-2500 words would be more competitive.
-- **Fix:** Expand with case studies, technical deep-dives, or client testimonials
-
-**Readability** — PASS
-- Short paragraphs, clear headings, bullet lists for scanability
-- Active voice throughout
-
-**Keyword Density** — PASS
-- "F9XR" appears ~15 times in ~1000 words = ~1.5% — within healthy range
-- No keyword stuffing detected
-
-**Entity Coverage** — PASS
-- Covers: web development, AI integration, local SEO, WordPress, GPT chatbots, Core Web Vitals, Google Business Profile
-
-**Content Freshness** — ISSUE
-- Post dated July 27, 2026 — fresh
-- But no `dateModified` in frontmatter — should be added for ongoing freshness signals
-
-### Pillar 8: Internal Linking & Link Equity
-
-**Navigation Structure** — PASS
-- Header nav with 7 links to main site sections
-- Footer nav with 12 links across 3 columns
-- Previous/next post navigation in `navlinks.html`
-
-**Broken Internal Links** — PASS
-- All internal `href` destinations reference `f9xr.github.io` pages (main site)
-- No broken links detected within this codebase
-
-**Footer Links** — PASS
-- Contains: Home, About, Services, Portfolio, Tools, Directories, Blog, Contact, Terms, Privacy, Refund, Sitemap — comprehensive
-
-**Breadcrumb Implementation** — PASS
-- `BreadcrumbList` schema on post pages (`post.html:124-148`)
-- No visual breadcrumb on homepage or archive (minor — not critical for 2-page site)
-
-### Pillar 9: XML Sitemap & Robots.txt
-
-**Robots.txt** — PASS
-- `User-agent: *` / `Allow: /` / `Sitemap: https://f9xrteam.github.io/articles/sitemap.xml`
-- Correct and minimal
-
-**XML Sitemap** — PASS
-- Generated by `jekyll-sitemap` plugin
-- Will include all pages with proper `<lastmod>` dates
-
-**IndexNow Protocol** — MISSING
-- No IndexNow implementation found
-- **Recommendation:** Implement IndexNow for faster indexing of new articles (see skill Pillar 9 for implementation details)
-
-### Pillar 10: Social & Regional SEO
-
-**Open Graph** — PASS
-- `og:site_name`, `og:locale`, `og:image`, `og:image:alt`, `og:image:width`, `og:image:height` all present in `head.html:24-29`
-- `article:published_time`, `article:modified_time`, `article:author`, `article:section` present
-
-**Twitter Card** — PASS
-- Generated by `jekyll-seo-tag` plugin
-
-**Hreflang** — PASS
-- Self-referencing `hreflang="en"` and `hreflang="x-default"` in `head.html:40-41`
-
-**Social Share Buttons** — PASS
-- `sharelinks.html` includes Facebook, LinkedIn, Instagram, YouTube, Email share buttons
-- Pre-filled share text with title and URL
-
-### Pillar 11: Security SEO
-
-**HTTPS Enforcement** — PASS
-- All internal links use `https://`
-- No mixed content detected
-
-**External Link Security** — ISSUE
-- External links in `sharelinks.html` use `onclick="window.open(...)"` without `rel="noopener noreferrer"`
-- **Fix:** Add `rel="noopener noreferrer"` to share button links or use standard `<a>` tags instead of JS popups
-
-### Pillar 12: Accessibility (a11y) SEO
-
-**ARIA Landmarks** — PASS
-- `<header>` in `header.html`
-- `<main>` in `default.html:10`
-- `<footer>` in `footer.html:1`
-- `<nav>` in `header.html:7`
-
-**Skip Navigation Link** — MISSING
-- No "skip to main content" link as first focusable element
-- **Fix:** Add `<a href="#main-content" class="sr-only focus:not-sr-only">Skip to content</a>` as first child of `<body>` in `default.html`
-
-**Form Label Association** — N/A
-- No forms in this codebase
-
-**Focus Order** — PASS
-- `:focus-visible` styles defined in `override.css:1055-1058`
-- No `tabindex` values >0 detected
-
-**Color Contrast** — PASS
-- Dark theme with light text (#c9d1d9 on #000000) — contrast ratio ~16:1 (exceeds WCAG AAA)
-
-### Pillar 14: Blog & Content SEO
-
-**Article Schema** — PASS
-- `BlogPosting` schema with headline, description, image, datePublished, dateModified, author, publisher, wordCount, keywords, inLanguage
-
-**Author Schema** — ISSUE
-- Author type is `Organization` (`post.html:86`), not `Person`
-- Google's E-E-A-T guidelines prefer `Person` authors for blog content
-- **Fix:** Change author `@type` to `Person` and add a dedicated author bio page
-
-**Blog Listing Structure** — PASS
-- `index.md` loops through `site.posts` with title, date, description, and "Read more" link
-
-**Related Content** — N/A
-- Only 1 post — cannot implement related posts yet
-
-**Table of Contents** — MISSING
-- Post is long enough (800+ words) to benefit from anchor-linked TOC
-- **Recommendation:** Add TOC for posts > 800 words
-
-### Pillar 16: E-E-A-T Signals
-
-**Experience Assessment** — WEAK
-- Post describes services but lacks first-hand experience indicators
-- No original product usage photos, personal anecdotes, or case studies with specifics
-- Claims like "ranking #1 in local search within 3 weeks" lack supporting evidence
-- **Fix:** Add specific client results with names (with permission), screenshots, or data
-
-**Author Attribution** — ISSUE
-- Author is "F9XR Team" (Organization) — no named individual
-- **Fix:** Add a named author with bio, credentials, and social links
-
-**About Page** — EXISTS (external)
-- Linked in header nav to `f9xr.github.io/pages/about.html`
-- Not part of this codebase — cannot audit
-
-**Contact Information** — PASS
-- Email: `tontufytservices@gmail.com` in footer
-- Contact page linked in footer
-
-**Trust Pages** — MISSING from this codebase
-- Privacy Policy, Terms of Service, Refund Policy exist on main site (`f9xr.github.io/legals/`)
-- Not linked from within this articles subdomain
-- **Fix:** Add footer links to privacy/terms OR ensure main site footer is consistent
-
----
-
-## Files Modified
-
-### 1. `_layouts/post.html`
-- Added utterances comments section (`<section class="post-comments">`) with `github-light` theme, `pathname` issue-term, `f9xr/articles` repo
-- Changed author `@type` from `Organization` to `Person` (E-E-A-T)
-- Added `width="1200" height="630"` to hero `<img>` (CLS fix)
-- Added `dateModified` support via `page.last_modified_at`
-- Added conditional VideoObject schema for posts with `youtube_id` frontmatter
-- Added auto-generated Table of Contents for posts with 3+ H2 headings
-- Updated author URL to `{{ '/author/' | absolute_url }}`
-
-### 2. `_layouts/default.html`
-- Added `defer` to all 5 highlight.js scripts (fixes render-blocking)
-- Added skip-to-content link as first focusable element (a11y)
-- Added `id="main-content"` to `<main>` element (a11y)
-
-### 3. `index.md`
-- Added `<h1>F9XR Articles</h1>` to homepage
-- Fixed WebSite schema URL to use `{{ '/' | absolute_url }}` (was hardcoded `f9xrteam.github.io`)
-- Restored SearchAction schema with correct `absolute_url` targeting `/archive`
-
-### 4. `archive.md`
-- Fixed WebSite URL to use `{{ '/' | absolute_url }}` (was hardcoded `f9xrteam.github.io`)
-
-### 5. `robots.txt`
-- Added Jekyll front matter (`---\n---`) to enable Liquid processing
-- Changed sitemap URL to use `{{ '/sitemap.xml' | absolute_url }}` (was hardcoded)
-
-### 6. `_includes/sharelinks.html`
-- Added `noopener,noreferrer` to all `window.open()` calls (security fix)
-
-### 7. `404.md` (new file)
-- Custom 404 page with styled error message, navigation links (Browse Articles, View Archive, Contact Us)
-- WebPage schema for the error page
-
-### 8. `author.md` (new file)
-- Dedicated author bio page with Person schema, expertise list, track record, and social links
-- Permalink: `/author/`
-
-### 9. `ab1656a78dad496fbe732e012dadc212.txt` (new file)
-- IndexNow API key file hosted at site root for search engine notification
-
-### 10. Post frontmatter (`2026-07-27-engineering-digital-growth-introduction-to-f9xr-team.md`)
-- Added `dateModified: 2026-07-28`
-- Added `youtube_id: "05cr4W9uyA"` (enables VideoObject schema)
-- Added `video_duration: "3M45S"`
-- Expanded content from ~1000 words to 1500+ words with methodology, case studies, and differentiators
-
----
-
-## Recommendations Summary
-
-### Immediate (Critical — FIXED)
-1. ~~**Resolve URL mismatch**~~ — FIXED: Standardized `_config.yml` to `f9xr.github.io`, updated `index.md`, `archive.md`, `robots.txt` to use `absolute_url` filter
-2. ~~**Add `defer` to highlight.js scripts**~~ — FIXED: All 5 scripts now have `defer` attribute
-3. ~~**Create `404.md`**~~ — FIXED: Created with navigation links and WebPage schema
-4. ~~**Remove or implement SearchAction schema**~~ — FIXED: Restored with correct `absolute_url` targeting
-
-### Short-Term (High — FIXED)
-5. ~~**Add `<h1>` to homepage**~~ — FIXED: Added `<h1>F9XR Articles</h1>` to `index.md`
-6. ~~**Change author `@type` to `Person`**~~ — FIXED in `post.html`
-7. ~~**Add `width`/`height` to hero `<img>`**~~ — FIXED: `1200x630` added
-8. ~~**Add skip-to-content link**~~ — FIXED: Added as first `<body>` child
-
-### Medium-Term (Medium — FIXED)
-9. ~~**Add `dateModified`**~~ — FIXED: Added to post frontmatter
-10. ~~**Implement IndexNow**~~ — FIXED: Key file created at root
-11. ~~**Add VideoObject schema**~~ — FIXED: Conditional schema for posts with `youtube_id`
-12. ~~**Expand blog post**~~ — FIXED: Expanded to 1500+ words with methodology, case studies, and differentiators
-13. ~~**Add `rel="noopener noreferrer"`**~~ — FIXED: Added to all share button `window.open()` calls
-
-### Long-Term (Low — FIXED)
-14. ~~**Add table of contents**~~ — FIXED: Auto-generated TOC for posts with 3+ H2 headings
-15. ~~**Create author bio page**~~ — FIXED: Created `author.md` with Person schema, expertise, and social links
-16. **Add image sitemap** — Low priority at current scale (1 post)
-17. **Add `article:tag` OG meta** — Minor social signal improvement
-18. **Implement search functionality** — Would make SearchAction fully functional
+- **10:** Add `sitemap: false` to `404.md` and `author.md`.
+- **11:** `content-plan.md`, `seo_audit_report.md`, `README.md`, `DESIGN.md` are served raw at `/articles/*.md` and crawlable. Move to a `_notes/` dir or add `sitemap: false` + `noindex` front matter. Also `all-urls.txt`, `feed.json`/`feed.xml` are non-HTML artifacts served publicly — fine, but keep them out of human-facing navigation.
+- **12:** Uncomment `twitter_username: "f9xrteam"` to emit `twitter:site`/`twitter:creator`.
+- **13:** Consolidate feeds (atom.xml + jekyll-feed feed.xml + rss.xml + feed.json); fix enclosure MIME (`image/jpeg`/`image/png` per post image) and the `rss.xml` author loop bug (`post.author`, not `page.author`).
+- **14:** `og:image:type` is skipped for extension-less Unsplash URLs — set `image_type` in front matter or accept omission.
+- **15:** Trim the 08-04 title to ≤60 chars.
 
 ---
 
 ## What's Working Well
 
-- **Structured data is comprehensive** — BlogPosting, BreadcrumbList, WebSite, Organization, CollectionPage, VideoObject (conditional) schemas all present and valid
-- **Mobile responsiveness** — thorough media queries, proper viewport config
-- **Dark theme with accessibility** — high contrast ratios, focus-visible styles, print styles, skip-to-content link
-- **Social sharing** — pre-filled share links for 5 platforms
-- **Navigation** — clear header/footer nav, previous/next post links, back-to-top button
-- **Typography** — Inter font with proper font-display: swap, good line heights
-- **Code syntax highlighting** — highlight.js with 3 language packs (deferred loading)
-- **Reading progress bar** — nice UX feature on post pages
-- **Reading time estimate** — calculated dynamically in JS
-- **OG meta tags** — complete with image dimensions, article timestamps, locale
-- **Hreflang** — properly configured with x-default
-- **Table of contents** — auto-generated for long posts
-- **Utterances comments** — GitHub-backed comments on every post
-- **IndexNow ready** — key file hosted, ready for search engine submissions
-- **404 page** — styled error page with navigation recovery paths
+- **Structured data is strong and site-wide**: `BlogPosting` (Person author), `BreadcrumbList`, `FAQPage` (all 12 posts have `faq` front matter), `WebSite`, `Organization`, `CollectionPage`/`ItemList`, conditional `VideoObject`, Person JSON-LD on author pages. No invalid schema types found.
+- **Meta layer is complete**: custom `head.html` emits canonical, robots (with `max-image-preview:large`), full OG set (type/title/desc/url/site_name/locale/image/alt/width/height + `article:published_time`/`article:modified_time`/`article:author`/`article:section`/`article:tag`), Twitter cards, Dublin Core, Google Scholar citation meta, hreflang, referrer policy, theme-color.
+- **No heading violations**: layout renders exactly one H1 per post; the only `# ` in a post body is inside a code-fenced `llms.txt` example.
+- **Internal linking is healthy**: every post links to 1–4 other articles + 2–4 service pages, all using correct `.html` permalinks (verified against all 12 files).
+- **AI-readiness is genuinely good**: `ai.txt`, `llms.txt`, `llms-full.txt`, `robots.txt` (Liquid-processed absolute sitemap URL), `feed.json`, and IndexNow key — just needs freshness (finding 3).
+- **Performance patterns**: deferred highlight.js, `font-display: swap`, print-friendly media load for Font Awesome, width/height attributes on hero, lazy iframes.
+- **404 + search + author pages** are useful and correctly `noindex`ed where appropriate.
+- **E-E-A-T**: Person authors, author bio page with schema, trust links (Terms/Privacy/Refund), copyright/CC BY statement.
 
 ---
 
-*Report updated — all 18 findings resolved. 10 files modified, 3 new files created.*
+## Recommendations (priority order)
+
+1. **Add homepage `<h1>`** (High) — restore `title_hidden: false` or add a visible/sr-only H1 in `index.md`.
+2. **Fix the `dateModified` JSON-LD bug** (Medium) — `post.html:431` + `atom.xml:23` → `page.dateModified | default: page.date`.
+3. **Regenerate `llms.txt` / `llms-full.txt`** (Medium) to cover all 12 published posts; prefer Jekyll-generated `.txt`.
+4. **Remove or noindex** `bharat-by-day.html` and `f9xr-content-plan-mindmap.html` (Medium).
+5. **Remove or source the hardcoded homepage metrics** (Medium, E-E-A-T).
+6. **Make hero `eager`** (Medium, LCP).
+7. **Add `dateModified` to all posts** and **add `sitemap: false`** to 404/author redirect (Medium/Low).
+8. Clean the Low items (journal boilerplate, keywords default, feed MIME/author bug, `twitter_username`, planning-doc exposure, title length).
+
+---
+
+## Verification Notes
+
+- All 12 posts: valid YAML, single layout H1, descriptions ≤160 chars (134–152), titles ≤61 chars, `faq` present (5 each), `keywords` present, hero images set (Unsplash or self-hosted), 10 posts carry `image_credit`.
+- Permalinks are Jekyll default (`/2026/08/13/consistency-audits-seo-aeo-geo.html`) — used consistently by posts, feeds, llms.txt, and the `BlogPosting` `mainEntityOfPage`. The `f9xr-content-plan-mindmap.html` tool is the only place using non-matching trailing-slash URLs.
+- Future-dated posts (e.g., the 08-15 scheduled post) are excluded by `site.posts` — sitemap, feeds, and homepage will not leak them before their publish date.

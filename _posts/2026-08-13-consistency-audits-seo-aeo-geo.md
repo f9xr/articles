@@ -7,6 +7,7 @@ image_width: 1200
 image_height: 630
 image_credit: "Photo by <a href=\"https://unsplash.com/@kmuza?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText\" target=\"_blank\" rel=\"noopener noreferrer\">Carlos Muza</a> on <a href=\"https://unsplash.com/photos/hpjSkU2UYSU?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText\" target=\"_blank\" rel=\"noopener noreferrer\">Unsplash</a>"
 date: 2026-08-13
+dateModified: 2026-08-13
 author: "F9XR Editorial Team"
 tags: [Consistency audit, SEO, AEO, GEO, NAP consistency, Local SEO, Google Business Profile, AI search visibility, Citation management, F9XR Team]
 keywords: "information consistency audit, consistency audit checklist, NAP consistency, local SEO audit, AEO optimization, GEO optimization, AI search visibility, citation management, Google Business Profile, business information accuracy"

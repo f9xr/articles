@@ -7,6 +7,7 @@ image_width: 1200
 image_height: 630
 image_credit: "Photo by <a href=\"https://unsplash.com/@kmuza?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText\" target=\"_blank\" rel=\"noopener noreferrer\">Carlos Muza</a> on <a href=\"https://unsplash.com/photos/hpjSkU2UYSU?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText\" target=\"_blank\" rel=\"noopener noreferrer\">Unsplash</a>"
 date: 2026-08-14
+dateModified: 2026-08-14
 author: "F9XR Editorial Team"
 tags: [AI search visibility, GEO generative engine optimization, AEO answer engine optimization, llms.txt guide, schema markup SEO, AI crawlers robots.txt, ChatGPT SEO, local business AI visibility, AI search optimization 2026, website technical SEO]
 keywords: "AI search visibility, generative engine optimization, answer engine optimization, llms.txt, schema markup, AI crawlers, robots.txt, ChatGPT SEO, local business AI visibility, AI search optimization 2026"

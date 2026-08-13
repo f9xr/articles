@@ -6,6 +6,7 @@ image: "https://f9xr.github.io/articles/assets/f9xr-team-solutions.png"
 image_width: 1600
 image_height: 893
 dateModified: 2026-07-28
+author: "F9XR Editorial Team"
 youtube_id: "05cr4W9uyA"
 video_duration: "PT3M45S"
 tags: [F9XR, web development, AI integration, local SEO, digital architecture, web performance]

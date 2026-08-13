@@ -2,6 +2,7 @@
 layout: none
 title: "F9XR Editorial Team"
 noindex: true
+sitemap: false
 permalink: /author/
 ---
 <!DOCTYPE html>
