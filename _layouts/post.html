@@ -261,6 +261,56 @@ layout: default
     {% endif %}
   </div>
 
+  <!-- Further Reading -->
+  {% assign further_posts = "" | split: "," %}
+  {% for fp in site.posts %}
+    {% if fp.url == page.url %}{% continue %}{% endif %}
+    {% assign shared_tags = 0 %}
+    {% for fp_tag in fp.tags %}
+      {% if page.tags contains fp_tag %}{% assign shared_tags = shared_tags | plus: 1 %}{% endif %}
+    {% endfor %}
+    {% if shared_tags > 0 %}
+      {% assign further_posts = further_posts | push: fp %}
+    {% endif %}
+  {% endfor %}
+
+  {% if further_posts.size < 3 %}
+    {% for fp in site.posts %}
+      {% if fp.url == page.url %}{% continue %}{% endif %}
+      {% assign already_fr = false %}
+      {% for fr in further_posts %}
+        {% if fr.url == fp.url %}{% assign already_fr = true %}{% endif %}
+      {% endfor %}
+      {% if already_fr == false %}
+        {% assign further_posts = further_posts | push: fp %}
+      {% endif %}
+      {% if further_posts.size >= 3 %}{% break %}{% endif %}
+    {% endfor %}
+  {% endif %}
+
+  {% if further_posts.size > 0 %}
+  <section class="further-reading" style="margin-top:2.5em; padding-top:2em; border-top:1px solid #111111;">
+    <h3 style="color:#f0f0f0; font-size:1.1em; margin-bottom:1.2em; display:flex; align-items:center; gap:0.4em;">
+      <i class="fa-solid fa-book-open" style="color:#3b82f6; font-size:0.85em;"></i>
+      Further Reading
+    </h3>
+    <div style="display:flex; flex-direction:column; gap:0.7em;">
+      {% for fr in further_posts limit:3 %}
+      <a href="{{ fr.url | relative_url }}" style="display:flex; align-items:flex-start; gap:0.9em; background:rgba(59,130,246,0.03); border:1px solid #1e2024; border-radius:10px; padding:0.9em 1.1em; text-decoration:none; transition:all 0.3s;" onmouseover="this.style.borderColor='#2563eb'; this.style.background='rgba(59,130,246,0.06)';" onmouseout="this.style.borderColor='#1e2024'; this.style.background='rgba(59,130,246,0.03)';">
+        <span style="flex:1; min-width:0;">
+          <span style="display:block; color:#8b8b8b; font-size:0.78em; margin-bottom:0.2em;">{{ fr.date | date: "%b %d, %Y" }}</span>
+          <span style="display:block; color:#f0f0f0; font-size:0.9em; font-weight:600; line-height:1.4;">{{ fr.title | escape }}</span>
+          {% if fr.description %}
+          <span style="display:block; color:#71717a; font-size:0.82em; line-height:1.5; margin-top:0.4em;">{{ fr.description | truncate: 90 }}</span>
+          {% endif %}
+        </span>
+        <i class="fa-solid fa-arrow-right" style="color:#71717a; font-size:0.8em; margin-top:0.4em; flex-shrink:0;"></i>
+      </a>
+      {% endfor %}
+    </div>
+  </section>
+  {% endif %}
+
   <!-- FAQ Section -->
   {% if page.faq and page.faq.size > 0 %}
   <section class="post-faq" style="margin-top:2.5em; padding-top:2em; border-top:1px solid #111111;">
