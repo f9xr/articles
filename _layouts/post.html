@@ -41,7 +41,7 @@ layout: default
 
   {% if toc_count >= 2 %}
   <aside class="post-sidebar" aria-label="Table of Contents">
-    <details class="sidebar-toc-details">
+    <details class="sidebar-toc-details" open>
       <summary class="sidebar-toc-summary">
         <span class="sidebar-toc-summary-label"><i class="fa-solid fa-list-ul" style="color:#3b82f6;"></i> Table of Contents</span>
         <span class="sidebar-toc-chevron"><i class="fa-solid fa-chevron-down"></i></span>
@@ -52,7 +52,8 @@ layout: default
           Table of Contents
         </h2>
         <ol class="sidebar-toc-list">
-          {% for i in (0..toc_count) %}
+          {% assign toc_last = toc_count | minus: 1 %}
+          {% for i in (0..toc_last) %}
             <li class="toc-l2"><a href="#{{ slug_headings[i] }}">{{ headings[i] }}</a></li>
           {% endfor %}
         </ol>
@@ -260,6 +261,27 @@ layout: default
     {% endif %}
   </div>
 
+  <!-- FAQ Section -->
+  {% if page.faq and page.faq.size > 0 %}
+  <section class="post-faq" style="margin-top:2.5em; padding-top:2em; border-top:1px solid #111111;">
+    <h2 style="font-size:1.3em; margin-bottom:1em; display:flex; align-items:center; gap:0.4em;">
+      <i class="fa-solid fa-circle-question" style="color:#3b82f6; font-size:0.85em;"></i>
+      Related Questions
+    </h2>
+    <div style="display:flex; flex-direction:column; gap:0.6em;">
+      {% for item in page.faq %}
+      <details style="background:rgba(59,130,246,0.03); border:1px solid #1e2024; border-radius:10px; overflow:hidden;">
+        <summary style="cursor:pointer; padding:0.9em 1.2em; font-weight:600; color:#f0f0f0; font-size:0.92em; list-style:none; display:flex; align-items:center; justify-content:space-between; transition:background 0.2s;" onmouseover="this.style.background='rgba(59,130,246,0.06)'" onmouseout="this.style.background='transparent'">
+          <span>{{ item.q }}</span>
+          <i class="fa-solid fa-chevron-down" style="color:#71717a; font-size:0.7em; transition:transform 0.2s;"></i>
+        </summary>
+        <div style="padding:0 1.2em 1em 1.2em; color:#b1bac4; font-size:0.9em; line-height:1.7;">{{ item.a }}</div>
+      </details>
+      {% endfor %}
+    </div>
+  </section>
+  {% endif %}
+
   <!-- Keywords -->
   {% assign post_keywords = page.keywords | default: site.keywords | default: "" %}
   {% if post_keywords != "" %}
@@ -340,27 +362,6 @@ layout: default
         <p style="margin:0.5em 0 0 0; color:#71717a; font-size:0.82em; line-height:1.5;">{{ related.description | truncate: 100 }}</p>
         {% endif %}
       </a>
-      {% endfor %}
-    </div>
-  </section>
-  {% endif %}
-
-  <!-- FAQ Section -->
-  {% if page.faq and page.faq.size > 0 %}
-  <section class="post-faq" style="margin-top:2.5em; padding-top:2em; border-top:1px solid #111111;">
-    <h2 style="font-size:1.3em; margin-bottom:1em; display:flex; align-items:center; gap:0.4em;">
-      <i class="fa-solid fa-circle-question" style="color:#3b82f6; font-size:0.85em;"></i>
-      Related Questions
-    </h2>
-    <div style="display:flex; flex-direction:column; gap:0.6em;">
-      {% for item in page.faq %}
-      <details style="background:rgba(59,130,246,0.03); border:1px solid #1e2024; border-radius:10px; overflow:hidden;">
-        <summary style="cursor:pointer; padding:0.9em 1.2em; font-weight:600; color:#f0f0f0; font-size:0.92em; list-style:none; display:flex; align-items:center; justify-content:space-between; transition:background 0.2s;" onmouseover="this.style.background='rgba(59,130,246,0.06)'" onmouseout="this.style.background='transparent'">
-          <span>{{ item.q }}</span>
-          <i class="fa-solid fa-chevron-down" style="color:#71717a; font-size:0.7em; transition:transform 0.2s;"></i>
-        </summary>
-        <div style="padding:0 1.2em 1em 1.2em; color:#b1bac4; font-size:0.9em; line-height:1.7;">{{ item.a }}</div>
-      </details>
       {% endfor %}
     </div>
   </section>

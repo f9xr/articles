@@ -2,7 +2,7 @@
 layout: post
 title: "Engineering Digital Growth with F9XR Team"
 description: "How F9XR Team builds high-performance web ecosystems, AI-powered systems, and local SEO infrastructure for measurable business growth."
-image: "https://f9xr.github.io/articles/assets/f9xr-team-solutions.png"
+image: "https://f9xr.github.io/articles/assets/f9xr-team-solutions.webp"
 image_width: 1600
 image_height: 893
 dateModified: 2026-07-28
@@ -58,7 +58,10 @@ F9XR Team exists to close this gap with precision-engineered solutions.
 ### Core Engineering Verticals
 
 <figure class="post-figure">
-  <img src="{{ site.baseurl }}/assets/f9xr-team-solutions.png" alt="F9XR Team — Engineering Digital Growth solutions overview" title="F9XR Team solutions for web, AI, and local SEO" width="1600" height="893" loading="lazy" />
+  <picture>
+    <source type="image/webp" srcset="{{ site.baseurl }}/assets/f9xr-team-solutions-800.webp 800w, {{ site.baseurl }}/assets/f9xr-team-solutions.webp 1600w" sizes="(max-width: 900px) 100vw, 900px" />
+    <img src="{{ site.baseurl }}/assets/f9xr-team-solutions.png" alt="F9XR Team — Engineering Digital Growth solutions overview" title="F9XR Team solutions for web, AI, and local SEO" width="1600" height="893" loading="lazy" />
+  </picture>
   <figcaption>F9XR Team — engineering digital growth across web ecosystems, local SEO, and AI integration</figcaption>
 </figure>
 

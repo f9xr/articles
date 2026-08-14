@@ -86,7 +86,7 @@ mindmap
 -->
 
 <figure class="post-figure">
-  <img src="https://f9xr.github.io/assets/AI_Search.png" alt="AI search tools like ChatGPT and Perplexity answering a business question" title="More customers find answers through AI search tools than ever before" width="1379" height="884" loading="lazy" />
+  <img src="https://f9xr.github.io/articles/assets/ai-search-ai-tools.webp" alt="AI search tools like ChatGPT and Perplexity answering a business question" title="More customers find answers through AI search tools than ever before" width="1379" height="884" loading="lazy" />
   <figcaption>AI search tools now answer a growing share of business questions directly. Being cited here is a separate skill from ranking on Google.</figcaption>
 </figure>
 

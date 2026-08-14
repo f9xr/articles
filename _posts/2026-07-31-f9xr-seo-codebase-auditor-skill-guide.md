@@ -144,7 +144,7 @@ That format is why the skill works for busy teams. You don't get a score and a s
 **You become ready for AI search.** Pillar 18 covers AI Overview extraction readiness, featured snippet targeting, and voice search. Content structured for answer engines is increasingly what ChatGPT and Perplexity cite. The skill checks for definitional answers early in the content, FAQ formatting, and entity richness.
 
 <figure class="post-figure">
-  <img src="https://f9xr.github.io/assets/AI_Search.png" alt="AI search tools like ChatGPT and Perplexity answering a business question" title="Structured, machine readable content is what AI search tools cite" width="1379" height="884" loading="lazy" />
+  <img src="https://f9xr.github.io/articles/assets/ai-search-ai-tools.webp" alt="AI search tools like ChatGPT and Perplexity answering a business question" title="Structured, machine readable content is what AI search tools cite" width="1379" height="884" loading="lazy" />
   <figcaption>AI search tools cite content that is structured for them. The audit checks for exactly those signals.</figcaption>
 </figure>
 
