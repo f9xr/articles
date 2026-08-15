@@ -30,6 +30,10 @@ Here's the part most businesses miss: Google doesn't just rank YouTube videos in
 
 This guide covers what Search Everywhere Optimization is, how Google turns your YouTube transcripts into search real estate, a video SEO checklist you can use today, and why AI engines increasingly cite video content in their answers.
 
+Danielle Marshak, Product Manager at Google, shares best practices to help your videos appear in Google Search and Discover. Learn how Google indexes videos, the features where videos appear on Google, and what you can do to optimize for these features.
+
+<iframe width="100%" height="315" src="https://www.youtube.com/embed/1Zqkz8Y_kFw?si=Pmo_JZ0JLHbhqzzd" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+
 ## Why Search Everywhere Optimization Matters Now
 
 The business of being found has quietly expanded. Think about the last time you answered a question or picked a product. A restaurant, a service provider, a recipe, a tutorial, all of it can start from a different app or an AI chat box. Local search isn't one channel anymore, it's a network of them.

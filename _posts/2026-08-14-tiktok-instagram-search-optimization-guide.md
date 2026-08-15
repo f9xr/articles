@@ -2,7 +2,7 @@
 layout: post
 title: "Rank on TikTok & Instagram: The New Search Engine"
 description: "Gen Z searches TikTok and Instagram before Google. Learn the caption, caption-overlay, and audio framework that gets your business found in-app."
-image: "https://images.unsplash.com/photo-1554672408-730436b60dde?q=80&w=1200&h=630&auto=format&fit=crop"
+image: "https://images.unsplash.com/photo-1579869847557-1f67382cc158?q=80&w=2234&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
 image_width: 1200
 image_height: 630
 image_credit: "Photo by <a href=\"https://unsplash.com/@charlesdeluvio?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText\" target=\"_blank\" rel=\"noopener noreferrer\">Charles Deluvio</a> on <a href=\"https://unsplash.com/photos/6OF-Ly-5oJY?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText\" target=\"_blank\" rel=\"noopener noreferrer\">Unsplash</a>"

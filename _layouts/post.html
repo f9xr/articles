@@ -332,6 +332,12 @@ layout: default
   </section>
   {% endif %}
 
+  <!-- Share -->
+  <div class="post-footer-cta">
+    <p style="margin-bottom:1em;">Enjoyed this article? Share it with your network.</p>
+    {% include sharelinks.html %}
+  </div>
+
   <!-- Keywords -->
   {% assign post_keywords = page.keywords | default: site.keywords | default: "" %}
   {% if post_keywords != "" %}
@@ -340,11 +346,14 @@ layout: default
     <div style="display:flex; flex-wrap:wrap; gap:0.4em;">
       {% assign kw_list = post_keywords | split: ',' %}
       {% for kw in kw_list %}
-      <span style="display:inline-block; padding:0.25em 0.7em; background:rgba(59,130,246,0.08); border:1px solid rgba(59,130,246,0.15); border-radius:5px; color:#b1bac4; font-size:0.82em;">{{ kw | strip }}</span>
+      <a href="{{ '/archive.html' | relative_url }}#{{ kw | strip | slugify }}" style="display:inline-block; padding:0.25em 0.7em; background:rgba(59,130,246,0.08); border:1px solid rgba(59,130,246,0.15); border-radius:5px; color:#b1bac4; font-size:0.82em; text-decoration:none; transition:all 0.2s;" onmouseover="this.style.color='#3b82f6'; this.style.borderColor='rgba(59,130,246,0.5)';" onmouseout="this.style.color='#b1bac4'; this.style.borderColor='rgba(59,130,246,0.15)';">{{ kw | strip }}</a>
       {% endfor %}
     </div>
   </div>
   {% endif %}
+
+  <!-- Next & Previous -->
+  {% include navlinks.html %}
 
   <!-- Copyright -->
   <div class="post-copyright" style="margin-top:1.5em; padding:1.2em 1.5em; border:1px solid #1e2024; border-radius:10px;">
@@ -428,15 +437,6 @@ layout: default
             async>
     </script>
   </section>
-
-  <!-- Post Footer -->
-  <footer class="post-footer">
-    <div class="post-footer-cta">
-      <p style="margin-bottom:1em;">Enjoyed this article? Share it with your network.</p>
-      {% include sharelinks.html %}
-    </div>
-    {% include navlinks.html %}
-  </footer>
 
   <!-- F9XR Team CTA -->
   <section class="f9xr-cta">
