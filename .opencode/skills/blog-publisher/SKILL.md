@@ -197,19 +197,39 @@ Confirm the file is at `_posts/YYYY-MM-DD-slug.md` and has:
 - Body reads naturally, educational tone, no AI-isms
 - FAQ section matches front-matter
 - Internal links use `https://f9xr.github.io/...` format
+- The new post link is appended to `article-urls.txt` (see Step 6)
 
-### 6. Publish (Commit & Push)
+### 6. Update the Post Links File
+
+`article-urls.txt` at the project root lists every published article link (one per line, same style as `all-urls.txt`). **Always append the new post before committing**, using this exact format:
+
+```
+https://f9xr.github.io/articles/YYYY/MM/DD/slug.html
+```
+
+PowerShell one-liner (run from project root, replacing the path with the real one):
+
+```powershell
+Add-Content -Path article-urls.txt -Value "https://f9xr.github.io/articles/YYYY/MM/DD/slug.html"
+```
+
+Rules:
+- Use the `.html` permalink (matching existing entries), not the trailing-slash form.
+- Keep links sorted by publish date (newest last).
+- Do not duplicate a link that is already present.
+
+### 7. Publish (Commit & Push)
 
 Use these git commands:
 
 ```powershell
-git add _posts/YYYY-MM-DD-slug.md
+git add _posts/YYYY-MM-DD-slug.md article-urls.txt
 git commit -m "Add article: Article Title"
 git push origin main
 ```
 
 After push, confirm to the user:
-> Published at `https://f9xr.github.io/articles/YYYY/MM/DD/slug/`
+> Published at `https://f9xr.github.io/articles/YYYY/MM/DD/slug.html`
 > Site will auto-deploy via GitHub Pages in 1-2 minutes.
 
 ---
@@ -279,6 +299,7 @@ Everything above the front-matter is handled by the layout — only write the bo
 ## Reminders
 
 - Always read `content-plan.md` at project root before suggesting content strategy
+- Always append the new post link to `article-urls.txt` before committing (Step 6)
 - Always run `@skills\avoid-ai-writing` and `@skills\seo-codebase-audit` before publishing
 - Never commit secrets or API keys
 - Confirm with the user before publishing if they said "draft" or "plan" rather than "publish"
