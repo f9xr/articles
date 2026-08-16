@@ -88,7 +88,7 @@ keywords: "F9XR Articles, engineering digital growth, web architecture, AI integ
     </a>
     <p class="ed-hero-desc">{{ featured.description | default: featured_desc }}</p>
     <div class="ed-byline">
-      <img class="ed-byline-avatar" src="{{ featured_author.avatar | default: 'https://f9xr.github.io/logo.webp' | relative_url }}" alt="{{ featured_author.name | default: 'F9XR Editorial Team' }}" loading="lazy">
+      <img class="ed-byline-avatar" src="{{ featured_author.avatar | default: 'https://f9xr.github.io/logo.webp' | relative_url }}" alt="{{ featured_author.name | default: 'F9XR Editorial Team' }}" width="200" height="200" loading="lazy">
       <a class="ed-byline-name" href="{{ featured_author.url | default: '/authors/f9xr-team/' | relative_url }}">{{ featured_author.name | default: "F9XR Editorial Team" }}</a>
       <span class="ed-byline-dot"></span>
       <a class="ed-hero-cta" href="{{ featured.url | relative_url }}">Read article <i class="fa-solid fa-arrow-right"></i></a>
@@ -265,15 +265,21 @@ keywords: "F9XR Articles, engineering digital growth, web architecture, AI integ
 </script>
 
 <section class="ed-topics" aria-label="Browse by topic">
-  <div class="ed-sec-head">
-    <h2 class="ed-sec-title">Browse by Topic</h2>
-  </div>
-  <div class="index-tags">
-    {% assign all_tags = site.posts | map: "tags" | join: "," | split: "," | uniq | sort %}
-    {% for tag in all_tags %}
-    <a class="index-tag" href="{{ '/archive.html' | relative_url }}#{{ tag | slugify }}">{{ tag }}</a>
-    {% endfor %}
-  </div>
+  <details class="topic-dropdown">
+    <summary class="topic-dropdown-summary">
+      <span class="topic-dropdown-title"><i class="fa-solid fa-tags"></i> Browse by Topic</span>
+      <span class="topic-dropdown-count">{{ site.tags.size }} categories</span>
+      <span class="topic-dropdown-chevron"><i class="fa-solid fa-chevron-down"></i></span>
+    </summary>
+    <div class="topic-dropdown-body">
+      <div class="index-tags">
+        {% assign all_tags = site.posts | map: "tags" | join: "," | split: "," | uniq | sort %}
+        {% for tag in all_tags %}
+        <a class="index-tag" href="{{ '/archive.html' | relative_url }}#{{ tag | slugify }}">{{ tag }}</a>
+        {% endfor %}
+      </div>
+    </div>
+  </details>
 </section>
 
 {% endif %}

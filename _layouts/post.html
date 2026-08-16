@@ -116,7 +116,7 @@ layout: default
 
   {% if page.image %}
   <div class="post-hero">
-    <img src="{{ page.image }}" alt="{{ page.title | escape }}" title="{{ page.title | escape }}" width="{{ page.image_width | default: 1200 }}" height="{{ page.image_height | default: 630 }}" itemprop="image">
+    <img src="{{ page.image }}" alt="{{ page.title | escape }}" title="{{ page.title | escape }}" width="{{ page.image_width | default: 1200 }}" height="{{ page.image_height | default: 630 }}" loading="eager" fetchpriority="high" itemprop="image">
     {% if page.image_caption %}
     <figcaption class="post-hero-caption">{{ page.image_caption }}</figcaption>
     {% elsif page.image_credit %}
@@ -333,10 +333,23 @@ layout: default
   {% endif %}
 
   <!-- Share -->
-  <div class="post-footer-cta">
-    <p style="margin-bottom:1em;">Enjoyed this article? Share it with your network.</p>
-    {% include sharelinks.html %}
-  </div>
+  <section class="post-footer-cta" aria-label="Share this article">
+    <div class="share-box">
+      <span class="share-box-icon"><i class="fa-solid fa-share-nodes"></i></span>
+      <h2 class="share-box-title">Enjoyed this article?</h2>
+      <p class="share-box-text">Share it with your network — help someone else discover these insights.</p>
+      <div class="share-box-buttons">
+        {% include sharelinks.html tooltip="footer" %}
+      </div>
+      <div class="share-box-copylink">
+        <span class="share-box-url">{{ page.url | relative_url }}</span>
+        <button type="button" class="share-box-copylink-btn" onclick="copyPageLink('copyTooltipFooter')">
+          <i class="fa-regular fa-copy"></i> Copy link
+          <span class="copy-tooltip" id="copyTooltipFooter">Copied!</span>
+        </button>
+      </div>
+    </div>
+  </section>
 
   <!-- Keywords -->
   {% assign post_keywords = page.keywords | default: site.keywords | default: "" %}
@@ -373,7 +386,7 @@ layout: default
 
   <!-- Author Profile -->
   <div class="author-profile" style="display:flex; align-items:center; gap:1.2em; background:linear-gradient(135deg, rgba(59,130,246,0.06) 0%, rgba(10,10,10,0.8) 100%); border:1px solid #1e2024; border-radius:12px; padding:1.5em 1.8em; margin-top:2.5em;">
-    <img src="{{ post_author.avatar | default: 'https://f9xr.github.io/logo.webp' | relative_url }}" alt="{{ post_author.name | default: 'F9XR Editorial Team' }}" width="64" height="64" style="border-radius:50%; border:2px solid #1e2024; flex-shrink:0; object-fit:cover;">
+    <img src="{{ post_author.avatar | default: 'https://f9xr.github.io/logo.webp' | relative_url }}" alt="{{ post_author.name | default: 'F9XR Editorial Team' }}" width="64" height="64" loading="lazy" style="border-radius:50%; border:2px solid #1e2024; flex-shrink:0; object-fit:cover;">
     <div style="flex:1; min-width:0;">
       <p style="margin:0 0 0.15em 0; font-weight:700; color:#f8f9fa; font-size:1.05em;">
         <a href="{{ post_author_url | relative_url }}" style="color:#f8f9fa; text-decoration:none;">{{ post_author.name | default: "F9XR Editorial Team" }}</a>

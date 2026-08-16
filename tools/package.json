@@ -1,0 +1,10 @@
+{
+  "name": "f9xr-article-tools",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "description": "Helpers for the F9XR Articles blog (featured image generation).",
+  "dependencies": {
+    "sharp": "^0.34.3"
+  }
+}

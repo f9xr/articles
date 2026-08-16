@@ -787,24 +787,135 @@ img:hover {
   border-top: 1px solid #111111;
 }
 .post-footer-cta {
-  background: linear-gradient(135deg, rgba(59, 130, 246, 0.05) 0%, rgba(59, 130, 246, 0.02) 100%);
+  position: relative;
+  background: linear-gradient(135deg, rgba(59, 130, 246, 0.07) 0%, rgba(37, 99, 235, 0.03) 100%);
   border: 1px solid #1e2024;
-  border-radius: 12px;
-  padding: 2em 1.5em;
+  border-radius: 16px;
+  padding: 2.4em 2em 2em;
   margin-bottom: 2.5em;
   text-align: center;
+  overflow: hidden;
 }
-.post-footer-cta p {
-  color: #8b8b8b !important;
+.post-footer-cta::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 55%;
+  height: 2px;
+  background: linear-gradient(90deg, transparent, #3b82f6, #60a5fa, #3b82f6, transparent);
+  opacity: 0.8;
+}
+.post-footer-cta::after {
+  content: "";
+  position: absolute;
+  inset: 0;
+  background: radial-gradient(320px 140px at 50% 0%, rgba(59, 130, 246, 0.1), transparent 70%);
+  pointer-events: none;
+}
+.post-footer-cta .share-box {
+  position: relative;
+  z-index: 1;
+}
+.share-box-icon {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 48px;
+  height: 48px;
+  border-radius: 14px;
+  background: rgba(59, 130, 246, 0.12);
+  border: 1px solid rgba(59, 130, 246, 0.35);
+  color: #60a5fa;
+  font-size: 1.15em;
+  margin-bottom: 0.9em;
+  box-shadow: 0 4px 16px rgba(59, 130, 246, 0.18);
+}
+.share-box-title {
+  margin: 0 0 0.3em 0;
+  font-size: 1.35em;
+  color: #f8f9fa;
+}
+.share-box-text {
+  max-width: 520px;
+  margin: 0 auto 1.4em;
+  color: #8b8b8b;
   font-size: 0.92em;
-  margin-bottom: 1em !important;
+  line-height: 1.6;
 }
-.post-footer-cta .share-links {
-  margin-bottom: 0 !important;
-  padding-bottom: 0 !important;
-  border-bottom: none !important;
+.share-box-buttons {
   display: flex;
   justify-content: center;
+}
+.share-box-buttons .share-section {
+  display: flex;
+  align-items: center;
+  gap: 0.9em;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+.share-box-buttons .share-label {
+  display: none;
+}
+.share-box-buttons .share-buttons {
+  gap: 0.55em;
+}
+.share-box-buttons .share-btn {
+  width: 44px;
+  height: 44px;
+  border-radius: 12px;
+}
+.share-box-buttons .share-btn svg {
+  width: 18px;
+  height: 18px;
+}
+.share-box-buttons .share-btn.copy-link {
+  display: none;
+}
+.share-box-copylink {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.7em;
+  margin-top: 1.6em;
+  padding-top: 1.4em;
+  border-top: 1px dashed #27272a;
+  flex-wrap: wrap;
+  justify-content: center;
+  width: 100%;
+}
+.share-box-url {
+  font-family: ui-monospace, SFMono-Regular, Menlo, Consolas, monospace;
+  font-size: 0.78em;
+  color: #71717a;
+  background: rgba(255, 255, 255, 0.03);
+  border: 1px solid #1e2024;
+  border-radius: 8px;
+  padding: 0.45em 0.8em;
+  max-width: 100%;
+  overflow-wrap: anywhere;
+}
+.share-box-copylink-btn {
+  position: relative;
+  display: inline-flex;
+  align-items: center;
+  gap: 0.45em;
+  padding: 0.5em 1.1em;
+  background: rgba(59, 130, 246, 0.1);
+  border: 1px solid rgba(59, 130, 246, 0.35);
+  border-radius: 9px;
+  color: #60a5fa;
+  font-size: 0.82em;
+  font-weight: 600;
+  font-family: inherit;
+  cursor: pointer;
+  transition: all 0.2s ease;
+}
+.share-box-copylink-btn:hover {
+  background: rgba(59, 130, 246, 0.18);
+  border-color: #3b82f6;
+  color: #fff;
+  transform: translateY(-1px);
 }
 
 /* ===========================
@@ -1478,8 +1589,20 @@ footer ul {
     font-size: 1.15em;
   }
 
-  .page-content, .post-content, .home-page {
-    padding: 1.5em 1.2em;
+  /* Strip the layered paddings: page-content > wrapper > .post > .post-content
+     each add their own gutters on mobile, which stacks into huge side padding */
+  .page-content, .home-page {
+    padding: 1.25em 0.75em;
+  }
+  .page-content .wrapper {
+    padding-left: 0 !important;
+    padding-right: 0 !important;
+  }
+  .post {
+    padding: 0 !important;
+  }
+  .post-content {
+    padding: 1.5em 0.75em 3em;
   }
 
   .post-nav {
@@ -1518,8 +1641,11 @@ footer ul {
     font-size: 1.5em;
   }
 
-  .page-content, .post-content, .home-page {
-    padding: 1em;
+  .page-content, .home-page {
+    padding: 1em 0.5em;
+  }
+  .post-content {
+    padding: 1.25em 0.5em 2.5em;
   }
 
   .post-nav-card {
@@ -1989,11 +2115,15 @@ details summary:focus-visible {
 }
 
 @media (max-width: 768px) {
+  /* Use clip (not hidden): hidden creates a scroll container on html/body,
+     which breaks position:sticky on .site-header inside */
   html, body {
     overflow-x: hidden;
+    overflow-x: clip;
   }
   body {
     overflow-x: hidden;
+    overflow-x: clip;
   }
 
   /* Reduce the theme's 30px wrapper gutters on small screens */
@@ -2033,6 +2163,23 @@ details summary:focus-visible {
 
   .table-scroll {
     margin: 1.2em 0;
+  }
+
+  /* Wide tables (e.g. 4-col comparison tables) scroll horizontally
+     instead of being clipped by body overflow-x:hidden */
+  .post-content table,
+  .e-content table {
+    display: block;
+    width: 100%;
+    overflow-x: auto;
+    -webkit-overflow-scrolling: touch;
+    white-space: nowrap;
+  }
+  .post-content table th,
+  .post-content table td,
+  .e-content table th,
+  .e-content table td {
+    white-space: nowrap;
   }
 }
 
@@ -2661,6 +2808,69 @@ details summary:focus-visible {
   color: #3b82f6 !important;
   border-color: #2563eb;
   background: rgba(59, 130, 246, 0.1);
+}
+
+/* --- Browse by Topic dropdown --- */
+.topic-dropdown {
+  background: linear-gradient(160deg, rgba(59, 130, 246, 0.04) 0%, rgba(10, 10, 10, 0.85) 100%);
+  border: 1px solid #1e2024;
+  border-radius: 12px;
+  overflow: hidden;
+  transition: border-color 0.25s ease, box-shadow 0.25s ease;
+}
+.topic-dropdown[open] {
+  border-color: #2563eb;
+  box-shadow: 0 8px 28px rgba(37, 99, 235, 0.12);
+}
+.topic-dropdown-summary {
+  display: flex;
+  align-items: center;
+  gap: 0.8em;
+  cursor: pointer;
+  list-style: none;
+  padding: 1em 1.2em;
+  user-select: none;
+}
+.topic-dropdown-summary::-webkit-details-marker {
+  display: none;
+}
+.topic-dropdown-summary:hover {
+  background: rgba(59, 130, 246, 0.06);
+}
+.topic-dropdown-title {
+  flex: 1;
+  display: flex;
+  align-items: center;
+  gap: 0.5em;
+  color: #f0f0f0;
+  font-size: 1em;
+  font-weight: 600;
+}
+.topic-dropdown-title i {
+  color: #3b82f6;
+  font-size: 0.9em;
+}
+.topic-dropdown-count {
+  color: #71717a;
+  font-size: 0.78em;
+  background: rgba(59, 130, 246, 0.1);
+  border: 1px solid rgba(59, 130, 246, 0.2);
+  border-radius: 20px;
+  padding: 0.15em 0.7em;
+  white-space: nowrap;
+}
+.topic-dropdown-chevron {
+  color: #71717a;
+  font-size: 0.85em;
+  transition: transform 0.25s ease;
+}
+.topic-dropdown[open] .topic-dropdown-chevron {
+  transform: rotate(180deg);
+  color: #3b82f6;
+}
+.topic-dropdown-body {
+  padding: 0.5em 1.2em 1.2em;
+  border-top: 1px solid #111111;
 }
 
 /* --- Velocity Hero (scroll) --- */

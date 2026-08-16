@@ -4,11 +4,14 @@ description: >
   Publish a blog post to the F9XR Articles Jekyll site on GitHub Pages.
   Use when asked to "write a blog post", "publish an article", "create
   content", "write a guide", "plan content", "auto-publish", "draft a
-  post", "new article", or "add a blog entry". Generates front-matter,
-  writes Markdown body with SEO metadata and FAQ section, then commits
-  and pushes to main for auto-deployment via GitHub Pages. Always uses
+  post", "new article", "add a blog entry", "generate a featured image",
+  "create a cover image", or "make a hero image". Generates front-matter,
+  writes Markdown body with SEO metadata and FAQ section, and creates a
+  branded self-hosted WEBP featured image via tools/generate-featured-image.mjs
+  (offline template by default; AI providers optional). Then commits and
+  pushes to main for auto-deployment via GitHub Pages. Always uses
   F9XR branding naturally, keeps content educational (not promotional),
-  and references @skills\avoid-ai-writing and @skills\seo-codebase-audit
+  and references @skills\avoid-ai-writing and @skills\seo-audit-report
   for quality checks.
 ---
 
@@ -38,7 +41,9 @@ Create YAML front-matter with these fields:
 layout: post
 title: "Your Article Title"
 description: "2-3 sentence summary for the AI summary box, feeds, and JSON-LD"
-image: "https://f9xr.github.io/assets/og-image.webp"  # or custom hero image URL
+image: "https://f9xr.github.io/articles/assets/<slug>.webp"  # template in Step 2b, or user-provided image URL with credit
+image_width: 1200  # from generator output
+image_height: 630  # from generator output
 image_caption: "Optional caption for the hero image"  # optional, adds <figcaption> below hero
 date: YYYY-MM-DD
 dateModified: YYYY-MM-DD  # optional, if updating
@@ -62,6 +67,23 @@ video_duration: ""  # optional, ISO 8601
 - `faq` must have 3-5 entries derived from the article content, written as standalone snippet-friendly answers
 - `keywords` is a comma-separated string for JSON-LD structured data
 - The URL slug (from the filename) should be short, keyword-rich, and hyphenated
+- Default featured image is the branded template generated in Step 2b. If the user supplies a specific image URL (e.g., a licensed Unsplash photo), use it in `image` and always include the required credit in `image_credit`. Never reuse another post's hero and never hotlink an uncredited third-party image.
+
+### 2b. Create the Featured Image (WEBP)
+
+Every article gets a `1200x630` featured image. Three options, in order of preference:
+
+1. **Default: branded template (offline, no key, no network).** Run:
+   ```powershell
+   node tools/generate-featured-image.mjs --prompt "<short article title>" --out assets/<slug>.webp
+   ```
+   - `template` is the default provider and needs no API key. `--prompt` is the title text rendered on the card (wrapped to ~3 lines).
+   - Uses the F9XR charcoal + electric blue (`#3b82f6`) palette with a map-pin motif, a rounded `logo.webp` chip and "F9XR ARTICLES" wordmark at the top, and a tagline at the bottom.
+   - Paste the exact lines the script prints (`image`, `image_width`, `image_height`) into the post front matter from Step 2.
+2. **User-provided image.** If the user supplies a specific image URL (e.g., a licensed Unsplash photo), use it in `image`, set `image_width`/`image_height` to its real dimensions (check with sharp: `node -e "require('sharp')(file).metadata().then(m=>console.log(m.width,m.height))"`), and add the required attribution in `image_credit` or `image_caption`. Never skip the credit.
+3. **AI photo generation (optional).** Only if the user explicitly asks for AI-generated art. Run `--provider pollinations` (free, no key) / `--provider openai` (needs `OPENAI_API_KEY`) / `--provider gemini` (needs `GEMINI_API_KEY` + billing at `https://aistudio.google.com`). Prompt recipe: photorealistic, editorial photography, deep charcoal backgrounds with electric blue accents, always end with `Wide 16:9 horizontal composition. No text, no words, no letters, no watermarks, no logos.` AI providers can be busy or rate-limited; retry or fall back to the template.
+
+Commit a locally generated asset with the post in Step 7 (`git add _posts/...md assets/<slug>.webp article-urls.txt`). Never publish a post with a missing or uncredited hero.
 
 ### 3. Write the Post Body
 
@@ -176,8 +198,8 @@ After writing the draft, **always run these quality gates** before publishing:
 - Preserve technical code blocks, quoted material, and F9XR-specific examples
 - Iterate until the draft reads naturally human
 
-#### Step 4b: Load `@skills\seo-codebase-audit`
-- Read the file at `skills/seo-codebase-audit/SKILL.md`
+#### Step 4b: Load `@skills\seo-audit-report`
+- Read the file at `skills/seo-audit-report/SKILL.md`
 - Run a focused audit on the new post for:
   - Title tag optimization
   - Meta description length and quality
@@ -223,7 +245,7 @@ Rules:
 Use these git commands:
 
 ```powershell
-git add _posts/YYYY-MM-DD-slug.md article-urls.txt
+git add _posts/YYYY-MM-DD-slug.md assets/YYYY-MM-DD-slug.webp article-urls.txt
 git commit -m "Add article: Article Title"
 git push origin main
 ```
@@ -300,6 +322,7 @@ Everything above the front-matter is handled by the layout — only write the bo
 
 - Always read `content-plan.md` at project root before suggesting content strategy
 - Always append the new post link to `article-urls.txt` before committing (Step 6)
-- Always run `@skills\avoid-ai-writing` and `@skills\seo-codebase-audit` before publishing
+- Always give the post a featured image via Step 2b (branded template by default, or a user-provided licensed image with credit) — never publish with a missing or uncredited hero
+- Always run `@skills\avoid-ai-writing` and `@skills\seo-audit-report` before publishing
 - Never commit secrets or API keys
 - Confirm with the user before publishing if they said "draft" or "plan" rather than "publish"

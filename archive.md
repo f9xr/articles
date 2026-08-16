@@ -88,16 +88,21 @@ keywords: "F9XR articles archive, web architecture, AI integration, local SEO, d
 </section>
 
 <section class="ed-topics" aria-label="Browse by topic">
-  <div class="ed-sec-head">
-    <h2 class="ed-sec-title">Browse by Topic</h2>
-    <span class="ed-mono">{{ site.tags.size }} categories</span>
-  </div>
-  <div class="index-tags">
-    {% assign archive_all_tags = site.posts | map: "tags" | join: "," | split: "," | uniq | sort %}
-    {% for tag in archive_all_tags %}
-    <a class="index-tag" href="#{{ tag | slugify }}">{{ tag }}</a>
-    {% endfor %}
-  </div>
+  <details class="topic-dropdown">
+    <summary class="topic-dropdown-summary">
+      <span class="topic-dropdown-title"><i class="fa-solid fa-tags"></i> Browse by Topic</span>
+      <span class="topic-dropdown-count">{{ site.tags.size }} categories</span>
+      <span class="topic-dropdown-chevron"><i class="fa-solid fa-chevron-down"></i></span>
+    </summary>
+    <div class="topic-dropdown-body">
+      <div class="index-tags">
+        {% assign archive_all_tags = site.posts | map: "tags" | join: "," | split: "," | uniq | sort %}
+        {% for tag in archive_all_tags %}
+        <a class="index-tag" href="#{{ tag | slugify }}">{{ tag }}</a>
+        {% endfor %}
+      </div>
+    </div>
+  </details>
 </section>
 
 {% for tag in site.tags %}

@@ -60,7 +60,7 @@ F9XR Team exists to close this gap with precision-engineered solutions.
 <figure class="post-figure">
   <picture>
     <source type="image/webp" srcset="{{ site.baseurl }}/assets/f9xr-team-solutions-800.webp 800w, {{ site.baseurl }}/assets/f9xr-team-solutions.webp 1600w" sizes="(max-width: 900px) 100vw, 900px" />
-    <img src="{{ site.baseurl }}/assets/f9xr-team-solutions.png" alt="F9XR Team — Engineering Digital Growth solutions overview" title="F9XR Team solutions for web, AI, and local SEO" width="1600" height="893" loading="lazy" />
+    <img src="{{ site.baseurl }}/assets/f9xr-team-solutions.webp" alt="F9XR Team — Engineering Digital Growth solutions overview" title="F9XR Team solutions for web, AI, and local SEO" width="1600" height="893" loading="lazy" />
   </picture>
   <figcaption>F9XR Team — engineering digital growth across web ecosystems, local SEO, and AI integration</figcaption>
 </figure>

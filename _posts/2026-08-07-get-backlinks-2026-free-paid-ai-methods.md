@@ -2,7 +2,7 @@
 layout: post
 title: "Get Backlinks in 2026: Free & Paid AI Methods"
 description: "Learn how to get backlinks in 2026 using AI, free and paid strategies that actually work for business owners, startups, and local brands."
-image: "https://images.unsplash.com/photo-1560472354-b33ff0c44a43?q=80&w=1251&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+image: "https://images.unsplash.com/photo-1560472354-b33ff0c44a43?q=80&w=1200&h=630&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
 image_width: 1251
 image_height: 763
 image_credit: "Photo by <a href=\"https://unsplash.com/@hostreviews?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText\" target=\"_blank\" rel=\"noopener noreferrer\">Stephen Phillips - Hostreviews.co.uk</a> on <a href=\"https://unsplash.com/photos/monitor-screengrab-shr_Xn8S8QU?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText\" target=\"_blank\" rel=\"noopener noreferrer\">Unsplash</a>"
