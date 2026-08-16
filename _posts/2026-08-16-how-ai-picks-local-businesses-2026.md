@@ -6,6 +6,7 @@ image: "https://f9xr.github.io/articles/assets/how-ai-picks-local-businesses-202
 image_width: 1200
 image_height: 630
 date: 2026-08-16
+dateModified: 2026-08-16
 author: "F9XR Editorial Team"
 tags: [AEO answer engine optimization, GEO generative engine optimization, AI local business recommendations, ChatGPT local SEO, Gemini local search, Perplexity business visibility, local SEO 2026, AI search citation sources, review rating AI visibility, local business digital presence]
 keywords: "AEO answer engine optimization, GEO generative engine optimization, AI local business recommendations, ChatGPT local SEO, Gemini local search, Perplexity business visibility, local SEO 2026, AI search citation sources, review rating AI visibility, local business digital presence"
@@ -122,28 +123,6 @@ F9XR Team builds exactly this dual approach into its [local SEO](https://f9xr.gi
 - AI engines pull local business data primarily from third party directories, review platforms, and forums, not mainly from a business's own website.
 - Information consistency and content depth directly affect whether an AI system trusts a business enough to recommend it.
 - AI recommended businesses show roughly 85% volatility, meaning AI visibility requires ongoing monitoring, not a one time optimization project.
-
-## FAQs
-
-### Does ranking well on Google Maps guarantee I'll be recommended by ChatGPT or Gemini?
-
-No. AI platforms evaluate local businesses using a different, more selective process that draws heavily on third party directories, review platforms, and forums, alongside stricter review rating thresholds. A strong Google Maps position helps but doesn't automatically translate into AI recommendation visibility.
-
-### What star rating do I need to be recommended by AI search tools?
-
-Observed thresholds vary by platform: ChatGPT has been seen recommending only businesses averaging 4.30 stars or higher, Perplexity around 4.10 stars, and Gemini around 3.90 stars, all noticeably higher than the 3.50 to 4.00 star range Google Maps will still surface for a nearby, relevant business.
-
-### Where do AI tools like ChatGPT and Perplexity actually get local business information?
-
-Research analyzing hundreds of thousands of AI citations found that these platforms rely heavily on third party sources including Yelp, the Better Business Bureau, Foursquare, niche industry directories, local guides, review profiles, and increasingly Reddit threads and YouTube descriptions, alongside a business's own website.
-
-### Why does Gemini recommend more local businesses than ChatGPT or Perplexity?
-
-Gemini benefits directly from Google's existing local business ecosystem, including Google Business Profile data, Maps signals, reviews, and location relevance, giving it a deeper, more established information base to draw from compared to ChatGPT and Perplexity.
-
-### How often should I check whether my business appears in AI recommendations?
-
-Regularly, ideally monthly. AI recommended businesses show roughly 85% volatility as models continuously re-evaluate fresh data, meaning a business that appears in AI answers today isn't guaranteed to still appear a few months later without ongoing attention.
 
 ## Conclusion
 

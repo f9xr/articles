@@ -4,6 +4,11 @@
     <input type="text" id="searchInput" placeholder="Search articles..." aria-label="Search articles" style="flex:1; background:none; border:none; color:#f0f0f0; font-size:0.9em; padding:0.6em 0.8em; outline:none;">
     <button id="searchClearBtn" onclick="clearSearch()" style="display:none; background:none; border:none; color:#71717a; cursor:pointer; padding:0.4em; font-size:1em;" aria-label="Clear search">&times;</button>
   </div>
+  <div id="searchShareRow" style="display:none; margin-top:0.5em; text-align:right;">
+    <button type="button" id="searchShareBtn" onclick="shareSearch()" style="background:rgba(59,130,246,0.1); border:1px solid rgba(59,130,246,0.35); color:#60a5fa; cursor:pointer; padding:0.35em 0.9em; border-radius:8px; font-size:0.8em;"><i class="fa-solid fa-link"></i> Copy search link</button>
+    <span id="searchShareMsg" style="color:#4ade80; font-size:0.78em; margin-right:0.6em; display:none;">Link copied!</span>
+    <span style="color:#555; font-size:0.72em; margin-right:0.8em;">Press <kbd style="background:#151515; border:1px solid #1e2024; border-radius:4px; padding:0.1em 0.4em; font-size:0.92em;">/</kbd> or <kbd style="background:#151515; border:1px solid #1e2024; border-radius:4px; padding:0.1em 0.4em; font-size:0.92em;">Ctrl K</kbd> to search</span>
+  </div>
   <div id="searchResults" style="position:absolute; top:100%; left:0; right:0; background:#0a0a0a; border:1px solid #1e2024; border-radius:10px; margin-top:4px; max-height:400px; overflow-y:auto; display:none; z-index:1000; box-shadow:0 8px 32px rgba(0,0,0,0.4);"></div>
 </div>
 
@@ -26,9 +31,17 @@
   var input = document.getElementById('searchInput');
   var results = document.getElementById('searchResults');
   var clearBtn = document.getElementById('searchClearBtn');
+  var shareRow = document.getElementById('searchShareRow');
+  var shareBtn = document.getElementById('searchShareBtn');
+  var shareMsg = document.getElementById('searchShareMsg');
   var debounceTimer;
 
   if (!input) return;
+
+  function fromQueryParam() {
+    var params = new URLSearchParams(window.location.search);
+    return params.get('q') || '';
+  }
 
   input.addEventListener('input', function() {
     clearTimeout(debounceTimer);
@@ -51,14 +64,40 @@
     }
   });
 
+  window.shareSearch = function() {
+    var query = input.value.trim();
+    if (!query) return;
+    var url = window.location.origin + window.location.pathname + '?q=' + encodeURIComponent(query);
+    if (navigator.clipboard && navigator.clipboard.writeText) {
+      navigator.clipboard.writeText(url).then(function() {
+        shareMsg.style.display = 'inline';
+        setTimeout(function() { shareMsg.style.display = 'none'; }, 2000);
+      });
+    } else {
+      var temp = document.createElement('textarea');
+      temp.value = url;
+      document.body.appendChild(temp);
+      temp.select();
+      try { document.execCommand('copy'); } catch (err) {}
+      document.body.removeChild(temp);
+      shareMsg.style.display = 'inline';
+      setTimeout(function() { shareMsg.style.display = 'none'; }, 2000);
+    }
+    if (history.replaceState) {
+      history.replaceState(null, '', '?q=' + encodeURIComponent(query));
+    }
+  };
+
   function performSearch() {
     var query = input.value.trim().toLowerCase();
     if (query.length < 1) {
       results.style.display = 'none';
       clearBtn.style.display = 'none';
+      shareRow.style.display = 'none';
       return;
     }
     clearBtn.style.display = 'block';
+    shareRow.style.display = 'block';
 
     var matches = searchIndex.filter(function(post) {
       return post.title.toLowerCase().includes(query) ||
@@ -91,7 +130,17 @@
     input.value = '';
     results.style.display = 'none';
     clearBtn.style.display = 'none';
+    shareRow.style.display = 'none';
     input.focus();
   };
+
+  var initialQuery = fromQueryParam();
+  if (initialQuery) {
+    input.value = initialQuery;
+    var section = document.getElementById('searchSection');
+    if (section) { section.style.display = 'block'; }
+    input.focus();
+    performSearch();
+  }
 })();
 </script>

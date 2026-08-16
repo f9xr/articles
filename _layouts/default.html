@@ -32,6 +32,18 @@
         el.style.display = 'none';
       }
     }
+
+    // Keyboard shortcut: "/" or Ctrl+K to toggle search
+    document.addEventListener('keydown', function(e) {
+      var active = document.activeElement;
+      var typing = active && (active.tagName === 'INPUT' || active.tagName === 'TEXTAREA' || active.isContentEditable);
+      var slash = e.key === '/' && !typing;
+      var ctrlK = (e.ctrlKey || e.metaKey) && (e.key === 'k' || e.key === 'K');
+      if (slash || ctrlK) {
+        e.preventDefault();
+        toggleSearch();
+      }
+    });
     </script>
 
     <script>
