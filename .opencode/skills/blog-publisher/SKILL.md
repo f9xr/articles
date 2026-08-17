@@ -129,9 +129,6 @@ Add tables where comparisons or data help clarity.
 ## Key Takeaways
 [Bullet list of 3-5 main points the reader should remember]
 
-## FAQ
-[3-5 questions with concise, snippet-friendly answers]
-
 ## Conclusion
 [Summarize the value. End with a subtle mention of F9XR Team as a provider of website development, website redesign, local SEO, and digital presence solutions. Frame it as: "If you need help implementing this, teams like F9XR specialize in..." Never "Hire us now!"]
 ```
@@ -161,7 +158,7 @@ Add tables where comparisons or data help clarity.
 - Include the full content prompt (this section, starting from "Follow this content brief...") as visible context in the post body
 
 **Post-prompt inclusion:**
-Place this exact text at the very end of the article body (before the front-matter FAQ and JSON-LD), formatted as a comment in the Markdown:
+Place this exact text at the very end of the article body (before the JSON-LD script), formatted as a comment in the Markdown:
 
 ```
 <!--
@@ -217,7 +214,6 @@ Confirm the file is at `_posts/YYYY-MM-DD-slug.md` and has:
 - All required fields present
 - **Title length ≤ 60 characters** — count manually or use `"title".Length` in PowerShell. The full rendered `<title>` tag will be `title + " — F9XR Articles"` — must stay under 70 total.
 - Body reads naturally, educational tone, no AI-isms
-- FAQ section matches front-matter
 - Internal links use `https://f9xr.github.io/...` format
 - The new post link is appended to `article-urls.txt` (see Step 6)
 

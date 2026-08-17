@@ -39,7 +39,13 @@ This update matters more than it looks at first glance. Here is what changed, wh
 
 Here is the update itself, based on Google's own announcement and the reporting that followed.
 
-Google's VP for Gemini, Josh Woodward, [confirmed the change directly on X](https://x.com/JoshWoodward/status/2020396116714414238), describing a new Media Watermark setting rolling out across the Gemini app and Google's Flow video editor. The rollout began August 14, 2026, and Google said it would reach accounts gradually over the following days.
+Google's VP for Gemini, Josh Woodward, [confirmed the change directly on X](https://x.com/joshwoodward/status/2088259242423968162), describing a new Media Watermark setting rolling out across the Gemini app and Google's Flow video editor.
+
+<blockquote class="twitter-tweet"><p lang="en" dir="ltr">✅ Papercut fixed: You can now toggle visible watermarks on or off in Gemini and Flow, with Search coming next.<br><br>This applies to watermarks on all images (Nano Banana), videos (Omni), and songs (Lyria) except in countries where it's required by law to keep them. <a href="https://t.co/utHN0yDmD3">pic.twitter.com/utHN0yDmD3</a></p>&mdash; Josh Woodward (@joshwoodward) <a href="https://x.com/joshwoodward/status/2088259242423968162?ref_src=twsrc%5Etfw">August 14, 2026</a></blockquote> <script async src="https://platform.x.com/widgets.js" charset="utf-8"></script>
+
+![Josh Woodward announcing the Gemini watermark toggle](https://pbs.twimg.com/media/HPr8e2CbkAAg0PQ?format=png&name=medium)
+
+The rollout began August 14, 2026, and Google said it would reach accounts gradually over the following days.
 
 ### Where to Find the Toggle
 
@@ -191,32 +197,6 @@ If you are unsure how to fit new AI creative tools into your existing brand stra
 * Business owners should keep disclosure practices in place for sensitive content and continue blending AI visuals with authentic, original brand imagery.
 
 ---
-
-## Frequently Asked Questions
-
-### How do I turn off the visible watermark in Gemini?
-
-Open the Gemini app or Google Flow, go to Settings, select Media Watermark, and switch the toggle off. The setting applies to future images, videos, and music you generate with Nano Banana, Omni, and Lyria.
-
-### Does turning off the visible watermark make my content untraceable?
-
-No. The toggle only removes the visible mark. Google still embeds an invisible SynthID watermark and C2PA metadata into every file, which allows the content's AI origin to be identified regardless of the visible setting.
-
-### Is the watermark toggle available to everyone?
-
-Mostly, yes, but with exceptions. In India, South Korea, and Vietnam, the option is currently limited to Google AI Ultra subscribers. Google Workspace (work and school) accounts do not have access to this setting at all.
-
-### What models does the watermark toggle apply to?
-
-It applies to Nano Banana for images, Omni for video, and Lyria for music. Google has said support is coming next to its Search AI creation features as well.
-
-### Should businesses disclose when they use AI-generated content, even without a visible watermark?
-
-It is a good practice, especially for sensitive content like testimonials, health, finance, or legal topics. Even though the visible mark can be turned off, transparency with your audience still matters for maintaining trust.
-
-### What is SynthID?
-
-SynthID is Google DeepMind's invisible watermarking technology, embedded into AI-generated images, video, and audio at the file level. It is designed to survive screenshots, cropping, and format changes, and Google says it has been applied to more than 10 billion pieces of content.
 
 ---
 

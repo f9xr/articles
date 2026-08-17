@@ -39,7 +39,7 @@ Here is what is changing, why Google is doing it, whether it helps or hurts your
 
 Here are the facts, since there has been some confusion floating around. Google actually announced something similar back in August 2025 with a deadline that quietly slipped.
 
-Google [confirmed this update](https://support.google.com/google-ads/answer/1721832) again on August 13, 2026, with the change rolling out in late September 2026. Here is the breakdown.
+Google [confirmed this update](https://support.google.com/google-ads/answer/1722078) again on August 13, 2026, with the change rolling out in late September 2026. Here is the breakdown.
 
 ### For Search Campaigns
 
@@ -72,7 +72,7 @@ If you or your agency manages campaigns programmatically through the Google Ads 
 
 ## Why Is Google Doing This
 
-Google's official reasoning, as outlined in their [language targeting documentation](https://support.google.com/google-ads/answer/1721832), centers on accuracy and automation. Instead of relying on advertisers to manually flag which languages to target, an approach that has always been a bit blunt, Google wants its AI to read the actual language of your ad and landing page, then match it to real user context and preferences at the moment of the search.
+Google's official reasoning, as outlined in their [language targeting documentation](https://support.google.com/google-ads/answer/2756257?hl=en) and [ developer blog announcement](https://ads-developers.googleblog.com/2026/08/google-ads-language-targeting-changes.html), centers on accuracy and automation. Instead of relying on advertisers to manually flag which languages to target, an approach that has always been a bit blunt, Google wants its AI to read the actual language of your ad and landing page, then match it to real user context and preferences at the moment of the search.
 
 There is a reasonable argument here. Manual language targeting has always had quirks. Someone searching in English while living in a Spanish-speaking household, a bilingual user switching languages mid-session, or a business running ads in a region with three official languages. These situations were never handled perfectly by a single dropdown setting.
 
@@ -199,31 +199,11 @@ If you are not sure whether this specific change affects your account, that is a
 
 ---
 
-## Frequently Asked Questions
+## Conclusion
 
-### When is Google Ads removing language targeting?
+Google Ads removing language targeting is not the kind of headline that makes waves outside marketing circles, but for business owners running multilingual campaigns or complex account structures, it is a change worth taking seriously before late September 2026. The good news is that most single-language, single-market businesses will barely notice. The businesses that need to act now are the ones relying on language settings for more than simple language matching.
 
-Google confirmed the change will roll out in late September 2026 for Search campaigns and AI Max for Search, as well as the Search Network portion of Performance Max campaigns.
-
-### Do I need to change my existing campaigns before this happens?
-
-Not necessarily. Existing single-language campaign structures will continue functioning normally. Removing old language criteria is optional, not required, since the setting simply will not apply going forward.
-
-### Will this affect my Performance Max campaigns?
-
-Partially. Language settings will no longer apply to ads shown on the Google Search Network within Performance Max. However, they will still apply to YouTube, Display, Discover, and Gmail placements. Shopping ads are unaffected either way.
-
-### Is this change good or bad for my business?
-
-It depends on your setup. Single-language, single-market businesses are unlikely to notice much impact. Multilingual businesses or those using language targeting for budget segmentation will lose a meaningful layer of manual control and should plan accordingly.
-
-### Can I still exclude certain languages from seeing my ads?
-
-No. Language exclusions were not supported before this change and remain unsupported afterward. If you need audience exclusion, look into negative keywords and audience targeting settings instead.
-
-### What should I do to prepare for this Google Ads update?
-
-Audit where language targeting is currently used in your account, make sure ad copy and landing pages are clearly and consistently written in your intended language, and monitor campaign performance closely in the weeks following the September 2026 rollout.
+Either way, the smartest move is auditing your account today rather than reacting to a performance drop later. If you would rather have an experienced team handle that audit, along with your broader [website development](https://f9xr.github.io/articles/), [website redesign](https://f9xr.github.io/articles/), [local SEO](https://f9xr.github.io/articles/), and [digital presence strategy](https://f9xr.github.io/articles/), the F9XR Team is built exactly for moments like this, when platform changes roll out fast and business owners need a steady hand keeping their campaigns and websites aligned.
 
 ---
 
