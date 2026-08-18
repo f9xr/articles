@@ -177,11 +177,11 @@ Changes like this are exactly why business owners should not be expected to mana
 
 The F9XR Team helps business owners, startups, and local businesses stay ahead of exactly this kind of platform change by offering:
 
-* [Google Ads account audits](https://f9xr.github.io/articles/) to catch outdated settings, including language targeting dependencies, before they cause budget waste
+* [Google Ads account audits](https://f9xr.github.io/articles/2026/08/15/how-to-increase-website-trust-score.html){:target="_blank" rel="noopener noreferrer"} to catch outdated settings, including language targeting dependencies, before they cause budget waste
 * Campaign restructuring support for multilingual and multi-region businesses adapting to automated targeting changes
-* [Local SEO strategy](https://f9xr.github.io/articles/) that keeps your website, Google Business Profile, and ad landing pages aligned in language and messaging
-* [Website development and website redesign](https://f9xr.github.io/articles/) work built to support consistent, localized landing page experiences
-* Ongoing digital presence management so you are not caught off guard by the next platform update, because there will be a next one
+* [Local SEO strategy](https://f9xr.github.io/articles/2026/08/16/rank-number-1-google-maps-2026.html){:target="_blank" rel="noopener noreferrer"} that keeps your website, Google Business Profile, and ad landing pages aligned in language and messaging
+* [Website development and website redesign](https://f9xr.github.io/pages/services.html){:target="_blank" rel="noopener noreferrer"} work built to support consistent, localized landing page experiences
+* Ongoing [digital presence management](https://f9xr.github.io/articles/2026/08/14/steps-make-business-site-visible-to-ai.html){:target="_blank" rel="noopener noreferrer"} so you are not caught off guard by the next platform update, because there will be a next one
 
 If you are not sure whether this specific change affects your account, that is a quick conversation worth having before late September.
 
@@ -203,7 +203,7 @@ If you are not sure whether this specific change affects your account, that is a
 
 Google Ads removing language targeting is not the kind of headline that makes waves outside marketing circles, but for business owners running multilingual campaigns or complex account structures, it is a change worth taking seriously before late September 2026. The good news is that most single-language, single-market businesses will barely notice. The businesses that need to act now are the ones relying on language settings for more than simple language matching.
 
-Either way, the smartest move is auditing your account today rather than reacting to a performance drop later. If you would rather have an experienced team handle that audit, along with your broader [website development](https://f9xr.github.io/articles/), [website redesign](https://f9xr.github.io/articles/), [local SEO](https://f9xr.github.io/articles/), and [digital presence strategy](https://f9xr.github.io/articles/), the F9XR Team is built exactly for moments like this, when platform changes roll out fast and business owners need a steady hand keeping their campaigns and websites aligned.
+Either way, the smartest move is auditing your account today rather than reacting to a performance drop later. If you would rather have an experienced team handle that audit, along with your broader [website development](https://f9xr.github.io/pages/services.html){:target="_blank" rel="noopener noreferrer"}, [website redesign](https://f9xr.github.io/pages/services.html){:target="_blank" rel="noopener noreferrer"}, [local SEO](https://f9xr.github.io/articles/2026/08/16/rank-number-1-google-maps-2026.html){:target="_blank" rel="noopener noreferrer"}, and [digital presence strategy](https://f9xr.github.io/articles/2026/08/14/steps-make-business-site-visible-to-ai.html){:target="_blank" rel="noopener noreferrer"}, the F9XR Team is built exactly for moments like this, when platform changes roll out fast and business owners need a steady hand keeping their campaigns and websites aligned.
 
 ---
 
