@@ -1,0 +1,118 @@
+---
+layout: default
+---
+<article class="post" itemscope itemtype="https://schema.org/PodcastEpisode">
+  <div class="post-layout">
+    <div class="post-main">
+
+      <!-- Breadcrumbs -->
+      <nav aria-label="Breadcrumb" class="post-breadcrumbs" style="margin-bottom:1.5em;">
+        <a href="{{ '/' | relative_url }}" style="color:#71717a; font-size:0.85em;">Home</a>
+        <span style="color:#52525b; margin:0 0.5em;">›</span>
+        <a href="{{ '/episodes/' | relative_url }}" style="color:#71717a; font-size:0.85em;">Episodes</a>
+        <span style="color:#52525b; margin:0 0.5em;">›</span>
+        <span style="color:#9aa3ad; font-size:0.85em;">{{ page.title }}</span>
+      </nav>
+
+      <!-- Episode Header -->
+      <header class="post-header">
+        <div class="post-header-top">
+          <a href="{{ '/episodes/' | relative_url }}" class="post-back-link">← All Episodes</a>
+          <time datetime="{{ page.date | date_to_xmlschema }}">{{ page.date | date: "%B %-d, %Y" }}</time>
+        </div>
+        {% if page.episode_number %}<p style="color:#3b82f6; font-size:0.85em; font-weight:600; margin:0 0 0.4em 0; text-transform:uppercase; letter-spacing:0.08em;">Episode {{ page.episode_number }}{% if page.season %} · Season {{ page.season }}{% endif %}</p>{% endif %}
+        <h1 class="post-title p-name" itemprop="name">{{ page.title }}</h1>
+        {% if page.description %}<p class="post-description" itemprop="description">{{ page.description }}</p>{% endif %}
+        <div class="post-meta">
+          <span class="post-author-badge"><span class="author-dot"></span> {{ page.author | default: "F9XR Editorial Team" }}</span>
+          {% if page.audio_duration %}<span class="post-meta-sep">·</span><span style="color:#71717a;"><i class="fa-solid fa-clock" style="margin-right:0.3em;"></i>{{ page.audio_duration }}</span>{% endif %}
+        </div>
+        {% if page.tags %}<div class="post-tags">{% for tag in page.tags %}<a href="{{ '/archive.html' | relative_url }}#{{ tag | slugify }}" class="post-tag">{{ tag }}</a>{% endfor %}</div>{% endif %}
+      </header>
+
+      <!-- Hero Image -->
+      {% if page.image %}
+      <div class="post-hero">
+        <img src="{{ page.image }}" alt="{{ page.title }}" width="{{ page.image_width | default: 1200 }}" height="{{ page.image_height | default: 630 }}" loading="eager" fetchpriority="high" itemprop="image" />
+        {% if page.image_caption %}<p class="post-hero-caption">{{ page.image_caption }}</p>{% endif %}
+      </div>
+      {% endif %}
+
+      <!-- Audio Player -->
+      {% if page.audio %}
+      <div style="margin-bottom:2em; padding:1.5em; background:linear-gradient(135deg, rgba(59,130,246,0.08) 0%, rgba(10,10,10,0.85) 100%); border:1px solid #1e2024; border-radius:14px;">
+        <p style="margin:0 0 0.8em 0; color:#f0f0f0; font-size:0.9em; font-weight:600;"><i class="fa-solid fa-headphones" style="color:#3b82f6; margin-right:0.4em;"></i> Listen to this episode</p>
+        <audio controls preload="metadata" style="width:100%; border-radius:8px; outline:none;" itemprop="associatedMedia" itemscope itemtype="https://schema.org/AudioObject">
+          <source src="{{ page.audio }}" type="{{ page.audio_type | default: 'audio/mpeg' }}">
+          Your browser does not support the audio element.
+        </audio>
+        {% if page.audio_vtt %}
+        <p style="margin:0.8em 0 0 0;"><a href="{{ page.audio_vtt }}" download style="color:#3b82f6; font-size:0.85em;"><i class="fa-solid fa-download" style="margin-right:0.3em;"></i> Download transcript (.vtt)</a></p>
+        {% endif %}
+      </div>
+      {% endif %}
+
+      <!-- YouTube Companion Video -->
+      {% if page.youtube_id %}
+      <div style="margin-bottom:2em;">
+        <p style="margin:0 0 0.8em 0; color:#f0f0f0; font-size:0.9em; font-weight:600;"><i class="fa-brands fa-youtube" style="color:#ff0000; margin-right:0.4em;"></i> Watch the companion video</p>
+        <div style="position:relative; padding-bottom:56.25%; height:0; overflow:hidden; border-radius:14px; border:2px solid #1e2024; box-shadow:0 8px 32px rgba(0,0,0,0.45);">
+          <iframe src="https://www.youtube.com/embed/{{ page.youtube_id }}" style="position:absolute; top:0; left:0; width:100%; height:100%; border:0;" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen loading="lazy" title="{{ page.title }} — Companion Video" itemprop="video" itemscope itemtype="https://schema.org/VideoObject"></iframe>
+        </div>
+      </div>
+      {% endif %}
+
+      <!-- Transcript (toggle/accordion) -->
+      {% if page.audio_vtt or content != "" %}
+      <details class="episode-transcript" style="margin-bottom:2em; border:1px solid #1e2024; border-radius:14px; overflow:hidden;">
+        <summary style="cursor:pointer; padding:1.1em 1.4em; background:linear-gradient(135deg, rgba(59,130,246,0.06) 0%, rgba(10,10,10,0.85) 100%); color:#f0f0f0; font-weight:600; font-size:0.95em; list-style:none; display:flex; align-items:center; gap:0.5em;">
+          <i class="fa-solid fa-chevron-right" style="font-size:0.75em; color:#3b82f6; transition:transform 0.2s;"></i>
+          Read Transcript
+        </summary>
+        <div class="episode-transcript-body" itemprop="transcript" itemscope itemtype="https://schema.org/TextObject" style="padding:1.5em 1.4em; color:#b1bac4; font-size:0.95em; line-height:1.85; max-height:600px; overflow-y:auto;">
+          {{ content }}
+        </div>
+      </details>
+      {% endif %}
+
+      <!-- Tags (repeated for post-footer consistency) -->
+      {% if page.tags %}
+      <div class="post-tags" style="margin-top:2em;">
+        {% for tag in page.tags %}<a href="{{ '/archive.html' | relative_url }}#{{ tag | slugify }}" class="post-tag">{{ tag }}</a>{% endfor %}
+      </div>
+      {% endif %}
+
+      <!-- Author Profile -->
+      {% include author-profile.html author_key=page.author %}
+
+    </div>
+  </div>
+
+  <!-- JSON-LD: PodcastEpisode -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "PodcastEpisode",
+    "name": {{ page.title | jsonify }},
+    "description": {{ page.description | jsonify }},
+    "datePublished": "{{ page.date | date_to_xmlschema }}",
+    "associatedMedia": {
+      "@type": "AudioObject",
+      "contentUrl": "{{ page.audio | absolute_url }}",
+      "duration": "PT{{ page.audio_duration | default: '0M' }}",
+      "encodingFormat": "{{ page.audio_type | default: 'audio/mpeg' }}"
+    },
+    "partOfSeries": {
+      "@type": "PodcastSeries",
+      "name": "F9XR Articles Podcast",
+      "url": "{{ '/episodes/' | absolute_url }}"
+    }{% if page.episode_number %},"episodeNumber": {{ page.episode_number }}{% endif %}{% if page.season %},"seasonNumber": {{ page.season }}{% endif %}
+    {% if page.youtube_id %},"video": {
+      "@type": "VideoObject",
+      "embedUrl": "https://www.youtube.com/embed/{{ page.youtube_id }}",
+      "name": "{{ page.title }} — Companion Video"
+    }{% endif %}
+  }
+  </script>
+
+</article>

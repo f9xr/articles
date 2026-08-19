@@ -24,3 +24,4 @@ https://f9xr.github.io/articles/2026/08/18/ghost-impression-keywords-guide.html
 https://f9xr.github.io/articles/2026/08/18/youtube-changes-how-it-counts-views-long-form-live.html
 https://f9xr.github.io/articles/2026/08/19/seo-metrics-beyond-rankings.html
 https://f9xr.github.io/articles/2026/08/19/google-august-2026-spam-update.html
+https://f9xr.github.io/articles/2026/08/19/structuring-local-business-data-meta-ai-indexers.html

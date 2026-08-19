@@ -33,6 +33,11 @@ permalink: /:categories/:year/:month/:day/:title.html
 encoding: UTF-8
 lsi: true
 
+collections:
+  episodes:
+    output: true
+    permalink: /episodes/:title.html
+
 plugins:
   - jekyll-feed
   - jekyll-sitemap
@@ -53,6 +58,11 @@ defaults:
       type: pages
     values:
       layout: page
+  - scope:
+      path: ""
+      type: episodes
+    values:
+      layout: episode
 
 exclude:
   - README.md
