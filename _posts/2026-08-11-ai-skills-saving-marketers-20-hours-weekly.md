@@ -63,7 +63,7 @@ This is one of the least talked about, most time consuming parts of marketing, a
 
 Technical SEO issues, a misconfigured robots.txt, a missing sitemap, broken internal links, slow loading pages, or a website that's simply invisible to AI crawlers, quietly undermine every other marketing effort a business makes. Catching these used to mean hiring a technical SEO specialist or digging through a site's code yourself, which most marketers and small business owners don't have time for.
 
-**How the skill works:** F9XR's auditor scans a website's codebase and root directory automatically, checking for the technical files and configurations that affect both traditional SEO and AI visibility. Things like robots.txt, sitemap.xml, and llms.txt. It flags broken links, indexing issues, and structural problems that could be quietly costing a business traffic. Instead of spending hours checking file by file, you get a clear, prioritized report of what's actually wrong and what to fix first.
+**How the skill works:** F9XR's auditor scans a website's codebase and root directory automatically, running [consistency checks across all listings and configurations](https://f9xr.github.io/articles/2026/08/13/consistency-audits-seo-aeo-geo.html){:target="_blank" rel="noopener noreferrer"} for the technical files and configurations that affect both traditional SEO and AI visibility. Things like robots.txt, sitemap.xml, and llms.txt. It flags broken links, indexing issues, and structural problems that could be quietly costing a business traffic. Instead of spending hours checking file by file, you get a clear, prioritized report of what's actually wrong and what to fix first.
 
 **Why it matters for time savings:** a single manual audit can easily take several hours for someone who isn't a developer, and mistakes are common when it's done by hand. Automating this one skill alone can save a marketing team multiple hours every month.
 
@@ -147,7 +147,7 @@ Seven AI skills saving marketers 20+ hours a week
 
 Most business owners don't have the time, or the technical background, to evaluate and implement seven different AI skills on their own. That's where teams like F9XR fit in, working alongside businesses on [website development](https://f9xr.github.io/pages/services.html){:target="_blank" rel="noopener noreferrer"}, redesign, and [local SEO](https://f9xr.github.io/services/google-business-optimization.html){:target="_blank" rel="noopener noreferrer"}, with the technical and AI driven groundwork built in from the start.
 
-For the technical side covered above, F9XR's SEO Codebase Auditor skill takes one of the most time consuming, easiest to overlook parts of marketing, keeping a website technically healthy for both Google and AI search engines, and runs it automatically. Instead of becoming a technical SEO expert, you get a clear report and a fixed foundation, freeing up hours for content, campaigns, and customers.
+For the technical side covered above, F9XR's SEO Codebase Auditor skill takes one of the most time consuming, easiest to overlook parts of marketing, keeping a website technically healthy for both Google and AI search engines, which directly impacts [backlink value and organic visibility](https://f9xr.github.io/articles/2026/08/07/get-backlinks-2026-free-paid-ai-methods.html){:target="_blank" rel="noopener noreferrer"}, and runs it automatically. Instead of becoming a technical SEO expert, you get a clear report and a fixed foundation, freeing up hours for content, campaigns, and customers.
 
 ## Key Takeaways
 

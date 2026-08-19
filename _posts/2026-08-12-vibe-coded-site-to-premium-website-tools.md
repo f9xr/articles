@@ -39,7 +39,7 @@ Before jumping into the tools, it helps to understand exactly why AI generated s
 - **Generic or stock feeling visuals:** backgrounds, gradients, and illustrations often look like they came from the same limited default set, because in a lot of cases, they did.
 - **Inconsistent visual hierarchy:** without deliberate design decisions, AI tends to treat every element with similar visual weight, which is part of why vibe coded pages can feel flat or hard to scan.
 
-None of this is a dealbreaker for functionality. But for any business using its website as a first impression, and that's basically every business, these small details are the difference between a site that builds trust and one that quietly makes visitors hesitate.
+None of this is a dealbreaker for functionality. But for any business using its website as a first impression, and that's basically every business, these small details are the difference between a site that builds [trust and credibility](https://f9xr.github.io/articles/2026/08/04/google-e-e-a-t-checklist-every-seo-should-bookmark.html){:target="_blank" rel="noopener noreferrer"} and one that quietly makes visitors hesitate.
 
 ## The 11 Free Tools for Turning AI Slop Into a Premium Site
 
@@ -181,7 +181,7 @@ Yes. Overusing motion, 3D elements, or custom visuals can slow down load times, 
 
 The line between a vibe coded site and a premium one usually comes down to a handful of deliberate choices, real motion instead of static content, custom visuals instead of stock defaults, and components that feel considered rather than generic. The 11 tools above make closing that gap far more accessible than it used to be, even for a solo founder working with an AI coding assistant.
 
-But visual polish is only part of what makes a website actually work for a business. If you want that same premium feel backed by a site that's fast, well structured, and built to be found in both Google Search and AI search tools, teams like F9XR help business owners bridge that gap through [website development, website redesign, and local SEO](https://f9xr.github.io/pages/services.html){:target="_blank" rel="noopener noreferrer"}, turning a vibe coded starting point into a website that looks the part and performs like one too.
+But visual polish is only part of what makes a website actually work for a business. If you want that same premium feel backed by a site that's fast, well structured, and built to be found in both Google Search and AI search tools through [quality backlinks and authority signals](https://f9xr.github.io/articles/2026/08/07/get-backlinks-2026-free-paid-ai-methods.html){:target="_blank" rel="noopener noreferrer"}, teams like F9XR help business owners bridge that gap through [website development, website redesign, and local SEO](https://f9xr.github.io/pages/services.html){:target="_blank" rel="noopener noreferrer"}, turning a vibe coded starting point into a website that looks the part and performs like one too.
 
 <!--
 This article was written following the F9XR Blog Publisher content brief:

@@ -94,7 +94,7 @@ The practical move: pick one process to document this quarter, and one person to
 
 While global platforms chase scale, Indian customers keep choosing nearby. The local boom is owner-led, and it's visible everywhere: neighborhoods, WhatsApp groups, and search results. People search for businesses within walking distance, read reviews, and decide in minutes.
 
-Why it matters: for a local business, being findable close to where customers already are is the whole game. That's why [Google Business Profile and directory listings](https://f9xr.github.io/articles/2026/07/29/free-business-directories-guide.html){:target="_blank" rel="noopener noreferrer"} matter, and why consistent name, address, and phone data across the web builds trust with both customers and search engines. A business that shows up for "near me" searches wins a steady stream of ready-to-buy customers.
+Why it matters: for a local business, being findable close to where customers already are is the whole game. That's why [Google Business Profile and directory listings](https://f9xr.github.io/articles/2026/07/29/free-business-directories-guide.html){:target="_blank" rel="noopener noreferrer"} matter, and why [consistent name, address, and phone data across the web](https://f9xr.github.io/articles/2026/08/13/consistency-audits-seo-aeo-geo.html){:target="_blank" rel="noopener noreferrer"} builds trust with both customers and search engines. A business that shows up for "near me" searches wins a steady stream of ready-to-buy customers.
 
 The practical move: claim your Google Business Profile, keep hours and phone numbers accurate everywhere, and ask happy customers for reviews. Local search runs on small, consistent signals, not big campaigns.
 

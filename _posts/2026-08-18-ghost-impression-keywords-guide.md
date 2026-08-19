@@ -47,7 +47,7 @@ This isn't just an ordinary SEO quirk anymore. A specific mix of platform change
 
 ### AI Overviews and Featured Snippets Are Answering Questions Before the Click
 
-Over 50% of Google searches now end without a single click to any website. AI Overviews and featured snippets increasingly extract and display the answer directly in the results page, giving your content the impression and effectively absorbing the click that would have gone to your site. Your rankings can look perfectly healthy while your actual traffic quietly declines, because the search itself is being resolved before your listing is ever visited.
+Over 50% of Google searches now end without a single click to any website, a [zero-click search reality reshaping local business visibility](https://f9xr.github.io/articles/2026/08/16/zero-click-search-google-business-profile-homepage.html). AI Overviews and featured snippets increasingly extract and display the answer directly in the results page, giving your content the impression and effectively absorbing the click that would have gone to your site. Your rankings can look perfectly healthy while your actual traffic quietly declines, because the search itself is being resolved before your listing is ever visited.
 
 ### A Genuine Google Search Console Logging Bug
 
@@ -103,7 +103,7 @@ Generic, keyword stuffed titles blend into a results page. A specific, benefit d
 
 ### 2. Close the Gap Between Search Intent and Page Content
 
-If a keyword is generating impressions but no clicks because your page doesn't actually match what the searcher wants, the fix isn't a better headline, it's better content alignment. Revisit the page and make sure it answers the specific query it's ranking for.
+If a keyword is generating impressions but no clicks because your page doesn't actually match what the searcher wants, the fix isn't a better headline, it's better content alignment. Revisit the page and make sure it answers the specific query it's ranking for, following a clear [steps to make your business site visible to AI](https://f9xr.github.io/articles/2026/08/14/steps-make-business-site-visible-to-ai.html) approach to content relevance.
 
 ### 3. Add Structured Data Where It's Relevant
 
@@ -115,7 +115,7 @@ For informational queries where an AI Overview or featured snippet is likely abs
 
 ### 5. Improve Position Before Panicking About CTR
 
-For queries sitting at position 8 to 15, the most direct fix isn't a better snippet, it's improving the ranking itself through stronger internal linking, updated content, and additional relevant backlinks. Clicks generally follow position far more than snippet tweaks alone.
+For queries sitting at position 8 to 15, the most direct fix isn't a better snippet, it's improving the ranking itself through stronger internal linking, updated content, and additional relevant backlinks, all of which contribute to a higher [website trust score](https://f9xr.github.io/articles/2026/08/15/how-to-increase-website-trust-score.html). Clicks generally follow position far more than snippet tweaks alone.
 
 ### 6. Audit Hreflang and Regional Targeting if Localization Looks Off
 

@@ -138,13 +138,13 @@ Content that includes citable data points, specific statistics, named examples, 
 
 ### 9. Keep metadata clean and consistent
 
-Titles, meta descriptions, alt text, and canonical tags should all reinforce the same core topics as your actual page content. Inconsistent or vague metadata gives AI models a weaker, less confident signal about what a page is about.
+Titles, meta descriptions, alt text, and canonical tags should all reinforce the same core topics as your actual page content. Inconsistent or vague metadata gives AI models a weaker, less confident signal about what a page is about. For image-specific metadata like alt text and file names, our [image SEO audit guide](https://f9xr.github.io/articles/2026/08/14/image-seo-audit-complete-guide.html){:target="_blank" rel="noopener noreferrer"} covers the full checklist.
 
 ## Building off site trust and entity authority
 
 ### 10. Keep your business information consistent everywhere
 
-This connects directly to what's often called entity confidence, the AI's working understanding of who your business is, based on patterns across many sources, not just one page. If your name, address, phone number, hours, and services vary across your website, Google Business Profile, and directories, AI tools have no reliable way to know which version is correct. They often default to leaving you out of an answer entirely rather than guessing wrong. For the full audit method and the numbers behind it, see our [information consistency audit guide for SEO, AEO, and GEO](https://f9xr.github.io/articles/2026/08/13/consistency-audits-seo-aeo-geo.html){:target="_blank" rel="noopener noreferrer"}.
+This connects directly to what's often called entity confidence, the AI's working understanding of who your business is, based on patterns across many sources, not just one page. If your name, address, phone number, hours, and services vary across your website, Google Business Profile, and directories, AI tools have no reliable way to know which version is correct. They often default to leaving you out of an answer entirely rather than guessing wrong. This directly impacts your overall [website trust score](https://f9xr.github.io/articles/2026/08/15/how-to-increase-website-trust-score.html){:target="_blank" rel="noopener noreferrer"}. For the full audit method and the numbers behind it, see our [information consistency audit guide for SEO, AEO, and GEO](https://f9xr.github.io/articles/2026/08/13/consistency-audits-seo-aeo-geo.html){:target="_blank" rel="noopener noreferrer"}.
 
 ### 11. Build presence on platforms AI models trust as sources
 

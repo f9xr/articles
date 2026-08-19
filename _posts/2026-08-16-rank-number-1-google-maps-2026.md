@@ -26,7 +26,7 @@ faq:
 
 If you run a local business, the top three spots on Google Maps aren't just nice to have, they're basically the whole game. Roughly 75% of all clicks in local search go to the first three businesses shown in the Maps pack, and 42% of local search traffic goes to that same top three, with everyone below scrapping over what's left. If you're sitting in position four or lower, you're not slightly less visible, you're functionally invisible to most searchers.
 
-Here's the encouraging part: ranking on Google Maps isn't a mystery or a black box. Google has been fairly transparent about the three core pillars it uses, relevance, distance, and prominence, and industry research has gotten increasingly precise about exactly how much weight each specific signal carries. That means you don't have to guess what to work on. You can prioritize the handful of things that move the needle the most, and skip the noise.
+Here's the encouraging part: ranking on Google Maps isn't a mystery or a black box. Google has been fairly transparent about the three core pillars it uses, relevance, distance, and prominence, and industry research has gotten increasingly precise about exactly how much weight each specific signal carries, including how [AI tools evaluate and pick local businesses](https://f9xr.github.io/articles/2026/08/16/how-ai-picks-local-businesses-2026.html) using many of the same signals. That means you don't have to guess what to work on. You can prioritize the handful of things that move the needle the most, and skip the noise.
 
 This guide breaks down exactly what determines Google Maps rankings in 2026, backed by real data, and gives you a practical, prioritized path to actually move up the pack, not just a generic list of tips.
 
@@ -41,7 +41,7 @@ The numbers make the case better than any opinion could:
 - 46% of all Google searches now carry local intent, and more than 80% of local searches show results through Maps.
 - 88% of consumers who conduct a local search on their smartphone visit or call a business within a day.
 - 66% of consumers say they trust Google the most when researching local businesses, ahead of Google Maps specifically at 45% and a business's own website at 36%.
-- 40.16% of local business queries now trigger Google's [AI Overviews](https://developers.google.com/search/docs/appearance/ai-features){:target="_blank" rel="noopener noreferrer"}, meaning your Maps presence increasingly feeds directly into AI generated answers too, not just the traditional map pack.
+- 40.16% of local business queries now trigger Google's [AI Overviews](https://developers.google.com/search/docs/appearance/ai-features){:target="_blank" rel="noopener noreferrer"}, meaning your Maps presence increasingly feeds directly into AI generated answers too, not just the traditional map pack, a shift also driving the rise of [zero-click search](https://f9xr.github.io/articles/2026/08/16/zero-click-search-google-business-profile-homepage.html) in local results.
 
 If your business isn't showing up in that top three, you're missing the single highest intent, highest converting entry point most local customers have.
 

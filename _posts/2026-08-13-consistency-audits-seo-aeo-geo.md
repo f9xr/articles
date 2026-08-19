@@ -67,7 +67,7 @@ Other research lands in the same range. Roughly 64% of small and mid sized busin
 
 The [Moz local search ranking factors](https://moz.com/local-search-ranking-factors/){:target="_blank" rel="noopener noreferrer"} research has treated citation consistency as a core local signal for years. Whitespark's 2026 Local Search Ranking Factors survey, which pools feedback from 47 practitioners scoring 187 factors, ranks your website's NAP matching your Google Business Profile at number 15. Consistency on obscure directories sits at 123, which tells you exactly where to focus your time.
 
-One more number matters here. Citation signals carry roughly 7% to 11% of local ranking weight depending on which study you read. That sounds small until you realize it's a hygiene layer. Inconsistency doesn't need to rank high to hurt you. It quietly caps how much your profile, reviews, and on page work can lift you. As one 2026 analysis put it, cleaning up three existing citations beats adding thirty new ones.
+One more number matters here. Citation signals carry roughly 7% to 11% of local ranking weight depending on which study you read. That sounds small until you realize it's a hygiene layer. Inconsistency doesn't need to rank high to hurt you. It quietly caps how much your profile, reviews, and on page work can lift you. As one 2026 analysis put it, cleaning up three existing citations beats adding thirty new ones. For the broader link building picture, our [guide to backlink methods for 2026](https://f9xr.github.io/articles/2026/08/07/get-backlinks-2026-free-paid-ai-methods.html){:target="_blank" rel="noopener noreferrer"} covers how citations and backlinks work together to build authority.
 
 ### What the AI search data says?
 
@@ -145,7 +145,7 @@ Twice a year is a reasonable baseline for most businesses. That cadence catches 
 
 Audit immediately after any change to your identity. A move, a rebrand, a new phone number, a new website URL. Those events are when mismatches multiply, because old details stay live on directories and aggregators for months. The Backlynk study found old addresses still live six months or more after a move on 19% of businesses that had relocated.
 
-If you're not sure you've covered everything, a professional audit is cheap compared with the alternative. Teams like F9XR run these as part of their [Google Business Profile optimization](https://f9xr.github.io/services/google-business-optimization.html){:target="_blank" rel="noopener noreferrer"} work, and they tend to find things owners miss, because they've seen where the data hides.
+If you're not sure you've covered everything, a professional audit is cheap compared with the alternative. Teams like F9XR run these as part of their [Google Business Profile optimization](https://f9xr.github.io/services/google-business-optimization.html){:target="_blank" rel="noopener noreferrer"} work, and they tend to find things owners miss, because they've seen where the data hides. The [F9XR SEO Codebase Auditor](https://f9xr.github.io/articles/2026/07/31/f9xr-seo-codebase-auditor-skill-guide.html){:target="_blank" rel="noopener noreferrer"} can also flag schema mismatches programmatically across your site.
 
 ## Key Takeaways
 

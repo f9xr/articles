@@ -55,7 +55,7 @@ An analysis of over 267,000 AI citation mentions across local campaigns found th
 
 ### Step 2: Cross Referencing for Consistency and Credibility
 
-Once an AI system has gathered mentions of your business across multiple sources, it evaluates the consistency, credibility, and completeness of those signals before generating a recommendation. This is where [information consistency](https://f9xr.github.io/articles/2026/08/13/consistency-audits-seo-aeo-geo.html){:target="_blank" rel="noopener noreferrer"} becomes a direct AI visibility factor, not just a general trust nicety. Conflicting business hours, mismatched service descriptions, or outdated pricing across different sources actively undermine an AI's confidence in recommending you at all.
+Once an AI system has gathered mentions of your business across multiple sources, it evaluates the consistency, credibility, and completeness of those signals before generating a recommendation, a process closely tied to your overall [website trust score](https://f9xr.github.io/articles/2026/08/15/how-to-increase-website-trust-score.html). This is where [information consistency](https://f9xr.github.io/articles/2026/08/13/consistency-audits-seo-aeo-geo.html){:target="_blank" rel="noopener noreferrer"} becomes a direct AI visibility factor, not just a general trust nicety. Conflicting business hours, mismatched service descriptions, or outdated pricing across different sources actively undermine an AI's confidence in recommending you at all.
 
 ### Step 3: Model Specific Weighting
 
@@ -81,7 +81,7 @@ Given how differently these systems evaluate local businesses, chasing Google Ma
 
 ### Build a Real Citation Footprint Beyond Google
 
-Since AI engines pull heavily from directories, review platforms, and forums, presence on Yelp, the Better Business Bureau, Foursquare, and relevant niche or industry specific directories directly feeds [AI visibility](https://f9xr.github.io/articles/2026/08/14/steps-make-business-site-visible-to-ai.html){:target="_blank" rel="noopener noreferrer"} in a way that [Google Business Profile optimization](https://f9xr.github.io/articles/2026/08/16/rank-number-1-google-maps-2026.html){:target="_blank" rel="noopener noreferrer"} alone doesn't fully cover.
+Since AI engines pull heavily from directories, review platforms, and forums, presence on platforms like [free business directories](https://f9xr.github.io/articles/2026/07/29/free-business-directories-guide.html), Yelp, the Better Business Bureau, Foursquare, and relevant niche or industry specific directories directly feeds [AI visibility](https://f9xr.github.io/articles/2026/08/14/steps-make-business-site-visible-to-ai.html){:target="_blank" rel="noopener noreferrer"} in a way that [Google Business Profile optimization](https://f9xr.github.io/articles/2026/08/16/rank-number-1-google-maps-2026.html){:target="_blank" rel="noopener noreferrer"} alone doesn't fully cover.
 
 ### Prioritize Rating Quality Over Rating Volume
 

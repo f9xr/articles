@@ -104,7 +104,7 @@ The signals group into five buckets: technical security, content quality (E-E-A-
 
 HTTPS encrypts the connection between the visitor and your server. [Let's Encrypt](https://letsencrypt.org){:target="_blank" rel="noopener noreferrer"} provides free certificates, and most hosts install them with one click. Without it, Chrome flags your pages as "Not Secure," a message that kills trust faster than any design choice.
 
-The less obvious part is mixed content. If your page loads over HTTPS but pulls images, scripts, or fonts from an HTTP URL, browsers block or warn on those resources. Audit every hardcoded `http://` link and update it to `https://` or protocol-relative URLs.
+The less obvious part is mixed content. If your page loads over HTTPS but pulls images, scripts, or fonts from an HTTP URL, browsers block or warn on those resources. Our [image SEO audit guide](https://f9xr.github.io/articles/2026/08/14/image-seo-audit-complete-guide.html){:target="_blank" rel="noopener noreferrer"} walks through finding and fixing these issues on image-heavy pages specifically. Audit every hardcoded `http://` link and update it to `https://` or protocol-relative URLs.
 
 **Practical tip:** After switching to HTTPS, test with a browser in incognito mode and check that the padlock shows on every page, including blog posts and contact forms.
 
@@ -126,7 +126,7 @@ A down or infected site isn't just a trust problem, it is a signal that the busi
 
 ### 4. Make authorship and expertise visible
 
-Google's [Search Quality Rater Guidelines](https://static.googleusercontent.com/media/www.google.com/en//insidesearch/howsearchworks/assets/searchqualityevaluatorguidelines.pdf){:target="_blank" rel="noopener noreferrer"} evaluate pages on Experience, Expertise, Authoritativeness, and Trustworthiness, E-E-A-T. The framework matters for all content, and it becomes critical for what Google calls [YMYL pages](https://developers.google.com/search/docs/fundamentals/creating-helpful-content){:target="_blank" rel="noopener noreferrer"}, money or your life topics like health, finance, and legal advice.
+Google's [Search Quality Rater Guidelines](https://static.googleusercontent.com/media/www.google.com/en//insidesearch/howsearchworks/assets/searchqualityevaluatorguidelines.pdf){:target="_blank" rel="noopener noreferrer"} evaluate pages on Experience, Expertise, Authoritativeness, and Trustworthiness, E-E-A-T. Our [one-page E-E-A-T checklist](https://f9xr.github.io/articles/2026/08/04/google-e-e-a-t-checklist-every-seo-should-bookmark.html){:target="_blank" rel="noopener noreferrer"} breaks the framework down into a quick pre-publish review. The framework matters for all content, and it becomes critical for what Google calls [YMYL pages](https://developers.google.com/search/docs/fundamentals/creating-helpful-content){:target="_blank" rel="noopener noreferrer"}, money or your life topics like health, finance, and legal advice.
 
 For a business site, that means named authors with real bios, not "the team." An About page that explains who runs the business and what qualifies them. And contact details a human can verify. Anonymous content is the fastest way to score low on trust.
 

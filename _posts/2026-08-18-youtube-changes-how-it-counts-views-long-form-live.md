@@ -107,7 +107,7 @@ Essentially, YouTube is now giving everyone two separate numbers instead of one.
 
 ### The Case For the Change
 
-Bringing every format under one consistent counting system does genuinely solve a real problem. Comparing a long-form video's performance to a Short's performance used to require understanding two different measurement systems. Now it's the same yardstick everywhere. It also brings YouTube in line with how TikTok and Instagram already count views, first frame, no minimum watch time, which makes cross-platform comparison simpler for marketers running campaigns across multiple platforms.
+Bringing every format under one consistent counting system does genuinely solve a real problem. Comparing a long-form video's performance to a Short's performance used to require understanding two different measurement systems. Now it's the same yardstick everywhere. It also brings YouTube in line with how [TikTok and Instagram already count views](https://f9xr.github.io/articles/2026/08/14/tiktok-instagram-search-optimization-guide.html), first frame, no minimum watch time, which makes cross-platform comparison simpler for marketers running campaigns across multiple platforms. If you're building a [search everywhere optimization](https://f9xr.github.io/articles/2026/08/14/search-everywhere-optimization-youtube-google-seo.html) strategy, this alignment makes reporting across YouTube, TikTok, and Instagram far more straightforward.
 
 ### The Case for Skepticism
 

@@ -75,7 +75,7 @@ Google's own framing treats trust as the center of gravity. Expertise, experienc
 
 ## Why E-E-A-T Matters More in 2026, Not Less
 
-The framework is nearly a decade old, but its weight has grown as AI-generated and AI-paraphrased content has flooded search results. Recent search-industry analysis found that sites publishing original data gained visibility after the March 2026 Google core update, while AI-paraphrased content lost the large majority of its traffic in the same period. That gap didn't exist when most competing content was human-written by default. The signal that used to separate good SEO from bad SEO is now the signal that separates real expertise from content laundering.
+The framework is nearly a decade old, but its weight has grown as AI-generated and AI-paraphrased content has flooded search results. Recent search-industry analysis found that sites publishing original data gained visibility after the March 2026 Google core update, while AI-paraphrased content lost the large majority of its traffic in the same period. That gap didn't exist when most competing content was human-written by default. The signal that used to separate good SEO from bad SEO is now the signal that separates real expertise from content laundering. For a deeper look at building those trust signals across your entire site, see our [website trust score guide](https://f9xr.github.io/articles/2026/08/15/how-to-increase-website-trust-score.html){:target="_blank" rel="noopener noreferrer"}.
 
 One thing to be precise about: Google doesn't publish an E-E-A-T score. It's a rater framework used to train and evaluate the systems, and no single number ever comes out of it. But the underlying signals it describes, author reputation, factual accuracy, content depth, external validation, correlate strongly enough with both rankings and [AI Overview citations](https://developers.google.com/search/docs/fundamentals/search-quality){:target="_blank" rel="noopener noreferrer"} that you can't treat it as optional anymore.
 
@@ -99,7 +99,7 @@ If you can only ask one question per pillar, ask these:
 
 If any answer is no or not sure, that's the pillar to fix before the page goes live, not after it fails to rank.
 
-Local businesses have a head start on some of these signals when they build citations and profiles correctly. Our [guide to free business directories](https://f9xr.github.io/articles/2026/07/29/free-business-directories-guide.html) shows how consistent listings feed the authority and trust side of the checklist, and the [F9XR Team introduction](https://f9xr.github.io/articles/2026/07/27/engineering-digital-growth-introduction-to-f9xr-team.html) walks through a full digital presence approach that bakes these trust signals into the build.
+Local businesses have a head start on some of these signals when they build citations and profiles correctly. Our [information consistency audit guide](https://f9xr.github.io/articles/2026/08/13/consistency-audits-seo-aeo-geo.html){:target="_blank" rel="noopener noreferrer"} explains why NAP consistency feeds the trustworthiness pillar, and our [guide to free business directories](https://f9xr.github.io/articles/2026/07/29/free-business-directories-guide.html) shows how consistent listings feed the authority and trust side of the checklist, and the [F9XR Team introduction](https://f9xr.github.io/articles/2026/07/27/engineering-digital-growth-introduction-to-f9xr-team.html) walks through a full digital presence approach that bakes these trust signals into the build.
 
 ## Key Takeaways
 

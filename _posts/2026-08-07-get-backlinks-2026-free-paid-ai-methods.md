@@ -93,7 +93,7 @@ A donation to a relevant nonprofit in exchange for a mention on their donor or s
 
 ### 5. Directory and Citation Listings
 
-Boring, but foundational, especially for local businesses. Getting listed on relevant, reputable directories builds trust signals and consistent NAP (name, address, phone) data that both Google and AI tools use to verify your business is real. Our [guide to free business directories](https://f9xr.github.io/articles/2026/07/29/free-business-directories-guide.html) covers which platforms to prioritize and how to keep your listings consistent.
+Boring, but foundational, especially for local businesses. Getting listed on relevant, reputable directories builds trust signals and consistent NAP (name, address, phone) data that both Google and AI tools use to verify your business is real. Our [guide to information consistency audits](https://f9xr.github.io/articles/2026/08/13/consistency-audits-seo-aeo-geo.html){:target="_blank" rel="noopener noreferrer"} covers why NAP consistency matters and how to audit it. Our [guide to free business directories](https://f9xr.github.io/articles/2026/07/29/free-business-directories-guide.html) covers which platforms to prioritize and how to keep your listings consistent.
 
 **How to use AI here:** Have AI compile a list of relevant directories for your industry and location (general ones like your local [chamber of commerce](https://www.chamberofcommerce.com/){:target="_blank" rel="noopener noreferrer"}, plus niche specific directories), flag which are free versus paid, and write consistent listing copy so your business details match everywhere.
 
@@ -159,7 +159,7 @@ Not every link building method that shows up in a search result is worth using. 
 
 ## Practical Tips for a Legitimate 2026 Backlink Strategy
 
-1. **Start with your best content.** Before pursuing any links, make sure you have at least one or two useful, well built pages worth linking to. No outreach strategy fixes thin content, and the [E-E-A-T checklist](https://f9xr.github.io/articles/2026/08/04/google-e-e-a-t-checklist-every-seo-should-bookmark.html) is a solid way to check your pages before you pitch them.
+1. **Start with your best content.** Before pursuing any links, make sure you have at least one or two useful, well built pages worth linking to. No outreach strategy fixes thin content, and the [E-E-A-T checklist](https://f9xr.github.io/articles/2026/08/04/google-e-e-a-t-checklist-every-seo-should-bookmark.html) is a solid way to check your pages before you pitch them. Also verify your technical foundation is solid — our [essential txt files guide](https://f9xr.github.io/articles/2026/08/08/essential-txt-files-seo-aeo-geo-2026.html){:target="_blank" rel="noopener noreferrer"} covers robots.txt, sitemap.xml, and the other files crawlers need to find and index your content.
 2. **Prioritize relevance over raw authority.** A link from a smaller, topically relevant site often helps more than a link from a huge, unrelated one.
 3. **Keep outreach short and human.** Skip generic flattery like "I love your content." Editors and site owners can tell the difference between a real message and a templated one within a sentence or two.
 4. **Track what you send.** Even a simple spreadsheet of who you've contacted, when, and the response keeps your outreach organized and prevents duplicate emails.

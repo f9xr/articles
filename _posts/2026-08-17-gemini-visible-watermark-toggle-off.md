@@ -125,7 +125,7 @@ Like most platform changes, the honest answer depends on how you plan to use it.
 
 ### The Upside
 
-* **Cleaner, more professional output.** For business owners using Gemini to create marketing graphics, blog images, product mockups, or presentation visuals, removing the watermark means content that looks finished and polished without extra editing steps.
+* **Cleaner, more professional output.** For business owners using Gemini to create marketing graphics, blog images, product mockups, or presentation visuals, removing the watermark means content that looks finished and polished without extra editing steps. For anyone optimizing AI-generated visuals for search, a complete [image SEO audit](https://f9xr.github.io/articles/2026/08/14/image-seo-audit-complete-guide.html) ensures those visuals also perform well in search results.
 * **Faster workflows.** No more cropping out corner logos or running images through separate watermark removal tools before publishing.
 * **Better client-facing deliverables.** Agencies and freelancers using Gemini for client work can now deliver assets that do not visibly announce their AI origin, which matters for professional presentation.
 
@@ -171,7 +171,7 @@ For the strongest, most trustworthy brand presence, mix AI-generated visuals wit
 
 If you are a local business or a lean startup team using Gemini to speed up content creation on a tight budget, this update is mostly a practical win. Product mockups, social graphics, seasonal promotional content, and quick marketing visuals will now look more polished straight out of the tool, without extra editing steps.
 
-That said, local businesses in particular tend to rely heavily on trust and authenticity, real photos of your storefront, your team, your actual product. AI-generated visuals are useful for supplementary content, promotional graphics, and creative concepts, but they should not fully replace original brand imagery, especially on your Google Business Profile and core website pages, where authenticity tends to perform better with both customers and local search algorithms.
+That said, local businesses in particular tend to rely heavily on trust and authenticity, real photos of your storefront, your team, your actual product. AI-generated visuals are useful for supplementary content, promotional graphics, and creative concepts, but they should not fully replace original brand imagery, especially on your Google Business Profile and core website pages, where authenticity tends to perform better with both customers and local search algorithms. For a full breakdown of building visibility across both traditional search and AI tools, see our [steps to make your business site visible to AI](https://f9xr.github.io/articles/2026/08/14/steps-make-business-site-visible-to-ai.html).
 
 ---
 

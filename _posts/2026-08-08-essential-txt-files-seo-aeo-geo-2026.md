@@ -122,7 +122,7 @@ A simple, informal file that credits the people behind your website: developers,
 
 Most sites use sitemap.xml, but a plain sitemap.txt, just a list of URLs one per line, is a valid, lightweight alternative that some crawlers and smaller AI tools parse more easily.
 
-**Why it matters:** a sitemap is how you hand search engines and AI crawlers a complete, organized map of every page you want indexed, instead of hoping they find everything through internal links alone. For local businesses, including your key location pages alongside [business directory citations](https://f9xr.github.io/articles/2026/07/29/free-business-directories-guide.html) keeps your listings consistent across the web.
+**Why it matters:** a sitemap is how you hand search engines and AI crawlers a complete, organized map of every page you want indexed, instead of hoping they find everything through internal links alone. For local businesses, including your key location pages alongside [business directory citations](https://f9xr.github.io/articles/2026/07/29/free-business-directories-guide.html) keeps your listings consistent across the web, a core part of [consistency audits](https://f9xr.github.io/articles/2026/08/13/consistency-audits-seo-aeo-geo.html){:target="_blank" rel="noopener noreferrer"} that affect both SEO and AI visibility.
 
 **See it live:** [f9xr.github.io/sitemap.xml](https://f9xr.github.io/sitemap.xml){:target="_blank" rel="noopener noreferrer"} is generated from the same source that produces F9XR's pages, so new pages appear automatically.
 
@@ -162,7 +162,7 @@ Before adding anything new, check what already exists. Visit yoursite.com/robots
 
 ### Step 3: Keep them updated
 
-These files aren't set and forget. A sitemap needs to reflect new and removed pages. An llms.txt file should be updated whenever your core offerings or key pages change. A stale file can actively mislead crawlers and AI models, which is arguably worse than not having one at all.
+These files aren't set and forget. A sitemap needs to reflect new and removed pages. An llms.txt file should be updated whenever your core offerings or key pages change. A stale file can actively mislead crawlers and AI models, which is arguably worse than not having one at all. The same principle applies to [building backlinks](https://f9xr.github.io/articles/2026/08/07/get-backlinks-2026-free-paid-ai-methods.html){:target="_blank" rel="noopener noreferrer"}, where outdated or inconsistent signals across the web erode the authority these files are meant to establish.
 
 ### Step 4: Validate before you publish
 

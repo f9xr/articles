@@ -74,7 +74,7 @@ The same audit we ran for this article was generated end to end with the F9XR [S
 
 ### 3. Fix Alt Text and Titles
 
-*What to do:* Review every alt attribute. It should be a concise, accurate description of the image in a natural sentence. Keep it under about 125 characters, which is the practical recommendation from the [WCAG accessibility guidelines](https://www.w3.org/WAI/standards-guidelines/wcag/){:target="_blank" rel="noopener noreferrer"}.
+*What to do:* Review every alt attribute. It should be a concise, accurate description of the image in a natural sentence. Keep it under about 125 characters, which is the practical recommendation from the [WCAG accessibility guidelines](https://www.w3.org/WAI/standards-guidelines/wcag/){:target="_blank" rel="noopener noreferrer"}. This is also a trust signal — our [E-E-A-T checklist](https://f9xr.github.io/articles/2026/08/04/google-e-e-a-t-checklist-every-seo-should-bookmark.html){:target="_blank" rel="noopener noreferrer"} covers the trustworthiness pillar that accurate, descriptive content supports.
 
 *What to fix:* Missing alt text, keyword stuffed alt text, and alt text that describes nothing or duplicates the title attribute.
 
@@ -98,7 +98,7 @@ The same audit we ran for this article was generated end to end with the F9XR [S
 
 ### 6. Audit for Broken or Missing Images
 
-*What to do:* Look for images that return 404, redirect, or fail to load. A broken image is a visible trust problem and a wasted crawl slot.
+*What to do:* Look for images that return 404, redirect, or fail to load. A broken image is a visible trust problem — it directly lowers your [website trust score](https://f9xr.github.io/articles/2026/08/15/how-to-increase-website-trust-score.html){:target="_blank" rel="noopener noreferrer"} — and a wasted crawl slot.
 
 *What to fix:* Dead CDN links, wrong relative paths, moved files, and case sensitivity mismatches.
 

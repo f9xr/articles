@@ -41,12 +41,12 @@ This article introduces who we are, what we engineer, and the technical philosop
 
 ### The Problem We Solve
 
-Most businesses lose customers before they even know they exist. A slow website, an unoptimized Google Business Profile, and a fragmented digital presence create invisible revenue leaks that compound over time.
+Most businesses lose customers before they even know they exist. A slow website, an unoptimized Google Business Profile, and a fragmented digital presence create [invisible revenue leaks](https://f9xr.github.io/articles/2026/08/18/ghost-impression-keywords-guide.html){:target="_blank" rel="noopener noreferrer"} that compound over time.
 
 The engineering gap is real:
 
 - **80% bounce rates** caused by poor layout architecture and sub-second load failures
-- **Zero local search visibility** despite having a physical storefront
+- **Zero local search visibility** despite having a physical storefront, especially in [zero-click search results](https://f9xr.github.io/articles/2026/08/16/zero-click-search-google-business-profile-homepage.html){:target="_blank" rel="noopener noreferrer"} where users get answers without clicking through
 - **Disconnected systems** where the website, SEO, and customer engagement tools don't communicate
 
 F9XR Team exists to close this gap with precision-engineered solutions.
@@ -76,7 +76,7 @@ We don't build "websites" — we architect [conversion engines](https://f9xr.git
 
 #### 2. Local SEO Dominance
 
-For clinics, salons, gyms, and service-based businesses, [local search is everything](https://f9xr.github.io/services/google-business-optimization.html). We optimize **Google Business Profiles**, local citations, and review architecture to put your brand at the top of the map.
+For clinics, salons, gyms, and service-based businesses, [local search is everything](https://f9xr.github.io/services/google-business-optimization.html). We optimize **Google Business Profiles**, local citations, and review architecture to put your brand at the top of the map, especially as [AI tools increasingly decide which local businesses to recommend](https://f9xr.github.io/articles/2026/08/16/how-ai-picks-local-businesses-2026.html){:target="_blank" rel="noopener noreferrer"}.
 
 - **GMB Profile Optimization** — categories, posts, Q&A, and photo strategy
 - **Local Citation Building** — consistent NAP across directories
