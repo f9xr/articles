@@ -40,16 +40,11 @@ layout: default
 
       <!-- Audio Player -->
       {% if page.audio %}
-      <div style="margin-bottom:2em; padding:1.5em; background:linear-gradient(135deg, rgba(59,130,246,0.08) 0%, rgba(10,10,10,0.85) 100%); border:1px solid #1e2024; border-radius:14px;">
-        <p style="margin:0 0 0.8em 0; color:#f0f0f0; font-size:0.9em; font-weight:600;"><i class="fa-solid fa-headphones" style="color:#3b82f6; margin-right:0.4em;"></i> Listen to this episode</p>
-        <audio controls preload="metadata" style="width:100%; border-radius:8px; outline:none;" itemprop="associatedMedia" itemscope itemtype="https://schema.org/AudioObject">
-          <source src="{{ page.audio }}" type="{{ page.audio_type | default: 'audio/mpeg' }}">
-          Your browser does not support the audio element.
-        </audio>
-        {% if page.audio_vtt %}
-        <p style="margin:0.8em 0 0 0;"><a href="{{ page.audio_vtt }}" download style="color:#3b82f6; font-size:0.85em;"><i class="fa-solid fa-download" style="margin-right:0.3em;"></i> Download transcript (.vtt)</a></p>
-        {% endif %}
-      </div>
+      <div data-f9xr-audio
+           data-src="{{ page.audio }}"
+           data-type="{{ page.audio_type | default: 'audio/mpeg' }}"
+           data-vtt="{{ page.audio_vtt }}"
+           data-duration="{{ page.audio_duration }}"></div>
       {% endif %}
 
       <!-- YouTube Companion Video -->
@@ -114,5 +109,7 @@ layout: default
     }{% endif %}
   }
   </script>
+
+  <script defer src="{{ '/assets/js/audio-player.js' | relative_url }}"></script>
 
 </article>
