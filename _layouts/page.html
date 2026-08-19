@@ -1,6 +1,15 @@
 ---
 layout: default
 ---
+
+<nav aria-label="Breadcrumb" style="margin-bottom:1.5em;">
+  <ol style="display:flex; flex-wrap:wrap; align-items:center; gap:0.4em; list-style:none; margin:0; padding:0; font-size:0.8em;">
+    <li><a href="{{ '/' | relative_url }}" style="color:#71717a; text-decoration:none; transition:color 0.2s;" onmouseover="this.style.color='#3b82f6'" onmouseout="this.style.color='#71717a'"><i class="fa-solid fa-house" style="font-size:0.85em;"></i> Home</a></li>
+    <li style="color:#30363d;"><i class="fa-solid fa-chevron-right" style="font-size:0.6em;"></i></li>
+    <li style="color:#8b8b8b;">{{ page.title | escape }}</li>
+  </ol>
+</nav>
+
 <article class="post">
   {%- unless page.title_hidden -%}
   <header class="post-header">
@@ -13,3 +22,49 @@ layout: default
     {{ content }}
   </div>
 </article>
+
+<!-- WebPage Structured Data -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "WebPage",
+  "name": "{{ page.title | escape }}",
+  "description": "{{ page.description | default: site.description | strip_html | truncatewords: 55 | escape }}",
+  "url": "{{ page.url | absolute_url }}",
+  "datePublished": "{{ page.date | default: site.time | date_to_xmlschema }}",
+  "dateModified": "{{ page.dateModified | default: page.date | default: site.time | date_to_xmlschema }}",
+  "publisher": {
+    "@type": "Organization",
+    "name": "F9XR Team",
+    "url": "https://f9xr.github.io",
+    "logo": {
+      "@type": "ImageObject",
+      "url": "https://f9xr.github.io/logo.webp",
+      "width": 200,
+      "height": 200
+    }
+  },
+  "inLanguage": "{{ site.lang }}"
+}
+</script>
+
+<!-- BreadcrumbList Structured Data -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    {
+      "@type": "ListItem",
+      "position": 1,
+      "name": "Home",
+      "item": "{{ '/' | absolute_url }}"
+    },
+    {
+      "@type": "ListItem",
+      "position": 2,
+      "name": "{{ page.title | escape }}"
+    }
+  ]
+}
+</script>

@@ -3,6 +3,7 @@ layout: page
 title: "Editorial Policy — F9XR Articles"
 description: "How F9XR Articles researches, writes, reviews, and publishes technical content on web architecture, AI integration, local SEO, and digital systems."
 keywords: "F9XR editorial policy, content standards, fact-checking, human editing, technical writing"
+dateModified: 2026-08-19
 ---
 
 F9XR Articles maintains a structured editorial process designed to produce accurate, actionable, and up-to-date technical content. This page outlines how content moves from initial research to publication, and the standards applied at each stage.

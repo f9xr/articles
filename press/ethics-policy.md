@@ -3,6 +3,7 @@ layout: page
 title: "Ethics & Fact-Checking Policy — F9XR Articles"
 description: "F9XR Articles standards for data integrity, conflict-of-interest management, technical claim verification, and ethical publishing practices."
 keywords: "F9XR ethics policy, fact-checking, data integrity, conflicts of interest, technical verification"
+dateModified: 2026-08-19
 ---
 
 F9XR Articles operates under a set of ethical publishing standards designed to ensure that every piece of content is accurate, independently verifiable, and free from undisclosed conflicts of interest. This policy applies to all content published under the F9XR Articles brand.

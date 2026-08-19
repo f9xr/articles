@@ -177,28 +177,6 @@ If you'd rather hand the audit and the fixes to a team, F9XR offers [website dev
 - Focused prompts let you audit one area, like Core Web Vitals or structured data, without a full run.
 - A codebase audit removes technical drag; pair it with content strategy and link building for the full picture.
 
-## Related Questions
-
-### What is the F9XR SEO CodeBase Auditor skill?
-
-It's a single open-source SKILL.md file you drop into any codebase root. Invoke it with @SKILL.md in an AI coding assistant, and it runs a structured SEO audit across 24 pillars, then generates a production-ready seo_audit_report.md with exact fix blocks for every finding.
-
-### How do I run an SEO audit with the skill?
-
-Download SKILL.md from the GitHub repository, place it in your project root, and run the full audit prompt: @SKILL.md Run a comprehensive full-stack SEO audit across all files in this workspace. Generate seo_audit_report.md and seo_audit_report.csv with all 24 pillars evaluated. The assistant reads your source code and writes the report.
-
-### Which AI tools work with the SEO CodeBase Auditor skill?
-
-Any assistant that supports file references. Cursor, GitHub Copilot, Claude, ChatGPT, Windsurf, Cline, and Aider all work. No plugins, extensions, or API keys are required, and it handles any programming language or framework.
-
-### What does the audit report include?
-
-Each run produces seo_audit_report.md and seo_audit_report.csv. The report contains an executive summary, a Priority Fix Matrix capped at 20 items, and granular per-pillar evaluations. Every finding lists the affected file and line, the evidence, the impact, and a copy-paste-ready fix block.
-
-### How is this different from Screaming Frog or Ahrefs?
-
-Traditional tools crawl your live URLs and check server responses. The skill reads your source code directly, before you deploy, so it catches structural issues at the code level like missing schema, broken metadata, and performance anti-patterns. It also adapts the checks to your framework and project type.
-
 ## Conclusion
 
 SEO debt builds up quietly in the code, and it compounds. A codebase audit catches it early, when a fix costs minutes instead of a full rebuild. The F9XR SEO CodeBase Auditor skill makes that audit a one-command job: free, open source, and compatible with the AI tools you already use.
@@ -215,45 +193,4 @@ Target audience: Business owners, startups, and local businesses.
 Optimized for Google Search and AI engines (ChatGPT, Gemini, Claude, Perplexity).
 -->
 
-<script type="application/ld+json">
-{
-  "@context": "https://schema.org",
-  "@type": "FAQPage",
-  "mainEntity": [{
-    "@type": "Question",
-    "name": "What is the F9XR SEO CodeBase Auditor skill?",
-    "acceptedAnswer": {
-      "@type": "Answer",
-      "text": "It's a single open-source SKILL.md file you drop into any codebase root. When you invoke it with @SKILL.md in an AI coding assistant like Cursor, GitHub Copilot, or Claude, it runs a structured SEO audit across 24 pillars and generates a production-ready seo_audit_report.md with exact fix blocks for every finding."
-    }
-  }, {
-    "@type": "Question",
-    "name": "How do I run an SEO audit with the skill?",
-    "acceptedAnswer": {
-      "@type": "Answer",
-      "text": "Download SKILL.md from the GitHub repository, place it in your project root, and run the full audit prompt. The assistant reads your source code and writes seo_audit_report.md and seo_audit_report.csv."
-    }
-  }, {
-    "@type": "Question",
-    "name": "Which AI tools work with the SEO CodeBase Auditor skill?",
-    "acceptedAnswer": {
-      "@type": "Answer",
-      "text": "Any AI assistant that supports file references. Cursor, GitHub Copilot, Claude, ChatGPT, Windsurf, Cline, and Aider all work. No plugins, extensions, or API keys are required, and it works with any programming language or framework."
-    }
-  }, {
-    "@type": "Question",
-    "name": "What does the audit report include?",
-    "acceptedAnswer": {
-      "@type": "Answer",
-      "text": "Each run produces seo_audit_report.md and seo_audit_report.csv. The report contains an executive summary, a Priority Fix Matrix capped at 20 items, and granular per-pillar evaluations. Every finding lists the affected file and line, the evidence, the impact, and a copy-paste-ready fix block."
-    }
-  }, {
-    "@type": "Question",
-    "name": "How is this different from Screaming Frog or Ahrefs?",
-    "acceptedAnswer": {
-      "@type": "Answer",
-      "text": "Traditional tools crawl your live URLs and check server responses. The skill reads your source code directly, before you deploy, so it catches structural issues at the code level like missing schema, broken metadata, and performance anti-patterns. It also adapts the checks to your framework and project type."
-    }
-  }]
-}
-</script>
+

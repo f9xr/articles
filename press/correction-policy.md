@@ -3,6 +3,7 @@ layout: page
 title: "Correction Policy — F9XR Articles"
 description: "The process F9XR Articles follows to identify, report, and resolve technical errors, outdated information, and factual inaccuracies."
 keywords: "F9XR correction policy, error reporting, content updates, accuracy, technical corrections"
+dateModified: 2026-08-19
 ---
 
 F9XR Articles is committed to publishing accurate, current, and actionable technical content. When errors are identified — whether by readers, team members, or automated monitoring — a structured correction process ensures they are resolved transparently and promptly.

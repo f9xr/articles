@@ -3,6 +3,7 @@ layout: page
 title: "Ownership, Funding, & Transparency — F9XR Articles"
 description: "Organizational ownership, funding model, sponsorship disclosures, and transparency practices for F9XR Articles."
 keywords: "F9XR ownership, funding transparency, sponsorship disclosure, F9XR Team, organizational structure"
+dateModified: 2026-08-19
 ---
 
 F9XR Articles is published by the F9XR Team. This page discloses the organizational structure, funding model, and any commercial relationships that may be relevant to readers evaluating the content published on this platform.

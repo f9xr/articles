@@ -197,28 +197,6 @@ If you're not sure how to adjust your YouTube reporting or content strategy arou
 
 ---
 
-## Frequently Asked Questions
-
-### When does YouTube's new view counting system take effect?
-The change takes effect on August 24, 2026, applying to long-form videos, live streams, podcasts, and Shorts.
-
-### Will my YouTube earnings change because of this update?
-No. Earnings continue to be based on engaged Shorts views and engaged watch hours, separate metrics from the new public view count. This update does not affect monetization or Partner Program eligibility.
-
-### Does this mean my old videos will get more views retroactively?
-No. Existing videos keep their current public view totals. Only new views received after August 24, 2026 will be counted using the new first-frame system.
-
-### Why is YouTube making this change?
-YouTube says it wants to standardize how views are counted across all video formats, eliminating the previous inconsistency between long-form video, live streams, and Shorts, and helping creators better demonstrate their exposure to brand partners.
-
-### What is the difference between public views and engaged views?
-Public views now count from the moment a video starts playing, with no minimum watch time. Engaged views require viewers to stay past the first few seconds and reflect genuine audience attention. Engaged views and watch hours are what determine creator earnings.
-
-### Will YouTube view counts look bigger after this change?
-Yes, most likely. Since the threshold for counting a view drops significantly, public view counts are expected to increase across most videos and channels, without necessarily reflecting better actual performance.
-
----
-
 ## Conclusion
 
 YouTube's move to count views from the first frame across every format is a genuine simplification, but it comes with a catch business owners shouldn't ignore: bigger numbers don't automatically mean better marketing results. The metrics that actually matter for judging real audience engagement, and the ones that determine creator earnings, haven't changed at all. Engaged views and watch hours are still the numbers worth watching closely.
@@ -227,62 +205,7 @@ The smartest move is treating this update as a reason to double down on content 
 
 ---
 
-<script type="application/ld+json">
-{
-  "@context": "https://schema.org",
-  "@type": "FAQPage",
-  "mainEntity": [
-    {
-      "@type": "Question",
-      "name": "When does YouTube's new view counting system take effect?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "The change takes effect on August 24, 2026, applying to long-form videos, live streams, podcasts, and Shorts."
-      }
-    },
-    {
-      "@type": "Question",
-      "name": "Will my YouTube earnings change because of this update?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "No. Earnings continue to be based on engaged Shorts views and engaged watch hours, separate metrics from the new public view count. This update does not affect monetization or Partner Program eligibility."
-      }
-    },
-    {
-      "@type": "Question",
-      "name": "Does this mean my old videos will get more views retroactively?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "No. Existing videos keep their current public view totals. Only new views received after August 24, 2026 will be counted using the new first-frame system."
-      }
-    },
-    {
-      "@type": "Question",
-      "name": "Why is YouTube making this change?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "YouTube says it wants to standardize how views are counted across all video formats, eliminating the previous inconsistency between long-form video, live streams, and Shorts, and helping creators better demonstrate their exposure to brand partners."
-      }
-    },
-    {
-      "@type": "Question",
-      "name": "What is the difference between public views and engaged views?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "Public views now count from the moment a video starts playing, with no minimum watch time. Engaged views require viewers to stay past the first few seconds and reflect genuine audience attention. Engaged views and watch hours are what determine creator earnings."
-      }
-    },
-    {
-      "@type": "Question",
-      "name": "Will YouTube view counts look bigger after this change?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "Yes, most likely. Since the threshold for counting a view drops significantly, public view counts are expected to increase across most videos and channels, without necessarily reflecting better actual performance."
-      }
-    }
-  ]
-}
-</script>
+
 
 <!--
 This article was written following the F9XR Blog Publisher content brief:

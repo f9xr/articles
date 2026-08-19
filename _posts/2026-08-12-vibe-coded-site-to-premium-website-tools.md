@@ -155,28 +155,6 @@ That's the layer F9XR Team focuses on for business owners and startups: taking a
 - Spline, Rive, and LottieFiles let you add custom visuals and interactivity without hiring a dedicated animator or 3D artist.
 - Haikei and blob or mesh gradient generators solve the repetitive background problem, and using any of these tools well comes down to restraint, consistent motion styles, and mobile testing.
 
-## FAQ
-
-### Why do vibe coded websites often look generic or "AI slop"?
-
-Vibe coded sites often rely on default component styling, minimal or missing motion, and repetitive stock backgrounds, since AI coding tools tend to generate functional but visually generic layouts unless specifically directed otherwise.
-
-### What is the fastest way to make an AI built website look more premium?
-
-Start with the hero section and primary call to action, since these are the areas visitors judge first. Adding real motion through a library like Motion Primitives and replacing generic backgrounds with a custom generator like Haikei typically produces the most noticeable improvement for the least effort.
-
-### Are these premium website tools actually free to use?
-
-Yes, all the tools listed, including Aceternity UI, Magic UI, shadcn/ui, ReactBits, Motion Primitives, Hover.dev, Spline, Rive, LottieFiles, and background generators like Haikei, offer free tiers or fully free, open source usage suitable for most small business and startup websites.
-
-### Do I need coding experience to use these tools?
-
-Most of these tools are designed to be copy paste friendly for developers with basic React, Next.js, or Tailwind CSS familiarity. Tools like Spline and LottieFiles are more visual and require less coding knowledge, though embedding them properly still benefits from some technical support.
-
-### Can adding too many animations or effects hurt my website?
-
-Yes. Overusing motion, 3D elements, or custom visuals can slow down load times, hurt accessibility, and make a site feel cluttered rather than premium. It's best to pick one or two consistent styles and apply them deliberately rather than combining every available effect.
-
 ## Conclusion
 
 The line between a vibe coded site and a premium one usually comes down to a handful of deliberate choices, real motion instead of static content, custom visuals instead of stock defaults, and components that feel considered rather than generic. The 11 tools above make closing that gap far more accessible than it used to be, even for a solo founder working with an AI coding assistant.
@@ -191,51 +169,4 @@ Target audience: Business owners, startups, and local businesses.
 Optimized for Google Search and AI engines (ChatGPT, Gemini, Claude, Perplexity).
 -->
 
-<script type="application/ld+json">
-{
-  "@context": "https://schema.org",
-  "@type": "FAQPage",
-  "mainEntity": [
-    {
-      "@type": "Question",
-      "name": "Why do vibe coded websites often look generic or \"AI slop\"?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "Vibe coded sites often rely on default component styling, minimal or missing motion, and repetitive stock backgrounds, since AI coding tools tend to generate functional but visually generic layouts unless specifically directed otherwise."
-      }
-    },
-    {
-      "@type": "Question",
-      "name": "What is the fastest way to make an AI built website look more premium?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "Start with the hero section and primary call to action, since these are the areas visitors judge first. Adding real motion through a library like Motion Primitives and replacing generic backgrounds with a custom generator like Haikei typically produces the most noticeable improvement for the least effort."
-      }
-    },
-    {
-      "@type": "Question",
-      "name": "Are these premium website tools actually free to use?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "Yes, all the tools listed, including Aceternity UI, Magic UI, shadcn/ui, ReactBits, Motion Primitives, Hover.dev, Spline, Rive, LottieFiles, and background generators like Haikei, offer free tiers or fully free, open source usage suitable for most small business and startup websites."
-      }
-    },
-    {
-      "@type": "Question",
-      "name": "Do I need coding experience to use these tools?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "Most of these tools are designed to be copy paste friendly for developers with basic React, Next.js, or Tailwind CSS familiarity. Tools like Spline and LottieFiles are more visual and require less coding knowledge, though embedding them properly still benefits from some technical support."
-      }
-    },
-    {
-      "@type": "Question",
-      "name": "Can adding too many animations or effects hurt my website?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "Yes. Overusing motion, 3D elements, or custom visuals can slow down load times, hurt accessibility, and make a site feel cluttered rather than premium. It's best to pick one or two consistent styles and apply them deliberately rather than combining every available effect."
-      }
-    }
-  ]
-}
-</script>
+
