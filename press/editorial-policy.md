@@ -18,7 +18,7 @@ Every article published on F9XR Articles follows a four-stage pipeline:
 
 3. **Technical Review** — Every code block, configuration example, and technical recommendation is tested in a live environment before publication. Outdated libraries, deprecated APIs, and unverified claims are flagged and resolved prior to publishing.
 
-4. **Editorial Review** — Content is reviewed for clarity, accuracy, adherence to style guidelines, and compliance with the standards outlined in the [F9XR Ethics & Fact-Checking Policy]({{ '/press/ethics-policy/' | relative_url }}). Only after passing both technical and editorial review is content published.
+4. **Editorial Review** — Content is reviewed for clarity, accuracy, adherence to style guidelines, and compliance with the standards outlined in the [F9XR Ethics & Fact-Checking Policy]({{ '/press/ethics-policy.html' | relative_url }}). Only after passing both technical and editorial review is content published.
 
 ## Human Editing vs AI-Assisted Content
 
@@ -52,7 +52,7 @@ Published articles are not static. F9XR Articles applies the following review sc
 
 - **Annual review.** All remaining articles are reviewed annually to confirm that code examples still execute, links still resolve, and recommendations remain current.
 
-- **Community-reported issues.** Corrections reported by readers are acknowledged within 48 hours and resolved within 7 business days. The full process is documented in the [F9XR Correction Policy]({{ '/press/correction-policy/' | relative_url }}).
+- **Community-reported issues.** Corrections reported by readers are acknowledged within 48 hours and resolved within 7 business days. The full process is documented in the [F9XR Correction Policy]({{ '/press/correction-policy.html' | relative_url }}).
 
 ## Author Credentials
 
@@ -62,6 +62,6 @@ Guest contributions are accepted only when the contributor can demonstrate verif
 
 ## Related Policies
 
-- [Correction Policy]({{ '/press/correction-policy/' | relative_url }}) — How errors are identified, reported, and resolved.
-- [Ethics & Fact-Checking Policy]({{ '/press/ethics-policy/' | relative_url }}) — Standards for data integrity and conflict-of-interest management.
-- [Ownership, Funding, & Transparency]({{ '/press/transparency/' | relative_url }}) — Organizational structure, funding model, and disclosure practices.
+- [Correction Policy]({{ '/press/correction-policy.html' | relative_url }}) — How errors are identified, reported, and resolved.
+- [Ethics & Fact-Checking Policy]({{ '/press/ethics-policy.html' | relative_url }}) — Standards for data integrity and conflict-of-interest management.
+- [Ownership, Funding, & Transparency]({{ '/press/transparency.html' | relative_url }}) — Organizational structure, funding model, and disclosure practices.

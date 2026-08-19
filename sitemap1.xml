@@ -18,22 +18,22 @@
 
   <!-- Press / Trust Pages -->
   <url>
-    <loc>https://f9xr.github.io/articles/press/editorial-policy/</loc>
+    <loc>https://f9xr.github.io/articles/press/editorial-policy.html</loc>
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
   </url>
   <url>
-    <loc>https://f9xr.github.io/articles/press/correction-policy/</loc>
+    <loc>https://f9xr.github.io/articles/press/correction-policy.html</loc>
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
   </url>
   <url>
-    <loc>https://f9xr.github.io/articles/press/ethics-policy/</loc>
+    <loc>https://f9xr.github.io/articles/press/ethics-policy.html</loc>
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
   </url>
   <url>
-    <loc>https://f9xr.github.io/articles/press/transparency/</loc>
+    <loc>https://f9xr.github.io/articles/press/transparency.html</loc>
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
   </url>

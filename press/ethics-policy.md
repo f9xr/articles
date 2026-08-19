@@ -23,7 +23,7 @@ F9XR Articles applies the following standards to all data, claims, and assertion
 - **Dependencies are pinned.** Code examples that depend on external libraries specify minimum compatible versions to prevent breakage from upstream changes.
 
 ### Correction of Errors
-When inaccuracies are identified — whether by readers, team members, or automated monitoring — they are resolved through the process described in the [F9XR Correction Policy]({{ '/press/correction-policy/' | relative_url }}).
+When inaccuracies are identified — whether by readers, team members, or automated monitoring — they are resolved through the process described in the [F9XR Correction Policy]({{ '/press/correction-policy.html' | relative_url }}).
 
 ## Conflict of Interest Management
 
@@ -74,12 +74,12 @@ F9XR Articles maintains editorial independence from external influences:
 
 F9XR Articles holds itself accountable to the standards described in this policy through:
 
-- **Transparent ownership.** The organizational structure and funding model are publicly documented in the [Ownership, Funding, & Transparency]({{ '/press/transparency/' | relative_url }}) page.
-- **Open corrections.** The correction process is public and documented in the [F9XR Correction Policy]({{ '/press/correction-policy/' | relative_url }}).
+- **Transparent ownership.** The organizational structure and funding model are publicly documented in the [Ownership, Funding, & Transparency]({{ '/press/transparency.html' | relative_url }}) page.
+- **Open corrections.** The correction process is public and documented in the [F9XR Correction Policy]({{ '/press/correction-policy.html' | relative_url }}).
 - **Open source.** The source code for this publication is publicly available at [github.com/f9xr/articles](https://github.com/f9xr/articles), enabling independent review of publishing practices.
 
 ## Related Policies
 
-- [Editorial Policy]({{ '/press/editorial-policy/' | relative_url }}) — How content is researched, written, and reviewed.
-- [Correction Policy]({{ '/press/correction-policy/' | relative_url }}) — How errors are identified, reported, and resolved.
-- [Ownership, Funding, & Transparency]({{ '/press/transparency/' | relative_url }}) — Organizational structure, funding model, and disclosure practices.
+- [Editorial Policy]({{ '/press/editorial-policy.html' | relative_url }}) — How content is researched, written, and reviewed.
+- [Correction Policy]({{ '/press/correction-policy.html' | relative_url }}) — How errors are identified, reported, and resolved.
+- [Ownership, Funding, & Transparency]({{ '/press/transparency.html' | relative_url }}) — Organizational structure, funding model, and disclosure practices.

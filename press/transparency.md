@@ -29,7 +29,7 @@ F9XR Articles is funded through the following revenue sources:
 
 ### Secondary Revenue
 - **Affiliate relationships.** F9XR Articles may earn commissions from affiliate links to third-party products or services. These links are clearly labeled within the content where they appear. Affiliate relationships do not influence editorial recommendations.
-- **Sponsored content.** F9XR Articles may accept sponsored content from third parties. All sponsored content is clearly labeled as such and is subject to the same editorial review process described in the [F9XR Editorial Policy]({{ '/press/editorial-policy/' | relative_url }}).
+- **Sponsored content.** F9XR Articles may accept sponsored content from third parties. All sponsored content is clearly labeled as such and is subject to the same editorial review process described in the [F9XR Editorial Policy]({{ '/press/editorial-policy.html' | relative_url }}).
 
 ### Revenue We Do Not Accept
 - **Pay-for-placement.** F9XR Articles does not accept payment for positive reviews, favorable rankings, or inclusion in editorial content.
@@ -80,6 +80,6 @@ Questions about ownership, funding, or commercial relationships can be directed 
 
 ## Related Policies
 
-- [Editorial Policy]({{ '/press/editorial-policy/' | relative_url }}) — How content is researched, written, and reviewed.
-- [Correction Policy]({{ '/press/correction-policy/' | relative_url }}) — How errors are identified, reported, and resolved.
-- [Ethics & Fact-Checking Policy]({{ '/press/ethics-policy/' | relative_url }}) — Standards for data integrity and conflict-of-interest management.
+- [Editorial Policy]({{ '/press/editorial-policy.html' | relative_url }}) — How content is researched, written, and reviewed.
+- [Correction Policy]({{ '/press/correction-policy.html' | relative_url }}) — How errors are identified, reported, and resolved.
+- [Ethics & Fact-Checking Policy]({{ '/press/ethics-policy.html' | relative_url }}) — Standards for data integrity and conflict-of-interest management.

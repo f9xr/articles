@@ -75,10 +75,10 @@ Beyond reader-reported errors, F9XR Articles proactively monitors content for ac
 - **Automated link checking** to identify broken references.
 - **Dependency monitoring** for code examples that reference external libraries or services.
 
-Details on the content review cadence are documented in the [F9XR Editorial Policy]({{ '/press/editorial-policy/' | relative_url }}).
+Details on the content review cadence are documented in the [F9XR Editorial Policy]({{ '/press/editorial-policy.html' | relative_url }}).
 
 ## Related Policies
 
-- [Editorial Policy]({{ '/press/editorial-policy/' | relative_url }}) — How content is researched, written, and reviewed.
-- [Ethics & Fact-Checking Policy]({{ '/press/ethics-policy/' | relative_url }}) — Standards for data integrity and conflict-of-interest management.
-- [Ownership, Funding, & Transparency]({{ '/press/transparency/' | relative_url }}) — Organizational structure, funding model, and disclosure practices.
+- [Editorial Policy]({{ '/press/editorial-policy.html' | relative_url }}) — How content is researched, written, and reviewed.
+- [Ethics & Fact-Checking Policy]({{ '/press/ethics-policy.html' | relative_url }}) — Standards for data integrity and conflict-of-interest management.
+- [Ownership, Funding, & Transparency]({{ '/press/transparency.html' | relative_url }}) — Organizational structure, funding model, and disclosure practices.
