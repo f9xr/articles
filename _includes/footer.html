@@ -3,57 +3,64 @@
   <div class="wrapper">
     <div class="footer-top">
       <div class="footer-brand">
-        <a href="https://f9xr.github.io" class="footer-logo">
-          <img src="https://f9xr.github.io/logo.webp" alt="F9XR Team" width="40" height="40" loading="lazy">
+        <a href="{{ '/' | absolute_url }}" class="footer-logo">
+          <img src="{{ '/logo.webp' | absolute_url }}" alt="F9XR Team" width="40" height="40" loading="lazy">
         </a>
         <p class="footer-tagline">Engineering digital growth.</p>
         <p class="footer-sub">India to the global digital world.</p>
         <div class="footer-socials">
-          <a href="https://github.com/f9xr" title="GitHub" class="social-pill">
+          <a href="https://github.com/f9xr" target="_blank" rel="noopener noreferrer" title="GitHub" class="social-pill" aria-label="GitHub">
             <i class="fa-brands fa-github"></i>
           </a>
-          <a href="https://linkedin.com/company/f9xrteam" title="LinkedIn" class="social-pill">
+          <a href="https://linkedin.com/company/f9xrteam" target="_blank" rel="noopener noreferrer" title="LinkedIn" class="social-pill" aria-label="LinkedIn">
             <i class="fa-brands fa-linkedin-in"></i>
           </a>
-          <a href="https://instagram.com/f9xrteam" title="Instagram" class="social-pill">
+          <a href="https://instagram.com/f9xrteam" target="_blank" rel="noopener noreferrer" title="Instagram" class="social-pill" aria-label="Instagram">
             <i class="fa-brands fa-instagram"></i>
           </a>
-          <a href="https://www.threads.com/@f9xrteam" title="Threads" class="social-pill">
+          <a href="https://www.threads.com/@f9xrteam" target="_blank" rel="noopener noreferrer" title="Threads" class="social-pill" aria-label="Threads">
             <i class="fa-brands fa-threads"></i>
           </a>
-          <a href="https://www.youtube.com/@QuarterlyLIV" title="YouTube" class="social-pill">
+          <a href="https://www.youtube.com/@QuarterlyLIV" target="_blank" rel="noopener noreferrer" title="YouTube" class="social-pill" aria-label="YouTube">
             <i class="fa-brands fa-youtube"></i>
           </a>
         </div>
       </div>
       <div class="footer-links-group">
         <div class="footer-col">
-          <h2 style="font-size:1em; margin:0 0 0.8em 0; color:#e6edf3;">Navigate</h2>
-          <a href="https://f9xr.github.io"><span class="footer-dot"></span>Home</a>
-          <a href="https://f9xr.github.io/pages/about.html"><span class="footer-dot"></span>About</a>
-          <a href="https://f9xr.github.io/pages/services.html"><span class="footer-dot"></span>Services</a>
-          <a href="https://f9xr.github.io/pages/portfolio.html"><span class="footer-dot"></span>Portfolio</a>
+          <h3 style="font-size:1em; margin:0 0 0.8em 0; color:#e6edf3;">Navigate</h3>
+          <a href="{{ '/' | absolute_url }}"><span class="footer-dot"></span>Home</a>
+          <a href="{{ '/pages/about.html' | absolute_url }}"><span class="footer-dot"></span>About</a>
+          <a href="{{ '/pages/services.html' | absolute_url }}"><span class="footer-dot"></span>Services</a>
+          <a href="{{ '/pages/portfolio.html' | absolute_url }}"><span class="footer-dot"></span>Portfolio</a>
         </div>
         <div class="footer-col">
-          <h2 style="font-size:1em; margin:0 0 0.8em 0; color:#e6edf3;">Resources</h2>
-          <a href="https://f9xr.github.io/tools/index.html"><span class="footer-dot"></span>Tools</a>
-          <a href="https://f9xr.github.io/directories/index.html"><span class="footer-dot"></span>Directories</a>
-          <a href="https://growwithguidance.blogspot.com"><span class="footer-dot"></span>Blog</a>
-          <a href="https://f9xr.github.io/pages/contact.html"><span class="footer-dot"></span>Contact</a>
+          <h3 style="font-size:1em; margin:0 0 0.8em 0; color:#e6edf3;">Resources</h3>
+          <a href="{{ '/tools/index.html' | absolute_url }}"><span class="footer-dot"></span>Tools</a>
+          <a href="{{ '/directories/index.html' | absolute_url }}"><span class="footer-dot"></span>Directories</a>
+          <a href="https://growwithguidance.blogspot.com" target="_blank" rel="noopener noreferrer"><span class="footer-dot"></span>Blog</a>
+          <a href="{{ '/pages/contact.html' | absolute_url }}"><span class="footer-dot"></span>Contact</a>
         </div>
         <div class="footer-col">
-          <h2 style="font-size:1em; margin:0 0 0.8em 0; color:#e6edf3;">Company</h2>
-          <a href="https://f9xr.github.io/legals/terms.html"><span class="footer-dot"></span>Terms</a>
-          <a href="https://f9xr.github.io/legals/privacy.html"><span class="footer-dot"></span>Privacy</a>
-          <a href="https://f9xr.github.io/legals/refund.html"><span class="footer-dot"></span>Refund</a>
-          <a href="https://f9xr.github.io/pages/sitemap.html"><span class="footer-dot"></span>Sitemap</a>
+          <h3 style="font-size:1em; margin:0 0 0.8em 0; color:#e6edf3;">Company</h3>
+          <a href="{{ '/legals/terms.html' | absolute_url }}"><span class="footer-dot"></span>Terms</a>
+          <a href="{{ '/legals/privacy.html' | absolute_url }}"><span class="footer-dot"></span>Privacy</a>
+          <a href="{{ '/legals/refund.html' | absolute_url }}"><span class="footer-dot"></span>Refund</a>
+          <a href="{{ '/pages/sitemap.html' | absolute_url }}"><span class="footer-dot"></span>Sitemap</a>
+        </div>
+        <div class="footer-col">
+          <h3 style="font-size:1em; margin:0 0 0.8em 0; color:#e6edf3;">Press</h3>
+          <a href="{{ '/press/editorial-policy/' | absolute_url }}"><span class="footer-dot"></span>Editorial Policy</a>
+          <a href="{{ '/press/correction-policy/' | absolute_url }}"><span class="footer-dot"></span>Correction Policy</a>
+          <a href="{{ '/press/ethics-policy/' | absolute_url }}"><span class="footer-dot"></span>Ethics Policy</a>
+          <a href="{{ '/press/transparency/' | absolute_url }}"><span class="footer-dot"></span>Transparency</a>
         </div>
       </div>
     </div>
     <div class="footer-bottom">
       <p>&copy; {{ 'now' | date: "%Y" }} F9XR Team. All rights reserved.</p>
       <p class="footer-bottom-open-source"><i class="fa-brands fa-github"></i> This site is <a href="https://github.com/f9xr/articles" target="_blank" rel="noopener noreferrer">open source</a>.</p>
-      <p class="footer-bottom-credit">Powered by <a href="https://jekyllrb.com" target="_blank" rel="noopener noreferrer">Jekyll</a> on <a href="https://pages.github.com" target="_blank" rel="noopener noreferrer">GitHub Pages</a>. Website designed by <a href="https://f9xr.github.io" target="_blank" rel="noopener noreferrer">F9XR Team</a>.</p>
+      <p class="footer-bottom-credit">Powered by <a href="https://jekyllrb.com" target="_blank" rel="noopener noreferrer">Jekyll</a> on <a href="https://pages.github.com" target="_blank" rel="noopener noreferrer">GitHub Pages</a>. Website designed by <a href="{{ '/' | absolute_url }}" target="_blank" rel="noopener noreferrer">F9XR Team</a>.</p>
     </div>
   </div>
 </footer>

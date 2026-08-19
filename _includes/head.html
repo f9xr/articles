@@ -3,7 +3,7 @@
   <meta charset="utf-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <meta name="generator" content="Jekyll (GitHub Pages)">
+  <meta name="color-scheme" content="dark">
 
   <!-- Robots -->
   {%- if page.noindex %}
@@ -23,16 +23,6 @@
   <meta name="author" content="{{ page.author | default: site.author }}">
   <link rel="canonical" href="{{ page.url | replace:'index.html','' | absolute_url }}">
 
-  <!-- Keywords -->
-  {%- assign meta_keywords = page.keywords | default: '' -%}
-  {%- if meta_keywords == '' and page.tags -%}
-    {%- assign meta_keywords = page.tags | join: ', ' -%}
-  {%- endif -%}
-  {%- if meta_keywords == '' -%}
-    {%- assign meta_keywords = site.keywords | default: 'F9XR, web development, AI integration, local SEO, digital architecture, web performance' -%}
-  {%- endif -%}
-  <meta name="keywords" content="{{ meta_keywords | escape }}">
-
   <meta name="theme-color" content="#0a0a0a">
   <meta name="msapplication-TileColor" content="#0a0a0a">
   <meta name="language" content="{{ page.lang | default: site.lang }}">
@@ -42,13 +32,13 @@
   <meta name="referrer" content="strict-origin-when-cross-origin">
 
   <!-- Favicons -->
-  <link rel="icon" type="image/png" sizes="32x32" href="https://f9xr.github.io/assets/favicon-32x32.png">
-  <link rel="icon" type="image/png" sizes="16x16" href="https://f9xr.github.io/assets/favicon-16x16.png">
-  <link rel="apple-touch-icon" sizes="180x180" href="https://f9xr.github.io/assets/apple-touch-icon.png">
-  <link rel="manifest" href="https://f9xr.github.io/assets/site.webmanifest">
+  <link rel="icon" type="image/png" sizes="32x32" href="{{ '/assets/favicon-32x32.png' | absolute_url }}">
+  <link rel="icon" type="image/png" sizes="16x16" href="{{ '/assets/favicon-16x16.png' | absolute_url }}">
+  <link rel="apple-touch-icon" sizes="180x180" href="{{ '/assets/apple-touch-icon.png' | absolute_url }}">
+  <link rel="manifest" href="{{ '/assets/site.webmanifest' | absolute_url }}">
 
   <!-- Open Graph -->
-  {%- assign default_og_image = 'https://f9xr.github.io/assets/og-image.webp' -%}
+  {%- assign default_og_image = '/assets/og-image.webp' | absolute_url -%}
   {%- assign page_og_image = page.image | default: default_og_image -%}
   {%- assign page_og_ext = page_og_image | split: '?' | first | split: '.' | last | downcase -%}
   {%- case page_og_ext -%}
@@ -62,7 +52,7 @@
   {%- endcase -%}
   {%- if page.date -%}
     {%- assign page_og_type = 'article' -%}
-  {%- elsif page.url contains '/author' -%}
+  {%- elsif page.url contains '/authors/' -%}
     {%- assign page_og_type = 'profile' -%}
   {%- else -%}
     {%- assign page_og_type = 'website' -%}
@@ -109,7 +99,7 @@
   <meta property="article:tag" content="{{ tag | escape }}">
   {%- endfor %}
   {%- endif %}
-  {%- if page.url contains '/author' %}
+  {%- if page.url contains '/authors/' %}
   <meta property="profile:username" content="{{ site.author | escape }}">
   {%- endif %}
 
@@ -134,7 +124,7 @@
   <meta name="dc.type" content="Text">
   <meta name="dc.format" content="text/html">
   <meta name="dc.language" content="{{ site.lang }}">
-  <meta name="dc.rights" content="Copyright 2026 F9XR Team, CC BY 4.0">
+  <meta name="dc.rights" content="Copyright {{ 'now' | date: '%Y' }} F9XR Team, CC BY 4.0">
 
   <!-- Google Scholar citations (article pages) -->
   {%- if page.date %}
@@ -172,9 +162,11 @@
   <link rel="stylesheet" href="{{ "/assets/main.css" | relative_url }}">
   <link rel="stylesheet" type="text/css" href="{{ '/css/override.css' | relative_url }}">
 
-  <!-- highlight.js styles (loaded in head for FOUC prevention) -->
+  <!-- highlight.js styles (only on post pages) -->
+  {% if page.date %}
   <link rel="stylesheet" href="{{ '/js/highlightjs/styles/github-dark.css' | relative_url }}">
   <link rel="stylesheet" href="{{ '/js/highlightjs/styles/ssms.css' | relative_url }}">
+  {% endif %}
 
   {% if jekyll.environment == 'production' and site.google_analytics -%}
   <!-- Begin Google Analytics -->

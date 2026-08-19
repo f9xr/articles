@@ -16,6 +16,31 @@
   border: 0;
 }
 
+.skip-link {
+  position: absolute;
+  left: -9999px;
+  top: auto;
+  width: 1px;
+  height: 1px;
+  overflow: hidden;
+  z-index: 9999;
+  padding: 0.8em 1.2em;
+  background: #0a0a0a;
+  color: #3b82f6;
+  font-size: 1em;
+  text-decoration: none;
+  border: 1px solid #2563eb;
+  border-radius: 6px;
+}
+.skip-link:focus {
+  position: fixed;
+  left: 1em;
+  top: 1em;
+  width: auto;
+  height: auto;
+  overflow: visible;
+}
+
 /* --- Font Metric Overrides --- */
 /* Reduces CLS during web font swap by matching fallback font metrics to Inter */
 @font-face {
@@ -25,6 +50,7 @@
   ascent-override: 90%;
   descent-override: 22%;
   line-gap-override: 0%;
+  font-display: swap;
 }
 
 /* --- Reset & Base --- */
@@ -36,6 +62,17 @@ html {
   scroll-behavior: smooth;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  html {
+    scroll-behavior: auto;
+  }
+  *, *::before, *::after {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+  }
 }
 
 body {
@@ -127,7 +164,7 @@ strong {
   font-weight: 600;
 }
 em {
-  color: #8b8b8b;
+  color: #9aa3ad;
   font-style: italic;
 }
 
@@ -179,11 +216,11 @@ blockquote {
   padding: 1em 1.4em;
   margin: 1.6em 0;
   border-radius: 0 10px 10px 0;
-  color: #8b8b8b !important;
+  color: #9aa3ad !important;
   font-style: italic;
 }
 blockquote p {
-  color: #8b8b8b;
+  color: #9aa3ad;
   margin-bottom: 0.5em;
 }
 blockquote p:last-child {
@@ -1140,7 +1177,7 @@ img:hover {
   background: linear-gradient(180deg, rgba(0, 0, 0, 0) 35%, rgba(0, 0, 0, 0.35) 100%);
 }
 .post-nav-thumb-logo {
-  background-image: url('https://f9xr.github.io/logo.webp');
+  background-image: url('/articles/logo.webp');
   background-size: contain;
   background-repeat: no-repeat;
   background-position: center;
@@ -2134,11 +2171,9 @@ details summary:focus-visible {
   /* Use clip (not hidden): hidden creates a scroll container on html/body,
      which breaks position:sticky on .site-header inside */
   html, body {
-    overflow-x: hidden;
     overflow-x: clip;
   }
   body {
-    overflow-x: hidden;
     overflow-x: clip;
   }
 
@@ -2589,7 +2624,7 @@ details summary:focus-visible {
 .post-card-title {
   color: #f8f9fa;
   font-size: 1.12em;
-  font-weight: 650;
+  font-weight: 600;
   line-height: 1.35;
   margin: 0 0 0.6em 0;
   letter-spacing: -0.01em;

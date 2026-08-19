@@ -2,50 +2,50 @@
     display: block;
     overflow-x: auto;
     padding: 0.5em;
-    background: white;
-    color: #808080;
+    background: #0a0a0a;
+    color: #c9d1d9;
 }
 
 .language-tsql .hljs-keyword {
-    color: #0000ff;
+    color: #ff7b72;
     font-weight: normal;
 }
 
 .language-tsql .hljs-built_in {
-    color: #ff00ff;
+    color: #d2a8ff;
 }
 
 .language-tsql .hljs-type {
-    color: #008000;
+    color: #79c0ff;
     font-weight: normal;
 }
 
 .language-tsql .hljs-function {
-    color: #800000;
+    color: #d2a8ff;
 }
 
 .language-tsql .hljs-number {
-    color: #000000;
+    color: #79c0ff;
 }
 
 .language-tsql .hljs-string {
-    color: #ff0000;
+    color: #a5d6ff;
 }
 
 .language-tsql .hljs-symbol {
-    color: #000000;
+    color: #79c0ff;
 }
 
 .language-tsql .hljs-comment {
-    color: #008000;
+    color: #8b949e;
     font-style: normal;
 }
 
 .language-tsql .hljs-meta {
-    background: #cdcdcd;
-    color: #000000;
+    background: #161b22;
+    color: #c9d1d9;
 }
 
 .language-tsql .hljs-literal {
-    color: #808080;
+    color: #79c0ff;
 }

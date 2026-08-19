@@ -5,11 +5,11 @@
 
   <body>
 
-    <a href="#main-content" class="sr-only focus:not-sr-only" style="position:absolute; left:-9999px; top:auto; width:1px; height:1px; overflow:hidden; z-index:9999; padding:0.8em 1.2em; background:#0a0a0a; color:#3b82f6; font-size:1em; text-decoration:none; border:1px solid #2563eb; border-radius:6px;">Skip to main content</a>
+    <a href="#main-content" class="skip-link">Skip to main content</a>
 
     {%- include header.html -%}
 
-    <div id="searchSection" style="display:none; padding:1em 0;">
+    <div id="searchSection" role="search" aria-label="Site search" style="display:none; padding:1em 0;">
       <div class="wrapper">
         {% include search.html %}
       </div>
@@ -68,16 +68,36 @@
 
     {%- include footer.html -%}
 
+    <noscript>
+      <style>
+        .post-toolbar, .search-container, .back-to-top, .reading-progress { display: none !important; }
+        .post-content { font-size: 100% !important; }
+      </style>
+    </noscript>
+
     <!-- highlight.js (deferred to avoid render-blocking) -->
+    {% if page.date %}
     <script defer src="{{ '/js/highlightjs/highlight.min.js' | relative_url }}"></script>
     <script defer src="{{ '/js/highlightjs/languages/plaintext.min.js' | relative_url }}"></script>
     <script defer src="{{ '/js/highlightjs/languages/powershell.min.js' | relative_url }}"></script>
     <script defer src="{{ '/js/highlightjs/languages/tsql.min.js' | relative_url }}"></script>
-    <script defer>hljs.highlightAll();</script>
+    <script defer>
+    document.addEventListener('DOMContentLoaded', function() {
+      if (typeof hljs !== 'undefined') {
+        hljs.configure({
+          ignoreEscapeReplacements: true,
+          throwUnescapedHTML: false
+        });
+        hljs.highlightAll();
+      }
+    });
+    </script>
+    {% endif %}
 
     <script>
     (function() {
       var header = document.querySelector('.site-header');
+      if (!header) return;
       var lastScroll = 0;
       var ticking = false;
       window.addEventListener('scroll', function() {

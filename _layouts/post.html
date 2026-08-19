@@ -132,7 +132,7 @@ layout: default
     </button>
     <button class="toolbar-btn" onclick="downloadPDF()">
       <svg viewBox="0 0 24 24" fill="currentColor"><path d="M20 2H8c-1.1 0-2 .9-2 2v12c0 1.1.9 2 2 2h12c1.1 0 2-.9 2-2V4c0-1.1-.9-2-2-2zm-8.5 7.5c0 .83-.67 1.5-1.5 1.5H9v2H7.5V7H10c.83 0 1.5.67 1.5 1.5v1zm5 2c0 .83-.67 1.5-1.5 1.5h-2.5V7H15c.83 0 1.5.67 1.5 1.5v3zm4-3H19v1h1.5V11H19v2h-1.5V7h3v1.5zM9 9.5h1v-1H9v1zM4 6H2v14c0 1.1.9 2 2 2h14v-2H4V6zm10 5.5h1v-3h-1v3z"/></svg>
-      <span>PDF</span>
+      <span>Print</span>
     </button>
     <span class="font-size-controls">
       <button class="font-size-btn" id="fontSizeDec" title="Decrease font size">A&minus;</button>
@@ -334,7 +334,7 @@ layout: default
 
   <!-- Author Profile -->
   <div class="author-profile" style="display:flex; align-items:center; gap:1.2em; background:linear-gradient(135deg, rgba(59,130,246,0.06) 0%, rgba(10,10,10,0.8) 100%); border:1px solid #1e2024; border-radius:12px; padding:1.5em 1.8em; margin-top:2.5em;">
-    <img src="{{ post_author.avatar | default: 'https://f9xr.github.io/logo.webp' | relative_url }}" alt="{{ post_author.name | default: 'F9XR Editorial Team' }}" width="64" height="64" loading="lazy" style="border-radius:50%; border:2px solid #1e2024; flex-shrink:0; object-fit:cover;">
+    <img src="{{ post_author.avatar | default: '/logo.webp' | relative_url }}" alt="{{ post_author.name | default: 'F9XR Editorial Team' }}" width="64" height="64" loading="lazy" style="border-radius:50%; border:2px solid #1e2024; flex-shrink:0; object-fit:cover;">
     <div style="flex:1; min-width:0;">
       <p style="margin:0 0 0.15em 0; font-weight:700; color:#f8f9fa; font-size:1.05em;">
         <a href="{{ post_author_url | relative_url }}" style="color:#f8f9fa; text-decoration:none;">{{ post_author.name | default: "F9XR Editorial Team" }}</a>
@@ -420,7 +420,7 @@ layout: default
   <div class="post-copyright" style="margin-top:1.5em; padding:1.2em 1.5em; border:1px solid #1e2024; border-radius:10px;">
     <h3 style="color:#8b8b8b; font-size:0.78em; font-weight:700; text-transform:uppercase; letter-spacing:0.06em; margin:0 0 0.6em 0;">Copyright</h3>
     <p style="margin:0; color:#71717a; font-size:0.85em; line-height:1.6;">
-      &copy; 2026 <a href="https://f9xr.github.io" style="color:#8b8b8b;">F9XR Team</a>. Licensed under the <a href="https://creativecommons.org/licenses/by/4.0" target="_blank" rel="noopener noreferrer" style="color:#8b8b8b;">Creative Commons Attribution 4.0 International License (CC BY 4.0)</a>. You are free to share and adapt this work with attribution to the F9XR Team.
+      &copy; {{ 'now' | date: '%Y' }} <a href="{{ '/' | absolute_url }}" style="color:#8b8b8b;">F9XR Team</a>. Licensed under the <a href="https://creativecommons.org/licenses/by/4.0" target="_blank" rel="noopener noreferrer" style="color:#8b8b8b;">Creative Commons Attribution 4.0 International License (CC BY 4.0)</a>. You are free to share and adapt this work with attribution to the F9XR Team.
     </p>
   </div>
 
@@ -430,40 +430,6 @@ layout: default
     <p style="margin:0; color:#71717a; font-size:0.85em; line-height:1.6;">
       This article reflects the experience and opinions of the F9XR Team and is provided for general informational purposes only. It is not professional legal, financial, or medical advice. Metrics and results mentioned are illustrative and not guaranteed.
     </p>
-  </div>
-
-  <!-- Author Profile -->
-  <div class="author-profile" style="display:flex; align-items:center; gap:1.2em; background:linear-gradient(135deg, rgba(59,130,246,0.06) 0%, rgba(10,10,10,0.8) 100%); border:1px solid #1e2024; border-radius:12px; padding:1.5em 1.8em; margin-top:3.5em;">
-    <img src="{{ post_author.avatar | default: 'https://f9xr.github.io/logo.webp' | relative_url }}" alt="{{ post_author.name | default: 'F9XR Editorial Team' }}" width="64" height="64" loading="lazy" style="border-radius:50%; border:2px solid #1e2024; flex-shrink:0; object-fit:cover;">
-    <div style="flex:1; min-width:0;">
-      <p style="margin:0 0 0.15em 0; font-weight:700; color:#f8f9fa; font-size:1.05em;">
-        <a href="{{ post_author_url | relative_url }}" style="color:#f8f9fa; text-decoration:none;">{{ post_author.name | default: "F9XR Editorial Team" }}</a>
-      </p>
-      <p style="margin:0 0 0.6em 0; color:#8b8b8b; font-size:0.88em;">{{ post_author.role | default: "Digital Architecture Agency" }}</p>
-      <div style="display:flex; gap:0.5em; flex-wrap:wrap;">
-        <a href="https://github.com/f9xr" target="_blank" rel="noopener noreferrer" title="GitHub" style="display:inline-flex; align-items:center; justify-content:center; width:32px; height:32px; border-radius:8px; background:rgba(59,130,246,0.08); border:1px solid #1e2024; color:#71717a; transition:all 0.2s;" onmouseover="this.style.color='#3b82f6'; this.style.borderColor='#2563eb';" onmouseout="this.style.color='#71717a'; this.style.borderColor='#1e2024';">
-          <i class="fa-brands fa-github"></i>
-        </a>
-        <a href="{{ post_author.linkedin | default: 'https://linkedin.com/company/f9xrteam' }}" target="_blank" rel="noopener noreferrer" title="LinkedIn" style="display:inline-flex; align-items:center; justify-content:center; width:32px; height:32px; border-radius:8px; background:rgba(59,130,246,0.08); border:1px solid #1e2024; color:#71717a; transition:all 0.2s;" onmouseover="this.style.color='#3b82f6'; this.style.borderColor='#2563eb';" onmouseout="this.style.color='#71717a'; this.style.borderColor='#1e2024';">
-          <i class="fa-brands fa-linkedin-in"></i>
-        </a>
-        <a href="https://instagram.com/f9xrteam" target="_blank" rel="noopener noreferrer" title="Instagram" style="display:inline-flex; align-items:center; justify-content:center; width:32px; height:32px; border-radius:8px; background:rgba(59,130,246,0.08); border:1px solid #1e2024; color:#71717a; transition:all 0.2s;" onmouseover="this.style.color='#3b82f6'; this.style.borderColor='#2563eb';" onmouseout="this.style.color='#71717a'; this.style.borderColor='#1e2024';">
-          <i class="fa-brands fa-instagram"></i>
-        </a>
-        <a href="https://www.threads.com/@f9xrteam" target="_blank" rel="noopener noreferrer" title="Threads" style="display:inline-flex; align-items:center; justify-content:center; width:32px; height:32px; border-radius:8px; background:rgba(59,130,246,0.08); border:1px solid #1e2024; color:#71717a; transition:all 0.2s;" onmouseover="this.style.color='#3b82f6'; this.style.borderColor='#2563eb';" onmouseout="this.style.color='#71717a'; this.style.borderColor='#1e2024';">
-          <i class="fa-brands fa-threads"></i>
-        </a>
-        <a href="https://www.youtube.com/@QuarterlyLIV" target="_blank" rel="noopener noreferrer" title="YouTube" style="display:inline-flex; align-items:center; justify-content:center; width:32px; height:32px; border-radius:8px; background:rgba(59,130,246,0.08); border:1px solid #1e2024; color:#71717a; transition:all 0.2s;" onmouseover="this.style.color='#3b82f6'; this.style.borderColor='#2563eb';" onmouseout="this.style.color='#71717a'; this.style.borderColor='#1e2024';">
-          <i class="fa-brands fa-youtube"></i>
-        </a>
-        <a href="https://f9xr.github.io" target="_blank" rel="noopener noreferrer" title="Website" style="display:inline-flex; align-items:center; justify-content:center; width:32px; height:32px; border-radius:8px; background:rgba(59,130,246,0.08); border:1px solid #1e2024; color:#71717a; transition:all 0.2s;" onmouseover="this.style.color='#3b82f6'; this.style.borderColor='#2563eb';" onmouseout="this.style.color='#71717a'; this.style.borderColor='#1e2024';">
-          <i class="fa-solid fa-globe"></i>
-        </a>
-        <a href="mailto:tontufytservices@gmail.com" title="Email" style="display:inline-flex; align-items:center; justify-content:center; width:32px; height:32px; border-radius:8px; background:rgba(59,130,246,0.08); border:1px solid #1e2024; color:#71717a; transition:all 0.2s;" onmouseover="this.style.color='#3b82f6'; this.style.borderColor='#2563eb';" onmouseout="this.style.color='#71717a'; this.style.borderColor='#1e2024';">
-          <i class="fa-solid fa-envelope"></i>
-        </a>
-      </div>
-    </div>
   </div>
 
   <!-- Related Posts -->
@@ -533,14 +499,14 @@ layout: default
   "@type": "BlogPosting",
   "headline": "{{ page.title | escape }}",
   "description": "{{ page.description | default: site.description | strip_html | truncatewords: 55 | escape }}",
-  "image": "{{ page.image | default: 'https://f9xr.github.io/assets/og-image.webp' }}",
+  "image": "{{ page.image | default: '/assets/og-image.webp' | absolute_url }}",
   "datePublished": "{{ page.date | date_to_xmlschema }}",
   "dateModified": "{{ page.dateModified | default: page.date | date_to_xmlschema }}",
   "author": {
     "@type": "Person",
     "name": "{{ post_author.name | default: page.author | default: site.author }}",
     "url": "{{ post_author_url | absolute_url }}",
-    "image": "{{ post_author.avatar | default: 'https://f9xr.github.io/logo.webp' | absolute_url }}",
+    "image": "{{ post_author.avatar | default: '/logo.webp' | absolute_url }}",
     "sameAs": [
       {% if post_author.github %}"{{ post_author.github }}",{% endif %}
       {% if post_author.linkedin %}"{{ post_author.linkedin }}",{% endif %}
@@ -785,19 +751,23 @@ function downloadPDF() {
     textNodes.forEach(function(node) {
       var text = node.textContent;
       var words = text.split(/(\s+)/);
-      var html = words.map(function(w) {
-        if (w.trim().length < 3) return w;
-        var boldLen = Math.min(2, Math.floor(w.trim().length / 2));
-        var nonSpace = w.trim();
-        var idx = w.indexOf(nonSpace);
-        var prefix = w.substring(0, idx);
-        var bold = nonSpace.substring(0, boldLen);
-        var rest = nonSpace.substring(boldLen);
-        return prefix + '<b style="font-weight:700;">' + bold + '</b>' + rest;
-      }).join('');
       var span = document.createElement('span');
-      span.innerHTML = html;
       span.setAttribute('data-bionic', '1');
+      words.forEach(function(w) {
+        if (w.trim().length < 3) {
+          span.appendChild(document.createTextNode(w));
+        } else {
+          var boldLen = Math.min(2, Math.floor(w.trim().length / 2));
+          var nonSpace = w.trim();
+          var idx = w.indexOf(nonSpace);
+          if (idx > 0) span.appendChild(document.createTextNode(w.substring(0, idx)));
+          var b = document.createElement('b');
+          b.style.fontWeight = '700';
+          b.textContent = nonSpace.substring(0, boldLen);
+          span.appendChild(b);
+          span.appendChild(document.createTextNode(nonSpace.substring(boldLen)));
+        }
+      });
       node.parentNode.replaceChild(span, node);
     });
   }
@@ -832,8 +802,16 @@ function downloadPDF() {
     var text = sel.toString().trim();
     if (text.length > 2 && text.length < 50) {
       clearTimeout(tooltipTimeout);
-      tooltipTimeout = setTimeout(function() {
-        tooltipEl.innerHTML = '<div class="tt-term">' + escapeHtml(text) + '</div><div class="tt-def">Looking up definition...</div>';
+        tooltipTimeout = setTimeout(function() {
+        var ttTerm = document.createElement('div');
+        ttTerm.className = 'tt-term';
+        ttTerm.textContent = text;
+        var ttDef = document.createElement('div');
+        ttDef.className = 'tt-def';
+        ttDef.textContent = 'Looking up definition...';
+        tooltipEl.textContent = '';
+        tooltipEl.appendChild(ttTerm);
+        tooltipEl.appendChild(ttDef);
         tooltipEl.classList.add('visible');
         var x = e.clientX, y = e.clientY;
         tooltipEl.style.left = Math.min(x - tooltipEl.offsetWidth / 2, window.innerWidth - tooltipEl.offsetWidth - 10) + 'px';
@@ -851,23 +829,26 @@ function downloadPDF() {
     fetch('https://api.dictionaryapi.dev/api/v2/entries/en/' + encodeURIComponent(term))
       .then(function(r) { if (!r.ok) throw new Error(); return r.json(); })
       .then(function(data) {
+        var ttTerm = tooltipEl.querySelector('.tt-term');
+        var ttDef = tooltipEl.querySelector('.tt-def');
         if (data && data[0]) {
           var defs = data[0].meanings.slice(0, 2).map(function(m) {
-            return '<i>' + m.partOfSpeech + '</i>: ' + (m.definitions[0] ? m.definitions[0].definition : '');
-          }).join('<br>');
-          tooltipEl.innerHTML = '<div class="tt-term">' + escapeHtml(term) + '</div><div class="tt-def">' + defs + '</div>';
+            return m.partOfSpeech + ': ' + (m.definitions[0] ? m.definitions[0].definition : '');
+          }).join(' | ');
+          ttDef.textContent = defs;
         } else {
-          tooltipEl.innerHTML = '<div class="tt-term">' + escapeHtml(term) + '</div><div class="tt-def">No definition found</div>';
+          ttDef.textContent = 'No definition found';
         }
       })
       .catch(function() {
-        tooltipEl.innerHTML = '<div class="tt-term">' + escapeHtml(term) + '</div><div class="tt-def">Could not load definition</div>';
+        var ttDef = tooltipEl.querySelector('.tt-def');
+        if (ttDef) ttDef.textContent = 'Could not load definition';
       });
   }
+  var _escapeEl = document.createElement('div');
   function escapeHtml(str) {
-    var div = document.createElement('div');
-    div.textContent = str;
-    return div.innerHTML;
+    _escapeEl.textContent = str;
+    return _escapeEl.innerHTML;
   }
 
   // Keyboard Navigation (full site accessibility)
@@ -919,15 +900,15 @@ function downloadPDF() {
       return;
     }
 
-    // Post navigation (N/P / Arrow keys) — only when not typing
-    if (tag === 'INPUT' || tag === 'TEXTAREA' || tag === 'SELECT') return;
+    // Post navigation (N/P only) — only when not typing or in editable content
+    if (tag === 'INPUT' || tag === 'TEXTAREA' || tag === 'SELECT' || e.target.isContentEditable) return;
     {% if page.next.url %}
-    if (e.key === 'n' || e.key === 'N' || e.key === 'ArrowRight' || e.key === 'ArrowDown') {
+    if (e.key === 'n' || e.key === 'N') {
       window.location.href = '{{ page.next.url | relative_url }}';
     }
     {% endif %}
     {% if page.previous.url %}
-    if (e.key === 'p' || e.key === 'P' || e.key === 'ArrowLeft' || e.key === 'ArrowUp') {
+    if (e.key === 'p' || e.key === 'P') {
       window.location.href = '{{ page.previous.url | relative_url }}';
     }
     {% endif %}

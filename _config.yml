@@ -2,6 +2,7 @@ title: "F9XR Articles"
 author: "F9XR Editorial Team"
 description: "Engineering digital growth — insights on web architecture, AI integration, local SEO, and high-performance digital systems from the F9XR Team."
 keywords: "F9XR, F9XR Team, web architecture, AI integration, local SEO, digital growth, web performance, technical SEO, digital architecture, engineering digital growth"
+twitter_username: "f9xrteam"
 twitter:
   username: "f9xrteam"
   card: "summary_large_image"
@@ -19,9 +20,6 @@ facebook_username: "f9xrteam"
 lang: "en"
 locale: "en_US"
 
-#########################################################################################
-######### Nothing below needs to be changed (unless you know what you're doing) #########
-#########################################################################################
 theme: "minima"
 
 rss: rss
@@ -30,10 +28,14 @@ kramdown:
   syntax_highlighter_opts:
     disable: true
 
+markdown: kramdown
+permalink: /:categories/:year/:month/:day/:title.html
+encoding: UTF-8
+lsi: true
+
 plugins:
   - jekyll-feed
   - jekyll-sitemap
-  - jekyll-seo-tag
 
 titles_from_headings:
   strip_title: true
@@ -59,3 +61,15 @@ exclude:
   - .git
   - .github
   - .vscode
+  - .opencode
+  - tools
+  - tools/node_modules
+  - tools/package.json
+  - tools/package-lock.json
+  - package-lock.json
+  - package.json
+  - article-urls.txt
+  - all-urls.txt
+  - feed.json
+  - Gemfile
+  - Gemfile.lock

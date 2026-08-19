@@ -1,6 +1,6 @@
 {% assign ap = site.data.authors[include.author_key] %}
 {% assign ap_name = ap.name | default: include.author_key %}
-{% assign ap_avatar = ap.avatar | default: 'https://f9xr.github.io/logo.webp' | relative_url %}
+{% assign ap_avatar = ap.avatar | default: '/logo.webp' | absolute_url %}
 {% assign ap_role = ap.role | default: 'Author at F9XR Articles' %}
 
 <div class="author-page">
@@ -159,7 +159,7 @@
   "@type": "Person",
   "name": "{{ ap_name }}",
   "url": "{{ page.url | absolute_url }}",
-  "image": "{{ ap.avatar | default: 'https://f9xr.github.io/logo.webp' | absolute_url }}",
+  "image": "{{ ap.avatar | default: '/logo.webp' | absolute_url }}",
   {% if ap.email %}"email": "{{ ap.email }}",{% endif %}
   "jobTitle": "{{ ap_role }}",
   "description": "{{ page.description | escape }}",
