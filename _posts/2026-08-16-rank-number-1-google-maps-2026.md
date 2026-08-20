@@ -2,7 +2,7 @@
 layout: post
 title: "Rank #1 on Google Maps: The 2026 Playbook"
 description: "Learn exactly how to rank number 1 on Google Maps in 2026, with real ranking factor data, a GBP checklist, and practical tips for local businesses."
-image: "https://f9xr.github.io/articles/assets/rank-1st-on-google-maps.webp"
+image: "https://f9xr.github.io/articles/assets/post-images/rank-1st-on-google-maps.webp"
 image_width: 1536
 image_height: 1024
 date: 2026-08-16

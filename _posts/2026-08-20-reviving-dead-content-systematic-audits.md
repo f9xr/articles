@@ -2,7 +2,7 @@
 layout: post
 title: "Reviving Dead Content: Rank Higher, No New Copy"
 description: "Learn how systematic content audits can boost rankings without writing a single new word, with real case studies and a practical framework."
-image: "https://f9xr.github.io/articles/assets/reviving-dead-content-systematic-audits.webp"
+image: "https://f9xr.github.io/articles/assets/post-images/reviving-dead-content-systematic-audits.webp"
 image_width: 1200
 image_height: 630
 date: 2026-08-20

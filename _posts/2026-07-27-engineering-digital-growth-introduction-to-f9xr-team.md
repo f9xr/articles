@@ -2,7 +2,7 @@
 layout: post
 title: "Engineering Digital Growth with F9XR Team"
 description: "How F9XR Team builds high-performance web ecosystems, AI-powered systems, and local SEO infrastructure for measurable business growth."
-image: "https://f9xr.github.io/articles/assets/f9xr-team-solutions.webp"
+image: "https://f9xr.github.io/articles/assets/post-images/f9xr-team-solutions.webp"
 image_width: 1600
 image_height: 893
 dateModified: 2026-07-28

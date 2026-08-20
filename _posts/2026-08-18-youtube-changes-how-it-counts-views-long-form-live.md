@@ -2,7 +2,7 @@
 layout: post
 title: "YouTube View Counts Are Changing: What It Means"
 description: "YouTube now counts views from the first frame on all videos starting August 24, 2026. Here's what changes, what stays the same, and why it matters."
-image: "https://f9xr.github.io/articles/assets/youtube-changes-how-it-counts-views-long-form-live.webp"
+image: "https://f9xr.github.io/articles/assets/post-images/youtube-changes-how-it-counts-views-long-form-live.webp"
 image_width: 1200
 image_height: 630
 date: 2026-08-18

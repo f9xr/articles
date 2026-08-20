@@ -2,7 +2,7 @@
 layout: post
 title: "Beyond Rankings: 7 Metrics Proving SEO Works"
 description: "Rankings alone don't prove SEO works. Learn the 7 metrics, CTR, dwell time, conversions, that actually show real business results in 2026."
-image: "https://f9xr.github.io/articles/assets/seo-metrics-beyond-rankings.webp"
+image: "https://f9xr.github.io/articles/assets/post-images/seo-metrics-beyond-rankings.webp"
 image_width: 1200
 image_height: 630
 image_credit: "Parveender on Pixabay"

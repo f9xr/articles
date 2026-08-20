@@ -2,7 +2,7 @@
 layout: post
 title: "Beyond the Map Pack: How AI Picks Local Businesses"
 description: "Discover how ChatGPT, Gemini, and Perplexity actually choose local businesses to recommend in 2026, and what it takes to be one of them."
-image: "https://f9xr.github.io/articles/assets/how-ai-picks-local-businesses-2026.webp"
+image: "https://f9xr.github.io/articles/assets/post-images/how-ai-picks-local-businesses-2026.webp"
 image_width: 1200
 image_height: 630
 date: 2026-08-16

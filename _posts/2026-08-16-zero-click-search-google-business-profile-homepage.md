@@ -2,7 +2,7 @@
 layout: post
 title: "Zero-Click Search: Your GBP Is Your Homepage"
 description: "In 2026, 68% of searches end with zero clicks. Learn why your Google Business Profile is now your real homepage, and how to optimize it for AI."
-image: "https://f9xr.github.io/articles/assets/zero-click-search-google-business-profile-homepage.webp"
+image: "https://f9xr.github.io/articles/assets/post-images/zero-click-search-google-business-profile-homepage.webp"
 image_width: 1200
 image_height: 630
 date: 2026-08-16

@@ -2,7 +2,7 @@
 layout: post
 title: "Google Ads Ends Language Targeting: What Now?"
 description: "Google Ads is retiring language targeting in Search campaigns this September. Learn what it means for your ads, budget, and how to prepare now."
-image: "https://f9xr.github.io/articles/assets/google-ads-language-targeting-retired-what-now.webp"
+image: "https://f9xr.github.io/articles/assets/post-images/google-ads-language-targeting-retired-what-now.webp"
 image_width: 1200
 image_height: 630
 date: 2026-08-17

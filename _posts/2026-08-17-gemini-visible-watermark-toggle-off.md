@@ -2,7 +2,7 @@
 layout: post
 title: "Gemini Lets You Turn Off Visible AI Watermarks"
 description: "Google now lets you disable Gemini's visible watermark on images, video, and music. Here's what changed, what stays hidden, and why it matters."
-image: "https://f9xr.github.io/articles/assets/gemini-visible-watermark-toggle-off.webp"
+image: "https://f9xr.github.io/articles/assets/post-images/gemini-visible-watermark-toggle-off.webp"
 image_width: 1200
 image_height: 630
 date: 2026-08-17

@@ -2,7 +2,7 @@
 layout: post
 title: "Parasite SEO in 2026: Should Your Business Use It?"
 description: "What is parasite SEO, and should your business use it in 2026? Learn the real risks, Google's crackdown, and the smart, safe way to do it."
-image: "https://f9xr.github.io/articles/assets/what-is-parasite-seo-should-business-use-it.webp"
+image: "https://f9xr.github.io/articles/assets/post-images/what-is-parasite-seo-should-business-use-it.webp"
 image_width: 1200
 image_height: 630
 date: 2026-08-17

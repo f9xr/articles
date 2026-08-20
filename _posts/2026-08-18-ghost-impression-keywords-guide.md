@@ -2,7 +2,7 @@
 layout: post
 title: "Ghost Impression Keywords: Why You Rank, No Clicks"
 description: "Learn what ghost impression keywords are, why they show up in Search Console, and how to turn phantom visibility into real clicks in 2026."
-image: "https://f9xr.github.io/articles/assets/ghost-impression-keywords-guide.webp"
+image: "https://f9xr.github.io/articles/assets/post-images/ghost-impression-keywords-guide.webp"
 image_width: 1200
 image_height: 630
 date: 2026-08-18

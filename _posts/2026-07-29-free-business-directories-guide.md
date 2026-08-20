@@ -2,7 +2,7 @@
 layout: post
 title: "Free Business Directories to Boost Local SEO"
 description: "List your business on free business directories to boost local SEO, earn backlinks, and get found by more customers. Complete guide with practical tips."
-image: "https://f9xr.github.io/articles/assets/f9xr-dic.webp"
+image: "https://f9xr.github.io/articles/assets/post-images/f9xr-dic.webp"
 image_width: 1200
 image_height: 735
 date: 2026-07-29
