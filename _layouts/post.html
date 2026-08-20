@@ -497,22 +497,24 @@ layout: default
 {
   "@context": "https://schema.org",
   "@type": "BlogPosting",
-  "headline": "{{ page.title | escape }}",
-  "description": "{{ page.description | default: site.description | strip_html | truncatewords: 55 | escape }}",
+  "headline": {{ page.title | jsonify }},
+  "description": {{ page.description | default: site.description | strip_html | truncatewords: 55 | jsonify }},
   "image": "{{ page.image | default: '/assets/og-image.webp' | absolute_url }}",
   "datePublished": "{{ page.date | date_to_xmlschema }}",
   "dateModified": "{{ page.dateModified | default: page.date | date_to_xmlschema }}",
   "author": {
     "@type": "Person",
-    "name": "{{ post_author.name | default: page.author | default: site.author }}",
+    "name": {{ post_author.name | default: page.author | default: site.author | jsonify }},
     "url": "{{ post_author_url | absolute_url }}",
     "image": "{{ post_author.avatar | default: '/logo.webp' | absolute_url }}",
     "sameAs": [
-      {% if post_author.github %}"{{ post_author.github }}",{% endif %}
-      {% if post_author.linkedin %}"{{ post_author.linkedin }}",{% endif %}
-      {% if post_author.instagram %}"{{ post_author.instagram }}",{% endif %}
-      {% if post_author.threads %}"{{ post_author.threads }}",{% endif %}
-      {% if post_author.youtube %}"{{ post_author.youtube }}"{% endif %}
+      {% assign sameas_items = "" | split: "" %}
+      {% if post_author.github %}{% assign sameas_items = sameas_items | push: post_author.github %}{% endif %}
+      {% if post_author.linkedin %}{% assign sameas_items = sameas_items | push: post_author.linkedin %}{% endif %}
+      {% if post_author.instagram %}{% assign sameas_items = sameas_items | push: post_author.instagram %}{% endif %}
+      {% if post_author.threads %}{% assign sameas_items = sameas_items | push: post_author.threads %}{% endif %}
+      {% if post_author.youtube %}{% assign sameas_items = sameas_items | push: post_author.youtube %}{% endif %}
+      {% for item in sameas_items %}"{{ item }}"{% unless forloop.last %},{% endunless %}{% endfor %}
     ]
   },
   "publisher": {
@@ -564,7 +566,7 @@ layout: default
     {
       "@type": "ListItem",
       "position": 3,
-      "name": "{{ page.title | escape }}"
+      "name": {{ page.title | jsonify }}
     }
   ]
 }
@@ -580,10 +582,10 @@ layout: default
     {% for item in page.faq %}
     {
       "@type": "Question",
-      "name": "{{ item.q | escape }}",
+      "name": {{ item.q | jsonify }},
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "{{ item.a | escape }}"
+        "text": {{ item.a | jsonify }}
       }
     }{% unless forloop.last %},{% endunless %}
     {% endfor %}
@@ -598,7 +600,7 @@ layout: default
 {
   "@context": "https://schema.org",
   "@type": "VideoObject",
-  "name": "{{ page.title | escape }}",
+  "name": {{ page.title | jsonify }},
   "description": "{{ page.description | default: site.description | strip_html | truncatewords: 55 | escape }}",
   "thumbnailUrl": "https://img.youtube.com/vi/{{ page.youtube_id }}/maxresdefault.jpg",
   "embedUrl": "https://www.youtube.com/embed/{{ page.youtube_id }}",

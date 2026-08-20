@@ -162,13 +162,15 @@
   "image": "{{ ap.avatar | default: '/logo.webp' | absolute_url }}",
   {% if ap.email %}"email": "{{ ap.email }}",{% endif %}
   "jobTitle": "{{ ap_role }}",
-  "description": "{{ page.description | escape }}",
+  "description": {{ page.description | jsonify }},
   "sameAs": [
-    {% if ap.linkedin %}"{{ ap.linkedin }}",{% endif %}
-    {% if ap.instagram %}"{{ ap.instagram }}",{% endif %}
-    {% if ap.github %}"{{ ap.github }}",{% endif %}
-    {% if ap.threads %}"{{ ap.threads }}",{% endif %}
-    {% if ap.youtube %}"{{ ap.youtube }}"{% endif %}
+    {% assign sameas_items = "" | split: "" %}
+    {% if ap.linkedin %}{% assign sameas_items = sameas_items | push: ap.linkedin %}{% endif %}
+    {% if ap.instagram %}{% assign sameas_items = sameas_items | push: ap.instagram %}{% endif %}
+    {% if ap.github %}{% assign sameas_items = sameas_items | push: ap.github %}{% endif %}
+    {% if ap.threads %}{% assign sameas_items = sameas_items | push: ap.threads %}{% endif %}
+    {% if ap.youtube %}{% assign sameas_items = sameas_items | push: ap.youtube %}{% endif %}
+    {% for item in sameas_items %}"{{ item }}"{% unless forloop.last %},{% endunless %}{% endfor %}
   ],
   "worksFor": {
     "@type": "Organization",

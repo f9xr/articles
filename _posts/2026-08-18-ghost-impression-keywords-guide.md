@@ -138,55 +138,6 @@ Diagnosing that pattern correctly, and actually fixing the underlying causes acr
 
 ---
 
-<script type="application/ld+json">
-{
-  "@context": "https://schema.org",
-  "@type": "FAQPage",
-  "mainEntity": [
-    {
-      "@type": "Question",
-      "name": "What are ghost impression keywords?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "Ghost impression keywords are search terms that generate healthy impression counts in Google Search Console but result in very few or no clicks. Your page appears in search results and is technically seen, but searchers are not clicking through to your site."
-      }
-    },
-    {
-      "@type": "Question",
-      "name": "Why do I have high impressions but low clicks in Search Console?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "Common causes include ranking outside the top 10 where few searchers scroll, AI Overviews or featured snippets answering the query directly, a generic or unconvincing meta title and description, a mismatch between what your page offers and what the searcher actually wants, or in some cases, misconfigured hreflang tags sending your page to the wrong regional audience."
-      }
-    },
-    {
-      "@type": "Question",
-      "name": "Was there really a Google Search Console bug affecting impressions?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "Yes. Google confirmed a logging error caused Search Console to over report impressions from May 13, 2025 through late April 2026, while clicks and rankings remained accurate throughout. The fix rolled out starting in late April 2026, and the distorted historical data from that window will not be corrected retroactively."
-      }
-    },
-    {
-      "@type": "Question",
-      "name": "How do I know if a low CTR keyword is a real problem or expected?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "Check the average position for that keyword. If it is ranking within the top 5 to 10 with a near zero CTR, that is likely a genuine snippet or intent problem worth fixing. If it is ranking beyond position 15 or so, low clicks are expected and the priority should be improving ranking position rather than the snippet."
-      }
-    },
-    {
-      "@type": "Question",
-      "name": "How can I fix ghost impression keywords on my website?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "Start by rewriting weak meta titles and descriptions to give searchers a clear reason to click, make sure your page content genuinely matches what the keyword's searchers are looking for, add relevant structured data like review stars or FAQ markup, and for keywords sitting near page one, focus on improving ranking position through stronger internal linking and content updates."
-      }
-    }
-  ]
-}
-</script>
-
 <!--
 This article was written following the F9XR Blog Publisher content brief:
 Act as an expert SEO strategist, content writer, and Answer Engine Optimization (AEO) specialist.
