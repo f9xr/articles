@@ -34,7 +34,7 @@ For business owners, startups, and local businesses, understanding the differenc
 
 In this article, we'll walk through exactly what's known about the August 2026 spam update, what it targets, what it doesn't, how it compares to earlier updates this year, and what practical steps you should take if your rankings have shifted.
 
-<img src="https://f9xr.github.io/articles/assets/google-august-2026-spam-update.webp" alt="Google August 2026 Spam Update explainer graphic by F9XR" title="Google August 2026 Spam Update: What It Means" width="1200" height="630" loading="lazy" />
+<img src="https://f9xr.github.io/articles/assets/post-images/google-august-2026-spam-update.webp" alt="Google August 2026 Spam Update explainer graphic by F9XR" title="Google August 2026 Spam Update: What It Means" width="1200" height="630" loading="lazy" />
 
 ---
 

@@ -59,7 +59,7 @@ The actual link building strategies haven't changed all that much. What's change
 The important caveat: AI should speed up your research and writing, not replace judgment. Every link building tactic below still requires human review before you hit send, especially to avoid the kind of spammy, obviously AI generated outreach that gets ignored or marked as spam.
 
 <figure class="post-figure">
-  <img src="https://f9xr.github.io/articles/assets/ai-search-ai-tools.webp" alt="AI search tools like ChatGPT and Perplexity answering a business question" title="Links build the authority AI search tools cite" width="1379" height="884" loading="lazy" />
+  <img src="https://f9xr.github.io/articles/assets/post-images/ai-search-ai-tools.webp" alt="AI search tools like ChatGPT and Perplexity answering a business question" title="Links build the authority AI search tools cite" width="1379" height="884" loading="lazy" />
   <figcaption>Links and citations are what AI search tools use to decide which business to recommend.</figcaption>
 </figure>
 

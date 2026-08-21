@@ -41,7 +41,7 @@ Create YAML front-matter with these fields:
 layout: post
 title: "Your Article Title"
 description: "2-3 sentence summary for the AI summary box, feeds, and JSON-LD"
-image: "https://f9xr.github.io/articles/assets/<slug>.webp"  # template in Step 2b, or user-provided image URL with credit
+image: "https://f9xr.github.io/articles/assets/post-images/<slug>.webp"  # template in Step 2b, or user-provided image URL with credit
 image_width: 1200  # from generator output
 image_height: 630  # from generator output
 image_caption: "Optional caption for the hero image"  # optional, adds <figcaption> below hero
