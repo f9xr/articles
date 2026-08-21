@@ -1995,31 +1995,90 @@ details summary:focus-visible {
 /* --- 404 Page --- */
 .error-container {
   text-align: center;
-  padding: 4em 1.5em 3em;
-  max-width: 700px;
+  padding: 3em 1.5em 3em;
+  max-width: 760px;
   margin: 0 auto;
 }
+.error-hero {
+  position: relative;
+  overflow: hidden;
+  padding: 2.8em 1.5em 2.4em;
+  border-radius: 24px;
+  border: 1px solid rgba(59, 130, 246, 0.08);
+  background:
+    radial-gradient(600px 200px at 50% 0%, rgba(59, 130, 246, 0.07), transparent 70%),
+    linear-gradient(180deg, rgba(59, 130, 246, 0.03), transparent 60%);
+  margin-bottom: 2.2em;
+}
+.error-orb {
+  position: absolute;
+  border-radius: 50%;
+  filter: blur(60px);
+  opacity: 0.35;
+  pointer-events: none;
+}
+.error-orb-1 {
+  width: 260px;
+  height: 260px;
+  left: -60px;
+  top: -80px;
+  background: #2563eb;
+  animation: errorFloat 9s ease-in-out infinite;
+}
+.error-orb-2 {
+  width: 220px;
+  height: 220px;
+  right: -50px;
+  bottom: -90px;
+  background: #60a5fa;
+  animation: errorFloat 11s ease-in-out infinite reverse;
+}
+@keyframes errorFloat {
+  0%, 100% { transform: translate(0, 0) scale(1); }
+  50% { transform: translate(12px, 14px) scale(1.06); }
+}
+.error-badge {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.45em;
+  font-size: 0.75em;
+  font-weight: 700;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  color: #60a5fa !important;
+  background: rgba(59, 130, 246, 0.08);
+  border: 1px solid rgba(59, 130, 246, 0.25);
+  border-radius: 999px;
+  padding: 0.4em 1em;
+  margin-bottom: 1.2em;
+}
 .error-code {
-  font-size: 7em;
+  font-size: clamp(5rem, 16vw, 8rem);
   font-weight: 900;
   line-height: 1;
-  background: linear-gradient(135deg, #3b82f6 0%, #60a5fa 50%, #2563eb 100%);
+  background: linear-gradient(135deg, #3b82f6 0%, #93c5fd 45%, #2563eb 100%);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   background-clip: text;
-  margin-bottom: 0.15em;
-  letter-spacing: -0.02em;
+  letter-spacing: -0.03em;
+  margin-bottom: 0.1em;
+  animation: errorCodePulse 4s ease-in-out infinite;
+}
+@keyframes errorCodePulse {
+  0%, 100% { filter: drop-shadow(0 10px 40px rgba(59, 130, 246, 0.30)); }
+  50% { filter: drop-shadow(0 10px 55px rgba(59, 130, 246, 0.50)); }
 }
 .error-heading {
   color: #f0f0f0;
-  margin-bottom: 0.5em;
-  font-size: 1.5em;
-  font-weight: 700;
+  margin-bottom: 0.45em;
+  font-size: 1.7em;
+  font-weight: 800;
+  letter-spacing: -0.01em;
 }
 .error-description {
   color: #8b8b8b;
   font-size: 1.02em;
-  margin-bottom: 2em;
+  margin-bottom: 0;
   max-width: 480px;
   margin-left: auto;
   margin-right: auto;
@@ -2083,10 +2142,10 @@ details summary:focus-visible {
   color: #3b82f6 !important;
   transform: translateY(-2px);
 }
-.error-latest {
-  margin-top: 3.5em;
-  text-align: left;
+.error-topics {
+  margin-top: 2.4em;
 }
+.error-topics-heading,
 .error-latest-heading {
   color: #f0f0f0;
   font-size: 1em;
@@ -2094,35 +2153,116 @@ details summary:focus-visible {
   text-align: center;
   font-weight: 600;
 }
+.error-topics-row {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.5em;
+  justify-content: center;
+}
+.error-topic-chip {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.45em;
+  color: #b1bac4 !important;
+  font-size: 0.82em;
+  background: rgba(59, 130, 246, 0.05);
+  border: 1px solid #1e2024;
+  border-radius: 999px;
+  padding: 0.45em 1em;
+  text-decoration: none !important;
+  transition: all 0.2s ease;
+}
+.error-topic-count {
+  color: #555555;
+  font-size: 0.85em;
+  font-weight: 700;
+}
+.error-topic-chip:hover {
+  color: #3b82f6 !important;
+  border-color: #2563eb;
+  background: rgba(59, 130, 246, 0.1);
+  transform: translateY(-1px);
+}
+.error-topic-chip:hover .error-topic-count {
+  color: #60a5fa;
+}
+.error-latest {
+  margin-top: 3em;
+  text-align: left;
+}
 .error-latest-grid {
   display: grid;
-  grid-template-columns: repeat(auto-fill, minmax(240px, 1fr));
+  grid-template-columns: repeat(auto-fill, minmax(min(240px, 100%), 1fr));
   gap: 0.8em;
 }
 .error-latest-card {
+  position: relative;
   display: block;
-  padding: 1em 1.2em;
-  background: rgba(59, 130, 246, 0.03);
+  padding: 1.1em 2.4em 1.1em 1.2em;
+  background: linear-gradient(160deg, rgba(59, 130, 246, 0.05), rgba(59, 130, 246, 0.02));
   border: 1px solid #1e2024;
-  border-radius: 10px;
+  border-radius: 12px;
   text-decoration: none !important;
   transition: all 0.25s ease;
 }
 .error-latest-card:hover {
   border-color: #2563eb;
-  background: rgba(59, 130, 246, 0.06);
-  transform: translateY(-1px);
+  transform: translateY(-2px);
+  box-shadow: 0 10px 28px rgba(37, 99, 235, 0.12);
+}
+.error-latest-meta {
+  display: flex;
+  align-items: center;
+  gap: 0.8em;
+  margin-bottom: 0.35em;
 }
 .error-latest-date {
   color: #8b8b8b;
   font-size: 0.75em;
-  margin-bottom: 0.3em;
+}
+.error-latest-read {
+  color: #555555;
+  font-size: 0.72em;
+}
+.error-latest-read::before {
+  content: "";
+  display: inline-block;
+  width: 3px;
+  height: 3px;
+  border-radius: 50%;
+  background: #555555;
+  margin-right: 0.8em;
+  vertical-align: middle;
 }
 .error-latest-title {
   color: #f0f0f0;
   font-size: 0.88em;
   font-weight: 600;
   line-height: 1.4;
+  transition: color 0.25s ease;
+}
+.error-latest-card:hover .error-latest-title {
+  color: #60a5fa;
+}
+.error-latest-arrow {
+  position: absolute;
+  right: 1em;
+  top: 50%;
+  transform: translateY(-50%);
+  color: #3b82f6;
+  font-size: 1.05em;
+  opacity: 0;
+  transition: all 0.25s ease;
+}
+.error-latest-card:hover .error-latest-arrow {
+  opacity: 1;
+  right: 0.75em;
+}
+@media (prefers-reduced-motion: reduce) {
+  .error-orb,
+  .error-code {
+    animation: none;
+  }
 }
 
 /* --- Print Styles for PDF --- */
@@ -3098,8 +3238,15 @@ details summary:focus-visible {
   .post-grid {
     grid-template-columns: 1fr;
   }
+  .error-hero {
+    padding: 2em 1em 1.8em;
+    border-radius: 18px;
+  }
   .error-code {
-    font-size: 5em;
+    font-size: clamp(4rem, 22vw, 5rem);
+  }
+  .error-heading {
+    font-size: 1.35em;
   }
   .error-btn {
     width: 100%;
