@@ -1,8 +1,9 @@
 ---
 layout: post
+code: true
 title: "7 AI Skills Saving Marketers 20+ Hours Weekly"
 description: "7 AI skills saving marketers 20+ hours weekly in 2026, with practical tools, productivity data, and simple first steps for your business."
-image: "https://images.unsplash.com/photo-1460925895917-afdab827c52f?q=80&w=1200&h=630&auto=format&fit=crop"
+image: "https://f9xr.github.io/articles/assets/post-images/ai-skills-saving-marketers-20-hours-weekly.webp"
 image_width: 1200
 image_height: 630
 image_credit: "Photo by <a href=\"https://unsplash.com/@carlosmuza?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText\" target=\"_blank\" rel=\"noopener noreferrer\">Carlos Muza</a> on <a href=\"https://unsplash.com/photos/HRzj2Hd5wWY?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText\" target=\"_blank\" rel=\"noopener noreferrer\">Unsplash</a>"

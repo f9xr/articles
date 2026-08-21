@@ -80,6 +80,17 @@ exclude:
   - package.json
   - article-urls.txt
   - all-urls.txt
-  - feed.json
   - Gemfile
   - Gemfile.lock
+  - skills
+  - mindmap-skill.skill
+  - content-plan.md
+  - DESIGN.md
+  - seo_audit_report.md
+  - google_discover_audit_report.md
+  - seo_image_audit_report.md
+  - bharat-by-day.html
+  - f9xr-content-plan-mindmap.html
+  - todo.txt
+  - prompt.txt
+  - css/override.css

@@ -2,7 +2,7 @@
 layout: post
 title: "Search Everywhere Optimization: YouTube's SEO Power"
 description: "Google now indexes video transcripts as search real estate. Learn how Search Everywhere Optimization turns your YouTube channel into a Google ranking asset."
-image: "https://images.unsplash.com/photo-1461749280684-dccba630e2f6?q=80&w=1200&h=630&auto=format&fit=crop"
+image: "https://f9xr.github.io/articles/assets/post-images/search-everywhere-optimization-youtube-google-seo.webp"
 image_width: 1200
 image_height: 630
 image_credit: "Photo by <a href=\"https://unsplash.com/@ilyapavlov?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText\" target=\"_blank\" rel=\"noopener noreferrer\">Ilya Pavlov</a> on <a href=\"https://unsplash.com/photos/OqtafYT5kTw?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText\" target=\"_blank\" rel=\"noopener noreferrer\">Unsplash</a>"

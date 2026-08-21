@@ -2,7 +2,7 @@
 layout: post
 title: "Why Consistency Audits Matter for SEO, AEO & GEO"
 description: "Learn why an information consistency audit is critical for SEO, AEO, and GEO in 2026, with real stats, examples, and a practical audit checklist."
-image: "https://images.unsplash.com/photo-1460925895917-afdab827c52f?q=80&w=1200&h=630&auto=format&fit=crop"
+image: "https://f9xr.github.io/articles/assets/post-images/consistency-audits-seo-aeo-geo.webp"
 image_width: 1200
 image_height: 630
 image_credit: "Photo by <a href=\"https://unsplash.com/@kmuza?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText\" target=\"_blank\" rel=\"noopener noreferrer\">Carlos Muza</a> on <a href=\"https://unsplash.com/photos/hpjSkU2UYSU?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText\" target=\"_blank\" rel=\"noopener noreferrer\">Unsplash</a>"

@@ -1,8 +1,9 @@
 ---
 layout: post
+code: true
 title: "Essential Txt Files for SEO, AEO & GEO in 2026"
 description: "Discover the essential txt files your codebase needs in 2026: robots.txt, llms.txt, security.txt and more to boost SEO, AEO, and GEO visibility."
-image: "https://images.unsplash.com/photo-1498050108023-c5249f4df085?q=80&w=1200&h=630&auto=format&fit=crop"
+image: "https://f9xr.github.io/articles/assets/post-images/essential-txt-files-seo-aeo-geo-2026.webp"
 image_width: 1200
 image_height: 630
 image_credit: "Photo by <a href=\"https://unsplash.com/@cgower?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText\" target=\"_blank\" rel=\"noopener noreferrer\">Christopher Gower</a> on <a href=\"https://unsplash.com/photos/a-macbook-with-lines-of-code-on-its-screen-on-a-busy-desk-m_HRfLhgABo?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText\" target=\"_blank\" rel=\"noopener noreferrer\">Unsplash</a>"

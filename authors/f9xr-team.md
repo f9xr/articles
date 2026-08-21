@@ -2,7 +2,7 @@
 layout: page
 title: "About the Author — F9XR Editorial Team"
 title_hidden: true
-description: "Learn about the F9XR Editorial Team — the digital architecture agency behind F9XR Articles, specializing in high-performance web ecosystems, AI integration, local SEO, and technical maintenance."
+description: "Meet the F9XR Editorial Team — the digital architecture agency behind F9XR Articles, specializing in web ecosystems, AI integration, local SEO, and maintenance."
 keywords: "F9XR Editorial Team, F9XR Articles, digital architecture agency, web development, AI integration, local SEO, web performance, technical SEO, about F9XR"
 permalink: /authors/f9xr-team/
 author_key: "F9XR Editorial Team"

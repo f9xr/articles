@@ -2,7 +2,7 @@
 layout: page
 title: "Mohammed Ahetasham Uddin"
 title_hidden: true
-description: "Author profile for Mohammed Ahetasham Uddin — Client Relations Associate at F9XR Team, B.Com (Hons) from Gitam University and ACCA candidate bridging financial markets and strategic marketing."
+description: "Author profile for Mohammed Ahetasham Uddin — Client Relations Associate at F9XR Team, B.Com (Hons) graduate and ACCA candidate bridging finance and marketing."
 keywords: "Mohammed Ahetasham Uddin, Ahetasham Uddin, F9XR Team, Client Relations Associate, ACCA, Gitam University, digital marketing, financial markets, strategic marketing"
 permalink: /authors/ahetasham/
 author_key: "Mohammed Ahetasham Uddin"

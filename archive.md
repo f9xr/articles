@@ -105,17 +105,14 @@ keywords: "F9XR articles archive, web architecture, AI integration, local SEO, d
   </details>
 </section>
 
-{% for tag in site.tags %}
-<section class="ed-topic" id="{{ tag[0] | slugify }}" aria-label="Articles tagged {{ tag[0] }}">
+<section class="ed-latest" aria-label="Latest articles">
   <div class="ed-sec-head">
-    <h2 class="ed-sec-title">{{ tag[0] }}</h2>
-    <span class="ed-mono">{{ tag[1].size }} article{% if tag[1].size != 1 %}s{% endif %}</span>
+    <h2 class="ed-sec-title">Latest Articles</h2>
   </div>
   <div class="ed-grid">
-    {% for post in tag[1] %}
+    {% for post in site.posts limit:6 %}
     {% assign t_author = site.data.authors[post.author] %}
     {% assign t_min = post.content | strip_html | number_of_words | divided_by: 200 | plus: 1 %}
-    {% assign t_desc = post.content | strip_html | truncate: 120 %}
     <article class="ed-card" itemscope itemtype="https://schema.org/Article">
       <a class="ed-card-img" href="{{ post.url | relative_url }}" aria-label="{{ post.title | escape }}"{% if post.image %} style="background-image:url('{{ post.image }}');"{% endif %}></a>
       <div class="ed-card-meta">
@@ -124,11 +121,29 @@ keywords: "F9XR articles archive, web architecture, AI integration, local SEO, d
         <span class="ed-mono">{{ t_author.name | default: post.author }}</span>
       </div>
       <h3 class="ed-card-title" itemprop="headline"><a href="{{ post.url | relative_url }}" itemprop="url">{{ post.title | escape }}</a></h3>
-      <p class="ed-card-desc" itemprop="description">{{ post.description | default: t_desc }}</p>
+      <p class="ed-card-desc" itemprop="description">{{ post.description }}</p>
       <span class="ed-card-foot">{{ t_min }} min read</span>
     </article>
     {% endfor %}
   </div>
+</section>
+
+{% for tag in site.tags %}
+<section class="ed-topic" id="{{ tag[0] | slugify }}" aria-label="Articles tagged {{ tag[0] }}">
+  <div class="ed-sec-head">
+    <h2 class="ed-sec-title">{{ tag[0] }}</h2>
+    <span class="ed-mono">{{ tag[1].size }} article{% if tag[1].size != 1 %}s{% endif %}</span>
+  </div>
+  <ul class="accordion-list">
+    {% for post in tag[1] %}
+    <li class="accordion-link">
+      <a href="{{ post.url | relative_url }}">
+        <span class="accordion-link-title">{{ post.title | escape }}</span>
+        <span class="accordion-link-date"><time datetime="{{ post.date | date: '%Y-%m-%d' }}">{{ post.date | date: "%b %d" }}</time></span>
+      </a>
+    </li>
+    {% endfor %}
+  </ul>
 </section>
 {% endfor %}
 

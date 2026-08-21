@@ -2,7 +2,7 @@
 layout: post
 title: "11 Free Tools to Fix Your Vibe Coded Site"
 description: "Turn your AI vibe coded site into a premium, modern website with these 11 free tools for motion, components, and visuals used by top brands."
-image: "https://images.unsplash.com/photo-1461749280684-dccba630e2f6?q=80&w=1200&h=630&auto=format&fit=crop"
+image: "https://f9xr.github.io/articles/assets/post-images/vibe-coded-site-to-premium-website-tools.webp"
 image_width: 1200
 image_height: 630
 image_credit: "Photo by <a href=\"https://unsplash.com/@ilyapavlov?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText\" target=\"_blank\" rel=\"noopener noreferrer\">Ilya Pavlov</a> on <a href=\"https://unsplash.com/photos/OqtafYT5kTw?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText\" target=\"_blank\" rel=\"noopener noreferrer\">Unsplash</a>"

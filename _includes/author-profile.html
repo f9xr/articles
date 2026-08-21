@@ -2,6 +2,7 @@
 {% assign ap_name = ap.name | default: include.author_key %}
 {% assign ap_avatar = ap.avatar | default: '/logo.webp' | absolute_url %}
 {% assign ap_role = ap.role | default: 'Author at F9XR Articles' %}
+{% assign ap_name_tag = include.name_tag | default: 'h1' %}
 
 <div class="author-page">
   <a href="{{ '/' | relative_url }}" class="author-back"><i class="fa-solid fa-arrow-left" style="font-size:0.72em;"></i> All Articles</a>
@@ -9,7 +10,7 @@
   <header class="author-hero">
     <img src="{{ ap_avatar }}" alt="{{ ap_name }}" width="96" height="96" loading="eager">
     <div class="author-hero-info">
-      <h1 class="author-name">{{ ap_name }}</h1>
+      <{{ ap_name_tag }} class="author-name">{{ ap_name }}</{{ ap_name_tag }}>
       <p class="author-role">{{ ap_role }}</p>
       <div class="author-actions">
         {% if ap.linkedin %}

@@ -19,14 +19,18 @@ layout: default
   {% if forloop.first %}{% continue %}{% endif %}
   {% assign lvl = part | slice: 0, 1 %}
   {% if lvl == "2" %}
-    {% assign heading_raw = part | split: "</h" | first %}
-    {% assign heading_inner = heading_raw | split: ">" %}
-    {% assign heading_clean = heading_inner | slice: 1, heading_inner.size | join: ">" | strip_html | strip %}
-    {% if heading_clean != "" %}
-      {% assign heading_slug = heading_clean | slugify %}
-      {% assign toc_levels = toc_levels | push: lvl %}
-      {% assign headings = headings | push: heading_clean %}
-      {% assign slug_headings = slug_headings | push: heading_slug %}
+    {% assign id_parts = part | split: 'id="' %}
+    {% if id_parts.size > 1 %}
+      {% assign id_seg = id_parts[1] %}
+      {% assign heading_slug = id_seg | split: '"' | first %}
+      {% assign title_raw = id_seg | split: '</h' | first %}
+      {% assign title_bits = title_raw | split: '>' %}
+      {% assign heading_clean = title_bits | slice: 1, title_bits.size | join: '>' | strip_html | strip %}
+      {% if heading_clean != "" %}
+        {% assign toc_levels = toc_levels | push: lvl %}
+        {% assign headings = headings | push: heading_clean %}
+        {% assign slug_headings = slug_headings | push: heading_slug %}
+      {% endif %}
     {% endif %}
   {% endif %}
 {% endfor %}
@@ -390,7 +394,7 @@ layout: default
         {% include sharelinks.html tooltip="footer" %}
       </div>
       <div class="share-box-copylink">
-        <span class="share-box-url">{{ page.url | relative_url }}</span>
+        <span class="share-box-url">{{ page.url | absolute_url }}</span>
         <button type="button" class="share-box-copylink-btn" onclick="copyPageLink('copyTooltipFooter')">
           <i class="fa-regular fa-copy"></i> Copy link
           <span class="copy-tooltip" id="copyTooltipFooter">Copied!</span>
@@ -420,7 +424,7 @@ layout: default
   <div class="post-copyright" style="margin-top:1.5em; padding:1.2em 1.5em; border:1px solid #1e2024; border-radius:10px;">
     <h3 style="color:#8b8b8b; font-size:0.78em; font-weight:700; text-transform:uppercase; letter-spacing:0.06em; margin:0 0 0.6em 0;">Copyright</h3>
     <p style="margin:0; color:#71717a; font-size:0.85em; line-height:1.6;">
-      &copy; {{ 'now' | date: '%Y' }} <a href="{{ '/' | absolute_url }}" style="color:#8b8b8b;">F9XR Team</a>. Licensed under the <a href="https://creativecommons.org/licenses/by/4.0" target="_blank" rel="noopener noreferrer" style="color:#8b8b8b;">Creative Commons Attribution 4.0 International License (CC BY 4.0)</a>. You are free to share and adapt this work with attribution to the F9XR Team.
+      &copy; {{ 'now' | date: '%Y' }} <a href="https://f9xr.github.io" style="color:#8b8b8b;">F9XR Team</a>. Licensed under the <a href="https://creativecommons.org/licenses/by/4.0" target="_blank" rel="noopener noreferrer" style="color:#8b8b8b;">Creative Commons Attribution 4.0 International License (CC BY 4.0)</a>. You are free to share and adapt this work with attribution to the F9XR Team.
     </p>
   </div>
 

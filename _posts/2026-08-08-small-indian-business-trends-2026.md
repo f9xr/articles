@@ -2,7 +2,7 @@
 layout: post
 title: "10 Small Business Trends in India for 2026"
 description: "Discover the 10 biggest trends shaping small Indian businesses in 2026, from AI adoption to ONDC, and what they mean for your business."
-image: "https://images.unsplash.com/photo-1522071820081-009f0129c71c?q=80&w=1200&h=630&auto=format&fit=crop"
+image: "https://f9xr.github.io/articles/assets/post-images/small-indian-business-trends-2026.webp"
 image_width: 1200
 image_height: 630
 image_credit: "Photo by <a href=\"https://unsplash.com/@anniespratt?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText\" target=\"_blank\" rel=\"noopener noreferrer\">Annie Spratt</a> on <a href=\"https://unsplash.com/photos/QckxruozjRg?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText\" target=\"_blank\" rel=\"noopener noreferrer\">Unsplash</a>"

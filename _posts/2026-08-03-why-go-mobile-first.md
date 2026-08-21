@@ -2,7 +2,7 @@
 layout: post
 title: "Why Go Mobile-First in 2026: Design and Engineering"
 description: "Mobile-first design wins in 2026. See the traffic data, the behavior gap, and a practical plan to go mobile-first and close the mobile conversion gap."
-image: "https://images.unsplash.com/photo-1533228100845-08145b01de14?q=80&w=1200&h=630&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8M3x8bW9iaWxlJTIwY2hyb21lfGVufDB8fDB8fHww"
+image: "https://f9xr.github.io/articles/assets/post-images/why-go-mobile-first.webp"
 image_width: 1200
 image_height: 630
 image_credit: "Photo by <a href=\"https://unsplash.com/@charlesdeluvio?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText\" target=\"_blank\" rel=\"noopener noreferrer\">Charles Deluvio</a> on <a href=\"https://unsplash.com/photos/black-android-smartphone-showing-google-site-on-white-surface-leqrylJNYUQ?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText\" target=\"_blank\" rel=\"noopener noreferrer\">Unsplash</a>"

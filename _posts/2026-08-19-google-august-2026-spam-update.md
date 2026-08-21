@@ -2,7 +2,7 @@
 layout: post
 title: "Google August 2026 Spam Update: What It Means"
 description: "Google released the August 2026 spam update on August 18. Here's what it targets, who's at risk, and what business owners should do next."
-image: "https://images.unsplash.com/photo-1690983730723-37220d10db46?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+image: "https://f9xr.github.io/articles/assets/post-images/google-august-2026-spam-update.webp"
 image_width: 2070
 image_height: 1380
 image_caption: "Photo by Karollyne Videira Hubert on Unsplash"

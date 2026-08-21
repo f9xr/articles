@@ -2,11 +2,12 @@
 layout: post
 title: "The 1-Page Google E-E-A-T Checklist Every SEO Should Bookmark"
 description: "A one-page E-E-A-T checklist for Experience, Expertise, Authoritativeness, and Trustworthiness. Run it before you publish any page in 2026."
-image: "https://images.unsplash.com/photo-1455390582262-044cdead277a?q=80&w=1200&h=630&auto=format&fit=crop"
+image: "https://f9xr.github.io/articles/assets/post-images/google-e-e-a-t-checklist-every-seo-should-bookmark.webp"
 image_width: 1200
 image_height: 630
 image_credit: "Photo by <a href=\"https://unsplash.com/@aaronburden?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText\" target=\"_blank\" rel=\"noopener noreferrer\">Aaron Burden</a> on <a href=\"https://unsplash.com/photos/y02jEX_B0O0?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText\" target=\"_blank\" rel=\"noopener noreferrer\">Unsplash</a>"
 date: 2026-08-04
+dateModified: 2026-08-04
 author: "F9XR Editorial Team"
 tags: [E-E-A-T, Google E-E-A-T, SEO checklist, quality rater guidelines, AI Overviews, content quality, YMYL, SEO 2026, digital presence, F9XR]
 keywords: "E-E-A-T, Google E-E-A-T checklist, E-E-A-T framework, SEO checklist, quality rater guidelines, Experience Expertise Authoritativeness Trustworthiness, AI Overview citations, YMYL content, F9XR Team"

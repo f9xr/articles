@@ -1,8 +1,9 @@
 ---
 layout: post
+code: true
 title: "How to Increase Your Website's Trust Score"
 description: "How to increase your website's trust score: E-E-A-T signals, HTTPS security, transparent business info, and cited sources. Includes a trust audit checklist."
-image: "https://images.unsplash.com/photo-1550751827-4bd374c3f58b?q=80&w=1200&h=630&auto=format&fit=crop"
+image: "https://f9xr.github.io/articles/assets/post-images/how-to-increase-website-trust-score.webp"
 image_width: 1200
 image_height: 630
 image_credit: "Photo by <a href=\"https://unsplash.com/@markusspiske?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText\" target=\"_blank\" rel=\"noopener noreferrer\">Markus Spiske</a> on <a href=\"https://unsplash.com/photos/teal-led-panel-EUsVwEOsblE?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText\" target=\"_blank\" rel=\"noopener noreferrer\">Unsplash</a>"

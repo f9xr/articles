@@ -10,11 +10,13 @@ permalink: /author/
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<meta http-equiv="refresh" content="0; url={{ '/authors/f9xr-team/' | absolute_url }}">
+<meta name="robots" content="noindex, follow">
 <link rel="canonical" href="{{ '/authors/f9xr-team/' | absolute_url }}">
-<title>Redirecting — F9XR Editorial Team</title>
+<meta http-equiv="refresh" content="0; url={{ '/authors/f9xr-team/' | absolute_url }}">
+<title>F9XR Editorial Team — Moved</title>
 </head>
 <body>
-<p>Redirecting to the <a href="{{ '/authors/f9xr-team/' | absolute_url }}">F9XR Editorial Team author page</a>.</p>
+<p>This page has moved. Redirecting to <a href="{{ '/authors/f9xr-team/' | absolute_url }}">the F9XR Editorial Team author profile</a>…</p>
+<script>window.location.replace({{ '/authors/f9xr-team/' | absolute_url | jsonify }});</script>
 </body>
 </html>

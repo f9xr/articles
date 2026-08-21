@@ -2,7 +2,7 @@
 layout: post
 title: "F9XR SEO CodeBase Auditor: 24 Pillars, One Command"
 description: "Use F9XR's free SEO CodeBase Auditor skill to run a 24-pillar SEO audit on your site's source code and get copy-paste fixes. Step-by-step guide."
-image: "https://images.unsplash.com/photo-1460925895917-afdab827c52f?q=80&w=1200&h=630&auto=format&fit=crop"
+image: "https://f9xr.github.io/articles/assets/post-images/f9xr-seo-codebase-auditor-skill-guide.webp"
 image_width: 1200
 image_height: 630
 image_credit: "Photo by <a href=\"https://unsplash.com/@kmuza?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText\" target=\"_blank\" rel=\"noopener noreferrer\">Carlos Muza</a> on <a href=\"https://unsplash.com/photos/hpjSkU2UYSU?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText\" target=\"_blank\" rel=\"noopener noreferrer\">Unsplash</a>"

@@ -14,8 +14,8 @@ AI integration, local SEO, web performance, and digital growth.
 ## Contents
 
 - Articles (blog posts) on web performance, AI integration, and local SEO
-- The article archive at /articles/archive/
-- Author profile at /articles/author/
+- The article archive at /articles/archive.html
+- Author profile at /articles/authors/f9xr-team/
 
 ## How to read this site
 

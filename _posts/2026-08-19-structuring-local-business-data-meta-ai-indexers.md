@@ -1,7 +1,7 @@
 ---
 layout: post
-title: "Sifting the Noise: Structuring Your Local Business Data for Meta's AI Web Indexers"
-description: "Meta is building AI systems that crawl the web differently from Google. Here's how local businesses can structure their data so Meta's indexers actually find and surface them."
+title: "Structuring Local Business Data for Meta AI Indexers"
+description: "Meta crawls the web differently from Google. Learn how local businesses can structure their data so Meta's AI indexers actually find and surface them."
 image: "/articles/assets/post-images/structuring-local-business-data-meta-ai-indexers.webp"
 image_width: 1200
 image_height: 630

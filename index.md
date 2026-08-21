@@ -179,29 +179,21 @@ keywords: "F9XR Articles, engineering digital growth, web architecture, AI integ
     <div class="ed-marquee" aria-hidden="true">
       <div class="ed-marquee-track">
         <span class="ed-badge ed-badge-mono">J</span><span class="ed-badge">Jekyll</span>
-        <span class="ed-badge ed-badge-mono">T</span><span class="ed-badge">Tailwind</span>
-        <span class="ed-badge ed-badge-icon"><i class="fa-brands fa-github"></i></span><span class="ed-badge">GitHub</span>
-        <span class="ed-badge ed-badge-mono">L</span><span class="ed-badge">Lucide</span>
-        <span class="ed-badge ed-badge-icon"><i class="fa-brands fa-react"></i></span><span class="ed-badge">React</span>
-        <span class="ed-badge ed-badge-icon"><i class="fa-brands fa-node"></i></span><span class="ed-badge">Node.js</span>
-        <span class="ed-badge ed-badge-icon"><i class="fa-brands fa-docker"></i></span><span class="ed-badge">Docker</span>
-        <span class="ed-badge ed-badge-icon"><i class="fa-brands fa-vercel"></i></span><span class="ed-badge">Vercel</span>
-        <span class="ed-badge ed-badge-icon"><i class="fa-brands fa-graphql"></i></span><span class="ed-badge">GraphQL</span>
+        <span class="ed-badge ed-badge-icon"><i class="fa-brands fa-github"></i></span><span class="ed-badge">GitHub Pages</span>
+        <span class="ed-badge ed-badge-mono">R</span><span class="ed-badge">Ruby</span>
+        <span class="ed-badge ed-badge-mono">L</span><span class="ed-badge">Liquid</span>
         <span class="ed-badge ed-badge-icon"><i class="fa-brands fa-html5"></i></span><span class="ed-badge">HTML5</span>
         <span class="ed-badge ed-badge-icon"><i class="fa-brands fa-css3-alt"></i></span><span class="ed-badge">CSS3</span>
-        <span class="ed-badge ed-badge-icon"><i class="fa-brands fa-figma"></i></span><span class="ed-badge">Figma</span>
+        <span class="ed-badge ed-badge-mono">W</span><span class="ed-badge">WebP</span>
+        <span class="ed-badge ed-badge-mono">S</span><span class="ed-badge">Schema.org</span>
         <span class="ed-badge ed-badge-mono">J</span><span class="ed-badge">Jekyll</span>
-        <span class="ed-badge ed-badge-mono">T</span><span class="ed-badge">Tailwind</span>
-        <span class="ed-badge ed-badge-icon"><i class="fa-brands fa-github"></i></span><span class="ed-badge">GitHub</span>
-        <span class="ed-badge ed-badge-mono">L</span><span class="ed-badge">Lucide</span>
-        <span class="ed-badge ed-badge-icon"><i class="fa-brands fa-react"></i></span><span class="ed-badge">React</span>
-        <span class="ed-badge ed-badge-icon"><i class="fa-brands fa-node"></i></span><span class="ed-badge">Node.js</span>
-        <span class="ed-badge ed-badge-icon"><i class="fa-brands fa-docker"></i></span><span class="ed-badge">Docker</span>
-        <span class="ed-badge ed-badge-icon"><i class="fa-brands fa-vercel"></i></span><span class="ed-badge">Vercel</span>
-        <span class="ed-badge ed-badge-icon"><i class="fa-brands fa-graphql"></i></span><span class="ed-badge">GraphQL</span>
+        <span class="ed-badge ed-badge-icon"><i class="fa-brands fa-github"></i></span><span class="ed-badge">GitHub Pages</span>
+        <span class="ed-badge ed-badge-mono">R</span><span class="ed-badge">Ruby</span>
+        <span class="ed-badge ed-badge-mono">L</span><span class="ed-badge">Liquid</span>
         <span class="ed-badge ed-badge-icon"><i class="fa-brands fa-html5"></i></span><span class="ed-badge">HTML5</span>
         <span class="ed-badge ed-badge-icon"><i class="fa-brands fa-css3-alt"></i></span><span class="ed-badge">CSS3</span>
-        <span class="ed-badge ed-badge-icon"><i class="fa-brands fa-figma"></i></span><span class="ed-badge">Figma</span>
+        <span class="ed-badge ed-badge-mono">W</span><span class="ed-badge">WebP</span>
+        <span class="ed-badge ed-badge-mono">S</span><span class="ed-badge">Schema.org</span>
       </div>
     </div>
     <p class="ed-bulletin-note">The stack behind F9XR Articles — open source, static, and continuously measured.</p>
@@ -211,7 +203,7 @@ keywords: "F9XR Articles, engineering digital growth, web architecture, AI integ
   <div class="ed-col ed-col-watch">
     <h3 class="ed-panel-title"><i class="fa-solid fa-circle-play" style="color:#3b82f6;"></i> Watch &amp; Learn</h3>
     <div class="ed-video">
-      <iframe class="youtube-embed" src="https://www.youtube.com/embed/l-52kGRwH_Y" title="Introducing F9XR Team: Digital Growth Agency - AI-Powered Web Design &amp; Local SEO Growth Agency" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen loading="lazy"></iframe>
+      <iframe class="youtube-embed" src="https://www.youtube-nocookie.com/embed/l-52kGRwH_Y" title="Introducing F9XR Team: Digital Growth Agency - AI-Powered Web Design &amp; Local SEO Growth Agency" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen loading="lazy"></iframe>
     </div>
     <p class="ed-video-caption">Introducing F9XR Team — AI-powered web design &amp; local SEO growth agency.</p>
     <a class="ed-panel-cta" href="https://f9xr.github.io/pages/about.html">About the team <i class="fa-solid fa-arrow-right"></i></a>

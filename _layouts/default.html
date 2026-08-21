@@ -75,8 +75,8 @@
       </style>
     </noscript>
 
-    <!-- highlight.js (deferred to avoid render-blocking) -->
-    {% if page.date %}
+    <!-- highlight.js (deferred to avoid render-blocking; only on pages with code) -->
+    {% if page.code %}
     <script defer src="{{ '/js/highlightjs/highlight.min.js' | relative_url }}"></script>
     <script defer src="{{ '/js/highlightjs/languages/plaintext.min.js' | relative_url }}"></script>
     <script defer src="{{ '/js/highlightjs/languages/powershell.min.js' | relative_url }}"></script>

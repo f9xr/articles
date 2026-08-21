@@ -1,8 +1,9 @@
 ---
 layout: post
+code: true
 title: "15+ Steps to Make Your Site Visible to AI"
 description: "Practical 2026 guide to AI search visibility: 15+ steps to help ChatGPT, Gemini, Claude, and Perplexity find, cite, and recommend your business site."
-image: "https://images.unsplash.com/photo-1460925895917-afdab827c52f?q=80&w=1200&h=630&auto=format&fit=crop"
+image: "https://f9xr.github.io/articles/assets/post-images/steps-make-business-site-visible-to-ai.webp"
 image_width: 1200
 image_height: 630
 image_credit: "Photo by <a href=\"https://unsplash.com/@kmuza?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText\" target=\"_blank\" rel=\"noopener noreferrer\">Carlos Muza</a> on <a href=\"https://unsplash.com/photos/hpjSkU2UYSU?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText\" target=\"_blank\" rel=\"noopener noreferrer\">Unsplash</a>"

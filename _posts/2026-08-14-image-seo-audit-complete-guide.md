@@ -2,7 +2,7 @@
 layout: post
 title: "Image SEO Audit: The Complete 2026 Guide"
 description: "Learn how to run a complete image SEO audit in 2026, alt text, file names, Core Web Vitals, schema, and more, with a practical step by step checklist."
-image: "https://images.unsplash.com/photo-1516035069371-29a1b244cc32?q=80&w=1200&h=630&auto=format&fit=crop"
+image: "https://f9xr.github.io/articles/assets/post-images/image-seo-audit-complete-guide.webp"
 image_width: 1200
 image_height: 630
 image_credit: "Photo by <a href=\"https://unsplash.com/@opticonor?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText\" target=\"_blank\" rel=\"noopener noreferrer\">Conor Luddy</a> on <a href=\"https://unsplash.com/photos/kf4KHfDlIIg?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText\" target=\"_blank\" rel=\"noopener noreferrer\">Unsplash</a>"

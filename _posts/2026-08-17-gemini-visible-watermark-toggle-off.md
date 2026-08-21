@@ -27,7 +27,7 @@ faq:
 
 If you have ever generated a product image, a social media graphic, or a quick promotional video with Google's Gemini and gotten annoyed by that little sparkle logo stamped in the corner, you are not alone. Enough people complained about it that Google actually did something about it.
 
-![Josh Woodward announcing the Gemini watermark toggle](https://pbs.twimg.com/media/HPr8e2CbkAAg0PQ?format=png&name=medium)
+![Josh Woodward announcing the Gemini watermark toggle](https://pbs.twimg.com/media/HPr8e2CbkAAg0PQ?format=png&name=medium){: width="1104" height="204" loading="lazy"}
 
 
 On August 14, 2026, Google confirmed a new setting that lets you switch off the visible AI watermark on content created with Gemini. This covers images made with Nano Banana, videos made with Omni, and music made with Lyria, with Search support said to be coming soon. It is a small toggle, but it solves an annoying problem for anyone using Gemini to create client work, marketing assets, or polished business content.
