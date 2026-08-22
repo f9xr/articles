@@ -25,7 +25,7 @@ faq:
     a: "It appears connected to a change in how ChatGPT selects and queries sources, evidenced by the sharp rise in site: operator usage starting August 8, 2026. However, this hasn't been officially confirmed by OpenAI as the direct cause of Reddit's citation collapse."
 ---
 
-If you've been building any part of your content or marketing strategy around getting mentioned inside AI chat answers, the [Reddit ChatGPT citation drop](https://www.promptwatch.com){:target="_blank" rel="noopener noreferrer"} should get your full attention. In the span of about a week in mid-August 2026, one of the most consistently cited domains on the entire internet nearly vanished from ChatGPT's search results.
+If you've been building any part of your content or marketing strategy around getting mentioned inside AI chat answers, the [Reddit ChatGPT citation drop](https://promptwatch.com/data/reddit-citations-are-dropping-in-chatgpt){:target="_blank" rel="noopener noreferrer"} should get your full attention. In the span of about a week in mid-August 2026, one of the most consistently cited domains on the entire internet nearly vanished from ChatGPT's search results.
 
 This isn't a small statistical wobble. Reddit went from holding a steady, meaningful share of ChatGPT Search citations to almost disappearing from them, practically overnight. And here's the part that should worry any business owner leaning on AI search visibility: nobody, including the analytics firm that first spotted it, can say with full confidence exactly why it happened.
 
@@ -41,15 +41,18 @@ Let's get precise about the numbers, since a lot of the online chatter around th
 
 ### The Core Data
 
-According to GEO analytics firm Promptwatch, which tracks daily citation data across ChatGPT Search, Google AI Overviews, and Google AI Mode, reddit.com held a steady average of **3.83 percent** of all ChatGPT Search citations from July 18 through August 7, 2026. That's a substantial share for a single domain, and reporting from [Forbes](https://www.forbes.com){:target="_blank" rel="noopener noreferrer"} noted Reddit had actually been the single most-cited domain in ChatGPT Search as recently as April 2026, at 4.14 percent of all citations.
+According to GEO analytics firm Promptwatch, which tracks daily citation data across ChatGPT Search, Google AI Overviews, and Google AI Mode, reddit.com held a steady average of **3.83 percent** of all ChatGPT Search citations from July 18 through August 7, 2026. That's a substantial share for a single domain, and reporting from [Forbes](https://www.forbes.com/sites/gabrielalinzainescu/2026/08/20/reddit-nearly-vanishes-from-chatgpt-citations-after-openai-search-change){:target="_blank" rel="noopener noreferrer"} noted Reddit had actually been the single most-cited domain in ChatGPT Search as recently as April 2026, at 4.14 percent of all citations.
 
 Then, starting August 14, that share fell below 1 percent and stayed there. The average for August 14 through 17 settled at just **0.52 percent**, an 86.4 percent relative decline in a matter of days.
+
+<img src="https://cdn.sanity.io/images/k0cx5eld/production/73cd44019c508d7ddd1ec84230ab72c6d313fb1b-1656x1149.png" alt="Chart showing Reddit's share of ChatGPT Search citations collapsing from 3.83 percent to 0.52 percent in August 2026" title="Reddit's ChatGPT citation share collapse, tracked by Promptwatch" width="1656" height="1149" loading="lazy" />
+<p style="text-align:center; color:#71717a; font-size:0.85em; margin-top:0.5em;">Image Credit: <a href="https://promptwatch.com/data/reddit-citations-are-dropping-in-chatgpt" target="_blank" rel="noopener noreferrer" style="color:#71717a; text-decoration:underline;">promptwatch.com</a></p>
 
 ### The Two-Stage Timeline
 
 Promptwatch's data actually shows two separate movements, not one single event:
 
-* **August 8:** Reddit's citation share began sliding from the high 3 percent range into the mid 2 percent range. This date lines up with a separate, independently measured change: ChatGPT's use of the "site:" search operator in its background queries jumped from about 0.4 percent to nearly 17 percent of its fanout queries that same day, and kept climbing afterward.
+* **August 8:** Reddit's citation share began sliding from the high 3 percent range into the mid 2 percent range. This date lines up with a separate, independently measured change: [ChatGPT's use of the "site:" search operator](https://promptwatch.com/data/chatgpt-site-operator-fanouts){:target="_blank" rel="noopener noreferrer"} in its background queries jumped from about 0.4 percent to nearly 17 percent of its fanout queries that same day, and kept climbing afterward.
 * **August 14:** A much sharper cliff followed, dropping Reddit's share below 1 percent within a single day, where it has remained since.
 
 ### Google's AI Products Show a Different Pattern Entirely
@@ -80,9 +83,9 @@ This strongly suggests the change is specific to how ChatGPT itself selects and 
 
 This is where honesty matters more than a tidy explanation. Multiple outlets initially tied the drop directly to ChatGPT's August 8 change in query fanout behavior, the technical process ChatGPT uses to generate background search queries when answering a prompt. That explanation spread quickly across tech and trade coverage.
 
-But [Search Engine Journal's](https://www.searchenginejournal.com){:target="_blank" rel="noopener noreferrer"} reporting pointed out a real problem with that theory: the timing doesn't fully line up. The August 8 change coincided with a more moderate decline, from the high 3 percent range into the mid 2 percent range. The much sharper collapse happened six days later, on August 14, without a clearly identified corresponding technical change on that date.
+But [Search Engine Journal's](https://www.searchenginejournal.com/why-reddits-chatgpt-citation-drop-isnt-fully-explained/586479/){:target="_blank" rel="noopener noreferrer"} reporting pointed out a real problem with that theory: the timing doesn't fully line up. The August 8 change coincided with a more moderate decline, from the high 3 percent range into the mid 2 percent range. The much sharper collapse happened six days later, on August 14, without a clearly identified corresponding technical change on that date.
 
-Promptwatch's own co-founder and CTO, Klaas Foppen, has been notably careful about this. In a company blog post, Foppen wrote that a shift in ChatGPT's source selection is the obvious candidate explanation, but that a data collection issue on Promptwatch's end can't be ruled out either, and that the size of the drop should be treated as provisional while monitoring continues.
+Promptwatch's own co-founder and CTO, Klaas Foppen, has been notably careful about this. In a [company blog post](https://promptwatch.com/blog/chatgpt-stop-citing-reddit){:target="_blank" rel="noopener noreferrer"}, Foppen wrote that a shift in ChatGPT's source selection is the obvious candidate explanation, but that a data collection issue on Promptwatch's end can't be ruled out either, and that the size of the drop should be treated as provisional while monitoring continues.
 
 So here's the honest current state of things: something clearly changed in how ChatGPT selects and cites sources, the increased use of the "site:" search operator is a real, independently measured shift happening around the same window, and Reddit's citation collapse is real and well documented. But a fully confirmed, specific cause hasn't been established yet, and the firm that found the data is openly saying so.
 
@@ -91,6 +94,9 @@ So here's the honest current state of things: something clearly changed in how C
 One useful angle for understanding this: tracking which domains gained citation share as Reddit's fell can reveal what ChatGPT is now treating as a substitute authority for the same types of queries, whether that's first-party brand websites, review platforms, or other community forums. This is exactly the kind of comparative analysis worth watching as more data becomes available.
 
 ---
+
+<img src="https://images.unsplash.com/photo-1616509091215-57bbece93654?q=80&w=1674&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="Red and white Reddit logo" title="Reddit's visibility inside ChatGPT answers changed almost overnight" width="1674" height="1256" loading="lazy" />
+<p style="text-align:center; color:#71717a; font-size:0.85em; margin-top:0.5em;">Photo by <a href="https://unsplash.com/@brett_jordan?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText" target="_blank" rel="noopener noreferrer" style="color:#71717a; text-decoration:underline;">Brett Jordan</a> on <a href="https://unsplash.com/photos/red-and-white-8-logo-0FytazjHhxs?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText" target="_blank" rel="noopener noreferrer" style="color:#71717a; text-decoration:underline;">Unsplash</a></p>
 
 ## How Reddit Itself Is Responding
 
