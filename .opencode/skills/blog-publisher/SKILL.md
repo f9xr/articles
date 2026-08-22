@@ -155,19 +155,12 @@ Add tables where comparisons or data help clarity.
 - Blockquotes for key takeaways or quotes
 - Horizontal rules (`---`) between major sections
 - Article length: 2000-2500 words
-- Include the full content prompt (this section, starting from "Follow this content brief...") as visible context in the post body
 
-**Post-prompt inclusion:**
-Place this exact text at the very end of the article body (before the JSON-LD script), formatted as a comment in the Markdown:
+**AI disclosure (required):**
+NEVER add hidden HTML comments describing the content-generation process to any post. Hidden prompt/brief comments in page source are a critical trust leak (audited and removed from all posts on 2026-08-22; do not reintroduce them). Instead, place this visible disclosure line immediately after the article's intro paragraphs, before the first `---`:
 
 ```
-<!--
-This article was written following the F9XR Blog Publisher content brief:
-Act as an expert SEO strategist, content writer, and Answer Engine Optimization (AEO) specialist.
-Target keyword: [KEYWORD]
-Target audience: Business owners, startups, and local businesses.
-Optimized for Google Search and AI engines (ChatGPT, Gemini, Claude, Perplexity).
--->
+*Produced using AI-assisted research and drafting workflows, then reviewed and edited by the F9XR editorial team. See our [Editorial Policy](https://f9xr.github.io/articles/press/editorial-policy.html) for how we create and verify content.*
 ```
 
 ### 3a. Generate These Deliverables
