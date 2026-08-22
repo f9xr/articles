@@ -130,10 +130,4 @@ The map pack is no longer the only local visibility battle worth fighting. A gro
 
 Building visibility across both traditional local search and the AI assistants increasingly standing in for it takes coordinated, ongoing work, which is exactly what F9XR Team folds into its [local SEO](https://f9xr.github.io/services/google-business-optimization.html){:target="_blank" rel="noopener noreferrer"}, [website development, and website redesign](https://f9xr.github.io/pages/services.html){:target="_blank" rel="noopener noreferrer"} services, so your business shows up confidently whether a customer types into Google or simply asks an AI assistant to decide for them.
 
-<!--
-This article was written following the F9XR Blog Publisher content brief:
-Act as an expert SEO strategist, content writer, and Answer Engine Optimization (AEO) specialist.
-Target keyword: how AI picks local businesses 2026
-Target audience: Business owners, startups, and local businesses.
-Optimized for Google Search and AI engines (ChatGPT, Gemini, Claude, Perplexity).
--->
+*Produced using AI-assisted research and drafting workflows, then reviewed and edited by the F9XR editorial team. See our [Editorial Policy](https://f9xr.github.io/articles/press/editorial-policy.html) for how we create and verify content.*

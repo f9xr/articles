@@ -209,10 +209,4 @@ The Google August 2026 spam update is, by design, an unglamorous piece of news: 
 
 For everyone else producing genuine, useful content about their actual business, this update is mostly background noise worth being aware of, not worried about. If you want a professional set of eyes on your website's content health, technical SEO, or overall digital presence before the next update rolls around, the [F9XR Team](https://f9xr.github.io/pages/services.html){:target="_blank" rel="noopener noreferrer"} works with business owners and local brands on exactly this kind of ongoing website development, website redesign, and local SEO strategy. Making sure your [essential txt files](https://f9xr.github.io/articles/2026/08/08/essential-txt-files-seo-aeo-geo-2026.html){:target="_blank" rel="noopener noreferrer"} are properly configured is one of the quieter but foundational steps that helps your site stay visible through every update.
 
-<!--
-This article was written following the F9XR Blog Publisher content brief:
-Act as an expert SEO strategist, content writer, and Answer Engine Optimization (AEO) specialist.
-Target keyword: Google Spam Update
-Target audience: Business owners, startups, and local businesses.
-Optimized for Google Search and AI engines (ChatGPT, Gemini, Claude, Perplexity).
--->
+*Produced using AI-assisted research and drafting workflows, then reviewed and edited by the F9XR editorial team. See our [Editorial Policy](https://f9xr.github.io/articles/press/editorial-policy.html) for how we create and verify content.*

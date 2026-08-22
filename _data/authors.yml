@@ -3,13 +3,32 @@
 "F9XR Editorial Team":
   name: "F9XR Editorial Team"
   role: "Digital Architecture Agency"
-  avatar: "https://f9xr.github.io/logo.webp"
+  avatar: "https://f9xr.github.io/articles/logo.webp"
   url: "/authors/f9xr-team/"
   linkedin: "https://linkedin.com/company/f9xrteam"
   instagram: "https://instagram.com/f9xrteam"
   github: "https://github.com/f9xr"
   threads: "https://www.threads.com/@f9xrteam"
   youtube: "https://www.youtube.com/@QuarterlyLIV"
+  knowsAbout:
+    - "Web Architecture"
+    - "Web Performance"
+    - "Technical SEO"
+    - "Local SEO"
+    - "Google Business Profile"
+    - "AI Integration"
+    - "Chatbot Development"
+    - "Digital Presence Strategy"
+  experience:
+    - title: "Digital Architecture and SEO Practice"
+      company: "F9XR Team"
+      company_url: "https://f9xr.github.io"
+      employment_type: "Full-time"
+      period: "Ongoing"
+      location: "India"
+      highlights:
+        - "Delivered 40+ digital properties, including news networks, fintech dashboards, and AI platforms"
+        - "Runs technical SEO audits covering crawlability, schema, Core Web Vitals, and content quality"
 
 "Mohammed Ahetasham Uddin":
   name: "Mohammed Ahetasham Uddin"
@@ -19,3 +38,24 @@
   email: "ahetashamuddin@gmail.com"
   linkedin: "https://www.linkedin.com/in/ahetasham-uddin-4b9797295"
   instagram: "https://www.instagram.com/ahetasham_"
+  knowsAbout:
+    - "Client Relations"
+    - "Financial Markets"
+    - "Strategic Marketing"
+    - "Digital Marketing"
+    - "Search Engine Optimization"
+  education:
+    - degree: "B.Com (Hons), Bachelor of Commerce"
+      school: "Gitam University"
+    - degree: "ACCA Qualification"
+      school: "Association of Chartered Certified Accountants (ACCA)"
+      extra: "Active candidate"
+  experience:
+    - title: "Client Relations Associate"
+      company: "F9XR Team"
+      company_url: "https://f9xr.github.io"
+      employment_type: "Full-time"
+      period: "Present"
+      location: "India"
+      highlights:
+        - "Helps businesses turn digital presence into measurable growth, from AI-powered web design to local SEO systems"

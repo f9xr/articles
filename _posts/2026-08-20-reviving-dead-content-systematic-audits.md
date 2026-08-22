@@ -148,10 +148,4 @@ The instinct to always write something new is understandable, but the data tells
 
 Building that kind of ongoing content auditing process, alongside a strong website foundation to support it, is the work F9XR Team brings to its [website development](https://f9xr.github.io/pages/services.html){:target="_blank" rel="noopener noreferrer"}, [website redesign](https://f9xr.github.io/pages/services.html){:target="_blank" rel="noopener noreferrer"}, and [local SEO](https://f9xr.github.io/pages/services.html){:target="_blank" rel="noopener noreferrer"} services, so the content a business has already invested in keeps earning its place instead of quietly decaying in the background.
 
-<!--
-This article was written following the F9XR Blog Publisher content brief:
-Act as an expert SEO strategist, content writer, and Answer Engine Optimization (AEO) specialist.
-Target keyword: content refresh strategy
-Target audience: Business owners, startups, and local businesses.
-Optimized for Google Search and AI engines (ChatGPT, Gemini, Claude, Perplexity).
--->
+*Produced using AI-assisted research and drafting workflows, then reviewed and edited by the F9XR editorial team. See our [Editorial Policy](https://f9xr.github.io/articles/press/editorial-policy.html) for how we create and verify content.*

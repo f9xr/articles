@@ -530,7 +530,7 @@ layout: default
     "url": "https://f9xr.github.io",
     "logo": {
       "@type": "ImageObject",
-      "url": "https://f9xr.github.io/logo.webp",
+      "url": {{ '/logo.webp' | absolute_url | jsonify }},
       "width": 200,
       "height": 200
     },
@@ -612,13 +612,13 @@ layout: default
   "thumbnailUrl": "https://img.youtube.com/vi/{{ page.youtube_id }}/maxresdefault.jpg",
   "embedUrl": "https://www.youtube.com/embed/{{ page.youtube_id }}",
   "uploadDate": "{{ page.date | date_to_xmlschema }}",
-  "duration": "{{ page.video_duration | default: 'PT10M0S' }}",
+  {% if page.video_duration %}"duration": "{{ page.video_duration }}",{% endif %}
   "publisher": {
     "@type": "Organization",
     "name": "F9XR Team",
     "logo": {
       "@type": "ImageObject",
-      "url": "https://f9xr.github.io/logo.webp"
+      "url": {{ '/logo.webp' | absolute_url | jsonify }}
     }
   }
 }

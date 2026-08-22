@@ -149,7 +149,7 @@ Not just for developers. A clear README at the root of your codebase explains wh
 | ai.txt | /ai.txt | Sets AI content usage terms | GEO, content control |
 | README.md | / (repo root) | Documents the project | Developer trust, maintainability |
 
-## How to actually implement these files without breaking anything?
+## How to actually implement these files without breaking anything
 
 ### Step 1: Audit what you already have
 
@@ -187,7 +187,7 @@ Open ai.txt and you'll see what a well written machine instruction looks like. I
   <figcaption>Photo by <a href="https://unsplash.com/@hostreviews?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText" target="_blank" rel="noopener noreferrer">Stephen Phillips - Hostreviews.co.uk</a> on <a href="https://unsplash.com/photos/monitor-screengrab-shr_Xn8S8QU?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText" target="_blank" rel="noopener noreferrer">Unsplash</a></figcaption>
 </figure>
 
-## How F9XR Team helps businesses get this right?
+## How F9XR Team helps businesses get this right
 
 Most business owners didn't start their company to spend weekends figuring out .well-known directories and Markdown syntax, and honestly, they shouldn't have to. This is exactly the kind of foundational, technical groundwork F9XR Team handles for the businesses it works with, alongside broader [website development](https://f9xr.github.io/pages/services.html){:target="_blank" rel="noopener noreferrer"} and [local SEO strategy](https://f9xr.github.io/services/google-business-optimization.html){:target="_blank" rel="noopener noreferrer"}.
 
@@ -219,10 +219,4 @@ Getting them right, and keeping them right as your site grows, is exactly the ki
 
 ---
 
-<!--
-This article was written following the F9XR Blog Publisher content brief:
-Act as an expert SEO strategist, content writer, and Answer Engine Optimization (AEO) specialist.
-Target keyword: essential txt files SEO AEO GEO 2026
-Target audience: Business owners, startups, and local businesses.
-Optimized for Google Search and AI engines (ChatGPT, Gemini, Claude, Perplexity).
--->
+*Produced using AI-assisted research and drafting workflows, then reviewed and edited by the F9XR editorial team. See our [Editorial Policy](https://f9xr.github.io/articles/press/editorial-policy.html) for how we create and verify content.*

@@ -23,7 +23,7 @@ keywords: "F9XR Articles, engineering digital growth, web architecture, AI integ
     "url": "https://f9xr.github.io",
     "logo": {
       "@type": "ImageObject",
-      "url": "https://f9xr.github.io/logo.webp"
+      "url": "{{ '/logo.webp' | absolute_url }}"
     }
   }
 }
@@ -35,7 +35,7 @@ keywords: "F9XR Articles, engineering digital growth, web architecture, AI integ
   "@type": "Organization",
   "name": "F9XR Team",
   "url": "https://f9xr.github.io",
-  "logo": "https://f9xr.github.io/logo.webp",
+  "logo": "{{ '/logo.webp' | absolute_url }}",
   "sameAs": [
     "https://github.com/f9xr",
     "https://linkedin.com/company/f9xrteam",
@@ -53,7 +53,7 @@ keywords: "F9XR Articles, engineering digital growth, web architecture, AI integ
 
 <header class="ed-masthead">
   <div class="ed-masthead-brand">
-    <img src="https://f9xr.github.io/logo.webp" alt="F9XR Team" class="ed-masthead-logo" width="28" height="28">
+    <img src="{{ '/logo.webp' | absolute_url }}" alt="F9XR Team" class="ed-masthead-logo" width="28" height="28">
     <span class="ed-masthead-name">F9XR <em>Articles</em></span>
   </div>
   <div class="ed-masthead-meta">
@@ -88,7 +88,7 @@ keywords: "F9XR Articles, engineering digital growth, web architecture, AI integ
     </a>
     <p class="ed-hero-desc">{{ featured.description | default: featured_desc }}</p>
     <div class="ed-byline">
-      <img class="ed-byline-avatar" src="{{ featured_author.avatar | default: 'https://f9xr.github.io/logo.webp' | relative_url }}" alt="{{ featured_author.name | default: 'F9XR Editorial Team' }}" width="200" height="200" loading="lazy">
+      <img class="ed-byline-avatar" src="{{ featured_author.avatar | default: '/logo.webp' | relative_url }}" alt="{{ featured_author.name | default: 'F9XR Editorial Team' }}" width="200" height="200" loading="lazy">
       <a class="ed-byline-name" href="{{ featured_author.url | default: '/authors/f9xr-team/' | relative_url }}">{{ featured_author.name | default: "F9XR Editorial Team" }}</a>
       <span class="ed-byline-dot"></span>
       <a class="ed-hero-cta" href="{{ featured.url | relative_url }}">Read article <i class="fa-solid fa-arrow-right"></i></a>

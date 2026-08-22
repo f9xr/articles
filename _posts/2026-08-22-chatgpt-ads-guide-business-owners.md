@@ -215,10 +215,4 @@ ChatGPT Ads mark a real shift in how advertising can work, moving brand messagin
 
 The smart approach is treating ChatGPT Ads as one part of a diversified marketing strategy, not a replacement for what's already working. If you want help evaluating whether this channel deserves a place in your marketing budget, alongside the local SEO, website, and digital presence work that continues to drive proven results, teams like the [F9XR Team](https://f9xr.github.io/pages/services.html){:target="_blank" rel="noopener noreferrer"} work with business owners on exactly this kind of strategic, diversified digital marketing approach.
 
-<!--
-This article was written following the F9XR Blog Publisher content brief:
-Act as an expert SEO strategist, content writer, and Answer Engine Optimization (AEO) specialist.
-Target keyword: ChatGPT Ads
-Target audience: Business owners, startups, and local businesses.
-Optimized for Google Search and AI engines (ChatGPT, Gemini, Claude, Perplexity).
--->
+*Produced using AI-assisted research and drafting workflows, then reviewed and edited by the F9XR editorial team. See our [Editorial Policy](https://f9xr.github.io/articles/press/editorial-policy.html) for how we create and verify content.*

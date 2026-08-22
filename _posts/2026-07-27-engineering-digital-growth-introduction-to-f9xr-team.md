@@ -7,8 +7,6 @@ image_width: 1600
 image_height: 893
 dateModified: 2026-07-28
 author: "F9XR Editorial Team"
-youtube_id: "05cr4W9uyA"
-video_duration: "PT3M45S"
 tags: [F9XR, web development, AI integration, local SEO, digital architecture, web performance]
 keywords: "F9XR Team, web development agency, AI integration, local SEO, Google Business optimization, web performance, digital architecture, WordPress development, GPT chatbot, India tech company"
 faq:
@@ -138,9 +136,9 @@ We follow a structured methodology that treats every project as an engineering p
 
 Beyond client projects, we build and maintain our own digital assets:
 
-- **Foil AI** ([foilai.in](https://foilai.in){:target="_blank" rel="noopener noreferrer"}) — Next-generation AI image generation
-- **VroAI** ([vroai.in](https://vroai.in){:target="_blank" rel="noopener noreferrer"}) — Advanced AI chatbot and GPT service platform
-- **iCryptos Dashboards** ([ttearncrypto.github.io](https://ttearncrypto.github.io){:target="_blank" rel="noopener noreferrer"}) — Fintech analytics dashboards built on React
+- **Foil AI** — Next-generation AI image generation
+- **VroAI** — Advanced AI chatbot and GPT service platform
+- **iCryptos Dashboards** — Fintech analytics dashboards built on React
 - **40+ Digital Portals** — news networks, tools, and business platforms globally
 
 These aren't side projects. They're live systems that generate revenue, serve real users, and stress-test the same techniques we apply to client work. When we recommend a caching strategy or an AI workflow, it's because we've already deployed it in production.

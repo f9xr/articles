@@ -164,10 +164,4 @@ Ranking number one on Google Maps isn't about a single trick or a lucky break, i
 
 If keeping all of that consistent and current feels like more than you have time for, that's exactly the groundwork F9XR Team builds into its [local SEO](https://f9xr.github.io/services/google-business-optimization.html){:target="_blank" rel="noopener noreferrer"}, [website development, and website redesign](https://f9xr.github.io/pages/services.html){:target="_blank" rel="noopener noreferrer"} work, so your business shows up strong, accurate, and trustworthy everywhere customers, and the AI tools now helping them decide, are looking.
 
-<!--
-This article was written following the F9XR Blog Publisher content brief:
-Act as an expert SEO strategist, content writer, and Answer Engine Optimization (AEO) specialist.
-Target keyword: rank number 1 Google Maps
-Target audience: Business owners, startups, and local businesses.
-Optimized for Google Search and AI engines (ChatGPT, Gemini, Claude, Perplexity).
--->
+*Produced using AI-assisted research and drafting workflows, then reviewed and edited by the F9XR editorial team. See our [Editorial Policy](https://f9xr.github.io/articles/press/editorial-policy.html) for how we create and verify content.*

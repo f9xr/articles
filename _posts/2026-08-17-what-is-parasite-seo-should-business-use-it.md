@@ -139,10 +139,4 @@ Parasite SEO isn't a single tactic to embrace or avoid outright, it's a spectrum
 
 Whichever platforms you choose to publish on, they work best as a layer on top of a genuinely strong website, not a substitute for one. That foundational work, [website development](https://f9xr.github.io/pages/services.html){:target="_blank" rel="noopener noreferrer"}, [website redesign](https://f9xr.github.io/pages/services.html){:target="_blank" rel="noopener noreferrer"}, and [local SEO](https://f9xr.github.io/services/google-business-optimization.html){:target="_blank" rel="noopener noreferrer"} built to actually convert the attention you earn, is exactly where F9XR Team focuses, so every piece of content you publish, on your own site or someone else's, has something credible to point back to.
 
-<!--
-This article was written following the F9XR Blog Publisher content brief:
-Act as an expert SEO strategist, content writer, and Answer Engine Optimization (AEO) specialist.
-Target keyword: parasite SEO 2026
-Target audience: Business owners, startups, and local businesses.
-Optimized for Google Search and AI engines (ChatGPT, Gemini, Claude, Perplexity).
--->
+*Produced using AI-assisted research and drafting workflows, then reviewed and edited by the F9XR editorial team. See our [Editorial Policy](https://f9xr.github.io/articles/press/editorial-policy.html) for how we create and verify content.*

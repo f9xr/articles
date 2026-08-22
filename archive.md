@@ -37,7 +37,7 @@ keywords: "F9XR articles archive, web architecture, AI integration, local SEO, d
 
 <header class="ed-masthead">
   <div class="ed-masthead-brand">
-    <img src="https://f9xr.github.io/logo.webp" alt="F9XR Team" class="ed-masthead-logo" width="28" height="28">
+    <img src="{{ '/logo.webp' | absolute_url }}" alt="F9XR Team" class="ed-masthead-logo" width="28" height="28">
     <span class="ed-masthead-name">F9XR <em>Articles</em></span>
   </div>
   <div class="ed-masthead-meta">

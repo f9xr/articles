@@ -138,10 +138,4 @@ If you need help implementing this, teams like F9XR specialize in [website devel
 
 *Sources: SQ Magazine (2026), aboutchromebooks.com Mobile Website Traffic Statistics (2026), TechnologyChecker.io Mobile Internet Usage by Country (2026), Marketing LTB Mobile Traffic Statistics (2026), The Stacc Mobile Search Statistics (2026), Scalify.ai What Percentage of Web Traffic Is Mobile (2026).*
 
-<!--
-This article was written following the F9XR Blog Publisher content brief:
-Act as an expert SEO strategist, content writer, and Answer Engine Optimization (AEO) specialist.
-Target keyword: mobile-first design
-Target audience: Business owners, startups, and local businesses.
-Optimized for Google Search and AI engines (ChatGPT, Gemini, Claude, Perplexity).
--->
+*Produced using AI-assisted research and drafting workflows, then reviewed and edited by the F9XR editorial team. See our [Editorial Policy](https://f9xr.github.io/articles/press/editorial-policy.html) for how we create and verify content.*

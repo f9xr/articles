@@ -203,10 +203,4 @@ The fact that AI companies are simultaneously buying up old, printed books to av
 
 For business owners, the smartest response isn't panic, it's adaptation. Treat AI tools as a starting point, invest in genuine expertise and original content, and stop assuming AI-generated text is invisible or untraceable. If you want help building a content and digital strategy that holds up regardless of how AI detection technology evolves, teams like the [F9XR Team](https://f9xr.github.io/pages/services.html){:target="_blank" rel="noopener noreferrer"} work with business owners and local brands on exactly this kind of website development, website redesign, and local SEO strategy every day.
 
-<!--
-This article was written following the F9XR Blog Publisher content brief:
-Act as an expert SEO strategist, content writer, and Answer Engine Optimization (AEO) specialist.
-Target keyword: AI companies buying old books
-Target audience: Business owners, startups, and local businesses.
-Optimized for Google Search and AI engines (ChatGPT, Gemini, Claude, Perplexity).
--->
+*Produced using AI-assisted research and drafting workflows, then reviewed and edited by the F9XR editorial team. See our [Editorial Policy](https://f9xr.github.io/articles/press/editorial-policy.html) for how we create and verify content.*

@@ -201,10 +201,4 @@ Reddit's sudden disappearance from ChatGPT's citation pool is a striking example
 
 The businesses that come out ahead of moments like this are the ones treating AI search visibility as one part of a broader, diversified digital strategy, not the whole strategy. If you want a clearer picture of how your business currently shows up across ChatGPT, Google AI Overviews, Gemini, Claude, and Perplexity, teams like the [F9XR Team](https://f9xr.github.io/pages/services.html){:target="_blank" rel="noopener noreferrer"} work with business owners on exactly this kind of AI visibility strategy, alongside website development, website redesign, and local SEO.
 
-<!--
-This article was written following the F9XR Blog Publisher content brief:
-Act as an expert SEO strategist, content writer, and Answer Engine Optimization (AEO) specialist.
-Target keyword: Reddit ChatGPT citation drop
-Target audience: Business owners, startups, and local businesses.
-Optimized for Google Search and AI engines (ChatGPT, Gemini, Claude, Perplexity).
--->
+*Produced using AI-assisted research and drafting workflows, then reviewed and edited by the F9XR editorial team. See our [Editorial Policy](https://f9xr.github.io/articles/press/editorial-policy.html) for how we create and verify content.*

@@ -165,12 +165,4 @@ Twenty hours a week is a realistic outcome once a business starts combining the 
 
 That last piece is where F9XR Team specializes, website development, website redesign, local SEO, and broader digital presence solutions, backed by tools like the SEO Codebase Auditor skill. You can [reach the team here](https://f9xr.github.io/pages/contact.html){:target="_blank" rel="noopener noreferrer"}.
 
-<!--
-This article was written following the F9XR Blog Publisher content brief:
-Act as an expert SEO strategist, content writer, and Answer Engine Optimization (AEO) specialist.
-Target keyword: AI skills for marketers
-Target audience: Business owners, startups, and local businesses.
-Optimized for Google Search and AI engines (ChatGPT, Gemini, Claude, Perplexity).
--->
-
-
+*Produced using AI-assisted research and drafting workflows, then reviewed and edited by the F9XR editorial team. See our [Editorial Policy](https://f9xr.github.io/articles/press/editorial-policy.html) for how we create and verify content.*
