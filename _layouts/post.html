@@ -499,8 +499,9 @@ layout: default
 
 </article>
 
-<!-- JSON-LD Structured Data -->
-<script type="application/ld+json">
+<!-- JSON-LD Structured Data (captured then emitted via dynamic type so editors don't parse templates as JSON) -->
+{%- assign ld_json_type = 'application/ld+json' -%}
+{% capture blogposting_ld %}
 {
   "@context": "https://schema.org",
   "@type": "BlogPosting",
@@ -550,10 +551,11 @@ layout: default
   "keywords": "{{ page.tags | join: ', ' | default: 'F9XR, web development, AI, SEO, digital architecture' }}",
   "inLanguage": "{{ site.lang }}"
 }
-</script>
+{% endcapture %}
+<script type="{{ ld_json_type }}">{{ blogposting_ld }}</script>
 
 <!-- BreadcrumbList Structured Data -->
-<script type="application/ld+json">
+{% capture breadcrumb_ld %}
 {
   "@context": "https://schema.org",
   "@type": "BreadcrumbList",
@@ -577,11 +579,12 @@ layout: default
     }
   ]
 }
-</script>
+{% endcapture %}
+<script type="{{ ld_json_type }}">{{ breadcrumb_ld }}</script>
 
 {% if page.faq and page.faq.size > 0 %}
 <!-- FAQPage Structured Data -->
-<script type="application/ld+json">
+{% capture faqpage_ld %}
 {
   "@context": "https://schema.org",
   "@type": "FAQPage",
@@ -598,12 +601,13 @@ layout: default
     {% endfor %}
   ]
 }
-</script>
+{% endcapture %}
+<script type="{{ ld_json_type }}">{{ faqpage_ld }}</script>
 {% endif %}
 
 {% if page.youtube_id %}
 <!-- VideoObject Structured Data -->
-<script type="application/ld+json">
+{% capture videoobject_ld %}
 {
   "@context": "https://schema.org",
   "@type": "VideoObject",
@@ -622,7 +626,8 @@ layout: default
     }
   }
 }
-</script>
+{% endcapture %}
+<script type="{{ ld_json_type }}">{{ videoobject_ld }}</script>
 {% endif %}
 
 <script>
