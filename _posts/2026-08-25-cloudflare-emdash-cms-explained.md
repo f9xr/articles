@@ -186,6 +186,19 @@ If you're weighing your website platform options and want a clear-eyed recommend
 
 ---
 
+## Sources
+
+1. [Cloudflare's official EmDash announcement](https://blog.cloudflare.com/emdash-wordpress){:target="_blank" rel="noopener noreferrer"} - blog.cloudflare.com
+2. [The EmDash GitHub repository](https://github.com/emdash-cms/emdash){:target="_blank" rel="noopener noreferrer"} - github.com
+3. [Joost de Valk's detailed technical assessment of EmDash](https://joost.blog/emdash-cms/){:target="_blank" rel="noopener noreferrer"} - joost.blog
+4. [SiliconANGLE's coverage of the EmDash launch](https://siliconangle.com/2026/04/02/cloudflare-debuts-emdash-challenge-aging-wordpress-ai-native-cms/){:target="_blank" rel="noopener noreferrer"} - siliconangle.com
+5. [CMSWire's analysis including Matt Mullenweg's response](https://www.cmswire.com/digital-experience/meet-emdash-the-cloudflare-cms-and-the-wordpress-spiritual-successor/){:target="_blank" rel="noopener noreferrer"} - cmswire.com
+6. [EmDash official site](https://emdashcms.com/){:target="_blank" rel="noopener noreferrer"} - emdashcms.com
+7. [EmDash launch blog post](https://emdashcms.com/blog/emdash-is-live){:target="_blank" rel="noopener noreferrer"} - emdashcms.com
+8. [Cloudflare blog runs on EmDash](https://blog.cloudflare.com/cloudflare-blog-uses-emdash/){:target="_blank" rel="noopener noreferrer"} - blog.cloudflare.com
+
+---
+
 ## Conclusion
 
 EmDash is an interesting technical achievement, and Cloudflare has clearly thought carefully about what a content management system built for an AI-driven web should look like. Whether it actually manages to challenge WordPress's dominance is a different question entirely, one that will take years, not months, to answer. For now, most businesses are better served by proven, established platforms, while technically sophisticated teams have good reason to start exploring EmDash as an early mover.
