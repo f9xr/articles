@@ -29,8 +29,6 @@ One thing worth knowing upfront: SEM, search engine marketing, covers both sides
 
 This is the complete breakdown: every core SEM metric, what it actually measures, how the Google Ads auction really works, how to use negative keywords and match types to stop wasting money, and what good performance actually looks like in 2026, with real benchmark numbers, not vague generalities.
 
-*Produced using AI-assisted research and drafting workflows, then reviewed and edited by the F9XR editorial team. See our [Editorial Policy](https://f9xr.github.io/articles/press/editorial-policy.html) for how we create and verify content.*
-
 ---
 
 ## What SEM Actually Covers
@@ -190,3 +188,5 @@ F9XR Team combines this kind of paid search discipline with its broader [website
 SEM metrics aren't a wall of intimidating jargon, they're a connected diagnostic system, each number pointing toward exactly what's working and what's quietly costing you money. Understanding how CTR, CPC, Quality Score, conversion rate, and ROAS relate to each other, alongside disciplined match type selection and an actively maintained negative keyword list, turns a confusing dashboard into a useful decision making tool.
 
 Getting all of this right, and keeping it right as competition, seasonality, and the auction itself keep shifting, takes detailed attention over time. That's exactly the kind of work teams like F9XR bring to their website development, website redesign, and local SEO services, making sure the landing pages behind your campaigns, and your broader digital presence, are actually built to turn that hard won traffic into real customers.
+
+*Produced using AI-assisted research and drafting workflows, then reviewed and edited by the F9XR editorial team. See our [Editorial Policy](https://f9xr.github.io/articles/press/editorial-policy.html) for how we create and verify content.*

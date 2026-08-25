@@ -32,9 +32,7 @@ In April 2026, Cloudflare launched EmDash, a brand new, open-source content mana
 
 What makes EmDash different, though, isn't just that it's newer or faster. It's built specifically around AI agents being able to manage, edit, and even build on your website directly, alongside solving a security problem that's plagued WordPress for years: plugin vulnerabilities. If you're a business owner thinking about your next website build, or wondering whether your current WordPress site is starting to show its age, this deserves a clear look.
 
-*Produced using AI-assisted research and drafting workflows, then reviewed and edited by the F9XR editorial team. See our [Editorial Policy](https://f9xr.github.io/articles/press/editorial-policy.html) for how we create and verify content.*
-
-https://blog.cloudflare.com/_image?href=https%3A%2F%2Fblog.cloudflare.com%2F_emdash%2Fapi%2Fmedia%2Ffile%2F01KW4754MFRWRNRCVC8C5KK84F.png&w=1080&h=804&f=webp&fit=cover&position=center
+![EmDash CMS architecture overview showing Cloudflare's AI-native content management system](https://blog.cloudflare.com/_image?href=https%3A%2F%2Fblog.cloudflare.com%2F_emdash%2Fapi%2Fmedia%2Ffile%2F01KW4754MFRWRNRCVC8C5KK84F.png&w=1080&h=804&f=webp&fit=cover&position=center)
 
 ---
 
@@ -186,32 +184,12 @@ If you're weighing your website platform options and want a clear-eyed recommend
 
 ---
 
-## Frequently Asked Questions
-
-### What is Cloudflare's EmDash?
-EmDash is an open-source content management system launched by Cloudflare in beta in April 2026, built from scratch in TypeScript on the Astro web framework. Cloudflare describes it as a "spiritual successor to WordPress," designed to run serverless and to be managed programmatically by AI agents.
-
-### Is EmDash a replacement for WordPress?
-Not yet, for most businesses. While EmDash offers modern architecture and improved security, it currently lacks WordPress's massive plugin ecosystem of roughly 60,000 plugins, meaning most businesses still benefit more from WordPress's maturity and established support community.
-
-### What does "AI-native CMS" mean for EmDash?
-It means EmDash is built with tools that let AI agents interact with and manage the website directly, including a built-in MCP server, a CLI for programmatic content and schema management, and documentation specifically structured for AI systems to understand the platform without step-by-step human instruction.
-
-### Is EmDash free to use?
-Yes, EmDash is open source and free to use. However, running it, especially with Cloudflare's most polished integration using Cloudflare D1 and R2, may involve hosting costs depending on your specific deployment choices.
-
-### How is EmDash different from WordPress technically?
-EmDash is written in TypeScript rather than PHP, stores content as structured JSON called Portable Text instead of HTML, runs serverless rather than requiring provisioned servers, and runs plugins in sandboxed isolates for improved security, compared to WordPress's more open plugin architecture.
-
-### Should my small business switch to EmDash right now?
-For most small and local businesses without dedicated development resources, WordPress remains the safer, more supported choice for now, given EmDash's current lack of a mature plugin ecosystem. Businesses with in-house technical teams or those deeply invested in Cloudflare's infrastructure may want to start evaluating it early.
-
----
-
 ## Conclusion
 
 EmDash is an interesting technical achievement, and Cloudflare has clearly thought carefully about what a content management system built for an AI-driven web should look like. Whether it actually manages to challenge WordPress's dominance is a different question entirely, one that will take years, not months, to answer. For now, most businesses are better served by proven, established platforms, while technically sophisticated teams have good reason to start exploring EmDash as an early mover.
 
 Whatever CMS ends up powering your website, the fundamentals that actually drive results, solid technical SEO, real content quality, and a strong local and digital presence, matter more than which platform you're running. If you want help deciding whether it's time for a new website, a redesign, or simply a stronger strategy behind the site you already have, the [F9XR Team](https://f9xr.github.io/pages/services.html){:target="_blank" rel="noopener noreferrer"} works with business owners on exactly this kind of website development, website redesign, and local SEO strategy.
+
+*Produced using AI-assisted research and drafting workflows, then reviewed and edited by the F9XR editorial team. See our [Editorial Policy](https://f9xr.github.io/articles/press/editorial-policy.html) for how we create and verify content.*
 
 

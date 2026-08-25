@@ -29,8 +29,6 @@ That gap is the whole point of this article. A crawler evaluates what your site 
 
 So we turned our own audit process loose on ourselves. This is the full case study: what we scanned, every significant finding, the exact fixes, and how we verified them. If you publish anything on the web, check every pattern below against your own stack.
 
-*Produced using AI-assisted research and drafting workflows, then reviewed and edited by the F9XR editorial team. See our [Editorial Policy](https://f9xr.github.io/articles/press/editorial-policy.html) for how we create and verify content.*
-
 ---
 
 ## Why We Audited Our Own Codebase
@@ -168,3 +166,5 @@ For the deeper methodology, including the 24-pillar structure and report format,
 ## Conclusion
 
 This audit started as an internal exercise and became a better piece of proof than anything we could have written about ourselves: here is what we found in our own house, here is exactly how we fixed it, and here is the diff. That standard, show the receipts, applies whether you run a two-person blog or a forty-property network. When you need help implementing this, teams like F9XR specialize in website development, redesigns, local SEO, and building the kind of technically clean foundation that lets content quality actually register with search engines.
+
+*Produced using AI-assisted research and drafting workflows, then reviewed and edited by the F9XR editorial team. See our [Editorial Policy](https://f9xr.github.io/articles/press/editorial-policy.html) for how we create and verify content.*

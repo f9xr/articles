@@ -207,30 +207,6 @@ If you're unsure whether the Preferred Sources button fits your specific busines
 
 ---
 
-## Frequently Asked Questions
-
-### What is Google's Preferred Sources button?
-
-It's an embeddable button publishers can add to their website, letting readers mark that site as a trusted source with one click. This personalizes that reader's future Google Search, Discover, AI Overviews, and AI Mode results to favor content from sites they've selected.
-
-### When did Google update the Preferred Sources feature?
-
-Google announced the embeddable button upgrade on August 20, 2026, building on the original Preferred Sources feature that launched in May 2026 for Top Stories and later expanded to AI Mode and AI Overviews.
-
-### How many people have used Preferred Sources so far?
-
-As of the August 2026 update, more than 600,000 unique sources have been selected by users, up from over 345,000 at the feature's May 2026 launch.
-
-### Does marking a site as a preferred source guarantee better rankings?
-
-No. It personalizes that specific reader's future search results and AI-generated answers to favor sources they've marked as preferred. It is not a universal ranking boost applied to everyone who searches.
-
-### How do I add the Preferred Sources button to my website?
-
-Google provides the official embed code through its Search Central documentation. Add the code directly to your website, ideally somewhere prominent such as the homepage header or the end of popular articles, and test that readers return to the page they started on.
-
----
-
 ## Conclusion
 
 Google's upgraded Preferred Sources button is a practical addition for any business publishing content online, especially as AI-driven search reshapes how readers discover websites. Implementation costs little, and it carries real, Google-confirmed upside in click-through behavior. It's also one of the few tools available that gives publishers direct influence over their visibility within AI Overviews and AI Mode.

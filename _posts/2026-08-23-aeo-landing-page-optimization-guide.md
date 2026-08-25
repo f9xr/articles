@@ -29,8 +29,6 @@ This is the shift Answer Engine Optimization exists to address. Traditional SEO 
 
 This guide walks through exactly how to optimize your business landing pages for AEO in 2026, from understanding what your customers are asking, to structuring content AI systems can extract cleanly, to the technical and schema work that builds machine trust. Everything here is meant to be applied, not admired.
 
-*Produced using AI-assisted research and drafting workflows, then reviewed and edited by the F9XR editorial team. See our [Editorial Policy](https://f9xr.github.io/articles/press/editorial-policy.html) for how we create and verify content.*
-
 ---
 
 ## Step 1: Understand User Intent, Especially Question Based Intent
@@ -164,3 +162,5 @@ F9XR Team builds AEO principles directly into its [website development, website 
 Optimizing a landing page for AEO isn't about chasing a single trick or a schema shortcut, it's about knowing what your customers are asking, answering it clearly and directly, and backing that content with the structure and consistency AI systems need to trust and cite you. The businesses winning this shift aren't necessarily the ones with the biggest budgets, they're the ones whose pages are simply easier for both people and machines to understand.
 
 Building that kind of AEO ready foundation, alongside the broader technical and local SEO work that supports it, is exactly what F9XR Team brings to its website development, website redesign, and local SEO services, so your business isn't just findable, it's the answer AI systems actually choose to give.
+
+*Produced using AI-assisted research and drafting workflows, then reviewed and edited by the F9XR editorial team. See our [Editorial Policy](https://f9xr.github.io/articles/press/editorial-policy.html) for how we create and verify content.*
