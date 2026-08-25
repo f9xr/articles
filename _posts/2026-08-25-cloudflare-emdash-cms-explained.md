@@ -68,6 +68,8 @@ EmDash offers real deployment flexibility. It supports one-click deployment to C
 | Authentication | Passkey-based by default, no passwords |
 | Positioning | Spiritual successor to WordPress |
 
+![Lighthouse performance scores for blog.cloudflare.com desktop view showing EmDash in production](https://blog.cloudflare.com/_image?href=https%3A%2F%2Fblog.cloudflare.com%2F_emdash%2Fapi%2Fmedia%2Ffile%2F01M0TD917REF4PWHB6TC304JGN.png&w=1080&h=843&f=webp&fit=cover&position=center)
+
 <blockquote class="twitter-tweet"><p lang="en" dir="ltr">We redesigned the Cloudflare Blog — dark mode, cleaner UI, faster load times. What you might not know: the whole thing runs on EmDash, a new CMS built on Cloudflare Workers. We were Customer Zero. <a href="https://t.co/XDj4qj4XUC">https://t.co/XDj4qj4XUC</a></p>&mdash; Cloudflare (@Cloudflare) <a href="https://x.com/Cloudflare/status/2091975362297090304?ref_src=twsrc%5Etfw">August 24, 2026</a></blockquote> <script async src="https://platform.x.com/widgets.js" charset="utf-8"></script>
 
 ---
