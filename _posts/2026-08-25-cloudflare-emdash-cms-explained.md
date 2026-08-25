@@ -196,6 +196,7 @@ If you're weighing your website platform options and want a clear-eyed recommend
 6. [EmDash official site](https://emdashcms.com/){:target="_blank" rel="noopener noreferrer"} - emdashcms.com
 7. [EmDash launch blog post](https://emdashcms.com/blog/emdash-is-live){:target="_blank" rel="noopener noreferrer"} - emdashcms.com
 8. [Cloudflare blog runs on EmDash](https://blog.cloudflare.com/cloudflare-blog-uses-emdash/){:target="_blank" rel="noopener noreferrer"} - blog.cloudflare.com
+9. [Astro web framework](https://astro.build/){:target="_blank" rel="noopener noreferrer"} - astro.build
 
 ---
 
