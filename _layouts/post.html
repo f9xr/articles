@@ -244,6 +244,12 @@ layout: default
       {% assign content_first = content_first | append: "</h2>" %}
       {{ content_first }}
 
+      <!-- In-article ad (mid-content) -->
+      <div style="margin:2em 0; padding:1.5em; background:rgba(59,130,246,0.04); border:1px dashed #1e2024; border-radius:8px; text-align:center;">
+        <ins class="adsbygoogle" style="display:block; text-align:center;" data-ad-layout="in-article" data-ad-format="fluid" data-ad-client="ca-pub-XXXXXXXXXXXXXXXX" data-ad-slot="XXXXXXXXXX"></ins>
+        <script>(adsbygoogle = window.adsbygoogle || []).push({});</script>
+      </div>
+
       {% if also_read %}
       <aside class="also-read">
         <div class="also-read-label"><i class="fa-solid fa-book-open-reader"></i> Also Read</div>
@@ -404,6 +410,12 @@ layout: default
       </div>
     </div>
   </section>
+
+  <!-- Anchor ad (bottom of content) -->
+  <div style="margin:2em 0; text-align:center;">
+    <ins class="adsbygoogle" style="display:block" data-ad-client="ca-pub-XXXXXXXXXXXXXXXX" data-ad-slot="XXXXXXXXXX" data-ad-format="auto" data-full-width-responsive="true"></ins>
+    <script>(adsbygoogle = window.adsbygoogle || []).push({});</script>
+  </div>
 
   <!-- Keywords -->
   {% assign post_keywords = page.keywords | default: site.keywords | default: "" %}
