@@ -466,7 +466,7 @@ img:hover {
   background: linear-gradient(160deg, rgba(59, 130, 246, 0.06) 0%, rgba(10, 10, 10, 0.85) 100%);
   border: 1px solid #1e2024;
   border-radius: 14px;
-  padding: 1.35em 1em 1.25em;
+  padding: 1.5em 1.25em 1.4em;
   box-shadow: 0 8px 24px rgba(0, 0, 0, 0.35);
   overflow: hidden;
 }
@@ -522,7 +522,7 @@ img:hover {
   color: #9aa3ad;
   font-size: 0.82em;
   text-decoration: none;
-  padding: 0.4em 0.55em 0.4em 0.75em;
+  padding: 0.5em 0.65em 0.5em 0.85em;
   border-radius: 8px;
   border-left: 2px solid transparent;
   transition: color 0.2s ease, background 0.2s ease, border-color 0.2s ease, transform 0.2s ease;
@@ -4300,49 +4300,51 @@ a, button, summary, .ed-card, .post-nav-card {
 /* Collapsible TOC: desktop shows the panel as-is */
 .sidebar-toc-details > summary {
   list-style: none;
-  display: none;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 1em;
+  padding: 0.95em 1.1em;
+  background: linear-gradient(160deg, rgba(59, 130, 246, 0.07) 0%, rgba(10, 10, 10, 0.85) 100%);
+  border: 1px solid #1e2024;
+  border-radius: 12px;
+  color: #f0f0f0;
+  font-size: 0.8em;
+  font-weight: 800;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  cursor: pointer;
+  min-height: 48px;
 }
 .sidebar-toc-details > summary::-webkit-details-marker {
   display: none;
 }
-
-/* Mobile: turn the TOC into a collapsible accordion */
-@media (max-width: 1023px) {
-  .sidebar-toc-details > summary {
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    gap: 1em;
-    padding: 0.95em 1.1em;
-    background: linear-gradient(160deg, rgba(59, 130, 246, 0.07) 0%, rgba(10, 10, 10, 0.85) 100%);
-    border: 1px solid #1e2024;
-    border-radius: 12px;
-    color: #f0f0f0;
-    font-size: 0.8em;
-    font-weight: 800;
-    letter-spacing: 0.1em;
-    text-transform: uppercase;
-    cursor: pointer;
-    min-height: 48px;
-  }
-  .sidebar-toc-details[open] > summary {
-    border-radius: 12px 12px 0 0;
-  }
-  .sidebar-toc-details .sidebar-toc {
-    border-radius: 0 0 12px 12px;
-    border-top: none;
-    box-shadow: none;
-  }
-  .sidebar-toc-details .sidebar-toc-title {
-    display: none;
-  }
-  .sidebar-toc-chevron {
-    color: #71717a;
-    transition: transform 0.2s ease;
-  }
-  .sidebar-toc-details[open] .sidebar-toc-chevron {
-    transform: rotate(180deg);
-  }
+.sidebar-toc-details[open] > summary {
+  border-radius: 12px 12px 0 0;
+}
+.sidebar-toc-details .sidebar-toc {
+  border-radius: 0 0 12px 12px;
+  border-top: none;
+  box-shadow: none;
+}
+.sidebar-toc-details .sidebar-toc-title {
+  display: none;
+}
+.sidebar-toc-chevron {
+  color: #71717a;
+  transition: transform 0.2s ease;
+}
+.sidebar-toc-details[open] .sidebar-toc-chevron {
+  transform: rotate(180deg);
+}
+.post-sidebar .share-section {
+  background: linear-gradient(160deg, rgba(59, 130, 246, 0.04) 0%, rgba(10, 10, 10, 0.6) 100%);
+  border: 1px solid #1e2024;
+  border-radius: 12px;
+  padding: 0.9em 1em;
+}
+.post-sidebar .share-label {
+  font-size: 0.72em;
 }
 
 /* Hide keyboard shortcut hints on touch screens */
