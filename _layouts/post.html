@@ -340,8 +340,10 @@ layout: default
   <div class="author-profile" style="display:flex; align-items:center; gap:1.2em; background:linear-gradient(135deg, rgba(59,130,246,0.06) 0%, rgba(10,10,10,0.8) 100%); border:1px solid #1e2024; border-radius:12px; padding:1.5em 1.8em; margin-top:2.5em;">
     <img src="{{ post_author.avatar | default: '/logo.webp' | relative_url }}" alt="{{ post_author.name | default: 'F9XR Editorial Team' }}" width="64" height="64" loading="lazy" style="border-radius:50%; border:2px solid #1e2024; flex-shrink:0; object-fit:cover;">
     <div style="flex:1; min-width:0;">
+      <p style="margin:0 0 0.25em 0; color:#71717a; font-size:0.78em; text-transform:uppercase; letter-spacing:0.06em; font-weight:500;">Written by</p>
       <p style="margin:0 0 0.15em 0; font-weight:700; color:#f8f9fa; font-size:1.05em;">
         <a href="{{ post_author_url | relative_url }}" style="color:#f8f9fa; text-decoration:none;">{{ post_author.name | default: "F9XR Editorial Team" }}</a>
+        <span title="Verified Member of F9XR Team" style="display:inline-flex; align-items:center; justify-content:center; width:18px; height:18px; border-radius:50%; background:#3b82f6; color:#fff; font-size:0.65em; margin-left:0.35em; vertical-align:middle; position:relative; top:-1px;"><i class="fa-solid fa-check" style="font-size:0.7em;"></i></span>
       </p>
       <p style="margin:0 0 0.6em 0; color:#8b8b8b; font-size:0.88em;">{{ post_author.role | default: "Digital Architecture Agency" }}</p>
       <div style="display:flex; gap:0.5em; flex-wrap:wrap;">
