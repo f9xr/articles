@@ -28,7 +28,7 @@ faq:
 
 WordPress has run the internet for over two decades. Something like 40 percent of all websites today are still built on it. That kind of dominance rarely gets challenged in any serious way, which is exactly what makes Cloudflare's latest project notable.
 
-In April 2026, Cloudflare launched EmDash, a brand new, open-source content management system built entirely from scratch in TypeScript. Cloudflare isn't shy about the ambition here either, describing it directly as a "spiritual successor to WordPress." That's a bold claim in a space where plenty of WordPress alternatives have come and gone without making a real dent.
+In April 2026, [Cloudflare launched EmDash](https://blog.cloudflare.com/emdash-wordpress){:target="_blank" rel="noopener noreferrer"}, a brand new, open-source content management system built entirely from scratch in TypeScript. Cloudflare isn't shy about the ambition here either, describing it directly as a "spiritual successor to WordPress." That's a bold claim in a space where plenty of WordPress alternatives have come and gone without making a real dent.
 
 What makes EmDash different, though, isn't just that it's newer or faster. It's built specifically around AI agents being able to manage, edit, and even build on your website directly, alongside solving a security problem that's plagued WordPress for years: plugin vulnerabilities. If you're a business owner thinking about your next website build, or wondering whether your current WordPress site is starting to show its age, this deserves a clear look.
 
@@ -38,11 +38,11 @@ What makes EmDash different, though, isn't just that it's newer or faster. It's 
 
 ## What Is EmDash, Exactly
 
-Starting with the basics. EmDash is an open-source content management system, meaning it's free to use and its code is publicly available, built by Cloudflare and launched in beta in April 2026. Unlike WordPress, which runs on PHP and was originally designed for the shared hosting environment of the early 2000s, EmDash is written entirely in TypeScript and built to run serverless, meaning it doesn't require you to provision and manage your own servers the way traditional CMS platforms typically do.
+Starting with the basics. [EmDash](https://emdashcms.com/){:target="_blank" rel="noopener noreferrer"} is an open-source content management system, meaning it's free to use and its [code is publicly available on GitHub](https://github.com/emdash-cms/emdash){:target="_blank" rel="noopener noreferrer"}, built by Cloudflare and [launched in beta in April 2026](https://emdashcms.com/blog/emdash-is-live){:target="_blank" rel="noopener noreferrer"}. Unlike WordPress, which runs on PHP and was originally designed for the shared hosting environment of the early 2000s, EmDash is written entirely in TypeScript and built to run serverless, meaning it doesn't require you to provision and manage your own servers the way traditional CMS platforms typically do.
 
 ### The Technical Foundation
 
-EmDash is built on top of Astro, a modern JavaScript web framework that Cloudflare acquired in January 2026 and describes as one of the fastest options available for content-driven websites. Technically speaking, EmDash is structured as an Astro integration, meaning you add it to an existing Astro project's configuration and it delivers a complete CMS: an admin panel, a REST API, authentication, a media library, and a plugin system, all in one package.
+EmDash is built on top of [Astro](https://astro.build/){:target="_blank" rel="noopener noreferrer"}, a modern JavaScript web framework that Cloudflare acquired in January 2026 and describes as one of the fastest options available for content-driven websites. Technically speaking, EmDash is structured as an Astro integration, meaning you add it to an existing Astro project's configuration and it delivers a complete CMS: an admin panel, a REST API, authentication, a media library, and a plugin system, all in one package.
 
 ### How Content Gets Stored
 
@@ -70,6 +70,8 @@ EmDash offers real deployment flexibility. It supports one-click deployment to C
 
 ![Lighthouse performance scores for blog.cloudflare.com desktop view showing EmDash in production](https://blog.cloudflare.com/_image?href=https%3A%2F%2Fblog.cloudflare.com%2F_emdash%2Fapi%2Fmedia%2Ffile%2F01M0TD917REF4PWHB6TC304JGN.png&w=1080&h=843&f=webp&fit=cover&position=center)
 
+Cloudflare is [using EmDash to run its own blog](https://blog.cloudflare.com/cloudflare-blog-uses-emdash/){:target="_blank" rel="noopener noreferrer"}, making them Customer Zero for the platform.
+
 <blockquote class="twitter-tweet"><p lang="en" dir="ltr">We redesigned the Cloudflare Blog — dark mode, cleaner UI, faster load times. What you might not know: the whole thing runs on EmDash, a new CMS built on Cloudflare Workers. We were Customer Zero. <a href="https://t.co/XDj4qj4XUC">https://t.co/XDj4qj4XUC</a></p>&mdash; Cloudflare (@Cloudflare) <a href="https://x.com/Cloudflare/status/2091975362297090304?ref_src=twsrc%5Etfw">August 24, 2026</a></blockquote> <script async src="https://platform.x.com/widgets.js" charset="utf-8"></script>
 
 ---
@@ -88,7 +90,7 @@ Cloudflare describes EmDash as an "AI-native CMS," and the reasoning goes beyond
 
 ### Why This Design Choice Matters
 
-Joost de Valk, the founder of Yoast SEO and a well-known voice in the WordPress and SEO community, wrote one of the more detailed early assessments of EmDash, calling it "the most interesting thing to happen to content management in years." His argument centered less on the specific tech stack and more on the underlying design philosophy: every architectural decision in EmDash appears to have been made by asking, "what if an AI agent needs to do this?"
+[Joost de Valk](https://joost.blog/emdash-cms/){:target="_blank" rel="noopener noreferrer"}, the founder of Yoast SEO and a well-known voice in the WordPress and SEO community, wrote one of the more detailed early assessments of EmDash, calling it "the most interesting thing to happen to content management in years." His argument centered less on the specific tech stack and more on the underlying design philosophy: every architectural decision in EmDash appears to have been made by asking, "what if an AI agent needs to do this?"
 
 Because content is stored as structured JSON rather than HTML strings, an AI agent can read, modify, and generate content without needing to parse markup. Custom content types get their own typed database tables, meaning an agent can reason about your site's actual schema programmatically, rather than guessing at how content is organized.
 
@@ -126,7 +128,7 @@ This is the most important question for any business owner considering EmDash ri
 
 * **It's brand new and unproven at scale.** EmDash launched in beta in April 2026. Compare that to WordPress's 24 years of real-world battle testing across millions of live sites, and EmDash simply hasn't had time to prove itself in anything close to the same range of scenarios.
 * **The plugin ecosystem is essentially empty.** WordPress's 60,000 plugins represent an enormous, valuable ecosystem of ready-made functionality. EmDash currently has close to none of that, meaning almost everything needs custom development rather than a quick plugin install.
-* **Direct criticism from WordPress's own co-founder.** Matt Mullenweg, co-founder of WordPress and CEO of Automattic, has publicly pushed back, suggesting EmDash was created primarily "to sell more Cloudflare services," and pointing out that its plugin security specifically only works properly on Cloudflare's own infrastructure, casting doubt on whether it deserves the "spiritual successor" framing at all.
+* **Direct criticism from WordPress's own co-founder.** Matt Mullenweg, co-founder of WordPress and CEO of Automattic, has [publicly pushed back](https://www.cmswire.com/digital-experience/meet-emdash-the-cloudflare-cms-and-the-wordpress-spiritual-successor/){:target="_blank" rel="noopener noreferrer"}, suggesting EmDash was created primarily "to sell more Cloudflare services," and pointing out that its plugin security specifically only works properly on Cloudflare's own infrastructure, casting doubt on whether it deserves the "spiritual successor" framing at all. [Industry coverage](https://siliconangle.com/2026/04/02/cloudflare-debuts-emdash-challenge-aging-wordpress-ai-native-cms/){:target="_blank" rel="noopener noreferrer"} has highlighted both the ambition and the skepticism surrounding the launch.
 * **Cloudflare-centric polish.** While EmDash technically deploys to Netlify, Vercel, and other hosts, reporting has been consistent that the Cloudflare-specific experience is currently the most refined, meaning businesses hosting elsewhere may encounter more rough edges.
 * **A pattern of frequent CMS launches.** As Mullenweg himself noted in his response, there's a new CMS announced every other day. Market disruption of an entrenched platform like WordPress takes years to prove out, not months.
 
@@ -183,20 +185,6 @@ If you're weighing your website platform options and want a clear-eyed recommend
 * EmDash addresses WordPress's persistent plugin security weaknesses by running plugins in sandboxed Worker isolates, and uses passkey-based authentication instead of traditional passwords.
 * WordPress's co-founder, Matt Mullenweg, has publicly criticized EmDash, questioning its motivations and its "spiritual successor" framing, while Yoast founder Joost de Valk has praised its design philosophy.
 * EmDash is promising but still unproven at scale, with essentially no plugin ecosystem yet compared to WordPress's roughly 60,000 plugins. Most local businesses should stick with WordPress for now, while technically sophisticated teams may want to start exploring EmDash early.
-
----
-
-## Sources
-
-1. [Cloudflare's official EmDash announcement](https://blog.cloudflare.com/emdash-wordpress){:target="_blank" rel="noopener noreferrer"} - blog.cloudflare.com
-2. [The EmDash GitHub repository](https://github.com/emdash-cms/emdash){:target="_blank" rel="noopener noreferrer"} - github.com
-3. [Joost de Valk's detailed technical assessment of EmDash](https://joost.blog/emdash-cms/){:target="_blank" rel="noopener noreferrer"} - joost.blog
-4. [SiliconANGLE's coverage of the EmDash launch](https://siliconangle.com/2026/04/02/cloudflare-debuts-emdash-challenge-aging-wordpress-ai-native-cms/){:target="_blank" rel="noopener noreferrer"} - siliconangle.com
-5. [CMSWire's analysis including Matt Mullenweg's response](https://www.cmswire.com/digital-experience/meet-emdash-the-cloudflare-cms-and-the-wordpress-spiritual-successor/){:target="_blank" rel="noopener noreferrer"} - cmswire.com
-6. [EmDash official site](https://emdashcms.com/){:target="_blank" rel="noopener noreferrer"} - emdashcms.com
-7. [EmDash launch blog post](https://emdashcms.com/blog/emdash-is-live){:target="_blank" rel="noopener noreferrer"} - emdashcms.com
-8. [Cloudflare blog runs on EmDash](https://blog.cloudflare.com/cloudflare-blog-uses-emdash/){:target="_blank" rel="noopener noreferrer"} - blog.cloudflare.com
-9. [Astro web framework](https://astro.build/){:target="_blank" rel="noopener noreferrer"} - astro.build
 
 ---
 
