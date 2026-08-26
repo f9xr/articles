@@ -458,8 +458,11 @@ img:hover {
   top: 84px;
   max-height: calc(100vh - 108px);
   overflow-y: auto;
-  scrollbar-width: thin;
-  scrollbar-color: #2a2d33 #0f0f0f;
+  scrollbar-width: none;
+  -ms-overflow-style: none;
+}
+.post-sidebar::-webkit-scrollbar {
+  display: none;
 }
 .sidebar-toc {
   position: relative;
@@ -4298,6 +4301,9 @@ a, button, summary, .ed-card, .post-nav-card {
 }
 
 /* Collapsible TOC: desktop shows the panel as-is */
+.sidebar-toc-details {
+  margin-bottom: 1em;
+}
 .sidebar-toc-details > summary {
   list-style: none;
   display: flex;
@@ -4315,12 +4321,24 @@ a, button, summary, .ed-card, .post-nav-card {
   text-transform: uppercase;
   cursor: pointer;
   min-height: 48px;
+  transition: border-radius 0.2s ease;
+}
+.sidebar-toc-details:not([open]) > summary {
+  border-radius: 12px;
+}
+.sidebar-toc-details > summary:hover {
+  background: linear-gradient(160deg, rgba(59, 130, 246, 0.12) 0%, rgba(10, 10, 10, 0.9) 100%);
+  border-color: #2a2d35;
 }
 .sidebar-toc-details > summary::-webkit-details-marker {
   display: none;
 }
 .sidebar-toc-details[open] > summary {
   border-radius: 12px 12px 0 0;
+}
+.sidebar-toc-details[open] > summary:hover {
+  background: linear-gradient(160deg, rgba(59, 130, 246, 0.07) 0%, rgba(10, 10, 10, 0.85) 100%);
+  border-color: #1e2024;
 }
 .sidebar-toc-details .sidebar-toc {
   border-radius: 0 0 12px 12px;
@@ -4336,6 +4354,10 @@ a, button, summary, .ed-card, .post-nav-card {
 }
 .sidebar-toc-details[open] .sidebar-toc-chevron {
   transform: rotate(180deg);
+}
+.sidebar-toc-details::details-content {
+  transition: block-size 0.25s ease, content-visibility 0.25s ease;
+  overflow: hidden;
 }
 .post-sidebar .share-section {
   background: linear-gradient(160deg, rgba(59, 130, 246, 0.04) 0%, rgba(10, 10, 10, 0.6) 100%);
