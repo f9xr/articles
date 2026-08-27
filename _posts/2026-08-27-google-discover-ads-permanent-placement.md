@@ -42,12 +42,16 @@ For businesses, this makes Discover incredibly valuable. A single article or pro
 
 But here's the catch: Discover's organic feed is powered entirely by Google's algorithm, not by advertising spend. There is no "buy your way in" option for the organic feed.
 
+Below is how the Discover surface actually renders on a phone, a stream of image-led cards with no search box and no query. When one of your posts lands here, it is because Google's algorithm decided the content was worth showing this specific person, not because anyone paid for the slot.
+
+<img src="https://developers.google.com/static/search/docs/images/google-discover.png" alt="Google Discover feed on a phone showing a stream of topical image cards with no search box" title="The Google Discover feed, a personalized stream of cards" width="1400" height="2800" loading="lazy" />
+
 ### How the Organic Discover Feed Actually Works
 
-Google's own guidance points to a few core ranking-style signals for Discover eligibility:
+Google's own [Discover guidelines](https://developers.google.com/search/docs/appearance/google-discover){:target="_blank" rel="noopener noreferrer"} point to a few core ranking-style signals for eligibility:
 
-- **E-E-A-T** (Experience, Expertise, Authoritativeness, Trustworthiness) of your content and site
-- **High-quality images**, ideally at least 1200 pixels wide, since visuals are a major factor in what gets picked up
+- **E-E-A-T** (Experience, Expertise, Authoritativeness, Trustworthiness) of your content and site, which Google's own [quality rater guidance](https://developers.google.com/search/blog/2022/12/google-raters-guidelines-e-e-a-t){:target="_blank" rel="noopener noreferrer"} spells out in detail
+- **High-quality images**, ideally at least 1200 pixels wide per Google's [image best practices](https://developers.google.com/search/docs/appearance/google-images){:target="_blank" rel="noopener noreferrer"}, since visuals are a major factor in what gets picked up
 - **Content freshness and relevance** to current interests or trends
 - **Mobile-friendliness and page experience**, including fast loading times
 - **Structured data and clear headlines** that are not clickbait
@@ -58,7 +62,11 @@ None of these signals are influenced by whether you are running a Google Ads cam
 
 ## What Google Discover Ads Actually Are
 
-Google Ads has a placement option called Discover ads (sometimes bundled under Demand Gen campaigns) that lets advertisers pay to have their content shown inside the Discover feed, alongside organic Discover cards. Visually, these ads can look similar to organic Discover content, which is exactly why so many business owners assume the two are connected.
+Google Ads has a placement option called Discover ads (sometimes bundled under [Demand Gen campaigns](https://support.google.com/google-ads/answer/13695777){:target="_blank" rel="noopener noreferrer"}) that lets advertisers pay to have their content shown inside the Discover feed, alongside organic Discover cards. Visually, these ads can look similar to organic Discover content, which is exactly why so many business owners assume the two are connected.
+
+Google's own product introduction explains what Demand Gen is built for, attracting customers while they browse, rather than when they search. It's a discovery and awareness play, not a search-ranking lever:
+
+<iframe width="100%" height="400" src="https://www.youtube.com/embed/i4En8xHB8rA?si=jyzC9l2QlmLuTnot" title="Demand Gen introduction" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen loading="lazy"></iframe>
 
 Here's what Discover ads actually do:
 
@@ -93,7 +101,9 @@ Think of it the same way you would think about a billboard. Renting a billboard 
 
 A few reasons this myth sticks around:
 
-**1. Visual similarity.** Discover ads and organic Discover cards look almost identical in the feed, aside from a small "Sponsored" or "Ad" label that people often scroll past without noticing.
+**1. Visual similarity.** Discover ads and organic Discover cards look almost identical in the feed, aside from a small "Sponsored" or "Ad" label that people often scroll past without noticing. As this example shows, an ad and an organic card can sit side by side and still read the same at a glance:
+
+<img src="https://lh3.googleusercontent.com/7yeu66cbG0v2n_OUTt2oOAK_3_bAfm0K2WgryW9wMKRZuqydhZu66hY2fXIP7VWpHUY=w300" alt="Google Discover feed showing an ad card next to organic content cards, looking visually similar" title="A Discover ad sitting beside organic cards in the feed" width="300" height="600" loading="lazy" />
 
 **2. Correlation confusion.** Some businesses run a Discover ad campaign around the same time their content starts performing well organically, usually because they also improved their content quality, images, or site speed during that period. They credit the ads when really it was the content improvements.
 
@@ -107,15 +117,23 @@ If ads won't do it, here is what actually improves your odds of showing up in th
 
 ### 1. Publish High-Quality, Original Content Consistently
 
-Google favors content that offers a real point of view, useful information, or timely relevance, not thin or recycled content. For local businesses, this could mean blog posts about industry trends, seasonal guides, or answers to questions your customers actually ask. Strong [E-E-A-T signals](https://f9xr.github.io/articles/2026/08/04/google-e-e-a-t-checklist-every-seo-should-bookmark.html) are a large part of what qualifies content for organic placement here.
+Google favors content that offers a real point of view, useful information, or timely relevance, not thin or recycled content. For local businesses, this could mean blog posts about industry trends, seasonal guides, or answers to questions your customers actually ask. Strong [E-E-A-T signals](https://f9xr.github.io/articles/2026/08/04/google-e-e-a-t-checklist-every-seo-should-bookmark.html){:target="_blank" rel="noopener noreferrer"} are a large part of what qualifies content for organic placement here. The same quality that earns those signals is what gets your business [recommended by AI assistants](https://f9xr.github.io/articles/2026/08/16/how-ai-picks-local-businesses-2026.html){:target="_blank" rel="noopener noreferrer"} when people ask for recommendations in tools like ChatGPT or Gemini.
 
 ### 2. Use Large, High-Resolution Images
 
-Discover is a visually driven feed. Google recommends images at least 1200 pixels wide with the `max-image-preview:large` setting enabled in your robots meta tag, otherwise your images may be excluded or shown small. Our [complete image SEO audit guide](https://f9xr.github.io/articles/2026/08/14/image-seo-audit-complete-guide.html) walks through the image signals that matter.
+Discover is a visually driven feed. Google recommends images at least 1200 pixels wide with the `max-image-preview:large` setting enabled in your robots meta tag, otherwise your images may be excluded or shown small. This is how Google renders a well-sized image card in Discover and in image results, big, sharp, and above the fold:
+
+<img src="https://developers.google.com/static/search/docs/images/images-on-google.png" alt="Google illustration showing how large images render across Google surfaces including Discover" title="How large images render across Google's surfaces" width="1600" height="800" loading="lazy" />
+
+Our [complete image SEO audit guide](https://f9xr.github.io/articles/2026/08/14/image-seo-audit-complete-guide.html){:target="_blank" rel="noopener noreferrer"} walks through the image signals that matter.
 
 ### 3. Optimize for Mobile and Page Speed
 
-Since Discover lives almost entirely on mobile devices, a slow-loading or poorly formatted mobile site will hurt your chances significantly. Core Web Vitals matter here just as much as they do for regular search. See why [going mobile-first](https://f9xr.github.io/articles/2026/08/03/why-go-mobile-first.html) is now table stakes for any content strategy.
+Since Discover lives almost entirely on mobile devices, a slow-loading or poorly formatted mobile site will hurt your chances significantly. Core Web Vitals matter here just as much as they do for regular search. See why [going mobile-first](https://f9xr.github.io/articles/2026/08/03/why-go-mobile-first.html){:target="_blank" rel="noopener noreferrer"} is now table stakes for any content strategy.
+
+If your image sizes and file weights are dragging down that mobile experience, this is a practical starting point for cutting load times:
+
+<iframe width="100%" height="400" src="https://www.youtube.com/embed/_6Tz_-3_4ok?si=6ipiXLSuRejkb3A3" title="4 tips for faster images on your website" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen loading="lazy"></iframe>
 
 ### 4. Build Topical Authority
 
@@ -123,7 +141,9 @@ Sites that consistently cover a niche well, rather than jumping between unrelate
 
 ### 5. Avoid Clickbait Headlines
 
-Google has explicitly stated that exaggerated or misleading headlines can get content excluded from Discover entirely. Write headlines that accurately reflect what the article delivers.
+Google has explicitly stated that exaggerated or misleading headlines can get content excluded from Discover entirely. Write headlines that accurately reflect what the article delivers. Google treats your title and description as the promise the content has to keep, as it illustrates here:
+
+<img src="https://developers.google.com/static/search/docs/images/titles-descriptions-in-image-results.png" alt="Google illustration showing how titles and descriptions appear as text overlays on images in results" title="How titles and descriptions pair with images in results" width="1600" height="1550" loading="lazy" />
 
 ### 6. Enable Structured Data and Follow Content Policies
 
@@ -149,7 +169,7 @@ This is the pattern we see repeatedly with clients at F9XR Team: the ad spend di
 - Not tracking whether traffic is coming from paid or organic Discover in Google Analytics and Search Console
 - Using low-resolution images in ad creative that would never qualify for organic Discover anyway
 - Treating Discover ads as an SEO tool instead of a short-term visibility tool
-- Ignoring Search Console's Discover performance report, which is the only reliable way to see actual organic Discover data
+- Ignoring Search Console's [Discover performance report](https://support.google.com/webmasters/answer/9216516){:target="_blank" rel="noopener noreferrer"}, which is the only reliable way to see actual organic Discover data
 
 ---
 
@@ -162,6 +182,8 @@ F9XR Team works with Chartered Accountants, Company Secretaries, CMAs, startups,
 - Creating high-quality visual assets sized correctly for Discover's image requirements
 - Setting up proper tracking so you can clearly see what is paid traffic versus organic Discover traffic
 - Advising on when Discover ads genuinely make sense (product launches, time-sensitive announcements) versus when they are a waste of budget
+
+Our [case studies](https://f9xr.github.io/case-studies/index.html){:target="_blank" rel="noopener noreferrer"} show the kind of content, SEO, and performance work that moves the needle for businesses like yours, and it's the same discipline that keeps pages eligible for organic Discover.
 
 If you are currently running or considering Google Discover ads and want a strategy that builds lasting organic visibility instead of a one-time spike, that is exactly the kind of work we do.
 
