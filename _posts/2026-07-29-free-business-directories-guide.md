@@ -172,7 +172,7 @@ You need:
 - Business hours
 - High quality logo and photos
 
-**Critical rule:** Your NAP (Name, Address, Phone) must be identical on every single directory. A single character difference can confuse search engines and weaken your local SEO. <a href="https://developers.google.com/search/docs/fundamentals/establish-business-details" target="_blank" rel="noopener noreferrer">Google's own guidelines</a> emphasize NAP consistency as a key local ranking factor.
+**Critical rule:** Your NAP (Name, Address, Phone) must be identical on every single directory. A single character difference can confuse search engines and weaken your local SEO. <a href="https://developers.google.com/search/docs/appearance/establish-business-details" target="_blank" rel="noopener noreferrer">Google's own guidelines</a> emphasize NAP consistency as a key local ranking factor.
 
 ### Step 2: Start with Tier 1 Directories
 

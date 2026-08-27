@@ -43,7 +43,7 @@ You compare each entry against a single source of truth and fix everything that 
 
 The heart of it is NAP, which stands for name, address, and phone number. Those three fields need to match everywhere, down to the abbreviation and the punctuation. A modern audit goes further than that, covering your hours, your service area, your business category, your website URL, and how your services are described, because all of it feeds the same identity signal.
 
-[Google's guidelines](https://developers.google.com/search/docs/fundamentals/establish-business-details){:target="_blank" rel="noopener noreferrer"} for representing your business online are specific. Your name should match how you're consistently recognized. Your address should be real and verifiable. Your phone number should be a local number if you serve a local area.
+[Google's guidelines](https://developers.google.com/search/docs/appearance/establish-business-details){:target="_blank" rel="noopener noreferrer"} for representing your business online are specific. Your name should match how you're consistently recognized. Your address should be real and verifiable. Your phone number should be a local number if you serve a local area.
 
 That consistency is the whole point. Google wants to confirm you are one real business, not a shell that changes details depending on which page it's looking at.
 

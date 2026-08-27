@@ -32,7 +32,7 @@ In April 2026, [Cloudflare launched EmDash](https://blog.cloudflare.com/emdash-w
 
 What makes EmDash different, though, isn't just that it's newer or faster. It's built specifically around AI agents being able to manage, edit, and even build on your website directly, alongside solving a security problem that's plagued WordPress for years: plugin vulnerabilities. If you're a business owner thinking about your next website build, or wondering whether your current WordPress site is starting to show its age, this deserves a clear look.
 
-![EmDash CMS architecture overview showing Cloudflare's AI-native content management system](https://blog.cloudflare.com/_image?href=https%3A%2F%2Fblog.cloudflare.com%2F_emdash%2Fapi%2Fmedia%2Ffile%2F01KW4754MFRWRNRCVC8C5KK84F.png&w=1080&h=804&f=webp&fit=cover&position=center)
+![EmDash CMS architecture overview showing Cloudflare's AI-native content management system](https://blog.cloudflare.com/_image?href=https%3A%2F%2Fblog.cloudflare.com%2F_emdash%2Fapi%2Fmedia%2Ffile%2F01KW4754MFRWRNRCVC8C5KK84F.png&w=1080&h=804&f=webp&fit=cover&position=center){: width="1080" height="804" loading="lazy"}
 
 ---
 
@@ -68,7 +68,7 @@ EmDash offers real deployment flexibility. It supports one-click deployment to C
 | Authentication | Passkey-based by default, no passwords |
 | Positioning | Spiritual successor to WordPress |
 
-![Lighthouse performance scores for blog.cloudflare.com desktop view showing EmDash in production](https://blog.cloudflare.com/_image?href=https%3A%2F%2Fblog.cloudflare.com%2F_emdash%2Fapi%2Fmedia%2Ffile%2F01M0TD917REF4PWHB6TC304JGN.png&w=1080&h=843&f=webp&fit=cover&position=center)
+![Lighthouse performance scores for blog.cloudflare.com desktop view showing EmDash in production](https://blog.cloudflare.com/_image?href=https%3A%2F%2Fblog.cloudflare.com%2F_emdash%2Fapi%2Fmedia%2Ffile%2F01M0TD917REF4PWHB6TC304JGN.png&w=1080&h=843&f=webp&fit=cover&position=center){: width="1080" height="843" loading="lazy"}
 
 Cloudflare is [using EmDash to run its own blog](https://blog.cloudflare.com/cloudflare-blog-uses-emdash/){:target="_blank" rel="noopener noreferrer"}, making them Customer Zero for the platform.
 

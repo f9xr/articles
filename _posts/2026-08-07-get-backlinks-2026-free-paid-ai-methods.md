@@ -34,7 +34,7 @@ The good news is that you don't need a massive budget or an in-house SEO team to
 
 Before jumping into tactics, it's worth understanding why this still matters so much, especially with AI search engines now part of the picture.
 
-- Google has confirmed for years that backlinks remain one of its top ranking factors, alongside content quality and relevance, and [its own documentation](https://developers.google.com/search/docs/appearance/links){:target="_blank" rel="noopener noreferrer"} explains how links help it discover and rank pages.
+- Google has confirmed for years that backlinks remain one of its top ranking factors, alongside content quality and relevance, and [its own documentation](https://developers.google.com/search/docs/crawling-indexing/links-crawlable){:target="_blank" rel="noopener noreferrer"} explains how links help it discover and rank pages.
 - AI powered search tools tend to favor sources that are widely cited and linked to elsewhere, because that pattern signals credibility to their underlying models.
 - A single relevant, high authority backlink can do more for your rankings than dozens of low quality ones, and a pile of spammy links can hurt you more than skipping links entirely.
 - Local businesses in particular benefit from links tied to their city, region, or industry, since these reinforce local relevance signals alongside your [Google Business Profile](https://f9xr.github.io/articles/2026/07/29/free-business-directories-guide.html).
@@ -132,7 +132,7 @@ Paying for a mention or review from a respected voice in your industry, especial
 
 ### 4. HARO Style Journalist Requests (Paid Tiers)
 
-Services that [connect journalists looking for expert quotes with business owners willing to comment](https://ahrefs.com/blog/haro-backlinks/){:target="_blank" rel="noopener noreferrer"} often have paid tiers offering faster access or better matching. A well placed expert quote in a major publication can bring a high authority link.
+Services that [connect journalists looking for expert quotes with business owners willing to comment](https://featured.com/){:target="_blank" rel="noopener noreferrer"} often have paid tiers offering faster access or better matching. A well placed expert quote in a major publication can bring a high authority link.
 
 ## Free vs Paid Backlink Methods at a Glance
 
