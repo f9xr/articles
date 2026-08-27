@@ -22,8 +22,6 @@ faq:
     a: "Independent research analyzing thousands of Google AI Mode queries found that 79 percent of hotel links currently route through Google Business Profiles, far more than OTA listings, making profile accuracy and optimization a critical factor for hotel visibility in AI-driven search."
 ---
 
-## Introduction
-
 For years, booking a hotel meant the same routine. Search Google, click through to Booking.com or Expedia, compare a dozen nearly identical listings, second guess the cancellation policy, and eventually commit. That middleman step, the online travel agency sitting between you and the hotel, has been part of travel planning for two decades.
 
 That routine is starting to change. On August 7, 2026, Google confirmed to travel industry outlet Skift that it has begun a limited test in the United States letting travelers describe a trip in plain language, compare hotel options, and complete an actual booking, all without leaving Google Search's AI Mode. Booking Holdings, the parent company of Booking.com, confirmed it's one of the first partners in this test, with Expedia, Marriott, Wyndham, and IHG also involved.
