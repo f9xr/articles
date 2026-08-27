@@ -75,7 +75,7 @@ Every article gets a `1200x630` featured image. Three options, in order of prefe
 
 1. **Default: branded template (offline, no key, no network).** Run:
    ```powershell
-   node tools/generate-featured-image.mjs --prompt "<short article title>" --out assets/<slug>.webp
+   node tools/generate-featured-image.mjs --prompt "<short article title>" --out assets/post-images/<slug>.webp
    ```
    - `template` is the default provider and needs no API key. `--prompt` is the title text rendered on the card (wrapped to ~3 lines).
    - Uses the F9XR charcoal + electric blue (`#3b82f6`) palette with a map-pin motif, a rounded `logo.webp` chip and "F9XR ARTICLES" wordmark at the top, and a tagline at the bottom.
@@ -83,7 +83,13 @@ Every article gets a `1200x630` featured image. Three options, in order of prefe
 2. **User-provided image.** If the user supplies a specific image URL (e.g., a licensed Unsplash photo), use it in `image`, set `image_width`/`image_height` to its real dimensions (check with sharp: `node -e "require('sharp')(file).metadata().then(m=>console.log(m.width,m.height))"`), and add the required attribution in `image_credit` or `image_caption`. Never skip the credit.
 3. **AI photo generation (optional).** Only if the user explicitly asks for AI-generated art. Run `--provider pollinations` (free, no key) / `--provider openai` (needs `OPENAI_API_KEY`) / `--provider gemini` (needs `GEMINI_API_KEY` + billing at `https://aistudio.google.com`). Prompt recipe: photorealistic, editorial photography, deep charcoal backgrounds with electric blue accents, always end with `Wide 16:9 horizontal composition. No text, no words, no letters, no watermarks, no logos.` AI providers can be busy or rate-limited; retry or fall back to the template.
 
-Commit a locally generated asset with the post in Step 7 (`git add _posts/...md assets/<slug>.webp article-urls.txt`). Never publish a post with a missing or uncredited hero.
+Commit a locally generated asset with the post in Step 7 (`git add _posts/...md assets/post-images/<slug>.webp article-urls.txt`). Never publish a post with a missing or uncredited hero.
+
+**Image location & format rules (strict):**
+- **All post images, including the featured hero and every inline content image, MUST live in `assets/post-images/`.** Never write a post image to the `assets/` root or anywhere else.
+- **Format must be WEBP only.** Convert any source images (PNG, JPG, etc.) to WEBP with sharp before referencing them; commit the WEBP, not the original. Any non-WEBP source should be deleted after conversion.
+- Every inline image (HTML `<img>` or Markdown `![alt](url){: ...}`) MUST include explicit `width`/`height`, `loading="lazy"`, and a descriptive `alt`/title.
+- Use the full published URL for `image:` front-matter and inline `src`: `https://f9xr.github.io/articles/assets/post-images/<slug>.webp`.
 
 ### 3. Write the Post Body
 
@@ -236,7 +242,7 @@ Rules:
 Use these git commands:
 
 ```powershell
-git add _posts/YYYY-MM-DD-slug.md assets/YYYY-MM-DD-slug.webp article-urls.txt
+git add _posts/YYYY-MM-DD-slug.md assets/post-images/YYYY-MM-DD-slug.webp article-urls.txt
 git commit -m "Add article: Article Title"
 git push origin main
 ```
