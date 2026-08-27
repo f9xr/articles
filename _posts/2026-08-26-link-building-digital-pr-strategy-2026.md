@@ -2,7 +2,7 @@
 layout: post
 title: "Link Building 2026: Velocity & Safety Framework"
 description: "A data-driven link building and digital PR framework covering velocity limits, link typology, and a 90-day roadmap for founders and SEOs."
-image: "https://f9xr.github.io/articles/assets/link-building-digital-pr-strategy-2026.webp"
+image: "https://f9xr.github.io/articles/assets/post-images/link-building-digital-pr-strategy-2026.webp"
 image_width: 1200
 image_height: 630
 date: 2026-08-26

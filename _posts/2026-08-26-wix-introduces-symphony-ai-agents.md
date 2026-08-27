@@ -2,7 +2,7 @@
 layout: post
 title: "Wix Introduces Symphony: AI Agents for Your Business"
 description: "Wix launched Symphony, a standalone AI agent platform for small businesses. Here's how it works, what it does, and if it's worth using."
-image: "https://f9xr.github.io/articles/assets/wix-introduces-symphony-ai-agents.webp"
+image: "https://f9xr.github.io/articles/assets/post-images/wix-introduces-symphony-ai-agents.webp"
 image_width: 1200
 image_height: 630
 date: 2026-08-26

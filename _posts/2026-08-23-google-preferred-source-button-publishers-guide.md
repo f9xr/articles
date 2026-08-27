@@ -49,7 +49,7 @@ The feature originally worked within Top Stories, then expanded in May to also i
 Mrinalini Loew, General Manager of Google's Search Ecosystem, announced the upgrade: an interactive Preferred Sources button that publishers can embed directly on their own web pages. Previously, marking a site as preferred required a reader to navigate away to Google's dedicated source preferences page and search for the site by name. Now a reader can click a button right there on the article or homepage they're already reading, confirm their choice, and land straight back on that same page rather than being routed elsewhere.
 
 <div style="text-align:center; margin: 2em auto;">
-  <img src="https://f9xr.github.io/articles/assets/post-images/preferred-sources-embed-code.png" alt="Google Search Central documentation showing the JavaScript embed code for the Preferred Sources button" width="1200" height="684" loading="lazy" />
+  <img src="https://f9xr.github.io/articles/assets/post-images/preferred-sources-embed-code.webp" alt="Google Search Central documentation showing the JavaScript embed code for the Preferred Sources button" width="1200" height="684" loading="lazy" />
   <p style="color:#71717a; font-size:0.85em; margin-top:0.5em;">The official embed code, published in <a href="https://developers.google.com/search/docs/appearance/preferred-sources" target="_blank" rel="noopener noreferrer" style="color:#71717a; text-decoration:underline;">Google Search Central's documentation</a>. Image: Google</p>
 </div>
 

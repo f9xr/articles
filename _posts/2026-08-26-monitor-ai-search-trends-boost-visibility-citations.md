@@ -2,7 +2,7 @@
 layout: post
 title: "Boost AI Citations by Monitoring Real Time Trends"
 description: "Want more AI visibility and citations? Learn how monitoring real time AI search trends in your niche can get your business cited by ChatGPT and Gemini."
-image: "https://f9xr.github.io/articles/assets/monitor-ai-search-trends-boost-visibility-citations.webp"
+image: "https://f9xr.github.io/articles/assets/post-images/monitor-ai-search-trends-boost-visibility-citations.webp"
 image_width: 1200
 image_height: 630
 date: 2026-08-26
@@ -116,7 +116,7 @@ This doesn't need to become a full time job. A realistic, sustainable cadence lo
 
 Building a genuine trend monitoring habit, across Google Trends, community conversations, and AI specific citation tracking, then actually turning what you find into fast, well structured, genuinely citable content, is a lot to manage consistently on top of running a business.
 
-F9XR Team folds this kind of ongoing AI visibility work into its [website development](https://f9xr.github.io/services/website-development/), [website redesign](https://f9xr.github.io/services/website-redesign/), and [local SEO](https://f9xr.github.io/services/local-seo/) services, watching for relevant emerging topics in a business's niche and helping turn them into content genuinely structured to earn citation across ChatGPT, Gemini, Claude, and Perplexity, not just chase a passing spike in attention. That means a business's AI visibility keeps building steadily, instead of depending on catching every trend manually and alone.
+F9XR Team folds this kind of ongoing AI visibility work into its [website development](https://f9xr.github.io/services/website-rentals.html), [website redesign](https://f9xr.github.io/services/website-rentals.html), and [local SEO](https://f9xr.github.io/services/google-business-optimization.html) services, watching for relevant emerging topics in a business's niche and helping turn them into content genuinely structured to earn citation across ChatGPT, Gemini, Claude, and Perplexity, not just chase a passing spike in attention. That means a business's AI visibility keeps building steadily, instead of depending on catching every trend manually and alone.
 
 ## Key Takeaways
 
@@ -131,6 +131,6 @@ F9XR Team folds this kind of ongoing AI visibility work into its [website develo
 
 AI visibility rewards businesses that pay attention, not just to their own website, but to the broader conversation happening around their industry in real time. Watching what's trending, in traditional search, in community discussions, and directly inside AI conversations, then moving quickly to publish genuinely useful, well structured content around it, is one of the clearest, most underused paths to earning real citations from ChatGPT, Gemini, Claude, and Perplexity.
 
-Building that kind of ongoing monitoring habit, and turning it into content that actually earns citation rather than just chasing attention, is exactly the work F9XR Team brings to its [website development](https://f9xr.github.io/services/website-development/), [website redesign](https://f9xr.github.io/services/website-redesign/), and [local SEO](https://f9xr.github.io/services/local-seo/) services, so a business's AI visibility keeps growing steadily instead of depending on catching every trend alone.
+Building that kind of ongoing monitoring habit, and turning it into content that actually earns citation rather than just chasing attention, is exactly the work F9XR Team brings to its [website development](https://f9xr.github.io/services/website-rentals.html), [website redesign](https://f9xr.github.io/services/website-rentals.html), and [local SEO](https://f9xr.github.io/services/google-business-optimization.html) services, so a business's AI visibility keeps growing steadily instead of depending on catching every trend alone.
 
 *Produced using AI-assisted research and drafting workflows, then reviewed and edited by the F9XR editorial team. See our [Editorial Policy](https://f9xr.github.io/articles/press/editorial-policy.html) for how we create and verify content.*

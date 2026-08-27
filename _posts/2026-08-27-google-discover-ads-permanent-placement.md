@@ -2,7 +2,7 @@
 layout: post
 title: "Google Discover Ads: Do They Get You In Forever?"
 description: "Running ads on Google Discover won't guarantee lasting organic placement. Here's what actually keeps your site showing up in Discover."
-image: "https://f9xr.github.io/articles/assets/google-discover-ads-permanent-placement.webp"
+image: "https://f9xr.github.io/articles/assets/post-images/google-discover-ads-permanent-placement.webp"
 image_width: 1200
 image_height: 630
 date: 2026-08-27

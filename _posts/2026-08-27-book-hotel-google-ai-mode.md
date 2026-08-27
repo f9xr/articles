@@ -2,7 +2,7 @@
 layout: post
 title: "You Can Now Book Hotels in Google AI Mode"
 description: "Google is testing direct hotel booking inside AI Mode. Here's how it works, who's involved, and what it means for hotels and travelers in 2026."
-image: "https://f9xr.github.io/articles/assets/book-hotel-google-ai-mode.webp"
+image: "https://f9xr.github.io/articles/assets/post-images/book-hotel-google-ai-mode.webp"
 image_width: 1200
 image_height: 630
 date: 2026-08-27
@@ -113,6 +113,10 @@ For roughly two decades, Booking.com and Expedia have sat between hotels and tra
 ### Independent Research on Where Hotel Links Actually Go
 
 A study analyzing 4,000 Google AI Mode queries across 8 cities found that 79 percent of hotel links currently stay within Google, routed through Google Business Profiles, while OTAs receive just 3.6 percent of actual clicks despite being referenced in 46.6 percent of citations. [The full research](https://nicolassitter.com/research/google-ai-mode-hotel-study-2026){:target="_blank" rel="noopener noreferrer"} is worth a read if you want the methodology. For hotels, the takeaway is direct: Google Business Profile optimization has become critical for AI Mode visibility specifically, since that's overwhelmingly where the clicks currently go.
+
+These kinds of AI-generated hotel results, like the Google AI Mode comparison below for hotels in Lakshadweep, are exactly what travelers now see ahead of traditional blue links:
+
+<img src="https://f9xr.github.io/articles/assets/post-images/best-hotels-lakshadweep-google-ai-results.webp" alt="Google AI Mode results comparing best hotels in Lakshadweep" title="Google AI Mode hotel comparison results in Lakshadweep" width="1200" height="1059" loading="lazy" />
 
 ### The Numbers Are Still Small, For Now
 

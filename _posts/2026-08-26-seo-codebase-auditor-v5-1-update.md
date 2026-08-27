@@ -2,7 +2,7 @@
 layout: post
 title: "SEO Codebase Auditor v5.1: 24 Pillars, Sharper Fixes"
 description: "Our SEO Codebase Auditor just got a v5.1 upgrade. See what changed across all 24 SEO pillars and why it matters for your website's rankings."
-image: "https://f9xr.github.io/articles/assets/seo-codebase-auditor-v5-1-update.webp"
+image: "https://f9xr.github.io/articles/assets/post-images/seo-codebase-auditor-v5-1-update.webp"
 image_width: 1200
 image_height: 630
 date: 2026-08-26
@@ -27,6 +27,8 @@ If you run a small business website, chances are you have been told at least onc
 That is the exact problem our [SEO Codebase Auditor](https://f9xr.github.io/seo-audit-report-skill/) was built to solve, and this week we pushed a meaningful update to it. Version 5.1 is not a cosmetic refresh. It is a correction pass across all 24 SEO pillars the tool inspects, fixing outdated guidance, tightening severity scoring, and making the reports easier for both business owners and developers to actually use.
 
 In this article, we will walk through what changed, why it matters, and what it means if you are a startup founder, a local business owner, or anyone trying to figure out why your website is not showing up on Google (or in ChatGPT and Gemini answers, for that matter).
+
+<img src="https://f9xr.github.io/articles/assets/post-images/seo-audit.webp" alt="SEO Codebase Auditor v5.1 covering 24 SEO pillars from technical through semantic and local" title="The SEO Codebase Auditor inspects your site across 24 SEO pillars" width="1000" height="421" loading="lazy" />
 
 ---
 
