@@ -24,8 +24,6 @@ faq:
     a: "Use Google Search Console's Discover performance report, found under the Performance section. It shows impressions, clicks, and CTR specifically from the organic Discover feed."
 ---
 
-## Introduction
-
 If you have ever seen your business ad pop up in someone's Google Discover feed and thought "great, now I'm in Discover for good," you are not alone. It's one of the most common misunderstandings we hear from business owners at F9XR Team, and honestly, it makes sense on the surface. You paid for visibility, Google showed your content, so shouldn't that visibility stick around?
 
 The short answer is no. Running ads on Google Discover does not get your website into the organic Discover feed permanently, or even temporarily in most cases. Paid placement and organic placement in Discover are two completely different systems, and mixing them up can lead to wasted ad budget and unrealistic expectations about long-term traffic.
