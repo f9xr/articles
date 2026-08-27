@@ -631,6 +631,7 @@ layout: default
   "name": {{ page.title | jsonify }},
   "description": "{{ page.description | default: site.description | strip_html | truncatewords: 55 | escape }}",
   "thumbnailUrl": "https://img.youtube.com/vi/{{ page.youtube_id }}/maxresdefault.jpg",
+  "contentUrl": "https://www.youtube.com/watch?v={{ page.youtube_id }}",
   "embedUrl": "https://www.youtube.com/embed/{{ page.youtube_id }}",
   "uploadDate": "{{ page.date | date_to_xmlschema }}",
   {% if page.video_duration %}"duration": "{{ page.video_duration }}",{% endif %}

@@ -26,8 +26,6 @@ If you have ever paid an agency for "50 backlinks a month" and watched your rank
 
 This guide skips the fluff. It is built around four operational pillars: the timeline difference between a fresh domain and an aged one, the daily and monthly velocity math that keeps you under Google's spam detection thresholds, the mechanics of earning real digital PR coverage, and a 90-day roadmap you can print and run against. This is the same operating framework the F9XR Team uses when building out link acquisition programs for client domains, whether that domain is three weeks old or three years old.
 
-*Produced using AI-assisted research and drafting workflows, then reviewed and edited by the F9XR editorial team. See our [Editorial Policy](https://f9xr.github.io/articles/press/editorial-policy.html) for how we create and verify content.*
-
 ---
 
 ## 1. The Foundational Timeline: Fresh vs. Aged Sites
@@ -186,3 +184,5 @@ This roadmap consolidates everything above into a phase-by-phase execution check
 Link building in 2026 is not about volume for its own sake. It is a sequencing problem: verify the entity, establish a stable index baseline, ramp velocity gradually, and layer in digital PR once the domain can absorb high-trust signals without looking anomalous. Businesses that follow this timeline consistently outrank competitors who buy links in bulk and hope for the best.
 
 If your business needs a website that is actually built to support this kind of link and authority growth, whether that means a [new site build](https://f9xr.github.io/pages/services.html), a redesign, [local SEO foundations](https://f9xr.github.io/pages/services.html), or an end-to-end digital presence strategy, F9XR Team works across all of it as part of the same system this guide is built on.
+
+*Produced using AI-assisted research and drafting workflows, then reviewed and edited by the F9XR editorial team. See our [Editorial Policy](https://f9xr.github.io/articles/press/editorial-policy.html) for how we create and verify content.*

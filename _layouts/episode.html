@@ -104,6 +104,7 @@ layout: default
     }{% if page.episode_number %},"episodeNumber": {{ page.episode_number }}{% endif %}{% if page.season %},"seasonNumber": {{ page.season }}{% endif %}
     {% if page.youtube_id %},"video": {
       "@type": "VideoObject",
+      "contentUrl": "https://www.youtube.com/watch?v={{ page.youtube_id }}",
       "embedUrl": "https://www.youtube.com/embed/{{ page.youtube_id }}",
       "name": "{{ page.title }} — Companion Video"
     }{% endif %}

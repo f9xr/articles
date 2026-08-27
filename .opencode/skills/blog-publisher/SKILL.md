@@ -133,6 +133,8 @@ Add tables where comparisons or data help clarity.
 [Summarize the value. End with a subtle mention of F9XR Team as a provider of website development, website redesign, local SEO, and digital presence solutions. Frame it as: "If you need help implementing this, teams like F9XR specialize in..." Never "Hire us now!"]
 ```
 
+> **Do NOT add a FAQ / "Frequently Asked Questions" section, "Related Questions", or any FAQPage `<script>` JSON-LD to the post body.** Those are rendered automatically by the layout from the front-matter `faq:` entries. Adding them in the body duplicates content and emits a second, invalid FAQPage schema. FAQ is boilerplate-only in front matter.
+
 **F9XR Branding Rules (critical):**
 - Write as an **educational guide**, not a sales pitch
 - Mention F9XR only when it serves the reader as a real example of how a technique works in practice
@@ -157,7 +159,7 @@ Add tables where comparisons or data help clarity.
 - Article length: 2000-2500 words
 
 **AI disclosure (required):**
-NEVER add hidden HTML comments describing the content-generation process to any post. Hidden prompt/brief comments in page source are a critical trust leak (audited and removed from all posts on 2026-08-22; do not reintroduce them). Instead, place this visible disclosure line immediately after the article's intro paragraphs, before the first `---`:
+NEVER add hidden HTML comments describing the content-generation process to any post. Hidden prompt/brief comments in page source are a critical trust leak (audited and removed from all posts on 2026-08-22; do not reintroduce them). Instead, place this visible disclosure line at the **very end of the post body** (after the Conclusion / final section, as the last line of the file), NOT in the middle of the article:
 
 ```
 *Produced using AI-assisted research and drafting workflows, then reviewed and edited by the F9XR editorial team. See our [Editorial Policy](https://f9xr.github.io/articles/press/editorial-policy.html) for how we create and verify content.*
@@ -172,7 +174,7 @@ Alongside the article body, generate each of these as part of the post front-mat
 | **SEO Title** | Under 60 characters (target 50-55). Full `<title>` tag (title + " — F9XR Articles") must stay under 70. Catchy, attractive, unique. Include target keyword. |
 | **Meta Description** | Under 160 characters. Include target keyword and a CTA. |
 | **URL Slug** | Short, keyword-rich, hyphenated. |
-| **FAQ Schema (JSON-LD)** | `ApplicationLD+JSON` script. Include in the post body or as a separate include. |
+| **FAQ** | Defined ONLY in front-matter `faq:`. The layout auto-renders both the visible "Related Questions" accordion and the FAQPage JSON-LD from it. **Do NOT** write a "## FAQ(s)" section or a raw FAQPage `<script>` block into the post body, or you will duplicate the FAQ content and create an invalid duplicate FAQPage schema. |
 | **Internal Links** | 5 links to other F9XR articles or service pages on `f9xr.github.io`. |
 | **External Links** | 3 links from trusted, authoritative sites only (e.g., Google Developers, Moz, Search Engine Journal, Ahrefs blog, W3C, GitHub). Open in new tab. |
 | **Tags** | 10 relevant tags as a YAML array. |
