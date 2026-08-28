@@ -11,3 +11,5 @@ bio: |
 
   Her work focuses on data analysis, visualization, and business intelligence — building reporting and dashboards that help businesses understand their performance and grow with confidence.
 ---
+
+{% include author-profile.html author_key=page.author_key bio=page.bio %}

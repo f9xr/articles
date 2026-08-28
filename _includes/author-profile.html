@@ -42,39 +42,6 @@
   </section>
   {% endif %}
 
-  {% if ap.experience %}
-  <section class="author-section author-experience">
-    <h2 class="author-section-title"><i class="fa-solid fa-briefcase" style="color:#3b82f6; font-size:0.8em;"></i> Experience</h2>
-    <div class="author-timeline">
-      {% for job in ap.experience %}
-      <article class="author-exp-card">
-        <div class="author-exp-avatar">{{ job.company | slice: 0, 1 }}</div>
-        <div class="author-exp-body">
-          <h3 class="author-exp-title">{{ job.title }}</h3>
-          {% if job.company %}
-          <p class="author-exp-company">
-            {% if job.company_url %}<a href="{{ job.company_url }}" target="_blank" rel="noopener noreferrer">{{ job.company }}</a>{% else %}{{ job.company }}{% endif %}
-            {% if job.employment_type %}<span class="author-exp-type">{{ job.employment_type }}</span>{% endif %}
-          </p>
-          {% endif %}
-          {% if job.highlights %}
-          <ul class="author-exp-list">
-            {% for h in job.highlights %}
-            <li>{{ h }}</li>
-            {% endfor %}
-          </ul>
-          {% endif %}
-        </div>
-        <div class="author-exp-meta">
-          <span class="author-exp-period"><i class="fa-regular fa-calendar"></i> {{ job.period }}</span>
-          <span class="author-exp-location"><i class="fa-solid fa-location-dot"></i> {{ job.location }}</span>
-        </div>
-      </article>
-      {% endfor %}
-    </div>
-  </section>
-  {% endif %}
-
   {% if ap.education %}
   <section class="author-section author-education">
     <h2 class="author-section-title"><i class="fa-solid fa-graduation-cap" style="color:#3b82f6; font-size:0.8em;"></i> Education</h2>

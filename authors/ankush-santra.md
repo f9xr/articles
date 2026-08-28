@@ -11,3 +11,5 @@ bio: |
 
   Through SponsorLanes, Ankush helps businesses and creators find meaningful partnerships, turning sponsorship into a repeatable growth channel. His focus sits at the intersection of the creator economy, partner marketing, and brand collaboration.
 ---
+
+{% include author-profile.html author_key=page.author_key bio=page.bio %}
