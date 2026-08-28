@@ -59,3 +59,49 @@
       location: "India"
       highlights:
         - "Helps businesses turn digital presence into measurable growth, from AI-powered web design to local SEO systems"
+
+"Ankush Santra":
+  name: "Ankush Santra (Lepem)"
+  role: "Owner of SponsorLanes"
+  avatar: "https://i.pinimg.com/736x/68/d7/99/68d7993dd9956d0064f693edc8a22119.jpg"
+  url: "/authors/ankush-santra/"
+  email: "sponsorlanes@mail.lepem.xyz"
+  linkedin: "https://www.linkedin.com/in/lepem-marker-938a72419"
+  knowsAbout:
+    - "Sponsorship Platforms"
+    - "Creator Economy"
+    - "Partner Marketing"
+    - "Business Development"
+    - "Brand Collaboration"
+  experience:
+    - title: "Owner"
+      company: "SponsorLanes"
+      company_url: "https://sponsorlanes.lepem.xyz"
+      employment_type: "Self-employed"
+      period: "Present"
+      location: "India"
+      highlights:
+        - "Runs SponsorLanes, a platform connecting creators and brands through sponsorship opportunities"
+
+"Masna Sudhir":
+  name: "Masna Sudhir"
+  role: "Jr Data Analyst at F9XR Team"
+  avatar: "https://i.pinimg.com/736x/5a/d2/cb/5ad2cb39dd903a627bb4867ff20838bc.jpg"
+  url: "/authors/masna-sudhir/"
+  email: "amasna@gmail.com"
+  linkedin: "https://www.linkedin.com/in/masna-sudhir-907235414"
+  knowsAbout:
+    - "Data Analysis"
+    - "Data Visualization"
+    - "Business Intelligence"
+    - "Reporting & Dashboards"
+    - "Marketing Analytics"
+  experience:
+    - title: "Jr Data Analyst"
+      company: "F9XR Team"
+      company_url: "https://f9xr.github.io"
+      employment_type: "Full-time"
+      period: "Present"
+      location: "India"
+      highlights:
+        - "Supports F9XR Team with data analysis, reporting, and insights that inform digital growth decisions"

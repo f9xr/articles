@@ -31,6 +31,17 @@
     </div>
   </section>
 
+  {% if ap.knowsAbout %}
+  <section class="author-section author-expertise">
+    <h2 class="author-section-title"><i class="fa-solid fa-lightbulb" style="color:#3b82f6; font-size:0.8em;"></i> Expertise</h2>
+    <ul class="author-expertise-list">
+      {% for topic in ap.knowsAbout %}
+      <li class="author-expertise-topic">{{ topic }}</li>
+      {% endfor %}
+    </ul>
+  </section>
+  {% endif %}
+
   {% if ap.experience %}
   <section class="author-section author-experience">
     <h2 class="author-section-title"><i class="fa-solid fa-briefcase" style="color:#3b82f6; font-size:0.8em;"></i> Experience</h2>
@@ -85,6 +96,23 @@
     </div>
   </section>
   {% endif %}
+
+  <section class="author-section author-articles">
+    <h2 class="author-section-title"><i class="fa-solid fa-newspaper" style="color:#3b82f6; font-size:0.8em;"></i> Written Articles</h2>
+    {% assign ap_posts = site.posts | where: "author", include.author_key | sort: "date" | reverse %}
+    {% if ap_posts.size > 0 %}
+    <ul class="author-articles-list">
+      {% for post in ap_posts %}
+      <li class="author-article-item">
+        <span class="author-article-date"><time datetime="{{ post.date | date: '%Y-%m-%d' }}">{{ post.date | date: "%b %d, %Y" }}</time></span>
+        <a class="author-article-title" href="{{ post.url | relative_url }}">{{ post.title | escape }}</a>
+      </li>
+      {% endfor %}
+    </ul>
+    {% else %}
+    <p class="author-articles-none">No articles published yet.</p>
+    {% endif %}
+  </section>
 
   <section class="author-section author-connect">
     <h2 class="author-section-title"><i class="fa-solid fa-link" style="color:#3b82f6; font-size:0.8em;"></i> Connect</h2>
