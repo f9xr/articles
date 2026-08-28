@@ -4079,6 +4079,50 @@ details summary:focus-visible {
   letter-spacing: 0.06em;
 }
 
+/* --- Explore by Category tabs --- */
+.ed-tabs {
+  margin-bottom: 2.2em;
+}
+.ed-tabs-nav {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.5em;
+  margin-bottom: 1.6em;
+}
+.ed-tab-btn {
+  appearance: none;
+  cursor: pointer;
+  font-family: inherit;
+  font-size: 0.85em;
+  font-weight: 600;
+  color: #a1a1aa;
+  background: #0a0a0c;
+  border: 1px solid #27272a;
+  border-radius: 999px;
+  padding: 0.5em 1.1em;
+  transition: color 0.2s ease, border-color 0.2s ease, background 0.2s ease;
+}
+.ed-tab-btn:hover {
+  color: #f4f4f5;
+  border-color: #3b82f6;
+}
+.ed-tab-btn.is-active {
+  color: #fff;
+  background: #3b82f6;
+  border-color: #3b82f6;
+}
+.ed-tab-panel {
+  display: none;
+}
+.ed-tab-panel.is-active {
+  display: block;
+  animation: ed-tab-fade 0.25s ease;
+}
+@keyframes ed-tab-fade {
+  from { opacity: 0; transform: translateY(2px); }
+  to { opacity: 1; transform: translateY(0); }
+}
+
 /* --- 3-col row (vertical keylines) --- */
 .ed-cols {
   display: grid;
@@ -4828,5 +4872,19 @@ details.episode-transcript summary::marker {
   }
   .episode-card {
     padding: 1.2em;
+  }
+}
+
+/* Explore by Category tabs — narrow screens */
+@media (max-width: 560px) {
+  .ed-tabs-nav {
+    flex-wrap: nowrap;
+    overflow-x: auto;
+    padding-bottom: 0.4em;
+    -webkit-overflow-scrolling: touch;
+  }
+  .ed-tab-btn {
+    white-space: nowrap;
+    flex: 0 0 auto;
   }
 }

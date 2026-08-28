@@ -140,6 +140,183 @@ keywords: "F9XR Articles, engineering digital growth, web architecture, AI integ
   </div>
 </section>
 
+<section class="ed-tabs" aria-label="Explore articles by category">
+  <div class="ed-sec-head">
+    <h2 class="ed-sec-title">Explore by Category</h2>
+    <a class="ed-sec-link" href="{{ '/archive.html' | relative_url }}">Browse archive <i class="fa-solid fa-arrow-right"></i></a>
+  </div>
+
+  {% assign tab_featured = "google-e-e-a-t-checklist-every-seo-should-bookmark|steps-make-business-site-visible-to-ai|rank-number-1-google-maps-2026|cloudflare-emdash-cms-explained|consistency-audits-seo-aeo-geo|how-ai-picks-local-businesses-2026" | split: "|" %}
+  {% assign tab_news_tags = "Google Spam Update|Google Search Updates|Google Search Bug|Google News|Google Preferred Sources|Google Discover Ads|Wix Symphony|Cloudflare EmDash|Algorithm Update|Microsoft Advertising|parasite SEO 2026" | split: "|" %}
+  {% assign tab_seo_tags = "Technical SEO|on-page SEO|E-E-A-T|Core Web Vitals|link building strategy|backlink building|SEO Strategy|schema markup|structured data|SEO Troubleshooting|Search Engine Optimization" | split: "|" %}
+  {% assign tab_ai_tags = "AEO|AEO answer engine optimization|GEO|GEO generative engine optimization|AI search optimization|AI search visibility|AI Overviews|ChatGPT SEO|Agentic AI|AI SEO|answer engine optimization" | split: "|" %}
+  {% assign tab_local_tags = "local SEO|Local SEO 2026|Google Business Profile|Google Maps ranking|local business SEO|local seo citations|NAP consistency|local pack ranking factors" | split: "|" %}
+
+  <div class="ed-tabs-nav" role="tablist" aria-label="Article categories">
+    <button class="ed-tab-btn is-active" role="tab" id="tab-featured" aria-selected="true" aria-controls="panel-featured" data-tab="featured">Featured Articles</button>
+    <button class="ed-tab-btn" role="tab" id="tab-news" aria-selected="false" aria-controls="panel-news" data-tab="news">Latest News</button>
+    <button class="ed-tab-btn" role="tab" id="tab-seo" aria-selected="false" aria-controls="panel-seo" data-tab="seo">SEO Articles</button>
+    <button class="ed-tab-btn" role="tab" id="tab-ai" aria-selected="false" aria-controls="panel-ai" data-tab="ai">AI &amp; Agents</button>
+    <button class="ed-tab-btn" role="tab" id="tab-local" aria-selected="false" aria-controls="panel-local" data-tab="local">Local SEO</button>
+  </div>
+
+  <div class="ed-tabs-panels">
+
+    <div class="ed-tab-panel is-active" role="tabpanel" id="panel-featured" data-panel="featured" tabindex="0">
+      <div class="ed-grid">
+        {% for post in site.posts %}
+        {% assign post_slug = post.url | split: "/" | last | remove: ".html" %}
+        {% if tab_featured contains post_slug %}
+        {% assign g_author = site.data.authors[post.author] %}
+        {% assign g_min = post.content | strip_html | number_of_words | divided_by: 200 | plus: 1 %}
+        {% assign g_desc = post.content | strip_html | truncate: 140 %}
+        <article class="ed-card" itemscope itemtype="https://schema.org/Article">
+          <a class="ed-card-img" href="{{ post.url | relative_url }}" aria-label="{{ post.title | escape }}"{% if post.image %} style="background-image:url('{{ post.image }}');"{% endif %}></a>
+          <div class="ed-card-meta">
+            <span class="ed-tag">{{ post.tags.first | default: "Article" }}</span>
+            <span class="ed-mono">{{ post.date | date: "%b %d, %Y" }}</span>
+            <span class="ed-mono">{{ g_author.name | default: post.author }}</span>
+          </div>
+          <h3 class="ed-card-title" itemprop="headline"><a href="{{ post.url | relative_url }}" itemprop="url">{{ post.title | escape }}</a></h3>
+          <p class="ed-card-desc" itemprop="description">{{ post.description | default: g_desc }}</p>
+          <span class="ed-card-foot">{{ g_min }} min read</span>
+        </article>
+        {% endif %}
+        {% endfor %}
+      </div>
+    </div>
+
+    <div class="ed-tab-panel" role="tabpanel" id="panel-news" data-panel="news" tabindex="0">
+      <div class="ed-grid">
+        {% assign tab_show = 0 %}
+        {% for post in site.posts %}
+        {% assign is_match = false %}
+        {% for needle in tab_news_tags %}{% if post.tags contains needle %}{% assign is_match = true %}{% endif %}{% endfor %}
+        {% if is_match and tab_show < 6 %}
+        {% assign tab_show = tab_show | plus: 1 %}
+        {% assign g_author = site.data.authors[post.author] %}
+        {% assign g_min = post.content | strip_html | number_of_words | divided_by: 200 | plus: 1 %}
+        {% assign g_desc = post.content | strip_html | truncate: 140 %}
+        <article class="ed-card" itemscope itemtype="https://schema.org/Article">
+          <a class="ed-card-img" href="{{ post.url | relative_url }}" aria-label="{{ post.title | escape }}"{% if post.image %} style="background-image:url('{{ post.image }}');"{% endif %}></a>
+          <div class="ed-card-meta">
+            <span class="ed-tag">{{ post.tags.first | default: "Article" }}</span>
+            <span class="ed-mono">{{ post.date | date: "%b %d, %Y" }}</span>
+            <span class="ed-mono">{{ g_author.name | default: post.author }}</span>
+          </div>
+          <h3 class="ed-card-title" itemprop="headline"><a href="{{ post.url | relative_url }}" itemprop="url">{{ post.title | escape }}</a></h3>
+          <p class="ed-card-desc" itemprop="description">{{ post.description | default: g_desc }}</p>
+          <span class="ed-card-foot">{{ g_min }} min read</span>
+        </article>
+        {% endif %}
+        {% endfor %}
+      </div>
+    </div>
+
+    <div class="ed-tab-panel" role="tabpanel" id="panel-seo" data-panel="seo" tabindex="0">
+      <div class="ed-grid">
+        {% assign tab_show = 0 %}
+        {% for post in site.posts %}
+        {% assign is_match = false %}
+        {% for needle in tab_seo_tags %}{% if post.tags contains needle %}{% assign is_match = true %}{% endif %}{% endfor %}
+        {% if is_match and tab_show < 6 %}
+        {% assign tab_show = tab_show | plus: 1 %}
+        {% assign g_author = site.data.authors[post.author] %}
+        {% assign g_min = post.content | strip_html | number_of_words | divided_by: 200 | plus: 1 %}
+        {% assign g_desc = post.content | strip_html | truncate: 140 %}
+        <article class="ed-card" itemscope itemtype="https://schema.org/Article">
+          <a class="ed-card-img" href="{{ post.url | relative_url }}" aria-label="{{ post.title | escape }}"{% if post.image %} style="background-image:url('{{ post.image }}');"{% endif %}></a>
+          <div class="ed-card-meta">
+            <span class="ed-tag">{{ post.tags.first | default: "Article" }}</span>
+            <span class="ed-mono">{{ post.date | date: "%b %d, %Y" }}</span>
+            <span class="ed-mono">{{ g_author.name | default: post.author }}</span>
+          </div>
+          <h3 class="ed-card-title" itemprop="headline"><a href="{{ post.url | relative_url }}" itemprop="url">{{ post.title | escape }}</a></h3>
+          <p class="ed-card-desc" itemprop="description">{{ post.description | default: g_desc }}</p>
+          <span class="ed-card-foot">{{ g_min }} min read</span>
+        </article>
+        {% endif %}
+        {% endfor %}
+      </div>
+    </div>
+
+    <div class="ed-tab-panel" role="tabpanel" id="panel-ai" data-panel="ai" tabindex="0">
+      <div class="ed-grid">
+        {% assign tab_show = 0 %}
+        {% for post in site.posts %}
+        {% assign is_match = false %}
+        {% for needle in tab_ai_tags %}{% if post.tags contains needle %}{% assign is_match = true %}{% endif %}{% endfor %}
+        {% if is_match and tab_show < 6 %}
+        {% assign tab_show = tab_show | plus: 1 %}
+        {% assign g_author = site.data.authors[post.author] %}
+        {% assign g_min = post.content | strip_html | number_of_words | divided_by: 200 | plus: 1 %}
+        {% assign g_desc = post.content | strip_html | truncate: 140 %}
+        <article class="ed-card" itemscope itemtype="https://schema.org/Article">
+          <a class="ed-card-img" href="{{ post.url | relative_url }}" aria-label="{{ post.title | escape }}"{% if post.image %} style="background-image:url('{{ post.image }}');"{% endif %}></a>
+          <div class="ed-card-meta">
+            <span class="ed-tag">{{ post.tags.first | default: "Article" }}</span>
+            <span class="ed-mono">{{ post.date | date: "%b %d, %Y" }}</span>
+            <span class="ed-mono">{{ g_author.name | default: post.author }}</span>
+          </div>
+          <h3 class="ed-card-title" itemprop="headline"><a href="{{ post.url | relative_url }}" itemprop="url">{{ post.title | escape }}</a></h3>
+          <p class="ed-card-desc" itemprop="description">{{ post.description | default: g_desc }}</p>
+          <span class="ed-card-foot">{{ g_min }} min read</span>
+        </article>
+        {% endif %}
+        {% endfor %}
+      </div>
+    </div>
+
+    <div class="ed-tab-panel" role="tabpanel" id="panel-local" data-panel="local" tabindex="0">
+      <div class="ed-grid">
+        {% assign tab_show = 0 %}
+        {% for post in site.posts %}
+        {% assign is_match = false %}
+        {% for needle in tab_local_tags %}{% if post.tags contains needle %}{% assign is_match = true %}{% endif %}{% endfor %}
+        {% if is_match and tab_show < 6 %}
+        {% assign tab_show = tab_show | plus: 1 %}
+        {% assign g_author = site.data.authors[post.author] %}
+        {% assign g_min = post.content | strip_html | number_of_words | divided_by: 200 | plus: 1 %}
+        {% assign g_desc = post.content | strip_html | truncate: 140 %}
+        <article class="ed-card" itemscope itemtype="https://schema.org/Article">
+          <a class="ed-card-img" href="{{ post.url | relative_url }}" aria-label="{{ post.title | escape }}"{% if post.image %} style="background-image:url('{{ post.image }}');"{% endif %}></a>
+          <div class="ed-card-meta">
+            <span class="ed-tag">{{ post.tags.first | default: "Article" }}</span>
+            <span class="ed-mono">{{ post.date | date: "%b %d, %Y" }}</span>
+            <span class="ed-mono">{{ g_author.name | default: post.author }}</span>
+          </div>
+          <h3 class="ed-card-title" itemprop="headline"><a href="{{ post.url | relative_url }}" itemprop="url">{{ post.title | escape }}</a></h3>
+          <p class="ed-card-desc" itemprop="description">{{ post.description | default: g_desc }}</p>
+          <span class="ed-card-foot">{{ g_min }} min read</span>
+        </article>
+        {% endif %}
+        {% endfor %}
+      </div>
+    </div>
+
+  </div>
+</section>
+
+<script>
+(function() {
+  var btns = Array.prototype.slice.call(document.querySelectorAll('.ed-tabs .ed-tab-btn'));
+  var panels = Array.prototype.slice.call(document.querySelectorAll('.ed-tabs .ed-tab-panel'));
+  btns.forEach(function(btn) {
+    btn.addEventListener('click', function() {
+      var target = btn.getAttribute('data-tab');
+      btns.forEach(function(b) {
+        var active = (b === btn);
+        b.classList.toggle('is-active', active);
+        b.setAttribute('aria-selected', active ? 'true' : 'false');
+      });
+      panels.forEach(function(p) {
+        p.classList.toggle('is-active', p.getAttribute('data-panel') === target);
+      });
+    });
+  });
+})();
+</script>
+
 {% assign metric_total_words = 0 %}
 {% for metric_post in site.posts %}
   {% assign metric_post_words = metric_post.content | strip_html | number_of_words %}
