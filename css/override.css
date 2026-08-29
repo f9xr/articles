@@ -3264,7 +3264,7 @@ details summary:focus-visible {
    AUTHOR PROFILE PAGES
    =========================== */
 .author-page {
-  max-width: 760px;
+  max-width: 1280px;
   margin: 0 auto;
   padding: 0.5em 0 3em;
 }
@@ -4875,7 +4875,7 @@ details.episode-transcript summary::marker {
   }
 }
 
-/* Explore by Category tabs — narrow screens */
+/* Explore by Category tabs ï¿½ narrow screens */
 @media (max-width: 560px) {
   .ed-tabs-nav {
     flex-wrap: nowrap;
@@ -4899,6 +4899,8 @@ main.page-content,
   position: relative !important;
   z-index: 1 !important;
   background-color: #0a0a0a !important;
+  min-height: 100vh !important;
+  min-height: 100svh !important;
 }
 .site-footer,
 footer.site-footer {
@@ -4918,21 +4920,23 @@ footer.site-footer {
   navigation: auto;
 }
 ::view-transition-old(root) {
-  animation: io-fade-out 0.2s ease-in both;
+  animation: io-blur-out 0.28s ease-in both;
 }
 ::view-transition-new(root) {
-  animation: io-fade-in 0.32s ease-out both;
+  animation: io-blur-in 0.36s ease-out both;
 }
-@keyframes io-fade-out {
+@keyframes io-blur-out {
   to {
     opacity: 0;
-    transform: translateY(-6px);
+    filter: blur(8px);
+    transform: translateY(-4px);
   }
 }
-@keyframes io-fade-in {
+@keyframes io-blur-in {
   from {
     opacity: 0;
-    transform: translateY(6px);
+    filter: blur(8px);
+    transform: translateY(4px);
   }
 }
 @media (prefers-reduced-motion: reduce) {

@@ -25,9 +25,9 @@ faq:
     a: "Keep all software updated, use strong unique passwords with two-factor authentication, train employees to recognize the warning signs, and run regular security scans on your business website."
 ---
 
-If you have ever landed on a website and seen a box asking you to "verify you are human," you probably clicked it without a second thought. Cloudflare's CAPTCHA checks are everywhere, and most of us have learned to trust that little cloud logo. That trust is exactly what a fast-growing scam is exploiting.
+If you have ever landed on a website and seen a box asking you to "verify you are human," you probably clicked it without a second thought. Cloudflare's [CAPTCHA checks](https://www.cloudflare.com/products/turnstile/){:target="_blank" rel="noopener noreferrer"} are everywhere, and most of us have learned to trust that little cloud logo. That trust is exactly what a fast-growing scam is exploiting.
 
-Security researchers have been tracking a technique commonly called "ClickFix," where attackers build a fake Cloudflare verification screen that looks nearly identical to the real thing. But instead of a simple checkbox, it walks the visitor through steps that end with them running a malicious command on their own computer. For business owners, this matters on two fronts. Your customers could be tricked by this scam elsewhere. And if your own website ever gets compromised, this exact type of fake verification screen could end up on your pages, damaging customer trust and your brand's reputation.
+Security researchers have been tracking a technique commonly called "ClickFix," where attackers build a fake Cloudflare verification screen that looks nearly identical to the real thing. But instead of a simple checkbox, it walks the visitor through steps that end with them running a malicious command on their own computer. For business owners, this matters on two fronts. Your customers could be tricked by this scam elsewhere. And if your own website ever gets compromised, this exact type of fake verification screen could end up on your pages, damaging [customer trust](https://f9xr.github.io/articles/2026/08/15/how-to-increase-website-trust-score.html) and your brand's reputation.
 
 In this guide, we will break down how the fake Cloudflare CAPTCHA scam works, why it is so effective, what warning signs to look for, and what business owners should do to protect both their websites and their customers.
 
@@ -35,7 +35,7 @@ In this guide, we will break down how the fake Cloudflare CAPTCHA scam works, wh
 
 ## What Is the Fake Cloudflare CAPTCHA Scam?
 
-This scam is part of a broader category security researchers call "ClickFix" attacks, first widely documented in 2024 and still actively evolving. Attackers build a webpage or inject a popup that mimics Cloudflare's legitimate "checking if you're human" verification screen, complete with the cloud logo, matching colors, and familiar wording.
+This scam is part of a broader category security researchers call "[ClickFix](https://www.group-ib.com/blog/clickfix-the-social-engineering-technique-hackers-use-to-manipulate-victims/){:target="_blank" rel="noopener noreferrer"}" attacks, first widely documented in 2024 and still actively evolving. Attackers build a webpage or inject a popup that mimics Cloudflare's legitimate "checking if you're human" verification screen, complete with the cloud logo, matching colors, and familiar wording.
 
 Instead of a simple checkbox that quietly confirms you are not a bot, the fake version displays a multi-step instruction panel telling the visitor to:
 
@@ -50,9 +50,9 @@ What the visitor does not realize is that step two pastes a command their own op
 A few reasons this scam has spread so fast:
 
 - **Visual trust.** Cloudflare CAPTCHAs are one of the most recognized security elements on the web, so a convincing copy lowers people's guard immediately.
-- **No suspicious download.** Because the victim runs the command themselves through a built-in system tool, many antivirus tools do not flag it the way they would a downloaded file.
+- **No suspicious download.** Because the victim runs the command themselves through a built-in system tool, many [antivirus tools](https://www.mcafee.com/learn/fake-antivirus-software/){:target="_blank" rel="noopener noreferrer"} do not flag it the way they would a downloaded file.
 - **Urgency and simplicity.** The instructions are short, numbered, and framed as a normal security check, which discourages people from stopping to question it.
-- **Wide distribution.** These fake screens have shown up on compromised legitimate websites, malicious ad networks, phishing emails, and fake software download pages.
+- **Wide distribution.** These fake screens have shown up on [compromised legitimate websites](https://transparencyreport.google.com/safe-browsing){:target="_blank" rel="noopener noreferrer"}, malicious ad networks, phishing emails, and fake software download pages.
 
 ---
 
@@ -87,7 +87,7 @@ For a business, if this happens on a device connected to company accounts, cloud
 
 ### 1. Your Customers Could Encounter It Anywhere
 
-Employees and customers browsing the web on company devices can run into this scam on completely unrelated sites, through malicious ads, compromised pages, or phishing links. A single employee falling for this can put your entire network at risk.
+Employees and customers browsing the web on company devices can run into this scam on completely unrelated sites, through malicious ads, compromised pages, or [phishing links](https://www.cisa.gov/secure-our-world/recognize-and-report-phishing){:target="_blank" rel="noopener noreferrer"}. A single employee falling for this can put your entire network at risk.
 
 ### 2. Your Own Website Could Be Targeted
 
@@ -151,7 +151,7 @@ Website security and digital trust go hand in hand. A well-maintained site is fa
 - **Local SEO and digital presence solutions** that build genuine customer trust, which matters even more in a world full of impersonation scams.
 - **Guidance on securing admin access, hosting accounts, and third-party integrations** for your business website.
 
-A secure, well-maintained website is not just good practice. It is part of protecting your brand from being unknowingly used to spread scams like this one.
+A secure, well-maintained website is not just good practice. It is part of protecting your brand from being unknowingly used to spread scams like this one. You can see how we build and maintain sites with security in mind in our [case studies](https://f9xr.github.io/case-studies/index.html).
 
 ---
 
@@ -174,21 +174,5 @@ The fake Cloudflare CAPTCHA scam is a sharp reminder that attackers are getting 
 The best defense is a combination of awareness and a well-maintained, secure website. If your site has not had a security-focused review in a while, or you want a digital presence built with these risks in mind from day one, teams like the F9XR Team offer [website development](https://f9xr.github.io/services/website-rentals.html), [website redesign](https://f9xr.github.io/services/index.html), [website maintenance](https://f9xr.github.io/services/we-do-for-you.html), and [local SEO](https://f9xr.github.io/services/google-business-optimization.html) designed to keep your business both visible and protected.
 
 ---
-
-## Internal Linking Suggestions
-
-1. [Website Development Services](https://f9xr.github.io/services/website-rentals.html)
-2. [Website Maintenance & Management](https://f9xr.github.io/services/we-do-for-you.html)
-3. [How to Increase Your Website's Trust Score](https://f9xr.github.io/articles/2026/08/15/how-to-increase-website-trust-score.html)
-4. [F9XR Case Studies](https://f9xr.github.io/case-studies/index.html)
-5. [Local SEO Services](https://f9xr.github.io/services/google-business-optimization.html)
-
-## External Linking Suggestions
-
-* [Cloudflare Turnstile: See How Real Verification Works](https://www.cloudflare.com/products/turnstile/)
-* [Group-IB: ClickFix, the Social Engineering Technique Hackers Use](https://www.group-ib.com/blog/clickfix-the-social-engineering-technique-hackers-use-to-manipulate-victims/)
-* [CISA: Recognize and Report Phishing](https://www.cisa.gov/secure-our-world/recognize-and-report-phishing)
-* [Google Safe Browsing Transparency Report](https://transparencyreport.google.com/safe-browsing)
-* [McAfee: How to Spot Fake Antivirus Software](https://www.mcafee.com/learn/fake-antivirus-software/)
 
 *Produced using AI-assisted research and drafting workflows, then reviewed and edited by the F9XR editorial team. See our [Editorial Policy](https://f9xr.github.io/articles/press/editorial-policy.html) for how we create and verify content.*

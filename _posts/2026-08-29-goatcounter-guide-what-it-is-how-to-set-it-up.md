@@ -161,6 +161,8 @@ If you value the absolute lightest footprint and do not mind a plainer dashboard
 
 The GoatCounter [help pages](https://www.goatcounter.com/help){:target="_blank" rel="noopener noreferrer"} and [why page](https://www.goatcounter.com/why){:target="_blank" rel="noopener noreferrer"} are worth a read if you want the full reasoning behind its privacy-first design.
 
+If you want to go deeper on turning visitor numbers into actual growth, our guides on [SEO metrics beyond rankings](https://f9xr.github.io/articles/2026/08/19/seo-metrics-beyond-rankings.html) and [making your business site visible to AI](https://f9xr.github.io/articles/2026/08/14/steps-make-business-site-visible-to-ai.html) are a good place to start.
+
 WATCH: Web Analytics Without the Creepy Tracking With GoatCounter!
 
 <div class="youtube-embed" style="position:relative; padding-bottom:56.25%; height:0; overflow:hidden; margin-bottom:2em;">
@@ -196,19 +198,5 @@ Setting up analytics is one piece of a bigger puzzle. Knowing your traffic numbe
 * **Digital presence strategy** that ties analytics, search visibility, and site performance into one clear plan.
 
 ---
-
-## Internal Linking Suggestions
-
-1. [Website Development Services](https://f9xr.github.io/services/website-rentals.html)
-2. [Website Redesign Services](https://f9xr.github.io/services/index.html)
-3. [Local SEO Services](https://f9xr.github.io/services/google-business-optimization.html)
-4. [SEO Metrics Beyond Rankings](https://f9xr.github.io/articles/2026/08/19/seo-metrics-beyond-rankings.html)
-5. [Steps to Make Your Business Site Visible to AI](https://f9xr.github.io/articles/2026/08/14/steps-make-business-site-visible-to-ai.html)
-
-## External Linking Suggestions
-
-* [GoatCounter Official Website](https://www.goatcounter.com)
-* [GoatCounter GitHub Repository](https://github.com/arp242/goatcounter)
-* [GoatCounter Documentation](https://www.goatcounter.com/help)
 
 *Produced using AI-assisted research and drafting workflows, then reviewed and edited by the F9XR editorial team. See our [Editorial Policy](https://f9xr.github.io/articles/press/editorial-policy.html) for how we create and verify content.*

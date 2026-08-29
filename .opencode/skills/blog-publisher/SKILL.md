@@ -159,7 +159,7 @@ Add tables where comparisons or data help clarity.
 - Use tables for comparisons, data, checklists
 - Use bullet lists for steps, features, takeaways
 - Use `**bold**` for emphasis, `*italic*` for terms
-- Include internal links to `f9xr.github.io` service pages and other posts when relevant
+- Include internal links inline in the post body, pulled from `all-urls.txt` and `article-urls.txt`. Weave both internal and external links into the content text itself. Never append "Internal Linking Suggestions" or "External Linking Suggestions" bullet lists after the Conclusion; those links belong inside the article's own sentences.
 - Blockquotes for key takeaways or quotes
 - Horizontal rules (`---`) between major sections
 - Article length: 2000-2500 words
@@ -181,7 +181,7 @@ Alongside the article body, generate each of these as part of the post front-mat
 | **Meta Description** | Under 160 characters. Include target keyword and a CTA. |
 | **URL Slug** | Short, keyword-rich, hyphenated. |
 | **FAQ** | Defined ONLY in front-matter `faq:`. The layout auto-renders both the visible "Related Questions" accordion and the FAQPage JSON-LD from it. **Do NOT** write a "## FAQ(s)" section or a raw FAQPage `<script>` block into the post body, or you will duplicate the FAQ content and create an invalid duplicate FAQPage schema. |
-| **Internal Links** | 5 links to other F9XR articles or service pages on `f9xr.github.io`. |
+| **Internal Links** | 5 links, woven inline into the post body. Pull URLs ONLY from `all-urls.txt` (site/service pages) and `article-urls.txt` (published posts) at the project root. Never invent domains or paths. Do not append "Internal Linking Suggestions" lists after the Conclusion. |
 | **External Links** | 3 links from trusted, authoritative sites only (e.g., Google Developers, Moz, Search Engine Journal, Ahrefs blog, W3C, GitHub). Open in new tab. |
 | **Tags** | 10 relevant tags as a YAML array. |
 
@@ -231,6 +231,8 @@ PowerShell one-liner (run from project root, replacing the path with the real on
 ```powershell
 Add-Content -Path article-urls.txt -Value "https://f9xr.github.io/articles/YYYY/MM/DD/slug.html"
 ```
+
+Then the internal links in the post body are taken from `all-urls.txt` (service/case-study/tool pages) and the updated `article-urls.txt` (other posts). Use the real published URLs from those files only.
 
 Rules:
 - Use the `.html` permalink (matching existing entries), not the trailing-slash form.
