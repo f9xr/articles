@@ -3,10 +3,10 @@ layout: page
 title: "Privacy Policy"
 description: "Privacy Policy for F9XR Articles — how we collect, use, and protect your information."
 keywords: "privacy policy, F9XR Articles, data collection, cookies, GDPR, user privacy"
-dateModified: 2026-08-25
+dateModified: 2026-08-29
 ---
 
-Last updated: August 25, 2026
+Last updated: August 29, 2026
 
 F9XR Articles ("we," "our," or "us") operates the F9XR Articles website at [https://f9xr.github.io/articles](https://f9xr.github.io/articles). This Privacy Policy explains how we collect, use, and protect your information when you visit our website.
 
@@ -23,7 +23,7 @@ When you visit our website, we automatically collect certain information about y
 - Referring website or source
 - Date and time of visit
 
-This information is collected through server logs and analytics tools (Google Analytics) to help us understand how visitors use our site and improve our content.
+This information is collected through server logs and analytics tools (Google Analytics and GoatCounter) to help us understand how visitors use our site and improve our content. GoatCounter is a privacy-friendly analytics service that does not use tracking cookies and collects anonymized, aggregated statistics only.
 
 ### Information You Provide Voluntarily
 
@@ -53,6 +53,8 @@ F9XR Articles uses minimal cookies:
 - **Essential cookies**: Necessary for the site to function properly (e.g., theme preferences, session state).
 - **Analytics cookies**: Set by Google Analytics to track anonymous usage data. These cookies store no personally identifiable information.
 
+GoatCounter does not set any tracking cookies and requires no consent. Google Analytics is configured to share only anonymized usage data.
+
 You can control cookies through your browser settings. Disabling cookies may affect your experience on the site.
 
 ## Third-Party Services
@@ -62,6 +64,7 @@ We use the following third-party services that may collect information:
 | Service | Purpose | Privacy Policy |
 |---|---|---|
 | Google Analytics | Website analytics | [Google Privacy Policy](https://policies.google.com/privacy) |
+| GoatCounter | Privacy-friendly website analytics | [GoatCounter Privacy Policy](https://www.goatcounter.com/privacy) |
 | GitHub (Utterances) | Comments system | [GitHub Privacy Policy](https://docs.github.com/en/site-policy/privacy-pgithubs-privacy-statement) |
 | GitHub Pages | Website hosting | [GitHub Privacy Policy](https://docs.github.com/en/site-policy/privacy-pgithubs-privacy-statement) |
 | Cloudflare CDN | Content delivery | [Cloudflare Privacy Policy](https://www.cloudflare.com/privacypolicy/) |
@@ -74,6 +77,12 @@ Google's privacy policy is available at: [https://policies.google.com/privacy](h
 
 You can opt out of Google Analytics by installing the [Google Analytics Opt-out Browser Add-on](https://tools.google.com/dlpage/gaoptout).
 
+## GoatCounter
+
+We also use GoatCounter for privacy-friendly, lightweight website analytics. GoatCounter does not use cookies, does not profile visitors, and only records anonymous, aggregated page-view statistics (such as page visited, referrer, and approximate country based on IP). Visit counts are processed in real time and stored without personal data.
+
+GoatCounter's privacy policy is available at: [https://www.goatcounter.com/privacy](https://www.goatcounter.com/privacy)
+
 ## Advertising
 
 We may use Google AdSense to serve advertisements on our website. Google AdSense uses cookies to serve ads based on your prior visits to our website or other websites. Google's use of advertising cookies enables it and its partners to serve ads based on your visit to our site and/or other sites on the internet.
@@ -84,6 +93,7 @@ You may opt out of personalized advertising by visiting [Google Ads Settings](ht
 
 - Server logs are retained for up to 90 days.
 - Google Analytics data is retained for 26 months.
+- GoatCounter aggregate statistics are retained indefinitely in anonymized form.
 - Comments (GitHub Issues) are retained indefinitely unless deleted.
 
 ## Your Rights

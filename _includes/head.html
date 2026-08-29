@@ -177,4 +177,8 @@
   {% include google-analytics.html %}
   <!-- End Google Analytics -->
   {%- endif %}
+
+  {% if jekyll.environment == 'production' and site.goatcounter_host -%}
+  {% include goatcounter.html %}
+  {%- endif %}
 </head>
