@@ -125,6 +125,27 @@
     })();
     </script>
 
+    <script>
+    // Footer reveal: add a spacer equal to the fixed footer height so the
+    // footer is revealed only when content scrolls to the bottom.
+    (function() {
+      function footerReveal() {
+        var footer = document.querySelector('.site-footer');
+        var body = document.body;
+        if (!footer || !body) return;
+        var h = footer.offsetHeight;
+        if (h > 0) body.style.paddingBottom = h + 'px';
+      }
+      if (document.readyState === 'loading') {
+        document.addEventListener('DOMContentLoaded', footerReveal);
+      } else {
+        footerReveal();
+      }
+      window.addEventListener('load', footerReveal);
+      window.addEventListener('resize', footerReveal);
+    })();
+    </script>
+
   </body>
 
 </html>
