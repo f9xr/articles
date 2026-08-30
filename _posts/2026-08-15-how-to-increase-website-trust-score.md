@@ -10,7 +10,7 @@ image_credit: "Photo by <a href=\"https://unsplash.com/@markusspiske?utm_source=
 date: 2026-08-15
 dateModified: 2026-08-15
 author: "F9XR Editorial Team"
-tags: [website trust score, E-E-A-T, Google trust signals, HTTPS security, security headers, YMYL, website credibility, local SEO, trust audit checklist, F9XR]
+tags: [Website Trust, E-E-A-T, Website Security, Local SEO, Website Audits, F9XR]
 keywords: "website trust score, increase website trust, E-E-A-T signals, HTTPS security, security headers, YMYL content, website credibility, local SEO, trust audit checklist, F9XR Team"
 faq:
   - q: "What is a website trust score?"

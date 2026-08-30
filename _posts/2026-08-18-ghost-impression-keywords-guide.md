@@ -8,7 +8,7 @@ image_height: 630
 date: 2026-08-18
 dateModified: 2026-08-18
 author: "F9XR Editorial Team"
-tags: [ghost impression keywords, Google Search Console CTR, click through rate optimization, AI Overviews SEO impact, search intent optimization, meta title description tips, GSC impressions bug, technical SEO diagnostics, local business SEO, AEO answer engine optimization]
+tags: [Search Console, AI Overviews, Search Intent, On-Page SEO, Technical SEO, Local SEO, AEO]
 keywords: "ghost impression keywords, Google Search Console CTR, click through rate optimization, AI Overviews SEO impact, search intent optimization, meta title description tips, GSC impressions bug, technical SEO diagnostics, local business SEO, AEO answer engine optimization"
 faq:
   - q: "What are ghost impression keywords?"
@@ -134,7 +134,7 @@ If ghost impressions are concentrated in a market or language your business does
 
 Ghost impression keywords aren't a sign that your SEO is broken, they're a diagnostic tool, and in 2026, one made noisier than usual by AI Overviews absorbing clicks and a confirmed Google logging bug that inflated impressions for nearly a year. Once you separate the real problems, weak snippets, intent mismatches, position related patterns, from the noise, you end up with one of the clearest, most actionable to do lists available anywhere in your SEO data: exactly which keywords are close to converting into real traffic, and exactly what's standing in the way.
 
-Diagnosing that pattern correctly, and actually fixing the underlying causes across dozens or hundreds of keywords, takes real, ongoing technical attention most business owners don't have spare hours for. That's exactly the kind of detailed SEO work F9XR Team builds into its [website development](https://f9xr.github.io/articles/), [website redesign](https://f9xr.github.io/articles/), and [local SEO](https://f9xr.github.io/articles/) services, so the visibility your site is already earning in Google actually turns into visits, calls, and customers instead of quietly staying invisible in practice.
+Diagnosing that pattern correctly, and actually fixing the underlying causes across dozens or hundreds of keywords, takes real, ongoing technical attention most business owners don't have spare hours for. That's exactly the kind of detailed SEO work F9XR Team builds into its [website development and website redesign](https://f9xr.github.io/pages/services.html) and [local SEO](https://f9xr.github.io/services/google-business-optimization.html) services, so the visibility your site is already earning in Google actually turns into visits, calls, and customers instead of quietly staying invisible in practice.
 
 ---
 

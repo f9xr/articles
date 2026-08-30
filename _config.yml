@@ -90,6 +90,7 @@ exclude:
   - content-plan.md
   - DESIGN.md
   - seo_audit_report.md
+  - seo_audit_report.csv
   - google_discover_audit_report.md
   - seo_image_audit_report.md
   - bharat-by-day.html

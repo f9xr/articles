@@ -9,7 +9,7 @@ image_caption: "Google is rolling out a fix for broken favicons in search result
 date: 2026-08-22
 dateModified: 2026-08-22
 author: "Mohammed Ahetasham Uddin"
-tags: [Google Search Bug, Favicon SEO, Technical SEO, Google Search Console, Google Search Updates, SEO Troubleshooting, Brand Visibility, Website Technical Issues, Local SEO, Search Results Optimization]
+tags: [Google Search Updates, Technical SEO, Search Console, Digital PR, Local SEO]
 keywords: "google broken favicons, favicon missing from google search, gray globe icon google search, google search bug august 2026, google favicon requirements, favicon seo troubleshooting"
 youtube_id: "h27XpzX-oyo"
 faq:

@@ -9,7 +9,7 @@ image_credit: "Photo by <a href=\"https://unsplash.com/@ilyapavlov?utm_source=un
 date: 2026-08-12
 dateModified: 2026-08-12
 author: "F9XR Editorial Team"
-tags: [vibe coded site, premium website design, free UI component libraries, AI website design, shadcn ui, website animation tools, startup website design, modern web design tools, website redesign tips, AI generated website fixes]
+tags: [Web Development, AI Tools]
 keywords: "vibe coded site, vibe coding tools, premium website design, free UI component libraries, AI website design, website animation tools, AI generated website fixes, website redesign tips"
 faq:
   - q: "Why do vibe coded websites often look generic or \"AI slop\"?"

@@ -12,14 +12,13 @@ keywords: "F9XR articles archive, web architecture, AI integration, local SEO, d
 {
   "@context": "https://schema.org",
   "@type": "CollectionPage",
+  "@id": "{{ '/archive.html' | absolute_url }}#archive",
   "name": "Archive — F9XR Articles",
   "description": "Complete archive of all articles by F9XR Team covering web architecture, AI integration, local SEO, and digital growth strategies.",
-  "url": "{{ '/archive' | absolute_url }}",
-  "isPartOf": {
-    "@type": "WebSite",
-    "name": "F9XR Articles",
-    "url": "{{ '/' | absolute_url }}"
-  },
+  "url": "{{ '/archive.html' | absolute_url }}",
+  "inLanguage": "{{ site.lang }}",
+  "publisher": { "@id": "https://f9xr.github.io#organization" },
+  "isPartOf": { "@id": "{{ '/' | absolute_url }}#website" },
   "mainEntity": {
     "@type": "ItemList",
     "itemListElement": [

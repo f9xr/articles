@@ -9,7 +9,7 @@ image_credit: "Photo by <a href=\"https://unsplash.com/@opticonor?utm_source=uns
 date: 2026-08-14
 dateModified: 2026-08-14
 author: "F9XR Editorial Team"
-tags: [image SEO audit, alt text optimization, Core Web Vitals images, WebP AVIF image formats, Google Images SEO, ImageObject schema, technical SEO checklist, website speed optimization, local business SEO, AI visibility image SEO]
+tags: [Image SEO, Core Web Vitals, Schema Markup, Technical SEO, Local SEO, AI search visibility]
 keywords: "image SEO audit, alt text optimization, Core Web Vitals images, WebP AVIF image formats, Google Images SEO, ImageObject schema, technical SEO checklist, website speed optimization, local business SEO, AI visibility image SEO"
 faq:
   - q: "What is an image SEO audit?"

@@ -6,8 +6,9 @@ image: "https://f9xr.github.io/articles/assets/post-images/how-paid-indexing-ser
 image_width: 1200
 image_height: 630
 date: 2026-08-30
+dateModified: 2026-08-30
 author: "Masna Sudhir"
-tags: [paid indexing services, google indexing api, indexnow protocol, seo indexing tools, discovered currently not indexed, backlink indexing, deindexing, technical seo, local seo, f9xr team]
+tags: [Indexing, Technical SEO, Local SEO, F9XR]
 keywords: "paid indexing services, google indexing api, indexnow protocol, seo indexing tools, discovered currently not indexed, backlink indexing, deindexing, technical seo, local seo"
 youtube_id: "pe-NSvBTg2o"
 faq:

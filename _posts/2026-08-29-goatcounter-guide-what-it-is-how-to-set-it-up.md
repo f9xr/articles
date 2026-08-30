@@ -6,10 +6,11 @@ image: "https://f9xr.github.io/articles/assets/post-images/goatcounter-guide-wha
 image_width: 1200
 image_height: 630
 date: 2026-08-29
+dateModified: 2026-08-29
 author: "Ankush Santra"
 author_key: "Ankush Santra"
 youtube_id: "qKSqTPY-qV8"
-tags: [goatcounter, privacy friendly analytics, website analytics setup, cookie free analytics, self hosted analytics, google analytics alternative, local seo, small business website tools, gdpr compliant analytics, f9xr team]
+tags: [Website Analytics, Local SEO, Small Business Tech, F9XR]
 keywords: "goatcounter, privacy friendly analytics, website analytics setup, cookie free analytics, self hosted analytics, google analytics alternative, small business analytics, gdpr compliant analytics"
 faq:
   - q: "What is GoatCounter used for?"

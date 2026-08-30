@@ -41,9 +41,9 @@ layout: default
       <!-- Audio Player -->
       {% if page.audio %}
       <div data-f9xr-audio
-           data-src="{{ page.audio }}"
+           data-src="{{ page.audio | relative_url }}"
            data-type="{{ page.audio_type | default: 'audio/mpeg' }}"
-           data-vtt="{{ page.audio_vtt }}"
+           data-vtt="{{ page.audio_vtt | relative_url }}"
            data-duration="{{ page.audio_duration }}"></div>
       {% endif %}
 
@@ -94,7 +94,7 @@ layout: default
     "associatedMedia": {
       "@type": "AudioObject",
       "contentUrl": "{{ page.audio | absolute_url }}",
-      "duration": "PT{{ page.audio_duration | default: '0M' }}",
+      "duration": "PT{{ page.audio_duration | default: '0:00' | replace: ':', 'M' }}S",
       "encodingFormat": "{{ page.audio_type | default: 'audio/mpeg' }}"
     },
     "partOfSeries": {

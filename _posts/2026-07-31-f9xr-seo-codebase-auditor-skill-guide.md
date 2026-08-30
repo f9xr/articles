@@ -9,7 +9,7 @@ image_credit: "Photo by <a href=\"https://unsplash.com/@kmuza?utm_source=unsplas
 date: 2026-07-31
 dateModified: 2026-07-31
 author: "F9XR Editorial Team"
-tags: [SEO CodeBase Auditor, technical SEO audit, on-page SEO, Core Web Vitals, structured data, internal linking, SEO automation, AI SEO audit, website audit, F9XR]
+tags: [Website Audits, Technical SEO, On-Page SEO, Core Web Vitals, Schema Markup, Internal Linking, AI Tools, F9XR]
 keywords: "SEO CodeBase Auditor, SEO codebase audit, technical SEO audit, 24 pillar SEO audit, on-page SEO, Core Web Vitals, structured data, internal linking, AI SEO audit, F9XR Team"
 faq:
   - q: "What is the F9XR SEO CodeBase Auditor skill?"

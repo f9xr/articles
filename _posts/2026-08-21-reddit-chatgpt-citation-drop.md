@@ -8,7 +8,7 @@ image_height: 630
 date: 2026-08-21
 dateModified: 2026-08-21
 author: "Mohammed Ahetasham Uddin"
-tags: [Reddit ChatGPT Citations, ChatGPT Search, AI Search Visibility, Generative Engine Optimization, GEO Strategy, AI Citations, AI Overviews, Answer Engine Optimization, Content Marketing 2026, Digital Marketing Strategy]
+tags: [AI search visibility, ChatGPT Search, GEO, AI Overviews, AEO, Content Marketing, SEO Strategy]
 keywords: "reddit chatgpt citations, chatgpt search citations, generative engine optimization, GEO strategy, AI search visibility, AI citations, AI Overviews, answer engine optimization"
 faq:
   - q: "What happened to Reddit's citations in ChatGPT?"

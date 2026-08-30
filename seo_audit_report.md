@@ -4,6 +4,7 @@
 **Audit date:** 2026-08-22
 **Scope:** Full codebase E-E-A-T deep dive — 34 posts (`_posts/`), layouts (`post.html`, `page.html`, `author-profile.html`), data files (`_data/authors.yml`), homepage/archive, and trust pages (`press/*`).
 **Mode:** Report + auto-fix of critical/high severity items (approved plan).
+**Follow-up sweep:** 2026-08-30 — second full pass over all 52 posts, layouts, index/archive/404, trust pages, and CSS. See "Follow-up Sweep" section below.
 
 ---
 
@@ -36,10 +37,10 @@ The site had solid technical SEO foundations (sitemap, robots.txt, security.txt,
 | 11 | MED | Citations | ~10 posts | Statistics without sources ("73%", "420%", "300%", "2.4 positions higher") | REPORT-ONLY (per approved scope) |
 | 12 | MED | Citations | Multiple posts | Vague attribution ("studies show", "experts say") | REPORT-ONLY |
 | 13 | MED | YMYL | Finance/crypto-related claims | Results claims lack financial-disclaimer framing | REPORT-ONLY |
-| 14 | MED | Structured Data | `default.html` | No `SearchAction` (sitelinks searchbox) markup | OPEN |
+| 14 | MED | Structured Data | `default.html` | No `SearchAction` (sitelinks searchbox) markup | **FIXED** (sweep) — `WebSite.potentialAction` SearchAction added to homepage schema |
 | 15 | MED | Editorial QA | 5 headings in 3 posts | Stray `?` on declarative headings ("What the ranking data says?", "…in five steps?", "Backfire?") | **FIXED** |
 | 16 | MED | Working Tree | `press/about.md` | Uncommitted edit appended `?` to three declarative headings | REVERTED (not part of audit; grammar regression) |
-| 17 | MED | Internal Linking | Layouts | Author profile pages unreachable from nav/footer | OPEN |
+| 17 | MED | Internal Linking | Layouts | Author profile pages unreachable from nav/footer | **FIXED** (sweep) — `authors/index.md` added; footer "Authors" link |
 | 18 | LOW | Structured Data | `default.html` | Blog labeled `@type: "Blog"` though it operates as a publication/magazine | REPORT-ONLY |
 | 19 | LOW | Editorial QA | Various | Unverifiable superlatives ("world-class", "cutting-edge") | REPORT-ONLY |
 | 20 | LOW | Editorial QA | Intro post | Podcast host referenced without name | REPORT-ONLY |

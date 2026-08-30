@@ -8,7 +8,7 @@ image_height: 630
 date: 2026-09-01
 dateModified: 2026-09-01
 author: "Mohammed Ahetasham Uddin"
-tags: [AI Training Data, Model Collapse, AI Text Watermarking, AI Slop, Content Authenticity, SynthID, AI Content Strategy, Data Poisoning, Generative AI Transparency, AI Search Optimization]
+tags: [AI in Business, Generative AI Transparency, AI Marketing, AI search visibility]
 keywords: "AI training data, model collapse, AI text watermarking, AI slop, content authenticity, SynthID, data poisoning, generative AI transparency"
 faq:
   - q: "Why are AI companies buying old books?"

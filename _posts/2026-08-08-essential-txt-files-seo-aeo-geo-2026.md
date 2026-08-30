@@ -10,7 +10,7 @@ image_credit: "Photo by <a href=\"https://unsplash.com/@cgower?utm_source=unspla
 date: 2026-08-08
 dateModified: 2026-08-08
 author: "F9XR Editorial Team"
-tags: [SEO txt files 2026, llms.txt guide, robots.txt best practices, AEO optimization, GEO generative engine optimization, security.txt, AI search visibility, website codebase SEO, local business SEO, F9XR Team Codebase Auditor]
+tags: [Essential Site Files, AEO, GEO, AI search visibility, Technical SEO, Local SEO, Website Audits]
 keywords: "essential txt files, robots.txt, llms.txt, security.txt, humans.txt, sitemap.xml, ai.txt, AEO optimization, generative engine optimization, AI search visibility, website codebase SEO, local business SEO"
 faq:
   - q: "What txt files should every website have in 2026?"

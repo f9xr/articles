@@ -6,8 +6,9 @@ image: "https://f9xr.github.io/articles/assets/post-images/google-discover-ads-p
 image_width: 1200
 image_height: 630
 date: 2026-08-27
+dateModified: 2026-08-27
 author: "F9XR Editorial Team"
-tags: [Google Discover, Google Discover Ads, AEO, SEO Strategy, Local SEO, Content Marketing, Google Ads, Organic Traffic, E-E-A-T, Digital Presence]
+tags: [Google Discover, AEO, SEO Strategy, Local SEO, Content Marketing, Google Ads, SEO Metrics, E-E-A-T, Digital PR]
 keywords: "Google Discover ads, organic Discover placement, Google Discover SEO, E-E-A-T, Discover feed, Demand Gen campaigns, organic traffic"
 faq:
   - q: "Does running Google Discover ads improve my organic Discover ranking?"

@@ -9,7 +9,7 @@ date: 2026-07-29
 dateModified: 2026-07-30
 author: "F9XR Editorial Team"
 youtube_id: "nclSgwuT8sw"
-tags: [free business directories, business directory listing, local SEO, online business listing, backlink building, small business marketing, startup growth, digital presence, citation building, F9XR Directories]
+tags: [Local Citations, Local SEO, Link Building, Small Business Tech, Digital PR, F9XR]
 keywords: "free business directories, business directory listing, local SEO, online business listing, backlink building, small business marketing, startup directory, citation building, Google Business Profile, F9XR Directories"
 faq:
   - q: "What are free business directories?"
@@ -230,11 +230,11 @@ Set a quarterly reminder to audit your top 10 directories and make sure everythi
 
 ## How Directory Listings Help with AI Search
 
-Here is something most guides miss. Directory listings directly impact how your business appears in AI generated search results.
+Here is something most guides miss. Directory listings directly impact how your business appears in [AI generated search results](https://f9xr.github.io/articles/2026/08/16/how-ai-picks-local-businesses-2026.html).
 
 When a user asks ChatGPT "find me a plumber in Austin" or asks Perplexity "what are the best SEO tools for small business", these AI models pull data from indexed web sources. Directories are among the most referenced sources.
 
-Being listed on high authority directories increases your chances of being cited in AI responses. This is called Answer Engine Optimization or AEO, and it is becoming as important as traditional SEO.
+Being listed on high authority directories increases your chances of being cited in AI responses. This is called [Answer Engine Optimization or AEO](https://f9xr.github.io/articles/2026/08/23/aeo-landing-page-optimization-guide.html), and it is becoming as important as traditional SEO.
 
 The same consistency, completeness, and authority signals that help you rank on Google also help you get recommended by AI assistants.
 

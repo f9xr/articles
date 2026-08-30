@@ -9,7 +9,7 @@ image_caption: "Photo by Karollyne Videira Hubert on Unsplash"
 date: 2026-08-19
 dateModified: 2026-08-19
 author: "Mohammed Ahetasham Uddin"
-tags: [Google Spam Update, SEO 2026, SpamBrain, Search Console, Algorithm Update, Scaled Content Abuse, Local SEO, Website Ranking, Search Engine Optimization, AI Overviews Spam Policy]
+tags: [Google Search Updates, SEO Strategy, Search Console, Local SEO, SEO Metrics, AI Overviews]
 keywords: "Google Spam Update, SEO 2026, SpamBrain, Search Console, algorithm update, scaled content abuse, local SEO, website ranking, search engine optimization, AI Overviews spam policy"
 faq:
   - q: "When did Google release the August 2026 spam update?"

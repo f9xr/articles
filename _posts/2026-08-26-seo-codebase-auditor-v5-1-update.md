@@ -6,8 +6,9 @@ image: "https://f9xr.github.io/articles/assets/post-images/seo-codebase-auditor-
 image_width: 1200
 image_height: 630
 date: 2026-08-26
+dateModified: 2026-08-26
 author: "F9XR Editorial Team"
-tags: [SEO Codebase Auditor, technical SEO, Core Web Vitals, on-page SEO, semantic SEO, answer engine optimization, local SEO, website audit, small business SEO, F9XR Team]
+tags: [Website Audits, Technical SEO, Core Web Vitals, On-Page SEO, SEO Strategy, AEO, Local SEO, F9XR]
 keywords: "SEO Codebase Auditor, technical SEO, Core Web Vitals, on-page SEO, semantic SEO, answer engine optimization, local SEO, website audit, small business SEO"
 faq:
   - q: "What is an SEO Codebase Auditor?"
@@ -24,7 +25,7 @@ faq:
 
 If you run a small business website, chances are you have been told at least once that your "SEO needs work" without anyone actually explaining what that means. Maybe an agency handed you a generic checklist. Maybe you paid for an audit that flagged the same ten issues every website has. It is frustrating, and honestly, it is why a lot of business owners give up on SEO altogether.
 
-That is the exact problem our [SEO Codebase Auditor](https://f9xr.github.io/seo-audit-report-skill/) was built to solve, and this week we pushed a meaningful update to it. Version 5.1 is not a cosmetic refresh. It is a correction pass across all 24 SEO pillars the tool inspects, fixing outdated guidance, tightening severity scoring, and making the reports easier for both business owners and developers to actually use.
+That is the exact problem our [SEO Codebase Auditor](https://f9xr.github.io/seo-audit-report-skill/) was built to solve, and this week we pushed a meaningful update to it. Version 5.1 is not a cosmetic refresh, and it builds directly on the [original SEO Codebase Auditor skill guide](https://f9xr.github.io/articles/2026/07/31/f9xr-seo-codebase-auditor-skill-guide.html) we published in July. It is a correction pass across all 24 SEO pillars the tool inspects, fixing outdated guidance, tightening severity scoring, and making the reports easier for both business owners and developers to actually use.
 
 In this article, we will walk through what changed, why it matters, and what it means if you are a startup founder, a local business owner, or anyone trying to figure out why your website is not showing up on Google (or in ChatGPT and Gemini answers, for that matter).
 
@@ -51,7 +52,7 @@ Our auditor was built specifically for this kind of deep, code-level inspection,
 
 SEO is not static. Google changes its ranking signals, deprecates old standards, and updates its [Core Web Vitals](https://developers.google.com/search/docs/appearance/core-web-vitals) guidance regularly. A tool that was accurate two years ago can quietly start giving bad advice if nobody revisits it.
 
-That is what happened here. During an internal audit of the tool itself, we found ten issues in the guidance logic, three of which were genuinely outdated SEO recommendations that could have led site owners in the wrong direction. Rather than let those linger, we fixed them and used the opportunity to clean up some structural rough edges too.
+That is what happened here. During an [internal audit of the tool itself](https://f9xr.github.io/articles/2026/08/13/consistency-audits-seo-aeo-geo.html), we found ten issues in the guidance logic, three of which were genuinely outdated SEO recommendations that could have led site owners in the wrong direction. Rather than let those linger, we fixed them and used the opportunity to clean up some structural rough edges too.
 
 Here is the breakdown of what the update covers.
 
@@ -125,7 +126,7 @@ A few practical takeaways for your own site, even without running a full audit:
 
 This update is part of a broader commitment we hold at F9XR Team: not just building websites, but making sure the SEO guidance behind them is current and defensible. We work with local businesses, startups, and finance professionals including Chartered Accountants, Company Secretaries, and Cost and Management Accountants, on [website development](https://f9xr.github.io/services/website-rentals.html), [website redesigns](https://f9xr.github.io/services/website-rentals.html), [local SEO](https://f9xr.github.io/services/google-business-optimization.html), and overall digital presence strategy.
 
-If you are not sure whether your current site is bleeding traffic due to outdated technical SEO practices, that is exactly the kind of gap we help close, using tools like this auditor alongside hands-on review of your site's structure, content, and local search visibility.
+If you are not sure whether your current site is bleeding traffic due to outdated technical SEO practices, that is exactly the kind of gap we help close, using tools like this auditor alongside hands-on review of your site's structure, content, and local search visibility, the same way we [audited the F9XR Articles codebase this month](https://f9xr.github.io/articles/2026/08/22/seo-codebase-e-e-a-t-audit-case-study.html).
 
 ## Key Takeaways
 

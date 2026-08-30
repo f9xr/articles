@@ -6,8 +6,9 @@ image: "https://f9xr.github.io/articles/assets/post-images/book-hotel-google-ai-
 image_width: 1200
 image_height: 630
 date: 2026-08-27
+dateModified: 2026-08-27
 author: "Mohammed Ahetasham Uddin"
-tags: [Google AI Mode, Agentic Booking, Hotel Booking AI, Universal Commerce Protocol, Travel Technology, Google Business Profile, AI Search Commerce, Hospitality Marketing, Local SEO, AI Search Optimization]
+tags: [Google AI Mode, Google Business Profile, Local SEO, AI search visibility]
 keywords: "Google AI Mode, agentic hotel booking, Universal Commerce Protocol, hotel booking AI, Google Business Profile AI Mode, travel technology 2026, AI search commerce, hospitality digital marketing, local SEO AI, AI booking Google"
 faq:
   - q: "Can you actually book a hotel directly inside Google AI Mode right now?"

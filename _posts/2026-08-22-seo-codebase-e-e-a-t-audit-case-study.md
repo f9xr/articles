@@ -8,7 +8,7 @@ image_height: 630
 date: 2026-08-22
 dateModified: 2026-08-22
 author: "F9XR Editorial Team"
-tags: [SEO Codebase Audit, E-E-A-T Audit, Technical SEO, Structured Data, Schema Markup, Jekyll SEO, SEO Case Study, Content Quality Signals, Source Code Analysis, F9XR]
+tags: [Website Audits, E-E-A-T, Technical SEO, Schema Markup, Content Marketing, F9XR]
 keywords: "seo codebase audit, e-e-a-t audit, technical seo audit case study, structured data errors, jekyll seo fixes, schema markup validation, content provenance, author credentials schema"
 faq:
   - q: "What is an SEO codebase audit?"

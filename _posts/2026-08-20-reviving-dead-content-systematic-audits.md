@@ -8,7 +8,7 @@ image_height: 630
 date: 2026-08-20
 dateModified: 2026-08-20
 author: "F9XR Editorial Team"
-tags: [content refresh strategy, content decay SEO, content audit framework, striking distance keywords, SEO ROI content, AI citation optimization, content marketing 2026, organic traffic growth, Google Search Console audit, local business SEO]
+tags: [Content Marketing, Website Audits, Search Console, AI search visibility, SEO Metrics, Local SEO]
 keywords: "content refresh strategy, content decay SEO, content audit framework, striking distance keywords, SEO ROI content, AI citation optimization"
 faq:
   - q: "What is a content refresh and how is it different from writing new content?"

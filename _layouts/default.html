@@ -3,7 +3,7 @@
 
   {%- include head.html -%}
 
-  <body>
+  <body class="{% if page.url == '/404.html' %}page-404{% endif %}">
     <!-- Google Tag Manager (noscript) -->
     <noscript><iframe src="https://www.googletagmanager.com/ns.html?id={{ site.google_tagmanager }}" height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
     <!-- End Google Tag Manager (noscript) -->
@@ -133,6 +133,7 @@
         var footer = document.querySelector('.site-footer');
         var body = document.body;
         if (!footer || !body) return;
+        if (body.classList.contains('page-404')) return;
         var h = footer.offsetHeight;
         if (h > 0) body.style.paddingBottom = h + 'px';
       }

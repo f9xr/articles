@@ -7,7 +7,7 @@ image_width: 1600
 image_height: 893
 dateModified: 2026-07-28
 author: "F9XR Editorial Team"
-tags: [F9XR, web development, AI integration, local SEO, digital architecture, web performance]
+tags: [F9XR, Web Development, AI in Business, Local SEO, Core Web Vitals]
 keywords: "F9XR Team, web development agency, AI integration, local SEO, Google Business optimization, web performance, digital architecture, WordPress development, GPT chatbot, India tech company"
 faq:
   - q: "What services does F9XR Team offer?"

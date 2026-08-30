@@ -4,12 +4,12 @@ title: "Welcome to F9XR Articles"
 description: "Episode 1 — Introducing the F9XR Articles podcast: what we cover, who it's for, and what to expect from future episodes on web architecture, AI, and local SEO."
 episode_number: 1
 season: 1
-audio: "/articles/assets/audio/ep001-welcome-to-f9xr-articles.mp3"
+audio: "/assets/audio/ep001-welcome-to-f9xr-articles.mp3"
 audio_type: "audio/mpeg"
 audio_duration: "3:18"
 audio_bytes: 1186272
-audio_vtt: "/articles/assets/audio/ep001-welcome-to-f9xr-articles.vtt"
-image: "/articles/assets/audio/ep001-cover.webp"
+audio_vtt: "/assets/audio/ep001-welcome-to-f9xr-articles.vtt"
+image: "/assets/audio/ep001-cover.webp"
 image_width: 1200
 image_height: 630
 image_caption: "F9XR Articles Podcast — Episode 001"

@@ -4890,6 +4890,18 @@ details.episode-transcript summary::marker {
 }
 
 /* ===========================
+   404 PAGE — keep footer covered
+   =========================== */
+.page-404 .page-content {
+  display: flex !important;
+  align-items: center !important;
+  justify-content: center !important;
+}
+.page-404 .error-container {
+  width: 100% !important;
+}
+
+/* ===========================
    FOOTER REVEAL
    Fixed footer revealed as content scrolls to the bottom
    =========================== */

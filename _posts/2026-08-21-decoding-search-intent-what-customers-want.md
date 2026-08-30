@@ -8,7 +8,7 @@ image_height: 630
 date: 2026-08-21
 dateModified: 2026-08-21
 author: "F9XR Editorial Team"
-tags: [search intent types, informational search intent, transactional intent SEO, commercial investigation keywords, local search intent, AI search intent 2026, content strategy SEO, GEO generative engine optimization, customer search behavior, local business content strategy]
+tags: [Search Intent, Search Console, Local SEO, AI in Business, Content Marketing, GEO]
 keywords: "search intent types, informational search intent, transactional intent SEO, commercial investigation keywords, local search intent, AI search intent"
 faq:
   - q: "What are the main types of search intent?"

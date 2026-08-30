@@ -8,7 +8,7 @@ image_height: 630
 date: 2026-08-17
 dateModified: 2026-08-18
 author: "Mohammed Ahetasham Uddin"
-tags: [Gemini visible watermark, AI watermark, SynthID, Nano Banana, C2PA metadata, AI content creation, digital marketing tools, content transparency, local business marketing, AI image generation]
+tags: [Generative AI Transparency, AI Tools, Website Trust, Local SEO]
 keywords: "Gemini visible watermark, AI watermark, SynthID, Nano Banana, C2PA metadata, AI content creation, digital marketing tools, content transparency, local business marketing, AI image generation"
 faq:
   - q: "How do I turn off the visible watermark in Gemini?"

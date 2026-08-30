@@ -9,7 +9,7 @@ image_caption: "Google's Preferred Sources button now works as an embeddable wid
 date: 2026-08-23
 dateModified: 2026-08-23
 author: "Mohammed Ahetasham Uddin"
-tags: [Google Preferred Sources, AI Overviews, Publisher SEO, AI Search Traffic, Content Strategy, Google Discover, Google News, Search Visibility, AEO Strategy, Digital Publishing]
+tags: [Google Preferred Sources, AI Overviews, Digital PR, AI search visibility, Content Marketing, Google Discover, Google News, SEO Metrics, AEO]
 keywords: "google preferred sources button, preferred source button embed, google preferred sources for publishers, ai overviews citations, ai mode visibility, google search personalization, publisher seo 2026"
 faq:
   - q: "What is Google's Preferred Sources button?"

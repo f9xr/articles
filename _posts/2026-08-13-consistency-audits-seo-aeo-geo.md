@@ -9,7 +9,7 @@ image_credit: "Photo by <a href=\"https://unsplash.com/@kmuza?utm_source=unsplas
 date: 2026-08-13
 dateModified: 2026-08-13
 author: "F9XR Editorial Team"
-tags: [Consistency audit, SEO, AEO, GEO, NAP consistency, Local SEO, Google Business Profile, AI search visibility, Citation management, F9XR Team]
+tags: [Website Audits, SEO Strategy, AEO, GEO, NAP consistency, Local SEO, Google Business Profile, AI search visibility, Local Citations, F9XR]
 keywords: "information consistency audit, consistency audit checklist, NAP consistency, local SEO audit, AEO optimization, GEO optimization, AI search visibility, citation management, Google Business Profile, business information accuracy"
 faq:
   - q: "What is an information consistency audit?"

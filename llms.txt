@@ -33,7 +33,7 @@ sitemap: false
 
 ## About
 
-- [About F9XR Team]({{ '/author/' | absolute_url }}) — Team expertise, track record, and technical philosophy
+- [About F9XR Team]({{ '/authors/f9xr-team/' | absolute_url }}) — Team expertise, track record, and technical philosophy
 - [Article Archive]({{ '/archive.html' | absolute_url }}) — All published articles
 
 ## Social

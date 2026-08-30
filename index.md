@@ -14,16 +14,29 @@ keywords: "F9XR Articles, engineering digital growth, web architecture, AI integ
 {
   "@context": "https://schema.org",
   "@type": "WebSite",
+  "@id": "{{ '/' | absolute_url }}#website",
   "name": "F9XR Articles",
   "url": "{{ '/' | absolute_url }}",
   "description": "Engineering digital growth — technical insights, architecture notes, and strategies from the F9XR Team on web performance, AI integration, and local SEO.",
+  "potentialAction": {
+    "@type": "SearchAction",
+    "target": {
+      "@type": "EntryPoint",
+      "urlTemplate": "{{ '/' | absolute_url }}?q={search_term_string}"
+    },
+    "query-input": "required name=search_term_string"
+  },
+  "inLanguage": "{{ site.lang }}",
   "publisher": {
+    "@id": "https://f9xr.github.io#organization",
     "@type": "Organization",
     "name": "F9XR Team",
     "url": "https://f9xr.github.io",
     "logo": {
       "@type": "ImageObject",
-      "url": "{{ '/logo.webp' | absolute_url }}"
+      "url": "{{ '/logo.webp' | absolute_url }}",
+      "width": 512,
+      "height": 512
     }
   }
 }
@@ -33,9 +46,16 @@ keywords: "F9XR Articles, engineering digital growth, web architecture, AI integ
 {
   "@context": "https://schema.org",
   "@type": "Organization",
+  "@id": "https://f9xr.github.io#organization",
   "name": "F9XR Team",
   "url": "https://f9xr.github.io",
-  "logo": "{{ '/logo.webp' | absolute_url }}",
+  "email": "{{ site.email }}",
+  "logo": {
+    "@type": "ImageObject",
+    "url": "{{ '/logo.webp' | absolute_url }}",
+    "width": 512,
+    "height": 512
+  },
   "sameAs": [
     "https://github.com/f9xr",
     "https://linkedin.com/company/f9xrteam",
@@ -147,10 +167,10 @@ keywords: "F9XR Articles, engineering digital growth, web architecture, AI integ
   </div>
 
   {% assign tab_featured = "google-e-e-a-t-checklist-every-seo-should-bookmark|steps-make-business-site-visible-to-ai|rank-number-1-google-maps-2026|cloudflare-emdash-cms-explained|consistency-audits-seo-aeo-geo|how-ai-picks-local-businesses-2026" | split: "|" %}
-  {% assign tab_news_tags = "Google Spam Update|Google Search Updates|Google Search Bug|Google News|Google Preferred Sources|Google Discover Ads|Wix Symphony|Cloudflare EmDash|Algorithm Update|Microsoft Advertising|parasite SEO 2026" | split: "|" %}
-  {% assign tab_seo_tags = "Technical SEO|on-page SEO|E-E-A-T|Core Web Vitals|link building strategy|backlink building|SEO Strategy|schema markup|structured data|SEO Troubleshooting|Search Engine Optimization" | split: "|" %}
-  {% assign tab_ai_tags = "AEO|AEO answer engine optimization|GEO|GEO generative engine optimization|AI search optimization|AI search visibility|AI Overviews|ChatGPT SEO|Agentic AI|AI SEO|answer engine optimization" | split: "|" %}
-  {% assign tab_local_tags = "local SEO|Local SEO 2026|Google Business Profile|Google Maps ranking|local business SEO|local seo citations|NAP consistency|local pack ranking factors" | split: "|" %}
+  {% assign tab_news_tags = "Google Search Updates|Google News|Google Preferred Sources|Google Discover|Wix Symphony|Cloudflare EmDash|Microsoft Advertising|Parasite SEO|Paid Media|Google AI Mode" | split: "|" %}
+  {% assign tab_seo_tags = "Technical SEO|On-Page SEO|E-E-A-T|Core Web Vitals|Link Building|SEO Strategy|Schema Markup|Search Console|Website Audits|Indexing" | split: "|" %}
+  {% assign tab_ai_tags = "AEO|GEO|AI search visibility|AI Overviews|ChatGPT SEO|ChatGPT Search|Agentic AI|AI Tools|AI in Business|Generative AI Transparency" | split: "|" %}
+  {% assign tab_local_tags = "Local SEO|Google Business Profile|Google Maps ranking|Local Citations|NAP consistency" | split: "|" %}
 
   <div class="ed-tabs-nav" role="tablist" aria-label="Article categories">
     <button class="ed-tab-btn is-active" role="tab" id="tab-featured" aria-selected="true" aria-controls="panel-featured" data-tab="featured">Featured Articles</button>
