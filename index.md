@@ -297,6 +297,31 @@ keywords: "F9XR Articles, engineering digital growth, web architecture, AI integ
   </div>
 </section>
 
+<section class="ed-episodes" aria-label="Podcast episodes">
+  <div class="ed-sec-head">
+    <h2 class="ed-sec-title"><i class="fa-solid fa-podcast" style="color:#3b82f6;"></i> Episodes</h2>
+    <a class="ed-sec-link" href="{{ '/episodes/' | relative_url }}">All episodes <i class="fa-solid fa-arrow-right"></i></a>
+  </div>
+  {% assign sorted_episodes = site.episodes | sort: "date" | reverse %}
+  <div class="ed-grid">
+    {% for episode in sorted_episodes limit:6 %}
+    <article class="ed-card" itemscope itemtype="https://schema.org/PodcastEpisode">
+      <a class="ed-card-img" href="{{ episode.url | relative_url }}" aria-label="{{ episode.title | escape }}"{% if episode.image %} style="background-image:url('{{ episode.image }}');"{% endif %}></a>
+      <div class="ed-card-meta">
+        <span class="ed-tag">{% if episode.episode_number %}Episode {{ episode.episode_number }}{% else %}Episode{% endif %}</span>
+        <span class="ed-mono">{{ episode.date | date: "%b %d, %Y" }}</span>
+        {% if episode.audio_duration %}<span class="ed-mono"><i class="fa-solid fa-clock"></i> {{ episode.audio_duration }}</span>{% endif %}
+      </div>
+      <h3 class="ed-card-title" itemprop="headline"><a href="{{ episode.url | relative_url }}" itemprop="url">{{ episode.title | escape }}</a></h3>
+      <p class="ed-card-desc" itemprop="description">{{ episode.description | default: "Listen to the latest F9XR Articles episode." }}</p>
+      <span class="ed-card-foot"><i class="fa-solid fa-play"></i> Listen now</span>
+    </article>
+    {% else %}
+    <p style="color:#71717a;">No episodes yet. Stay tuned.</p>
+    {% endfor %}
+  </div>
+</section>
+
 <script>
 (function() {
   var btns = Array.prototype.slice.call(document.querySelectorAll('.ed-tabs .ed-tab-btn'));
