@@ -33,7 +33,7 @@ We may collect information you voluntarily provide when you:
 - Contact us through our contact page or email
 - Subscribe to our RSS feed
 
-Comments on F9XR Articles are powered by [Utterances](https://utteranc.es/), which uses GitHub Issues for authentication. When you comment, Utterances will ask permission to access your GitHub profile. Your comment is stored as a GitHub Issue on our repository. Please review [GitHub's Privacy Policy](https://docs.github.com/en/site-policy/privacy-pgithubs-privacy-statement) for details on how GitHub handles your data.
+Comments on F9XR Articles are powered by [Utterances](https://utteranc.es/), which uses GitHub Issues for authentication. When you comment, Utterances will ask permission to access your GitHub profile. Your comment is stored as a GitHub Issue on our repository. Please review [GitHub's Privacy Policy](https://docs.github.com/en/site-policy/privacy-policies/github-privacy-statement) for details on how GitHub handles your data.
 
 ## How We Use Your Information
 
@@ -65,8 +65,8 @@ We use the following third-party services that may collect information:
 |---|---|---|
 | Google Analytics | Website analytics | [Google Privacy Policy](https://policies.google.com/privacy) |
 | GoatCounter | Privacy-friendly website analytics | [GoatCounter Privacy Policy](https://www.goatcounter.com/privacy) |
-| GitHub (Utterances) | Comments system | [GitHub Privacy Policy](https://docs.github.com/en/site-policy/privacy-pgithubs-privacy-statement) |
-| GitHub Pages | Website hosting | [GitHub Privacy Policy](https://docs.github.com/en/site-policy/privacy-pgithubs-privacy-statement) |
+| GitHub (Utterances) | Comments system | [GitHub Privacy Policy](https://docs.github.com/en/site-policy/privacy-policies/github-privacy-statement) |
+| GitHub Pages | Website hosting | [GitHub Privacy Policy](https://docs.github.com/en/site-policy/privacy-policies/github-privacy-statement) |
 | Cloudflare CDN | Content delivery | [Cloudflare Privacy Policy](https://www.cloudflare.com/privacypolicy/) |
 
 ## Google Analytics
