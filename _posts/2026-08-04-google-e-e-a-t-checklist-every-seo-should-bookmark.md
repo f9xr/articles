@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "The 1-Page Google E-E-A-T Checklist Every SEO Should Bookmark"
+title: "Google E-E-A-T Checklist Every SEO Should Bookmark"
 description: "A one-page E-E-A-T checklist for Experience, Expertise, Authoritativeness, and Trustworthiness. Run it before you publish any page in 2026."
 image: "https://f9xr.github.io/articles/assets/post-images/google-e-e-a-t-checklist-every-seo-should-bookmark.webp"
 image_width: 1200

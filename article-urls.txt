@@ -50,3 +50,4 @@ https://f9xr.github.io/articles/2026/08/29/goatcounter-guide-what-it-is-how-to-s
 https://f9xr.github.io/articles/2026/08/29/fake-cloudflare-captcha-scam-business-guide.html
 https://f9xr.github.io/articles/2026/08/30/how-paid-indexing-services-work-tech-truth-risks.html
 https://f9xr.github.io/articles/2026/09/01/rank-math-support-agent-paused-security-controversy.html
+https://f9xr.github.io/articles/2026/09/03/monthly-website-audit-checklist.html

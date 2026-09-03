@@ -342,6 +342,31 @@ keywords: "F9XR Articles, engineering digital growth, web architecture, AI integ
   </div>
 </section>
 
+<section class="ed-videos" aria-label="Videos">
+  <div class="ed-sec-head">
+    <h2 class="ed-sec-title"><i class="fa-brands fa-youtube" style="color:#ff0000;"></i> Videos</h2>
+    <a class="ed-sec-link" href="https://www.youtube.com/@QuarterlyLIV" target="_blank" rel="noopener">YouTube channel <i class="fa-solid fa-arrow-right"></i></a>
+  </div>
+  <div class="ed-grid">
+    {% assign video_posts = site.posts | where_exp: "post", "post.youtube_id" %}
+    {% for post in video_posts limit:6 %}
+    {% assign v_author = site.data.authors[post.author] %}
+    {% assign v_desc = post.content | strip_html | truncate: 140 %}
+    <article class="ed-card" itemscope itemtype="https://schema.org/VideoObject">
+      <a class="ed-card-img" href="{{ post.url | relative_url }}" aria-label="{{ post.title | escape }}" style="background-image:url('https://img.youtube.com/vi/{{ post.youtube_id }}/hqdefault.jpg');"></a>
+      <div class="ed-card-meta">
+        <span class="ed-tag"><i class="fa-brands fa-youtube"></i> Video</span>
+        <span class="ed-mono">{{ post.date | date: "%b %d, %Y" }}</span>
+        <span class="ed-mono">{{ v_author.name | default: post.author }}</span>
+      </div>
+      <h3 class="ed-card-title" itemprop="name"><a href="{{ post.url | relative_url }}" itemprop="url">{{ post.title | escape }}</a></h3>
+      <p class="ed-card-desc" itemprop="description">{{ post.description | default: v_desc }}</p>
+      <span class="ed-card-foot"><i class="fa-solid fa-play"></i> Watch now</span>
+    </article>
+    {% endfor %}
+  </div>
+</section>
+
 <script>
 (function() {
   var btns = Array.prototype.slice.call(document.querySelectorAll('.ed-tabs .ed-tab-btn'));
