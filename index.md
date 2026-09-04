@@ -317,26 +317,6 @@ keywords: "F9XR Articles, engineering digital growth, web architecture, AI integ
   </div>
 </section>
 
-<section class="ed-videos" aria-label="Videos">
-  <div class="ed-sec-head">
-    <h2 class="ed-sec-title"><i class="fa-solid fa-circle-play" style="color:#3b82f6;"></i> Videos</h2>
-    <a class="ed-sec-link" href="https://www.youtube.com/@QuarterlyLIV" target="_blank" rel="noopener">YouTube channel <i class="fa-solid fa-arrow-right"></i></a>
-  </div>
-  <div class="ed-grid">
-    <article class="ed-card">
-      <div class="ed-video">
-        <iframe class="youtube-embed" src="https://www.youtube-nocookie.com/embed/l-52kGRwH_Y" title="Introducing F9XR Team: Digital Growth Agency - AI-Powered Web Design &amp; Local SEO Growth Agency" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen loading="lazy"></iframe>
-      </div>
-      <div class="ed-card-meta">
-        <span class="ed-tag">Introduction</span>
-      </div>
-      <h3 class="ed-card-title">Introducing F9XR Team</h3>
-      <p class="ed-card-desc">AI-powered web design &amp; local SEO growth agency.</p>
-      <span class="ed-card-foot"><i class="fa-solid fa-play"></i> Watch now</span>
-    </article>
-  </div>
-</section>
-
 <section class="ed-episodes" aria-label="Podcast episodes">
   <div class="ed-sec-head">
     <h2 class="ed-sec-title"><i class="fa-solid fa-podcast" style="color:#3b82f6;"></i> Episodes</h2>
