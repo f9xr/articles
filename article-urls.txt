@@ -53,3 +53,4 @@ https://f9xr.github.io/articles/2026/09/01/rank-math-support-agent-paused-securi
 https://f9xr.github.io/articles/2026/09/03/monthly-website-audit-checklist.html
 https://f9xr.github.io/articles/2026/09/04/block-ai-crawlers-on-your-site.html
 https://f9xr.github.io/articles/2026/09/04/wordpress-updates-core-security-initiative.html
+https://f9xr.github.io/articles/2026/09/05/google-ai-adsense-help-guide-rollout.html
