@@ -54,3 +54,5 @@ https://f9xr.github.io/articles/2026/09/03/monthly-website-audit-checklist.html
 https://f9xr.github.io/articles/2026/09/04/block-ai-crawlers-on-your-site.html
 https://f9xr.github.io/articles/2026/09/04/wordpress-updates-core-security-initiative.html
 https://f9xr.github.io/articles/2026/09/05/google-ai-adsense-help-guide-rollout.html
+https://f9xr.github.io/articles/2026/09/06/google-new-weather-ai-weathernext-3.html
+https://f9xr.github.io/articles/2026/09/06/real-world-gen-ai-use-cases-google-cloud-2026.html
