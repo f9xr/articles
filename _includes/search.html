@@ -1,15 +1,15 @@
-<div class="search-container" style="position:relative; max-width:500px; margin:0 auto 2em;">
-  <div style="display:flex; align-items:center; background:rgba(255,255,255,0.05); border:1px solid #1e2024; border-radius:10px; padding:0.4em 0.4em 0.4em 1em; transition:border-color 0.2s;">
-    <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="#71717a" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" style="flex-shrink:0;"><circle cx="11" cy="11" r="8"/><path d="m21 21-4.3-4.3"/></svg>
-    <input type="text" id="searchInput" placeholder="Search articles..." aria-label="Search articles" style="flex:1; background:none; border:none; color:#f0f0f0; font-size:0.9em; padding:0.6em 0.8em; outline:none;">
-    <button id="searchClearBtn" onclick="clearSearch()" style="display:none; background:none; border:none; color:#71717a; cursor:pointer; padding:0.4em; font-size:1em;" aria-label="Clear search">&times;</button>
+<div class="search-container">
+  <div class="search-input-wrap">
+    <svg class="search-icon" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="11" cy="11" r="8"/><path d="m21 21-4.3-4.3"/></svg>
+    <input type="text" id="searchInput" class="search-input" placeholder="Search articles..." aria-label="Search articles">
+    <button id="searchClearBtn" class="search-clear-btn" onclick="clearSearch()" aria-label="Clear search">&times;</button>
   </div>
-  <div id="searchShareRow" style="display:none; margin-top:0.5em; text-align:right;">
-    <button type="button" id="searchShareBtn" onclick="shareSearch()" style="background:rgba(59,130,246,0.1); border:1px solid rgba(59,130,246,0.35); color:#60a5fa; cursor:pointer; padding:0.35em 0.9em; border-radius:8px; font-size:0.8em;"><i class="fa-solid fa-link"></i> Copy search link</button>
-    <span id="searchShareMsg" style="color:#4ade80; font-size:0.78em; margin-right:0.6em; display:none;">Link copied!</span>
-    <span style="color:#555; font-size:0.72em; margin-right:0.8em;">Press <kbd style="background:#151515; border:1px solid #1e2024; border-radius:4px; padding:0.1em 0.4em; font-size:0.92em;">/</kbd> or <kbd style="background:#151515; border:1px solid #1e2024; border-radius:4px; padding:0.1em 0.4em; font-size:0.92em;">Ctrl K</kbd> to search</span>
+  <div id="searchShareRow" class="search-share-row">
+    <button type="button" id="searchShareBtn" onclick="shareSearch()" class="search-share-btn"><i class="fa-solid fa-link"></i> Copy link</button>
+    <span id="searchShareMsg" class="search-share-msg">Copied!</span>
+    <span class="search-hint">Press <kbd>/</kbd> or <kbd>Ctrl K</kbd> to search</span>
   </div>
-  <div id="searchResults" role="listbox" aria-live="polite" aria-label="Search results" style="position:absolute; top:100%; left:0; right:0; background:#0a0a0a; border:1px solid #1e2024; border-radius:10px; margin-top:4px; max-height:400px; overflow-y:auto; display:none; z-index:1000; box-shadow:0 8px 32px rgba(0,0,0,0.4);"></div>
+  <div id="searchResults" class="search-results" role="listbox" aria-live="polite" aria-label="Search results"></div>
 </div>
 
 <script>
@@ -32,7 +32,6 @@
   var results = document.getElementById('searchResults');
   var clearBtn = document.getElementById('searchClearBtn');
   var shareRow = document.getElementById('searchShareRow');
-  var shareBtn = document.getElementById('searchShareBtn');
   var shareMsg = document.getElementById('searchShareMsg');
   var debounceTimer;
 
@@ -87,8 +86,8 @@
       shareRow.style.display = 'none';
       return;
     }
-    clearBtn.style.display = 'block';
-    shareRow.style.display = 'block';
+    clearBtn.style.display = 'flex';
+    shareRow.style.display = 'flex';
 
     var matches = searchIndex.filter(function(post) {
       return post.title.toLowerCase().includes(query) ||
@@ -97,11 +96,7 @@
     }).slice(0, 8);
 
     if (matches.length === 0) {
-      results.textContent = '';
-      var noResults = document.createElement('div');
-      noResults.style.cssText = 'padding:1em; color:#71717a; font-size:0.88em; text-align:center;';
-      noResults.textContent = 'No articles found';
-      results.appendChild(noResults);
+      results.innerHTML = '<div class="search-no-results"><svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="11" cy="11" r="8"/><path d="m21 21-4.3-4.3"/></svg><span>No articles found</span></div>';
       results.style.display = 'block';
       return;
     }
@@ -110,40 +105,27 @@
     matches.forEach(function(post) {
       var link = document.createElement('a');
       link.href = post.url;
-      link.style.cssText = 'display:block; padding:0.8em 1em; border-bottom:1px solid #151515; text-decoration:none; transition:background 0.15s;';
-      link.onmouseover = function() { this.style.background = 'rgba(59,130,246,0.06)'; };
-      link.onmouseout = function() { this.style.background = 'transparent'; };
-      link.onfocus = function() { this.style.background = 'rgba(59,130,246,0.1)'; };
-      link.onblur = function() { this.style.background = 'transparent'; };
+      link.className = 'search-result-item';
+      link.setAttribute('role', 'option');
 
-      var titleDiv = document.createElement('div');
-      titleDiv.style.cssText = 'color:#f0f0f0; font-size:0.9em; font-weight:600; margin-bottom:0.15em;';
       var re = new RegExp('(' + query.replace(/[.*+?^${}()|[\]\\]/g, '\\$&') + ')', 'gi');
-      var parts = post.title.split(re);
-      parts.forEach(function(part) {
-        if (re.test(part)) {
-          re.lastIndex = 0;
-          var strong = document.createElement('strong');
-          strong.style.color = '#3b82f6';
-          strong.textContent = part;
-          titleDiv.appendChild(strong);
-        } else {
-          titleDiv.appendChild(document.createTextNode(part));
-        }
-      });
-      link.appendChild(titleDiv);
+      var titleHtml = post.title.replace(/</g, '&lt;').replace(/>/g, '&gt;').replace(re, '<mark class="search-highlight">$1</mark>');
 
+      var descHtml = '';
       if (post.description) {
-        var descDiv = document.createElement('div');
-        descDiv.style.cssText = 'color:#71717a; font-size:0.78em; line-height:1.4;';
-        descDiv.textContent = post.description.substring(0, 100);
-        link.appendChild(descDiv);
+        var desc = post.description.substring(0, 120).replace(/</g, '&lt;').replace(/>/g, '&gt;').replace(re, '<mark class="search-highlight">$1</mark>');
+        descHtml = '<div class="search-result-desc">' + desc + '</div>';
       }
 
-      var metaDiv = document.createElement('div');
-      metaDiv.style.cssText = 'color:#555; font-size:0.72em; margin-top:0.3em;';
-      metaDiv.textContent = post.date + ' \u00B7 ' + post.tags.substring(0, 60);
-      link.appendChild(metaDiv);
+      var tagHtml = post.tags ? '<span class="search-tag">' + post.tags.split(',')[0].trim() + '</span>' : '';
+
+      link.innerHTML =
+        '<div class="search-result-title">' + titleHtml + '</div>' +
+        descHtml +
+        '<div class="search-result-meta">' +
+          '<span class="search-result-date">' + post.date + '</span>' +
+          tagHtml +
+        '</div>';
 
       results.appendChild(link);
     });
