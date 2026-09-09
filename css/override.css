@@ -580,6 +580,49 @@ img:hover {
 .site-header a:hover {
   opacity: 1 !important;
 }
+.site-translate {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.4em;
+  color: #8b8b8b;
+  font-size: 0.78em;
+  margin: 0 0.6em;
+  vertical-align: middle;
+}
+.site-translate .goog-te-gadget {
+  font-family: inherit;
+  font-size: 1em !important;
+  color: #8b8b8b !important;
+}
+.site-translate .goog-te-combo {
+  background: #16181c;
+  color: #e6edf3;
+  border: 1px solid #1e2024;
+  border-radius: 6px;
+  padding: 0.2em 0.4em;
+  font-size: 0.9em;
+}
+/* Remove the default Google branding text next to the select */
+.site-translate .goog-te-gadget span,
+.site-translate .goog-te-gadget-simple {
+  display: none !important;
+}
+/* Google Translate popup repositioned to not break the header layout */
+body > .skiptranslate,
+body > .goog-te-gadget {
+  visibility: hidden;
+}
+#goog-gt-tt,
+.goog-tooltip {
+  display: none !important;
+}
+.goog-logo-link,
+.goog-te-gadget span {
+  display: none !important;
+}
+.goog-te-banner-frame {
+  display: none !important;
+}
 
 /* ===========================
    READING PROGRESS BAR

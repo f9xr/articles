@@ -22,6 +22,10 @@ pinterest_username: "f9xr"
 lang: "en"
 locale: "en_US"
 
+# Force UTC so date_to_xmlschema emits "+00:00" in structured data regardless
+# of the build machine's local timezone (Google requires a timezone in datePublished).
+timezone: "UTC"
+
 theme: "minima"
 
 rss: rss

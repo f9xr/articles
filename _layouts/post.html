@@ -539,7 +539,12 @@ layout: default
   "isPartOf": { "@id": "{{ '/' | absolute_url }}#website" },
   "headline": {{ page.title | jsonify }},
   "description": {{ page.description | default: site.description | strip_html | truncatewords: 55 | jsonify }},
-  "image": "{{ page.image | default: '/assets/og-image.webp' | absolute_url }}",
+  "image": {
+    "@type": "ImageObject",
+    "url": "{{ page.image | default: '/assets/og-image.webp' | absolute_url }}",
+    "width": {{ page.image_width | default: page.og_width | default: 1200 }},
+    "height": {{ page.image_height | default: page.og_height | default: 630 }}
+  },
   "datePublished": "{{ page.date | date_to_xmlschema }}",
   "dateModified": "{{ page.dateModified | default: page.date | date_to_xmlschema }}",
   "author": {
