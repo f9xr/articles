@@ -59,4 +59,5 @@ https://f9xr.github.io/articles/2026/09/06/real-world-gen-ai-use-cases-google-cl
 https://f9xr.github.io/articles/2026/09/07/key-strategies-to-rank-on-ai.html
 https://f9xr.github.io/articles/2026/09/08/llms-txt-ai-txt-do-they-work-2026.html
 https://f9xr.github.io/articles/2026/09/08/google-eu-search-revamp-dma-fines.html
+https://f9xr.github.io/articles/2026/09/09/google-ads-local-customer-optimization.html
 https://f9xr.github.io/articles/2026/09/09/how-to-write-seo-friendly-articles.html
