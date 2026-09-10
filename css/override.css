@@ -580,34 +580,61 @@ img:hover {
 .site-header a:hover {
   opacity: 1 !important;
 }
-.site-translate {
-  display: inline-flex;
+/* Google Translate widget in the post left sidebar (above the TOC) */
+.sidebar-translate {
+  position: relative;
+  background: linear-gradient(160deg, rgba(59, 130, 246, 0.07) 0%, rgba(10, 10, 10, 0.85) 100%);
+  border: 1px solid #1e2024;
+  border-radius: 12px;
+  padding: 0.95em 1.1em;
+  margin-bottom: 1em;
+  color: #f0f0f0;
+}
+.sidebar-translate::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  height: 2px;
+  background: linear-gradient(90deg, #3b82f6, #60a5fa, transparent);
+  border-radius: 12px 12px 0 0;
+}
+.sidebar-translate-header {
+  display: flex;
   align-items: center;
-  gap: 0.4em;
-  color: #8b8b8b;
-  font-size: 0.78em;
-  margin: 0 0.6em;
-  vertical-align: middle;
+  gap: 0.5em;
+  font-size: 0.8em;
+  font-weight: 800;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  margin-bottom: 0.7em;
 }
-.site-translate .goog-te-gadget {
-  font-family: inherit;
-  font-size: 1em !important;
-  color: #8b8b8b !important;
-}
-.site-translate .goog-te-combo {
+.sidebar-translate-select .goog-te-combo {
+  width: 100%;
   background: #16181c;
   color: #e6edf3;
   border: 1px solid #1e2024;
-  border-radius: 6px;
-  padding: 0.2em 0.4em;
+  border-radius: 8px;
+  padding: 0.5em 0.6em;
   font-size: 0.9em;
+  font-family: inherit;
+  cursor: pointer;
+}
+.sidebar-translate-select .goog-te-combo:focus {
+  outline: none;
+  border-color: #3b82f6;
 }
 /* Remove the default Google branding text next to the select */
-.site-translate .goog-te-gadget span,
-.site-translate .goog-te-gadget-simple {
+.goog-te-gadget,
+.goog-te-gadget-simple {
+  font-family: inherit;
+}
+.sidebar-translate .goog-te-gadget span,
+.sidebar-translate .goog-te-gadget-simple {
   display: none !important;
 }
-/* Google Translate popup repositioned to not break the header layout */
+/* Google Translate popup repositioned to not break the page layout */
 body > .skiptranslate,
 body > .goog-te-gadget {
   visibility: hidden;
