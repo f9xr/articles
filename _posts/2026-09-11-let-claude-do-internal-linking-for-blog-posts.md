@@ -46,7 +46,7 @@ Google's own documentation has treated [internal links as a core part of how it 
 * Links that make sense for the reader first. If it would not help someone reading the sentence, it does not belong there.
 
 <div class="youtube-embed" style="position:relative; padding-bottom:56.25%; height:0; overflow:hidden; margin-bottom:2em;">
-  <iframe src="https://www.youtube.com/embed/vc3uG6cTSH0" title="How to build internal links with Claude" style="position:absolute; top:0; left:0; width:100%; height:100%; border:0;" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen loading="lazy"></iframe>
+  <iframe width="560" height="315" src="https://www.youtube.com/embed/vc3uGc6TSH0?si=d16ppcWu7PsFHpNR" title="YouTube video player" style="position:absolute; top:0; left:0; width:100%; height:100%; border:0;" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen loading="lazy"></iframe>
 </div>
 
 ## The Problem With Doing This Manually
