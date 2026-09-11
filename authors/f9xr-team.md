@@ -13,10 +13,10 @@ bio: |
 
   ## Core Expertise
 
-  - **Web Ecosystems** — WordPress and custom framework builds, Core Web Vitals optimization, lead capture logic, technical SEO from day one
-  - **Local SEO** — Google Business Profile optimization, local citation building, review generation systems, rank tracking
-  - **AI Integration** — GPT-powered chatbots, AI content workflows, smart lead scoring, workflow automation
-  - **Technical Maintenance** — 24/7 uptime monitoring, weekly backups, security patching, continuous performance tuning
+  - **Web Ecosystems** — WordPress and custom framework builds, Core Web Vitals optimization, lead capture logic, technical SEO from day one. Browse related articles on [web development](https://f9xr.github.io/articles/archive.html#web-development).
+  - **Local SEO** — Google Business Profile optimization, local citation building, review generation systems, rank tracking. Browse related articles on [local SEO](https://f9xr.github.io/articles/archive.html#local-seo).
+  - **AI Integration** — GPT-powered chatbots, AI content workflows, smart lead scoring, workflow automation. Browse related articles on [AI in business](https://f9xr.github.io/articles/archive.html#ai-in-business).
+  - **Technical Maintenance** — 24/7 uptime monitoring, weekly backups, security patching, continuous performance tuning. Browse related articles on [website maintenance](https://f9xr.github.io/articles/archive.html#website-maintenance).
 
   ## Track Record
 

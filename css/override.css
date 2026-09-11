@@ -634,6 +634,32 @@ img:hover {
 .sidebar-translate .goog-te-gadget-simple {
   display: none !important;
 }
+.sidebar-translate-attribution {
+  display: flex;
+  justify-content: flex-end;
+  margin-top: 0.5em;
+  padding-top: 0.5em;
+  border-top: 1px solid rgba(255, 255, 255, 0.05);
+}
+.sidebar-translate-attribution a {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.35em;
+  font-family: ui-monospace, SFMono-Regular, Menlo, Consolas, monospace;
+  font-size: 0.62em;
+  letter-spacing: 0.02em;
+  color: #71717a;
+  text-decoration: none !important;
+  transition: color 0.2s ease;
+}
+.sidebar-translate-attribution a:hover {
+  color: #b1bac4;
+}
+.sidebar-translate-attribution svg {
+  width: 14px;
+  height: 14px;
+  flex-shrink: 0;
+}
 /* Google Translate popup repositioned to not break the page layout */
 body > .skiptranslate,
 body > .goog-te-gadget {
@@ -4629,6 +4655,62 @@ details summary:focus-visible {
 .ed-topic {
   margin-bottom: 2.2em;
   scroll-margin-top: 92px;
+}
+
+/* --- Archive pagination --- */
+.ed-pager {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 0.5em;
+  margin-top: 0.9em;
+}
+.ed-pager-btn,
+.ed-pager-nav {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  min-width: 34px;
+  height: 34px;
+  padding: 0 0.6em;
+  font-size: 0.82em;
+  font-family: ui-monospace, SFMono-Regular, Menlo, Consolas, monospace;
+  color: #b1bac4;
+  background: #0a0a0c;
+  border: 1px solid #27272a;
+  border-radius: 6px;
+  cursor: pointer;
+  transition: color 0.2s ease, border-color 0.2s ease, background 0.2s ease;
+}
+.ed-pager-btn:hover,
+.ed-pager-nav:hover:not(:disabled) {
+  color: #3b82f6;
+  border-color: rgba(59, 130, 246, 0.35);
+}
+.ed-pager-btn.is-active {
+  color: #ffffff;
+  background: #3b82f6;
+  border-color: #3b82f6;
+}
+.ed-pager-nav:disabled {
+  opacity: 0.35;
+  cursor: default;
+}
+.ed-pager-count {
+  margin-left: auto;
+  font-family: ui-monospace, SFMono-Regular, Menlo, Consolas, monospace;
+  font-size: 0.72em;
+  letter-spacing: 0.04em;
+  color: #71717a;
+}
+.ed-paged-hidden {
+  display: none !important;
+}
+@media (max-width: 480px) {
+  .ed-pager-count {
+    flex-basis: 100%;
+    margin-left: 0;
+  }
 }
 
 @media (max-width: 900px) {

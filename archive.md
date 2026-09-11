@@ -143,8 +143,84 @@ keywords: "F9XR articles archive, web architecture, AI integration, local SEO, d
     </li>
     {% endfor %}
   </ul>
+  <div class="ed-pager" data-pager role="navigation" aria-label="Pagination for {{ tag[0] }}" aria-live="polite"></div>
 </section>
 {% endfor %}
+
+<script>
+(function () {
+  var PAGESIZE = 10;
+  var pagers = document.querySelectorAll('[data-pager]');
+  for (var i = 0; i < pagers.length; i++) {
+    (function (pager) {
+      var list = pager.previousElementSibling;
+      if (!list || list.className.indexOf('accordion-list') === -1) return;
+      var items = list.querySelectorAll('.accordion-link');
+      var total = items.length;
+      if (total <= PAGESIZE) return;
+      var pages = Math.ceil(total / PAGESIZE);
+      var current = 0;
+
+      var prevBtn = document.createElement('button');
+      prevBtn.type = 'button';
+      prevBtn.className = 'ed-pager-nav';
+      prevBtn.setAttribute('aria-label', 'Previous page');
+      prevBtn.innerHTML = '<i class="fa-solid fa-angle-left"></i>';
+
+      var nextBtn = document.createElement('button');
+      nextBtn.type = 'button';
+      nextBtn.className = 'ed-pager-nav';
+      nextBtn.setAttribute('aria-label', 'Next page');
+      nextBtn.innerHTML = '<i class="fa-solid fa-angle-right"></i>';
+
+      pager.appendChild(prevBtn);
+      var pageBtns = [];
+      for (var p = 0; p < pages; p++) {
+        (function (pg) {
+          var b = document.createElement('button');
+          b.type = 'button';
+          b.className = 'ed-pager-btn';
+          b.setAttribute('data-page', pg);
+          b.textContent = pg + 1;
+          b.setAttribute('aria-label', 'Go to page ' + (pg + 1) + ' of ' + pages);
+          b.addEventListener('click', function () { show(pg); });
+          pageBtns.push(b);
+          pager.appendChild(b);
+        })(p);
+      }
+      pager.appendChild(nextBtn);
+
+      var count = document.createElement('span');
+      count.className = 'ed-pager-count';
+      pager.appendChild(count);
+
+      function show(page) {
+        current = page < 0 ? 0 : (page >= pages ? pages - 1 : page);
+        for (var j = 0; j < items.length; j++) {
+          var onPage = Math.floor(j / PAGESIZE) === current;
+          items[j].classList.toggle('ed-paged-hidden', !onPage);
+          items[j].setAttribute('aria-hidden', onPage ? 'false' : 'true');
+        }
+        for (var k = 0; k < pageBtns.length; k++) {
+          pageBtns[k].classList.toggle('is-active', k === current);
+          if (k === current) { pageBtns[k].setAttribute('aria-current', 'page'); }
+          else { pageBtns[k].removeAttribute('aria-current'); }
+        }
+        prevBtn.disabled = current === 0;
+        nextBtn.disabled = current === pages - 1;
+        var from = current * PAGESIZE + 1;
+        var to = from + PAGESIZE - 1;
+        if (to > total) to = total;
+        count.textContent = from + '-' + to + ' of ' + total;
+      }
+
+      prevBtn.addEventListener('click', function () { show(current - 1); });
+      nextBtn.addEventListener('click', function () { show(current + 1); });
+      show(0);
+    })(pagers[i]);
+  }
+})();
+</script>
 
 {% endif %}
 
