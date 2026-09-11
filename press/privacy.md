@@ -1,5 +1,6 @@
 ---
 layout: page
+permalink: /press/privacy.html
 title: "Privacy Policy"
 description: "Privacy Policy for F9XR Articles — how we collect, use, and protect your information."
 keywords: "privacy policy, F9XR Articles, data collection, cookies, GDPR, user privacy"

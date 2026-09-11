@@ -1,5 +1,6 @@
 ---
 layout: page
+permalink: /press/editorial-policy.html
 title: "Editorial Policy — F9XR Articles"
 description: "How F9XR Articles researches, writes, reviews, and publishes technical content on web architecture, AI integration, local SEO, and digital systems."
 keywords: "F9XR editorial policy, content standards, fact-checking, human editing, technical writing"

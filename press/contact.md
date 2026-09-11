@@ -1,5 +1,6 @@
 ---
 layout: page
+permalink: /press/contact.html
 title: "Contact F9XR Articles"
 description: "Contact the F9XR Articles editorial team for questions, corrections, collaboration, sponsored content, and press requests. We respond within two business days."
 keywords: "contact F9XR Articles, F9XR contact, editorial contact, press contact, corrections, sponsored content"

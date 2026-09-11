@@ -1,5 +1,6 @@
 ---
 layout: page
+permalink: /archive.html
 title: Archive — F9XR Articles
 title_hidden: true
 description: "Complete archive of all articles by F9XR Team covering web architecture, AI integration, local SEO, and digital growth strategies."

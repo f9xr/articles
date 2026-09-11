@@ -1,5 +1,6 @@
 ---
 layout: page
+permalink: /press/terms.html
 title: "Terms of Service — F9XR Articles"
 description: "The terms and conditions for using F9XR Articles, the publishing platform by F9XR Team. Read before reusing or relying on our content."
 keywords: "F9XR Articles terms, terms of service, content licensing, acceptable use, disclaimer"

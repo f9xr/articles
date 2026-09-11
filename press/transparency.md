@@ -1,5 +1,6 @@
 ---
 layout: page
+permalink: /press/transparency.html
 title: "Ownership, Funding, & Transparency — F9XR Articles"
 description: "Organizational ownership, funding model, sponsorship disclosures, and transparency practices for F9XR Articles."
 keywords: "F9XR ownership, funding transparency, sponsorship disclosure, F9XR Team, organizational structure"

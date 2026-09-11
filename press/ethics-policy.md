@@ -1,5 +1,6 @@
 ---
 layout: page
+permalink: /press/ethics-policy.html
 title: "Ethics & Fact-Checking Policy — F9XR Articles"
 description: "F9XR Articles standards for data integrity, conflict-of-interest management, technical claim verification, and ethical publishing practices."
 keywords: "F9XR ethics policy, fact-checking, data integrity, conflicts of interest, technical verification"

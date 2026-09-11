@@ -1,5 +1,6 @@
 ---
 layout: page
+permalink: /press/refund.html
 title: "Refund Policy — F9XR Articles"
 description: "The refund policy for F9XR Articles. Reading the site is free; find out what applies to sponsored content, collaborations, and F9XR's paid services."
 keywords: "F9XR Articles refund policy, refund, paid content, sponsored content, F9XR services refund"

@@ -1,5 +1,6 @@
 ---
 layout: page
+permalink: /press/correction-policy.html
 title: "Correction Policy — F9XR Articles"
 description: "The process F9XR Articles follows to identify, report, and resolve technical errors, outdated information, and factual inaccuracies."
 keywords: "F9XR correction policy, error reporting, content updates, accuracy, technical corrections"

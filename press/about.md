@@ -1,5 +1,6 @@
 ---
 layout: page
+permalink: /press/about.html
 title: "About F9XR Articles"
 description: "Learn about F9XR Articles — the publishing platform by F9XR Team covering web architecture, AI integration, local SEO, and digital systems for businesses."
 keywords: "about F9XR Articles, F9XR Team, digital architecture agency, web development, AI integration, local SEO, technical SEO"
