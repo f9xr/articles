@@ -1,10 +1,10 @@
 # Google Discover Eligibility Audit Report
 
-**Audit Date:** August 1st, 2026
-**Auditor:** F9XR SEO Codebase Audit (manual, repository-wide)
-**Site:** F9XR Articles — `https://f9xr.github.io/articles`
-**Project Type:** Jekyll blog on GitHub Pages
-**Scope:** Eligibility for Google Discover (feed) placement — indexing, robots, images, structured data, freshness, author E-E-A-T, page experience, and content quality signals.
+- **Audit Date:** August 1st, 2026
+- **Auditor:** F9XR SEO Codebase Audit (manual, repository-wide)
+- **Site:** F9XR Articles - `https://f9xr.github.io/articles`
+- **Project Type:** Jekyll blog on GitHub Pages
+- **Scope:** Eligibility for Google Discover (feed) placement - indexing, robots, images, structured data, freshness, author E-E-A-T, page experience, and content quality signals.
 
 > Google Discover has no application process. Placement is automatic when content meets Google's eligibility bar. This report verifies each known eligibility factor against the live site and flags what stands between the site and realistic Discover visibility.
 

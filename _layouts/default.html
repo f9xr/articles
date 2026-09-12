@@ -128,18 +128,49 @@
 
     <!-- Google Translate widget: define the callback first, then load the script, so the widget never waits on (or loses a race to) the async bootstrap -->
     <script>
-    function googleTranslateElementInit() {
+function googleTranslateElementInit() {
       var el = document.getElementById('google_translate_element');
       if (!el) return;
       if (typeof google === 'undefined' || !google.translate) return;
       try {
         new google.translate.TranslateElement({
           pageLanguage: 'en',
-          includedLanguages: 'af,sq,am,ar,hy,az,eu,be,bn,bs,bg,ca,ceb,zh-CN,zh-TW,co,hr,cs,da,nl,en,eo,et,fi,fr,fy,gl,ka,de,el,gu,ht,ha,haw,he,hi,hmn,hu,is,ig,id,ga,it,ja,jw,kn,kk,km,rw,ko,ku,ky,lo,la,lv,lt,lb,mk,mg,ms,ml,mt,mi,mr,mn,my,ne,no,ny,or,ps,fa,pl,pt,pa,ro,ru,sm,gd,sr,st,sn,sd,si,sk,sl,so,es,su,sw,sv,tl,tg,ta,tt,te,th,tr,tk,uk,ur,ug,uz,vi,cy,xh,yi,yo,zu',
+          includedLanguages: 'af,sq,am,ar,hy,az,eu,be,bn,bs,bg,ca,ceb,zh-CN,zh-TW,co,hr,cs,da,nl,en,eo,et,fi,fr,fy,gl,ka,de,el,gu,ht,ha,haw,he,hi,hmn,hu,is,ig,ga,it,ja,jw,kn,kk,km,rw,ko,ku,ky,lo,la,lv,lt,lb,mk,mg,ms,ml,mt,mi,mr,mn,my,ne,no,ny,or,ps,fa,pl,pt,pa,ro,ru,sm,gd,sr,st,sn,sd,si,sk,sl,so,es,su,sw,sv,tl,tg,ta,tt,te,th,tr,tk,uk,ur,ug,uz,vi,cy,xh,yi,yo,zu',
           autoDisplay: false
         }, el);
       } catch (e) {}
     }
+    </script>
+    <script>
+    // Google's widget injects its own "Powered by Google" label; the site already renders its own
+    // attribution, so hide the injected one whenever it appears (handles the async load).
+    (function () {
+      function hideGoogleLabel() {
+        var el = document.getElementById('google_translate_element');
+        if (!el) return;
+        var gone = el.querySelectorAll('.goog-logo-link, img.goog-logo-icon');
+        for (var g = 0; g < gone.length; g++) gone[g].style.display = 'none';
+        var all = el.querySelectorAll('*');
+        for (var i = 0; i < all.length; i++) {
+          var n = all[i];
+          if (n.closest && n.closest('.sidebar-translate-attribution')) continue;
+          if (n.childElementCount === 0 && n.textContent && n.textContent.trim() === 'Powered by Google') {
+            var hide = n.closest('span') || n.parentElement;
+            if (hide && hide !== el) hide.style.display = 'none';
+            else n.style.display = 'none';
+          }
+        }
+      }
+      function init() {
+        var el = document.getElementById('google_translate_element');
+        if (!el || typeof MutationObserver === 'undefined') return;
+        hideGoogleLabel();
+        var mo = new MutationObserver(hideGoogleLabel);
+        mo.observe(el, { childList: true, subtree: true, characterData: true });
+      }
+      if (document.readyState === 'loading') document.addEventListener('DOMContentLoaded', init);
+      else init();
+    })();
     </script>
     <script src="//translate.google.com/translate_a/element.js?cb=googleTranslateElementInit" async></script>
 

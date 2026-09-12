@@ -646,7 +646,7 @@ img:hover {
   align-items: center;
   gap: 0.35em;
   font-family: ui-monospace, SFMono-Regular, Menlo, Consolas, monospace;
-  font-size: 0.62em;
+  font-size: 0.8em;
   letter-spacing: 0.02em;
   color: #71717a;
   text-decoration: none !important;
@@ -659,6 +659,12 @@ img:hover {
   width: 14px;
   height: 14px;
   flex-shrink: 0;
+}
+/* Hide Google's own injected "Powered by Google" label and logo; the site renders its own attribution */
+.goog-te-gadget .goog-logo-link,
+.goog-te-gadget-simple .goog-logo-link,
+img.goog-logo-icon {
+  display: none !important;
 }
 /* Google Translate popup repositioned to not break the page layout */
 body > .skiptranslate,
@@ -1980,6 +1986,121 @@ details summary:focus-visible {
   background:rgba(255,255,255,0.02);
   border:1px solid #1e2024;
   border-radius:10px;
+}
+
+/* --- Article Listen (TTS) Player Bar --- */
+.audio-player-bar {
+  position:fixed;
+  left:50%;
+  bottom:16px;
+  transform:translateX(-50%);
+  width:min(720px,calc(100% - 32px));
+  background:linear-gradient(180deg,rgba(22,24,28,0.97),rgba(10,10,12,0.97));
+  border:1px solid #1e2024;
+  border-top:2px solid #3b82f6;
+  border-radius:12px;
+  padding:10px 14px 12px;
+  z-index:9999;
+  box-shadow:0 12px 40px rgba(0,0,0,0.6);
+  animation:audioBarIn 0.25s ease;
+  font-family:inherit;
+}
+.audio-player-bar[hidden] { display:none !important; }
+@keyframes audioBarIn {
+  from { opacity:0; transform:translate(-50%,12px); }
+  to { opacity:1; transform:translate(-50%,0); }
+}
+.audio-player-progress {
+  height:4px;
+  background:rgba(255,255,255,0.06);
+  border-radius:4px;
+  overflow:hidden;
+  margin-bottom:10px;
+}
+.audio-player-progress-fill {
+  display:block;
+  height:100%;
+  width:0;
+  background:linear-gradient(90deg,#3b82f6,#60a5fa);
+  border-radius:4px;
+  transition:width 0.4s ease;
+}
+.audio-player-row {
+  display:flex;
+  align-items:center;
+  justify-content:space-between;
+  gap:0.8em;
+  flex-wrap:wrap;
+}
+.audio-player-meta {
+  display:inline-flex;
+  align-items:center;
+  gap:0.5em;
+  color:#b1bac4;
+  font-size:0.85em;
+  font-weight:500;
+}
+.audio-player-pulse {
+  width:8px;
+  height:8px;
+  border-radius:50%;
+  background:#3b82f6;
+  animation:audioPulse 1.2s ease-in-out infinite;
+}
+@keyframes audioPulse {
+  0%,100% { opacity:1; transform:scale(1); }
+  50% { opacity:0.35; transform:scale(0.75); }
+}
+.audio-player-controls {
+  display:inline-flex;
+  align-items:center;
+  gap:0.45em;
+  flex-wrap:wrap;
+}
+.audio-player-btn {
+  display:inline-flex;
+  align-items:center;
+  gap:0.3em;
+  padding:0.4em 0.7em;
+  background:rgba(255,255,255,0.04);
+  border:1px solid #1e2024;
+  border-radius:7px;
+  color:#8b8b8b;
+  font-size:0.78em;
+  font-weight:500;
+  cursor:pointer;
+  transition:all 0.2s;
+}
+.audio-player-btn:hover { border-color:#3b82f6; color:#3b82f6; background:rgba(59,130,246,0.08); }
+.audio-player-btn.active { color:#fbbf24; border-color:rgba(251,191,36,0.4); background:rgba(251,191,36,0.08); }
+.audio-player-btn--stop:hover { border-color:#ef4444; color:#ef4444; background:rgba(239,68,68,0.08); }
+.audio-player-select {
+  background:#16181c;
+  color:#e6edf3;
+  border:1px solid #1e2024;
+  border-radius:7px;
+  padding:0.4em 0.5em;
+  font-size:0.78em;
+  font-family:inherit;
+  cursor:pointer;
+  max-width:150px;
+}
+.audio-player-select:focus { outline:none; border-color:#3b82f6; }
+.audio-player-select--voice { max-width:220px; }
+.post-content .speaking {
+  background:rgba(59,130,246,0.16);
+  border-radius:4px;
+  box-shadow:0 0 0 3px rgba(59,130,246,0.08);
+}
+.toolbar-btn.is-speaking {
+  background:rgba(239,68,68,0.15) !important;
+  border-color:rgba(239,68,68,0.4) !important;
+  color:#ef4444 !important;
+}
+.toolbar-btn--disabled { opacity:0.45; cursor:not-allowed; }
+@media (max-width:640px) {
+  .audio-player-row { justify-content:center; }
+  .audio-player-select--voice { display:none; }
 }
 
 /* --- Font Size Resizer --- */
