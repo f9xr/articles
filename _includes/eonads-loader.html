@@ -1,0 +1,76 @@
+<script>
+(function() {
+  if (window.__eonadsLoaded) return;
+  window.__eonadsLoaded = true;
+
+  var ZONES = {
+    '120x600': { cls: 'e120x600', zoneid: '66837' },
+    '160x600': { cls: 'e160x600', zoneid: '66838' },
+    '300x50':  { cls: 'e300x50',  zoneid: '66839' },
+    '300x250': { cls: 'e300x250', zoneid: '66840' },
+    '300x600': { cls: 'e300x600', zoneid: '66841' },
+    '336x280': { cls: 'e336x280', zoneid: '66842' },
+    '728x90':  { cls: 'e728x90',  zoneid: '66843' }
+  };
+  var HASH = '01043265467306f5bdbb0622001d3bb2';
+  var REVIVE_ID = 'f87497be83f6ed6b52c3b340d803ae0d';
+  var scriptInjected = false;
+
+  function injectScript() {
+    if (scriptInjected) return;
+    scriptInjected = true;
+    var s = document.createElement('script');
+    s.async = true;
+    s.src = '//network.eonads.com/adserver/www/delivery/asyncjs.php';
+    document.body.appendChild(s);
+  }
+
+  function bestSize(containerWidth, available) {
+    var chosen = available[available.length - 1];
+    var best = -1;
+    for (var i = 0; i < available.length; i++) {
+      var w = parseInt(available[i].split('x')[0], 10);
+      if (w <= containerWidth + 40 && w > best) {
+        best = w;
+        chosen = available[i];
+      }
+    }
+    return chosen;
+  }
+
+  function inject(container) {
+    var available = (container.getAttribute('data-sizes') || '300x250,728x90')
+      .split(',').map(function(s) { return s.trim(); });
+    var cw = container.clientWidth || window.innerWidth;
+    var chosen = bestSize(cw, available);
+    var z = ZONES[chosen];
+    if (!z) return;
+    var ins = document.createElement('ins');
+    ins.className = z.cls;
+    ins.id = chosen;
+    ins.setAttribute('data-revive-hash', HASH);
+    ins.setAttribute('data-revive-zoneid', z.zoneid);
+    ins.setAttribute('data-revive-id', REVIVE_ID);
+    container.appendChild(ins);
+    injectScript();
+  }
+
+  function init() {
+    var containers = document.querySelectorAll('.eonads-slot');
+    for (var i = 0; i < containers.length; i++) inject(containers[i]);
+  }
+
+  if (document.readyState === 'loading') {
+    document.addEventListener('DOMContentLoaded', init);
+  } else {
+    init();
+  }
+
+  window.addEventListener('load', function() {
+    var containers = document.querySelectorAll('.eonads-slot');
+    for (var j = 0; j < containers.length; j++) {
+      if (!containers[j].querySelector('ins')) inject(containers[j]);
+    }
+  });
+})();
+</script>

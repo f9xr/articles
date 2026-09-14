@@ -69,7 +69,13 @@
     })();
     </script>
 
+    {% unless page.url == '/404.html' %}
+    {% include eonads.html sizes="728x90,336x280,300x250,300x50" %}
+    {% endunless %}
+
     {%- include footer.html -%}
+
+    {% include eonads-loader.html %}
 
     <noscript>
       <style>
