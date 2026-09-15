@@ -1,8 +1,8 @@
-﻿# YMYL & E-E-A-T Audit Report â€” F9XR Articles
+# YMYL & E-E-A-T Audit Report — F9XR Articles
 
-**Audit date:** 2026-09-14
-**Site audited:** https://f9xr.org/articles/ (Jekyll static site, GitHub Pages)
-**Audit scope:** YMYL classification, E-E-A-T signals, trust & transparency infrastructure, and monetization practices, evaluated against Google's Search Quality Rater Guidelines (YMYL + E-E-A-T sections, July 2022 update and later refinements).
+- **Audit date:** 2026-09-14
+- **Site audited:** https://f9xr.github.io/articles/ (Jekyll static site, GitHub Pages)
+- **Audit scope:** YMYL classification, E-E-A-T signals, trust & transparency infrastructure, and monetization practices, evaluated against Google's Search Quality Rater Guidelines (YMYL + E-E-A-T sections, July 2022 update and later refinements).
 
 ---
 
@@ -16,7 +16,7 @@
 
 ## 2. Findings
 
-### Finding 1 â€” Generic team byline on most high-intent posts (HIGH severity)
+### Finding 1 — Generic team byline on most high-intent posts (HIGH severity)
 
 **Evidence:** `grep "author:" _posts/*.md` shows 71 matches; the majority are `author: "F9XR Editorial Team"`. A smaller set uses named authors (Ahetasham Uddin, Ankush Santra, Masna Sudhir).
 
@@ -28,17 +28,17 @@
 - For posts that recommend spending money or choosing tools/vendors, attribute to a **named author** whose profile shows relevant credentials. `_data/authors.yml` already has 4 named profiles with education/experience blocks (e.g., Mohammed Ahetasham Uddin lists a B.Com and ACCA candidacy, which maps to finance-adjacent tables).
 - Add an optional `reviewed_by:` front-matter field and render "Reviewed by [Name]" in the author box. Roll this out for the highest-traffic money-adjacent posts first (tools, directories, paid-indexing, domain purchase).
 
-### Finding 2 â€” No per-post "reviewed / last-reviewed" signal (MEDIUM severity)
+### Finding 2 — No per-post "reviewed / last-reviewed" signal (MEDIUM severity)
 
 **Evidence:** Most posts carry `dateModified` (56 of ~71), but posts published in September 2026 (e.g., 2026-09-11, 09-09, 09-04, 09-03) mostly omit it. No post exposes a visible "Reviewed by" or "Last reviewed" stamp.
 
 **Why it matters:** YMYL guidance is time-sensitive. Readers deciding whether advice is current look for recency signals. The site has a strong editorial policy that promises quarterly/annual review, but the *facing* signals are inconsistent.
 
 **Fix:**
-- Add `dateModified` to every post (default it in the layout to `page.date` when absent â€” already done, but set the field explicitly on money-adjacent posts when refreshed).
-- Render a small "Updated {date}" chip already supported in `_layouts/post.html` (the `post-updated-chip`) â€” ensure it shows via `dateModified` on all posts.
+- Add `dateModified` to every post (default it in the layout to `page.date` when absent — already done, but set the field explicitly on money-adjacent posts when refreshed).
+- Render a small "Updated {date}" chip already supported in `_layouts/post.html` (the `post-updated-chip`) — ensure it shows via `dateModified` on all posts.
 
-### Finding 3 â€” No physical address / verifiable legal entity detail on the articles press pages (MEDIUM severity)
+### Finding 3 — No physical address / verifiable legal entity detail on the articles press pages (MEDIUM severity)
 
 **Evidence:** `press/transparency.md` lists "Legal entity: F9XR Team / Location: India" with an email and GitHub, but no registered address or company registration identifier. `press/contact.md` offers email + social channels only.
 
@@ -46,9 +46,9 @@
 
 **Fix:**
 - Add the registered business address (and registration number where applicable) to the transparency page and contact page.
-- Ensure the address matches F9XR's other properties (f9xr.org), since cross-property NAP consistency is itself a trust signal.
+- Ensure the address matches F9XR's other properties (f9xr.github.io), since cross-property NAP consistency is itself a trust signal.
 
-### Finding 4 â€” Monetization: good structural intent, must stay labeled and non-intrusive (LOW-MEDIUM severity)
+### Finding 4 — Monetization: good structural intent, must stay labeled and non-intrusive (LOW-MEDIUM severity)
 
 **Evidence:** Eonads placements were added on 2026-09-14 across the layouts (`_layouts/default.html`, `_layouts/post.html`, `_layouts/page.html`) via responsive `_includes/eonads*.html` snippets. Each slot renders an "Advertisement" label, and `press/transparency.md` already states advertising is clearly separated and cannot influence editorial content.
 
@@ -57,9 +57,9 @@
 **Fix (guard-rails, not remediation):**
 - Keep ad density at one slot per scroll-length section; never place an ad above the fold on mobile before the first paragraph.
 - Do not place ads inside FAQ or Key Takeaway blocks (these are high-value YMYL trust sections).
-- When AdSense is approved, migrate the loader to AdSense slots using the same labeled, non-intrusive pattern and update `press/transparency.md` to name the network (Eonads â†’ Google AdSense).
+- When AdSense is approved, migrate the loader to AdSense slots using the same labeled, non-intrusive pattern and update `press/transparency.md` to name the network (Eonads → Google AdSense).
 
-### Finding 5 â€” Author schema is single-Person; no Organization authorship depth (LOW severity)
+### Finding 5 — Author schema is single-Person; no Organization authorship depth (LOW severity)
 
 **Evidence:** The BlogPosting JSON-LD (`_layouts/post.html`) emits `author` as a `Person` and a publisher `Organization`, with `sameAs` for both. Good baseline.
 
@@ -69,7 +69,7 @@
 - Add a `"mainEntityOfPage"` already present. Optionally add `Organization` properties like `foundingLocation` and a `SameAs` to the legal/entity profile once Finding 3's address data exists.
 - Add `isAccessibleForFree` / `hasPart` markup if paid content ever appears (currently not applicable).
 
-### Finding 6 â€” Strong trust infrastructure that should be promoted more visibly (strengthening, not a defect)
+### Finding 6 — Strong trust infrastructure that should be promoted more visibly (strengthening, not a defect)
 
 **Evidence:** `/press/` contains About, Contact, Editorial Policy, Correction Policy, Ethics & Fact-Checking, Transparency, Terms, Privacy. The post layout renders a Disclaimer block above the fold bottom with "not professional legal, financial, or medical advice," and links the AI-assisted disclosure line to the Editorial Policy.
 
@@ -87,7 +87,7 @@
 |---|---|---|---|---|
 | 1 | Named human bylines + optional "Reviewed by" on money-adjacent posts | HIGH | Medium | Add `reviewed_by:` field + render; reassign top commercial posts to named authors |
 | 2 | Complete `dateModified` coverage + visible "Updated" chip | MEDIUM | Low | Add field to remaining posts (Sept 2026 list); chip already supported |
-| 3 | Physical address / legal entity on press pages | MEDIUM | Low | Add to `press/transparency.md` + `press/contact.md`; align NAP with f9xr.org |
+| 3 | Physical address / legal entity on press pages | MEDIUM | Low | Add to `press/transparency.md` + `press/contact.md`; align NAP with f9xr.github.io |
 | 4 | Ad guard-rails (labels, density, no above-fold mobile) | LOW-MEDIUM | Low | Keep current labeled pattern; enforce density rules; update transparency.md with network name |
 | 5 | Author/Publishing schema depth | LOW | Low | Follow-up item once address data lands |
 | 6 | Promote trust & policy links under content | LOW | Low | Add "Trust & Policy" row under author box |
