@@ -1,8 +1,8 @@
----
+﻿---
 layout: post
 title: "Google Discover Ads: Do They Get You In Forever?"
 description: "Running ads on Google Discover won't guarantee lasting organic placement. Here's what actually keeps your site showing up in Discover."
-image: "https://f9xr.github.io/articles/assets/post-images/google-discover-ads-permanent-placement.webp"
+image: "https://f9xr.org/articles/assets/post-images/google-discover-ads-permanent-placement.webp"
 image_width: 1200
 image_height: 630
 date: 2026-08-27
@@ -116,7 +116,7 @@ If ads won't do it, here is what actually improves your odds of showing up in th
 
 ### 1. Publish High-Quality, Original Content Consistently
 
-Google favors content that offers a real point of view, useful information, or timely relevance, not thin or recycled content. For local businesses, this could mean blog posts about industry trends, seasonal guides, or answers to questions your customers actually ask. Strong [E-E-A-T signals](https://f9xr.github.io/articles/2026/08/04/google-e-e-a-t-checklist-every-seo-should-bookmark.html){:target="_blank" rel="noopener noreferrer"} are a large part of what qualifies content for organic placement here. The same quality that earns those signals is what gets your business [recommended by AI assistants](https://f9xr.github.io/articles/2026/08/16/how-ai-picks-local-businesses-2026.html){:target="_blank" rel="noopener noreferrer"} when people ask for recommendations in tools like ChatGPT or Gemini.
+Google favors content that offers a real point of view, useful information, or timely relevance, not thin or recycled content. For local businesses, this could mean blog posts about industry trends, seasonal guides, or answers to questions your customers actually ask. Strong [E-E-A-T signals](https://f9xr.org/articles/2026/08/04/google-e-e-a-t-checklist-every-seo-should-bookmark.html){:target="_blank" rel="noopener noreferrer"} are a large part of what qualifies content for organic placement here. The same quality that earns those signals is what gets your business [recommended by AI assistants](https://f9xr.org/articles/2026/08/16/how-ai-picks-local-businesses-2026.html){:target="_blank" rel="noopener noreferrer"} when people ask for recommendations in tools like ChatGPT or Gemini.
 
 ### 2. Use Large, High-Resolution Images
 
@@ -124,11 +124,11 @@ Discover is a visually driven feed. Google recommends images at least 1200 pixel
 
 <img src="https://developers.google.com/static/search/docs/images/images-on-google.png" alt="Google illustration showing how large images render across Google surfaces including Discover" title="How large images render across Google's surfaces" width="1600" height="800" loading="lazy" />
 
-Our [complete image SEO audit guide](https://f9xr.github.io/articles/2026/08/14/image-seo-audit-complete-guide.html){:target="_blank" rel="noopener noreferrer"} walks through the image signals that matter.
+Our [complete image SEO audit guide](https://f9xr.org/articles/2026/08/14/image-seo-audit-complete-guide.html){:target="_blank" rel="noopener noreferrer"} walks through the image signals that matter.
 
 ### 3. Optimize for Mobile and Page Speed
 
-Since Discover lives almost entirely on mobile devices, a slow-loading or poorly formatted mobile site will hurt your chances significantly. Core Web Vitals matter here just as much as they do for regular search. See why [going mobile-first](https://f9xr.github.io/articles/2026/08/03/why-go-mobile-first.html){:target="_blank" rel="noopener noreferrer"} is now table stakes for any content strategy.
+Since Discover lives almost entirely on mobile devices, a slow-loading or poorly formatted mobile site will hurt your chances significantly. Core Web Vitals matter here just as much as they do for regular search. See why [going mobile-first](https://f9xr.org/articles/2026/08/03/why-go-mobile-first.html){:target="_blank" rel="noopener noreferrer"} is now table stakes for any content strategy.
 
 If your image sizes and file weights are dragging down that mobile experience, this is a practical starting point for cutting load times:
 
@@ -146,7 +146,7 @@ Google has explicitly stated that exaggerated or misleading headlines can get co
 
 ### 6. Enable Structured Data and Follow Content Policies
 
-Make sure your site follows Google's Discover content policies (no spam, no misleading claims) and that structured data like Article schema is implemented correctly. Our guide to the [essential text files for SEO, AEO, and GEO](https://f9xr.github.io/articles/2026/08/08/essential-txt-files-seo-aeo-geo-2026.html) covers the robots and structured-data basics that keep pages eligible.
+Make sure your site follows Google's Discover content policies (no spam, no misleading claims) and that structured data like Article schema is implemented correctly. Our guide to the [essential text files for SEO, AEO, and GEO](https://f9xr.org/articles/2026/08/08/essential-txt-files-seo-aeo-geo-2026.html) covers the robots and structured-data basics that keep pages eligible.
 
 ---
 
@@ -182,7 +182,7 @@ F9XR Team works with Chartered Accountants, Company Secretaries, CMAs, startups,
 - Setting up proper tracking so you can clearly see what is paid traffic versus organic Discover traffic
 - Advising on when Discover ads genuinely make sense (product launches, time-sensitive announcements) versus when they are a waste of budget
 
-Our [case studies](https://f9xr.github.io/case-studies/index.html){:target="_blank" rel="noopener noreferrer"} show the kind of content, SEO, and performance work that moves the needle for businesses like yours, and it's the same discipline that keeps pages eligible for organic Discover.
+Our [case studies](https://f9xr.org/case-studies/index.html){:target="_blank" rel="noopener noreferrer"} show the kind of content, SEO, and performance work that moves the needle for businesses like yours, and it's the same discipline that keeps pages eligible for organic Discover.
 
 If you are currently running or considering Google Discover ads and want a strategy that builds lasting organic visibility instead of a one-time spike, that is exactly the kind of work we do.
 
@@ -203,6 +203,6 @@ If you are currently running or considering Google Discover ads and want a strat
 
 Google Discover ads can be a useful short-term tool for getting eyes on a product launch, an event, or time-sensitive content, but they are not a shortcut to permanent visibility in the organic Discover feed. The two systems simply don't talk to each other. If lasting Discover traffic is your goal, the real work happens in content quality, image optimization, mobile experience, and consistent publishing, not in the ad budget.
 
-For business owners who want to build that kind of durable, organic digital presence rather than chasing paid spikes, teams like F9XR offer [website development](https://f9xr.github.io/pages/services.html), [website redesign](https://f9xr.github.io/pages/services.html), [local SEO](https://f9xr.github.io/services/google-business-optimization.html), and full digital presence solutions built around exactly these principles. If you're ready to stop guessing and start building a strategy that actually compounds over time, that's a conversation worth having.
+For business owners who want to build that kind of durable, organic digital presence rather than chasing paid spikes, teams like F9XR offer [website development](https://f9xr.org/pages/services.html), [website redesign](https://f9xr.org/pages/services.html), [local SEO](https://f9xr.org/services/google-business-optimization.html), and full digital presence solutions built around exactly these principles. If you're ready to stop guessing and start building a strategy that actually compounds over time, that's a conversation worth having.
 
-*Produced using AI-assisted research and drafting workflows, then reviewed and edited by the F9XR editorial team. See our [Editorial Policy](https://f9xr.github.io/articles/press/editorial-policy.html) for how we create and verify content.*
+*Produced using AI-assisted research and drafting workflows, then reviewed and edited by the F9XR editorial team. See our [Editorial Policy](https://f9xr.org/articles/press/editorial-policy.html) for how we create and verify content.*

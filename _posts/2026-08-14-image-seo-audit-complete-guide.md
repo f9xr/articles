@@ -1,8 +1,8 @@
----
+﻿---
 layout: post
 title: "Image SEO Audit: The Complete 2026 Guide"
 description: "Learn how to run a complete image SEO audit in 2026, alt text, file names, Core Web Vitals, schema, and more, with a practical step by step checklist."
-image: "https://f9xr.github.io/articles/assets/post-images/image-seo-audit-complete-guide.webp"
+image: "https://f9xr.org/articles/assets/post-images/image-seo-audit-complete-guide.webp"
 image_width: 1200
 image_height: 630
 image_credit: "Photo by <a href=\"https://unsplash.com/@opticonor?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText\" target=\"_blank\" rel=\"noopener noreferrer\">Conor Luddy</a> on <a href=\"https://unsplash.com/photos/kf4KHfDlIIg?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText\" target=\"_blank\" rel=\"noopener noreferrer\">Unsplash</a>"
@@ -31,7 +31,7 @@ Images quietly cost more than you think. A 2026 audit of real client sites at F9
 Images deserve their own audit because of the compounding impact: the hidden load they put on speed, the ranking signals they carry, and the fact that most sites have dozens or hundreds of images that have never been reviewed.
 
 - **Google Images is a search engine in its own right.** Roughly 22.6% of all Google searches are image searches, and Google Images is the largest image search engine on the web. Every image on your site is a potential entry point for a customer who is shopping, comparing, or researching, and image SEO determines whether those entry points exist.
-- **Image optimization is a Core Web Vitals lever.** Images drive three of the four Core Web Vitals metrics: LCP (largest contentful paint, usually the hero image), CLS (layout shift, often caused by images without dimensions), and INP (delayed by heavy image work on the main thread). As of 2026, roughly 54.6% of mobile pages still fail Core Web Vitals, and images are the most common, most fixable cause. We covered the full mobile story in our article on [why your website should be mobile first](https://f9xr.github.io/articles/2026/08/03/why-go-mobile-first.html){:target="_blank" rel="noopener noreferrer"}.
+- **Image optimization is a Core Web Vitals lever.** Images drive three of the four Core Web Vitals metrics: LCP (largest contentful paint, usually the hero image), CLS (layout shift, often caused by images without dimensions), and INP (delayed by heavy image work on the main thread). As of 2026, roughly 54.6% of mobile pages still fail Core Web Vitals, and images are the most common, most fixable cause. We covered the full mobile story in our article on [why your website should be mobile first](https://f9xr.org/articles/2026/08/03/why-go-mobile-first.html){:target="_blank" rel="noopener noreferrer"}.
 - **Images are a huge and silent page weight problem.** On an average content page, images account for 37% of total weight before optimization. Pages routinely ship 2-4 MB of images, and that weight directly taxes loading speed, mobile data plans, and your Core Web Vitals score. The good news: image optimization is one of the most predictable wins in SEO. Good image SEO typically cuts page weight 50-80% with no visible quality loss.
 
 ## What Google (and AI Search Tools) Actually Look At
@@ -42,17 +42,17 @@ Google Images has a well documented set of signals, and in 2026 AI search tools 
 - **Image quality and usefulness.** Google treats images with real informational value better than generic decorative ones. A sharp, correctly exposed photo of your actual product or location consistently outperforms stock filler.
 - **Page context and relevance.** The page title, headings, captions, and surrounding text tell Google what an image is about. An image of a studio apartment only helps you rank for "one bedroom apartment rent" if the page actually talks about it.
 - **Page speed and user experience.** Heavy images slow down the whole page, and slow pages rank worse. This is why image SEO overlaps so heavily with Core Web Vitals optimization.
-- **Structured data.** Marking images up with [ImageObject](https://schema.org/ImageObject){:target="_blank" rel="noopener noreferrer"} schema and connecting them to your page's structured data helps Google understand their role. We broke down the full schema setup in our [guide to essential .txt files for SEO, AEO, and GEO](https://f9xr.github.io/articles/2026/08/08/essential-txt-files-seo-aeo-geo-2026.html){:target="_blank" rel="noopener noreferrer"}.
-- **AI readability.** AI tools increasingly read and describe images directly when deciding what to cite. Descriptive alt text, clear captions, and well structured pages make it far more likely that a visual from your site ends up in an AI answer. For the broader picture, see our [guide to making your business site visible to AI](https://f9xr.github.io/articles/2026/08/14/steps-make-business-site-visible-to-ai.html){:target="_blank" rel="noopener noreferrer"}.
+- **Structured data.** Marking images up with [ImageObject](https://schema.org/ImageObject){:target="_blank" rel="noopener noreferrer"} schema and connecting them to your page's structured data helps Google understand their role. We broke down the full schema setup in our [guide to essential .txt files for SEO, AEO, and GEO](https://f9xr.org/articles/2026/08/08/essential-txt-files-seo-aeo-geo-2026.html){:target="_blank" rel="noopener noreferrer"}.
+- **AI readability.** AI tools increasingly read and describe images directly when deciding what to cite. Descriptive alt text, clear captions, and well structured pages make it far more likely that a visual from your site ends up in an AI answer. For the broader picture, see our [guide to making your business site visible to AI](https://f9xr.org/articles/2026/08/14/steps-make-business-site-visible-to-ai.html){:target="_blank" rel="noopener noreferrer"}.
 
 ## Step by Step: How to Audit Your Website's Images
 
 Here's the practical eight step process we use on real client sites. It takes about half a day for a small business site, and it can be automated and compressed to under an hour with the right tools.
 
-The same audit we ran for this article was generated end to end with the F9XR [SEO CodeBase Auditor skill](https://f9xr.github.io/articles/2026/07/31/f9xr-seo-codebase-auditor-skill-guide.html){:target="_blank" rel="noopener noreferrer"}, a free open source skill that reads your entire codebase and writes a full SEO audit report with a priority fix matrix. That is exactly the workflow shown below, which you can run for your own site in a few minutes.
+The same audit we ran for this article was generated end to end with the F9XR [SEO CodeBase Auditor skill](https://f9xr.org/articles/2026/07/31/f9xr-seo-codebase-auditor-skill-guide.html){:target="_blank" rel="noopener noreferrer"}, a free open source skill that reads your entire codebase and writes a full SEO audit report with a priority fix matrix. That is exactly the workflow shown below, which you can run for your own site in a few minutes.
 
 <figure class="post-figure">
-  <img src="https://f9xr.github.io/assets/screenshots/seo-auditor-skill.webp" alt="Sample of the SEO audit report generated by the F9XR SEO CodeBase Auditor skill" title="Image SEO audit findings reported in a priority fix matrix" width="1200" height="630" loading="lazy" />
+  <img src="https://f9xr.org/assets/screenshots/seo-auditor-skill.webp" alt="Sample of the SEO audit report generated by the F9XR SEO CodeBase Auditor skill" title="Image SEO audit findings reported in a priority fix matrix" width="1200" height="630" loading="lazy" />
   <figcaption>An image audit produces a clear priority fix list. This sample report was generated with the free F9XR SEO CodeBase Auditor skill.</figcaption>
 </figure>
 
@@ -74,7 +74,7 @@ The same audit we ran for this article was generated end to end with the F9XR [S
 
 ### 3. Fix Alt Text and Titles
 
-*What to do:* Review every alt attribute. It should be a concise, accurate description of the image in a natural sentence. Keep it under about 125 characters, which is the practical recommendation from the [WCAG accessibility guidelines](https://www.w3.org/WAI/standards-guidelines/wcag/){:target="_blank" rel="noopener noreferrer"}. This is also a trust signal — our [E-E-A-T checklist](https://f9xr.github.io/articles/2026/08/04/google-e-e-a-t-checklist-every-seo-should-bookmark.html){:target="_blank" rel="noopener noreferrer"} covers the trustworthiness pillar that accurate, descriptive content supports.
+*What to do:* Review every alt attribute. It should be a concise, accurate description of the image in a natural sentence. Keep it under about 125 characters, which is the practical recommendation from the [WCAG accessibility guidelines](https://www.w3.org/WAI/standards-guidelines/wcag/){:target="_blank" rel="noopener noreferrer"}. This is also a trust signal â€” our [E-E-A-T checklist](https://f9xr.org/articles/2026/08/04/google-e-e-a-t-checklist-every-seo-should-bookmark.html){:target="_blank" rel="noopener noreferrer"} covers the trustworthiness pillar that accurate, descriptive content supports.
 
 *What to fix:* Missing alt text, keyword stuffed alt text, and alt text that describes nothing or duplicates the title attribute.
 
@@ -98,7 +98,7 @@ The same audit we ran for this article was generated end to end with the F9XR [S
 
 ### 6. Audit for Broken or Missing Images
 
-*What to do:* Look for images that return 404, redirect, or fail to load. A broken image is a visible trust problem — it directly lowers your [website trust score](https://f9xr.github.io/articles/2026/08/15/how-to-increase-website-trust-score.html){:target="_blank" rel="noopener noreferrer"} — and a wasted crawl slot.
+*What to do:* Look for images that return 404, redirect, or fail to load. A broken image is a visible trust problem â€” it directly lowers your [website trust score](https://f9xr.org/articles/2026/08/15/how-to-increase-website-trust-score.html){:target="_blank" rel="noopener noreferrer"} â€” and a wasted crawl slot.
 
 *What to fix:* Dead CDN links, wrong relative paths, moved files, and case sensitivity mismatches.
 
@@ -114,7 +114,7 @@ The same audit we ran for this article was generated end to end with the F9XR [S
 
 ### 8. Add Image Structured Data
 
-*What to do:* Add [ImageObject](https://schema.org/ImageObject){:target="_blank" rel="noopener noreferrer"} schema to important images, or at least make sure your images are discoverable through Article schema. We covered the broader structured data setup in our [essential .txt files guide](https://f9xr.github.io/articles/2026/08/08/essential-txt-files-seo-aeo-geo-2026.html){:target="_blank" rel="noopener noreferrer"}.
+*What to do:* Add [ImageObject](https://schema.org/ImageObject){:target="_blank" rel="noopener noreferrer"} schema to important images, or at least make sure your images are discoverable through Article schema. We covered the broader structured data setup in our [essential .txt files guide](https://f9xr.org/articles/2026/08/08/essential-txt-files-seo-aeo-geo-2026.html){:target="_blank" rel="noopener noreferrer"}.
 
 *What to fix:* Images not connected to any schema, and pages missing image structured data entirely.
 
@@ -151,7 +151,7 @@ The same audit we ran for this article was generated end to end with the F9XR [S
 
 - Every image on an F9XR built site passes through the same audit described above: compressed to WebP, properly named, sized, and structured before it ever goes live.
 - For existing sites, we run a full image audit like this one and fix everything found, often cutting page weight by half or more.
-- Images are treated as a Core Web Vitals investment, not an afterthought. That means correct dimensions, above the fold images prioritized, and lazy loading only where it helps. The [mobile first guide](https://f9xr.github.io/articles/2026/08/03/why-go-mobile-first.html){:target="_blank" rel="noopener noreferrer"} explains why that foundation matters.
+- Images are treated as a Core Web Vitals investment, not an afterthought. That means correct dimensions, above the fold images prioritized, and lazy loading only where it helps. The [mobile first guide](https://f9xr.org/articles/2026/08/03/why-go-mobile-first.html){:target="_blank" rel="noopener noreferrer"} explains why that foundation matters.
 - The whole image layer is designed so that improvements compound: faster pages, better image visibility, and stronger structured data, together.
 
 ## Key Takeaways
@@ -167,8 +167,8 @@ The same audit we ran for this article was generated end to end with the F9XR [S
 
 Images are the web's quiet infrastructure. They make a site look good, tell your story, and sell your work, but they can also drag down the very performance that determines whether anyone finds the page at all. A proper image SEO audit takes the same assets that were silently working against you and turns them into one of your strongest performance assets.
 
-If running this kind of audit alongside your actual business sounds like a lot, that's exactly the groundwork teams like F9XR build into [website development and website redesign](https://f9xr.github.io/pages/services.html){:target="_blank" rel="noopener noreferrer"}, alongside [local SEO](https://f9xr.github.io/services/google-business-optimization.html){:target="_blank" rel="noopener noreferrer"}, [website rentals](https://f9xr.github.io/services/website-rentals.html){:target="_blank" rel="noopener noreferrer"}, and [AI visibility optimization](https://f9xr.github.io/services/ai-visibility-optimization.html){:target="_blank" rel="noopener noreferrer"}. The goal is simple: every image on your site works for you, on page speed, in Google Images, and in the AI answers that increasingly decide which businesses customers choose.
+If running this kind of audit alongside your actual business sounds like a lot, that's exactly the groundwork teams like F9XR build into [website development and website redesign](https://f9xr.org/pages/services.html){:target="_blank" rel="noopener noreferrer"}, alongside [local SEO](https://f9xr.org/services/google-business-optimization.html){:target="_blank" rel="noopener noreferrer"}, [website rentals](https://f9xr.org/services/website-rentals.html){:target="_blank" rel="noopener noreferrer"}, and [AI visibility optimization](https://f9xr.org/services/ai-visibility-optimization.html){:target="_blank" rel="noopener noreferrer"}. The goal is simple: every image on your site works for you, on page speed, in Google Images, and in the AI answers that increasingly decide which businesses customers choose.
 
 ---
 
-*Produced using AI-assisted research and drafting workflows, then reviewed and edited by the F9XR editorial team. See our [Editorial Policy](https://f9xr.github.io/articles/press/editorial-policy.html) for how we create and verify content.*
+*Produced using AI-assisted research and drafting workflows, then reviewed and edited by the F9XR editorial team. See our [Editorial Policy](https://f9xr.org/articles/press/editorial-policy.html) for how we create and verify content.*

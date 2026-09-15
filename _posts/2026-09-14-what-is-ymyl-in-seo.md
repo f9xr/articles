@@ -1,8 +1,8 @@
----
+﻿---
 layout: post
 title: "What Is YMYL in SEO? A Guide for Business Owners"
 description: "YMYL stands for Your Money or Your Life. Learn what it means in SEO, why Google scrutinizes it, and how to meet its higher standards."
-image: "https://f9xr.github.io/articles/assets/post-images/what-is-ymyl-in-seo.webp"
+image: "https://f9xr.org/articles/assets/post-images/what-is-ymyl-in-seo.webp"
 image_width: 1200
 image_height: 630
 image_caption: "A plain-English guide to YMYL and what it means for your website rankings."
@@ -72,18 +72,18 @@ A lot of local business owners assume YMYL only applies to big health and financ
 
 ## How YMYL Connects to E-E-A-T
 
-YMYL and E-E-A-T ([Experience, Expertise, Authoritativeness, and Trustworthiness](https://f9xr.github.io/articles/2026/08/04/google-e-e-a-t-checklist-every-seo-should-bookmark.html)) go hand in hand, and understanding one without the other leaves half the picture missing.
+YMYL and E-E-A-T ([Experience, Expertise, Authoritativeness, and Trustworthiness](https://f9xr.org/articles/2026/08/04/google-e-e-a-t-checklist-every-seo-should-bookmark.html)) go hand in hand, and understanding one without the other leaves half the picture missing.
 
 Think of it this way: YMYL identifies which topics carry higher risk, while E-E-A-T is the framework Google uses to judge whether a specific page and its creator are qualified enough to be trusted on that risky topic. The higher the YMYL classification of your content, the more strictly Google's systems, and its human quality raters, evaluate your E-E-A-T signals.
 
 ### What Google Actually Looks For
 
-* **Experience** – Does the content reflect real, first-hand experience with the topic?
-* **Expertise** – Does the author have relevant qualifications, training, or demonstrated knowledge?
-* **Authoritativeness** – Is the website or author recognized as a credible source in this space by others?
-* **Trustworthiness** – Is the site secure, transparent about ownership, and accurate in its claims?
+* **Experience** â€“ Does the content reflect real, first-hand experience with the topic?
+* **Expertise** â€“ Does the author have relevant qualifications, training, or demonstrated knowledge?
+* **Authoritativeness** â€“ Is the website or author recognized as a credible source in this space by others?
+* **Trustworthiness** â€“ Is the site secure, transparent about ownership, and accurate in its claims?
 
-For non-YMYL content, like a blog about your favorite coffee shops, Google is more forgiving of a lower E-E-A-T bar. For YMYL content, all four elements need to be strong, particularly expertise and trustworthiness, since inaccurate advice in these categories carries real consequences. Building that trust takes work, and it starts with the basics like [improving your website's trust score](https://f9xr.github.io/articles/2026/08/15/how-to-increase-website-trust-score.html) through transparency, secure infrastructure, and consistent accuracy.
+For non-YMYL content, like a blog about your favorite coffee shops, Google is more forgiving of a lower E-E-A-T bar. For YMYL content, all four elements need to be strong, particularly expertise and trustworthiness, since inaccurate advice in these categories carries real consequences. Building that trust takes work, and it starts with the basics like [improving your website's trust score](https://f9xr.org/articles/2026/08/15/how-to-increase-website-trust-score.html) through transparency, secure infrastructure, and consistent accuracy.
 
 ---
 
@@ -93,7 +93,7 @@ Businesses that publish YMYL content without meeting Google's quality expectatio
 
 This became especially visible after Google's August 2018 "Medic Update," a broad core algorithm update that disproportionately affected health and wellness sites lacking demonstrable expertise. Many sites saw significant traffic drops not because of technical SEO issues, but because their content didn't meet the trust and expertise bar Google expects for medical topics.
 
-The practical lesson here is important: you cannot out-optimize a lack of genuine expertise on YMYL topics. Clean code, fast load times, and solid keyword targeting matter, but they won't rescue a page that lacks real credibility if the topic is high stakes. Smart teams track this through [SEO metrics beyond rankings](https://f9xr.github.io/articles/2026/08/19/seo-metrics-beyond-rankings.html) to see the full picture of how their content is performing.
+The practical lesson here is important: you cannot out-optimize a lack of genuine expertise on YMYL topics. Clean code, fast load times, and solid keyword targeting matter, but they won't rescue a page that lacks real credibility if the topic is high stakes. Smart teams track this through [SEO metrics beyond rankings](https://f9xr.org/articles/2026/08/19/seo-metrics-beyond-rankings.html) to see the full picture of how their content is performing.
 
 ---
 
@@ -162,12 +162,12 @@ Meeting YMYL and E-E-A-T standards isn't just about adding a bio to your blog po
 The F9XR Team helps businesses in health, finance, legal, and other high-stakes niches build websites that meet Google's higher standards, through:
 
 * Website development and redesign that incorporates clear author attribution, transparent business information, and the technical trust signals YMYL content needs
-* [Local SEO](https://f9xr.github.io/services/google-business-optimization.html) services that strengthen your credibility signals across listings, reviews, and citations, especially important for local health, legal, and financial service providers
-* [Digital presence strategy](https://f9xr.github.io/services/ai-visibility-optimization.html) that helps position your business, and its actual experts, as authoritative sources in your niche, both for Google and for AI search engines like ChatGPT and Gemini
+* [Local SEO](https://f9xr.org/services/google-business-optimization.html) services that strengthen your credibility signals across listings, reviews, and citations, especially important for local health, legal, and financial service providers
+* [Digital presence strategy](https://f9xr.org/services/ai-visibility-optimization.html) that helps position your business, and its actual experts, as authoritative sources in your niche, both for Google and for AI search engines like ChatGPT and Gemini
 * Content and E-E-A-T audits that identify exactly which pages on your site may be falling short of YMYL expectations and what specific fixes will make the biggest difference
 
 If your business operates in a space where accuracy matters, and most do in some way, making sure your content meets Google's trust bar isn't optional if you want to rank and be found.
 
 ---
 
-*Produced using AI-assisted research and drafting workflows, then reviewed and edited by the F9XR editorial team. See our [Editorial Policy](https://f9xr.github.io/articles/press/editorial-policy.html) for how we create and verify content.*
+*Produced using AI-assisted research and drafting workflows, then reviewed and edited by the F9XR editorial team. See our [Editorial Policy](https://f9xr.org/articles/press/editorial-policy.html) for how we create and verify content.*

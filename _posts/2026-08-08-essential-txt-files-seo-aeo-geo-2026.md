@@ -1,9 +1,9 @@
----
+﻿---
 layout: post
 code: true
 title: "Essential Txt Files for SEO, AEO & GEO in 2026"
 description: "Discover the essential txt files your codebase needs in 2026: robots.txt, llms.txt, security.txt and more to boost SEO, AEO, and GEO visibility."
-image: "https://f9xr.github.io/articles/assets/post-images/essential-txt-files-seo-aeo-geo-2026.webp"
+image: "https://f9xr.org/articles/assets/post-images/essential-txt-files-seo-aeo-geo-2026.webp"
 image_width: 1200
 image_height: 630
 image_credit: "Photo by <a href=\"https://unsplash.com/@cgower?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText\" target=\"_blank\" rel=\"noopener noreferrer\">Christopher Gower</a> on <a href=\"https://unsplash.com/photos/a-macbook-with-lines-of-code-on-its-screen-on-a-busy-desk-m_HRfLhgABo?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText\" target=\"_blank\" rel=\"noopener noreferrer\">Unsplash</a>"
@@ -70,7 +70,7 @@ Disallow: /staging/
 Sitemap: https://yoursite.com/sitemap.xml
 ```
 
-**See it live:** [f9xr.github.io/robots.txt](https://f9xr.github.io/robots.txt){:target="_blank" rel="noopener noreferrer"} blocks error pages and tracking parameters, allows legal pages, and points to three sitemaps. That's the shape of a healthy file.
+**See it live:** [f9xr.org/robots.txt](https://f9xr.org/robots.txt){:target="_blank" rel="noopener noreferrer"} blocks error pages and tracking parameters, allows legal pages, and points to three sitemaps. That's the shape of a healthy file.
 
 ### 2. llms.txt
 
@@ -93,7 +93,7 @@ Adoption is real and growing. Major companies have published their own llms.txt 
 - [Contact](https://yoursite.com/contact): how to reach you
 ```
 
-**See it live:** [f9xr.github.io/llms.txt](https://f9xr.github.io/llms.txt){:target="_blank" rel="noopener noreferrer"} walks an AI through F9XR's identity, team, services, portfolio, and pricing in a few dozen lines, with a longer [llms-full.txt](https://f9xr.github.io/llms-full.txt){:target="_blank" rel="noopener noreferrer"} for deeper detail.
+**See it live:** [f9xr.org/llms.txt](https://f9xr.org/llms.txt){:target="_blank" rel="noopener noreferrer"} walks an AI through F9XR's identity, team, services, portfolio, and pricing in a few dozen lines, with a longer [llms-full.txt](https://f9xr.org/llms-full.txt){:target="_blank" rel="noopener noreferrer"} for deeper detail.
 
 ### 3. security.txt
 
@@ -109,29 +109,29 @@ Expires: 2027-01-01T00:00:00.000Z
 Preferred-Languages: en
 ```
 
-**See it live:** [f9xr.github.io/.well-known/security.txt](https://f9xr.github.io/.well-known/security.txt){:target="_blank" rel="noopener noreferrer"} includes a contact email, an expiry date, a preferred language, and a canonical link to itself.
+**See it live:** [f9xr.org/.well-known/security.txt](https://f9xr.org/.well-known/security.txt){:target="_blank" rel="noopener noreferrer"} includes a contact email, an expiry date, a preferred language, and a canonical link to itself.
 
 ### 4. humans.txt
 
 A simple, informal file that credits the people behind your website: developers, designers, and contributors. It's less about crawlers and more about transparency and brand trust.
 
-**Why it matters:** it's a small signal of authenticity and transparency. AI models and users alike increasingly value knowing real people are behind a business, which ties into the same trust signals search engines have leaned on for years through [E-E-A-T: experience, expertise, authoritativeness, and trustworthiness](https://f9xr.github.io/articles/2026/08/04/google-e-e-a-t-checklist-every-seo-should-bookmark.html).
+**Why it matters:** it's a small signal of authenticity and transparency. AI models and users alike increasingly value knowing real people are behind a business, which ties into the same trust signals search engines have leaned on for years through [E-E-A-T: experience, expertise, authoritativeness, and trustworthiness](https://f9xr.org/articles/2026/08/04/google-e-e-a-t-checklist-every-seo-should-bookmark.html).
 
-**See it live:** [f9xr.github.io/humans.txt](https://f9xr.github.io/humans.txt){:target="_blank" rel="noopener noreferrer"} names the team, credits the open source community, and lists the stack it's built on.
+**See it live:** [f9xr.org/humans.txt](https://f9xr.org/humans.txt){:target="_blank" rel="noopener noreferrer"} names the team, credits the open source community, and lists the stack it's built on.
 
 ### 5. sitemap.txt (or sitemap.xml)
 
 Most sites use sitemap.xml, but a plain sitemap.txt, just a list of URLs one per line, is a valid, lightweight alternative that some crawlers and smaller AI tools parse more easily.
 
-**Why it matters:** a sitemap is how you hand search engines and AI crawlers a complete, organized map of every page you want indexed, instead of hoping they find everything through internal links alone. For local businesses, including your key location pages alongside [business directory citations](https://f9xr.github.io/articles/2026/07/29/free-business-directories-guide.html) keeps your listings consistent across the web, a core part of [consistency audits](https://f9xr.github.io/articles/2026/08/13/consistency-audits-seo-aeo-geo.html){:target="_blank" rel="noopener noreferrer"} that affect both SEO and AI visibility.
+**Why it matters:** a sitemap is how you hand search engines and AI crawlers a complete, organized map of every page you want indexed, instead of hoping they find everything through internal links alone. For local businesses, including your key location pages alongside [business directory citations](https://f9xr.org/articles/2026/07/29/free-business-directories-guide.html) keeps your listings consistent across the web, a core part of [consistency audits](https://f9xr.org/articles/2026/08/13/consistency-audits-seo-aeo-geo.html){:target="_blank" rel="noopener noreferrer"} that affect both SEO and AI visibility.
 
-**See it live:** [f9xr.github.io/sitemap.xml](https://f9xr.github.io/sitemap.xml){:target="_blank" rel="noopener noreferrer"} is generated from the same source that produces F9XR's pages, so new pages appear automatically.
+**See it live:** [f9xr.org/sitemap.xml](https://f9xr.org/sitemap.xml){:target="_blank" rel="noopener noreferrer"} is generated from the same source that produces F9XR's pages, so new pages appear automatically.
 
 ### 6. ai.txt
 
 An emerging, less standardized file that some businesses are starting to use specifically to set clear terms for how AI companies can use their content, separate from the discovery focused purpose of llms.txt. Adoption is still early and inconsistent across the industry, but it's moving fast, especially if you publish a lot of original content, research, or data you want to control the usage of.
 
-**See it live:** [f9xr.github.io/ai.txt](https://f9xr.github.io/ai.txt){:target="_blank" rel="noopener noreferrer"} tells an AI what the site is, which services exist, where the long descriptions live, and that there are no server side APIs to crawl.
+**See it live:** [f9xr.org/ai.txt](https://f9xr.org/ai.txt){:target="_blank" rel="noopener noreferrer"} tells an AI what the site is, which services exist, where the long descriptions live, and that there are no server side APIs to crawl.
 
 ### 7. README.txt or README.md
 
@@ -163,7 +163,7 @@ Before adding anything new, check what already exists. Visit yoursite.com/robots
 
 ### Step 3: Keep them updated
 
-These files aren't set and forget. A sitemap needs to reflect new and removed pages. An llms.txt file should be updated whenever your core offerings or key pages change. A stale file can actively mislead crawlers and AI models, which is arguably worse than not having one at all. The same principle applies to [building backlinks](https://f9xr.github.io/articles/2026/08/07/get-backlinks-2026-free-paid-ai-methods.html){:target="_blank" rel="noopener noreferrer"}, where outdated or inconsistent signals across the web erode the authority these files are meant to establish.
+These files aren't set and forget. A sitemap needs to reflect new and removed pages. An llms.txt file should be updated whenever your core offerings or key pages change. A stale file can actively mislead crawlers and AI models, which is arguably worse than not having one at all. The same principle applies to [building backlinks](https://f9xr.org/articles/2026/08/07/get-backlinks-2026-free-paid-ai-methods.html){:target="_blank" rel="noopener noreferrer"}, where outdated or inconsistent signals across the web erode the authority these files are meant to establish.
 
 ### Step 4: Validate before you publish
 
@@ -173,12 +173,12 @@ A single syntax error in robots.txt can accidentally block your entire site from
 
 Every file on this list is published at the root of F9XR Team's own open source codebase, so you can open each one in a new tab and see how it reads in production:
 
-- [robots.txt](https://f9xr.github.io/robots.txt){:target="_blank" rel="noopener noreferrer"} with three sitemap references
-- [llms.txt](https://f9xr.github.io/llms.txt){:target="_blank" rel="noopener noreferrer"} and the extended [llms-full.txt](https://f9xr.github.io/llms-full.txt){:target="_blank" rel="noopener noreferrer"}
-- [security.txt](https://f9xr.github.io/.well-known/security.txt){:target="_blank" rel="noopener noreferrer"}
-- [humans.txt](https://f9xr.github.io/humans.txt){:target="_blank" rel="noopener noreferrer"}
-- [sitemap.xml](https://f9xr.github.io/sitemap.xml){:target="_blank" rel="noopener noreferrer"}
-- [ai.txt](https://f9xr.github.io/ai.txt){:target="_blank" rel="noopener noreferrer"}
+- [robots.txt](https://f9xr.org/robots.txt){:target="_blank" rel="noopener noreferrer"} with three sitemap references
+- [llms.txt](https://f9xr.org/llms.txt){:target="_blank" rel="noopener noreferrer"} and the extended [llms-full.txt](https://f9xr.org/llms-full.txt){:target="_blank" rel="noopener noreferrer"}
+- [security.txt](https://f9xr.org/.well-known/security.txt){:target="_blank" rel="noopener noreferrer"}
+- [humans.txt](https://f9xr.org/humans.txt){:target="_blank" rel="noopener noreferrer"}
+- [sitemap.xml](https://f9xr.org/sitemap.xml){:target="_blank" rel="noopener noreferrer"}
+- [ai.txt](https://f9xr.org/ai.txt){:target="_blank" rel="noopener noreferrer"}
 
 Open ai.txt and you'll see what a well written machine instruction looks like. It states plainly that the site is static, has no server side APIs, and points AI crawlers to the llms.txt files for a proper description. It's a small file that removes all ambiguity for a machine, which is exactly the job these files exist to do.
 
@@ -189,10 +189,10 @@ Open ai.txt and you'll see what a well written machine instruction looks like. I
 
 ## How F9XR Team helps businesses get this right
 
-Most business owners didn't start their company to spend weekends figuring out .well-known directories and Markdown syntax, and honestly, they shouldn't have to. This is exactly the kind of foundational, technical groundwork F9XR Team handles for the businesses it works with, alongside broader [website development](https://f9xr.github.io/pages/services.html){:target="_blank" rel="noopener noreferrer"} and [local SEO strategy](https://f9xr.github.io/services/google-business-optimization.html){:target="_blank" rel="noopener noreferrer"}.
+Most business owners didn't start their company to spend weekends figuring out .well-known directories and Markdown syntax, and honestly, they shouldn't have to. This is exactly the kind of foundational, technical groundwork F9XR Team handles for the businesses it works with, alongside broader [website development](https://f9xr.org/pages/services.html){:target="_blank" rel="noopener noreferrer"} and [local SEO strategy](https://f9xr.org/services/google-business-optimization.html){:target="_blank" rel="noopener noreferrer"}.
 
 <figure class="post-figure">
-  <img src="https://f9xr.github.io/assets/screenshots/F9XR_GoogleSearch.png" alt="F9XR Team appearing across Google search results" title="The payoff of clean machine readable files and consistent business data" width="1352" height="1107" loading="lazy" />
+  <img src="https://f9xr.org/assets/screenshots/F9XR_GoogleSearch.png" alt="F9XR Team appearing across Google search results" title="The payoff of clean machine readable files and consistent business data" width="1352" height="1107" loading="lazy" />
   <figcaption>The payoff of the foundational work in this article: a brand showing up consistently across search results.</figcaption>
 </figure>
 
@@ -200,7 +200,7 @@ Most business owners didn't start their company to spend weekends figuring out .
 
 Rather than manually checking file by file, F9XR Team uses a purpose built Codebase Auditor skill that scans a website's root directory and codebase structure automatically. It checks for the presence, accuracy, and health of files like robots.txt, sitemap.xml, llms.txt, and security.txt, flags misconfigurations like an accidental Disallow blocking key pages, and generates missing files based on the business's actual services, location, and target audience.
 
-In practice, that means a business gets a clear report of what's missing, what's broken, and what's actively hurting its visibility with both Google and AI search tools, without needing to understand the underlying standards itself. You can read more about how that skill works in the [F9XR SEO Codebase Auditor guide](https://f9xr.github.io/articles/2026/07/31/f9xr-seo-codebase-auditor-skill-guide.html). It's the kind of quiet, technical groundwork that doesn't show up in a flashy before and after screenshot, but consistently shows up in whether a business actually gets found.
+In practice, that means a business gets a clear report of what's missing, what's broken, and what's actively hurting its visibility with both Google and AI search tools, without needing to understand the underlying standards itself. You can read more about how that skill works in the [F9XR SEO Codebase Auditor guide](https://f9xr.org/articles/2026/07/31/f9xr-seo-codebase-auditor-skill-guide.html). It's the kind of quiet, technical groundwork that doesn't show up in a flashy before and after screenshot, but consistently shows up in whether a business actually gets found.
 
 ## Key Takeaways:
 
@@ -215,8 +215,8 @@ In practice, that means a business gets a clear report of what's missing, what's
 
 The files sitting quietly in your codebase root might be the most overlooked SEO and AI visibility asset your business has. They're inexpensive to create, they don't require a redesign, and they directly affect whether search engines and AI tools can find, understand, and trust your site.
 
-Getting them right, and keeping them right as your site grows, is exactly the kind of technical foundation F9XR Team builds into every [website development, website redesign, and local SEO engagement](https://f9xr.github.io/pages/services.html){:target="_blank" rel="noopener noreferrer"}, backed by tools like the Codebase Auditor skill that keep this groundwork running quietly in the background instead of becoming another thing on your to do list. If you'd rather focus on running your business, teams like F9XR can handle the [AI visibility](https://f9xr.github.io/services/ai-visibility-optimization.html){:target="_blank" rel="noopener noreferrer"} and technical setup for you.
+Getting them right, and keeping them right as your site grows, is exactly the kind of technical foundation F9XR Team builds into every [website development, website redesign, and local SEO engagement](https://f9xr.org/pages/services.html){:target="_blank" rel="noopener noreferrer"}, backed by tools like the Codebase Auditor skill that keep this groundwork running quietly in the background instead of becoming another thing on your to do list. If you'd rather focus on running your business, teams like F9XR can handle the [AI visibility](https://f9xr.org/services/ai-visibility-optimization.html){:target="_blank" rel="noopener noreferrer"} and technical setup for you.
 
 ---
 
-*Produced using AI-assisted research and drafting workflows, then reviewed and edited by the F9XR editorial team. See our [Editorial Policy](https://f9xr.github.io/articles/press/editorial-policy.html) for how we create and verify content.*
+*Produced using AI-assisted research and drafting workflows, then reviewed and edited by the F9XR editorial team. See our [Editorial Policy](https://f9xr.org/articles/press/editorial-policy.html) for how we create and verify content.*

@@ -1,8 +1,8 @@
----
+﻿---
 layout: post
 title: "GoatCounter Guide: Simple Privacy Analytics Setup"
 description: "New to GoatCounter? Learn what it is, how it works, and how to set it up on your website in minutes, no cookies, no complexity."
-image: "https://f9xr.github.io/articles/assets/post-images/goatcounter-guide-what-it-is-how-to-set-it-up.webp"
+image: "https://f9xr.org/articles/assets/post-images/goatcounter-guide-what-it-is-how-to-set-it-up.webp"
 image_width: 1200
 image_height: 630
 date: 2026-08-29
@@ -55,7 +55,7 @@ What sets GoatCounter apart is its approach to privacy. It does not use cookies,
 
 GoatCounter is intentionally minimal. It does not offer conversion funnels, deep audience segmentation, session recordings, or e-commerce attribution. If you need marketing-grade reporting with detailed customer journeys, tools like Plausible or a full analytics suite will serve you better. GoatCounter's strength is simplicity, not depth.
 
-![GoatCounter dashboard showing pageviews and unique visitors over time](https://f9xr.github.io/articles/assets/post-images/goatcounter-screenshot-dashboard.webp){: width="1080" height="675" loading="lazy"}
+![GoatCounter dashboard showing pageviews and unique visitors over time](https://f9xr.org/articles/assets/post-images/goatcounter-screenshot-dashboard.webp){: width="1080" height="675" loading="lazy"}
 
 ## Is GoatCounter Free?
 
@@ -126,7 +126,7 @@ Once data starts flowing in, your GoatCounter dashboard will show:
 * Browser and device breakdowns
 * Location data at a country/region level
 
-![GoatCounter pages report listing the most visited pages and referrers](https://f9xr.github.io/articles/assets/post-images/goatcounter-screenshot-pages.webp){: width="1080" height="736" loading="lazy"}
+![GoatCounter pages report listing the most visited pages and referrers](https://f9xr.org/articles/assets/post-images/goatcounter-screenshot-pages.webp){: width="1080" height="736" loading="lazy"}
 
 ## Self-Hosting GoatCounter: A Quick Overview
 
@@ -150,7 +150,7 @@ Self-hosting makes the most sense for businesses with in-house technical support
 
 If you value the absolute lightest footprint and do not mind a plainer dashboard, GoatCounter wins. If a more polished interface and richer feature set matter more to your team, compare Plausible or Umami before deciding.
 
-![Comparison of GoatCounter against other privacy-focused analytics tools](https://f9xr.github.io/articles/assets/post-images/goatcounter-comparison-screenshot.webp){: width="1080" height="506" loading="lazy"}
+![Comparison of GoatCounter against other privacy-focused analytics tools](https://f9xr.org/articles/assets/post-images/goatcounter-comparison-screenshot.webp){: width="1080" height="506" loading="lazy"}
 
 ## Practical Tips for Business Owners Using GoatCounter
 
@@ -162,7 +162,7 @@ If you value the absolute lightest footprint and do not mind a plainer dashboard
 
 The GoatCounter [help pages](https://www.goatcounter.com/help){:target="_blank" rel="noopener noreferrer"} and [why page](https://www.goatcounter.com/why){:target="_blank" rel="noopener noreferrer"} are worth a read if you want the full reasoning behind its privacy-first design.
 
-If you want to go deeper on turning visitor numbers into actual growth, our guides on [SEO metrics beyond rankings](https://f9xr.github.io/articles/2026/08/19/seo-metrics-beyond-rankings.html) and [making your business site visible to AI](https://f9xr.github.io/articles/2026/08/14/steps-make-business-site-visible-to-ai.html) are a good place to start.
+If you want to go deeper on turning visitor numbers into actual growth, our guides on [SEO metrics beyond rankings](https://f9xr.org/articles/2026/08/19/seo-metrics-beyond-rankings.html) and [making your business site visible to AI](https://f9xr.org/articles/2026/08/14/steps-make-business-site-visible-to-ai.html) are a good place to start.
 
 WATCH: Web Analytics Without the Creepy Tracking With GoatCounter!
 
@@ -188,7 +188,7 @@ WATCH: Web Analytics Without the Creepy Tracking With GoatCounter!
 
 For anyone tired of fighting a heavyweight analytics interface just to answer a basic question, GoatCounter delivers exactly what it promises: clean, privacy-friendly traffic data with a setup that takes minutes. It is not the right tool for every business. If you need deep conversion funnels or granular audience segmentation, you will outgrow it. But for positioning [GoatCounter's own docs](https://www.goatcounter.com/help){:target="_blank" rel="noopener noreferrer"} describe a tool focused on simplicity, and for the majority of small business sites, that simplicity is the whole point.
 
-Numbers on a dashboard are only useful if someone is acting on them. If you want your website and local SEO wired up so the traffic showing up in GoatCounter keeps growing, teams like the F9XR Team specialize in [website development](https://f9xr.github.io/services/website-rentals.html), [website redesign](https://f9xr.github.io/services/index.html), and [local SEO strategy](https://f9xr.github.io/services/google-business-optimization.html).
+Numbers on a dashboard are only useful if someone is acting on them. If you want your website and local SEO wired up so the traffic showing up in GoatCounter keeps growing, teams like the F9XR Team specialize in [website development](https://f9xr.org/services/website-rentals.html), [website redesign](https://f9xr.org/services/index.html), and [local SEO strategy](https://f9xr.org/services/google-business-optimization.html).
 
 ## How the F9XR Team Can Help
 
@@ -200,4 +200,4 @@ Setting up analytics is one piece of a bigger puzzle. Knowing your traffic numbe
 
 ---
 
-*Produced using AI-assisted research and drafting workflows, then reviewed and edited by the F9XR editorial team. See our [Editorial Policy](https://f9xr.github.io/articles/press/editorial-policy.html) for how we create and verify content.*
+*Produced using AI-assisted research and drafting workflows, then reviewed and edited by the F9XR editorial team. See our [Editorial Policy](https://f9xr.org/articles/press/editorial-policy.html) for how we create and verify content.*

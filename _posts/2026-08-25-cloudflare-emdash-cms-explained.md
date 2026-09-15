@@ -1,4 +1,4 @@
----
+﻿---
 layout: post
 title: "EmDash: Cloudflare's New AI-Native CMS Explained"
 description: "Cloudflare launched EmDash, an open-source, AI-native CMS built as WordPress's successor. Here's what it does and if it fits your business."
@@ -30,7 +30,7 @@ WordPress has run the internet for over two decades. Something like 40 percent o
 
 In April 2026, [Cloudflare launched EmDash](https://blog.cloudflare.com/emdash-wordpress){:target="_blank" rel="noopener noreferrer"}, a brand new, open-source content management system built entirely from scratch in TypeScript. Cloudflare isn't shy about the ambition here either, describing it directly as a "spiritual successor to WordPress." That's a bold claim in a space where plenty of WordPress alternatives have come and gone without making a real dent.
 
-What makes EmDash different, though, isn't just that it's newer or faster. It's built specifically around AI agents being able to manage, edit, and even build on your website directly, alongside solving a security problem that's plagued WordPress for years: plugin vulnerabilities. If you're a business owner thinking about your [next website build](https://f9xr.github.io/articles/2026/08/12/vibe-coded-site-to-premium-website-tools.html), or wondering whether your current WordPress site is starting to show its age, this deserves a clear look.
+What makes EmDash different, though, isn't just that it's newer or faster. It's built specifically around AI agents being able to manage, edit, and even build on your website directly, alongside solving a security problem that's plagued WordPress for years: plugin vulnerabilities. If you're a business owner thinking about your [next website build](https://f9xr.org/articles/2026/08/12/vibe-coded-site-to-premium-website-tools.html), or wondering whether your current WordPress site is starting to show its age, this deserves a clear look.
 
 ![EmDash CMS architecture overview showing Cloudflare's AI-native content management system](https://blog.cloudflare.com/_image?href=https%3A%2F%2Fblog.cloudflare.com%2F_emdash%2Fapi%2Fmedia%2Ffile%2F01KW4754MFRWRNRCVC8C5KK84F.png&w=1080&h=804&f=webp&fit=cover&position=center){: width="1080" height="804" loading="lazy"}
 
@@ -72,7 +72,7 @@ EmDash offers real deployment flexibility. It supports one-click deployment to C
 
 Cloudflare is [using EmDash to run its own blog](https://blog.cloudflare.com/cloudflare-blog-uses-emdash/){:target="_blank" rel="noopener noreferrer"}, making them Customer Zero for the platform.
 
-<blockquote class="twitter-tweet"><p lang="en" dir="ltr">We redesigned the Cloudflare Blog — dark mode, cleaner UI, faster load times. What you might not know: the whole thing runs on EmDash, a new CMS built on Cloudflare Workers. We were Customer Zero. <a href="https://t.co/XDj4qj4XUC">https://t.co/XDj4qj4XUC</a></p>&mdash; Cloudflare (@Cloudflare) <a href="https://x.com/Cloudflare/status/2091975362297090304?ref_src=twsrc%5Etfw">August 24, 2026</a></blockquote> <script async src="https://platform.x.com/widgets.js" charset="utf-8"></script>
+<blockquote class="twitter-tweet"><p lang="en" dir="ltr">We redesigned the Cloudflare Blog â€” dark mode, cleaner UI, faster load times. What you might not know: the whole thing runs on EmDash, a new CMS built on Cloudflare Workers. We were Customer Zero. <a href="https://t.co/XDj4qj4XUC">https://t.co/XDj4qj4XUC</a></p>&mdash; Cloudflare (@Cloudflare) <a href="https://x.com/Cloudflare/status/2091975362297090304?ref_src=twsrc%5Etfw">August 24, 2026</a></blockquote> <script async src="https://platform.x.com/widgets.js" charset="utf-8"></script>
 
 ---
 
@@ -140,7 +140,7 @@ This is the most important question for any business owner considering EmDash ri
 
 * Technically sophisticated startups and development teams comfortable working with newer, less-documented tools and willing to build custom functionality rather than relying on existing plugins
 * Businesses already deeply invested in Cloudflare's infrastructure, who would benefit most directly from the tightest, most polished integration currently available
-* Teams specifically interested in [AI-agent-driven content management and website automation](https://f9xr.github.io/articles/2026/08/26/wix-introduces-symphony-ai-agents.html) as a forward-looking capability
+* Teams specifically interested in [AI-agent-driven content management and website automation](https://f9xr.org/articles/2026/08/26/wix-introduces-symphony-ai-agents.html) as a forward-looking capability
 * Developers and agencies wanting hands-on experience with an emerging platform before it potentially gains broader adoption
 
 ### Businesses That Should Probably Wait
@@ -168,8 +168,8 @@ Whether your business sticks with the proven reliability of WordPress or wants t
 The F9XR Team helps business owners, startups, and local businesses navigate exactly this kind of platform decision, offering:
 
 * Honest guidance on whether a proven platform like WordPress or an emerging one like EmDash better fits your specific business needs and technical resources
-* [Website development](https://f9xr.github.io/pages/services.html){:target="_blank" rel="noopener noreferrer"} and [website redesign](https://f9xr.github.io/pages/services.html){:target="_blank" rel="noopener noreferrer"} work built on a solid technical and SEO foundation, regardless of which CMS platform makes the most sense
-* [Local SEO strategy](https://f9xr.github.io/pages/services.html){:target="_blank" rel="noopener noreferrer"} that ensures your website, whatever platform it runs on, is properly structured for both traditional search and AI search visibility
+* [Website development](https://f9xr.org/pages/services.html){:target="_blank" rel="noopener noreferrer"} and [website redesign](https://f9xr.org/pages/services.html){:target="_blank" rel="noopener noreferrer"} work built on a solid technical and SEO foundation, regardless of which CMS platform makes the most sense
+* [Local SEO strategy](https://f9xr.org/pages/services.html){:target="_blank" rel="noopener noreferrer"} that ensures your website, whatever platform it runs on, is properly structured for both traditional search and AI search visibility
 * Ongoing digital presence management so your website stays secure, fast, and up to date as the CMS landscape continues to evolve
 * Technical migration support if you're considering moving between platforms, handling the complexity so your business doesn't have to
 
@@ -192,8 +192,8 @@ If you're weighing your website platform options and want a clear-eyed recommend
 
 EmDash is an interesting technical achievement, and Cloudflare has clearly thought carefully about what a content management system built for an AI-driven web should look like. Whether it actually manages to challenge WordPress's dominance is a different question entirely, one that will take years, not months, to answer. For now, most businesses are better served by proven, established platforms, while technically sophisticated teams have good reason to start exploring EmDash as an early mover.
 
-Whatever CMS ends up powering your website, the fundamentals that actually drive results, solid technical SEO, real content quality, and a strong local and digital presence, matter more than which platform you're running. If you want help deciding whether it's time for a new website, a redesign, or simply a stronger strategy behind the site you already have, the [F9XR Team](https://f9xr.github.io/pages/services.html){:target="_blank" rel="noopener noreferrer"} works with business owners on exactly this kind of website development, website redesign, and local SEO strategy.
+Whatever CMS ends up powering your website, the fundamentals that actually drive results, solid technical SEO, real content quality, and a strong local and digital presence, matter more than which platform you're running. If you want help deciding whether it's time for a new website, a redesign, or simply a stronger strategy behind the site you already have, the [F9XR Team](https://f9xr.org/pages/services.html){:target="_blank" rel="noopener noreferrer"} works with business owners on exactly this kind of website development, website redesign, and local SEO strategy.
 
-*Produced using AI-assisted research and drafting workflows, then reviewed and edited by the F9XR editorial team. See our [Editorial Policy](https://f9xr.github.io/articles/press/editorial-policy.html) for how we create and verify content.*
+*Produced using AI-assisted research and drafting workflows, then reviewed and edited by the F9XR editorial team. See our [Editorial Policy](https://f9xr.org/articles/press/editorial-policy.html) for how we create and verify content.*
 
 

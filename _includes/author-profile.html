@@ -1,4 +1,4 @@
-{% assign ap = site.data.authors[include.author_key] %}
+﻿{% assign ap = site.data.authors[include.author_key] %}
 {% assign ap_name = ap.name | default: include.author_key %}
 {% assign ap_avatar = ap.avatar | default: '/logo.webp' | absolute_url %}
 {% assign ap_role = ap.role | default: 'Author at F9XR Articles' %}
@@ -171,7 +171,7 @@
   "worksFor": {
     "@type": "Organization",
     "name": "F9XR Team",
-    "url": "https://f9xr.github.io"
+    "url": "https://f9xr.org"
   }{% if ap.education %},
   "alumniOf": [
     {% for edu in ap.education %}{

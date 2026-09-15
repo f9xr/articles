@@ -1,14 +1,14 @@
----
+﻿---
 layout: page
 title: F9XR Articles
 title_hidden: true
-description: "Engineering digital growth — technical insights, architecture notes, and strategies from the F9XR Team on web performance, AI integration, and local SEO."
+description: "Engineering digital growth â€” technical insights, architecture notes, and strategies from the F9XR Team on web performance, AI integration, and local SEO."
 keywords: "F9XR Articles, engineering digital growth, web architecture, AI integration, local SEO, web performance, Core Web Vitals, technical SEO, F9XR Team blog"
 ---
 
 <div class="ed-site">
 
-<h1 class="sr-only">F9XR Articles — Engineering Digital Growth</h1>
+<h1 class="sr-only">F9XR Articles â€” Engineering Digital Growth</h1>
 
 <script type="application/ld+json">
 {
@@ -17,7 +17,7 @@ keywords: "F9XR Articles, engineering digital growth, web architecture, AI integ
   "@id": "{{ '/' | absolute_url }}#website",
   "name": "F9XR Articles",
   "url": "{{ '/' | absolute_url }}",
-  "description": "Engineering digital growth — technical insights, architecture notes, and strategies from the F9XR Team on web performance, AI integration, and local SEO.",
+  "description": "Engineering digital growth â€” technical insights, architecture notes, and strategies from the F9XR Team on web performance, AI integration, and local SEO.",
   "potentialAction": {
     "@type": "SearchAction",
     "target": {
@@ -28,10 +28,10 @@ keywords: "F9XR Articles, engineering digital growth, web architecture, AI integ
   },
   "inLanguage": "{{ site.lang }}",
   "publisher": {
-    "@id": "https://f9xr.github.io#organization",
+    "@id": "https://f9xr.org#organization",
     "@type": "Organization",
     "name": "F9XR Team",
-    "url": "https://f9xr.github.io",
+    "url": "https://f9xr.org",
     "logo": {
       "@type": "ImageObject",
       "url": "{{ '/logo.webp' | absolute_url }}",
@@ -46,9 +46,9 @@ keywords: "F9XR Articles, engineering digital growth, web architecture, AI integ
 {
   "@context": "https://schema.org",
   "@type": "Organization",
-  "@id": "https://f9xr.github.io#organization",
+  "@id": "https://f9xr.org#organization",
   "name": "F9XR Team",
-  "url": "https://f9xr.github.io",
+  "url": "https://f9xr.org",
   "email": "{{ site.email }}",
   "logo": {
     "@type": "ImageObject",
@@ -66,7 +66,7 @@ keywords: "F9XR Articles, engineering digital growth, web architecture, AI integ
   ],
   "contactPoint": {
     "@type": "ContactPoint",
-    "email": "tontufytservices@gmail.com",
+    "email": "hello@f9xr.org",
     "contactType": "customer service"
   }
 }
@@ -82,10 +82,10 @@ keywords: "F9XR Articles, engineering digital growth, web architecture, AI integ
     <span class="ed-mono">Engineering digital growth</span>
   </div>
   <nav class="ed-masthead-links" aria-label="Quick links">
-    <a href="https://f9xr.github.io">Main Site</a>
-    <a href="https://f9xr.github.io/pages/services.html">Services</a>
-    <a href="https://f9xr.github.io/pages/portfolio.html">Portfolio</a>
-    <a href="https://f9xr.github.io/pages/contact.html">Contact</a>
+    <a href="https://f9xr.org">Main Site</a>
+    <a href="https://f9xr.org/pages/services.html">Services</a>
+    <a href="https://f9xr.org/pages/portfolio.html">Portfolio</a>
+    <a href="https://f9xr.org/pages/contact.html">Contact</a>
     <button type="button" class="ed-masthead-search" onclick="toggleSearch(); return false;"><i class="fa-solid fa-magnifying-glass"></i> Search</button>
   </nav>
 </header>
@@ -394,7 +394,7 @@ keywords: "F9XR Articles, engineering digital growth, web architecture, AI integ
       <span class="ed-metric-label"><i class="fa-regular fa-clock"></i> Avg. Read Time</span>
       <span class="ed-metric-value">~{{ metric_avg_min }} min</span>
     </div>
-    <a class="ed-panel-cta" href="https://f9xr.github.io/pages/services.html">Explore performance services <i class="fa-solid fa-arrow-right"></i></a>
+    <a class="ed-panel-cta" href="https://f9xr.org/pages/services.html">Explore performance services <i class="fa-solid fa-arrow-right"></i></a>
   </div>
 
   <div class="ed-col ed-col-bulletin">
@@ -419,7 +419,7 @@ keywords: "F9XR Articles, engineering digital growth, web architecture, AI integ
         <span class="ed-badge ed-badge-mono">S</span><span class="ed-badge">Schema.org</span>
       </div>
     </div>
-    <p class="ed-bulletin-note">The stack behind F9XR Articles — open source, static, and continuously measured.</p>
+    <p class="ed-bulletin-note">The stack behind F9XR Articles â€” open source, static, and continuously measured.</p>
     <a class="ed-panel-cta" href="{{ '/archive.html' | relative_url }}">Read the full archive <i class="fa-solid fa-arrow-right"></i></a>
   </div>
 
@@ -428,8 +428,8 @@ keywords: "F9XR Articles, engineering digital growth, web architecture, AI integ
     <div class="ed-video">
       <iframe class="youtube-embed" src="https://www.youtube-nocookie.com/embed/l-52kGRwH_Y" title="Introducing F9XR Team: Digital Growth Agency - AI-Powered Web Design &amp; Local SEO Growth Agency" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen loading="lazy"></iframe>
     </div>
-    <p class="ed-video-caption">Introducing F9XR Team — AI-powered web design &amp; local SEO growth agency.</p>
-    <a class="ed-panel-cta" href="https://f9xr.github.io/pages/about.html">About the team <i class="fa-solid fa-arrow-right"></i></a>
+    <p class="ed-video-caption">Introducing F9XR Team â€” AI-powered web design &amp; local SEO growth agency.</p>
+    <a class="ed-panel-cta" href="https://f9xr.org/pages/about.html">About the team <i class="fa-solid fa-arrow-right"></i></a>
   </div>
 </section>
 

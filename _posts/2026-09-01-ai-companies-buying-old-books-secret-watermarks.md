@@ -1,8 +1,8 @@
----
+﻿---
 layout: post
 title: "AI Firms Buy Old Books, Hide Watermarks in Text"
 description: "AI companies are buying pre-2022 books to avoid AI slop and quietly watermarking generated text. Here's what it means for your content."
-image: "https://f9xr.github.io/articles/assets/post-images/ai-companies-buying-old-books-secret-watermarks.webp"
+image: "https://f9xr.org/articles/assets/post-images/ai-companies-buying-old-books-secret-watermarks.webp"
 image_width: 1200
 image_height: 630
 date: 2026-09-01
@@ -134,7 +134,7 @@ Part of the push is regulatory. The EU AI Act's Article 50 transparency requirem
 
 Here's the bigger picture as a business owner. AI companies are dealing with a supply chain problem for clean, human-authored training data, and a transparency problem for their own generated output. Buying old books addresses the first. Watermarking generated text addresses the second, and arguably helps prevent AI-generated text from contaminating future training runs too, since properly tagged AI content can theoretically be filtered out of future scraped datasets.
 
-For anyone publishing content online, this points to a future where the distinction between human-written and AI-generated content becomes increasingly detectable, whether you disclose it yourself or not. Treating your content strategy as though this distinction doesn't matter is becoming a riskier bet by the month. If your site is built to be [visible to AI search](https://f9xr.github.io/articles/2026/08/14/steps-make-business-site-visible-to-ai.html) in the first place, that foundation also makes authentic content easier for both people and machines to verify.
+For anyone publishing content online, this points to a future where the distinction between human-written and AI-generated content becomes increasingly detectable, whether you disclose it yourself or not. Treating your content strategy as though this distinction doesn't matter is becoming a riskier bet by the month. If your site is built to be [visible to AI search](https://f9xr.org/articles/2026/08/14/steps-make-business-site-visible-to-ai.html) in the first place, that foundation also makes authentic content easier for both people and machines to verify.
 
 ---
 
@@ -146,7 +146,7 @@ Whether you're using Claude, Gemini, or another major AI tool, assume that heavi
 
 ### 2. Original, Human-Authored Content Just Became More Valuable
 
-If AI companies themselves are paying real money to get their hands on guaranteed human-written text, that's a strong signal about where value sits. Original writing, real customer stories, and first-hand expertise are becoming a more differentiated asset, not a less relevant one, and they're also the raw material of a [higher trust score](https://f9xr.github.io/articles/2026/08/15/how-to-increase-website-trust-score.html) for your site overall.
+If AI companies themselves are paying real money to get their hands on guaranteed human-written text, that's a strong signal about where value sits. Original writing, real customer stories, and first-hand expertise are becoming a more differentiated asset, not a less relevant one, and they're also the raw material of a [higher trust score](https://f9xr.org/articles/2026/08/15/how-to-increase-website-trust-score.html) for your site overall.
 
 ### 3. Editing Matters More Than Ever
 
@@ -154,7 +154,7 @@ Since heavy editing weakens or removes detectable watermarks, and since well-edi
 
 ### 4. Disclosure Is Becoming the Safer Default
 
-Rather than hoping nobody notices AI assistance in your content, consider being upfront about it where it matters, particularly for anything client-facing, YMYL topics like health or finance, or content where authenticity is part of your value proposition. Our [E-E-A-T checklist](https://f9xr.github.io/articles/2026/08/04/google-e-e-a-t-checklist-every-seo-should-bookmark.html) covers the experience and trust signals that make disclosure easier to stand behind.
+Rather than hoping nobody notices AI assistance in your content, consider being upfront about it where it matters, particularly for anything client-facing, YMYL topics like health or finance, or content where authenticity is part of your value proposition. Our [E-E-A-T checklist](https://f9xr.org/articles/2026/08/04/google-e-e-a-t-checklist-every-seo-should-bookmark.html) covers the experience and trust signals that make disclosure easier to stand behind.
 
 ### 5. Diversify Your Content Creation Process
 
@@ -166,7 +166,7 @@ Mix AI-assisted drafting with genuine interviews, original data, and real subjec
 
 If you're running a local business or an early-stage startup relying on content marketing, here's the grounded takeaway. You don't need to panic about invisible watermarks buried in your blog post drafts. But you should treat this as more confirmation of something that was already true: content built on genuine local knowledge, real customer relationships, and authentic expertise holds up better than generic AI output, regardless of what's happening behind the scenes with watermarking technology.
 
-For local businesses specifically, this is a good moment to double down on original photography, real customer testimonials, and specific, local details in your website and Google Business Profile content, the exact kind of material that's both hardest to fake and least likely to raise any transparency concerns down the line. We've written before about [why your Google Business Profile is becoming a homepage](https://f9xr.github.io/articles/2026/08/16/zero-click-search-google-business-profile-homepage.html) for local search, and the authenticity argument only gets stronger from here.
+For local businesses specifically, this is a good moment to double down on original photography, real customer testimonials, and specific, local details in your website and Google Business Profile content, the exact kind of material that's both hardest to fake and least likely to raise any transparency concerns down the line. We've written before about [why your Google Business Profile is becoming a homepage](https://f9xr.org/articles/2026/08/16/zero-click-search-google-business-profile-homepage.html) for local search, and the authenticity argument only gets stronger from here.
 
 ---
 
@@ -201,6 +201,6 @@ If you're unsure whether your current content mix leans too heavily on unedited 
 
 The fact that AI companies are simultaneously buying up old, printed books to avoid their own AI slop and quietly watermarking their own generated text tells you almost everything you need to know about where content is heading. Genuine, human-authored writing is becoming a scarcer, more valuable resource, even to the companies building AI itself, and AI-generated text is becoming more traceable, not less, as detection technology matures.
 
-For business owners, the smartest response isn't panic, it's adaptation. Treat AI tools as a starting point, invest in genuine expertise and original content, and stop assuming AI-generated text is invisible or untraceable. If you want help building a content and digital strategy that holds up regardless of how AI detection technology evolves, teams like the [F9XR Team](https://f9xr.github.io/pages/services.html){:target="_blank" rel="noopener noreferrer"} work with business owners and local brands on exactly this kind of website development, website redesign, and local SEO strategy every day.
+For business owners, the smartest response isn't panic, it's adaptation. Treat AI tools as a starting point, invest in genuine expertise and original content, and stop assuming AI-generated text is invisible or untraceable. If you want help building a content and digital strategy that holds up regardless of how AI detection technology evolves, teams like the [F9XR Team](https://f9xr.org/pages/services.html){:target="_blank" rel="noopener noreferrer"} work with business owners and local brands on exactly this kind of website development, website redesign, and local SEO strategy every day.
 
-*Produced using AI-assisted research and drafting workflows, then reviewed and edited by the F9XR editorial team. See our [Editorial Policy](https://f9xr.github.io/articles/press/editorial-policy.html) for how we create and verify content.*
+*Produced using AI-assisted research and drafting workflows, then reviewed and edited by the F9XR editorial team. See our [Editorial Policy](https://f9xr.org/articles/press/editorial-policy.html) for how we create and verify content.*

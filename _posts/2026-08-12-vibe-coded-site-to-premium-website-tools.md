@@ -1,8 +1,8 @@
----
+﻿---
 layout: post
 title: "11 Free Tools to Fix Your Vibe Coded Site"
 description: "Turn your AI vibe coded site into a premium, modern website with these 11 free tools for motion, components, and visuals used by top brands."
-image: "https://f9xr.github.io/articles/assets/post-images/vibe-coded-site-to-premium-website-tools.webp"
+image: "https://f9xr.org/articles/assets/post-images/vibe-coded-site-to-premium-website-tools.webp"
 image_width: 1200
 image_height: 630
 image_credit: "Photo by <a href=\"https://unsplash.com/@ilyapavlov?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText\" target=\"_blank\" rel=\"noopener noreferrer\">Ilya Pavlov</a> on <a href=\"https://unsplash.com/photos/OqtafYT5kTw?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText\" target=\"_blank\" rel=\"noopener noreferrer\">Unsplash</a>"
@@ -39,7 +39,7 @@ Before jumping into the tools, it helps to understand exactly why AI generated s
 - **Generic or stock feeling visuals:** backgrounds, gradients, and illustrations often look like they came from the same limited default set, because in a lot of cases, they did.
 - **Inconsistent visual hierarchy:** without deliberate design decisions, AI tends to treat every element with similar visual weight, which is part of why vibe coded pages can feel flat or hard to scan.
 
-None of this is a dealbreaker for functionality. But for any business using its website as a first impression, and that's basically every business, these small details are the difference between a site that builds [trust and credibility](https://f9xr.github.io/articles/2026/08/04/google-e-e-a-t-checklist-every-seo-should-bookmark.html){:target="_blank" rel="noopener noreferrer"} and one that quietly makes visitors hesitate.
+None of this is a dealbreaker for functionality. But for any business using its website as a first impression, and that's basically every business, these small details are the difference between a site that builds [trust and credibility](https://f9xr.org/articles/2026/08/04/google-e-e-a-t-checklist-every-seo-should-bookmark.html){:target="_blank" rel="noopener noreferrer"} and one that quietly makes visitors hesitate.
 
 ## The 11 Free Tools for Turning AI Slop Into a Premium Site
 
@@ -138,14 +138,14 @@ Having access to premium components doesn't automatically produce a premium site
 1. **Pick one or two motion styles and stay consistent.** Mixing five different animation libraries across one page usually looks worse than using none at all.
 2. **Use custom visuals with restraint.** One well placed 3D element or custom gradient background per page section is usually enough. More than that starts competing with your actual content.
 3. **Prioritize the hero section and primary call to action first.** These are the two areas visitors judge fastest, so they deserve the most attention before you touch secondary sections.
-4. **[Test on mobile](https://f9xr.github.io/articles/2026/08/03/why-go-mobile-first.html){:target="_blank" rel="noopener noreferrer"} before you call it done.** A lot of premium looking motion and 3D effects need to be simplified or disabled on smaller screens to avoid hurting load times and usability.
+4. **[Test on mobile](https://f9xr.org/articles/2026/08/03/why-go-mobile-first.html){:target="_blank" rel="noopener noreferrer"} before you call it done.** A lot of premium looking motion and 3D effects need to be simplified or disabled on smaller screens to avoid hurting load times and usability.
 5. **Keep accessibility in mind.** Motion heavy sites should respect reduced motion settings, and interactive visuals shouldn't replace clear, readable text content.
 
 ## How F9XR Team Turns Vibe Coded Sites Into Real, Converting Websites
 
 Free tools like the ones above do help close the visual gap between an AI generated draft and a premium looking site. But there's a difference between a site that looks polished and a site that's actually structured to convert visitors into customers, load fast, and show up properly in both Google Search and AI search tools.
 
-That's the layer F9XR Team focuses on for business owners and startups: taking a vibe coded starting point, or building from scratch, and turning it into a production ready website through [website development and website redesign](https://f9xr.github.io/pages/services.html){:target="_blank" rel="noopener noreferrer"}, paired with [local SEO](https://f9xr.github.io/services/google-business-optimization.html){:target="_blank" rel="noopener noreferrer"} and [AI visibility optimization](https://f9xr.github.io/services/ai-visibility-optimization.html){:target="_blank" rel="noopener noreferrer"}. The technical side matters too: crawlable files like [robots.txt and llms.txt](https://f9xr.github.io/articles/2026/08/08/essential-txt-files-seo-aeo-geo-2026.html){:target="_blank" rel="noopener noreferrer"} decide whether either kind of search tool can find the site in the first place. That way the site doesn't just look premium, it actually performs like one.
+That's the layer F9XR Team focuses on for business owners and startups: taking a vibe coded starting point, or building from scratch, and turning it into a production ready website through [website development and website redesign](https://f9xr.org/pages/services.html){:target="_blank" rel="noopener noreferrer"}, paired with [local SEO](https://f9xr.org/services/google-business-optimization.html){:target="_blank" rel="noopener noreferrer"} and [AI visibility optimization](https://f9xr.org/services/ai-visibility-optimization.html){:target="_blank" rel="noopener noreferrer"}. The technical side matters too: crawlable files like [robots.txt and llms.txt](https://f9xr.org/articles/2026/08/08/essential-txt-files-seo-aeo-geo-2026.html){:target="_blank" rel="noopener noreferrer"} decide whether either kind of search tool can find the site in the first place. That way the site doesn't just look premium, it actually performs like one.
 
 ## Key Takeaways
 
@@ -159,6 +159,6 @@ That's the layer F9XR Team focuses on for business owners and startups: taking a
 
 The line between a vibe coded site and a premium one usually comes down to a handful of deliberate choices, real motion instead of static content, custom visuals instead of stock defaults, and components that feel considered rather than generic. The 11 tools above make closing that gap far more accessible than it used to be, even for a solo founder working with an AI coding assistant.
 
-But visual polish is only part of what makes a website actually work for a business. If you want that same premium feel backed by a site that's fast, well structured, and built to be found in both Google Search and AI search tools through [quality backlinks and authority signals](https://f9xr.github.io/articles/2026/08/07/get-backlinks-2026-free-paid-ai-methods.html){:target="_blank" rel="noopener noreferrer"}, teams like F9XR help business owners bridge that gap through [website development, website redesign, and local SEO](https://f9xr.github.io/pages/services.html){:target="_blank" rel="noopener noreferrer"}, turning a vibe coded starting point into a website that looks the part and performs like one too.
+But visual polish is only part of what makes a website actually work for a business. If you want that same premium feel backed by a site that's fast, well structured, and built to be found in both Google Search and AI search tools through [quality backlinks and authority signals](https://f9xr.org/articles/2026/08/07/get-backlinks-2026-free-paid-ai-methods.html){:target="_blank" rel="noopener noreferrer"}, teams like F9XR help business owners bridge that gap through [website development, website redesign, and local SEO](https://f9xr.org/pages/services.html){:target="_blank" rel="noopener noreferrer"}, turning a vibe coded starting point into a website that looks the part and performs like one too.
 
-*Produced using AI-assisted research and drafting workflows, then reviewed and edited by the F9XR editorial team. See our [Editorial Policy](https://f9xr.github.io/articles/press/editorial-policy.html) for how we create and verify content.*
+*Produced using AI-assisted research and drafting workflows, then reviewed and edited by the F9XR editorial team. See our [Editorial Policy](https://f9xr.org/articles/press/editorial-policy.html) for how we create and verify content.*

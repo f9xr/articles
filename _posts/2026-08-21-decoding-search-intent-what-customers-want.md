@@ -1,8 +1,8 @@
----
+﻿---
 layout: post
 title: "Decoding Search Intent: What Customers Really Want"
 description: "Learn the search intent categories, informational, navigational, commercial, transactional, and new AI intent types, to give customers what they want."
-image: "https://f9xr.github.io/articles/assets/post-images/decoding-search-intent-what-customers-want.webp"
+image: "https://f9xr.org/articles/assets/post-images/decoding-search-intent-what-customers-want.webp"
 image_width: 1200
 image_height: 630
 date: 2026-08-21
@@ -23,7 +23,7 @@ faq:
     a: "Both. Traditional intent categories remain essential for ranking in Google, while the newer exploratory, comparative research, and synthesis intent types matter for visibility in AI tools like ChatGPT, Gemini, and Perplexity. The strongest content strategies in 2026 address both simultaneously rather than treating them as separate efforts."
 ---
 
-Two people can type almost the exact same phrase into Google and want completely different things. One searches "best coffee maker" because they're three days from buying one and comparing final options. The other searches the same phrase because they're curious what separates a good coffee maker from a mediocre one, with no purchase in mind for months. If your page treats both of these searchers the same way, you're going to disappoint one of them, and disappointing searchers is exactly what tanks rankings, wastes ad spend, and quietly kills [conversion rates](https://f9xr.github.io/articles/2026/08/19/seo-metrics-beyond-rankings.html){:target="_blank" rel="noopener noreferrer"}.
+Two people can type almost the exact same phrase into Google and want completely different things. One searches "best coffee maker" because they're three days from buying one and comparing final options. The other searches the same phrase because they're curious what separates a good coffee maker from a mediocre one, with no purchase in mind for months. If your page treats both of these searchers the same way, you're going to disappoint one of them, and disappointing searchers is exactly what tanks rankings, wastes ad spend, and quietly kills [conversion rates](https://f9xr.org/articles/2026/08/19/seo-metrics-beyond-rankings.html){:target="_blank" rel="noopener noreferrer"}.
 
 This is search intent, the actual reason behind a query, not just the words in it, and it's arguably the single most underused concept in small business marketing. Most business owners think about keywords in terms of volume and competition. Far fewer stop to ask: what does someone actually want when they type this, and does my page give it to them in the first ten seconds. Get that wrong, and no amount of technical SEO or content polish fixes it. Get it right, and you'll often outrank competitors with bigger budgets and more backlinks, simply because your content actually matches what the searcher came for.
 
@@ -39,7 +39,7 @@ Search intent has traditionally been organized into four core categories, and un
 
 This is by far the largest category of search behavior. Recent large scale research analyzing over 18 billion categorized queries found informational intent now accounts for roughly 57% of all searches, the dominant share by a wide margin ([Semrush](https://www.semrush.com/blog/search-intent/){:target="_blank" rel="noopener noreferrer"}). These are searches like "how does SEO work," "why is my basil plant wilting," or "what's the difference between a CPA and a bookkeeper." The searcher wants an explanation, a definition, or a method, not a sales pitch.
 
-**What this means for your content:** Lead with a clear, direct answer in the first two or three sentences, then expand with detail. This structure serves both traditional SEO, since it satisfies the searcher immediately, and [AI search visibility](https://f9xr.github.io/articles/2026/08/14/steps-make-business-site-visible-to-ai.html){:target="_blank" rel="noopener noreferrer"}, since generative engines specifically favor self contained, quotable answer blocks they can lift directly into a summary.
+**What this means for your content:** Lead with a clear, direct answer in the first two or three sentences, then expand with detail. This structure serves both traditional SEO, since it satisfies the searcher immediately, and [AI search visibility](https://f9xr.org/articles/2026/08/14/steps-make-business-site-visible-to-ai.html){:target="_blank" rel="noopener noreferrer"}, since generative engines specifically favor self contained, quotable answer blocks they can lift directly into a summary.
 
 ### Navigational Intent: "I Want to Find a Specific Place"
 
@@ -63,7 +63,7 @@ Around 16% of searches show clear transactional intent, "buy running shoes onlin
 
 ## Local Search Intent: A Blend Worth Calling Out Separately
 
-For local and service based businesses, there's a fifth, practically important category worth understanding on its own: local search intent, a blend of informational and transactional intent tied to a specific geographic location. "Plumber near me" or "best pizza in [city]" combines the urgency of transactional intent with the geographic specificity that makes [local SEO](https://f9xr.github.io/pages/services.html){:target="_blank" rel="noopener noreferrer"}, and a well maintained [Google Business Profile](https://www.google.com/business/){:target="_blank" rel="noopener noreferrer"}, essential to capturing this traffic at all.
+For local and service based businesses, there's a fifth, practically important category worth understanding on its own: local search intent, a blend of informational and transactional intent tied to a specific geographic location. "Plumber near me" or "best pizza in [city]" combines the urgency of transactional intent with the geographic specificity that makes [local SEO](https://f9xr.org/pages/services.html){:target="_blank" rel="noopener noreferrer"}, and a well maintained [Google Business Profile](https://www.google.com/business/){:target="_blank" rel="noopener noreferrer"}, essential to capturing this traffic at all.
 
 ---
 
@@ -131,9 +131,9 @@ Beyond traditional SERP analysis, ask ChatGPT, Perplexity, and Gemini the kinds 
 
 ## How F9XR Team Helps You Understand and Serve Your Customers' Real Intent
 
-Figuring out what your customers actually want, then building content and page structures that match that intent across both traditional search and AI tools, takes strategic work, not just keyword volume research. It also takes ongoing maintenance, because intent behind a query can shift over time, and pages that once matched it can drift out of alignment, which is why systematic [content audits](https://f9xr.github.io/articles/2026/08/20/reviving-dead-content-systematic-audits.html){:target="_blank" rel="noopener noreferrer"} catch intent mismatches before they drain traffic.
+Figuring out what your customers actually want, then building content and page structures that match that intent across both traditional search and AI tools, takes strategic work, not just keyword volume research. It also takes ongoing maintenance, because intent behind a query can shift over time, and pages that once matched it can drift out of alignment, which is why systematic [content audits](https://f9xr.org/articles/2026/08/20/reviving-dead-content-systematic-audits.html){:target="_blank" rel="noopener noreferrer"} catch intent mismatches before they drain traffic.
 
-F9XR Team builds this kind of intent focused strategy directly into its [website development](https://f9xr.github.io/pages/services.html){:target="_blank" rel="noopener noreferrer"}, website redesign, and local SEO work, structuring pages around what searchers are actually trying to accomplish, whether that's learning, comparing, or acting, so a business's website meets customers exactly where they are in their decision, instead of showing every visitor the same generic pitch.
+F9XR Team builds this kind of intent focused strategy directly into its [website development](https://f9xr.org/pages/services.html){:target="_blank" rel="noopener noreferrer"}, website redesign, and local SEO work, structuring pages around what searchers are actually trying to accomplish, whether that's learning, comparing, or acting, so a business's website meets customers exactly where they are in their decision, instead of showing every visitor the same generic pitch.
 
 ---
 
@@ -152,6 +152,6 @@ F9XR Team builds this kind of intent focused strategy directly into its [website
 
 Understanding the "why" behind a search isn't an abstract SEO concept, it's the difference between a website that quietly frustrates visitors and one that earns their trust and their business. Matching content format to real intent, informational depth for learners, honest comparisons for evaluators, and frictionless paths to action for buyers, consistently outperforms generic content built around keyword volume alone, and it's increasingly what separates businesses visible in AI search from those left behind.
 
-Building a website and content strategy structured around what your customers are actually trying to accomplish, across both traditional search and AI tools, is exactly the strategic work F9XR Team brings to its [website development](https://f9xr.github.io/pages/services.html){:target="_blank" rel="noopener noreferrer"}, [website redesign](https://f9xr.github.io/pages/services.html){:target="_blank" rel="noopener noreferrer"}, and [local SEO](https://f9xr.github.io/pages/services.html){:target="_blank" rel="noopener noreferrer"} services, so every visitor finds what they actually came for, whether they're just starting to learn or ready to act right now.
+Building a website and content strategy structured around what your customers are actually trying to accomplish, across both traditional search and AI tools, is exactly the strategic work F9XR Team brings to its [website development](https://f9xr.org/pages/services.html){:target="_blank" rel="noopener noreferrer"}, [website redesign](https://f9xr.org/pages/services.html){:target="_blank" rel="noopener noreferrer"}, and [local SEO](https://f9xr.org/pages/services.html){:target="_blank" rel="noopener noreferrer"} services, so every visitor finds what they actually came for, whether they're just starting to learn or ready to act right now.
 
-*Produced using AI-assisted research and drafting workflows, then reviewed and edited by the F9XR editorial team. See our [Editorial Policy](https://f9xr.github.io/articles/press/editorial-policy.html) for how we create and verify content.*
+*Produced using AI-assisted research and drafting workflows, then reviewed and edited by the F9XR editorial team. See our [Editorial Policy](https://f9xr.org/articles/press/editorial-policy.html) for how we create and verify content.*

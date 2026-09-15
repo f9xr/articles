@@ -1,8 +1,8 @@
----
+﻿---
 layout: post
 title: "Google Favicons Broken in Search: What's Happening"
 description: "Google confirmed a bug causing broken favicons in Search results this August 2026. Here's what happened, why it matters, and what to do."
-image: "https://f9xr.github.io/articles/assets/post-images/google-broken-favicons-search-august-2026.webp"
+image: "https://f9xr.org/articles/assets/post-images/google-broken-favicons-search-august-2026.webp"
 image_width: 1200
 image_height: 630
 image_caption: "Google is rolling out a fix for broken favicons in search results, August 2026."
@@ -49,7 +49,7 @@ Sachin Patel, reporting for Search Engine Watch, noted that Google appeared to b
 
 ### The Complaint Spike Starting August 18
 
-Barry Schwartz of [Search Engine Roundtable](https://www.seroundtable.com/google-search-favicons-breaking-41904.html){:target="_blank" rel="noopener noreferrer"} reported a clear spike in complaints starting Monday, August 18, 2026. He pointed out the timing was close to [Google's August 2026 spam update](https://f9xr.github.io/articles/2026/08/19/google-august-2026-spam-update.html) but doubted the two were connected, since the favicon complaints had started a couple of days before that update rolled out.
+Barry Schwartz of [Search Engine Roundtable](https://www.seroundtable.com/google-search-favicons-breaking-41904.html){:target="_blank" rel="noopener noreferrer"} reported a clear spike in complaints starting Monday, August 18, 2026. He pointed out the timing was close to [Google's August 2026 spam update](https://f9xr.org/articles/2026/08/19/google-august-2026-spam-update.html) but doubted the two were connected, since the favicon complaints had started a couple of days before that update rolled out.
 
 Site owners flooded Google's Webmaster Help forums and X with reports. Common complaints included messages like "Google removed my website's favicon from the search results," worries about traffic dropping alongside the missing icon, and confirmation that the generic gray globe had replaced favicons that had been displaying correctly for a long time.
 
@@ -100,11 +100,11 @@ A search results page is dense with text, competing listings, and often ads. A r
 
 ### Trust and Credibility Signals
 
-A missing favicon, swapped for a generic globe, can subtly read as less polished to someone scanning results fast, even though the actual cause has nothing to do with your site's quality. First impressions in search happen quickly, and small visual details factor into that split-second judgment. This ties directly into the [trust factors that influence how websites are evaluated](https://f9xr.github.io/articles/2026/08/15/how-to-increase-website-trust-score.html), where presentation and consistency play a bigger role than most owners assume.
+A missing favicon, swapped for a generic globe, can subtly read as less polished to someone scanning results fast, even though the actual cause has nothing to do with your site's quality. First impressions in search happen quickly, and small visual details factor into that split-second judgment. This ties directly into the [trust factors that influence how websites are evaluated](https://f9xr.org/articles/2026/08/15/how-to-increase-website-trust-score.html), where presentation and consistency play a bigger role than most owners assume.
 
 ### Consistency Across Search Experiences
 
-Favicons show up not just in organic listings but across other Google surfaces too, including certain ad placements and various search features. Losing consistency there fragments the brand experience across every way people encounter your site through Google, which is the same problem that makes [consistency audits valuable for SEO, AEO, and GEO](https://f9xr.github.io/articles/2026/08/13/consistency-audits-seo-aeo-geo.html).
+Favicons show up not just in organic listings but across other Google surfaces too, including certain ad placements and various search features. Losing consistency there fragments the brand experience across every way people encounter your site through Google, which is the same problem that makes [consistency audits valuable for SEO, AEO, and GEO](https://f9xr.org/articles/2026/08/13/consistency-audits-seo-aeo-geo.html).
 
 ---
 
@@ -137,7 +137,7 @@ While you wait for the fix to roll out fully, verify your favicon meets [Google'
 * Both your favicon file and your homepage must be crawlable, so robots.txt shouldn't be blocking either one
 * The favicon URL should stay stable over time, since Google caches it, and a URL that changes with every deployment resets that cache repeatedly
 
-If you've never audited your images beyond the favicon, our [complete image SEO audit guide](https://f9xr.github.io/articles/2026/08/14/image-seo-audit-complete-guide.html) walks through the wider checks.
+If you've never audited your images beyond the favicon, our [complete image SEO audit guide](https://f9xr.org/articles/2026/08/14/image-seo-audit-complete-guide.html) walks through the wider checks.
 
 For a quick visual walkthrough of adding a favicon the way Google recommends, this short video covers the setup end to end:
 
@@ -195,7 +195,7 @@ For startups building recognition from scratch, getting favicon fundamentals rig
 
 Small technical details like favicon configuration are exactly the kind of thing that quietly shapes brand perception in search results without most business owners noticing until something breaks. This current Google-side bug has made that very visible.
 
-The [F9XR Team](https://f9xr.github.io/pages/services.html){:target="_blank" rel="noopener noreferrer"} helps business owners, startups, and local businesses handle these technical SEO details as part of a complete digital presence strategy:
+The [F9XR Team](https://f9xr.org/pages/services.html){:target="_blank" rel="noopener noreferrer"} helps business owners, startups, and local businesses handle these technical SEO details as part of a complete digital presence strategy:
 
 * Technical SEO audits that check favicon configuration, crawlability, and other small but meaningful visibility factors
 * Website development and redesign work that gets details like favicons, meta tags, and structured data right from the start
@@ -212,7 +212,7 @@ If you've noticed your favicon missing in search results and aren't sure whether
 * Google confirmed on August 21, 2026 that it's fixing a bug causing favicons to disappear from search results, replaced by a generic gray globe icon.
 * Rajan Patel, Google's VP of Engineering for Search, confirmed the issue is on Google's end, not something site owners caused.
 * Reports began surfacing around August 12, complaints spiked on August 18, and recovery has been gradual, with sites like LinkedIn still affected at the latest check.
-* The bug is separate from broad core updates and the recent [August 2026 spam update](https://f9xr.github.io/articles/2026/08/19/google-august-2026-spam-update.html), and it does not reflect any ranking or quality signal problem.
+* The bug is separate from broad core updates and the recent [August 2026 spam update](https://f9xr.org/articles/2026/08/19/google-august-2026-spam-update.html), and it does not reflect any ranking or quality signal problem.
 * Verify your favicon against Google's specifications while waiting, but don't swap out an already-correct favicon file in response to this bug.
 * Favicons carry more weight than their size suggests, so this is a good moment to check your own setup even if you weren't affected.
 
@@ -222,6 +222,6 @@ If you've noticed your favicon missing in search results and aren't sure whether
 
 Google's broken favicon bug is a useful reminder that not every visible change to your search listing means something is wrong with your site. This one sits squarely on Google's end, confirmed by its own engineering leadership, and a fix is already rolling out gradually. The right move is patience, plus a quick check that your own favicon setup meets Google's specifications regardless.
 
-Small technical details like this add up to how polished and trustworthy your brand looks in search, and they stay invisible until a bug makes them suddenly obvious. If you want a thorough technical SEO audit to catch issues like this early, alongside website development, website redesign, and local SEO support, teams like the [F9XR Team](https://f9xr.github.io/pages/services.html){:target="_blank" rel="noopener noreferrer"} work with business owners on exactly this kind of ongoing digital presence care.
+Small technical details like this add up to how polished and trustworthy your brand looks in search, and they stay invisible until a bug makes them suddenly obvious. If you want a thorough technical SEO audit to catch issues like this early, alongside website development, website redesign, and local SEO support, teams like the [F9XR Team](https://f9xr.org/pages/services.html){:target="_blank" rel="noopener noreferrer"} work with business owners on exactly this kind of ongoing digital presence care.
 
-*Produced using AI-assisted research and drafting workflows, then reviewed and edited by the F9XR editorial team. See our [Editorial Policy](https://f9xr.github.io/articles/press/editorial-policy.html) for how we create and verify content.*
+*Produced using AI-assisted research and drafting workflows, then reviewed and edited by the F9XR editorial team. See our [Editorial Policy](https://f9xr.org/articles/press/editorial-policy.html) for how we create and verify content.*

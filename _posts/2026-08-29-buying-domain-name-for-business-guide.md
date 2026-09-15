@@ -1,8 +1,8 @@
----
+﻿---
 layout: post
 title: "Buying a Domain Name for Your Business? Read This First"
 description: "Buying a domain for your business? Learn the naming, extension, and SEO rules that actually matter before you check out, and set your website up to grow."
-image: "https://f9xr.github.io/articles/assets/post-images/buying-domain-name-for-business-guide.webp"
+image: "https://f9xr.org/articles/assets/post-images/buying-domain-name-for-business-guide.webp"
 image_width: 1200
 image_height: 630
 date: 2026-08-29
@@ -65,7 +65,7 @@ The extension, or top-level domain (TLD), affects trust, memorability, and in so
 | .io, .ai | Tech, SaaS, and AI-focused startups | Popular in tech circles, less familiar to general consumers |
 | .org | Nonprofits, associations | Signals nonprofit or mission-driven intent, avoid for for-profit businesses |
 
-**Practical rule of thumb:** if your business serves a general or national audience, chase the .com even if it costs more or takes longer to negotiate. If you are a local business, a matching country-code domain paired with [strong local SEO signals](https://f9xr.github.io/articles/2026/08/16/how-ai-picks-local-businesses-2026.html) can help reinforce geographic relevance.
+**Practical rule of thumb:** if your business serves a general or national audience, chase the .com even if it costs more or takes longer to negotiate. If you are a local business, a matching country-code domain paired with [strong local SEO signals](https://f9xr.org/articles/2026/08/16/how-ai-picks-local-businesses-2026.html) can help reinforce geographic relevance.
 
 ---
 
@@ -99,16 +99,16 @@ This is also where many businesses discover their ideal name is trademarked in t
 
 ## Step 5: Understand How Your Domain Affects SEO and AI Search Visibility
 
-Search engines, and increasingly AI assistants like ChatGPT, Gemini, and Perplexity, associate your domain with entity trust over time. A domain with consistent branding, a clean registration history, and matching business information across the web, such as Google Business Profile, directories, and social profiles, builds what is often called [entity trust](https://f9xr.github.io/articles/2026/08/15/how-to-increase-website-trust-score.html). It is a signal that you are a real, verifiable business rather than a throwaway site.
+Search engines, and increasingly AI assistants like ChatGPT, Gemini, and Perplexity, associate your domain with entity trust over time. A domain with consistent branding, a clean registration history, and matching business information across the web, such as Google Business Profile, directories, and social profiles, builds what is often called [entity trust](https://f9xr.org/articles/2026/08/15/how-to-increase-website-trust-score.html). It is a signal that you are a real, verifiable business rather than a throwaway site.
 
 Practical SEO factors tied to your domain choice:
 
 - **Domain age contributes to trust,** but only when paired with consistent content and backlink growth. An old domain with no activity offers little advantage.
 - **HTTPS and proper DNS setup** are non-negotiable, both for security and for baseline ranking eligibility.
-- **Consistent NAP (Name, Address, Phone) data** across your domain and [all business listings](https://f9xr.github.io/articles/2026/07/29/free-business-directories-guide.html) strengthens local search and AI answer accuracy when tools summarize "best businesses near me" style queries.
+- **Consistent NAP (Name, Address, Phone) data** across your domain and [all business listings](https://f9xr.org/articles/2026/07/29/free-business-directories-guide.html) strengthens local search and AI answer accuracy when tools summarize "best businesses near me" style queries.
 - **Subdomains vs. subdirectories** matter for larger sites. Generally, subdirectories like yoursite.com/blog keep authority consolidated better than subdomains like blog.yoursite.com. Google Search Central's guidance on [subdomain vs. subdirectory choice](https://developers.google.com/search/blog/2008/01/blog-post_20?hl=zh-cn){:target="_blank" rel="noopener noreferrer"} walks through the trade-offs.
 
-Getting the technical setup right is where websites either compound or waste the advantage of a good domain. If you are not confident in the site structure, secure hosting, or on-page foundation, this is exactly the area where an agency that handles [website development and technical SEO](https://f9xr.github.io/pages/services.html){:target="_blank" rel="noopener noreferrer"} can keep things search-ready from day one.
+Getting the technical setup right is where websites either compound or waste the advantage of a good domain. If you are not confident in the site structure, secure hosting, or on-page foundation, this is exactly the area where an agency that handles [website development and technical SEO](https://f9xr.org/pages/services.html){:target="_blank" rel="noopener noreferrer"} can keep things search-ready from day one.
 
 ---
 
@@ -136,6 +136,6 @@ Getting the technical setup right is where websites either compound or waste the
 
 Your domain is a long-term asset, not a checkout-page afterthought. Take the extra day to check its history, secure the right extension, and make sure it fits your brand before you commit. It is far easier to get this right at the start than to migrate a business off a bad domain years later.
 
-If you want a second opinion before you buy, or you are ready to turn that new domain into a fully built, search-ready website, teams like [F9XR](https://f9xr.github.io/){:target="_blank" rel="noopener noreferrer"} help businesses with everything from website development and redesign to [local SEO and digital presence](https://f9xr.github.io/pages/services.html){:target="_blank" rel="noopener noreferrer"}. And if you want a fresh set of eyes on your plan, the [F9XR Team](https://f9xr.github.io/pages/contact.html){:target="_blank" rel="noopener noreferrer"} is happy to talk through your domain and site setup before you buy.
+If you want a second opinion before you buy, or you are ready to turn that new domain into a fully built, search-ready website, teams like [F9XR](https://f9xr.org/){:target="_blank" rel="noopener noreferrer"} help businesses with everything from website development and redesign to [local SEO and digital presence](https://f9xr.org/pages/services.html){:target="_blank" rel="noopener noreferrer"}. And if you want a fresh set of eyes on your plan, the [F9XR Team](https://f9xr.org/pages/contact.html){:target="_blank" rel="noopener noreferrer"} is happy to talk through your domain and site setup before you buy.
 
-*Produced using AI-assisted research and drafting workflows, then reviewed and edited by the F9XR editorial team. See our [Editorial Policy](https://f9xr.github.io/articles/press/editorial-policy.html) for how we create and verify content.*
+*Produced using AI-assisted research and drafting workflows, then reviewed and edited by the F9XR editorial team. See our [Editorial Policy](https://f9xr.org/articles/press/editorial-policy.html) for how we create and verify content.*

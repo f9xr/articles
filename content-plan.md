@@ -1,4 +1,4 @@
-# F9XR Articles — Content Plan
+﻿# F9XR Articles â€” Content Plan
 
 Strategic content roadmap for the F9XR Articles blog.
 Built with Jekyll, hosted on GitHub Pages, auto-deployed on push to `main`.
@@ -101,20 +101,20 @@ Copy this into each post task:
 - [ ] FAQ has 3-5 questions derived from content
 - [ ] Hero image URL is set (or default og-image.webp)
 - [ ] Hero image has `title`, `alt`, and optional `image_caption` for SEO
-- [ ] Internal links connect to f9xr.github.io service pages and related posts
+- [ ] Internal links connect to f9xr.org service pages and related posts
 - [ ] External links open in new tab with `rel="noopener noreferrer"`
-- [ ] No `<h1>` or `# ` in the body — only the layout auto-generates one H1 from the front-matter title
-- [ ] Heading hierarchy: H1 (layout-generated) → H2 sections → H3 subsections (no jumps)
+- [ ] No `<h1>` or `# ` in the body â€” only the layout auto-generates one H1 from the front-matter title
+- [ ] Heading hierarchy: H1 (layout-generated) â†’ H2 sections â†’ H3 subsections (no jumps)
 - [ ] At least 2 H2 headings for Table of Contents to auto-generate
 - [ ] Reading time estimate is reasonable (200 words/min)
 - [ ] Code blocks have language tags for syntax highlighting
-- [ ] No AI writing patterns — run `@skills\avoid-ai-writing`
-- [ ] SEO is sound — run `@skills\seo-codebase-audit`
+- [ ] No AI writing patterns â€” run `@skills\avoid-ai-writing`
+- [ ] SEO is sound â€” run `@skills\seo-codebase-audit`
 - [ ] File named correctly: `_posts/YYYY-MM-DD-slugified-title.md`
 - [ ] Front-matter has no YAML syntax errors
 - [ ] Commit message follows convention: `git commit -m "Add article: Title"`
 - [ ] Push triggers deploy: `git push origin main`
-- [ ] Verify live URL: `https://f9xr.github.io/articles/YYYY/MM/DD/slug/`
+- [ ] Verify live URL: `https://f9xr.org/articles/YYYY/MM/DD/slug/`
 
 ---
 

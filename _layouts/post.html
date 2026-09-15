@@ -1,4 +1,4 @@
----
+﻿---
 layout: default
 ---
 
@@ -421,7 +421,7 @@ layout: default
     <div class="share-box">
       <span class="share-box-icon"><i class="fa-solid fa-share-nodes"></i></span>
       <h2 class="share-box-title">Enjoyed this article?</h2>
-      <p class="share-box-text">Share it with your network — help someone else discover these insights.</p>
+      <p class="share-box-text">Share it with your network â€” help someone else discover these insights.</p>
       <div class="share-box-buttons">
         {% include sharelinks.html tooltip="footer" %}
       </div>
@@ -459,7 +459,7 @@ layout: default
   <div class="post-copyright" style="margin-top:1.5em; padding:1.2em 1.5em; border:1px solid #1e2024; border-radius:10px;">
     <h3 style="color:#8b8b8b; font-size:0.78em; font-weight:700; text-transform:uppercase; letter-spacing:0.06em; margin:0 0 0.6em 0;">Copyright</h3>
     <p style="margin:0; color:#71717a; font-size:0.85em; line-height:1.6;">
-      &copy; {{ 'now' | date: '%Y' }} <a href="https://f9xr.github.io" style="color:#8b8b8b;">F9XR Team</a>. Licensed under the <a href="https://creativecommons.org/licenses/by/4.0" target="_blank" rel="noopener noreferrer" style="color:#8b8b8b;">Creative Commons Attribution 4.0 International License (CC BY 4.0)</a>. You are free to share and adapt this work with attribution to the F9XR Team.
+      &copy; {{ 'now' | date: '%Y' }} <a href="https://f9xr.org" style="color:#8b8b8b;">F9XR Team</a>. Licensed under the <a href="https://creativecommons.org/licenses/by/4.0" target="_blank" rel="noopener noreferrer" style="color:#8b8b8b;">Creative Commons Attribution 4.0 International License (CC BY 4.0)</a>. You are free to share and adapt this work with attribution to the F9XR Team.
     </p>
   </div>
 
@@ -470,7 +470,7 @@ layout: default
       This article reflects the experience and opinions of the F9XR Team and is provided for general informational purposes only. It is not professional legal, financial, or medical advice. Metrics and results mentioned are illustrative and not guaranteed.
     </p>
     <p style="margin:0.8em 0 0 0; color:#71717a; font-size:0.85em; line-height:1.6;">
-      <a href="https://f9xr.github.io/articles" style="color:#8b8b8b;">F9XR/Articles</a>, published by the <a href="{{ '/' | absolute_url }}" style="color:#8b8b8b;">F9XR Team</a>, delivers high-quality marketing content produced by staff and contracted experts, unless otherwise noted. This commitment to quality ensures comprehensive coverage of industry topics from a trusted team of writers. For more information, please visit the <a href="https://f9xr.github.io" target="_blank" rel="noopener noreferrer" style="color:#8b8b8b;">F9XR Team website</a> or reach out through the <a href="https://f9xr.github.io/pages/contact.html" target="_blank" rel="noopener noreferrer" style="color:#8b8b8b;">contact page</a>.
+      <a href="https://f9xr.org/articles" style="color:#8b8b8b;">F9XR/Articles</a>, published by the <a href="{{ '/' | absolute_url }}" style="color:#8b8b8b;">F9XR Team</a>, delivers high-quality marketing content produced by staff and contracted experts, unless otherwise noted. This commitment to quality ensures comprehensive coverage of industry topics from a trusted team of writers. For more information, please visit the <a href="https://f9xr.org" target="_blank" rel="noopener noreferrer" style="color:#8b8b8b;">F9XR Team website</a> or reach out through the <a href="https://f9xr.org/pages/contact.html" target="_blank" rel="noopener noreferrer" style="color:#8b8b8b;">contact page</a>.
     </p>
   </div>
 
@@ -530,11 +530,11 @@ layout: default
       The F9XR Team helps business owners turn websites into conversion engines. From website development and redesign to local SEO and AI-powered visibility, we engineer systems that bring in results, not just traffic.
     </p>
     <div class="f9xr-cta-actions">
-      <a href="https://f9xr.github.io/pages/services.html" target="_blank" rel="noopener noreferrer" class="f9xr-cta-btn f9xr-cta-btn-primary">
+      <a href="https://f9xr.org/pages/services.html" target="_blank" rel="noopener noreferrer" class="f9xr-cta-btn f9xr-cta-btn-primary">
         Explore Our Services
         <i class="fa-solid fa-arrow-right"></i>
       </a>
-      <a href="https://f9xr.github.io/pages/contact.html" target="_blank" rel="noopener noreferrer" class="f9xr-cta-btn f9xr-cta-btn-ghost">
+      <a href="https://f9xr.org/pages/contact.html" target="_blank" rel="noopener noreferrer" class="f9xr-cta-btn f9xr-cta-btn-ghost">
         Get a Free Website Audit
       </a>
     </div>
@@ -583,7 +583,7 @@ layout: default
   "publisher": {
     "@type": "Organization",
     "name": "F9XR Team",
-    "url": "https://f9xr.github.io",
+    "url": "https://f9xr.org",
     "logo": {
       "@type": "ImageObject",
       "url": {{ '/logo.webp' | absolute_url | jsonify }},
@@ -1304,7 +1304,7 @@ function downloadPDF() {
       return;
     }
 
-    // Post navigation (N/P only) — only when not typing or in editable content
+    // Post navigation (N/P only) â€” only when not typing or in editable content
     if (tag === 'INPUT' || tag === 'TEXTAREA' || tag === 'SELECT' || e.target.isContentEditable) return;
     {% if page.next.url %}
     if (e.key === 'n' || e.key === 'N') {

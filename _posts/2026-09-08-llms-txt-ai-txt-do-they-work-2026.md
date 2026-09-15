@@ -1,8 +1,8 @@
----
+﻿---
 layout: post
 title: "llms.txt and ai.txt in 2026: Do They Really Work?"
 description: "llms.txt, llms-full.txt, and ai.txt explained plainly. What the 2026 data shows, what they're actually for, and whether you need them."
-image: "https://f9xr.github.io/articles/assets/post-images/llms-txt-ai-txt-do-they-work-2026.webp"
+image: "https://f9xr.org/articles/assets/post-images/llms-txt-ai-txt-do-they-work-2026.webp"
 image_width: 1200
 image_height: 630
 date: 2026-09-08
@@ -89,7 +89,7 @@ Here's the fair, balanced answer. Having an llms.txt file on your site is low ri
 
 * **False sense of progress.** The biggest practical risk is treating llms.txt as your AI visibility strategy instead of a minor, unproven add-on. Teams that spend a week building out a detailed llms.txt file while neglecting actual content quality, page structure, and site authority are optimizing for the wrong thing.
 * **Low quality, auto-generated files.** Many llms.txt files in the wild are just a site's sitemap renamed into Markdown, with zero curation or useful description. A file like this tells a model nothing its sitemap didn't already say, and defeats the entire purpose of the format.
-* **Confusing it with access control.** Some business owners mistakenly believe llms.txt can block AI crawlers from using their content. It cannot. If you want to actually restrict AI crawlers, that's a robots.txt job, using specific user agent rules for crawlers like GPTBot or Google-Extended. We covered [how to block AI crawlers on your site](https://f9xr.github.io/articles/2026/09/04/block-ai-crawlers-on-your-site.html) in a recent post.
+* **Confusing it with access control.** Some business owners mistakenly believe llms.txt can block AI crawlers from using their content. It cannot. If you want to actually restrict AI crawlers, that's a robots.txt job, using specific user agent rules for crawlers like GPTBot or Google-Extended. We covered [how to block AI crawlers on your site](https://f9xr.org/articles/2026/09/04/block-ai-crawlers-on-your-site.html) in a recent post.
 * **Wasted development time on llms-full.txt.** Because llms-full.txt requires duplicating large amounts of page content into a separate file, it's more time consuming to maintain than llms.txt, and the evidence supporting its usefulness is no stronger.
 
 ### What About ai.txt Specifically?
@@ -104,7 +104,7 @@ If your real goal is getting your business mentioned or recommended by tools lik
 
 ### 1. Clear, Well Structured Content
 
-AI models tend to favor content that's easy to extract a direct answer from. Clear headings, concise paragraphs, and a direct answer near the top of a page consistently correlate with higher citation rates in AI generated answers. Teams like [F9XR](https://f9xr.github.io/pages/services.html) build content strategies around this principle, structuring every page for extractability rather than just readability.
+AI models tend to favor content that's easy to extract a direct answer from. Clear headings, concise paragraphs, and a direct answer near the top of a page consistently correlate with higher citation rates in AI generated answers. Teams like [F9XR](https://f9xr.org/pages/services.html) build content strategies around this principle, structuring every page for extractability rather than just readability.
 
 ### 2. Genuine Expertise and Freshness
 
@@ -112,11 +112,11 @@ Google's own Helpful Content guidance and multiple independent studies point to 
 
 ### 3. Structured Data and Schema Markup
 
-Proper [schema markup](https://f9xr.github.io/articles/2026/09/03/monthly-website-audit-checklist.html) helps both traditional search engines and AI tools understand exactly what a page is about, whether it's a service, a review, an FAQ, or a local business listing. This is one of the highest leverage technical SEO tasks you can do, and it directly affects how AI models interpret your content.
+Proper [schema markup](https://f9xr.org/articles/2026/09/03/monthly-website-audit-checklist.html) helps both traditional search engines and AI tools understand exactly what a page is about, whether it's a service, a review, an FAQ, or a local business listing. This is one of the highest leverage technical SEO tasks you can do, and it directly affects how AI models interpret your content.
 
 ### 4. A Strong, Clean Technical Foundation
 
-Fast loading pages, mobile friendliness, and a crawlable site structure remain foundational, both for traditional rankings and for the crawlers that feed AI search tools in the first place. [Website development](https://f9xr.github.io/services/index.html) built with these fundamentals from day one saves you from retrofitting later.
+Fast loading pages, mobile friendliness, and a crawlable site structure remain foundational, both for traditional rankings and for the crawlers that feed AI search tools in the first place. [Website development](https://f9xr.org/services/index.html) built with these fundamentals from day one saves you from retrofitting later.
 
 ### 5. Brand Mentions Across the Web
 
@@ -134,10 +134,10 @@ At F9XR Team, we work with Chartered Accountants, Company Secretaries, Cost and 
 
 * Website development and redesigns built with clean, crawlable structure from the start
 * Content strategy focused on the clarity, structure, and expertise signals that correlate with AI citations
-* [Local SEO management](https://f9xr.github.io/services/google-business-optimization.html) so your business shows up in both traditional Google results and AI generated local recommendations
+* [Local SEO management](https://f9xr.org/services/google-business-optimization.html) so your business shows up in both traditional Google results and AI generated local recommendations
 * Technical setup guidance, including robots.txt configuration for AI crawlers, schema markup, and yes, an llms.txt file if it fits your situation, without overselling what it can do
 
-If you've been told you're falling behind because you don't have an llms.txt file, take a breath. You're not. There are more impactful places to focus first, and we can help you figure out exactly where those are for your specific business. [Get in touch](https://f9xr.github.io/pages/contact.html) to talk through what makes sense for your situation.
+If you've been told you're falling behind because you don't have an llms.txt file, take a breath. You're not. There are more impactful places to focus first, and we can help you figure out exactly where those are for your specific business. [Get in touch](https://f9xr.org/pages/contact.html) to talk through what makes sense for your situation.
 
 ---
 
@@ -157,6 +157,6 @@ If you've been told you're falling behind because you don't have an llms.txt fil
 
 llms.txt, llms-full.txt, and ai.txt are three different tools that got bundled together by hype, and the honest picture in 2026 is that none of them are the shortcut some corners of the internet have made them out to be. They're low risk to add, but they're not a substitute for the unglamorous work of building genuinely useful, well structured, technically sound content.
 
-If you'd rather spend your time on what's actually proven to move the needle in both Google Search and AI powered answers, that's exactly the kind of grounded, evidence based work F9XR Team focuses on for clients, from [website development and redesigns](https://f9xr.github.io/services/we-do-for-you.html) to [local SEO](https://f9xr.github.io/services/google-business-optimization.html) and full digital presence management built around what really works, not what's trending this month.
+If you'd rather spend your time on what's actually proven to move the needle in both Google Search and AI powered answers, that's exactly the kind of grounded, evidence based work F9XR Team focuses on for clients, from [website development and redesigns](https://f9xr.org/services/we-do-for-you.html) to [local SEO](https://f9xr.org/services/google-business-optimization.html) and full digital presence management built around what really works, not what's trending this month.
 
-*Produced using AI-assisted research and drafting workflows, then reviewed and edited by the F9XR editorial team. See our [Editorial Policy](https://f9xr.github.io/articles/press/editorial-policy.html) for how we create and verify content.*
+*Produced using AI-assisted research and drafting workflows, then reviewed and edited by the F9XR editorial team. See our [Editorial Policy](https://f9xr.org/articles/press/editorial-policy.html) for how we create and verify content.*

@@ -1,8 +1,8 @@
----
+﻿---
 layout: post
 title: "Google's Preferred Source Button: A Publisher's Guide"
 description: "Google upgraded its Preferred Sources button in August 2026. Here's how it works, why it matters, and how to add it to your website."
-image: "https://f9xr.github.io/articles/assets/post-images/google-preferred-source-button-publishers-guide.webp"
+image: "https://f9xr.org/articles/assets/post-images/google-preferred-source-button-publishers-guide.webp"
 image_width: 1200
 image_height: 630
 image_caption: "Google's Preferred Sources button now works as an embeddable widget on publisher websites. Image: Google"
@@ -49,7 +49,7 @@ The feature originally worked within Top Stories, then expanded in May to also i
 Mrinalini Loew, General Manager of Google's Search Ecosystem, announced the upgrade: an interactive Preferred Sources button that publishers can embed directly on their own web pages. Previously, marking a site as preferred required a reader to navigate away to Google's dedicated source preferences page and search for the site by name. Now a reader can click a button right there on the article or homepage they're already reading, confirm their choice, and land straight back on that same page rather than being routed elsewhere.
 
 <div style="text-align:center; margin: 2em auto;">
-  <img src="https://f9xr.github.io/articles/assets/post-images/preferred-sources-embed-code.webp" alt="Google Search Central documentation showing the JavaScript embed code for the Preferred Sources button" width="1200" height="684" loading="lazy" />
+  <img src="https://f9xr.org/articles/assets/post-images/preferred-sources-embed-code.webp" alt="Google Search Central documentation showing the JavaScript embed code for the Preferred Sources button" width="1200" height="684" loading="lazy" />
   <p style="color:#71717a; font-size:0.85em; margin-top:0.5em;">The official embed code, published in <a href="https://developers.google.com/search/docs/appearance/preferred-sources" target="_blank" rel="noopener noreferrer" style="color:#71717a; text-decoration:underline;">Google Search Central's documentation</a>. Image: Google</p>
 </div>
 
@@ -60,7 +60,7 @@ In Google's own words from the [announcement](https://blog.google/products-and-p
 > Readers more easily find their favorite publications in Top Stories, AI Overviews, and AI Mode, while publishers gain a more seamless way to connect with readers across Google.
 
 <div style="text-align:center; margin: 2em auto;">
-  <img src="https://f9xr.github.io/articles/assets/post-images/preferred-sources-button-family.webp" alt="Illustration of readers using the Google Preferred Sources button across devices" width="1200" height="675" loading="lazy" />
+  <img src="https://f9xr.org/articles/assets/post-images/preferred-sources-button-family.webp" alt="Illustration of readers using the Google Preferred Sources button across devices" width="1200" height="675" loading="lazy" />
   <p style="color:#71717a; font-size:0.85em; margin-top:0.5em;">How the button looks across devices. Image: <a href="https://blog.google/products-and-platforms/products/search/personalize-search-discover-news/" target="_blank" rel="noopener noreferrer" style="color:#71717a; text-decoration:underline;">Google</a></p>
 </div>
 
@@ -88,13 +88,13 @@ The motivation behind this matters if you're deciding whether to use the tool, s
 
 As AI-powered search tools increasingly answer questions directly inside the results page instead of sending users through to the publisher's site, referral traffic for many content creators has declined. [TechCrunch's coverage](https://techcrunch.com/2026/08/20/google-gives-publishers-a-new-way-to-fight-ai-driven-traffic-losses/){:target="_blank" rel="noopener noreferrer"} of the update was blunt about the framing, describing the button as something Google "threw" to publishers "negatively impacted" by exactly this shift.
 
-We've covered the same pattern from the business side before, including [why zero-click search makes your Google Business Profile and homepage matter more than ever](https://f9xr.github.io/articles/2026/08/16/zero-click-search-google-business-profile-homepage.html). Preferred Sources is Google's most publisher-focused answer to that trend so far.
+We've covered the same pattern from the business side before, including [why zero-click search makes your Google Business Profile and homepage matter more than ever](https://f9xr.org/articles/2026/08/16/zero-click-search-google-business-profile-homepage.html). Preferred Sources is Google's most publisher-focused answer to that trend so far.
 
 ### A Recent Data Point Worth Knowing
 
 Coverage of this announcement also referenced a separate finding from Pew Research: over one-third of web pages published since ChatGPT's late 2022 release show signs of AI authorship. That statistic describes the environment Google is working in, a web increasingly saturated with machine-written content, where both Google's ranking systems and its human users benefit from clearer signals about which sources people actually trust.
 
-AI citation patterns are shifting quickly in general. When reporting showed [Reddit citations dropping sharply in ChatGPT answers](https://f9xr.github.io/articles/2026/08/21/reddit-chatgpt-citation-drop.html), it became clear that no source's visibility inside AI answers is guaranteed. Explicit reader signals like Preferred Sources give publishers a small lever they control.
+AI citation patterns are shifting quickly in general. When reporting showed [Reddit citations dropping sharply in ChatGPT answers](https://f9xr.org/articles/2026/08/21/reddit-chatgpt-citation-drop.html), it became clear that no source's visibility inside AI answers is guaranteed. Explicit reader signals like Preferred Sources give publishers a small lever they control.
 
 ### Google Needs This Data Too
 
@@ -143,7 +143,7 @@ This is a new interaction pattern for most readers. A short label near the butto
 
 ### 5. Watch Search Console Over the Following Weeks
 
-Keep an eye on your performance data after launch. Preferred Sources influence is personalized per reader rather than a universal ranking boost, so track Top Stories, Discover, and AI Overview visibility over time to judge whether the feature is moving traffic for your site. Our guide to [SEO metrics beyond rankings](https://f9xr.github.io/articles/2026/08/19/seo-metrics-beyond-rankings.html) covers how to read these signals sensibly.
+Keep an eye on your performance data after launch. Preferred Sources influence is personalized per reader rather than a universal ranking boost, so track Top Stories, Discover, and AI Overview visibility over time to judge whether the feature is moving traffic for your site. Our guide to [SEO metrics beyond rankings](https://f9xr.org/articles/2026/08/19/seo-metrics-beyond-rankings.html) covers how to read these signals sensibly.
 
 ### 6. Tell Your Existing Audience About It
 
@@ -174,9 +174,9 @@ Honest assessment time. There are good reasons to implement this, and reasonable
 
 If you run a local business or startup, this tool might look geared toward large news publishers. The underlying mechanism applies just as well to smaller sites.
 
-For local businesses publishing regular blog posts, resource pages, or community news, the button gives loyal local readers a direct way to boost your visibility in their future searches. It won't replace strong fundamentals, and understanding [how AI picks which local businesses to recommend](https://f9xr.github.io/articles/2026/08/16/how-ai-picks-local-businesses-2026.html) still starts with consistent business data and genuine reviews. But as a low-cost addition alongside existing efforts, it earns its place.
+For local businesses publishing regular blog posts, resource pages, or community news, the button gives loyal local readers a direct way to boost your visibility in their future searches. It won't replace strong fundamentals, and understanding [how AI picks which local businesses to recommend](https://f9xr.org/articles/2026/08/16/how-ai-picks-local-businesses-2026.html) still starts with consistent business data and genuine reviews. But as a low-cost addition alongside existing efforts, it earns its place.
 
-For startups building an audience through steady content marketing, encouraging early loyal readers to mark your site as preferred could compound nicely as your library grows, especially because the signal appears to influence AI answer citations directly. Pairing the button with the broader steps that [make your business site visible to AI search engines](https://f9xr.github.io/articles/2026/08/14/steps-make-business-site-visible-to-ai.html) covers both sides: being citable, and staying visible to the people who already trust you.
+For startups building an audience through steady content marketing, encouraging early loyal readers to mark your site as preferred could compound nicely as your library grows, especially because the signal appears to influence AI answer citations directly. Pairing the button with the broader steps that [make your business site visible to AI search engines](https://f9xr.org/articles/2026/08/14/steps-make-business-site-visible-to-ai.html) covers both sides: being citable, and staying visible to the people who already trust you.
 
 ---
 
@@ -184,11 +184,11 @@ For startups building an audience through steady content marketing, encouraging 
 
 Implementing new visibility tools like this one properly, and pairing them with strong content and technical SEO foundations, benefits from experience rather than a quick copy-paste job.
 
-The [F9XR Team](https://f9xr.github.io/pages/services.html){:target="_blank" rel="noopener noreferrer"} helps business owners, startups, and local businesses stay ahead of publisher-facing Google features by offering:
+The [F9XR Team](https://f9xr.org/pages/services.html){:target="_blank" rel="noopener noreferrer"} helps business owners, startups, and local businesses stay ahead of publisher-facing Google features by offering:
 
 * Implementation support for new Google tools like the Preferred Sources button, embedded correctly and tested on your site
 * Content strategy focused on reader trust and engagement, the foundation that makes tools like this effective
-* Local SEO strategy that strengthens visibility across Google Search, Discover, and AI-generated answers together, including our dedicated [AI visibility optimization](https://f9xr.github.io/services/ai-visibility-optimization.html) service
+* Local SEO strategy that strengthens visibility across Google Search, Discover, and AI-generated answers together, including our dedicated [AI visibility optimization](https://f9xr.org/services/ai-visibility-optimization.html) service
 * Website development and redesign work that keeps your site technically ready as new Google features roll out
 * Ongoing digital presence management so your business benefits from new tools without playing catch-up
 
@@ -211,6 +211,6 @@ If you're unsure whether the Preferred Sources button fits your specific busines
 
 Google's upgraded Preferred Sources button is a practical addition for any business publishing content online, especially as AI-driven search reshapes how readers discover websites. Implementation costs little, and it carries real, Google-confirmed upside in click-through behavior. It's also one of the few tools available that gives publishers direct influence over their visibility within AI Overviews and AI Mode.
 
-It won't single-handedly reverse the referral traffic challenges publishers face, but as part of a well-rounded content and SEO strategy, it deserves implementing and active promotion to your audience. If you want help adding the button to your site, or building a broader strategy across traditional and AI-driven search, teams like [F9XR Team](https://f9xr.github.io/pages/services.html){:target="_blank" rel="noopener noreferrer"} work with business owners on exactly this kind of website development, website redesign, and local SEO work.
+It won't single-handedly reverse the referral traffic challenges publishers face, but as part of a well-rounded content and SEO strategy, it deserves implementing and active promotion to your audience. If you want help adding the button to your site, or building a broader strategy across traditional and AI-driven search, teams like [F9XR Team](https://f9xr.org/pages/services.html){:target="_blank" rel="noopener noreferrer"} work with business owners on exactly this kind of website development, website redesign, and local SEO work.
 
-*Produced using AI-assisted research and drafting workflows, then reviewed and edited by the F9XR editorial team. See our [Editorial Policy](https://f9xr.github.io/articles/press/editorial-policy.html) for how we create and verify content.*
+*Produced using AI-assisted research and drafting workflows, then reviewed and edited by the F9XR editorial team. See our [Editorial Policy](https://f9xr.org/articles/press/editorial-policy.html) for how we create and verify content.*

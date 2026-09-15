@@ -1,8 +1,8 @@
----
+﻿---
 layout: post
 title: "Reviving Dead Content: Rank Higher, No New Copy"
 description: "Learn how systematic content audits can boost rankings without writing a single new word, with real case studies and a practical framework."
-image: "https://f9xr.github.io/articles/assets/post-images/reviving-dead-content-systematic-audits.webp"
+image: "https://f9xr.org/articles/assets/post-images/reviving-dead-content-systematic-audits.webp"
 image_width: 1200
 image_height: 630
 date: 2026-08-20
@@ -73,7 +73,7 @@ Not every underperforming page needs the same treatment. Applying the wrong fix 
 
 ### Step 1: Pull Performance Data From the Last 6 to 12 Months
 
-Gather data from [Google Search Console](https://search.google.com/search-console){:target="_blank" rel="noopener noreferrer"} and your analytics platform covering a genuine window of time, not just a snapshot. You're looking for three specific patterns: pages with declining traffic over time, pages with high [impressions but low click through rates](https://f9xr.github.io/articles/2026/08/18/ghost-impression-keywords-guide.html){:target="_blank" rel="noopener noreferrer"}, and pages that have slipped from page one down to page two of the results.
+Gather data from [Google Search Console](https://search.google.com/search-console){:target="_blank" rel="noopener noreferrer"} and your analytics platform covering a genuine window of time, not just a snapshot. You're looking for three specific patterns: pages with declining traffic over time, pages with high [impressions but low click through rates](https://f9xr.org/articles/2026/08/18/ghost-impression-keywords-guide.html){:target="_blank" rel="noopener noreferrer"}, and pages that have slipped from page one down to page two of the results.
 
 **Practical tip:** Native Search Console data is limited to a 16 month window, which makes long term comparisons difficult. If you're comparing current performance against a page's peak from several years ago, pull and archive that historical data separately before it ages out of Search Console's reporting window.
 
@@ -95,7 +95,7 @@ This is consistently identified as the single most damaging mistake in any conte
 
 ### Step 6: Optimize for AI Citation, Not Just Traditional Rankings
 
-Structure refreshed content with clear, atomic answer paragraphs that can stand alone if quoted, add or update FAQ schema, and include specific, named data points and statistics rather than vague claims. This is exactly the kind of structure [AI search tools favor](https://f9xr.github.io/articles/2026/08/14/steps-make-business-site-visible-to-ai.html){:target="_blank" rel="noopener noreferrer"} when deciding what to cite in a generated answer.
+Structure refreshed content with clear, atomic answer paragraphs that can stand alone if quoted, add or update FAQ schema, and include specific, named data points and statistics rather than vague claims. This is exactly the kind of structure [AI search tools favor](https://f9xr.org/articles/2026/08/14/steps-make-business-site-visible-to-ai.html){:target="_blank" rel="noopener noreferrer"} when deciding what to cite in a generated answer.
 
 ---
 
@@ -127,7 +127,7 @@ A reasonable target for most businesses balancing new content creation against o
 
 Running a proper content audit, pulling historical performance data, diagnosing why specific pages declined, deciding between refresh, rewrite, consolidate, or delete, then executing substantive updates without breaking a single URL, is detailed, ongoing work most business owners don't have the bandwidth to manage consistently.
 
-F9XR Team builds this kind of systematic content auditing directly into its [website development](https://f9xr.github.io/pages/services.html){:target="_blank" rel="noopener noreferrer"}, [website redesign](https://f9xr.github.io/pages/services.html){:target="_blank" rel="noopener noreferrer"}, and [local SEO](https://f9xr.github.io/pages/services.html){:target="_blank" rel="noopener noreferrer"} work, identifying which existing pages carry untapped potential and updating them properly, with genuine information gain, current statistics, and AI friendly structure, so a business gets more from the content it's already invested in instead of constantly starting from zero.
+F9XR Team builds this kind of systematic content auditing directly into its [website development](https://f9xr.org/pages/services.html){:target="_blank" rel="noopener noreferrer"}, [website redesign](https://f9xr.org/pages/services.html){:target="_blank" rel="noopener noreferrer"}, and [local SEO](https://f9xr.org/pages/services.html){:target="_blank" rel="noopener noreferrer"} work, identifying which existing pages carry untapped potential and updating them properly, with genuine information gain, current statistics, and AI friendly structure, so a business gets more from the content it's already invested in instead of constantly starting from zero.
 
 ---
 
@@ -146,6 +146,6 @@ F9XR Team builds this kind of systematic content auditing directly into its [web
 
 The instinct to always write something new is understandable, but the data tells a different story: some of the fastest, highest ROI wins available to a business are already sitting on their own website, in pages that used to rank, still carry existing backlinks and authority, and simply need a genuine, substantive update rather than a replacement. A systematic audit, paired with the discipline to refresh, rewrite, consolidate, or retire the right pages the right way, consistently outperforms the instinct to just publish more.
 
-Building that kind of ongoing content auditing process, alongside a strong website foundation to support it, is the work F9XR Team brings to its [website development](https://f9xr.github.io/pages/services.html){:target="_blank" rel="noopener noreferrer"}, [website redesign](https://f9xr.github.io/pages/services.html){:target="_blank" rel="noopener noreferrer"}, and [local SEO](https://f9xr.github.io/pages/services.html){:target="_blank" rel="noopener noreferrer"} services, so the content a business has already invested in keeps earning its place instead of quietly decaying in the background.
+Building that kind of ongoing content auditing process, alongside a strong website foundation to support it, is the work F9XR Team brings to its [website development](https://f9xr.org/pages/services.html){:target="_blank" rel="noopener noreferrer"}, [website redesign](https://f9xr.org/pages/services.html){:target="_blank" rel="noopener noreferrer"}, and [local SEO](https://f9xr.org/pages/services.html){:target="_blank" rel="noopener noreferrer"} services, so the content a business has already invested in keeps earning its place instead of quietly decaying in the background.
 
-*Produced using AI-assisted research and drafting workflows, then reviewed and edited by the F9XR editorial team. See our [Editorial Policy](https://f9xr.github.io/articles/press/editorial-policy.html) for how we create and verify content.*
+*Produced using AI-assisted research and drafting workflows, then reviewed and edited by the F9XR editorial team. See our [Editorial Policy](https://f9xr.org/articles/press/editorial-policy.html) for how we create and verify content.*

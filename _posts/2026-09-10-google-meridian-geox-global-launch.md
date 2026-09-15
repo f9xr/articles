@@ -1,4 +1,4 @@
----
+﻿---
 layout: post
 title: "Google Launches Meridian GeoX Globally: What to Know"
 description: "Google's Meridian GeoX is now globally available, offering cheaper geo experiments and proven incrementality data. Here's what businesses should know."
@@ -39,7 +39,7 @@ Why does incrementality keep showing up in these conversations? Because most rep
 
 ## What Is Meridian GeoX?
 
-Meridian GeoX is an open-source tool for running geographic incrementality experiments, and it's built to work alongside [Meridian](https://developers.google.com/meridian){:target="_blank" rel="noopener noreferrer"}, Google's existing open-source [marketing mix modeling](https://f9xr.github.io/articles/2026/08/23/sem-metrics-complete-guide-2026.html) (MMM) tool. Google first previewed GeoX back in May 2026 at Google Marketing Live, and after months of closed testing, it's now generally available worldwide.
+Meridian GeoX is an open-source tool for running geographic incrementality experiments, and it's built to work alongside [Meridian](https://developers.google.com/meridian){:target="_blank" rel="noopener noreferrer"}, Google's existing open-source [marketing mix modeling](https://f9xr.org/articles/2026/08/23/sem-metrics-complete-guide-2026.html) (MMM) tool. Google first previewed GeoX back in May 2026 at Google Marketing Live, and after months of closed testing, it's now generally available worldwide.
 
 In simple terms, GeoX helps advertisers test whether their advertising is actually causing sales or engagement to increase, by comparing results across different geographic regions, some exposed to a campaign, others held back as a control group. This is a classic incrementality testing method, but Google has built GeoX to make it faster, cheaper, and more accessible than traditional geo-testing approaches.
 
@@ -106,11 +106,11 @@ The practical takeaway is that a well-run geo study gives you a number you can d
 
 ### Moving Beyond Vanity Metrics
 
-Clicks, impressions, and even conversions tracked through platform attribution can be misleading, since they often can't tell you whether a sale would have happened anyway. Incrementality testing, the concept GeoX is built around, pushes marketers toward measuring actual causal business impact instead of numbers that look good on a dashboard but don't reflect [actual growth](https://f9xr.github.io/articles/2026/08/23/sem-metrics-complete-guide-2026.html). It also connects to a deeper question every business should be asking: [what do your customers actually want](https://f9xr.github.io/articles/2026/08/21/decoding-search-intent-what-customers-want.html) from the channels you're paying for?
+Clicks, impressions, and even conversions tracked through platform attribution can be misleading, since they often can't tell you whether a sale would have happened anyway. Incrementality testing, the concept GeoX is built around, pushes marketers toward measuring actual causal business impact instead of numbers that look good on a dashboard but don't reflect [actual growth](https://f9xr.org/articles/2026/08/23/sem-metrics-complete-guide-2026.html). It also connects to a deeper question every business should be asking: [what do your customers actually want](https://f9xr.org/articles/2026/08/21/decoding-search-intent-what-customers-want.html) from the channels you're paying for?
 
 ### A Signal of Where Ad Measurement Is Headed
 
-Google has been steadily building toward this moment for over a year, from Meridian's initial global launch in January 2025, to the introduction of Tag Diagnostics, Data Manager API expansions, the [Local Customer Optimization rollout for Performance Max](https://f9xr.github.io/articles/2026/09/09/google-ads-local-customer-optimization.html), and the Meridian Scenario Planner earlier in 2026. GeoX's global launch is the latest piece of a much larger measurement system Google is building, one that's increasingly focused on [proving real-world impact](https://f9xr.github.io/articles/2026/08/19/seo-metrics-beyond-rankings.html) rather than relying on platform-reported numbers alone.
+Google has been steadily building toward this moment for over a year, from Meridian's initial global launch in January 2025, to the introduction of Tag Diagnostics, Data Manager API expansions, the [Local Customer Optimization rollout for Performance Max](https://f9xr.org/articles/2026/09/09/google-ads-local-customer-optimization.html), and the Meridian Scenario Planner earlier in 2026. GeoX's global launch is the latest piece of a much larger measurement system Google is building, one that's increasingly focused on [proving real-world impact](https://f9xr.org/articles/2026/08/19/seo-metrics-beyond-rankings.html) rather than relying on platform-reported numbers alone.
 
 ---
 
@@ -130,7 +130,7 @@ Google has been steadily building toward this moment for over a year, from Merid
 * GeoX is an open-source tool for running geographic incrementality experiments, helping advertisers measure the causal impact of their marketing rather than relying on correlation-based attribution.
 * Google reports that GeoX now enables geo experiments at roughly 31% lower cost than before.
 * The tool works across an advertiser's entire media mix, including non-Google platforms, and can test multiple campaigns against a shared control group in a single study.
-* GeoX results feed directly into Meridian, Google's [marketing mix modeling](https://f9xr.github.io/articles/2026/08/23/sem-metrics-complete-guide-2026.html) tool, giving marketers a more defensible, causal foundation for budget decisions.
+* GeoX results feed directly into Meridian, Google's [marketing mix modeling](https://f9xr.org/articles/2026/08/23/sem-metrics-complete-guide-2026.html) tool, giving marketers a more defensible, causal foundation for budget decisions.
 * This launch is part of a larger measurement system Google has been building since Meridian's original 2025 release, signaling a continued industry shift toward proving actual advertising impact.
 * Even smaller businesses and startups can benefit from understanding incrementality testing concepts when evaluating their own marketing performance and agency reporting.
 
@@ -142,13 +142,13 @@ Advanced measurement tools like Meridian GeoX are powerful, but they only matter
 
 The **F9XR Team** helps businesses build the strong digital foundation needed to actually benefit from smarter measurement and advertising tools, through:
 
-* **[Website development and redesign](https://f9xr.github.io/services/we-do-for-you.html)** that ensures your site converts visitors properly, so the traffic and campaigns you're measuring actually translate into results
-* **[Local SEO](https://f9xr.github.io/tools/local-seo-score.html)** services that strengthen your visibility across regions, especially valuable for businesses considering geo-based testing across multiple markets
-* **[Digital presence strategy](https://f9xr.github.io/tools/digital-presence.html)** that connects your advertising, analytics, and website into one cohesive system built for accurate measurement and long-term growth
+* **[Website development and redesign](https://f9xr.org/services/we-do-for-you.html)** that ensures your site converts visitors properly, so the traffic and campaigns you're measuring actually translate into results
+* **[Local SEO](https://f9xr.org/tools/local-seo-score.html)** services that strengthen your visibility across regions, especially valuable for businesses considering geo-based testing across multiple markets
+* **[Digital presence strategy](https://f9xr.org/tools/digital-presence.html)** that connects your advertising, analytics, and website into one cohesive system built for accurate measurement and long-term growth
 * Guidance on setting up proper conversion tracking and analytics, the exact foundation needed before more advanced measurement approaches like incrementality testing can deliver measurable value
 
 If Google is investing this heavily in proving what actually drives results, it's a good moment to make sure your own marketing foundation is built to be measured accurately in the first place.
 
 ---
 
-*Produced using AI-assisted research and drafting workflows, then reviewed and edited by the F9XR editorial team. See our [Editorial Policy](https://f9xr.github.io/articles/press/editorial-policy.html) for how we create and verify content.*
+*Produced using AI-assisted research and drafting workflows, then reviewed and edited by the F9XR editorial team. See our [Editorial Policy](https://f9xr.org/articles/press/editorial-policy.html) for how we create and verify content.*

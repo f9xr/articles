@@ -1,4 +1,4 @@
----
+﻿---
 layout: post
 title: "YouTube Get Feedback Tool: What Businesses Should Know"
 description: "YouTube's Get Feedback tool now reviews Shorts before you publish. Here's what business owners need to know and how to use it to get more views."
@@ -104,14 +104,14 @@ YouTube has also been building similar feedback capabilities into Ask Studio, wh
 Alongside the Get Feedback rollout, YouTube also announced that Premium Lite, its lower-cost, mostly ad-free subscription tier, is expanding to more than 20 additional countries, including Indonesia, the Netherlands, and Portugal. Under the YouTube Partner Programme, 60% of net Premium Lite subscription revenue goes into a creator revenue pool, distributed based on watch time and views. That isn't directly related to Get Feedback, but it does signal that YouTube is pushing harder on both creator tools and its subscription business at the same time.
 
 <center>
-<blockquote class="twitter-tweet"><p lang="en" dir="ltr">A couple of new updates rolling out across <a href="https://x.com/YouTube?ref_src=twsrc%5Etfw">@YouTube</a>: <br> <br>💡 A &quot;Get Feedback&quot; tool, giving <a href="https://x.com/YouTubeCreators?ref_src=twsrc%5Etfw">@YouTubeCreators</a> actionable tips on their Shorts concepts before going live. Just upload an unlisted draft to get tailored suggestions on a video&#39;s hooks, pacing, and structure.<br><br>🌍 Premium… <a href="https://t.co/sZMSrHIlmE">pic.twitter.com/sZMSrHIlmE</a></p>&mdash; Neal Mohan (@nealmohan) <a href="https://x.com/nealmohan/status/2092023125437538767?ref_src=twsrc%5Etfw">August 24, 2026</a></blockquote> <script async src="https://platform.x.com/widgets.js" charset="utf-8"></script>
+<blockquote class="twitter-tweet"><p lang="en" dir="ltr">A couple of new updates rolling out across <a href="https://x.com/YouTube?ref_src=twsrc%5Etfw">@YouTube</a>: <br> <br>ðŸ’¡ A &quot;Get Feedback&quot; tool, giving <a href="https://x.com/YouTubeCreators?ref_src=twsrc%5Etfw">@YouTubeCreators</a> actionable tips on their Shorts concepts before going live. Just upload an unlisted draft to get tailored suggestions on a video&#39;s hooks, pacing, and structure.<br><br>ðŸŒ Premiumâ€¦ <a href="https://t.co/sZMSrHIlmE">pic.twitter.com/sZMSrHIlmE</a></p>&mdash; Neal Mohan (@nealmohan) <a href="https://x.com/nealmohan/status/2092023125437538767?ref_src=twsrc%5Etfw">August 24, 2026</a></blockquote> <script async src="https://platform.x.com/widgets.js" charset="utf-8"></script>
 </center>
 
 ---
 
 ## Why This Matters for Business Owners, Startups, and Local Businesses
 
-If you're running a small business, a service company, or a local storefront, Shorts have quietly become one of the most accessible ways to get discovered on Google and YouTube search without spending on ads. Shorts is one of the fastest-growing content formats on the platform, and every video you post is another chance to show up in search results, suggested feeds, and AI-generated answers when people ask tools like ChatGPT or Gemini for recommendations. Short-form discovery is a core part of any [search everywhere optimization](https://f9xr.github.io/articles/2026/08/14/search-everywhere-optimization-youtube-google-seo.html) strategy, and the same mechanics that drive [TikTok and Instagram search optimization](https://f9xr.github.io/articles/2026/08/14/tiktok-instagram-search-optimization-guide.html) apply to Shorts.
+If you're running a small business, a service company, or a local storefront, Shorts have quietly become one of the most accessible ways to get discovered on Google and YouTube search without spending on ads. Shorts is one of the fastest-growing content formats on the platform, and every video you post is another chance to show up in search results, suggested feeds, and AI-generated answers when people ask tools like ChatGPT or Gemini for recommendations. Short-form discovery is a core part of any [search everywhere optimization](https://f9xr.org/articles/2026/08/14/search-everywhere-optimization-youtube-google-seo.html) strategy, and the same mechanics that drive [TikTok and Instagram search optimization](https://f9xr.org/articles/2026/08/14/tiktok-instagram-search-optimization-guide.html) apply to Shorts.
 
 Here's why Get Feedback specifically matters if you don't have a dedicated video team:
 
@@ -129,7 +129,7 @@ There's no additional cost to use Get Feedback. For startups watching every mark
 
 ### 4. It reinforces what actually drives retention
 
-Hook strength and pacing are two of the biggest factors in whether a viewer keeps watching past the first few seconds, which directly affects whether YouTube recommends your video to more people. Nothing in YouTube's announcement claims these suggestions predict views or guarantee better results, but stronger hooks and pacing line up with the retention signals YouTube has said help organic reach. It's the same story as YouTube's recent [changes to how it counts views](https://f9xr.github.io/articles/2026/08/18/youtube-changes-how-it-counts-views-long-form-live.html): how YouTube measures attention keeps evolving, so content built to hold it keeps its value.
+Hook strength and pacing are two of the biggest factors in whether a viewer keeps watching past the first few seconds, which directly affects whether YouTube recommends your video to more people. Nothing in YouTube's announcement claims these suggestions predict views or guarantee better results, but stronger hooks and pacing line up with the retention signals YouTube has said help organic reach. It's the same story as YouTube's recent [changes to how it counts views](https://f9xr.org/articles/2026/08/18/youtube-changes-how-it-counts-views-long-form-live.html): how YouTube measures attention keeps evolving, so content built to hold it keeps its value.
 
 ---
 
@@ -164,7 +164,7 @@ Make changes if the feedback flags a real problem, like a slow opening or unclea
 * **Use it as a second opinion, not a rulebook.** YouTube's suggestions are general guidance. Your brand tone, humor, and local relevance still matter more than any checklist.
 * **Combine it with real performance data.** Once your Short is live, check your retention graph in YouTube Studio to see whether the changes you made based on Get Feedback actually helped.
 * **Test it on a range of content types.** Product demos, behind-the-scenes clips, and customer testimonials all pace differently, so see how the tool responds to each.
-* **Keep it in your regular workflow.** Treat Get Feedback the way you'd treat a proofreading pass on a blog post, the same quality-first habit behind [how to write SEO-friendly articles](https://f9xr.github.io/articles/2026/09/09/how-to-write-seo-friendly-articles.html), just applied to video.
+* **Keep it in your regular workflow.** Treat Get Feedback the way you'd treat a proofreading pass on a blog post, the same quality-first habit behind [how to write SEO-friendly articles](https://f9xr.org/articles/2026/09/09/how-to-write-seo-friendly-articles.html), just applied to video.
 
 ---
 
@@ -172,7 +172,7 @@ Make changes if the feedback flags a real problem, like a slow opening or unclea
 
 Search is no longer just about Google rankings. AI assistants like ChatGPT, Gemini, Claude, and Perplexity increasingly pull from video platforms, including YouTube, when answering questions about businesses, products, and local services. Well-paced Shorts with strong retention get watched through, shared, and indexed more often, and that feeds into how visible your content is across both traditional search and AI-generated answers.
 
-In other words, a tool that helps you avoid a weak hook isn't just about one video performing better. It's about building a consistent library of content that search engines and AI systems can confidently associate with your business as a credible, active presence. For the broader playbook on winning visibility in AI answers, our guide on [key strategies to rank on AI](https://f9xr.github.io/articles/2026/09/07/key-strategies-to-rank-on-ai.html) covers the mechanics beyond video.
+In other words, a tool that helps you avoid a weak hook isn't just about one video performing better. It's about building a consistent library of content that search engines and AI systems can confidently associate with your business as a credible, active presence. For the broader playbook on winning visibility in AI answers, our guide on [key strategies to rank on AI](https://f9xr.org/articles/2026/09/07/key-strategies-to-rank-on-ai.html) covers the mechanics beyond video.
 
 ---
 
@@ -194,4 +194,4 @@ YouTube's decision to widen Get Feedback to all eligible U.S. creators is a smal
 
 Of course, a strong hook and clean pacing only get you part of the way there. Turning consistent Shorts into real, measurable traffic, leads, and local visibility still comes down to a solid digital strategy behind the scenes, from how your website is built to how discoverable your business is across Google, YouTube, and AI-powered search tools. That's where the **F9XR Team** comes in, helping businesses with website development, website redesigns, local SEO, and full digital presence strategies that make sure the content you create actually works for your bottom line.
 
-*Produced using AI-assisted research and drafting workflows, then reviewed and edited by the F9XR editorial team. See our [Editorial Policy](https://f9xr.github.io/articles/press/editorial-policy.html) for how we create and verify content.*
+*Produced using AI-assisted research and drafting workflows, then reviewed and edited by the F9XR editorial team. See our [Editorial Policy](https://f9xr.org/articles/press/editorial-policy.html) for how we create and verify content.*

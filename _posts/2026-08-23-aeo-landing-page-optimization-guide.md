@@ -1,8 +1,8 @@
----
+﻿---
 layout: post
 title: "AEO Landing Page Guide: Get Cited by AI in 2026"
 description: "The complete 2026 guide to optimizing business landing pages for AEO, so ChatGPT, Gemini, Claude, and Perplexity actually cite you."
-image: "https://f9xr.github.io/articles/assets/post-images/aeo-landing-page-optimization-guide.webp"
+image: "https://f9xr.org/articles/assets/post-images/aeo-landing-page-optimization-guide.webp"
 image_width: 1200
 image_height: 630
 date: 2026-08-23
@@ -33,7 +33,7 @@ This guide walks through exactly how to optimize your business landing pages for
 
 ## Step 1: Understand User Intent, Especially Question Based Intent
 
-Before touching a single page, you need to know exactly [what questions your target audience is actually asking](https://f9xr.github.io/articles/2026/08/21/decoding-search-intent-what-customers-want.html), in their own words, not the keyword phrasing you'd naturally reach for.
+Before touching a single page, you need to know exactly [what questions your target audience is actually asking](https://f9xr.org/articles/2026/08/21/decoding-search-intent-what-customers-want.html), in their own words, not the keyword phrasing you'd naturally reach for.
 
 **Where to find real questions:**
 
@@ -82,7 +82,7 @@ AI systems are increasingly attributing answers to specific organizations, not j
 **What this looks like in practice:**
 
 - A complete, accurate [Organization schema](https://schema.org/Organization){:target="_blank" rel="noopener noreferrer"} block on your homepage and contact page, including your name, URL, logo, address, contact information, and social profiles.
-- Consistent business information across your website, Google Business Profile, and any directories, since contradictions actively undermine an AI system's confidence in citing you. Our guide to [structuring local business data for AI indexers](https://f9xr.github.io/articles/2026/08/19/structuring-local-business-data-meta-ai-indexers.html) covers this in depth.
+- Consistent business information across your website, Google Business Profile, and any directories, since contradictions actively undermine an AI system's confidence in citing you. Our guide to [structuring local business data for AI indexers](https://f9xr.org/articles/2026/08/19/structuring-local-business-data-meta-ai-indexers.html) covers this in depth.
 - An About page with real, specific detail, not generic language, since this is exactly the kind of content AI systems use to confirm who's actually behind a business.
 
 ## Step 5: Format for Extraction, Not Just Readability
@@ -105,13 +105,13 @@ Each key answer should make sense if it were lifted out of your page entirely an
 
 Freshness matters more for AEO than most business owners assume, and the data backs this up sharply. Pages that aren't updated on a quarterly cadence lose AI citations at roughly three times the normal rate compared to pages maintained on a regular schedule.
 
-**Practical tip:** Add a visible "last updated" date to key landing pages, and treat quarterly content review as a standing task, not an occasional cleanup project. Update statistics, confirm pricing is still accurate, and refresh examples that may have gone stale. If your site has older pages slipping through the cracks, a [systematic content audit](https://f9xr.github.io/articles/2026/08/20/reviving-dead-content-systematic-audits.html) is the fastest way to catch them.
+**Practical tip:** Add a visible "last updated" date to key landing pages, and treat quarterly content review as a standing task, not an occasional cleanup project. Update statistics, confirm pricing is still accurate, and refresh examples that may have gone stale. If your site has older pages slipping through the cracks, a [systematic content audit](https://f9xr.org/articles/2026/08/20/reviving-dead-content-systematic-audits.html) is the fastest way to catch them.
 
 ## Step 7: Confirm Basic Technical Access
 
 None of the content or schema work above matters if AI crawlers can't reach your page in the first place.
 
-- Confirm your robots.txt isn't accidentally blocking major AI crawlers, GPTBot, ClaudeBot, PerplexityBot, and Google Extended. Our walkthrough of the [essential text files for SEO, AEO, and GEO](https://f9xr.github.io/articles/2026/08/08/essential-txt-files-seo-aeo-geo-2026.html) covers what should be in place.
+- Confirm your robots.txt isn't accidentally blocking major AI crawlers, GPTBot, ClaudeBot, PerplexityBot, and Google Extended. Our walkthrough of the [essential text files for SEO, AEO, and GEO](https://f9xr.org/articles/2026/08/08/essential-txt-files-seo-aeo-geo-2026.html) covers what should be in place.
 - Make sure your key content, especially your direct answers and pricing, appears in the page's raw HTML, not only injected after the fact by client side JavaScript.
 - Keep page load speed reasonable, since slow, heavy pages create friction for both crawlers and human visitors alike.
 
@@ -146,7 +146,7 @@ AEO measurement looks different from traditional rank tracking, and it's worth s
 
 Building landing pages that satisfy both human visitors and AI answer engines, answer first structure, accurate schema, entity consistency, and a maintained freshness cadence, is detailed, ongoing work most business owners don't have the bandwidth to manage alone, especially while everything about AI search keeps shifting.
 
-F9XR Team builds AEO principles directly into its [website development, website redesign, and local SEO](https://f9xr.github.io/pages/services.html) work, structuring landing pages so they earn citation across ChatGPT, Gemini, Claude, and Perplexity, not just rank well on Google. That means a business's website becomes a source AI systems trust and reference, instead of a page that quietly gets skipped in favor of a better structured competitor.
+F9XR Team builds AEO principles directly into its [website development, website redesign, and local SEO](https://f9xr.org/pages/services.html) work, structuring landing pages so they earn citation across ChatGPT, Gemini, Claude, and Perplexity, not just rank well on Google. That means a business's website becomes a source AI systems trust and reference, instead of a page that quietly gets skipped in favor of a better structured competitor.
 
 ## Key Takeaways
 
@@ -163,4 +163,4 @@ Optimizing a landing page for AEO isn't about chasing a single trick or a schema
 
 Building that kind of AEO ready foundation, alongside the broader technical and local SEO work that supports it, is exactly what F9XR Team brings to its website development, website redesign, and local SEO services, so your business isn't just findable, it's the answer AI systems actually choose to give.
 
-*Produced using AI-assisted research and drafting workflows, then reviewed and edited by the F9XR editorial team. See our [Editorial Policy](https://f9xr.github.io/articles/press/editorial-policy.html) for how we create and verify content.*
+*Produced using AI-assisted research and drafting workflows, then reviewed and edited by the F9XR editorial team. See our [Editorial Policy](https://f9xr.org/articles/press/editorial-policy.html) for how we create and verify content.*

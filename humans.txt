@@ -1,8 +1,8 @@
-# F9XR Articles — Humans.txt
+﻿# F9XR Articles â€” Humans.txt
 
 ## Team
 
-F9XR Team — a digital architecture agency based in India serving a global
+F9XR Team â€” a digital architecture agency based in India serving a global
 client footprint. We build high-performance web ecosystems, AI-powered
 systems, and local SEO infrastructure.
 
@@ -29,4 +29,4 @@ https://github.com/f9xr/articles
 ## Contact
 
 For security issues, see security.txt.
-For business inquiries, visit https://f9xr.github.io/pages/contact.html
+For business inquiries, visit https://f9xr.org/pages/contact.html

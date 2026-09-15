@@ -1,8 +1,8 @@
----
+﻿---
 layout: post
 title: "Let Claude Build Your Blog's Internal Links"
 description: "Stop guessing at internal links. Here is how to let Claude read your sitemap and suggest smart, contextual internal links for every new post."
-image: "https://f9xr.github.io/articles/assets/post-images/let-claude-do-internal-linking-for-blog-posts.webp"
+image: "https://f9xr.org/articles/assets/post-images/let-claude-do-internal-linking-for-blog-posts.webp"
 image_width: 1200
 image_height: 630
 image_credit: "Hero image: Claude by Anthropic"
@@ -34,7 +34,7 @@ In this guide, we will cover why internal linking still matters in 2026, especia
 
 Internal linking used to be talked about purely in terms of Google rankings. Passing link equity, helping crawlers discover pages, keeping readers on your site longer. All of that is still true. But there is a second reason it matters now that did not exist a few years ago.
 
-AI search tools like ChatGPT, Gemini, Perplexity, and Claude itself learn a lot about a website by how its pages connect to each other. A cluster of well linked articles around one topic reads as a signal of real expertise. A pile of disconnected posts reads as thin content, even if each individual page is well written. If you want your site to be the kind of source an AI assistant cites, your internal linking structure is part of how it decides that. We covered the rest of that playbook in our guide on [key strategies to rank on AI search engines](https://f9xr.github.io/articles/2026/09/07/key-strategies-to-rank-on-ai.html).
+AI search tools like ChatGPT, Gemini, Perplexity, and Claude itself learn a lot about a website by how its pages connect to each other. A cluster of well linked articles around one topic reads as a signal of real expertise. A pile of disconnected posts reads as thin content, even if each individual page is well written. If you want your site to be the kind of source an AI assistant cites, your internal linking structure is part of how it decides that. We covered the rest of that playbook in our guide on [key strategies to rank on AI search engines](https://f9xr.org/articles/2026/09/07/key-strategies-to-rank-on-ai.html).
 
 Google's own documentation has treated [internal links as a core part of how it discovers and understands pages](https://developers.google.com/search/docs/crawling-indexing/links-crawlable){:target="_blank" rel="noopener noreferrer"} for years. The signal that helps Googlebot map your site is the same one that now helps answer engines weigh your topical authority.
 
@@ -81,7 +81,7 @@ A simple prompt template looks like this:
 
 Claude will get most of these right, but you know your business and your content better than any AI does. Skim the suggestions, cut anything that feels forced, and add the ones that make sense. This step takes a few minutes and it is the difference between links that help your SEO and links that just clutter the page.
 
-Also verify the target URLs exist. An AI model can occasionally suggest a page that has a sensible sounding title but was never published, so click through anything you are not sure about before the post goes live. If you want the writing around those links to pull its weight too, our guide on [how to write SEO friendly articles](https://f9xr.github.io/articles/2026/09/09/how-to-write-seo-friendly-articles.html) covers the paragraph level details that make both read naturally.
+Also verify the target URLs exist. An AI model can occasionally suggest a page that has a sensible sounding title but was never published, so click through anything you are not sure about before the post goes live. If you want the writing around those links to pull its weight too, our guide on [how to write SEO friendly articles](https://f9xr.org/articles/2026/09/09/how-to-write-seo-friendly-articles.html) covers the paragraph level details that make both read naturally.
 
 ### Step 5: Do It Again a Month Later, in Reverse
 
@@ -118,7 +118,7 @@ Multiply that by every post you have ever written, and you can see why doing thi
 
 Setting this up once is easy enough. Keeping it consistent every single time you publish, across a growing archive of articles, client updates, and service pages, is where most small teams eventually drop the ball.
 
-F9XR Team works with Chartered Accountants, Company Secretaries, CMAs, and small business owners who want their content actually working for them, not just sitting online. Two of our public tools show what that looks like in practice. The [F9XR SEO Codebase Auditor skill guide](https://f9xr.github.io/articles/2026/07/31/f9xr-seo-codebase-auditor-skill-guide.html) walks through how we audit a site's technical foundation, and the [SEO Codebase Auditor v5.1 update](https://f9xr.github.io/articles/2026/08/26/seo-codebase-auditor-v5-1-update.html) breaks down the new checks we added, including the internal link and content analysis we now run by default. If you want a proper internal linking system built into your publishing workflow, along with website development, content strategy, and local SEO that is done right the first time, that is the kind of work we handle regularly.
+F9XR Team works with Chartered Accountants, Company Secretaries, CMAs, and small business owners who want their content actually working for them, not just sitting online. Two of our public tools show what that looks like in practice. The [F9XR SEO Codebase Auditor skill guide](https://f9xr.org/articles/2026/07/31/f9xr-seo-codebase-auditor-skill-guide.html) walks through how we audit a site's technical foundation, and the [SEO Codebase Auditor v5.1 update](https://f9xr.org/articles/2026/08/26/seo-codebase-auditor-v5-1-update.html) breaks down the new checks we added, including the internal link and content analysis we now run by default. If you want a proper internal linking system built into your publishing workflow, along with website development, content strategy, and local SEO that is done right the first time, that is the kind of work we handle regularly.
 
 ## Key Takeaways
 
@@ -126,7 +126,7 @@ F9XR Team works with Chartered Accountants, Company Secretaries, CMAs, and small
 * Doing this manually does not scale past a handful of posts.
 * Feed Claude your sitemap and your new draft together, and ask for links tied to specific sentences, not just a list of URLs.
 * Always review Claude's suggestions before publishing. You still know your business best.
-* Revisit older posts periodically so your newest content gets linked to as well, not just from it. A consistent internal linking habit compounds over time, the same way a [link building and digital PR strategy](https://f9xr.github.io/articles/2026/08/26/link-building-digital-pr-strategy-2026.html) compounds backlinks.
+* Revisit older posts periodically so your newest content gets linked to as well, not just from it. A consistent internal linking habit compounds over time, the same way a [link building and digital PR strategy](https://f9xr.org/articles/2026/08/26/link-building-digital-pr-strategy-2026.html) compounds backlinks.
 
 ## Conclusion
 
@@ -134,4 +134,4 @@ Internal linking is one of those SEO basics that is simple in theory and easy to
 
 If you would rather have this built into a proper content and SEO system instead of managing it prompt by prompt, F9XR Team offers website development, website redesign, local SEO, and complete digital presence solutions built for small businesses and finance professionals who want their content to work for them.
 
-*Produced using AI-assisted research and drafting workflows, then reviewed and edited by the F9XR editorial team. See our [Editorial Policy](https://f9xr.github.io/articles/press/editorial-policy.html) for how we create and verify content.*
+*Produced using AI-assisted research and drafting workflows, then reviewed and edited by the F9XR editorial team. See our [Editorial Policy](https://f9xr.org/articles/press/editorial-policy.html) for how we create and verify content.*

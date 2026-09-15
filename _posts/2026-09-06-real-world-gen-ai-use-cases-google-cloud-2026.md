@@ -1,8 +1,8 @@
----
+﻿---
 layout: post
 title: "1,302 Real World Gen AI Use Cases You Should Know"
 description: "Google Cloud's updated list of 1,302 real-world gen AI use cases reveals where AI is actually working. Here's what business owners can learn from it."
-image: "https://f9xr.github.io/articles/assets/post-images/real-world-gen-ai-use-cases-google-cloud-2026.webp"
+image: "https://f9xr.org/articles/assets/post-images/real-world-gen-ai-use-cases-google-cloud-2026.webp"
 image_width: 1200
 image_height: 630
 image_credit: "Image via Google Cloud Next 2026."
@@ -38,7 +38,7 @@ Google Cloud first published this collection at its Next conference in April 202
 
 Within each industry, the entries are further sorted into six categories of what Google calls agent types: Customer, Employee, Creative, Code, Data, and Security. That structure is useful for a business owner, because it maps roughly to the actual departments and functions most companies already have, rather than abstract AI jargon.
 
-<img src="https://f9xr.github.io/articles/assets/post-images/gen-ai-automotive-logistics.webp" alt="AI use cases in automotive and logistics, from Google Cloud's real-world gen AI list" title="Gen AI in automotive and logistics" width="900" height="367" loading="lazy" />
+<img src="https://f9xr.org/articles/assets/post-images/gen-ai-automotive-logistics.webp" alt="AI use cases in automotive and logistics, from Google Cloud's real-world gen AI list" title="Gen AI in automotive and logistics" width="900" height="367" loading="lazy" />
 
 Google says it used its own AI tools, including Gemini, to help analyze the dataset once it grew too large to review manually, then had its team select and refine the most notable patterns. A few of the broader trends Google highlighted from the 2026 update are useful to understand even if you never read the full list:
 
@@ -48,7 +48,7 @@ Google says it used its own AI tools, including Gemini, to help analyze the data
 * AI is increasingly being pointed at physical, real world data, like camera feeds, sensors, and photos, not just text and spreadsheets
 * Security teams are moving from AI that flags problems to AI that can act automatically to contain them
 
-<img src="https://f9xr.github.io/articles/assets/post-images/gen-ai-agent-types.webp" alt="The six agent types organizing Google Cloud's gen AI use case list" title="Six gen AI agent types" width="1200" height="801" loading="lazy" />
+<img src="https://f9xr.org/articles/assets/post-images/gen-ai-agent-types.webp" alt="The six agent types organizing Google Cloud's gen AI use case list" title="Six gen AI agent types" width="1200" height="801" loading="lazy" />
 
 ---
 
@@ -101,7 +101,7 @@ The pattern to pay attention to isn't any single flashy example. It's how consis
 
 None of that requires a massive budget or an in-house engineering team. Most of the tools referenced in the list are built on the same underlying AI models available through consumer and small business plans today, including product lines like [Gemini Enterprise](https://cloud.google.com/gemini-enterprise).
 
-<img src="https://f9xr.github.io/articles/assets/post-images/gen-ai-next-conference.webp" alt="Attendees at Google Cloud Next 2026 where the gen AI use case list was expanded" title="Google Cloud Next 2026" width="1200" height="800" loading="lazy" />
+<img src="https://f9xr.org/articles/assets/post-images/gen-ai-next-conference.webp" alt="Attendees at Google Cloud Next 2026 where the gen AI use case list was expanded" title="Google Cloud Next 2026" width="1200" height="800" loading="lazy" />
 
 ### A Few Practical Ways to Apply This
 
@@ -121,11 +121,11 @@ Reading through a list like this is inspiring, but figuring out what actually ap
 We help businesses translate broad AI trends into practical improvements for their own website and digital presence. That includes:
 
 * Building AI powered chat and FAQ tools into your website so customers get instant answers to common questions
-* [Website development and redesign](https://f9xr.github.io/services/index.html) that make it easier to integrate AI powered features down the line
-* [Local SEO management](https://f9xr.github.io/services/google-business-optimization.html), so your business is visible both on traditional Google search and on AI search tools like ChatGPT, Gemini, and Perplexity
+* [Website development and redesign](https://f9xr.org/services/index.html) that make it easier to integrate AI powered features down the line
+* [Local SEO management](https://f9xr.org/services/google-business-optimization.html), so your business is visible both on traditional Google search and on AI search tools like ChatGPT, Gemini, and Perplexity
 * Ongoing digital presence support to help you adopt the right AI tools for your size and industry, without overcomplicating your operations
 
-If this list made you curious about what AI could realistically do for your specific business, that's exactly the kind of conversation we have with clients regularly. A good starting point is auditing what you already have, and our [monthly website audit checklist](https://f9xr.github.io/articles/2026/09/03/monthly-website-audit-checklist.html) covers the AI visibility side of that process.
+If this list made you curious about what AI could realistically do for your specific business, that's exactly the kind of conversation we have with clients regularly. A good starting point is auditing what you already have, and our [monthly website audit checklist](https://f9xr.org/articles/2026/09/03/monthly-website-audit-checklist.html) covers the AI visibility side of that process.
 
 ---
 
@@ -144,6 +144,6 @@ If this list made you curious about what AI could realistically do for your spec
 
 What makes Google's list useful isn't the scale of it, it's the pattern underneath. Across 1,302 examples, the businesses seeing real results aren't necessarily the ones with the biggest AI budgets. They're the ones that picked one specific, repetitive problem and pointed AI directly at it.
 
-If you're a small business owner trying to figure out where to start with AI, or just trying to make sure your website and digital presence are keeping pace with how customers now search and interact with businesses, that's exactly the kind of practical, right sized guidance F9XR Team provides, from [website development and redesigns](https://f9xr.github.io/services/index.html) to [local SEO](https://f9xr.github.io/services/google-business-optimization.html) and broader digital presence solutions built around what actually works for a business your size.
+If you're a small business owner trying to figure out where to start with AI, or just trying to make sure your website and digital presence are keeping pace with how customers now search and interact with businesses, that's exactly the kind of practical, right sized guidance F9XR Team provides, from [website development and redesigns](https://f9xr.org/services/index.html) to [local SEO](https://f9xr.org/services/google-business-optimization.html) and broader digital presence solutions built around what actually works for a business your size.
 
-*Produced using AI-assisted research and drafting workflows, then reviewed and edited by the F9XR editorial team. See our [Editorial Policy](https://f9xr.github.io/articles/press/editorial-policy.html) for how we create and verify content.*
+*Produced using AI-assisted research and drafting workflows, then reviewed and edited by the F9XR editorial team. See our [Editorial Policy](https://f9xr.org/articles/press/editorial-policy.html) for how we create and verify content.*

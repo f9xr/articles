@@ -1,8 +1,8 @@
----
+﻿---
 layout: post
 title: "Google's New Weather AI: WeatherNext 3 Explained"
 description: "Google's new Weather AI, WeatherNext 3, brings hourly, hyper-local forecasts to Search and Maps. Here's what it means for local businesses."
-image: "https://f9xr.github.io/articles/assets/post-images/google-new-weather-ai-weathernext-3.webp"
+image: "https://f9xr.org/articles/assets/post-images/google-new-weather-ai-weathernext-3.webp"
 image_width: 1200
 image_height: 630
 image_credit: "Image via Google's WeatherNext 3 announcement."
@@ -60,7 +60,7 @@ Instead of relying only on periodic data updates, the model trains directly on:
 
 Because satellite imagery now arrives within about an hour instead of the traditional six-hour gap, the model can refresh its forecasts hourly instead of every six hours, a meaningful jump for anything involving fast-changing conditions like storms or sudden rainfall.
 
-<img src="https://f9xr.github.io/articles/assets/post-images/weathernext3-fig-01.webp" alt="Diagram showing how WeatherNext 3 combines satellite and surface data for forecasting" title="WeatherNext 3's data inputs" width="1200" height="675" loading="lazy" />
+<img src="https://f9xr.org/articles/assets/post-images/weathernext3-fig-01.webp" alt="Diagram showing how WeatherNext 3 combines satellite and surface data for forecasting" title="WeatherNext 3's data inputs" width="1200" height="675" loading="lazy" />
 
 ---
 
@@ -80,7 +80,7 @@ Google also reports that WeatherNext 3 outperformed rival AI weather systems bui
 
 One caveat to keep in mind: terms like "hourly," "5 km," and "15 days" describe different capabilities of the model rather than one single forecast product available instantly at the finest resolution everywhere. The 5 km resolution applies to specific surface variables like temperature and moisture, while wind speed forecasts currently run at a coarser 25 km resolution.
 
-<img src="https://f9xr.github.io/articles/assets/post-images/weathernext3-fig-03.webp" alt="Chart comparing forecast accuracy improvements in WeatherNext 3" title="How WeatherNext 3 stacks up" width="1200" height="675" loading="lazy" />
+<img src="https://f9xr.org/articles/assets/post-images/weathernext3-fig-03.webp" alt="Chart comparing forecast accuracy improvements in WeatherNext 3" title="How WeatherNext 3 stacks up" width="1200" height="675" loading="lazy" />
 
 ---
 
@@ -106,7 +106,7 @@ Google specifically highlighted that higher-resolution wind, rain, and cloud cov
 
 ### 5. Local SEO and Discovery
 
-Here's a less obvious angle. As Google increasingly layers AI-generated context like weather conditions into Search and Maps results, local businesses that show up clearly in these AI-enhanced experiences stand to benefit from more relevant, context-aware visibility. A well-optimized Google Business Profile paired with strong [local SEO](https://f9xr.github.io/services/google-business-optimization.html) means your business is positioned to benefit when Google surfaces smarter, more contextual local information to nearby customers. We covered how AI systems pick which local businesses to recommend in an earlier piece on [how AI chooses local businesses](https://f9xr.github.io/articles/2026/08/16/how-ai-picks-local-businesses-2026.html).
+Here's a less obvious angle. As Google increasingly layers AI-generated context like weather conditions into Search and Maps results, local businesses that show up clearly in these AI-enhanced experiences stand to benefit from more relevant, context-aware visibility. A well-optimized Google Business Profile paired with strong [local SEO](https://f9xr.org/services/google-business-optimization.html) means your business is positioned to benefit when Google surfaces smarter, more contextual local information to nearby customers. We covered how AI systems pick which local businesses to recommend in an earlier piece on [how AI chooses local businesses](https://f9xr.org/articles/2026/08/16/how-ai-picks-local-businesses-2026.html).
 
 ---
 
@@ -118,7 +118,7 @@ Here's how to actually put this update to use, rather than just reading about it
 2. **Build weather-aware messaging into customer communication.** Delivery businesses and service providers can proactively notify customers about weather-related delays using more reliable short-term forecasts.
 3. **Use Google Cloud access if you're a developer.** Startups building location-based or logistics apps can integrate WeatherNext 3 data directly through [Google Cloud](https://cloud.google.com/maps-platform) and Google Maps Platform for more accurate in-app forecasting.
 4. **Don't treat AI forecasts as guaranteed.** Even with major improvements, Google's own data shows regional performance varies, and best-case accuracy figures haven't yet been independently verified by national meteorological services. Use forecasts as a strong guide, not an absolute guarantee.
-5. **Pair smarter forecasting with smarter local visibility.** If weather-driven decisions affect your foot traffic or bookings, make sure your website and local listings are optimized so customers can quickly find your hours, availability, and updates when conditions change. That's where structured [answer engine optimization](https://f9xr.github.io/articles/2026/08/23/aeo-landing-page-optimization-guide.html) work pays off.
+5. **Pair smarter forecasting with smarter local visibility.** If weather-driven decisions affect your foot traffic or bookings, make sure your website and local listings are optimized so customers can quickly find your hours, availability, and updates when conditions change. That's where structured [answer engine optimization](https://f9xr.org/articles/2026/08/23/aeo-landing-page-optimization-guide.html) work pays off.
 
 ---
 
@@ -130,7 +130,7 @@ Here's how to actually put this update to use, rather than just reading about it
 * It trains directly on real-time satellite data and ground observations rather than relying solely on traditional physics simulations.
 * Local businesses in retail, delivery, construction, and field services can benefit from more reliable, hyper-local forecasting for daily operational decisions.
 * Independent benchmarking shows WeatherNext 3 outperforming rival AI systems from Microsoft, Nvidia, and European forecasting agencies, though some accuracy figures haven't yet been independently verified.
-* As Google layers smarter, AI-driven context into Search and Maps, strong [local SEO](https://f9xr.github.io/services/google-business-optimization.html) becomes even more valuable for business visibility.
+* As Google layers smarter, AI-driven context into Search and Maps, strong [local SEO](https://f9xr.org/services/google-business-optimization.html) becomes even more valuable for business visibility.
 
 ---
 
@@ -145,7 +145,7 @@ The F9XR Team helps small businesses, startups, and local brands stay visible an
 * **Digital presence strategy** that accounts for how customers now discover businesses through both traditional search and AI-driven tools
 * Guidance on how to align your online presence with Google's increasingly AI-integrated products, so your business benefits rather than gets left behind
 
-If Google is investing this heavily in smarter, real-time, localized information, it's a good moment to ask whether your business's own digital presence is just as sharp. Teams working on [AI visibility optimization](https://f9xr.github.io/services/ai-visibility-optimization.html) are already treating these shifts as standard practice, and tracking how AI surfaces [citations and visibility](https://f9xr.github.io/articles/2026/08/26/monitor-ai-search-trends-boost-visibility-citations.html) is one of the most effective levers as this plays out.
+If Google is investing this heavily in smarter, real-time, localized information, it's a good moment to ask whether your business's own digital presence is just as sharp. Teams working on [AI visibility optimization](https://f9xr.org/services/ai-visibility-optimization.html) are already treating these shifts as standard practice, and tracking how AI surfaces [citations and visibility](https://f9xr.org/articles/2026/08/26/monitor-ai-search-trends-boost-visibility-citations.html) is one of the most effective levers as this plays out.
 
 ---
 
@@ -153,6 +153,6 @@ If Google is investing this heavily in smarter, real-time, localized information
 
 Google's rollout of WeatherNext 3 is a clear sign of how deeply AI is reshaping even the most everyday parts of our digital lives, right down to whether you'll need an umbrella tomorrow. For local businesses and startups, the real opportunity isn't just better weather data. It's understanding how Google's broader shift toward smarter, real-time, AI-driven information affects how customers search, plan, and make decisions every day.
 
-As Google continues weaving AI deeper into Search, Maps, and Gemini, staying visible and relevant in these experiences matters more than ever. Whether that means having a website built to perform well across evolving search features, or [local SEO](https://f9xr.github.io/services/google-business-optimization.html) that keeps your business easy to find, the F9XR Team helps businesses build a digital presence that's ready for exactly this kind of shift.
+As Google continues weaving AI deeper into Search, Maps, and Gemini, staying visible and relevant in these experiences matters more than ever. Whether that means having a website built to perform well across evolving search features, or [local SEO](https://f9xr.org/services/google-business-optimization.html) that keeps your business easy to find, the F9XR Team helps businesses build a digital presence that's ready for exactly this kind of shift.
 
-*Produced using AI-assisted research and drafting workflows, then reviewed and edited by the F9XR editorial team. See our [Editorial Policy](https://f9xr.github.io/articles/press/editorial-policy.html) for how we create and verify content.*
+*Produced using AI-assisted research and drafting workflows, then reviewed and edited by the F9XR editorial team. See our [Editorial Policy](https://f9xr.org/articles/press/editorial-policy.html) for how we create and verify content.*

@@ -1,8 +1,8 @@
----
+﻿---
 layout: post
 title: "Search Everywhere Optimization: YouTube's SEO Power"
 description: "Google now indexes video transcripts as search real estate. Learn how Search Everywhere Optimization turns your YouTube channel into a Google ranking asset."
-image: "https://f9xr.github.io/articles/assets/post-images/search-everywhere-optimization-youtube-google-seo.webp"
+image: "https://f9xr.org/articles/assets/post-images/search-everywhere-optimization-youtube-google-seo.webp"
 image_width: 1200
 image_height: 630
 image_credit: "Photo by <a href=\"https://unsplash.com/@ilyapavlov?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText\" target=\"_blank\" rel=\"noopener noreferrer\">Ilya Pavlov</a> on <a href=\"https://unsplash.com/photos/OqtafYT5kTw?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText\" target=\"_blank\" rel=\"noopener noreferrer\">Unsplash</a>"
@@ -41,7 +41,7 @@ The business of being found has quietly expanded. Think about the last time you 
 That network includes platforms most small businesses still treat as social media or ad space rather than as search engines:
 
 - YouTube, the second largest search engine in the world.
-- TikTok and Instagram, where a growing share of younger customers search first (covered in our [guide to ranking on TikTok and Instagram](https://f9xr.github.io/articles/2026/08/14/tiktok-instagram-search-optimization-guide.html){:target="_blank" rel="noopener noreferrer"}).
+- TikTok and Instagram, where a growing share of younger customers search first (covered in our [guide to ranking on TikTok and Instagram](https://f9xr.org/articles/2026/08/14/tiktok-instagram-search-optimization-guide.html){:target="_blank" rel="noopener noreferrer"}).
 - Amazon, where product searches happen directly on the platform.
 - AI search engines like ChatGPT, Gemini, and Perplexity, which answer questions instead of returning links.
 
@@ -98,7 +98,7 @@ Search Everywhere Optimization has a second, newer front: AI search. When Google
 
 Why does this matter for video? Because AI engines need sources they can trust, and a video that clearly, correctly answers a question is exactly the kind of source they cite. Structured video content, with clear chapters, spoken answers, and accurate transcripts, is easier for AI to parse than a wall of text. When ChatGPT, Gemini, or Perplexity answers "how do I..." questions, video tutorials and explainers show up as cited sources, often alongside authoritative text pages.
 
-This is also where [answer engine optimization](https://f9xr.github.io/services/ai-visibility-optimization.html){:target="_blank" rel="noopener noreferrer"} (AEO) meets video. Videos that directly answer a question in plain language, with the answer stated early and clearly, are the ones AI engines can summarize and recommend. The [AI visibility guide](https://f9xr.github.io/articles/2026/08/14/steps-make-business-site-visible-to-ai.html){:target="_blank" rel="noopener noreferrer"} covers the site side of this, and video is the natural extension.
+This is also where [answer engine optimization](https://f9xr.org/services/ai-visibility-optimization.html){:target="_blank" rel="noopener noreferrer"} (AEO) meets video. Videos that directly answer a question in plain language, with the answer stated early and clearly, are the ones AI engines can summarize and recommend. The [AI visibility guide](https://f9xr.org/articles/2026/08/14/steps-make-business-site-visible-to-ai.html){:target="_blank" rel="noopener noreferrer"} covers the site side of this, and video is the natural extension.
 
 ## Real-World Example: Search Scenario for an HVAC Company
 
@@ -113,8 +113,8 @@ The difference isn't luck. It's a video strategy that treats YouTube as the sear
 ## How F9XR Team Handles YouTube and Video SEO
 
 - We map the questions customers actually ask and turn them into video topics, so every video targets real search demand instead of content for content's sake.
-- We build the video SEO layer into [website development and website redesign](https://f9xr.github.io/pages/services.html){:target="_blank" rel="noopener noreferrer"}: transcripts, schema, and embedded video that lets Google index your content in two formats from one page.
-- Videos are optimized for both Google and YouTube search simultaneously, and connected to [local SEO](https://f9xr.github.io/services/google-business-optimization.html){:target="_blank" rel="noopener noreferrer"}, [website rentals](https://f9xr.github.io/services/website-rentals.html){:target="_blank" rel="noopener noreferrer"}, and [AI visibility optimization](https://f9xr.github.io/services/ai-visibility-optimization.html){:target="_blank" rel="noopener noreferrer"} so the whole search footprint compounds.
+- We build the video SEO layer into [website development and website redesign](https://f9xr.org/pages/services.html){:target="_blank" rel="noopener noreferrer"}: transcripts, schema, and embedded video that lets Google index your content in two formats from one page.
+- Videos are optimized for both Google and YouTube search simultaneously, and connected to [local SEO](https://f9xr.org/services/google-business-optimization.html){:target="_blank" rel="noopener noreferrer"}, [website rentals](https://f9xr.org/services/website-rentals.html){:target="_blank" rel="noopener noreferrer"}, and [AI visibility optimization](https://f9xr.org/services/ai-visibility-optimization.html){:target="_blank" rel="noopener noreferrer"} so the whole search footprint compounds.
 - We treat every transcript as permanent search real estate. A video published once keeps ranking, citing, and feeding your AI visibility for years, which is the same compounding logic as a well-built web page.
 
 ## Key Takeaways
@@ -132,8 +132,8 @@ Search Everywhere Optimization sounds like a strategy shift, but the first step 
 
 The businesses that publish one searchable video a month will be invisible no longer, while their competitors wait for a "video strategy meeting." Start with the checklist above, pick one customer question, and publish this week.
 
-If building a multi-platform search presence alongside your actual business sounds like a lot, that's exactly the groundwork teams like F9XR build into [website development and website redesign](https://f9xr.github.io/pages/services.html){:target="_blank" rel="noopener noreferrer"}, alongside [local SEO](https://f9xr.github.io/services/google-business-optimization.html){:target="_blank" rel="noopener noreferrer"}, [website rentals](https://f9xr.github.io/services/website-rentals.html){:target="_blank" rel="noopener noreferrer"}, and [AI visibility optimization](https://f9xr.github.io/services/ai-visibility-optimization.html){:target="_blank" rel="noopener noreferrer"}. Or [reach out](https://f9xr.github.io/pages/contact.html){:target="_blank" rel="noopener noreferrer"} and we'll help you turn video into one of your best ranking assets.
+If building a multi-platform search presence alongside your actual business sounds like a lot, that's exactly the groundwork teams like F9XR build into [website development and website redesign](https://f9xr.org/pages/services.html){:target="_blank" rel="noopener noreferrer"}, alongside [local SEO](https://f9xr.org/services/google-business-optimization.html){:target="_blank" rel="noopener noreferrer"}, [website rentals](https://f9xr.org/services/website-rentals.html){:target="_blank" rel="noopener noreferrer"}, and [AI visibility optimization](https://f9xr.org/services/ai-visibility-optimization.html){:target="_blank" rel="noopener noreferrer"}. Or [reach out](https://f9xr.org/pages/contact.html){:target="_blank" rel="noopener noreferrer"} and we'll help you turn video into one of your best ranking assets.
 
 ---
 
-*Produced using AI-assisted research and drafting workflows, then reviewed and edited by the F9XR editorial team. See our [Editorial Policy](https://f9xr.github.io/articles/press/editorial-policy.html) for how we create and verify content.*
+*Produced using AI-assisted research and drafting workflows, then reviewed and edited by the F9XR editorial team. See our [Editorial Policy](https://f9xr.org/articles/press/editorial-policy.html) for how we create and verify content.*

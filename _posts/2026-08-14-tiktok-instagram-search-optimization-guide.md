@@ -1,9 +1,9 @@
----
+﻿---
 layout: post
 code: true
 title: "Rank on TikTok & Instagram: The New Search Engine"
 description: "Gen Z searches TikTok and Instagram before Google. Learn the caption, caption-overlay, and audio framework that gets your business found in-app."
-image: "https://f9xr.github.io/articles/assets/post-images/tiktok-instagram-search-optimization-guide.webp"
+image: "https://f9xr.org/articles/assets/post-images/tiktok-instagram-search-optimization-guide.webp"
 image_width: 1200
 image_height: 630
 image_credit: "Photo by <a href=\"https://unsplash.com/@charlesdeluvio?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText\" target=\"_blank\" rel=\"noopener noreferrer\">Charles Deluvio</a> on <a href=\"https://unsplash.com/photos/6OF-Ly-5oJY?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText\" target=\"_blank\" rel=\"noopener noreferrer\">Unsplash</a>"
@@ -63,7 +63,7 @@ Put those together and the formula is simple: a video with a keyword-rich captio
 
 There's a practical difference between the two apps worth knowing. On TikTok, the search results tab surfaces video results directly, and the For You feed also mixes in content that matched your search history. On Instagram, search happens through both Explore and the keyword search bar described in the [Instagram Help Center](https://help.instagram.com/){:target="_blank" rel="noopener noreferrer"}, and Reels results blend ranked videos with accounts and posts. That means your optimization needs to cover two experiences on Instagram: the keyword bar where people type, and the Explore surface where the algorithm guesses what they'd watch next. The three layer framework below feeds both, because every layer is readable text the ranking system can match.
 
-The technical term for all of this is native app search optimization. It sits alongside [answer engine optimization](https://f9xr.github.io/articles/2026/08/23/aeo-landing-page-optimization-guide.html) as the two biggest growth areas in local visibility, and we've covered the [Search Everywhere Optimization framework](https://f9xr.github.io/articles/2026/08/14/search-everywhere-optimization-youtube-google-seo.html){:target="_blank" rel="noopener noreferrer"} in a companion guide on YouTube and Google.
+The technical term for all of this is native app search optimization. It sits alongside [answer engine optimization](https://f9xr.org/articles/2026/08/23/aeo-landing-page-optimization-guide.html) as the two biggest growth areas in local visibility, and we've covered the [Search Everywhere Optimization framework](https://f9xr.org/articles/2026/08/14/search-everywhere-optimization-youtube-google-seo.html){:target="_blank" rel="noopener noreferrer"} in a companion guide on YouTube and Google.
 
 ## The 3-Layer Optimization Framework
 
@@ -115,7 +115,7 @@ Use this structure for every business video. Swap in your keywords, business nam
 
 Here's what you'll see in this video: [one line summary]. 
 
-📍 [Business name], [City] | [Neighborhood or address]
+ðŸ“ [Business name], [City] | [Neighborhood or address]
 [One sentence about the business, hours, or offer]
 
 #primarykeyword #citykeyword #secondarykeyword
@@ -129,7 +129,7 @@ Here's the exact drink our customers order every morning.
 
 Watch how we pull it, then come try it this week. 
 
-📍 Mountain Pour Coffee, RiNo | 21st and Larimer
+ðŸ“ Mountain Pour Coffee, RiNo | 21st and Larimer
 Open daily 7am to 3pm, indoor and patio seating
 
 #coldbrew #denvercoffee #coffeeshop
@@ -175,15 +175,15 @@ Come find us in RiNo at 21st and Larimer, or follow us for tomorrow's special."
 
 Follow one customer through the system. A tourist lands in Austin, opens TikTok, and types "best tacos in Austin." The results page shows a mix of videos. The ones that rank first share three things: a caption that says "best tacos in Austin," an overlay that repeats it, and a voiceover that names the restaurant and the dish.
 
-The restaurant that posted a searchable video with all three layers wins that customer. The restaurant that posted a silent video of sizzling meat with the caption "taco night 🌮" doesn't appear at all, even though its tacos may be better.
+The restaurant that posted a searchable video with all three layers wins that customer. The restaurant that posted a silent video of sizzling meat with the caption "taco night ðŸŒ®" doesn't appear at all, even though its tacos may be better.
 
-That's the entire opportunity in one example. [Local SEO](https://f9xr.github.io/services/google-business-optimization.html){:target="_blank" rel="noopener noreferrer"} gets you on Google Maps. Native app search gets you in front of the people who skipped Google entirely.
+That's the entire opportunity in one example. [Local SEO](https://f9xr.org/services/google-business-optimization.html){:target="_blank" rel="noopener noreferrer"} gets you on Google Maps. Native app search gets you in front of the people who skipped Google entirely.
 
 ## How F9XR Team Handles Social Search Optimization for Business Websites
 
 - Every short-form video plan we build starts with keyword research: what customers actually type into TikTok and Instagram search, then we write captions, overlays, and scripts around those exact phrases.
 - We apply the same three layer framework (caption, overlay, audio) across TikTok, Instagram Reels, and YouTube Shorts, so every piece of content is searchable everywhere it lives.
-- Videos are linked back to [website development and website redesign](https://f9xr.github.io/pages/services.html){:target="_blank" rel="noopener noreferrer"}, [website rentals](https://f9xr.github.io/services/website-rentals.html){:target="_blank" rel="noopener noreferrer"}, and [AI visibility optimization](https://f9xr.github.io/services/ai-visibility-optimization.html){:target="_blank" rel="noopener noreferrer"} pages so the content drives visitors to a place they can convert.
+- Videos are linked back to [website development and website redesign](https://f9xr.org/pages/services.html){:target="_blank" rel="noopener noreferrer"}, [website rentals](https://f9xr.org/services/website-rentals.html){:target="_blank" rel="noopener noreferrer"}, and [AI visibility optimization](https://f9xr.org/services/ai-visibility-optimization.html){:target="_blank" rel="noopener noreferrer"} pages so the content drives visitors to a place they can convert.
 - We treat social search as a compounding asset: every new video adds to the searchable library the app keeps matching to new customers, exactly like publishing pages builds a site's topical authority.
 
 ## Key Takeaways
@@ -197,12 +197,12 @@ That's the entire opportunity in one example. [Local SEO](https://f9xr.github.io
 
 ## Conclusion
 
-Search is no longer one box on one search engine. It's a YouTube transcript, an [AI answer](https://f9xr.github.io/articles/2026/08/14/steps-make-business-site-visible-to-ai.html), a Maps listing, and a TikTok caption, all fighting for the same customer. Businesses that treat every platform as a search engine win the customers other businesses never reach.
+Search is no longer one box on one search engine. It's a YouTube transcript, an [AI answer](https://f9xr.org/articles/2026/08/14/steps-make-business-site-visible-to-ai.html), a Maps listing, and a TikTok caption, all fighting for the same customer. Businesses that treat every platform as a search engine win the customers other businesses never reach.
 
 Start with the smallest version of this: one searchable video a week, using the caption, overlay, and voiceover templates above. That's a library of search results after a month and a compounding asset after a year.
 
-If building out a full multi-platform search strategy alongside your actual business sounds like a lot, that's exactly the groundwork teams like F9XR build into [website development and redesign](https://f9xr.github.io/pages/services.html){:target="_blank" rel="noopener noreferrer"}, alongside [local SEO](https://f9xr.github.io/services/google-business-optimization.html){:target="_blank" rel="noopener noreferrer"}, [website rentals](https://f9xr.github.io/services/website-rentals.html){:target="_blank" rel="noopener noreferrer"}, and [AI visibility optimization](https://f9xr.github.io/services/ai-visibility-optimization.html){:target="_blank" rel="noopener noreferrer"}. Or [reach out](https://f9xr.github.io/pages/contact.html){:target="_blank" rel="noopener noreferrer"} and we'll map the channels your customers actually search first.
+If building out a full multi-platform search strategy alongside your actual business sounds like a lot, that's exactly the groundwork teams like F9XR build into [website development and redesign](https://f9xr.org/pages/services.html){:target="_blank" rel="noopener noreferrer"}, alongside [local SEO](https://f9xr.org/services/google-business-optimization.html){:target="_blank" rel="noopener noreferrer"}, [website rentals](https://f9xr.org/services/website-rentals.html){:target="_blank" rel="noopener noreferrer"}, and [AI visibility optimization](https://f9xr.org/services/ai-visibility-optimization.html){:target="_blank" rel="noopener noreferrer"}. Or [reach out](https://f9xr.org/pages/contact.html){:target="_blank" rel="noopener noreferrer"} and we'll map the channels your customers actually search first.
 
 ---
 
-*Produced using AI-assisted research and drafting workflows, then reviewed and edited by the F9XR editorial team. See our [Editorial Policy](https://f9xr.github.io/articles/press/editorial-policy.html) for how we create and verify content.*
+*Produced using AI-assisted research and drafting workflows, then reviewed and edited by the F9XR editorial team. See our [Editorial Policy](https://f9xr.org/articles/press/editorial-policy.html) for how we create and verify content.*

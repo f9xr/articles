@@ -1,9 +1,9 @@
-# Author registry
+﻿# Author registry
 # Lookup key must match the `author:` value used in a post's front matter.
 "F9XR Editorial Team":
   name: "F9XR Editorial Team"
   role: "Digital Architecture Agency"
-  avatar: "https://f9xr.github.io/articles/logo.webp"
+  avatar: "https://f9xr.org/articles/logo.webp"
   url: "/authors/f9xr-team/"
   linkedin: "https://linkedin.com/company/f9xrteam"
   instagram: "https://instagram.com/f9xrteam"
@@ -23,7 +23,7 @@
   experience:
     - title: "Digital Architecture and SEO Practice"
       company: "F9XR Team"
-      company_url: "https://f9xr.github.io"
+      company_url: "https://f9xr.org"
       employment_type: "Full-time"
       period: "Ongoing"
       location: "India"
@@ -54,7 +54,7 @@
   experience:
     - title: "Client Relations Associate"
       company: "F9XR Team"
-      company_url: "https://f9xr.github.io"
+      company_url: "https://f9xr.org"
       employment_type: "Full-time"
       period: "Present"
       location: "India"
@@ -100,7 +100,7 @@
   experience:
     - title: "Jr Data Analyst"
       company: "F9XR Team"
-      company_url: "https://f9xr.github.io"
+      company_url: "https://f9xr.org"
       employment_type: "Full-time"
       period: "Present"
       location: "India"

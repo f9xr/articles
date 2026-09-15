@@ -1,4 +1,4 @@
-# F9XR Articles — For AI Agents
+﻿# F9XR Articles â€” For AI Agents
 
 This website is a static blog built with Jekyll and hosted on GitHub Pages.
 It is fully static: there are no server-side APIs, no databases, no dynamic
@@ -23,9 +23,9 @@ For a concise summary of what this site covers, read llms.txt.
 For full article content, read llms-full.txt.
 For the complete list of crawlable pages, read sitemap.xml.
 
-- https://f9xr.github.io/articles/llms.txt
-- https://f9xr.github.io/articles/llms-full.txt
-- https://f9xr.github.io/articles/sitemap.xml
+- https://f9xr.org/articles/llms.txt
+- https://f9xr.org/articles/llms-full.txt
+- https://f9xr.org/articles/sitemap.xml
 
 ## Usage terms
 

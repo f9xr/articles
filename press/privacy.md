@@ -1,15 +1,15 @@
----
+﻿---
 layout: page
 permalink: /press/privacy.html
 title: "Privacy Policy"
-description: "Privacy Policy for F9XR Articles — how we collect, use, and protect your information."
+description: "Privacy Policy for F9XR Articles â€” how we collect, use, and protect your information."
 keywords: "privacy policy, F9XR Articles, data collection, cookies, GDPR, user privacy"
 dateModified: 2026-08-29
 ---
 
 Last updated: August 29, 2026
 
-F9XR Articles ("we," "our," or "us") operates the F9XR Articles website at [https://f9xr.github.io/articles](https://f9xr.github.io/articles). This Privacy Policy explains how we collect, use, and protect your information when you visit our website.
+F9XR Articles ("we," "our," or "us") operates the F9XR Articles website at [https://f9xr.org/articles](https://f9xr.org/articles). This Privacy Policy explains how we collect, use, and protect your information when you visit our website.
 
 ## Information We Collect
 
@@ -106,7 +106,7 @@ Depending on your location, you may have the following rights:
 - **Deletion**: Request deletion of your personal data.
 - **Objection**: Object to our processing of your data.
 
-To exercise any of these rights, please contact us at [tontufytservices@gmail.com](mailto:tontufytservices@gmail.com).
+To exercise any of these rights, please contact us at [hello@f9xr.org](mailto:hello@f9xr.org).
 
 ## Children's Privacy
 
@@ -120,5 +120,5 @@ We may update this Privacy Policy from time to time. Any changes will be posted 
 
 If you have any questions about this Privacy Policy, please contact us:
 
-- **Email**: [tontufytservices@gmail.com](mailto:tontufytservices@gmail.com)
-- **Website**: [https://f9xr.github.io/articles](https://f9xr.github.io/articles)
+- **Email**: [hello@f9xr.org](mailto:hello@f9xr.org)
+- **Website**: [https://f9xr.org/articles](https://f9xr.org/articles)

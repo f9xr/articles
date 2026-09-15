@@ -1,8 +1,8 @@
----
+﻿---
 layout: post
 title: "Rank Math Pauses AI Agent Over Hidden Admin Access"
 description: "Rank Math paused its Support Agent after it quietly created admin credentials without clear consent. Here's what site owners should do now."
-image: "https://f9xr.github.io/articles/assets/post-images/rank-math-support-agent-paused-security-controversy.webp"
+image: "https://f9xr.org/articles/assets/post-images/rank-math-support-agent-paused-security-controversy.webp"
 image_width: 1200
 image_height: 630
 date: 2026-09-01
@@ -28,7 +28,7 @@ faq:
 
 If you run a WordPress site and use Rank Math for your SEO, you may have missed a quiet but important update this week. Rank Math, one of the most widely used SEO plugins on WordPress with a footprint of more than 4 million active installs, has temporarily pulled a feature called the Support Agent after users discovered it was creating administrator level site credentials without clearly asking for permission first.
 
-<img src="https://f9xr.github.io/articles/assets/post-images/rank-math-settings-default-language.webp" alt="Rank Math settings panel showing default language configuration" title="Rank Math plugin settings in the WordPress dashboard" width="1168" height="799" loading="lazy" />
+<img src="https://f9xr.org/articles/assets/post-images/rank-math-settings-default-language.webp" alt="Rank Math settings panel showing default language configuration" title="Rank Math plugin settings in the WordPress dashboard" width="1168" height="799" loading="lazy" />
 <small style="display:block; color:#71717a; font-size:0.82em; margin-top:0.5em; line-height:1.5;">Screenshot: Rank Math settings panel in WordPress. Source: Rank Math.</small>
 
 For a business owner, this might sound like inside baseball for developers. It isn't. If you or someone on your team manages a WordPress website, this story touches on something that matters to every business with a digital presence: who has access to your site, how that access was granted, and whether you actually agreed to it.
@@ -59,7 +59,7 @@ In other words, the credential left the site and stayed active until someone man
 
 The part that generated the most backlash was consent. Users said they never saw a clear prompt explaining that opening a support chat would result in an administrator level password being generated and transmitted off their server. A terms and conditions notice did exist in the interface, but according to Waaijer's account, it did not gate the creation of the credential. The password was already being generated before a user reached the point of agreeing to anything.
 
-<img src="https://f9xr.github.io/articles/assets/post-images/rank-math-support-agent-response.webp" alt="Rank Math Support Agent AI response displayed inside the WordPress dashboard" title="The Support Agent generated responses directly in the WordPress admin" width="1200" height="638" loading="lazy" />
+<img src="https://f9xr.org/articles/assets/post-images/rank-math-support-agent-response.webp" alt="Rank Math Support Agent AI response displayed inside the WordPress dashboard" title="The Support Agent generated responses directly in the WordPress admin" width="1200" height="638" loading="lazy" />
 <small style="display:block; color:#71717a; font-size:0.82em; margin-top:0.5em; line-height:1.5;">Screenshot: Rank Math's Support Agent generating a response in the WordPress admin. Source: Rank Math.</small>
 
 Reaction across the WordPress community was swift and largely negative, with developers and site owners calling the behavior everything from careless to a [potential backdoor](https://www.searchenginejournal.com/rank-math-seo-plugin-pauses-controversial-feature-says-it-will-return/587853/){:target="_blank" rel="noopener noreferrer"}.
@@ -84,7 +84,7 @@ Rank Math released version 1.0.277.2, which removes the Support Agent entirely. 
 
 Rank Math confirmed the feature is not gone for good. It plans to bring the Support Agent back once it rebuilds the access request flow so that users are clearly and explicitly asked for permission before any credential is created. The full details are available on [Rank Math's knowledge base](https://rankmath.com/kb/support-agent-paused-temporarily/){:target="_blank" rel="noopener noreferrer"}.
 
-<img src="https://f9xr.github.io/articles/assets/post-images/rank-math-support-chat.webp" alt="Rank Math Support Agent chat interface inside WordPress" title="The Support Agent chat interface that triggered the controversy" width="1200" height="603" loading="lazy" />
+<img src="https://f9xr.org/articles/assets/post-images/rank-math-support-chat.webp" alt="Rank Math Support Agent chat interface inside WordPress" title="The Support Agent chat interface that triggered the controversy" width="1200" height="603" loading="lazy" />
 <small style="display:block; color:#71717a; font-size:0.82em; margin-top:0.5em; line-height:1.5;">Screenshot: The Support Agent chat interface. Source: Rank Math.</small>
 
 ---
@@ -99,7 +99,7 @@ The concern with the Rank Math situation was not that this feature exists. It wa
 
 This is part of a broader pattern happening across the WordPress plugin ecosystem right now. Rank Math was not the only plugin under scrutiny. WPForms faced a similar wave of questions around a temporary administrative token used during onboarding, though its situation and Rank Math's differ in important technical ways, including how long each credential persists.
 
-The bigger story here is that WordPress plugins are racing to add AI agents that can take actions on your behalf, and the industry standards around consent, transparency, and security disclosure have not fully caught up yet. This connects directly to broader questions about [website trust](https://f9xr.github.io/articles/2026/08/15/how-to-increase-website-trust-score.html) that every business owner should be thinking about.
+The bigger story here is that WordPress plugins are racing to add AI agents that can take actions on your behalf, and the industry standards around consent, transparency, and security disclosure have not fully caught up yet. This connects directly to broader questions about [website trust](https://f9xr.org/articles/2026/08/15/how-to-increase-website-trust-score.html) that every business owner should be thinking about.
 
 ---
 
@@ -123,7 +123,7 @@ You do not need to be a developer to check this on your own site. Here is a simp
 - Keep your plugins updated, but read changelogs for security related items rather than auto updating blindly, especially for plugins that touch site settings or user data.
 - If you manage a site for a client or run an agency, this is a good moment to proactively check in with your clients rather than waiting for them to ask.
 
-This kind of quiet plugin audit is exactly what catches problems before they become [security incidents](https://f9xr.github.io/articles/2026/08/29/fake-cloudflare-captcha-scam-business-guide.html). You do not need expensive tools. You need 15 minutes and a checklist.
+This kind of quiet plugin audit is exactly what catches problems before they become [security incidents](https://f9xr.org/articles/2026/08/29/fake-cloudflare-captcha-scam-business-guide.html). You do not need expensive tools. You need 15 minutes and a checklist.
 
 ---
 
@@ -131,7 +131,7 @@ This kind of quiet plugin audit is exactly what catches problems before they bec
 
 Rank Math was upfront that the Support Agent was only the first step in a much larger plan. The company has described a vision for what it calls Agentic SEO, where AI agents don't just answer questions but actively make changes to a site's settings, content, and SEO configuration on a user's behalf.
 
-<img src="https://f9xr.github.io/articles/assets/post-images/rank-math-agentic-seo-prompt.webp" alt="Rank Math agentic SEO prompt editing interface" title="Rank Math's vision for agentic SEO involves AI making changes to your site" width="1200" height="655" loading="lazy" />
+<img src="https://f9xr.org/articles/assets/post-images/rank-math-agentic-seo-prompt.webp" alt="Rank Math agentic SEO prompt editing interface" title="Rank Math's vision for agentic SEO involves AI making changes to your site" width="1200" height="655" loading="lazy" />
 <small style="display:block; color:#71717a; font-size:0.82em; margin-top:0.5em; line-height:1.5;">Screenshot: Rank Math's agentic SEO prompt editing interface. Source: Rank Math.</small>
 
 That direction is not unique to Rank Math. Across the SEO and WordPress space, more tools are moving toward AI agents that can take real actions rather than just offer suggestions. That shift has real upsides. It can also save small business owners time. But it only works if trust is built the right way, with clear opt in permissions, transparent explanations of what access is being requested, and easy ways to revoke that access later.
@@ -148,16 +148,16 @@ This episode is a useful reminder that speed to market and clear consent don't a
 - Rank Math runs on more than 4 million WordPress sites, so even a small percentage of affected sites represents a large number of businesses.
 - Business owners should check WP Admin, Users, Profile, Application Passwords for any entry labeled "WAP -" and revoke it if unrecognized.
 - This incident is part of a wider trend of AI agents being built into WordPress plugins, and it highlights the importance of clear consent as these tools evolve.
-- Regular security audits and working with a [trusted web team](https://f9xr.github.io/pages/services.html) can help catch issues like this before they become a bigger problem.
+- Regular security audits and working with a [trusted web team](https://f9xr.org/pages/services.html) can help catch issues like this before they become a bigger problem.
 
 ---
 
 ## How F9XR Team Can Help
 
-Security scares like this one are exactly why having a trusted team manage your website matters. If you don't have time to track every plugin update and permission change, the F9XR Team can help. That includes [website development and redesign](https://f9xr.github.io/pages/services.html) with a security first approach, [local SEO and Google Business Profile management](https://f9xr.github.io/services/google-business-optimization.html) so your business stays visible, and [ongoing maintenance](https://f9xr.github.io/pages/contact.html) so issues like this get caught before they become a problem for your business.
+Security scares like this one are exactly why having a trusted team manage your website matters. If you don't have time to track every plugin update and permission change, the F9XR Team can help. That includes [website development and redesign](https://f9xr.org/pages/services.html) with a security first approach, [local SEO and Google Business Profile management](https://f9xr.org/services/google-business-optimization.html) so your business stays visible, and [ongoing maintenance](https://f9xr.org/pages/contact.html) so issues like this get caught before they become a problem for your business.
 
 If reading this made you wonder what's quietly running in the background of your own site, that's a good sign it's time for a professional review.
 
 ---
 
-*Produced using AI-assisted research and drafting workflows, then reviewed and edited by the F9XR editorial team. See our [Editorial Policy](https://f9xr.github.io/articles/press/editorial-policy.html) for how we create and verify content.*
+*Produced using AI-assisted research and drafting workflows, then reviewed and edited by the F9XR editorial team. See our [Editorial Policy](https://f9xr.org/articles/press/editorial-policy.html) for how we create and verify content.*

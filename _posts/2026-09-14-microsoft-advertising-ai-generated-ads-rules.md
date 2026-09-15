@@ -1,8 +1,8 @@
----
+﻿---
 layout: post
 title: "Microsoft Ads AI Rules 2026: What Advertisers Must Know"
 description: "Microsoft Advertising now requires disclosure for AI-generated ads. Learn the new rules, deadlines, and how to keep your campaigns compliant."
-image: "https://f9xr.github.io/articles/assets/post-images/microsoft-advertising-ai-generated-ads-rules.webp"
+image: "https://f9xr.org/articles/assets/post-images/microsoft-advertising-ai-generated-ads-rules.webp"
 image_width: 1200
 image_height: 630
 image_caption: "What Microsoft Advertising requires for AI-generated and AI-manipulated ad creative in 2026"
@@ -70,11 +70,11 @@ The EU AI Act imposes clear obligations around labeling synthetic content. New Y
 
 ### Consumer Trust Is on the Line
 
-Audiences are getting sharper at spotting synthetic media, and more skeptical when they can't tell what's real. Businesses that disclose AI use tend to build more durable trust with customers, especially in sensitive categories like healthcare, finance, and legal services. The trust angle isn't soft either. It connects directly to the same [E-E-A-T signals](https://f9xr.github.io/articles/2026/08/04/google-e-e-a-t-checklist-every-seo-should-bookmark.html){:target="_blank" rel="noopener noreferrer"} that search engines weigh when deciding who shows up as a credible answer.
+Audiences are getting sharper at spotting synthetic media, and more skeptical when they can't tell what's real. Businesses that disclose AI use tend to build more durable trust with customers, especially in sensitive categories like healthcare, finance, and legal services. The trust angle isn't soft either. It connects directly to the same [E-E-A-T signals](https://f9xr.org/articles/2026/08/04/google-e-e-a-t-checklist-every-seo-should-bookmark.html){:target="_blank" rel="noopener noreferrer"} that search engines weigh when deciding who shows up as a credible answer.
 
 ### Every Major Platform Is Moving the Same Direction
 
-Microsoft isn't out on its own here. Meta now applies an "AI Info" label to ad creative using automated detection of C2PA content credentials plus self-disclosure tools, and undisclosed AI content is already one of the top reasons ads get rejected there. Google now shows a comparable disclosure badge for AI-generated ads across Search, Discover, and YouTube. The direction of travel across the industry is the same: disclose, or face enforcement. If you're curious how fast brands are testing generative ad formats, our look at [KFC and Mamaearth becoming the first Indian brands on ChatGPT ads](https://f9xr.github.io/articles/2026/09/13/kfc-mamaearth-first-indian-brands-chatgpt-ads.html){:target="_blank" rel="noopener noreferrer"} shows the creative floodgates already open.
+Microsoft isn't out on its own here. Meta now applies an "AI Info" label to ad creative using automated detection of C2PA content credentials plus self-disclosure tools, and undisclosed AI content is already one of the top reasons ads get rejected there. Google now shows a comparable disclosure badge for AI-generated ads across Search, Discover, and YouTube. The direction of travel across the industry is the same: disclose, or face enforcement. If you're curious how fast brands are testing generative ad formats, our look at [KFC and Mamaearth becoming the first Indian brands on ChatGPT ads](https://f9xr.org/articles/2026/09/13/kfc-mamaearth-first-indian-brands-chatgpt-ads.html){:target="_blank" rel="noopener noreferrer"} shows the creative floodgates already open.
 
 ---
 
@@ -84,11 +84,11 @@ You don't need a legal team to understand the practical impact, but you do need 
 
 ### If You Use AI Tools for Ad Creative
 
-Whether you're generating product images with an AI image tool, writing ad copy with a chatbot, or producing a voiceover with a synthetic voice generator, you now need to know whether that content counts as AI-generated or AI-manipulated under Microsoft's definitions, and flag it accordingly when it does. For most teams, the honest answer is "yes, it counts." AI Max already [writes and customizes ad text automatically](https://f9xr.github.io/articles/2026/08/20/microsoft-advertising-ai-max-global-rollout.html){:target="_blank" rel="noopener noreferrer"} across Microsoft's search ecosystem, so the question isn't whether AI touches your ads. It's whether you know which parts it touched.
+Whether you're generating product images with an AI image tool, writing ad copy with a chatbot, or producing a voiceover with a synthetic voice generator, you now need to know whether that content counts as AI-generated or AI-manipulated under Microsoft's definitions, and flag it accordingly when it does. For most teams, the honest answer is "yes, it counts." AI Max already [writes and customizes ad text automatically](https://f9xr.org/articles/2026/08/20/microsoft-advertising-ai-max-global-rollout.html){:target="_blank" rel="noopener noreferrer"} across Microsoft's search ecosystem, so the question isn't whether AI touches your ads. It's whether you know which parts it touched.
 
 ### If You Run Ads in Regulated Markets
 
-If any part of your campaign targets the EU or New York, disclosure isn't optional. Skipping it isn't just a policy risk, it can be a legal one. That includes audiences reached through broad geo-targeting or lookalike audiences that spill across borders, so check your location settings before you assume a campaign stays domestic. Our [guide to Google Ads local customer optimization](https://f9xr.github.io/articles/2026/09/09/google-ads-local-customer-optimization.html){:target="_blank" rel="noopener noreferrer"} is about a different platform, but the same audit mindset applies when you're mapping which markets your campaigns actually reach.
+If any part of your campaign targets the EU or New York, disclosure isn't optional. Skipping it isn't just a policy risk, it can be a legal one. That includes audiences reached through broad geo-targeting or lookalike audiences that spill across borders, so check your location settings before you assume a campaign stays domestic. Our [guide to Google Ads local customer optimization](https://f9xr.org/articles/2026/09/09/google-ads-local-customer-optimization.html){:target="_blank" rel="noopener noreferrer"} is about a different platform, but the same audit mindset applies when you're mapping which markets your campaigns actually reach.
 
 ### If You Use AI to Recreate a Person's Voice or Likeness
 
@@ -141,7 +141,7 @@ Where possible, use AI tools that embed C2PA content credentials. Many major too
 
 If you have a marketing team, a freelancer, or an agency handling your ads, make sure they know these rules apply to them too. One overlooked disclosure can trigger a review across your whole account, so put the policy in your briefing docs and your onboarding checklist, not just in someone's head.
 
-None of these steps slows you down meaningfully. Most take minutes once they're part of the routine, and the payoff is an account that doesn't eat ad rejections or account warnings. The same discipline applies to how you [monitor AI search trends and visibility](https://f9xr.github.io/articles/2026/08/26/monitor-ai-search-trends-boost-visibility-citations.html){:target="_blank" rel="noopener noreferrer"} across your marketing, because the platforms enforcing these labels are the same ones deciding where your content shows up at all.
+None of these steps slows you down meaningfully. Most take minutes once they're part of the routine, and the payoff is an account that doesn't eat ad rejections or account warnings. The same discipline applies to how you [monitor AI search trends and visibility](https://f9xr.org/articles/2026/08/26/monitor-ai-search-trends-boost-visibility-citations.html){:target="_blank" rel="noopener noreferrer"} across your marketing, because the platforms enforcing these labels are the same ones deciding where your content shows up at all.
 
 ---
 
@@ -159,7 +159,7 @@ None of these steps slows you down meaningfully. Most take minutes once they're 
 
 ## How the F9XR Team Can Help
 
-Keeping up with fast-moving ad platform policies while also running a business is a lot to juggle. This is exactly where the F9XR Team steps in. Beyond building and redesigning websites that convert, F9XR helps local businesses and startups handle the practical side of digital advertising and search visibility, including making sure your website, landing pages, and digital presence are structured to stay compliant and trustworthy as platform rules like Microsoft's AI disclosure policy evolve. Whether you need a compliant landing page built for an AI-assisted campaign, [local SEO](https://f9xr.github.io/services/google-business-optimization.html){:target="_blank" rel="noopener noreferrer"} work that keeps you visible in the markets you target, or [AI visibility optimization](https://f9xr.github.io/services/ai-visibility-optimization.html){:target="_blank" rel="noopener noreferrer"} to protect how AI tools describe your brand, F9XR builds the digital foundation that supports it.
+Keeping up with fast-moving ad platform policies while also running a business is a lot to juggle. This is exactly where the F9XR Team steps in. Beyond building and redesigning websites that convert, F9XR helps local businesses and startups handle the practical side of digital advertising and search visibility, including making sure your website, landing pages, and digital presence are structured to stay compliant and trustworthy as platform rules like Microsoft's AI disclosure policy evolve. Whether you need a compliant landing page built for an AI-assisted campaign, [local SEO](https://f9xr.org/services/google-business-optimization.html){:target="_blank" rel="noopener noreferrer"} work that keeps you visible in the markets you target, or [AI visibility optimization](https://f9xr.org/services/ai-visibility-optimization.html){:target="_blank" rel="noopener noreferrer"} to protect how AI tools describe your brand, F9XR builds the digital foundation that supports it.
 
 ---
 
@@ -169,4 +169,4 @@ Microsoft Advertising's stance on AI-generated ads is a clear signal: the era of
 
 The businesses that adapt early, disclosing AI use where required, securing proper consent, and keeping their creative process documented, will run smoother, more trusted campaigns while competitors scramble to catch up. If you'd rather focus on running your business than tracking every ad platform's policy update, that's exactly the kind of ongoing support the F9XR Team provides, from website development and redesign to local SEO and digital presence management, so your online presence stays sharp, compliant, and ready to convert no matter how the rules shift.
 
-*Produced using AI-assisted research and drafting workflows, then reviewed and edited by the F9XR editorial team. See our [Editorial Policy](https://f9xr.github.io/articles/press/editorial-policy.html) for how we create and verify content.*
+*Produced using AI-assisted research and drafting workflows, then reviewed and edited by the F9XR editorial team. See our [Editorial Policy](https://f9xr.org/articles/press/editorial-policy.html) for how we create and verify content.*

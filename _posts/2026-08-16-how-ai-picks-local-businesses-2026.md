@@ -1,8 +1,8 @@
----
+﻿---
 layout: post
 title: "Beyond the Map Pack: How AI Picks Local Businesses"
 description: "Discover how ChatGPT, Gemini, and Perplexity actually choose local businesses to recommend in 2026, and what it takes to be one of them."
-image: "https://f9xr.github.io/articles/assets/post-images/how-ai-picks-local-businesses-2026.webp"
+image: "https://f9xr.org/articles/assets/post-images/how-ai-picks-local-businesses-2026.webp"
 image_width: 1200
 image_height: 630
 date: 2026-08-16
@@ -55,7 +55,7 @@ An analysis of over 267,000 AI citation mentions across local campaigns found th
 
 ### Step 2: Cross Referencing for Consistency and Credibility
 
-Once an AI system has gathered mentions of your business across multiple sources, it evaluates the consistency, credibility, and completeness of those signals before generating a recommendation, a process closely tied to your overall [website trust score](https://f9xr.github.io/articles/2026/08/15/how-to-increase-website-trust-score.html). This is where [information consistency](https://f9xr.github.io/articles/2026/08/13/consistency-audits-seo-aeo-geo.html){:target="_blank" rel="noopener noreferrer"} becomes a direct AI visibility factor, not just a general trust nicety. Conflicting business hours, mismatched service descriptions, or outdated pricing across different sources actively undermine an AI's confidence in recommending you at all.
+Once an AI system has gathered mentions of your business across multiple sources, it evaluates the consistency, credibility, and completeness of those signals before generating a recommendation, a process closely tied to your overall [website trust score](https://f9xr.org/articles/2026/08/15/how-to-increase-website-trust-score.html). This is where [information consistency](https://f9xr.org/articles/2026/08/13/consistency-audits-seo-aeo-geo.html){:target="_blank" rel="noopener noreferrer"} becomes a direct AI visibility factor, not just a general trust nicety. Conflicting business hours, mismatched service descriptions, or outdated pricing across different sources actively undermine an AI's confidence in recommending you at all.
 
 ### Step 3: Model Specific Weighting
 
@@ -81,7 +81,7 @@ Given how differently these systems evaluate local businesses, chasing Google Ma
 
 ### Build a Real Citation Footprint Beyond Google
 
-Since AI engines pull heavily from directories, review platforms, and forums, presence on platforms like [free business directories](https://f9xr.github.io/articles/2026/07/29/free-business-directories-guide.html), Yelp, the Better Business Bureau, Foursquare, and relevant niche or industry specific directories directly feeds [AI visibility](https://f9xr.github.io/articles/2026/08/14/steps-make-business-site-visible-to-ai.html){:target="_blank" rel="noopener noreferrer"} in a way that [Google Business Profile optimization](https://f9xr.github.io/articles/2026/08/16/rank-number-1-google-maps-2026.html){:target="_blank" rel="noopener noreferrer"} alone doesn't fully cover.
+Since AI engines pull heavily from directories, review platforms, and forums, presence on platforms like [free business directories](https://f9xr.org/articles/2026/07/29/free-business-directories-guide.html), Yelp, the Better Business Bureau, Foursquare, and relevant niche or industry specific directories directly feeds [AI visibility](https://f9xr.org/articles/2026/08/14/steps-make-business-site-visible-to-ai.html){:target="_blank" rel="noopener noreferrer"} in a way that [Google Business Profile optimization](https://f9xr.org/articles/2026/08/16/rank-number-1-google-maps-2026.html){:target="_blank" rel="noopener noreferrer"} alone doesn't fully cover.
 
 ### Prioritize Rating Quality Over Rating Volume
 
@@ -113,7 +113,7 @@ Create a running list of the exact questions a real customer might ask, "best em
 
 Winning the map pack and winning AI recommendations require overlapping but genuinely different work, citation building across the right platforms, review strategy focused on quality thresholds, and content detailed enough for AI systems to confidently reference. Most business owners don't have the bandwidth to manage both tracks manually while running the business itself.
 
-F9XR Team builds exactly this dual approach into its [local SEO](https://f9xr.github.io/services/google-business-optimization.html){:target="_blank" rel="noopener noreferrer"}, [website development, and website redesign](https://f9xr.github.io/pages/services.html){:target="_blank" rel="noopener noreferrer"} work: strengthening the Google Business Profile and Maps side of local visibility, while also building the citation consistency, review strategy, and detailed content foundation that AEO and GEO specifically depend on. That means your business isn't just optimized for the search results customers used to rely on, it's built for the AI conversations they're increasingly having instead.
+F9XR Team builds exactly this dual approach into its [local SEO](https://f9xr.org/services/google-business-optimization.html){:target="_blank" rel="noopener noreferrer"}, [website development, and website redesign](https://f9xr.org/pages/services.html){:target="_blank" rel="noopener noreferrer"} work: strengthening the Google Business Profile and Maps side of local visibility, while also building the citation consistency, review strategy, and detailed content foundation that AEO and GEO specifically depend on. That means your business isn't just optimized for the search results customers used to rely on, it's built for the AI conversations they're increasingly having instead.
 
 ## Key Takeaways
 
@@ -128,6 +128,6 @@ F9XR Team builds exactly this dual approach into its [local SEO](https://f9xr.gi
 
 The map pack is no longer the only local visibility battle worth fighting. A growing share of customers are asking AI assistants directly for a recommendation, and those systems are working from a different playbook entirely, verifying consistency across directories and reviews, applying stricter rating thresholds, and re-evaluating who deserves that recommendation on an ongoing basis. Businesses that only optimize for Google Maps are, without realizing it, competing in just half the game.
 
-Building visibility across both traditional local search and the AI assistants increasingly standing in for it takes coordinated, ongoing work, which is exactly what F9XR Team folds into its [local SEO](https://f9xr.github.io/services/google-business-optimization.html){:target="_blank" rel="noopener noreferrer"}, [website development, and website redesign](https://f9xr.github.io/pages/services.html){:target="_blank" rel="noopener noreferrer"} services, so your business shows up confidently whether a customer types into Google or simply asks an AI assistant to decide for them.
+Building visibility across both traditional local search and the AI assistants increasingly standing in for it takes coordinated, ongoing work, which is exactly what F9XR Team folds into its [local SEO](https://f9xr.org/services/google-business-optimization.html){:target="_blank" rel="noopener noreferrer"}, [website development, and website redesign](https://f9xr.org/pages/services.html){:target="_blank" rel="noopener noreferrer"} services, so your business shows up confidently whether a customer types into Google or simply asks an AI assistant to decide for them.
 
-*Produced using AI-assisted research and drafting workflows, then reviewed and edited by the F9XR editorial team. See our [Editorial Policy](https://f9xr.github.io/articles/press/editorial-policy.html) for how we create and verify content.*
+*Produced using AI-assisted research and drafting workflows, then reviewed and edited by the F9XR editorial team. See our [Editorial Policy](https://f9xr.org/articles/press/editorial-policy.html) for how we create and verify content.*

@@ -1,8 +1,8 @@
----
+﻿---
 layout: post
 title: "Reddit's ChatGPT Citation Drop: What Happened & Why"
 description: "Reddit's ChatGPT citation share collapsed 86% in August 2026. Here's what happened, why it matters, and what it means for your AI search strategy."
-image: "https://f9xr.github.io/articles/assets/post-images/reddit-chatgpt-citation-drop.webp"
+image: "https://f9xr.org/articles/assets/post-images/reddit-chatgpt-citation-drop.webp"
 image_width: 1200
 image_height: 630
 date: 2026-08-21
@@ -29,7 +29,7 @@ If you've been building any part of your content or marketing strategy around ge
 
 This isn't a small statistical wobble. Reddit went from holding a steady, meaningful share of ChatGPT Search citations to almost disappearing from them, practically overnight. And here's the part that should worry any business owner leaning on AI search visibility: nobody, including the analytics firm that first spotted it, can say with full confidence exactly why it happened.
 
-For businesses that have spent the last year or two optimizing content for AI engines like ChatGPT, Gemini, Claude, and Perplexity, a practice often called [Generative Engine Optimization](https://f9xr.github.io/articles/2026/08/13/consistency-audits-seo-aeo-geo.html) or GEO, this event is a real-world case study in something uncomfortable: visibility inside AI answers can shift dramatically, without warning, and largely outside your control.
+For businesses that have spent the last year or two optimizing content for AI engines like ChatGPT, Gemini, Claude, and Perplexity, a practice often called [Generative Engine Optimization](https://f9xr.org/articles/2026/08/13/consistency-audits-seo-aeo-geo.html) or GEO, this event is a real-world case study in something uncomfortable: visibility inside AI answers can shift dramatically, without warning, and largely outside your control.
 
 In this article, we'll walk through exactly what the data shows, what caused it as best anyone currently understands, why it matters even if your business has nothing to do with Reddit directly, and what practical steps you should take to protect your AI search visibility going forward.
 
@@ -142,7 +142,7 @@ Rather than only tracking how you show up in ChatGPT, check your visibility acro
 
 ### 3. Build Content That Performs Well on Its Own Merits
 
-Content built around genuine expertise, original data, and clear, well-structured answers tends to hold up better across platform changes than content narrowly optimized for one specific AI system's current citation habits. If you want a starting point, our [E-E-A-T checklist](https://f9xr.github.io/articles/2026/08/04/google-e-e-a-t-checklist-every-seo-should-bookmark.html) covers the trust signals that hold up regardless of which engine is doing the citing.
+Content built around genuine expertise, original data, and clear, well-structured answers tends to hold up better across platform changes than content narrowly optimized for one specific AI system's current citation habits. If you want a starting point, our [E-E-A-T checklist](https://f9xr.org/articles/2026/08/04/google-e-e-a-t-checklist-every-seo-should-bookmark.html) covers the trust signals that hold up regardless of which engine is doing the citing.
 
 ### 4. Don't Treat Any Single AI Platform as a Primary Traffic Channel
 
@@ -154,7 +154,7 @@ If you notice your own citation share dropping inside a specific AI platform, ch
 
 ### 6. Keep Traditional SEO Fundamentals Strong Regardless
 
-Since AI search citation behavior remains this volatile and this opaque, strong, fundamentally sound SEO continues to be the most stable long-term foundation, regardless of which AI platform is currently favoring which sources. Our guide on [making your business site visible to AI](https://f9xr.github.io/articles/2026/08/14/steps-make-business-site-visible-to-ai.html) breaks down the fundamentals that carry across both traditional and generative search.
+Since AI search citation behavior remains this volatile and this opaque, strong, fundamentally sound SEO continues to be the most stable long-term foundation, regardless of which AI platform is currently favoring which sources. Our guide on [making your business site visible to AI](https://f9xr.org/articles/2026/08/14/steps-make-business-site-visible-to-ai.html) breaks down the fundamentals that carry across both traditional and generative search.
 
 ---
 
@@ -162,7 +162,7 @@ Since AI search citation behavior remains this volatile and this opaque, strong,
 
 If you're a local business or a lean startup team, you're probably not tracking your ChatGPT citation share the way a large publisher or enterprise brand might. That's actually fine, and this event offers a useful lesson either way.
 
-For local businesses, the practical takeaway is that consistent, genuine local content, real customer reviews, accurate business information, and a well-maintained Google Business Profile tends to be a much more stable foundation than chasing any single AI platform's current citation behavior. We've covered [how AI picks local businesses](https://f9xr.github.io/articles/2026/08/16/how-ai-picks-local-businesses-2026.html) before, and those fundamentals hold up regardless of which technical changes ChatGPT, Gemini, or Perplexity make behind the scenes.
+For local businesses, the practical takeaway is that consistent, genuine local content, real customer reviews, accurate business information, and a well-maintained Google Business Profile tends to be a much more stable foundation than chasing any single AI platform's current citation behavior. We've covered [how AI picks local businesses](https://f9xr.org/articles/2026/08/16/how-ai-picks-local-businesses-2026.html) before, and those fundamentals hold up regardless of which technical changes ChatGPT, Gemini, or Perplexity make behind the scenes.
 
 For startups building a content strategy specifically to get cited inside AI answers as an early growth channel, this event is a good reason to diversify that strategy across multiple platforms from the start, rather than optimizing narrowly for how any single AI system currently behaves. What works today inside one platform's citation logic isn't guaranteed to work the same way even a few weeks from now.
 
@@ -199,6 +199,6 @@ If you're not sure how your business currently shows up across AI search platfor
 
 Reddit's sudden disappearance from ChatGPT's citation pool is a striking example of just how volatile AI search visibility can be, even for one of the most consistently cited domains on the internet. Nobody has a fully confirmed explanation yet, and that uncertainty is itself the lesson worth taking seriously. If citation share can swing this dramatically without warning, no business should be building its entire visibility strategy around performing well inside a single AI platform's current behavior.
 
-The businesses that come out ahead of moments like this are the ones treating AI search visibility as one part of a broader, diversified digital strategy, not the whole strategy. If you want a clearer picture of how your business currently shows up across ChatGPT, Google AI Overviews, Gemini, Claude, and Perplexity, teams like the [F9XR Team](https://f9xr.github.io/pages/services.html){:target="_blank" rel="noopener noreferrer"} work with business owners on exactly this kind of AI visibility strategy, alongside website development, website redesign, and local SEO.
+The businesses that come out ahead of moments like this are the ones treating AI search visibility as one part of a broader, diversified digital strategy, not the whole strategy. If you want a clearer picture of how your business currently shows up across ChatGPT, Google AI Overviews, Gemini, Claude, and Perplexity, teams like the [F9XR Team](https://f9xr.org/pages/services.html){:target="_blank" rel="noopener noreferrer"} work with business owners on exactly this kind of AI visibility strategy, alongside website development, website redesign, and local SEO.
 
-*Produced using AI-assisted research and drafting workflows, then reviewed and edited by the F9XR editorial team. See our [Editorial Policy](https://f9xr.github.io/articles/press/editorial-policy.html) for how we create and verify content.*
+*Produced using AI-assisted research and drafting workflows, then reviewed and edited by the F9XR editorial team. See our [Editorial Policy](https://f9xr.org/articles/press/editorial-policy.html) for how we create and verify content.*

@@ -1,8 +1,8 @@
----
+﻿---
 layout: post
 title: "How to Write SEO Articles Like a Real Specialist"
 description: "Learn how to write SEO friendly articles that rank on Google and get cited by AI search tools, explained step by step for business owners."
-image: "https://f9xr.github.io/articles/assets/post-images/how-to-write-seo-friendly-articles.webp"
+image: "https://f9xr.org/articles/assets/post-images/how-to-write-seo-friendly-articles.webp"
 image_width: 1200
 image_height: 630
 image_caption: "A practical, step by step guide to SEO article writing for business owners."
@@ -115,7 +115,7 @@ These two elements don't directly boost your ranking, but they heavily influence
 
 Internal linking helps readers find related content on your site and helps search engines understand which pages you consider most important. The mistake most business owners make is either skipping internal links entirely or adding them randomly without context.
 
-For example, a guide on SEO writing pairs naturally with [how to get cited by AI search tools](https://f9xr.github.io/articles/2026/09/08/llms-txt-ai-txt-do-they-work-2026.html), and with our [monthly website audit checklist](https://f9xr.github.io/articles/2026/09/03/monthly-website-audit-checklist.html) for keeping everything healthy after publish. Linking to [the E-E-A-T checklist](https://f9xr.github.io/articles/2026/08/04/google-e-e-a-t-checklist-every-seo-should-bookmark.html) reinforces the trust signals mentioned above.
+For example, a guide on SEO writing pairs naturally with [how to get cited by AI search tools](https://f9xr.org/articles/2026/09/08/llms-txt-ai-txt-do-they-work-2026.html), and with our [monthly website audit checklist](https://f9xr.org/articles/2026/09/03/monthly-website-audit-checklist.html) for keeping everything healthy after publish. Linking to [the E-E-A-T checklist](https://f9xr.org/articles/2026/08/04/google-e-e-a-t-checklist-every-seo-should-bookmark.html) reinforces the trust signals mentioned above.
 
 **Actionable tip:** Every time you publish a new article, go back and add one or two links from older, related posts pointing to it, and vice versa within the new article.
 
@@ -160,12 +160,12 @@ Writing genuinely good SEO content consistently, on top of running an actual bus
 
 We work with Chartered Accountants, Company Secretaries, Cost and Management Accountants, and local businesses to build content that performs in both traditional Google search and AI powered search tools. That includes:
 
-* Full [content strategy and article writing](https://f9xr.github.io/services/content-creation-editorial-operations.html), following the exact structure covered in this guide
+* Full [content strategy and article writing](https://f9xr.org/services/content-creation-editorial-operations.html), following the exact structure covered in this guide
 * Keyword research tailored to your specific industry and location, not generic templates
-* [AI visibility optimization](https://f9xr.github.io/services/ai-visibility-optimization.html) and schema markup so your content is positioned to get cited by tools like ChatGPT and Perplexity
+* [AI visibility optimization](https://f9xr.org/services/ai-visibility-optimization.html) and schema markup so your content is positioned to get cited by tools like ChatGPT and Perplexity
 * Website development and redesigns that give your content a fast, clean, mobile friendly home to live on
 
-If you've been publishing content that isn't gaining traction, the issue is very often the structure, not the effort, and that's a fixable problem. You can talk through it with the [F9XR team](https://f9xr.github.io/pages/contact.html) to see where the gaps are.
+If you've been publishing content that isn't gaining traction, the issue is very often the structure, not the effort, and that's a fixable problem. You can talk through it with the [F9XR team](https://f9xr.org/pages/contact.html) to see where the gaps are.
 
 ---
 
@@ -187,4 +187,4 @@ Writing SEO friendly content isn't about learning to trick an algorithm, it's ab
 
 If putting this into consistent practice alongside actually running your business feels like a lot, that's exactly the kind of ongoing work F9XR Team handles for clients, from content strategy and writing to website development, redesigns, and local SEO, so your digital presence keeps improving without becoming another task on your own to do list.
 
-*Produced using AI-assisted research and drafting workflows, then reviewed and edited by the F9XR editorial team. See our [Editorial Policy](https://f9xr.github.io/articles/press/editorial-policy.html) for how we create and verify content.*
+*Produced using AI-assisted research and drafting workflows, then reviewed and edited by the F9XR editorial team. See our [Editorial Policy](https://f9xr.org/articles/press/editorial-policy.html) for how we create and verify content.*

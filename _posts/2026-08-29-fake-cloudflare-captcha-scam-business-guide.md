@@ -1,8 +1,8 @@
----
+﻿---
 layout: post
 title: "Fake Cloudflare CAPTCHA Scam: Protect Your Website"
 description: "A fake Cloudflare CAPTCHA scam is tricking visitors into running malware. Here's how it works and how to protect your business website."
-image: "https://f9xr.github.io/articles/assets/post-images/Fake-CAPTCHA-Cloudflare.webp"
+image: "https://f9xr.org/articles/assets/post-images/Fake-CAPTCHA-Cloudflare.webp"
 image_width: 1195
 image_height: 1277
 date: 2026-08-29
@@ -28,7 +28,7 @@ faq:
 
 If you have ever landed on a website and seen a box asking you to "verify you are human," you probably clicked it without a second thought. Cloudflare's [CAPTCHA checks](https://www.cloudflare.com/products/turnstile/){:target="_blank" rel="noopener noreferrer"} are everywhere, and most of us have learned to trust that little cloud logo. That trust is exactly what a fast-growing scam is exploiting.
 
-Security researchers have been tracking a technique commonly called "ClickFix," where attackers build a fake Cloudflare verification screen that looks nearly identical to the real thing. But instead of a simple checkbox, it walks the visitor through steps that end with them running a malicious command on their own computer. For business owners, this matters on two fronts. Your customers could be tricked by this scam elsewhere. And if your own website ever gets compromised, this exact type of fake verification screen could end up on your pages, damaging [customer trust](https://f9xr.github.io/articles/2026/08/15/how-to-increase-website-trust-score.html) and your brand's reputation.
+Security researchers have been tracking a technique commonly called "ClickFix," where attackers build a fake Cloudflare verification screen that looks nearly identical to the real thing. But instead of a simple checkbox, it walks the visitor through steps that end with them running a malicious command on their own computer. For business owners, this matters on two fronts. Your customers could be tricked by this scam elsewhere. And if your own website ever gets compromised, this exact type of fake verification screen could end up on your pages, damaging [customer trust](https://f9xr.org/articles/2026/08/15/how-to-increase-website-trust-score.html) and your brand's reputation.
 
 In this guide, we will break down how the fake Cloudflare CAPTCHA scam works, why it is so effective, what warning signs to look for, and what business owners should do to protect both their websites and their customers.
 
@@ -92,7 +92,7 @@ Employees and customers browsing the web on company devices can run into this sc
 
 ### 2. Your Own Website Could Be Targeted
 
-If your website has [outdated plugins](https://f9xr.github.io/articles/2026/08/25/cloudflare-emdash-cms-explained.html), weak admin credentials, or unpatched software, attackers can inject this exact kind of fake verification screen directly onto your pages. Visitors would then associate the infection with your brand rather than the attacker, causing real reputational and trust damage that can take a long time to repair.
+If your website has [outdated plugins](https://f9xr.org/articles/2026/08/25/cloudflare-emdash-cms-explained.html), weak admin credentials, or unpatched software, attackers can inject this exact kind of fake verification screen directly onto your pages. Visitors would then associate the infection with your brand rather than the attacker, causing real reputational and trust damage that can take a long time to repair.
 
 ### 3. It Undermines Trust in Legitimate Security Tools
 
@@ -149,10 +149,10 @@ Website security and digital trust go hand in hand. A well-maintained site is fa
 
 - **Website development and redesign** with security best practices built in from the start, not bolted on afterward.
 - **Regular maintenance and update management** for your CMS, plugins, and themes, closing the gaps attackers rely on.
-- **Local SEO and digital presence solutions** that build genuine [customer trust](https://f9xr.github.io/articles/2026/08/04/google-e-e-a-t-checklist-every-seo-should-bookmark.html), which matters even more in a world full of impersonation scams.
+- **Local SEO and digital presence solutions** that build genuine [customer trust](https://f9xr.org/articles/2026/08/04/google-e-e-a-t-checklist-every-seo-should-bookmark.html), which matters even more in a world full of impersonation scams.
 - **Guidance on securing admin access, hosting accounts, and third-party integrations** for your business website.
 
-A secure, well-maintained website is not just good practice. It is part of protecting your brand from being unknowingly used to spread scams like this one. You can see how we build and maintain sites with security in mind in our [case studies](https://f9xr.github.io/case-studies/index.html).
+A secure, well-maintained website is not just good practice. It is part of protecting your brand from being unknowingly used to spread scams like this one. You can see how we build and maintain sites with security in mind in our [case studies](https://f9xr.org/case-studies/index.html).
 
 ---
 
@@ -172,8 +172,8 @@ A secure, well-maintained website is not just good practice. It is part of prote
 
 The fake Cloudflare CAPTCHA scam is a sharp reminder that attackers are getting better at exploiting the exact tools we are trained to trust. For business owners, the risk is not limited to a single employee clicking the wrong thing. A poorly maintained website can just as easily become the delivery mechanism, putting your customers and your reputation on the line.
 
-The best defense is a combination of awareness and a well-maintained, secure website. If your site has not had a security-focused review in a while, or you want a digital presence built with these risks in mind from day one, teams like the F9XR Team offer [website development](https://f9xr.github.io/services/website-rentals.html), [website redesign](https://f9xr.github.io/services/index.html), [website maintenance](https://f9xr.github.io/services/we-do-for-you.html), and [local SEO](https://f9xr.github.io/services/google-business-optimization.html) designed to keep your business both visible and protected.
+The best defense is a combination of awareness and a well-maintained, secure website. If your site has not had a security-focused review in a while, or you want a digital presence built with these risks in mind from day one, teams like the F9XR Team offer [website development](https://f9xr.org/services/website-rentals.html), [website redesign](https://f9xr.org/services/index.html), [website maintenance](https://f9xr.org/services/we-do-for-you.html), and [local SEO](https://f9xr.org/services/google-business-optimization.html) designed to keep your business both visible and protected.
 
 ---
 
-*Produced using AI-assisted research and drafting workflows, then reviewed and edited by the F9XR editorial team. See our [Editorial Policy](https://f9xr.github.io/articles/press/editorial-policy.html) for how we create and verify content.*
+*Produced using AI-assisted research and drafting workflows, then reviewed and edited by the F9XR editorial team. See our [Editorial Policy](https://f9xr.org/articles/press/editorial-policy.html) for how we create and verify content.*

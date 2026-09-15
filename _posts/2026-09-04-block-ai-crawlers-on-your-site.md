@@ -1,8 +1,8 @@
----
+﻿---
 layout: post
 title: "Block AI Crawlers on Your Site: Full 2026 Guide"
 description: "Learn exactly how to block AI crawlers like GPTBot, ClaudeBot, and CCBot using robots.txt, server rules, and meta tags, step by step."
-image: "https://f9xr.github.io/articles/assets/post-images/2026-09-04-block-ai-crawlers-on-your-site.webp"
+image: "https://f9xr.org/articles/assets/post-images/2026-09-04-block-ai-crawlers-on-your-site.webp"
 image_width: 1200
 image_height: 630
 date: 2026-09-04
@@ -72,7 +72,7 @@ This table splits roughly into two categories, and it changes how you should thi
 
 **Retrieval or answer bots** (OAI-SearchBot, PerplexityBot, ChatGPT-User, Claude-Web) fetch your page in real time to answer a specific user's live question and often cite you as a source. Blocking these can directly remove you from AI-generated answers and citations, similar to how blocking Googlebot removes you from search results.
 
-If your [Search Everywhere Optimization](https://f9xr.github.io/articles/2026/08/14/search-everywhere-optimization-youtube-google-seo.html) strategy depends on being cited by AI answer engines, blocking retrieval bots works directly against that goal. Blocking training bots is a separate, much lower-risk decision.
+If your [Search Everywhere Optimization](https://f9xr.org/articles/2026/08/14/search-everywhere-optimization-youtube-google-seo.html) strategy depends on being cited by AI answer engines, blocking retrieval bots works directly against that goal. Blocking training bots is a separate, much lower-risk decision.
 
 ---
 
@@ -260,7 +260,7 @@ Setting the rules is only half the job. You need to confirm they're being enforc
 | Effect on brand citation in AI answers | No immediate change | You stop appearing as a cited source |
 | Recommended for most local businesses | Often yes, low risk | Usually no, unless privacy or legal reasons apply |
 
-For most local businesses and startups actively trying to grow visibility, including through the [Search Everywhere Optimization](https://f9xr.github.io/articles/2026/08/14/search-everywhere-optimization-youtube-google-seo.html) strategies we've covered previously, blocking training bots while allowing retrieval and answer bots tends to be the balanced approach. It protects your original content from uncredited training use without cutting yourself out of AI-driven discovery.
+For most local businesses and startups actively trying to grow visibility, including through the [Search Everywhere Optimization](https://f9xr.org/articles/2026/08/14/search-everywhere-optimization-youtube-google-seo.html) strategies we've covered previously, blocking training bots while allowing retrieval and answer bots tends to be the balanced approach. It protects your original content from uncredited training use without cutting yourself out of AI-driven discovery.
 
 ---
 
@@ -282,7 +282,7 @@ Blocking every AI crawler indiscriminately, including retrieval bots, might feel
 
 ## How the F9XR Team Approaches AI Crawler Management
 
-At F9XR Team, we treat crawler management as part of a broader [technical SEO and digital presence audit](https://f9xr.github.io/pages/services.html), not an isolated robots.txt edit. Our process typically includes:
+At F9XR Team, we treat crawler management as part of a broader [technical SEO and digital presence audit](https://f9xr.org/pages/services.html), not an isolated robots.txt edit. Our process typically includes:
 
 1. **Crawler audit**: reviewing server logs to identify which AI bots are actually visiting your site and how frequently.
 2. **Strategic classification**: separating training bots from retrieval or answer bots based on your specific visibility goals.
@@ -290,7 +290,7 @@ At F9XR Team, we treat crawler management as part of a broader [technical SEO an
 4. **Ongoing monitoring**: checking log activity periodically since new AI crawlers appear regularly and older rules can become outdated.
 5. **Alignment with your broader SEO strategy**: making sure crawler decisions support, rather than conflict with, your local SEO and AI search visibility goals.
 
-This kind of technical configuration work sits alongside the [website development](https://f9xr.github.io/services/we-do-for-you.html) and [local SEO services](https://f9xr.github.io/services/google-business-optimization.html) we provide, because a site's crawler settings, server configuration, and search strategy all need to work together, not be managed in isolated silos.
+This kind of technical configuration work sits alongside the [website development](https://f9xr.org/services/we-do-for-you.html) and [local SEO services](https://f9xr.org/services/google-business-optimization.html) we provide, because a site's crawler settings, server configuration, and search strategy all need to work together, not be managed in isolated silos.
 
 ---
 
@@ -301,7 +301,7 @@ This kind of technical configuration work sits alongside the [website developmen
 - Server-level blocking through .htaccess, Nginx, or Cloudflare provides actual enforcement against non-compliant bots.
 - Blocking training bots is generally low risk for most businesses, while blocking retrieval bots directly reduces your visibility in AI-generated search answers.
 - Always verify that broad blocking rules don't accidentally block Googlebot or Bingbot.
-- Crawler management should align with your broader [SEO and AI search visibility strategy](https://f9xr.github.io/pages/services.html), not be handled as an isolated technical task.
+- Crawler management should align with your broader [SEO and AI search visibility strategy](https://f9xr.org/pages/services.html), not be handled as an isolated technical task.
 
 ---
 
@@ -309,6 +309,6 @@ This kind of technical configuration work sits alongside the [website developmen
 
 Deciding how to handle AI crawlers isn't really a technical question first. It's a strategic one. Once you understand the difference between a bot that's training a future model and a bot that's actively citing you in someone's AI search results right now, the robots.txt and server configuration work becomes straightforward. The harder part is making sure that decision actually supports how you want your business to be found, whether that's protecting proprietary content, reducing server load, or staying visible in the AI Overviews and chatbot answers your customers are increasingly relying on.
 
-If you're not sure where to start, or want a proper audit of which bots are currently crawling your site and what that means for your visibility, the F9XR Team handles exactly this kind of technical configuration as part of our [website development](https://f9xr.github.io/services/we-do-for-you.html), [website redesign](https://f9xr.github.io/pages/services.html), and [local SEO services](https://f9xr.github.io/services/google-business-optimization.html), so your crawler settings, your server setup, and your broader digital presence strategy are all working from the same plan instead of pulling in different directions.
+If you're not sure where to start, or want a proper audit of which bots are currently crawling your site and what that means for your visibility, the F9XR Team handles exactly this kind of technical configuration as part of our [website development](https://f9xr.org/services/we-do-for-you.html), [website redesign](https://f9xr.org/pages/services.html), and [local SEO services](https://f9xr.org/services/google-business-optimization.html), so your crawler settings, your server setup, and your broader digital presence strategy are all working from the same plan instead of pulling in different directions.
 
-*Produced using AI-assisted research and drafting workflows, then reviewed and edited by the F9XR editorial team. See our [Editorial Policy](https://f9xr.github.io/articles/press/editorial-policy.html) for how we create and verify content.*
+*Produced using AI-assisted research and drafting workflows, then reviewed and edited by the F9XR editorial team. See our [Editorial Policy](https://f9xr.org/articles/press/editorial-policy.html) for how we create and verify content.*

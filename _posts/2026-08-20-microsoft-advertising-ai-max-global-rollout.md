@@ -1,8 +1,8 @@
----
+﻿---
 layout: post
 title: "Microsoft Ads AI Max Goes Global: What to Know"
 description: "Microsoft Advertising rolled out AI Max globally on August 19, 2026. Here's what changed, what it means for your PPC budget, and what to do next."
-image: "https://f9xr.github.io/articles/assets/post-images/microsoft-ads-ai-max-global-rollout.webp"
+image: "https://f9xr.org/articles/assets/post-images/microsoft-ads-ai-max-global-rollout.webp"
 image_width: 1200
 image_height: 630
 image_caption: "Microsoft Advertising AI Max global rollout breakdown for business owners"
@@ -103,7 +103,7 @@ Microsoft's fiscal fourth quarter results, reported July 29, 2026, showed search
 
 ### Conversational Search Doesn't Automatically Follow Keyword Lists
 
-Traditional keyword-based advertising was built for a search box, not a conversation. As more queries happen through [Copilot and similar AI-assisted interfaces](https://f9xr.github.io/articles/2026/08/22/chatgpt-ads-guide-business-owners.html), a fixed keyword list simply can't capture the full range of ways people are now phrasing what they want. Search term matching is essentially an inventory expansion mechanism, opening up auction opportunities for queries that a traditional keyword list would have missed entirely, without requiring any new users to show up.
+Traditional keyword-based advertising was built for a search box, not a conversation. As more queries happen through [Copilot and similar AI-assisted interfaces](https://f9xr.org/articles/2026/08/22/chatgpt-ads-guide-business-owners.html), a fixed keyword list simply can't capture the full range of ways people are now phrasing what they want. Search term matching is essentially an inventory expansion mechanism, opening up auction opportunities for queries that a traditional keyword list would have missed entirely, without requiring any new users to show up.
 
 ### The Agentic Web Framing
 
@@ -147,7 +147,7 @@ Before opting into the broader search term matching or text customization featur
 Test AI Max on a single, well-established Search campaign first. This gives you a clean comparison point against your existing performance data before rolling it out account-wide.
 
 ### 4. Review Search Term Reports Weekly
-Since expanded matching can bring in queries outside your original keyword list, check your [search term reports](https://f9xr.github.io/articles/2026/08/23/sem-metrics-complete-guide-2026.html) regularly, at least weekly during the first month, to catch anything irrelevant or off-brand early.
+Since expanded matching can bring in queries outside your original keyword list, check your [search term reports](https://f9xr.org/articles/2026/08/23/sem-metrics-complete-guide-2026.html) regularly, at least weekly during the first month, to catch anything irrelevant or off-brand early.
 
 ### 5. Audit AI-Generated Ad Copy Regularly
 Set a recurring reminder to review the ad text AI Max is generating. Confirm it stays consistent with your actual offers, pricing, and brand tone, particularly if you operate in a regulated or sensitive industry.
@@ -197,4 +197,4 @@ If you're not sure whether AI Max makes sense for your current Microsoft Adverti
 
 ---
 
-*Produced using AI-assisted research and drafting workflows, then reviewed and edited by the F9XR editorial team. See our [Editorial Policy](https://f9xr.github.io/articles/press/editorial-policy.html) for how we create and verify content.*
+*Produced using AI-assisted research and drafting workflows, then reviewed and edited by the F9XR editorial team. See our [Editorial Policy](https://f9xr.org/articles/press/editorial-policy.html) for how we create and verify content.*

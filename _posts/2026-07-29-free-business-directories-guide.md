@@ -1,8 +1,8 @@
----
+﻿---
 layout: post
 title: "Free Business Directories to Boost Local SEO"
 description: "List your business on free business directories to boost local SEO, earn backlinks, and get found by more customers. Complete guide with practical tips."
-image: "https://f9xr.github.io/articles/assets/post-images/f9xr-dic.webp"
+image: "https://f9xr.org/articles/assets/post-images/f9xr-dic.webp"
 image_width: 1200
 image_height: 735
 date: 2026-07-29
@@ -141,11 +141,11 @@ If you are launching a new product, startup, or app, these directories help you 
 - F6S
 - XEED
 
-<a href="https://f9xr.github.io/directories/business-listing-sites.html" target="_blank" rel="noopener noreferrer" style="display:inline-block; margin:0.3em 0; background:linear-gradient(135deg, #3b82f6, #2563eb); color:#fff !important; padding:0.7em 1.6em; border-radius:8px; font-weight:600; text-decoration:none !important; transition:opacity 0.2s;" onmouseover="this.style.opacity='0.9'" onmouseout="this.style.opacity='1'">Open Business Listing Sites</a>
+<a href="https://f9xr.org/directories/business-listing-sites.html" target="_blank" rel="noopener noreferrer" style="display:inline-block; margin:0.3em 0; background:linear-gradient(135deg, #3b82f6, #2563eb); color:#fff !important; padding:0.7em 1.6em; border-radius:8px; font-weight:600; text-decoration:none !important; transition:opacity 0.2s;" onmouseover="this.style.opacity='0.9'" onmouseout="this.style.opacity='1'">Open Business Listing Sites</a>
 <br><br>
 F9XR Directories curates over 100 of these platforms in one place, organized by category, so you do not have to hunt for them yourself.
 <br><br>
-<a href="https://f9xr.github.io/directories" target="_blank" rel="noopener noreferrer" style="display:inline-block; background:transparent; color:#3b82f6 !important; border:2px solid #3b82f6; padding:0.6em 1.5em; border-radius:8px; font-weight:600; text-decoration:none !important; transition:all 0.2s;" onmouseover="this.style.background='rgba(59,130,246,0.1)'" onmouseout="this.style.background='transparent'">Browse All Directories &rarr;</a>
+<a href="https://f9xr.org/directories" target="_blank" rel="noopener noreferrer" style="display:inline-block; background:transparent; color:#3b82f6 !important; border:2px solid #3b82f6; padding:0.6em 1.5em; border-radius:8px; font-weight:600; text-decoration:none !important; transition:all 0.2s;" onmouseover="this.style.background='rgba(59,130,246,0.1)'" onmouseout="this.style.background='transparent'">Browse All Directories &rarr;</a>
 
 ---
 
@@ -230,11 +230,11 @@ Set a quarterly reminder to audit your top 10 directories and make sure everythi
 
 ## How Directory Listings Help with AI Search
 
-Here is something most guides miss. Directory listings directly impact how your business appears in [AI generated search results](https://f9xr.github.io/articles/2026/08/16/how-ai-picks-local-businesses-2026.html).
+Here is something most guides miss. Directory listings directly impact how your business appears in [AI generated search results](https://f9xr.org/articles/2026/08/16/how-ai-picks-local-businesses-2026.html).
 
 When a user asks ChatGPT "find me a plumber in Austin" or asks Perplexity "what are the best SEO tools for small business", these AI models pull data from indexed web sources. Directories are among the most referenced sources.
 
-Being listed on high authority directories increases your chances of being cited in AI responses. This is called [Answer Engine Optimization or AEO](https://f9xr.github.io/articles/2026/08/23/aeo-landing-page-optimization-guide.html), and it is becoming as important as traditional SEO.
+Being listed on high authority directories increases your chances of being cited in AI responses. This is called [Answer Engine Optimization or AEO](https://f9xr.org/articles/2026/08/23/aeo-landing-page-optimization-guide.html), and it is becoming as important as traditional SEO.
 
 The same consistency, completeness, and authority signals that help you rank on Google also help you get recommended by AI assistants.
 
@@ -253,7 +253,7 @@ The same consistency, completeness, and authority signals that help you rank on 
 - Quality matters more than quantity. 20 good listings beat 200 spammy ones
 - Directory listings also power AI search results in tools like ChatGPT and Perplexity
 - Maintain and update your listings quarterly for best results
-- <a href="https://f9xr.github.io/directories/business-listing-sites.html" target="_blank" rel="noopener noreferrer">F9XR Directories</a> curates over 100 free platforms to simplify the process
+- <a href="https://f9xr.org/directories/business-listing-sites.html" target="_blank" rel="noopener noreferrer">F9XR Directories</a> curates over 100 free platforms to simplify the process
 
 ---
 
@@ -277,7 +277,7 @@ We submit your business to top local directories that drive real leads and build
 
 No Bots. Just Real Citations. Our team manually submits your business to the best local directories and citation platforms. No shortcuts - just real listings that get approved and indexed by search engines. Getting your business listed on 100+ directories sounds time consuming, right? That is where we come in. Simply fill out our quick form with your business details, and we will handle everything else.
 
-<a href="https://f9xr.github.io/services/we-do-for-you.html" target="_blank" rel="noopener noreferrer" style="display:inline-block; margin-top:0.5em; background:linear-gradient(135deg, #3b82f6, #2563eb); color:#fff !important; padding:0.7em 1.6em; border-radius:8px; font-weight:600; text-decoration:none !important; transition:opacity 0.2s;" onmouseover="this.style.opacity='0.9'" onmouseout="this.style.opacity='1'">Learn More</a>
+<a href="https://f9xr.org/services/we-do-for-you.html" target="_blank" rel="noopener noreferrer" style="display:inline-block; margin-top:0.5em; background:linear-gradient(135deg, #3b82f6, #2563eb); color:#fff !important; padding:0.7em 1.6em; border-radius:8px; font-weight:600; text-decoration:none !important; transition:opacity 0.2s;" onmouseover="this.style.opacity='0.9'" onmouseout="this.style.opacity='1'">Learn More</a>
 
 ---
 
@@ -287,8 +287,8 @@ Free business directories are one of the most underused tools in digital marketi
 
 The businesses that take the time to list themselves properly across the right directories consistently outperform those that skip this step. It is not complicated work, but it is work that pays off month after month.
 
-If you need help getting your business listed across the right directories or want a complete <a href="https://f9xr.github.io/pages/services.html" target="_blank" rel="noopener noreferrer">digital presence strategy</a>, teams like F9XR Team specialize in <a href="https://f9xr.github.io/pages/services.html" target="_blank" rel="noopener noreferrer">website development, website redesign, local SEO</a>, and digital presence solutions that get real results. You can also explore the full <a href="https://f9xr.github.io/directories/product-launch-directories.html" target="_blank" rel="noopener noreferrer">product launch directory collection</a> for startup specific platforms.
+If you need help getting your business listed across the right directories or want a complete <a href="https://f9xr.org/pages/services.html" target="_blank" rel="noopener noreferrer">digital presence strategy</a>, teams like F9XR Team specialize in <a href="https://f9xr.org/pages/services.html" target="_blank" rel="noopener noreferrer">website development, website redesign, local SEO</a>, and digital presence solutions that get real results. You can also explore the full <a href="https://f9xr.org/directories/product-launch-directories.html" target="_blank" rel="noopener noreferrer">product launch directory collection</a> for startup specific platforms.
 
 Start with one directory today. Pick Google Business Profile if you have not claimed it yet. Fill it out completely. Add photos. Write a description. Then move to the next one. Six months from now, you will be glad you did.
 
-*Produced using AI-assisted research and drafting workflows, then reviewed and edited by the F9XR editorial team. See our [Editorial Policy](https://f9xr.github.io/articles/press/editorial-policy.html) for how we create and verify content.*
+*Produced using AI-assisted research and drafting workflows, then reviewed and edited by the F9XR editorial team. See our [Editorial Policy](https://f9xr.org/articles/press/editorial-policy.html) for how we create and verify content.*

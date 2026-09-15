@@ -1,8 +1,8 @@
----
+﻿---
 layout: post
 title: "AI AdSense Help Guide: What Publishers Should Know"
 description: "Google rolled out its AI-powered AdSense Help guide to 100% of English Help Center traffic. Here's how to use it without trusting an inaccurate AI answer."
-image: "https://f9xr.github.io/articles/assets/post-images/google-ai-adsense-help-guide-rollout.webp"
+image: "https://f9xr.org/articles/assets/post-images/google-ai-adsense-help-guide-rollout.webp"
 image_width: 1200
 image_height: 630
 date: 2026-09-05
@@ -122,7 +122,7 @@ Think of the Help guide as a fast triage tool. It can point you in the right dir
 
 This rollout is part of a broader pattern. Google is increasingly putting conversational AI in front of documentation across its products, not just AdSense. For business owners, this reflects a larger shift happening across the web: AI-generated answers are becoming the default first touchpoint for information, whether that's inside a support center or in search results themselves.
 
-This is exactly why optimizing your business for both traditional search engines and AI-driven answer engines has become essential. If Google itself is leaning into AI-first support experiences, it's a strong signal that AI-based discovery and assistance will keep expanding across the digital landscape, including how customers eventually find and evaluate your business online. Teams that focus on [AI search optimization](https://f9xr.github.io/services/ai-visibility-optimization.html) are already treating this as standard practice, not a trend to watch.
+This is exactly why optimizing your business for both traditional search engines and AI-driven answer engines has become essential. If Google itself is leaning into AI-first support experiences, it's a strong signal that AI-based discovery and assistance will keep expanding across the digital landscape, including how customers eventually find and evaluate your business online. Teams that focus on [AI search optimization](https://f9xr.org/services/ai-visibility-optimization.html) are already treating this as standard practice, not a trend to watch.
 
 ---
 
@@ -143,12 +143,12 @@ Navigating changes like this isn't just about understanding a new support tool. 
 
 The F9XR Team helps small businesses, startups, and local brands build stronger digital foundations, whether that means:
 
-* Designing or redesigning a website that's fast, compliant, and built for both users and ad platforms like AdSense, work covered under our [website services](https://f9xr.github.io/services/index.html)
-* Improving local SEO so your business shows up where your customers are searching, a focus of our [Google Business optimization](https://f9xr.github.io/services/google-business-optimization.html) work
+* Designing or redesigning a website that's fast, compliant, and built for both users and ad platforms like AdSense, work covered under our [website services](https://f9xr.org/services/index.html)
+* Improving local SEO so your business shows up where your customers are searching, a focus of our [Google Business optimization](https://f9xr.org/services/google-business-optimization.html) work
 * Building a complete digital presence strategy that accounts for both traditional search engines and emerging AI-driven answer engines
 * Auditing your existing site for technical or policy issues that could put ad revenue or search visibility at risk
 
-If Google's own support systems are shifting toward AI, it's worth asking whether your website and content strategy are keeping pace too. Writing practices like [answer engine optimization](https://f9xr.github.io/articles/2026/08/23/aeo-landing-page-optimization-guide.html) and tracking how AI surfaces [citations and visibility](https://f9xr.github.io/articles/2026/08/26/monitor-ai-search-trends-boost-visibility-citations.html) are exactly the levers that matter as this shift plays out.
+If Google's own support systems are shifting toward AI, it's worth asking whether your website and content strategy are keeping pace too. Writing practices like [answer engine optimization](https://f9xr.org/articles/2026/08/23/aeo-landing-page-optimization-guide.html) and tracking how AI surfaces [citations and visibility](https://f9xr.org/articles/2026/08/26/monitor-ai-search-trends-boost-visibility-citations.html) are exactly the levers that matter as this shift plays out.
 
 ---
 
@@ -160,4 +160,4 @@ As AI continues to reshape how people find information and get support, whether 
 
 ---
 
-*Produced using AI-assisted research and drafting workflows, then reviewed and edited by the F9XR editorial team. See our [Editorial Policy](https://f9xr.github.io/articles/press/editorial-policy.html) for how we create and verify content.*
+*Produced using AI-assisted research and drafting workflows, then reviewed and edited by the F9XR editorial team. See our [Editorial Policy](https://f9xr.org/articles/press/editorial-policy.html) for how we create and verify content.*

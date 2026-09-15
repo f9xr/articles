@@ -1,8 +1,8 @@
----
+﻿---
 layout: post
 title: "SEO Codebase Auditor v5.1: 24 Pillars, Sharper Fixes"
 description: "Our SEO Codebase Auditor just got a v5.1 upgrade. See what changed across all 24 SEO pillars and why it matters for your website's rankings."
-image: "https://f9xr.github.io/articles/assets/post-images/seo-codebase-auditor-v5-1-update.webp"
+image: "https://f9xr.org/articles/assets/post-images/seo-codebase-auditor-v5-1-update.webp"
 image_width: 1200
 image_height: 630
 date: 2026-08-26
@@ -25,11 +25,11 @@ faq:
 
 If you run a small business website, chances are you have been told at least once that your "SEO needs work" without anyone actually explaining what that means. Maybe an agency handed you a generic checklist. Maybe you paid for an audit that flagged the same ten issues every website has. It is frustrating, and honestly, it is why a lot of business owners give up on SEO altogether.
 
-That is the exact problem our [SEO Codebase Auditor](https://f9xr.github.io/seo-audit-report-skill/) was built to solve, and this week we pushed a meaningful update to it. Version 5.1 is not a cosmetic refresh, and it builds directly on the [original SEO Codebase Auditor skill guide](https://f9xr.github.io/articles/2026/07/31/f9xr-seo-codebase-auditor-skill-guide.html) we published in July. It is a correction pass across all 24 SEO pillars the tool inspects, fixing outdated guidance, tightening severity scoring, and making the reports easier for both business owners and developers to actually use.
+That is the exact problem our [SEO Codebase Auditor](https://f9xr.org/seo-audit-report-skill/) was built to solve, and this week we pushed a meaningful update to it. Version 5.1 is not a cosmetic refresh, and it builds directly on the [original SEO Codebase Auditor skill guide](https://f9xr.org/articles/2026/07/31/f9xr-seo-codebase-auditor-skill-guide.html) we published in July. It is a correction pass across all 24 SEO pillars the tool inspects, fixing outdated guidance, tightening severity scoring, and making the reports easier for both business owners and developers to actually use.
 
 In this article, we will walk through what changed, why it matters, and what it means if you are a startup founder, a local business owner, or anyone trying to figure out why your website is not showing up on Google (or in ChatGPT and Gemini answers, for that matter).
 
-<img src="https://f9xr.github.io/articles/assets/post-images/seo-audit.webp" alt="SEO Codebase Auditor v5.1 covering 24 SEO pillars from technical through semantic and local" title="The SEO Codebase Auditor inspects your site across 24 SEO pillars" width="1000" height="421" loading="lazy" />
+<img src="https://f9xr.org/articles/assets/post-images/seo-audit.webp" alt="SEO Codebase Auditor v5.1 covering 24 SEO pillars from technical through semantic and local" title="The SEO Codebase Auditor inspects your site across 24 SEO pillars" width="1000" height="421" loading="lazy" />
 
 ---
 
@@ -46,13 +46,13 @@ A codebase auditor goes further. It looks at the actual source code, template st
 - Layout shift issues caused by how images and fonts load
 - Whether content actually demonstrates topical depth, or just repeats a keyword
 
-Our auditor was built specifically for this kind of deep, code-level inspection, organized into [24 distinct pillars](https://f9xr.github.io/seo-audit-report-skill/docs/audit-pillars.html) covering everything from technical SEO to semantic content quality to e-commerce specific checks.
+Our auditor was built specifically for this kind of deep, code-level inspection, organized into [24 distinct pillars](https://f9xr.org/seo-audit-report-skill/docs/audit-pillars.html) covering everything from technical SEO to semantic content quality to e-commerce specific checks.
 
 ## Why the Update? Even Good Tools Get Stale
 
 SEO is not static. Google changes its ranking signals, deprecates old standards, and updates its [Core Web Vitals](https://developers.google.com/search/docs/appearance/core-web-vitals) guidance regularly. A tool that was accurate two years ago can quietly start giving bad advice if nobody revisits it.
 
-That is what happened here. During an [internal audit of the tool itself](https://f9xr.github.io/articles/2026/08/13/consistency-audits-seo-aeo-geo.html), we found ten issues in the guidance logic, three of which were genuinely outdated SEO recommendations that could have led site owners in the wrong direction. Rather than let those linger, we fixed them and used the opportunity to clean up some structural rough edges too.
+That is what happened here. During an [internal audit of the tool itself](https://f9xr.org/articles/2026/08/13/consistency-audits-seo-aeo-geo.html), we found ten issues in the guidance logic, three of which were genuinely outdated SEO recommendations that could have led site owners in the wrong direction. Rather than let those linger, we fixed them and used the opportunity to clean up some structural rough edges too.
 
 Here is the breakdown of what the update covers.
 
@@ -101,7 +101,7 @@ This one is worth calling out because it reflects a bigger shift in how modern S
 
 Google, and increasingly AI answer engines like ChatGPT, Gemini, and Perplexity, evaluate content based on entity coverage and topical completeness rather than raw keyword repetition. A page can use zero exact-match repetitions of a phrase and still rank well if it thoroughly covers the topic using natural language variations.
 
-The v5.1 update adds an explicit caveat: if a page scores well on entity coverage and topical depth but shows low keyword density, the tool will not flag it. That is the correct behavior for how search actually works today, and it is also exactly the kind of content structure that gets cited by AI search tools when they generate answers, something we call [Answer Engine Optimization](https://f9xr.github.io/articles/2026/08/23/aeo-landing-page-optimization-guide.html), or AEO.
+The v5.1 update adds an explicit caveat: if a page scores well on entity coverage and topical depth but shows low keyword density, the tool will not flag it. That is the correct behavior for how search actually works today, and it is also exactly the kind of content structure that gets cited by AI search tools when they generate answers, something we call [Answer Engine Optimization](https://f9xr.org/articles/2026/08/23/aeo-landing-page-optimization-guide.html), or AEO.
 
 ## Cleaner Reports, Less Noise
 
@@ -109,7 +109,7 @@ Two smaller but genuinely useful changes:
 
 **Report length management.** Large sites with a lot of findings used to generate audit reports that stretched past 5,000 lines. Nobody reads that. The Priority Fix Matrix is now capped at 20 items, with detailed breakdowns moved to an appendix so stakeholders can scan the summary while developers still get full technical detail where they need it.
 
-**Pillar mapping on every template.** The tool includes [22 prompt templates](https://f9xr.github.io/seo-audit-report-skill/docs/prompt-templates.html) for running targeted audits (say, just checking structured data, or just checking e-commerce pages). Each one now lists exactly which of the 24 pillars it activates, so there is no guessing about audit scope before you run it.
+**Pillar mapping on every template.** The tool includes [22 prompt templates](https://f9xr.org/seo-audit-report-skill/docs/prompt-templates.html) for running targeted audits (say, just checking structured data, or just checking e-commerce pages). Each one now lists exactly which of the 24 pillars it activates, so there is no guessing about audit scope before you run it.
 
 ## Why This Actually Matters If You Run a Small Business
 
@@ -124,9 +124,9 @@ A few practical takeaways for your own site, even without running a full audit:
 
 ## How F9XR Team Can Help
 
-This update is part of a broader commitment we hold at F9XR Team: not just building websites, but making sure the SEO guidance behind them is current and defensible. We work with local businesses, startups, and finance professionals including Chartered Accountants, Company Secretaries, and Cost and Management Accountants, on [website development](https://f9xr.github.io/services/website-rentals.html), [website redesigns](https://f9xr.github.io/services/website-rentals.html), [local SEO](https://f9xr.github.io/services/google-business-optimization.html), and overall digital presence strategy.
+This update is part of a broader commitment we hold at F9XR Team: not just building websites, but making sure the SEO guidance behind them is current and defensible. We work with local businesses, startups, and finance professionals including Chartered Accountants, Company Secretaries, and Cost and Management Accountants, on [website development](https://f9xr.org/services/website-rentals.html), [website redesigns](https://f9xr.org/services/website-rentals.html), [local SEO](https://f9xr.org/services/google-business-optimization.html), and overall digital presence strategy.
 
-If you are not sure whether your current site is bleeding traffic due to outdated technical SEO practices, that is exactly the kind of gap we help close, using tools like this auditor alongside hands-on review of your site's structure, content, and local search visibility, the same way we [audited the F9XR Articles codebase this month](https://f9xr.github.io/articles/2026/08/22/seo-codebase-e-e-a-t-audit-case-study.html).
+If you are not sure whether your current site is bleeding traffic due to outdated technical SEO practices, that is exactly the kind of gap we help close, using tools like this auditor alongside hands-on review of your site's structure, content, and local search visibility, the same way we [audited the F9XR Articles codebase this month](https://f9xr.org/articles/2026/08/22/seo-codebase-e-e-a-t-audit-case-study.html).
 
 ## Key Takeaways
 
@@ -138,4 +138,4 @@ If you are not sure whether your current site is bleeding traffic due to outdate
 - Audit reports are capped for readability, and all 22 prompt templates now show which pillars they activate.
 - F9XR Team helps local businesses and startups apply this kind of technical SEO accuracy to real websites, not just theoretical checklists.
 
-*Produced using AI-assisted research and drafting workflows, then reviewed and edited by the F9XR editorial team. See our [Editorial Policy](https://f9xr.github.io/articles/press/editorial-policy.html) for how we create and verify content.*
+*Produced using AI-assisted research and drafting workflows, then reviewed and edited by the F9XR editorial team. See our [Editorial Policy](https://f9xr.org/articles/press/editorial-policy.html) for how we create and verify content.*

@@ -1,8 +1,8 @@
----
+﻿---
 layout: post
 title: "Get Found by AI: Monitor Trends, Win Citations"
 description: "Learn how tracking trending topics and posting fast can get your business cited by ChatGPT, Gemini, & Perplexity. Practical steps inside."
-image: "https://f9xr.github.io/articles/assets/post-images/ai-visibility-trending-topics-citations.webp"
+image: "https://f9xr.org/articles/assets/post-images/ai-visibility-trending-topics-citations.webp"
 image_width: 1200
 image_height: 630
 date: 2026-09-12
@@ -36,13 +36,13 @@ That creates a window of opportunity that doesn't exist the same way in traditio
 
 ### The First-Mover Advantage in AI Citations
 
-When a topic starts trending, whether it's a new regulation affecting your industry, a platform update, a seasonal event, or breaking news relevant to your customers, there's usually a short gap before the internet fills up with content about it. If you publish a clear, well-organized article during that gap, you have a real shot at being one of the sources an AI model pulls from when it answers related questions. Our breakdown of the [key strategies to rank on AI search](https://f9xr.github.io/articles/2026/09/07/key-strategies-to-rank-on-ai.html) goes deeper into the broad playbook this fits into.
+When a topic starts trending, whether it's a new regulation affecting your industry, a platform update, a seasonal event, or breaking news relevant to your customers, there's usually a short gap before the internet fills up with content about it. If you publish a clear, well-organized article during that gap, you have a real shot at being one of the sources an AI model pulls from when it answers related questions. Our breakdown of the [key strategies to rank on AI search](https://f9xr.org/articles/2026/09/07/key-strategies-to-rank-on-ai.html) goes deeper into the broad playbook this fits into.
 
 Once dozens of other sites cover the same topic a week later, that window narrows. Not impossible to break into, but harder. Speed matters here in a way it rarely did with traditional SEO, where you could publish evergreen content and expect it to rank steadily over months.
 
 ## How AI Search Engines Actually Decide What to Cite
 
-It helps to understand what's happening behind the scenes so your content strategy actually lines up with it, instead of guessing. Google's Search Central blog posts regularly cover how AI Overviews and structured data interact, and [their guidance](https://developers.google.com/search/blog){:target="_blank" rel="noopener noreferrer"} is the right place to start. If your site isn't technically ready to be read by crawlers at all, fixing that comes first. We have a separate walkthrough on the technical side of [making your site visible to AI](https://f9xr.github.io/articles/2026/08/14/steps-make-business-site-visible-to-ai.html) that pairs with this piece.
+It helps to understand what's happening behind the scenes so your content strategy actually lines up with it, instead of guessing. Google's Search Central blog posts regularly cover how AI Overviews and structured data interact, and [their guidance](https://developers.google.com/search/blog){:target="_blank" rel="noopener noreferrer"} is the right place to start. If your site isn't technically ready to be read by crawlers at all, fixing that comes first. We have a separate walkthrough on the technical side of [making your site visible to AI](https://f9xr.org/articles/2026/08/14/steps-make-business-site-visible-to-ai.html) that pairs with this piece.
 
 ### 1. Retrieval Over Pure Prediction
 
@@ -75,7 +75,7 @@ You don't need an expensive stack to do this well. Here's a workable setup for a
 
 ### Step 2: Set a Weekly Scan Routine
 
-Block 30 to 45 minutes once a week to scan these sources. Look for questions people are asking repeatedly, changes in your industry (new rules, new tools, price shifts), and seasonal moments coming up in the next 4 to 6 weeks. Write the patterns you notice in one place. Our article on [monitoring AI search trends](https://f9xr.github.io/articles/2026/08/26/monitor-ai-search-trends-boost-visibility-citations.html) covers how to turn the raw signals you spot into a repeatable workflow.
+Block 30 to 45 minutes once a week to scan these sources. Look for questions people are asking repeatedly, changes in your industry (new rules, new tools, price shifts), and seasonal moments coming up in the next 4 to 6 weeks. Write the patterns you notice in one place. Our article on [monitoring AI search trends](https://f9xr.org/articles/2026/08/26/monitor-ai-search-trends-boost-visibility-citations.html) covers how to turn the raw signals you spot into a repeatable workflow.
 
 ### Step 3: Score Each Trend Before You Commit
 
@@ -101,7 +101,7 @@ Speed doesn't mean sloppy. A rushed article with no structure, no clear answer, 
 - An FAQ section near the end
 - A clear publish or update date
 
-Writing fast and structuring it right are separate skills, and our guide on [writing SEO-friendly articles](https://f9xr.github.io/articles/2026/09/09/how-to-write-seo-friendly-articles.html) shows how to do both without losing quality under deadline pressure.
+Writing fast and structuring it right are separate skills, and our guide on [writing SEO-friendly articles](https://f9xr.org/articles/2026/09/09/how-to-write-seo-friendly-articles.html) shows how to do both without losing quality under deadline pressure.
 
 ## Practical Tips to Increase Your Chances of Getting Cited
 
@@ -117,7 +117,7 @@ Writing fast and structuring it right are separate skills, and our guide on [wri
 
 Say you run a local accounting firm and a new tax filing deadline extension gets announced by the government. Within a day, thousands of people search "is the tax deadline extended," and a good number ask ChatGPT or Perplexity the same thing.
 
-If you publish a short, clear article within hours titled something like "Is the Tax Filing Deadline Extended in 2026? Here's What Changed," with a direct answer up top, a table showing old vs new dates, and an FAQ section, you have a real shot at being one of the sources an AI model surfaces. Tie in a local angle, like how it affects filers in your city or state, and that local hook becomes another reason the model picks your page over a national outlet. The same logic explains why [AI often recommends local businesses](https://f9xr.github.io/articles/2026/08/16/how-ai-picks-local-businesses-2026.html) when the query carries any geographic weight.
+If you publish a short, clear article within hours titled something like "Is the Tax Filing Deadline Extended in 2026? Here's What Changed," with a direct answer up top, a table showing old vs new dates, and an FAQ section, you have a real shot at being one of the sources an AI model surfaces. Tie in a local angle, like how it affects filers in your city or state, and that local hook becomes another reason the model picks your page over a national outlet. The same logic explains why [AI often recommends local businesses](https://f9xr.org/articles/2026/08/16/how-ai-picks-local-businesses-2026.html) when the query carries any geographic weight.
 
 Compare that to publishing the same information three weeks later after the news cycle has moved on. Same effort, much smaller payoff.
 
@@ -147,4 +147,4 @@ The businesses that show up in AI answers a year from now won't necessarily be t
 
 If setting all of this up feels like one more thing on an already full plate, teams like F9XR work with business owners on exactly this: website development, website redesign, local SEO, and broader digital presence solutions that keep you visible across both traditional search and the growing world of AI-driven answers.
 
-*Produced using AI-assisted research and drafting workflows, then reviewed and edited by the F9XR editorial team. See our [Editorial Policy](https://f9xr.github.io/articles/press/editorial-policy.html) for how we create and verify content.*
+*Produced using AI-assisted research and drafting workflows, then reviewed and edited by the F9XR editorial team. See our [Editorial Policy](https://f9xr.org/articles/press/editorial-policy.html) for how we create and verify content.*

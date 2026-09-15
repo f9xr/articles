@@ -1,8 +1,8 @@
----
+﻿---
 layout: post
 title: "Google E-E-A-T Checklist Every SEO Should Bookmark"
 description: "A one-page E-E-A-T checklist for Experience, Expertise, Authoritativeness, and Trustworthiness. Run it before you publish any page in 2026."
-image: "https://f9xr.github.io/articles/assets/post-images/google-e-e-a-t-checklist-every-seo-should-bookmark.webp"
+image: "https://f9xr.org/articles/assets/post-images/google-e-e-a-t-checklist-every-seo-should-bookmark.webp"
 image_width: 1200
 image_height: 630
 image_credit: "Photo by <a href=\"https://unsplash.com/@aaronburden?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText\" target=\"_blank\" rel=\"noopener noreferrer\">Aaron Burden</a> on <a href=\"https://unsplash.com/photos/y02jEX_B0O0?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText\" target=\"_blank\" rel=\"noopener noreferrer\">Unsplash</a>"
@@ -39,28 +39,28 @@ Google's own framing treats trust as the center of gravity. Expertise, experienc
 
 ## The 1-Page E-E-A-T Checklist
 
-### ✅ Experience
+### âœ… Experience
 
 - [ ] Author has visible, verifiable firsthand involvement with the topic (used the product, ran the process, lived the experience)
 - [ ] Original photos, screenshots, or video, not stock imagery, where firsthand proof is plausible
 - [ ] Specific, non-generic details that couldn't be written from research alone (exact numbers, timelines, edge cases encountered)
 - [ ] First-person language used honestly, not as a formatting trick
 
-### ✅ Expertise
+### âœ… Expertise
 
 - [ ] Author bio states relevant credentials, role, or track record on this specific topic
 - [ ] Content explains why, not just what. Reasoning is shown, not asserted
 - [ ] Claims are accurate and hold up against current authoritative sources, not outdated consensus
 - [ ] For YMYL topics (health, finance, legal, safety), the author's qualification for the subject is explicit, not implied
 
-### ✅ Authoritativeness
+### âœ… Authoritativeness
 
 - [ ] Site or author is referenced, linked to, or cited by other credible sources in the niche
 - [ ] Author has a dedicated bio or profile page, not just a byline
 - [ ] Structured author and entity data is present (Person schema, sameAs links to verified profiles)
 - [ ] Content sits inside a coherent topical cluster, not as an isolated one-off page with no supporting context
 
-### ✅ Trustworthiness
+### âœ… Trustworthiness
 
 - [ ] Factual claims align with current, verifiable consensus, not stale or contradicted data
 - [ ] Sources are cited clearly, with links to where the numbers came from
@@ -76,14 +76,14 @@ Google's own framing treats trust as the center of gravity. Expertise, experienc
 
 ## Why E-E-A-T Matters More in 2026, Not Less
 
-The framework is nearly a decade old, but its weight has grown as AI-generated and AI-paraphrased content has flooded search results. Recent search-industry analysis found that sites publishing original data gained visibility after the March 2026 Google core update, while AI-paraphrased content lost the large majority of its traffic in the same period. That gap didn't exist when most competing content was human-written by default. The signal that used to separate good SEO from bad SEO is now the signal that separates real expertise from content laundering. For a deeper look at building those trust signals across your entire site, see our [website trust score guide](https://f9xr.github.io/articles/2026/08/15/how-to-increase-website-trust-score.html){:target="_blank" rel="noopener noreferrer"}.
+The framework is nearly a decade old, but its weight has grown as AI-generated and AI-paraphrased content has flooded search results. Recent search-industry analysis found that sites publishing original data gained visibility after the March 2026 Google core update, while AI-paraphrased content lost the large majority of its traffic in the same period. That gap didn't exist when most competing content was human-written by default. The signal that used to separate good SEO from bad SEO is now the signal that separates real expertise from content laundering. For a deeper look at building those trust signals across your entire site, see our [website trust score guide](https://f9xr.org/articles/2026/08/15/how-to-increase-website-trust-score.html){:target="_blank" rel="noopener noreferrer"}.
 
 One thing to be precise about: Google doesn't publish an E-E-A-T score. It's a rater framework used to train and evaluate the systems, and no single number ever comes out of it. But the underlying signals it describes, author reputation, factual accuracy, content depth, external validation, correlate strongly enough with both rankings and [AI Overview citations](https://developers.google.com/search/docs/essentials){:target="_blank" rel="noopener noreferrer"} that you can't treat it as optional anymore.
 
-For context on how those signals get judged in practice, the official Search Quality Evaluator Guidelines are public, so you can read the exact instructions raters follow. The [SEO CodeBase Auditor skill](https://f9xr.github.io/articles/2026/07/31/f9xr-seo-codebase-auditor-skill-guide.html) treats E-E-A-T as one of its 24 audit pillars, checking author schema, trust signals, and factual sourcing in the code itself. And if AI Overviews are part of your traffic plan, [AI visibility optimization](https://f9xr.github.io/services/ai-visibility-optimization.html) covers the citation side of the same framework.
+For context on how those signals get judged in practice, the official Search Quality Evaluator Guidelines are public, so you can read the exact instructions raters follow. The [SEO CodeBase Auditor skill](https://f9xr.org/articles/2026/07/31/f9xr-seo-codebase-auditor-skill-guide.html) treats E-E-A-T as one of its 24 audit pillars, checking author schema, trust signals, and factual sourcing in the code itself. And if AI Overviews are part of your traffic plan, [AI visibility optimization](https://f9xr.org/services/ai-visibility-optimization.html) covers the citation side of the same framework.
 
 <figure class="post-figure">
-  <img src="https://f9xr.github.io/assets/screenshots/F9XR_GoogleSearch.png" alt="F9XR Team appearing across Google search results" title="Trust signals show up as consistent, visible results" width="1352" height="1107" loading="lazy" />
+  <img src="https://f9xr.org/assets/screenshots/F9XR_GoogleSearch.png" alt="F9XR Team appearing across Google search results" title="Trust signals show up as consistent, visible results" width="1352" height="1107" loading="lazy" />
   <figcaption>Trust signals that pass the E-E-A-T bar show up as consistent, visible results across search.</figcaption>
 </figure>
 
@@ -100,7 +100,7 @@ If you can only ask one question per pillar, ask these:
 
 If any answer is no or not sure, that's the pillar to fix before the page goes live, not after it fails to rank.
 
-Local businesses have a head start on some of these signals when they build citations and profiles correctly. Our [information consistency audit guide](https://f9xr.github.io/articles/2026/08/13/consistency-audits-seo-aeo-geo.html){:target="_blank" rel="noopener noreferrer"} explains why NAP consistency feeds the trustworthiness pillar, and our [guide to free business directories](https://f9xr.github.io/articles/2026/07/29/free-business-directories-guide.html) shows how consistent listings feed the authority and trust side of the checklist, and the [F9XR Team introduction](https://f9xr.github.io/articles/2026/07/27/engineering-digital-growth-introduction-to-f9xr-team.html) walks through a full digital presence approach that bakes these trust signals into the build.
+Local businesses have a head start on some of these signals when they build citations and profiles correctly. Our [information consistency audit guide](https://f9xr.org/articles/2026/08/13/consistency-audits-seo-aeo-geo.html){:target="_blank" rel="noopener noreferrer"} explains why NAP consistency feeds the trustworthiness pillar, and our [guide to free business directories](https://f9xr.org/articles/2026/07/29/free-business-directories-guide.html) shows how consistent listings feed the authority and trust side of the checklist, and the [F9XR Team introduction](https://f9xr.org/articles/2026/07/27/engineering-digital-growth-introduction-to-f9xr-team.html) walks through a full digital presence approach that bakes these trust signals into the build.
 
 ## Key Takeaways
 
@@ -114,10 +114,10 @@ Local businesses have a head start on some of these signals when they build cita
 
 E-E-A-T won't hand you a number to chase, but it's the closest thing SEO has to a content quality floor in 2026. Run the checklist, fix the weakest pillar, and re-check every page you publish. That habit is what separates sites that gain visibility from sites that lose it after each core update.
 
-If you need help implementing this, teams like F9XR specialize in [website development, website redesign, local SEO, and digital presence solutions](https://f9xr.github.io/pages/services.html), and they build trust signals into sites from the start.
+If you need help implementing this, teams like F9XR specialize in [website development, website redesign, local SEO, and digital presence solutions](https://f9xr.org/pages/services.html), and they build trust signals into sites from the start.
 
 ---
 
 *Sources: Google Search Central Quality Rater Guidelines context via Incremys (2026), Keywords Everywhere E-E-A-T Playbook (2026), SEO Score Tools E-E-A-T Optimization Guide (2026), SEO-Kreativ E-E-A-T Guide with SE Ranking March 2026 core update data (2026).*
 
-*Produced using AI-assisted research and drafting workflows, then reviewed and edited by the F9XR editorial team. See our [Editorial Policy](https://f9xr.github.io/articles/press/editorial-policy.html) for how we create and verify content.*
+*Produced using AI-assisted research and drafting workflows, then reviewed and edited by the F9XR editorial team. See our [Editorial Policy](https://f9xr.org/articles/press/editorial-policy.html) for how we create and verify content.*

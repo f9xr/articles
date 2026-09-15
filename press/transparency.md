@@ -1,7 +1,7 @@
----
+﻿---
 layout: page
 permalink: /press/transparency.html
-title: "Ownership, Funding, & Transparency — F9XR Articles"
+title: "Ownership, Funding, & Transparency â€” F9XR Articles"
 description: "Organizational ownership, funding model, sponsorship disclosures, and transparency practices for F9XR Articles."
 keywords: "F9XR ownership, funding transparency, sponsorship disclosure, F9XR Team, organizational structure"
 dateModified: 2026-08-19
@@ -15,8 +15,8 @@ F9XR Articles is owned and operated by the F9XR Team, a digital architecture age
 
 - **Legal entity:** F9XR Team
 - **Location:** India
-- **Website:** [f9xr.github.io](https://f9xr.github.io)
-- **Contact:** [tontufytservices@gmail.com](mailto:tontufytservices@gmail.com)
+- **Website:** [f9xr.org](https://f9xr.org)
+- **Contact:** [hello@f9xr.org](mailto:hello@f9xr.org)
 
 The F9XR Team is not a subsidiary of, nor does it receive editorial direction from, any external organization. All content decisions are made internally by the editorial team.
 
@@ -76,11 +76,11 @@ This transparency page is updated whenever there are material changes to the own
 
 Questions about ownership, funding, or commercial relationships can be directed to:
 
-- **Email:** [tontufytservices@gmail.com](mailto:tontufytservices@gmail.com)
+- **Email:** [hello@f9xr.org](mailto:hello@f9xr.org)
 - **GitHub:** [github.com/f9xr/articles](https://github.com/f9xr/articles/issues)
 
 ## Related Policies
 
-- [Editorial Policy]({{ '/press/editorial-policy.html' | relative_url }}) — How content is researched, written, and reviewed.
-- [Correction Policy]({{ '/press/correction-policy.html' | relative_url }}) — How errors are identified, reported, and resolved.
-- [Ethics & Fact-Checking Policy]({{ '/press/ethics-policy.html' | relative_url }}) — Standards for data integrity and conflict-of-interest management.
+- [Editorial Policy]({{ '/press/editorial-policy.html' | relative_url }}) â€” How content is researched, written, and reviewed.
+- [Correction Policy]({{ '/press/correction-policy.html' | relative_url }}) â€” How errors are identified, reported, and resolved.
+- [Ethics & Fact-Checking Policy]({{ '/press/ethics-policy.html' | relative_url }}) â€” Standards for data integrity and conflict-of-interest management.

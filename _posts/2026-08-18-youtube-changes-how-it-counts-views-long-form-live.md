@@ -1,8 +1,8 @@
----
+﻿---
 layout: post
 title: "YouTube View Counts Are Changing: What It Means"
 description: "YouTube now counts views from the first frame on all videos starting August 24, 2026. Here's what changes, what stays the same, and why it matters."
-image: "https://f9xr.github.io/articles/assets/post-images/youtube-changes-how-it-counts-views-long-form-live.webp"
+image: "https://f9xr.org/articles/assets/post-images/youtube-changes-how-it-counts-views-long-form-live.webp"
 image_width: 1200
 image_height: 630
 date: 2026-08-18
@@ -107,7 +107,7 @@ Essentially, YouTube is now giving everyone two separate numbers instead of one.
 
 ### The Case For the Change
 
-Bringing every format under one consistent counting system does genuinely solve a real problem. Comparing a long-form video's performance to a Short's performance used to require understanding two different measurement systems. Now it's the same yardstick everywhere. It also brings YouTube in line with how [TikTok and Instagram already count views](https://f9xr.github.io/articles/2026/08/14/tiktok-instagram-search-optimization-guide.html), first frame, no minimum watch time, which makes cross-platform comparison simpler for marketers running campaigns across multiple platforms. If you're building a [search everywhere optimization](https://f9xr.github.io/articles/2026/08/14/search-everywhere-optimization-youtube-google-seo.html) strategy, this alignment makes reporting across YouTube, TikTok, and Instagram far more straightforward.
+Bringing every format under one consistent counting system does genuinely solve a real problem. Comparing a long-form video's performance to a Short's performance used to require understanding two different measurement systems. Now it's the same yardstick everywhere. It also brings YouTube in line with how [TikTok and Instagram already count views](https://f9xr.org/articles/2026/08/14/tiktok-instagram-search-optimization-guide.html), first frame, no minimum watch time, which makes cross-platform comparison simpler for marketers running campaigns across multiple platforms. If you're building a [search everywhere optimization](https://f9xr.org/articles/2026/08/14/search-everywhere-optimization-youtube-google-seo.html) strategy, this alignment makes reporting across YouTube, TikTok, and Instagram far more straightforward.
 
 ### The Case for Skepticism
 
@@ -178,9 +178,9 @@ The F9XR Team helps business owners, startups, and local businesses build a vide
 
 * YouTube channel audits to help you understand engaged views, watch hours, and real audience retention, not just raw view counts
 * Content strategy support focused on building genuine audience engagement across YouTube and other platforms
-* [Website development](https://f9xr.github.io/pages/services.html) and [website redesign](https://f9xr.github.io/pages/services.html) work that ties your video content strategy into a cohesive digital presence
-* [Local SEO strategy](https://f9xr.github.io/pages/services.html) that helps the right local customers actually find your video and website content
-* Ongoing [digital presence management](https://f9xr.github.io/pages/services.html) so your business stays ahead of platform changes like this one, instead of reacting to them after the fact
+* [Website development](https://f9xr.org/pages/services.html) and [website redesign](https://f9xr.org/pages/services.html) work that ties your video content strategy into a cohesive digital presence
+* [Local SEO strategy](https://f9xr.org/pages/services.html) that helps the right local customers actually find your video and website content
+* Ongoing [digital presence management](https://f9xr.org/pages/services.html) so your business stays ahead of platform changes like this one, instead of reacting to them after the fact
 
 If you're not sure how to adjust your YouTube reporting or content strategy around this update, that's a conversation worth having before your next round of performance reports.
 
@@ -201,10 +201,10 @@ If you're not sure how to adjust your YouTube reporting or content strategy arou
 
 YouTube's move to count views from the first frame across every format is a genuine simplification, but it comes with a catch business owners shouldn't ignore: bigger numbers don't automatically mean better marketing results. The metrics that actually matter for judging real audience engagement, and the ones that determine creator earnings, haven't changed at all. Engaged views and watch hours are still the numbers worth watching closely.
 
-The smartest move is treating this update as a reason to double down on content that genuinely holds attention, not just content that triggers a first-frame play. If you want help building a video and digital content strategy that's grounded in real engagement rather than inflated metrics, the F9XR Team supports business owners with exactly this kind of thinking across [website development](https://f9xr.github.io/pages/services.html), [website redesign](https://f9xr.github.io/pages/services.html), [local SEO](https://f9xr.github.io/pages/services.html), and broader [digital presence strategy](https://f9xr.github.io/pages/services.html).
+The smartest move is treating this update as a reason to double down on content that genuinely holds attention, not just content that triggers a first-frame play. If you want help building a video and digital content strategy that's grounded in real engagement rather than inflated metrics, the F9XR Team supports business owners with exactly this kind of thinking across [website development](https://f9xr.org/pages/services.html), [website redesign](https://f9xr.org/pages/services.html), [local SEO](https://f9xr.org/pages/services.html), and broader [digital presence strategy](https://f9xr.org/pages/services.html).
 
 ---
 
 
 
-*Produced using AI-assisted research and drafting workflows, then reviewed and edited by the F9XR editorial team. See our [Editorial Policy](https://f9xr.github.io/articles/press/editorial-policy.html) for how we create and verify content.*
+*Produced using AI-assisted research and drafting workflows, then reviewed and edited by the F9XR editorial team. See our [Editorial Policy](https://f9xr.org/articles/press/editorial-policy.html) for how we create and verify content.*

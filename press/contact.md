@@ -1,4 +1,4 @@
----
+﻿---
 layout: page
 permalink: /press/contact.html
 title: "Contact F9XR Articles"
@@ -18,18 +18,18 @@ We aim to respond to every legitimate inquiry within **two business days**. For 
 ## What We Respond To
 
 - Questions or feedback about any [article]({{ '/archive.html' | relative_url }})
-- Error reports and correction requests — you can also use our [correction policy]({{ '/press/correction-policy.html' | relative_url }}) as a guide for what we cover
+- Error reports and correction requests â€” you can also use our [correction policy]({{ '/press/correction-policy.html' | relative_url }}) as a guide for what we cover
 - Collaboration, syndication, and original research inquiries
 - Sponsored content and [transparency]({{ '/press/transparency.html' | relative_url }}) related questions
 - Media and press requests about F9XR, F9XR Articles, or content published here
 
 ## What We Don't Do
 
-We do not respond to unsolicited link-building pitches, guest-post requests with paid placements, or bulk outreach. Please do not send those — they are deleted unread. See our [editorial policy]({{ '/press/editorial-policy.html' | relative_url }}) for what we publish and why.
+We do not respond to unsolicited link-building pitches, guest-post requests with paid placements, or bulk outreach. Please do not send those â€” they are deleted unread. See our [editorial policy]({{ '/press/editorial-policy.html' | relative_url }}) for what we publish and why.
 
 ## Other Channels
 
-For business services (website development, local SEO, digital presence), please use the [F9XR Team contact page](https://f9xr.github.io/pages/contact.html){:target="_blank" rel="noopener noreferrer"}.
+For business services (website development, local SEO, digital presence), please use the [F9XR Team contact page](https://f9xr.org/pages/contact.html){:target="_blank" rel="noopener noreferrer"}.
 
 You can also follow and message us through our public channels:
 

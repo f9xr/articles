@@ -1,8 +1,8 @@
----
+﻿---
 layout: post
 title: "Get Backlinks in 2026: Free & Paid AI Methods"
 description: "Learn how to get backlinks in 2026 using AI, free and paid strategies that actually work for business owners, startups, and local brands."
-image: "https://f9xr.github.io/articles/assets/post-images/get-backlinks-2026-free-paid-ai-methods.webp"
+image: "https://f9xr.org/articles/assets/post-images/get-backlinks-2026-free-paid-ai-methods.webp"
 image_width: 1251
 image_height: 763
 image_credit: "Photo by <a href=\"https://unsplash.com/@hostreviews?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText\" target=\"_blank\" rel=\"noopener noreferrer\">Stephen Phillips - Hostreviews.co.uk</a> on <a href=\"https://unsplash.com/photos/monitor-screengrab-shr_Xn8S8QU?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText\" target=\"_blank\" rel=\"noopener noreferrer\">Unsplash</a>"
@@ -37,7 +37,7 @@ Before jumping into tactics, it's worth understanding why this still matters so 
 - Google has confirmed for years that backlinks remain one of its top ranking factors, alongside content quality and relevance, and [its own documentation](https://developers.google.com/search/docs/crawling-indexing/links-crawlable){:target="_blank" rel="noopener noreferrer"} explains how links help it discover and rank pages.
 - AI powered search tools tend to favor sources that are widely cited and linked to elsewhere, because that pattern signals credibility to their underlying models.
 - A single relevant, high authority backlink can do more for your rankings than dozens of low quality ones, and a pile of spammy links can hurt you more than skipping links entirely.
-- Local businesses in particular benefit from links tied to their city, region, or industry, since these reinforce local relevance signals alongside your [Google Business Profile](https://f9xr.github.io/articles/2026/07/29/free-business-directories-guide.html).
+- Local businesses in particular benefit from links tied to their city, region, or industry, since these reinforce local relevance signals alongside your [Google Business Profile](https://f9xr.org/articles/2026/07/29/free-business-directories-guide.html).
 
 In short, backlinks aren't a nice-to-have anymore. They're part of how both traditional search and AI search engines decide whether your business is worth trusting and recommending.
 
@@ -59,7 +59,7 @@ The actual link building strategies haven't changed all that much. What's change
 The important caveat: AI should speed up your research and writing, not replace judgment. Every link building tactic below still requires human review before you hit send, especially to avoid the kind of spammy, obviously AI generated outreach that gets ignored or marked as spam.
 
 <figure class="post-figure">
-  <img src="https://f9xr.github.io/articles/assets/post-images/ai-search-ai-tools.webp" alt="AI search tools like ChatGPT and Perplexity answering a business question" title="Links build the authority AI search tools cite" width="1379" height="884" loading="lazy" />
+  <img src="https://f9xr.org/articles/assets/post-images/ai-search-ai-tools.webp" alt="AI search tools like ChatGPT and Perplexity answering a business question" title="Links build the authority AI search tools cite" width="1379" height="884" loading="lazy" />
   <figcaption>Links and citations are what AI search tools use to decide which business to recommend.</figcaption>
 </figure>
 
@@ -93,7 +93,7 @@ A donation to a relevant nonprofit in exchange for a mention on their donor or s
 
 ### 5. Directory and Citation Listings
 
-Boring, but foundational, especially for local businesses. Getting listed on relevant, reputable directories builds trust signals and consistent NAP (name, address, phone) data that both Google and AI tools use to verify your business is real. Our [guide to information consistency audits](https://f9xr.github.io/articles/2026/08/13/consistency-audits-seo-aeo-geo.html){:target="_blank" rel="noopener noreferrer"} covers why NAP consistency matters and how to audit it. Our [guide to free business directories](https://f9xr.github.io/articles/2026/07/29/free-business-directories-guide.html) covers which platforms to prioritize and how to keep your listings consistent.
+Boring, but foundational, especially for local businesses. Getting listed on relevant, reputable directories builds trust signals and consistent NAP (name, address, phone) data that both Google and AI tools use to verify your business is real. Our [guide to information consistency audits](https://f9xr.org/articles/2026/08/13/consistency-audits-seo-aeo-geo.html){:target="_blank" rel="noopener noreferrer"} covers why NAP consistency matters and how to audit it. Our [guide to free business directories](https://f9xr.org/articles/2026/07/29/free-business-directories-guide.html) covers which platforms to prioritize and how to keep your listings consistent.
 
 **How to use AI here:** Have AI compile a list of relevant directories for your industry and location (general ones like your local [chamber of commerce](https://www.chamberofcommerce.com/){:target="_blank" rel="noopener noreferrer"}, plus niche specific directories), flag which are free versus paid, and write consistent listing copy so your business details match everywhere.
 
@@ -101,7 +101,7 @@ Boring, but foundational, especially for local businesses. Getting listed on rel
 
 A real announcement, a new product, a milestone, a local partnership, can earn coverage from news sites and industry blogs, which tend to carry strong authority.
 
-**How to use AI here:** Feed AI your actual facts (no invented stats or quotes) and have it draft a clean, newsworthy press release plus a shortlist of outlets and journalists who cover your industry. The angle has to be newsworthy, not just "we exist," or it won't get picked up. This kind of visibility is a longer game, and it's the same [brand awareness work](https://f9xr.github.io/articles/2026/07/27/engineering-digital-growth-introduction-to-f9xr-team.html) we outline in our F9XR introduction.
+**How to use AI here:** Feed AI your actual facts (no invented stats or quotes) and have it draft a clean, newsworthy press release plus a shortlist of outlets and journalists who cover your industry. The angle has to be newsworthy, not just "we exist," or it won't get picked up. This kind of visibility is a longer game, and it's the same [brand awareness work](https://f9xr.org/articles/2026/07/27/engineering-digital-growth-introduction-to-f9xr-team.html) we outline in our F9XR introduction.
 
 ### 7. Social and Profile Links
 
@@ -159,7 +159,7 @@ Not every link building method that shows up in a search result is worth using. 
 
 ## Practical Tips for a Legitimate 2026 Backlink Strategy
 
-1. **Start with your best content.** Before pursuing any links, make sure you have at least one or two useful, well built pages worth linking to. No outreach strategy fixes thin content, and the [E-E-A-T checklist](https://f9xr.github.io/articles/2026/08/04/google-e-e-a-t-checklist-every-seo-should-bookmark.html) is a solid way to check your pages before you pitch them. Also verify your technical foundation is solid â€” our [essential txt files guide](https://f9xr.github.io/articles/2026/08/08/essential-txt-files-seo-aeo-geo-2026.html){:target="_blank" rel="noopener noreferrer"} covers robots.txt, sitemap.xml, and the other files crawlers need to find and index your content.
+1. **Start with your best content.** Before pursuing any links, make sure you have at least one or two useful, well built pages worth linking to. No outreach strategy fixes thin content, and the [E-E-A-T checklist](https://f9xr.org/articles/2026/08/04/google-e-e-a-t-checklist-every-seo-should-bookmark.html) is a solid way to check your pages before you pitch them. Also verify your technical foundation is solid Ã¢â‚¬â€ our [essential txt files guide](https://f9xr.org/articles/2026/08/08/essential-txt-files-seo-aeo-geo-2026.html){:target="_blank" rel="noopener noreferrer"} covers robots.txt, sitemap.xml, and the other files crawlers need to find and index your content.
 2. **Prioritize relevance over raw authority.** A link from a smaller, topically relevant site often helps more than a link from a huge, unrelated one.
 3. **Keep outreach short and human.** Skip generic flattery like "I love your content." Editors and site owners can tell the difference between a real message and a templated one within a sentence or two.
 4. **Track what you send.** Even a simple spreadsheet of who you've contacted, when, and the response keeps your outreach organized and prevents duplicate emails.
@@ -180,8 +180,8 @@ Not every link building method that shows up in a search result is worth using. 
 
 Getting backlinks in 2026 isn't about chasing shortcuts. It's about being useful enough that other sites, publications, and communities want to point to you, and being smart enough to use AI to find and reach those opportunities faster. Whether you lean on free methods like broken link building and guest posts, or invest in paid placements and partnerships, the businesses that win long term are the ones building a diverse link profile instead of a risky pile of shortcuts.
 
-Of course, backlinks only do their job if the site they're pointing to is actually built to convert that traffic into customers. If your website, [local SEO](https://f9xr.github.io/services/google-business-optimization.html) setup, or overall digital presence could use a stronger foundation to make the most of the links you earn, F9XR Team helps business owners with [website development, website redesign, and digital presence strategy](https://f9xr.github.io/pages/services.html), so the traffic you work hard to earn actually turns into results.
+Of course, backlinks only do their job if the site they're pointing to is actually built to convert that traffic into customers. If your website, [local SEO](https://f9xr.org/services/google-business-optimization.html) setup, or overall digital presence could use a stronger foundation to make the most of the links you earn, F9XR Team helps business owners with [website development, website redesign, and digital presence strategy](https://f9xr.org/pages/services.html), so the traffic you work hard to earn actually turns into results.
 
 ---
 
-*Produced using AI-assisted research and drafting workflows, then reviewed and edited by the F9XR editorial team. See our [Editorial Policy](https://f9xr.github.io/articles/press/editorial-policy.html) for how we create and verify content.*
+*Produced using AI-assisted research and drafting workflows, then reviewed and edited by the F9XR editorial team. See our [Editorial Policy](https://f9xr.org/articles/press/editorial-policy.html) for how we create and verify content.*

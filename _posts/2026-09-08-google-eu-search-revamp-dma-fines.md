@@ -1,8 +1,8 @@
----
+﻿---
 layout: post
 title: "Google's EU Search Revamp: What It Means for You"
 description: "Google admits its EU search overhaul will lower quality and cut booking traffic. Here's what European businesses need to know and how to adapt."
-image: "https://f9xr.github.io/articles/assets/post-images/google-eu-search-revamp-dma-fines.webp"
+image: "https://f9xr.org/articles/assets/post-images/google-eu-search-revamp-dma-fines.webp"
 image_width: 1200
 image_height: 630
 date: 2026-09-08
@@ -84,11 +84,11 @@ This is the group most directly affected. With real-time pricing stripped from s
 
 ### 2. If You're a Local Service Business
 
-Even outside travel and hospitality, any business that leaned on rich snippets, comparison carousels, or prominent visual placement in European results may see reduced visibility or click-through as these features scale back. Strengthening your [Google Business Profile](https://f9xr.github.io/services/google-business-optimization.html) and local listings becomes a more valuable line of defense when a single search layout no longer does the heavy lifting.
+Even outside travel and hospitality, any business that leaned on rich snippets, comparison carousels, or prominent visual placement in European results may see reduced visibility or click-through as these features scale back. Strengthening your [Google Business Profile](https://f9xr.org/services/google-business-optimization.html) and local listings becomes a more valuable line of defense when a single search layout no longer does the heavy lifting.
 
 ### 3. If You're a Startup Building for the European Market
 
-Reduced functionality in Google's default experience creates an opening. Businesses that invest in solid, direct SEO and a clear website UX and that spread across alternative discovery channels, including AI search tools, social platforms, and niche directories, may be better positioned to capture traffic the stripped-down results no longer deliver efficiently. That's exactly the kind of [AI search visibility work](https://f9xr.github.io/services/ai-visibility-optimization.html) that's moving up the priority list for growing teams.
+Reduced functionality in Google's default experience creates an opening. Businesses that invest in solid, direct SEO and a clear website UX and that spread across alternative discovery channels, including AI search tools, social platforms, and niche directories, may be better positioned to capture traffic the stripped-down results no longer deliver efficiently. That's exactly the kind of [AI search visibility work](https://f9xr.org/services/ai-visibility-optimization.html) that's moving up the priority list for growing teams.
 
 ---
 
@@ -118,7 +118,7 @@ Reduced functionality in Google's default experience creates an opening. Busines
 
 Regulatory shifts like this are a reminder that no business should bet its whole presence on one platform's search behavior. When Google itself warns its results will get worse, that's a strong signal to strengthen the parts of your digital presence you actually control.
 
-That means building a site that [loads fast, displays pricing and booking clearly, and converts](https://f9xr.github.io/services/we-do-for-you.html) without leaning on Google's snippets. It means [local SEO](https://f9xr.github.io/services/google-business-optimization.html) that holds up across Business Profile, maps, directories, and review platforms. And it means a broader digital presence strategy that touches AI search visibility, social platforms, and direct customer channels, so no single algorithm change can sink you.
+That means building a site that [loads fast, displays pricing and booking clearly, and converts](https://f9xr.org/services/we-do-for-you.html) without leaning on Google's snippets. It means [local SEO](https://f9xr.org/services/google-business-optimization.html) that holds up across Business Profile, maps, directories, and review platforms. And it means a broader digital presence strategy that touches AI search visibility, social platforms, and direct customer channels, so no single algorithm change can sink you.
 
 If regulatory pressure is reshaping how search engines deliver results in Europe, it's worth checking whether your business leans too heavily on any one channel. The F9XR Team helps businesses build digital foundations designed to hold up no matter how the platforms around them keep changing.
 
@@ -126,6 +126,6 @@ If regulatory pressure is reshaping how search engines deliver results in Europe
 
 ## Keep Reading
 
-If you want to think through this shift further, a few related articles dig into the mechanics you'll want on your side. On how discovery is changing beyond classic search, the guide to [search everywhere optimization](https://f9xr.github.io/articles/2026/08/14/search-everywhere-optimization-youtube-google-seo.html) is a good place to start. For the direct line to local visibility, the walk through [ranking number one on Google Maps](https://f9xr.github.io/articles/2026/08/16/rank-number-1-google-maps-2026.html) covers the listing work that pays off when rich results fade. And if you're wondering whether the era of zero-click search changes what your homepage should do first, the breakdown of [zero-click search and the Google Business Profile](https://f9xr.github.io/articles/2026/08/16/zero-click-search-google-business-profile-homepage.html) gets into the specifics.
+If you want to think through this shift further, a few related articles dig into the mechanics you'll want on your side. On how discovery is changing beyond classic search, the guide to [search everywhere optimization](https://f9xr.org/articles/2026/08/14/search-everywhere-optimization-youtube-google-seo.html) is a good place to start. For the direct line to local visibility, the walk through [ranking number one on Google Maps](https://f9xr.org/articles/2026/08/16/rank-number-1-google-maps-2026.html) covers the listing work that pays off when rich results fade. And if you're wondering whether the era of zero-click search changes what your homepage should do first, the breakdown of [zero-click search and the Google Business Profile](https://f9xr.org/articles/2026/08/16/zero-click-search-google-business-profile-homepage.html) gets into the specifics.
 
-*Produced using AI-assisted research and drafting workflows, then reviewed and edited by the F9XR editorial team. See our [Editorial Policy](https://f9xr.github.io/articles/press/editorial-policy.html) for how we create and verify content.*
+*Produced using AI-assisted research and drafting workflows, then reviewed and edited by the F9XR editorial team. See our [Editorial Policy](https://f9xr.org/articles/press/editorial-policy.html) for how we create and verify content.*

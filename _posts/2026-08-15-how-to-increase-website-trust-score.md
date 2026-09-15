@@ -1,9 +1,9 @@
----
+﻿---
 layout: post
 code: true
 title: "How to Increase Your Website's Trust Score"
 description: "How to increase your website's trust score: E-E-A-T signals, HTTPS security, transparent business info, and cited sources. Includes a trust audit checklist."
-image: "https://f9xr.github.io/articles/assets/post-images/how-to-increase-website-trust-score.webp"
+image: "https://f9xr.org/articles/assets/post-images/how-to-increase-website-trust-score.webp"
 image_width: 1200
 image_height: 630
 image_credit: "Photo by <a href=\"https://unsplash.com/@markusspiske?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText\" target=\"_blank\" rel=\"noopener noreferrer\">Markus Spiske</a> on <a href=\"https://unsplash.com/photos/teal-led-panel-EUsVwEOsblE?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText\" target=\"_blank\" rel=\"noopener noreferrer\">Unsplash</a>"
@@ -105,7 +105,7 @@ The signals group into five buckets: technical security, content quality (E-E-A-
 
 HTTPS encrypts the connection between the visitor and your server. [Let's Encrypt](https://letsencrypt.org){:target="_blank" rel="noopener noreferrer"} provides free certificates, and most hosts install them with one click. Without it, Chrome flags your pages as "Not Secure," a message that kills trust faster than any design choice.
 
-The less obvious part is mixed content. If your page loads over HTTPS but pulls images, scripts, or fonts from an HTTP URL, browsers block or warn on those resources. Our [image SEO audit guide](https://f9xr.github.io/articles/2026/08/14/image-seo-audit-complete-guide.html){:target="_blank" rel="noopener noreferrer"} walks through finding and fixing these issues on image-heavy pages specifically. Audit every hardcoded `http://` link and update it to `https://` or protocol-relative URLs.
+The less obvious part is mixed content. If your page loads over HTTPS but pulls images, scripts, or fonts from an HTTP URL, browsers block or warn on those resources. Our [image SEO audit guide](https://f9xr.org/articles/2026/08/14/image-seo-audit-complete-guide.html){:target="_blank" rel="noopener noreferrer"} walks through finding and fixing these issues on image-heavy pages specifically. Audit every hardcoded `http://` link and update it to `https://` or protocol-relative URLs.
 
 **Practical tip:** After switching to HTTPS, test with a browser in incognito mode and check that the padlock shows on every page, including blog posts and contact forms.
 
@@ -127,7 +127,7 @@ A down or infected site isn't just a trust problem, it is a signal that the busi
 
 ### 4. Make authorship and expertise visible
 
-Google's [Search Quality Rater Guidelines](https://static.googleusercontent.com/media/www.google.com/en//insidesearch/howsearchworks/assets/searchqualityevaluatorguidelines.pdf){:target="_blank" rel="noopener noreferrer"} evaluate pages on Experience, Expertise, Authoritativeness, and Trustworthiness, E-E-A-T. Our [one-page E-E-A-T checklist](https://f9xr.github.io/articles/2026/08/04/google-e-e-a-t-checklist-every-seo-should-bookmark.html){:target="_blank" rel="noopener noreferrer"} breaks the framework down into a quick pre-publish review. The framework matters for all content, and it becomes critical for what Google calls [YMYL pages](https://developers.google.com/search/docs/fundamentals/creating-helpful-content){:target="_blank" rel="noopener noreferrer"}, money or your life topics like health, finance, and legal advice.
+Google's [Search Quality Rater Guidelines](https://static.googleusercontent.com/media/www.google.com/en//insidesearch/howsearchworks/assets/searchqualityevaluatorguidelines.pdf){:target="_blank" rel="noopener noreferrer"} evaluate pages on Experience, Expertise, Authoritativeness, and Trustworthiness, E-E-A-T. Our [one-page E-E-A-T checklist](https://f9xr.org/articles/2026/08/04/google-e-e-a-t-checklist-every-seo-should-bookmark.html){:target="_blank" rel="noopener noreferrer"} breaks the framework down into a quick pre-publish review. The framework matters for all content, and it becomes critical for what Google calls [YMYL pages](https://developers.google.com/search/docs/fundamentals/creating-helpful-content){:target="_blank" rel="noopener noreferrer"}, money or your life topics like health, finance, and legal advice.
 
 For a business site, that means named authors with real bios, not "the team." An About page that explains who runs the business and what qualifies them. And contact details a human can verify. Anonymous content is the fastest way to score low on trust.
 
@@ -155,7 +155,7 @@ Missing legal pages are a red flag to both visitors and evaluators. If your site
 
 Your name, address, phone number (NAP), hours, and services must match across your website, Google Business Profile, directories, and social profiles. AI assistants build entity confidence by cross referencing multiple sources. When they find conflicting details, they often drop you from an answer rather than guess wrong.
 
-This is the single highest impact trust fix for local businesses. For the full method and the numbers behind it, see our [information consistency audit guide for SEO, AEO, and GEO](https://f9xr.github.io/articles/2026/08/13/consistency-audits-seo-aeo-geo.html){:target="_blank" rel="noopener noreferrer"}.
+This is the single highest impact trust fix for local businesses. For the full method and the numbers behind it, see our [information consistency audit guide for SEO, AEO, and GEO](https://f9xr.org/articles/2026/08/13/consistency-audits-seo-aeo-geo.html){:target="_blank" rel="noopener noreferrer"}.
 
 ## Social proof: let others vouch for you
 
@@ -176,7 +176,7 @@ Reviews are third party validation, the strongest form of trust signal you can e
 
 Directories, industry associations, and reputable review platforms all add to your entity footprint. Each consistent listing is a corroborating source that your website is telling the truth. A business that only exists on its own domain looks isolated. One that appears across Google Business Profile, Bing Places, industry directories, and press coverage looks established.
 
-For a structured approach to backlinks and third party signals, our [guide to free and paid backlink methods for 2026](https://f9xr.github.io/articles/2026/08/07/get-backlinks-2026-free-paid-ai-methods.html){:target="_blank" rel="noopener noreferrer"} covers the full range, from directories to expert placements.
+For a structured approach to backlinks and third party signals, our [guide to free and paid backlink methods for 2026](https://f9xr.org/articles/2026/08/07/get-backlinks-2026-free-paid-ai-methods.html){:target="_blank" rel="noopener noreferrer"} covers the full range, from directories to expert placements.
 
 ## The trust audit: a practical checklist
 
@@ -190,15 +190,15 @@ You can't improve what you haven't measured. Run this audit quarterly, or after 
 - **Proof pass:** Recent reviews visible, testimonials or case studies on site, directory listings current.
 - **Consistency pass:** NAP matches across web, Google Business Profile, and directories, schema markup matches visible content.
 
-For the technical files behind several of these checks, robots.txt, sitemap.xml, llms.txt, and the structured data they feed, see our guide to [essential website files for SEO, AEO, and GEO in 2026](https://f9xr.github.io/articles/2026/08/08/essential-txt-files-seo-aeo-geo-2026.html){:target="_blank" rel="noopener noreferrer"}.
+For the technical files behind several of these checks, robots.txt, sitemap.xml, llms.txt, and the structured data they feed, see our guide to [essential website files for SEO, AEO, and GEO in 2026](https://f9xr.org/articles/2026/08/08/essential-txt-files-seo-aeo-geo-2026.html){:target="_blank" rel="noopener noreferrer"}.
 
 ### 12. Make your site trustworthy to AI assistants too
 
-The same signals that build trust with Google build trust with ChatGPT, Gemini, Claude, and Perplexity. Cited sources, clear authorship, accurate schema, consistent business details, and clean technical health all feed the AI visibility layer. If you want the full step by step, our guide to [making your business site visible to AI](https://f9xr.github.io/articles/2026/08/14/steps-make-business-site-visible-to-ai.html){:target="_blank" rel="noopener noreferrer"} walks through all of them in order.
+The same signals that build trust with Google build trust with ChatGPT, Gemini, Claude, and Perplexity. Cited sources, clear authorship, accurate schema, consistent business details, and clean technical health all feed the AI visibility layer. If you want the full step by step, our guide to [making your business site visible to AI](https://f9xr.org/articles/2026/08/14/steps-make-business-site-visible-to-ai.html){:target="_blank" rel="noopener noreferrer"} walks through all of them in order.
 
 ## How F9XR Team helps build a trustworthy website
 
-Trust building spans web development, security, content, and local SEO, which is exactly why it tends to fall between the cracks when handled piecemeal. F9XR Team folds trust signals into its [website development and website redesign](https://f9xr.github.io/pages/services.html){:target="_blank" rel="noopener noreferrer"} work, from HTTPS and security headers to E-E-A-T focused content structure. Its [local SEO work](https://f9xr.github.io/services/google-business-optimization.html){:target="_blank" rel="noopener noreferrer"} is built around NAP consistency, Google Business Profile accuracy, and review growth, the consistency signals both Google and AI assistants weigh most heavily.
+Trust building spans web development, security, content, and local SEO, which is exactly why it tends to fall between the cracks when handled piecemeal. F9XR Team folds trust signals into its [website development and website redesign](https://f9xr.org/pages/services.html){:target="_blank" rel="noopener noreferrer"} work, from HTTPS and security headers to E-E-A-T focused content structure. Its [local SEO work](https://f9xr.org/services/google-business-optimization.html){:target="_blank" rel="noopener noreferrer"} is built around NAP consistency, Google Business Profile accuracy, and review growth, the consistency signals both Google and AI assistants weigh most heavily.
 
 The outcome a business owner actually needs is simple: a site that visitors trust, Google rewards, and AI assistants are willing to cite. That combination is what makes a high trust score real, not as a number on a dashboard, but as the default outcome of a well built site.
 
@@ -219,4 +219,4 @@ If you would rather not run the audit and the fixes alongside running your busin
 
 ---
 
-*Produced using AI-assisted research and drafting workflows, then reviewed and edited by the F9XR editorial team. See our [Editorial Policy](https://f9xr.github.io/articles/press/editorial-policy.html) for how we create and verify content.*
+*Produced using AI-assisted research and drafting workflows, then reviewed and edited by the F9XR editorial team. See our [Editorial Policy](https://f9xr.org/articles/press/editorial-policy.html) for how we create and verify content.*

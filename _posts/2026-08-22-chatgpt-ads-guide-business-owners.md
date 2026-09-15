@@ -1,4 +1,4 @@
----
+﻿---
 layout: post
 title: "ChatGPT Ads 2026: What Business Owners Should Know"
 description: "ChatGPT now shows ads and lets businesses advertise directly in conversations. Here's how ChatGPT Ads work, cost, and if they're worth it."
@@ -131,14 +131,14 @@ Whether these commitments hold up as the platform scales and competitive pressur
 
 ### The Case For Trying It
 
-* **Early-mover advantage.** Auction dynamics on any new ad platform tend to be less competitive early on, often meaning lower effective costs than a mature, saturated platform like Google Ads or Meta. We saw the same pattern when [Microsoft rolled out AI Max](https://f9xr.github.io/articles/2026/08/20/microsoft-advertising-ai-max-global-rollout.html) to early advertisers.
+* **Early-mover advantage.** Auction dynamics on any new ad platform tend to be less competitive early on, often meaning lower effective costs than a mature, saturated platform like Google Ads or Meta. We saw the same pattern when [Microsoft rolled out AI Max](https://f9xr.org/articles/2026/08/20/microsoft-advertising-ai-max-global-rollout.html) to early advertisers.
 * **A different kind of intent.** Someone deep in a ChatGPT conversation about a specific problem or purchase decision may represent a more qualified moment of intent than a typical search query or social scroll.
 * **Major brands are already testing it seriously.** Best Buy, Lowe's, and VistaPrint running early campaigns, with agency partners like Dentsu, Omnicom, Publicis, and WPP already integrated, signals this isn't a fringe experiment.
 * **No minimum spend requirement anymore.** Since May 2026, the platform is accessible to businesses of essentially any size, not just enterprise advertisers with six-figure budgets.
 
 ### The Case for Caution
 
-* **It's new and still evolving.** Measurement standards, attribution models, and proven playbooks are still being figured out in real time, both by OpenAI and by early advertisers. And AI platforms can shift their behavior with no warning, as [Reddit's sudden ChatGPT citation collapse](https://f9xr.github.io/articles/2026/08/21/reddit-chatgpt-citation-drop.html) showed earlier this month.
+* **It's new and still evolving.** Measurement standards, attribution models, and proven playbooks are still being figured out in real time, both by OpenAI and by early advertisers. And AI platforms can shift their behavior with no warning, as [Reddit's sudden ChatGPT citation collapse](https://f9xr.org/articles/2026/08/21/reddit-chatgpt-citation-drop.html) showed earlier this month.
 * **Reach is currently limited to free-tier users.** Since paid ChatGPT subscribers never see ads, your addressable audience on this platform is narrower than it might first appear, and skews toward users not currently paying for premium AI access.
 * **The ethical tension is real.** Altman's own past hesitation about mixing advertising into AI conversations is a legitimate signal to keep in mind as the platform matures and potentially faces pressure to increase ad load or loosen its stated separation commitments.
 * **Conversational targeting is unproven at scale.** Unlike keyword-based search advertising, which has two decades of accumulated practice behind it, matching ads to conversational context is a new discipline, and what works well is still being figured out.
@@ -176,7 +176,7 @@ If your business operates in any of the 31 newly announced European markets, kee
 
 If you're running a local business or a lean startup, ChatGPT Ads probably isn't your first move, but keep it on your radar.
 
-For local businesses specifically, this platform is still maturing around location-based targeting and local intent matching, areas where Google Ads and Google Business Profile still have a significant head start. Most local businesses will likely get more immediate return from continuing to invest in [local SEO and the signals AI tools already use to pick businesses](https://f9xr.github.io/articles/2026/08/16/how-ai-picks-local-businesses-2026.html), Google Business Profile optimization, and Google Ads before testing ChatGPT Ads seriously.
+For local businesses specifically, this platform is still maturing around location-based targeting and local intent matching, areas where Google Ads and Google Business Profile still have a significant head start. Most local businesses will likely get more immediate return from continuing to invest in [local SEO and the signals AI tools already use to pick businesses](https://f9xr.org/articles/2026/08/16/how-ai-picks-local-businesses-2026.html), Google Business Profile optimization, and Google Ads before testing ChatGPT Ads seriously.
 
 For startups, particularly ones selling directly to a tech-savvy audience already spending meaningful time inside ChatGPT conversations, this could be an interesting early-mover opportunity. Auction costs tend to be lower on newer platforms before competition intensifies, and the no-minimum-spend structure makes small, controlled testing accessible without a large upfront commitment.
 
@@ -205,7 +205,7 @@ If you're curious whether ChatGPT Ads deserves a spot in your marketing mix, tha
 * Targeting uses conversational context, chat history, and past ad interactions rather than traditional keyword matching, with ad matching happening entirely within OpenAI's own infrastructure using anonymized signals.
 * Pricing runs through a relevance-weighted, second-price auction, with reported entry bids around 3 to 5 dollars per click and CPMs in the 25 to 60 dollar range.
 * Major brands including Best Buy, Lowe's, and VistaPrint are already running campaigns, alongside agency partners like Dentsu, Omnicom, Publicis, and WPP.
-* This is a brand-new advertising discipline still being figured out in real time. Business owners should start with small, carefully measured tests rather than large upfront commitments, and remember that organic visibility still matters, since [getting your site visible to AI engines](https://f9xr.github.io/articles/2026/08/14/steps-make-business-site-visible-to-ai.html) compounds even when ad auctions shift.
+* This is a brand-new advertising discipline still being figured out in real time. Business owners should start with small, carefully measured tests rather than large upfront commitments, and remember that organic visibility still matters, since [getting your site visible to AI engines](https://f9xr.org/articles/2026/08/14/steps-make-business-site-visible-to-ai.html) compounds even when ad auctions shift.
 
 ---
 
@@ -213,6 +213,6 @@ If you're curious whether ChatGPT Ads deserves a spot in your marketing mix, tha
 
 ChatGPT Ads mark a real shift in how advertising can work, moving brand messaging directly into the flow of an AI conversation rather than a search results page or social feed. For business owners willing to test carefully and measure honestly, there's an early-mover opportunity here, but it's still a new, evolving platform without the two decades of accumulated practice that Google Ads or Meta advertising offer.
 
-The smart approach is treating ChatGPT Ads as one part of a diversified marketing strategy, not a replacement for what's already working. If you want help evaluating whether this channel deserves a place in your marketing budget, alongside the local SEO, website, and digital presence work that continues to drive proven results, teams like the [F9XR Team](https://f9xr.github.io/pages/services.html){:target="_blank" rel="noopener noreferrer"} work with business owners on exactly this kind of strategic, diversified digital marketing approach.
+The smart approach is treating ChatGPT Ads as one part of a diversified marketing strategy, not a replacement for what's already working. If you want help evaluating whether this channel deserves a place in your marketing budget, alongside the local SEO, website, and digital presence work that continues to drive proven results, teams like the [F9XR Team](https://f9xr.org/pages/services.html){:target="_blank" rel="noopener noreferrer"} work with business owners on exactly this kind of strategic, diversified digital marketing approach.
 
-*Produced using AI-assisted research and drafting workflows, then reviewed and edited by the F9XR editorial team. See our [Editorial Policy](https://f9xr.github.io/articles/press/editorial-policy.html) for how we create and verify content.*
+*Produced using AI-assisted research and drafting workflows, then reviewed and edited by the F9XR editorial team. See our [Editorial Policy](https://f9xr.org/articles/press/editorial-policy.html) for how we create and verify content.*

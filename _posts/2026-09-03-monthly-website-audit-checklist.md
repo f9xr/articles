@@ -1,8 +1,8 @@
----
+﻿---
 layout: post
 title: "15 Monthly Website Audits Every Business Needs"
 description: "A practical monthly website audit checklist covering SEO, speed, security, and local visibility. Built for busy business owners, not developers."
-image: "https://f9xr.github.io/articles/assets/post-images/2026-09-03-monthly-website-audit-checklist.webp"
+image: "https://f9xr.org/articles/assets/post-images/2026-09-03-monthly-website-audit-checklist.webp"
 image_width: 1200
 image_height: 630
 date: 2026-09-03
@@ -35,7 +35,7 @@ The fix isn't complicated. It's a simple habit: run a set of quick audits every 
 
 ## Why Monthly Audits Matter More Than a Yearly Overhaul
 
-A lot of businesses wait until something breaks badly, or until they're planning a redesign, before they look closely at their site. By then, small issues have usually piled into bigger ones. A single broken link is easy to fix. Three hundred broken links because a product catalog got restructured six months ago is a [project](https://f9xr.github.io/pages/services.html).
+A lot of businesses wait until something breaks badly, or until they're planning a redesign, before they look closely at their site. By then, small issues have usually piled into bigger ones. A single broken link is easy to fix. Three hundred broken links because a product catalog got restructured six months ago is a [project](https://f9xr.org/pages/services.html).
 
 Search engines also notice patterns over time. A site that loads slowly, has outdated content, and is riddled with errors sends a signal that it isn't well maintained, and that shows up in rankings. The same is increasingly true for AI search tools like ChatGPT, Gemini, and Perplexity, which favor sites that are accurate, fast, and clearly structured when deciding what to cite or recommend.
 
@@ -73,7 +73,7 @@ Now let's break each one down properly.
 
 Images are one of the most overlooked ranking factors on a small business site. Every month, check whether new images have descriptive file names and alt text, since Google still can't "see" a picture the way a person can. It relies on that text to understand what's in the image and to serve it in Google Images, which is a real traffic source many businesses ignore.
 
-Also check image file sizes. A single unoptimized photo can add a full second or more to your page load time, which matters both for rankings and for keeping visitors from bouncing. We covered this in detail in our [complete image SEO audit guide](https://f9xr.github.io/articles/2026/08/14/image-seo-audit-complete-guide.html), which walks through the exact process step by step.
+Also check image file sizes. A single unoptimized photo can add a full second or more to your page load time, which matters both for rankings and for keeping visitors from bouncing. We covered this in detail in our [complete image SEO audit guide](https://f9xr.org/articles/2026/08/14/image-seo-audit-complete-guide.html), which walks through the exact process step by step.
 
 **Actionable tip:** Rename image files before uploading, using something like "mumbai-tax-consultant-office.jpg" instead of "IMG4521.jpg", and compress every image before it goes live.
 
@@ -111,7 +111,7 @@ Title tags and meta descriptions are still doing a lot of work, both for click t
 
 Old blog posts and service pages with outdated information don't just look bad, they can actively hurt trust. A "2023 pricing guide" sitting untouched in 2026 tells both readers and search engines that the page isn't maintained.
 
-Once a month, pick a handful of your older, high traffic pages and check whether the information, prices, or statistics still hold up. If a page needs more than a quick refresh, it might be time for a [website redesign](https://f9xr.github.io/services/we-do-for-you.html) to consolidate outdated content.
+Once a month, pick a handful of your older, high traffic pages and check whether the information, prices, or statistics still hold up. If a page needs more than a quick refresh, it might be time for a [website redesign](https://f9xr.org/services/we-do-for-you.html) to consolidate outdated content.
 
 **Actionable tip:** Add a simple "last updated" date to blog posts and refresh at least two or three older pages every month rather than only publishing new content.
 
@@ -123,7 +123,7 @@ Backlinks remain one of the strongest ranking signals, but not all links are goo
 
 ### 8. Security and Plugin Audit
 
-This one matters more than most business owners realize, and recent events have made that clear. Outdated plugins are one of the most common ways WordPress sites get compromised, and even well known plugins can introduce unexpected risks, as seen with recent [controversies around AI powered plugin features](https://f9xr.github.io/articles/2026/09/01/rank-math-support-agent-paused-security-controversy.html) quietly requesting site access without clear consent.
+This one matters more than most business owners realize, and recent events have made that clear. Outdated plugins are one of the most common ways WordPress sites get compromised, and even well known plugins can introduce unexpected risks, as seen with recent [controversies around AI powered plugin features](https://f9xr.org/articles/2026/09/01/rank-math-support-agent-paused-security-controversy.html) quietly requesting site access without clear consent.
 
 Every month, check for plugin and theme updates, remove anything you're no longer using, and review any application passwords or third party integrations connected to your site.
 
@@ -137,7 +137,7 @@ Search Console is where Google tells you, directly and for free, what's wrong wi
 
 ### 10. Local SEO and Google Business Profile Audit
 
-For local businesses, this is arguably the most important audit on the list. Search your business name and category on Google exactly as a customer would. Check if your Google Business Profile shows correct hours, address, phone number, and recent photos, and respond to any new reviews. Our [local SEO guide](https://f9xr.github.io/services/google-business-optimization.html) covers this in more depth.
+For local businesses, this is arguably the most important audit on the list. Search your business name and category on Google exactly as a customer would. Check if your Google Business Profile shows correct hours, address, phone number, and recent photos, and respond to any new reviews. Our [local SEO guide](https://f9xr.org/services/google-business-optimization.html) covers this in more depth.
 
 **Actionable tip:** Post at least one update or photo to your Google Business Profile every month. Profiles that are actively maintained tend to get more visibility in local search results.
 
@@ -169,7 +169,7 @@ Internal links help both visitors and search engines navigate your site and unde
 
 This is the newest addition to the list, and it's quickly becoming one of the most important. Ask ChatGPT, Gemini, Claude, or Perplexity a question your ideal customer might ask, something like "best accountant for small business in your city," and see whether your business comes up at all.
 
-AI tools tend to favor sites with clear, well organized content, strong local signals, and structured data, which is exactly why the other fourteen audits on this list matter for AI visibility too, not just traditional Google rankings. We covered [how to make your business site visible to AI](https://f9xr.github.io/articles/2026/08/14/steps-make-business-site-visible-to-ai.html) in a previous article worth reading alongside this one.
+AI tools tend to favor sites with clear, well organized content, strong local signals, and structured data, which is exactly why the other fourteen audits on this list matter for AI visibility too, not just traditional Google rankings. We covered [how to make your business site visible to AI](https://f9xr.org/articles/2026/08/14/steps-make-business-site-visible-to-ai.html) in a previous article worth reading alongside this one.
 
 **Actionable tip:** Keep a simple log of a few AI search queries relevant to your business and check monthly whether your visibility is improving.
 
@@ -182,7 +182,7 @@ The biggest reason monthly audits fall apart isn't difficulty, it's forgetting. 
 * Block 30 to 45 minutes on your calendar on the same day every month, treat it like a recurring bill payment.
 * Keep a simple spreadsheet or checklist with the fifteen items above, and just tick them off as you go.
 * Assign different audits to different team members if you have staff who can help.
-* If this genuinely isn't something you have time for, hand it to a team that does it as a [service](https://f9xr.github.io/pages/services.html) rather than letting it slip for a year.
+* If this genuinely isn't something you have time for, hand it to a team that does it as a [service](https://f9xr.org/pages/services.html) rather than letting it slip for a year.
 
 ---
 
@@ -193,11 +193,11 @@ Running fifteen audits every single month on top of actually running your busine
 We work with Chartered Accountants, Company Secretaries, Cost and Management Accountants, and local businesses to handle the ongoing maintenance side of a website, not just the initial build. That includes:
 
 * Monthly site health audits covering speed, security, broken links, and SEO health
-* Website development and [redesign work](https://f9xr.github.io/services/we-do-for-you.html) when an audit reveals it's time for a deeper fix
-* [Local SEO management](https://f9xr.github.io/services/google-business-optimization.html), including Google Business Profile optimization and review monitoring
-* Ongoing [digital presence support](https://f9xr.github.io/tools/digital-presence.html) so your site stays visible on both Google and AI search tools without you having to track every plugin update yourself
+* Website development and [redesign work](https://f9xr.org/services/we-do-for-you.html) when an audit reveals it's time for a deeper fix
+* [Local SEO management](https://f9xr.org/services/google-business-optimization.html), including Google Business Profile optimization and review monitoring
+* Ongoing [digital presence support](https://f9xr.org/tools/digital-presence.html) so your site stays visible on both Google and AI search tools without you having to track every plugin update yourself
 
-If reading through this checklist made you realize it's been a while since anyone looked closely at your site, that's usually the clearest sign it's time for a [professional audit](https://f9xr.github.io/pages/contact.html).
+If reading through this checklist made you realize it's been a while since anyone looked closely at your site, that's usually the clearest sign it's time for a [professional audit](https://f9xr.org/pages/contact.html).
 
 ---
 
@@ -213,4 +213,4 @@ If reading through this checklist made you realize it's been a while since anyon
 
 ---
 
-*Produced using AI-assisted research and drafting workflows, then reviewed and edited by the F9XR editorial team. See our [Editorial Policy](https://f9xr.github.io/articles/press/editorial-policy.html) for how we create and verify content.*
+*Produced using AI-assisted research and drafting workflows, then reviewed and edited by the F9XR editorial team. See our [Editorial Policy](https://f9xr.org/articles/press/editorial-policy.html) for how we create and verify content.*

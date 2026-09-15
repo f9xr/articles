@@ -1,8 +1,8 @@
----
+﻿---
 layout: post
 title: "Zero-Click Search: Your GBP Is Your Homepage"
 description: "In 2026, 68% of searches end with zero clicks. Learn why your Google Business Profile is now your real homepage, and how to optimize it for AI."
-image: "https://f9xr.github.io/articles/assets/post-images/zero-click-search-google-business-profile-homepage.webp"
+image: "https://f9xr.org/articles/assets/post-images/zero-click-search-google-business-profile-homepage.webp"
 image_width: 1200
 image_height: 630
 date: 2026-08-16
@@ -24,7 +24,7 @@ faq:
     a: "Yes, but not as the only metric. Businesses cited in AI Overviews see roughly 35% more organic clicks and significantly higher conversion rates on the traffic that does arrive, since AI referred visitors have effectively already had their basic questions answered. Profile views, calls, and direction requests are equally important indicators of real customer interest in a zero-click environment."
 ---
 
-Somebody searches for your business right now. They see your hours, your pricing, a handful of recent reviews, maybe an AI generated summary of what you offer, and they make a decision, call, visit, or move on, without ever clicking through to your website. From where you're sitting, nothing happened. No pageview, no session, no bounce rate to analyze. But something absolutely did happen: a customer just formed their entire impression of your business, and your website had nothing to do with it, a pattern closely tied to [ghost impression keywords](https://f9xr.github.io/articles/2026/08/18/ghost-impression-keywords-guide.html).
+Somebody searches for your business right now. They see your hours, your pricing, a handful of recent reviews, maybe an AI generated summary of what you offer, and they make a decision, call, visit, or move on, without ever clicking through to your website. From where you're sitting, nothing happened. No pageview, no session, no bounce rate to analyze. But something absolutely did happen: a customer just formed their entire impression of your business, and your website had nothing to do with it, a pattern closely tied to [ghost impression keywords](https://f9xr.org/articles/2026/08/18/ghost-impression-keywords-guide.html).
 
 This is the zero-click reality of 2026, and the numbers are no longer a fringe statistic. Roughly 68% of Google searches now end without a single click to any website, and when an [AI Overview](https://search.google/ways-to-search/ai-overviews/){:target="_blank" rel="noopener noreferrer"} appears in the results, that number jumps to 83%. In Google's [AI Mode](https://developers.google.com/search/docs/appearance/ai-features){:target="_blank" rel="noopener noreferrer"}, it climbs even higher, to 93%. Local, "near me" style searches, the exact kind your customers are running, have historically shown zero-click rates as high as 78%, well before AI Overviews even entered the picture.
 
@@ -36,7 +36,7 @@ Here's the shift that actually matters for your business: your website is no lon
 
 ## What "Zero-Click" Actually Means for Your Business
 
-Zero-click search refers to any search session that ends without the user clicking through to an external website, because Google, or an [AI assistant like ChatGPT, Gemini, Claude, or Perplexity](https://f9xr.github.io/articles/2026/08/14/steps-make-business-site-visible-to-ai.html){:target="_blank" rel="noopener noreferrer"}, answers the question directly inside its own interface. This isn't a temporary side effect of AI Overviews either, it's a trend that's been building since featured snippets and knowledge panels first matured years ago, and generative AI has simply accelerated it dramatically.
+Zero-click search refers to any search session that ends without the user clicking through to an external website, because Google, or an [AI assistant like ChatGPT, Gemini, Claude, or Perplexity](https://f9xr.org/articles/2026/08/14/steps-make-business-site-visible-to-ai.html){:target="_blank" rel="noopener noreferrer"}, answers the question directly inside its own interface. This isn't a temporary side effect of AI Overviews either, it's a trend that's been building since featured snippets and knowledge panels first matured years ago, and generative AI has simply accelerated it dramatically.
 
 **The numbers, laid out plainly:**
 - [68% of U.S. Google searches now end without a click](https://sparktoro.com/blog/2024-zero-click-search-study/){:target="_blank" rel="noopener noreferrer"} to any website.
@@ -53,13 +53,13 @@ Think about what a homepage is actually supposed to do: introduce your business,
 
 - More than 80% of local searches now show results directly through Google Maps, with the underlying business profile data displayed right in the search results.
 - 66% of consumers say they trust Google itself the most when researching local businesses, ahead of a business's own website.
-- AI powered local search is shifting toward a genuinely zero-click, intent driven environment where structured, accurate profile data directly determines whether a business gets surfaced at all, as explained in our guide on [how AI picks local businesses in 2026](https://f9xr.github.io/articles/2026/08/16/how-ai-picks-local-businesses-2026.html).
+- AI powered local search is shifting toward a genuinely zero-click, intent driven environment where structured, accurate profile data directly determines whether a business gets surfaced at all, as explained in our guide on [how AI picks local businesses in 2026](https://f9xr.org/articles/2026/08/16/how-ai-picks-local-businesses-2026.html).
 
 **Practical example:** Someone asks Perplexity or Gemini "is [your business] open right now and what does a haircut cost there." If your Google Business Profile has accurate hours and a clear services list with pricing, the AI can answer confidently, using your business as the source. If that information is missing, outdated, or buried only on your website in a format the AI can't parse cleanly, it either answers incorrectly or skips your business entirely in favor of a competitor whose profile is easier to trust.
 
 ## The New Trust Signals AI Agents Actually Look For
 
-If your [Google Business Profile](https://f9xr.github.io/articles/2026/08/16/rank-number-1-google-maps-2026.html){:target="_blank" rel="noopener noreferrer"} is functioning as your homepage, it needs to be treated with the same care a homepage deserves, updated regularly, visually strong, and actively maintained. A handful of specific signals matter far more than most business owners realize.
+If your [Google Business Profile](https://f9xr.org/articles/2026/08/16/rank-number-1-google-maps-2026.html){:target="_blank" rel="noopener noreferrer"} is functioning as your homepage, it needs to be treated with the same care a homepage deserves, updated regularly, visually strong, and actively maintained. A handful of specific signals matter far more than most business owners realize.
 
 ### High Frequency Updates
 
@@ -81,7 +81,7 @@ Review response rate has become close to mandatory as a trust signal, not option
 
 ### Structured, Complete, and Consistent Information
 
-E-E-A-T style trust signals, content freshness, [factual consistency](https://f9xr.github.io/articles/2026/08/13/consistency-audits-seo-aeo-geo.html){:target="_blank" rel="noopener noreferrer"}, and structured data, directly determine whether your information gets selected for display in an AI generated summary. A complete services list, accurate categories, current hours, and pricing where relevant give AI systems exactly the structured detail they need to answer confidently on your behalf.
+E-E-A-T style trust signals, content freshness, [factual consistency](https://f9xr.org/articles/2026/08/13/consistency-audits-seo-aeo-geo.html){:target="_blank" rel="noopener noreferrer"}, and structured data, directly determine whether your information gets selected for display in an AI generated summary. A complete services list, accurate categories, current hours, and pricing where relevant give AI systems exactly the structured detail they need to answer confidently on your behalf.
 
 ## Zero-Click Reality vs What Most Businesses Still Do
 
@@ -108,7 +108,7 @@ E-E-A-T style trust signals, content freshness, [factual consistency](https://f9
 
 Treating a Google Business Profile like a real homepage, current, complete, actively maintained, and structured for both human and AI trust, is genuinely ongoing work, not a one time setup task most business owners have spare hours for.
 
-F9XR Team builds this directly into its [local SEO and digital presence work](https://f9xr.github.io/services/google-business-optimization.html){:target="_blank" rel="noopener noreferrer"}: keeping your Google Business Profile complete and current, maintaining consistency between your profile and your actual website, and structuring your online presence so both Google and AI search tools like ChatGPT, Gemini, and Perplexity have exactly the accurate, trustworthy information they need to confidently recommend your business, click or no click.
+F9XR Team builds this directly into its [local SEO and digital presence work](https://f9xr.org/services/google-business-optimization.html){:target="_blank" rel="noopener noreferrer"}: keeping your Google Business Profile complete and current, maintaining consistency between your profile and your actual website, and structuring your online presence so both Google and AI search tools like ChatGPT, Gemini, and Perplexity have exactly the accurate, trustworthy information they need to confidently recommend your business, click or no click.
 
 ## Key Takeaways
 
@@ -123,6 +123,6 @@ F9XR Team builds this directly into its [local SEO and digital presence work](ht
 
 The businesses winning in 2026 aren't the ones fighting to reclaim every website click, they're the ones making sure their Google Business Profile is accurate, current, and trustworthy enough that Google and AI tools alike are comfortable recommending them directly, click or no click. That means treating your profile with the same seriousness you'd give your actual homepage: real photos, real updates, real responses to real customers.
 
-If keeping that level of consistency across your Google Business Profile and your website feels like one more thing competing for your time, that's exactly the groundwork F9XR Team builds into its [local SEO](https://f9xr.github.io/services/google-business-optimization.html){:target="_blank" rel="noopener noreferrer"}, [website development, and website redesign](https://f9xr.github.io/pages/services.html){:target="_blank" rel="noopener noreferrer"} work, so your business shows up accurately and confidently everywhere customers, and the AI tools now answering on your behalf, are looking.
+If keeping that level of consistency across your Google Business Profile and your website feels like one more thing competing for your time, that's exactly the groundwork F9XR Team builds into its [local SEO](https://f9xr.org/services/google-business-optimization.html){:target="_blank" rel="noopener noreferrer"}, [website development, and website redesign](https://f9xr.org/pages/services.html){:target="_blank" rel="noopener noreferrer"} work, so your business shows up accurately and confidently everywhere customers, and the AI tools now answering on your behalf, are looking.
 
-*Produced using AI-assisted research and drafting workflows, then reviewed and edited by the F9XR editorial team. See our [Editorial Policy](https://f9xr.github.io/articles/press/editorial-policy.html) for how we create and verify content.*
+*Produced using AI-assisted research and drafting workflows, then reviewed and edited by the F9XR editorial team. See our [Editorial Policy](https://f9xr.org/articles/press/editorial-policy.html) for how we create and verify content.*

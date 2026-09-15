@@ -1,8 +1,8 @@
----
+﻿---
 layout: post
 title: "Wix Introduces Symphony: AI Agents for Your Business"
 description: "Wix launched Symphony, a standalone AI agent platform for small businesses. Here's how it works, what it does, and if it's worth using."
-image: "https://f9xr.github.io/articles/assets/post-images/wix-introduces-symphony-ai-agents.webp"
+image: "https://f9xr.org/articles/assets/post-images/wix-introduces-symphony-ai-agents.webp"
 image_width: 1200
 image_height: 630
 date: 2026-08-26
@@ -116,7 +116,7 @@ Since Symphony and the broader push toward AI agents reading and acting on websi
 * **Keep your product and service information accurate and current.** Whether a human or an AI agent is reading your site, outdated information creates the same bad experience.
 * **Maintain clean, logical site structure.** Clear navigation and well-organized content help both human visitors and AI systems understand what your business actually offers.
 * **Don't treat Symphony as a substitute for a properly built website.** It's a useful operational tool, but it works best layered on top of a website that's already technically solid.
-* **Watch how agent-readable web standards evolve.** Wix's NLWeb integration and similar moves across the industry, like Cloudflare's [AI-native EmDash CMS](https://f9xr.github.io/articles/2026/08/25/cloudflare-emdash-cms-explained.html), suggest this is an ongoing trend worth tracking, not a one-off feature announcement.
+* **Watch how agent-readable web standards evolve.** Wix's NLWeb integration and similar moves across the industry, like Cloudflare's [AI-native EmDash CMS](https://f9xr.org/articles/2026/08/25/cloudflare-emdash-cms-explained.html), suggest this is an ongoing trend worth tracking, not a one-off feature announcement.
 
 ---
 
@@ -132,7 +132,7 @@ Since Symphony and the broader push toward AI agents reading and acting on websi
 ### The Case for Caution
 
 * **It's brand new.** Announced August 11, 2026, Symphony hasn't had significant time to accumulate independent, real-world user reviews or long-term performance data yet.
-* **It's not a website solution.** If your actual website has [structural, design, or technical SEO problems](https://f9xr.github.io/articles/2026/08/12/vibe-coded-site-to-premium-website-tools.html), Symphony won't fix any of that. It operates alongside your website, not as a replacement for solid web development fundamentals.
+* **It's not a website solution.** If your actual website has [structural, design, or technical SEO problems](https://f9xr.org/articles/2026/08/12/vibe-coded-site-to-premium-website-tools.html), Symphony won't fix any of that. It operates alongside your website, not as a replacement for solid web development fundamentals.
 * **Adoption curve for any new AI agent system.** As with any new agentic tool, there's a learning curve in figuring out which tasks to delegate, how much to trust the output, and how it fits into your existing workflow.
 
 ---
@@ -153,9 +153,9 @@ Tools like Symphony are a step forward for operational efficiency, but they work
 
 The F9XR Team helps business owners, startups, and local businesses build exactly that foundation, offering:
 
-* [Website development](https://f9xr.github.io/services/index.html) and [website redesign](https://f9xr.github.io/services/index.html) work that ensures your site is technically solid, well-structured, and ready for both human visitors and AI agents reading your content
-* [Local SEO strategy](https://f9xr.github.io/services/google-business-optimization.html) that keeps your business information accurate and discoverable across Google, AI search engines, and emerging agentic platforms
-* [AI visibility optimization](https://f9xr.github.io/services/ai-visibility-optimization.html), helping your business get found and cited correctly across ChatGPT, Gemini, Claude, and Perplexity, alongside traditional Google search
+* [Website development](https://f9xr.org/services/index.html) and [website redesign](https://f9xr.org/services/index.html) work that ensures your site is technically solid, well-structured, and ready for both human visitors and AI agents reading your content
+* [Local SEO strategy](https://f9xr.org/services/google-business-optimization.html) that keeps your business information accurate and discoverable across Google, AI search engines, and emerging agentic platforms
+* [AI visibility optimization](https://f9xr.org/services/ai-visibility-optimization.html), helping your business get found and cited correctly across ChatGPT, Gemini, Claude, and Perplexity, alongside traditional Google search
 * Guidance on evaluating new AI business tools like Symphony and how they fit into your specific operational workflow
 * Ongoing digital presence management so your website and business information stay accurate and current, exactly what agentic tools depend on to work well
 
@@ -178,8 +178,8 @@ If you're considering a tool like Symphony but aren't sure your current website 
 
 Wix introducing Symphony is a signal of where small business software is heading: less about a single tool for a single task, and more about a coordinated team of AI agents handling the operational load business owners have always had to carry alone. Whether it becomes the go-to AI agent orchestrator Wix hopes it will be remains to be seen, but the underlying idea, built specifically around real SMB workflows rather than adapted from enterprise software, is a sensible bet.
 
-Just remember that Symphony is an operational layer, not a substitute for a strong website and digital presence foundation. If you want to make sure your website and local SEO are solid enough to actually benefit from tools like this as they mature, the F9XR Team works with business owners on exactly this kind of [website development](https://f9xr.github.io/services/index.html), [website redesign](https://f9xr.github.io/services/index.html), and [local SEO strategy](https://f9xr.github.io/services/google-business-optimization.html).
+Just remember that Symphony is an operational layer, not a substitute for a strong website and digital presence foundation. If you want to make sure your website and local SEO are solid enough to actually benefit from tools like this as they mature, the F9XR Team works with business owners on exactly this kind of [website development](https://f9xr.org/services/index.html), [website redesign](https://f9xr.org/services/index.html), and [local SEO strategy](https://f9xr.org/services/google-business-optimization.html).
 
 ---
 
-*Produced using AI-assisted research and drafting workflows, then reviewed and edited by the F9XR editorial team. See our [Editorial Policy](https://f9xr.github.io/articles/press/editorial-policy.html) for how we create and verify content.*
+*Produced using AI-assisted research and drafting workflows, then reviewed and edited by the F9XR editorial team. See our [Editorial Policy](https://f9xr.org/articles/press/editorial-policy.html) for how we create and verify content.*

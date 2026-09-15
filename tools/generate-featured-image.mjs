@@ -1,4 +1,4 @@
-#!/usr/bin/env node
+﻿#!/usr/bin/env node
 // tools/generate-featured-image.mjs
 //
 // Generates a featured image for an F9XR article and saves it as a self-hosted
@@ -278,7 +278,7 @@ async function convertToWebP(buffer, outPath) {
 
 function printFrontMatter(outPath) {
   console.log('\nADD TO POST FRONT-MATTER:');
-  console.log(`image: "https://f9xr.github.io/articles/${outPath.replace(/\\/g, '/')}"`);
+  console.log(`image: "https://f9xr.org/articles/${outPath.replace(/\\/g, '/')}"`);
   console.log(`image_width: ${WIDTH}`);
   console.log(`image_height: ${HEIGHT}`);
 }

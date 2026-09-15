@@ -1,6 +1,6 @@
-/* ============================================
-   F9XR Articles — Brand Dark Theme
-   Colors matched to f9xr.github.io
+﻿/* ============================================
+   F9XR Articles â€” Brand Dark Theme
+   Colors matched to f9xr.org
    ============================================ */
 
 /* --- Utility --- */
@@ -1408,7 +1408,7 @@ body > .goog-te-gadget {
 }
 
 /* ===========================
-   FOOTER — Full Minima Override
+   FOOTER â€” Full Minima Override
    =========================== */
 footer.site-footer,
 .site-footer,
@@ -5037,11 +5037,11 @@ a, button, summary, .ed-card, .post-nav-card {
   }
 }
 
-/* ───────────────────────────────────────────────
+/* â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€
    Episodes section: audio player, transcript, YouTube embed
-   ─────────────────────────────────────────────── */
+   â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€ */
 
-/* ── Custom audio player ─────────────────────── */
+/* â”€â”€ Custom audio player â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€ */
 [data-f9xr-audio] {
   margin-bottom: 2em;
   outline: none;
@@ -5354,7 +5354,7 @@ details.episode-transcript summary::marker {
   }
 }
 
-/* Explore by Category tabs � narrow screens */
+/* Explore by Category tabs ï¿½ narrow screens */
 @media (max-width: 560px) {
   .ed-tabs-nav {
     flex-wrap: nowrap;
@@ -5369,7 +5369,7 @@ details.episode-transcript summary::marker {
 }
 
 /* ===========================
-   404 PAGE — keep footer covered
+   404 PAGE â€” keep footer covered
    =========================== */
 .page-404 .page-content {
   display: flex !important;

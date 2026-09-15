@@ -1,8 +1,8 @@
----
+﻿---
 layout: post
 title: "WordPress Updates: New Core Security Initiative"
 description: "WordPress launched a Core Security Initiative as AI-driven bug reports surged past 700 a month. Here's what changed and what site owners should do."
-image: "https://f9xr.github.io/articles/assets/post-images/wordpress-updates-core-security-initiative.webp"
+image: "https://f9xr.org/articles/assets/post-images/wordpress-updates-core-security-initiative.webp"
 image_width: 1200
 image_height: 630
 date: 2026-09-04
@@ -128,7 +128,7 @@ A more proactive, better-resourced WordPress core security team is a meaningful 
 
 ### Plugin Security Remains Your Responsibility
 
-This distinction matters a lot practically. Independent security research has repeatedly found that a meaningful share of disclosed plugin vulnerabilities don't receive a fix from the developer in time for public disclosure, or go unpatched for extended periods afterward. That's a sobering reality, and it underscores that relying on plugin updates alone was never a complete [website maintenance](https://f9xr.github.io/pages/services.html) strategy, and it still isn't, even with WordPress core itself getting more secure.
+This distinction matters a lot practically. Independent security research has repeatedly found that a meaningful share of disclosed plugin vulnerabilities don't receive a fix from the developer in time for public disclosure, or go unpatched for extended periods afterward. That's a sobering reality, and it underscores that relying on plugin updates alone was never a complete [website maintenance](https://f9xr.org/pages/services.html) strategy, and it still isn't, even with WordPress core itself getting more secure.
 
 ### Regulatory Context Worth Knowing
 
@@ -145,7 +145,7 @@ Given how fast the disclosure-to-exploitation window has compressed, don't delay
 Since a meaningful share of plugin vulnerabilities go unpatched for extended periods, or indefinitely, actively audit which plugins you're running, remove anything unused or unmaintained, and prioritize plugins from developers with a demonstrated track record of fast, responsible patching.
 
 ### 3. Get Visibility Into What's Actually Running on Your Site
-Full awareness of every plugin, theme, and custom component running on your site, not just what's installed through the admin panel but anything added through custom development too, is genuinely foundational to managing risk properly in 2026's faster-moving threat landscape. A thorough [website security audit](https://f9xr.github.io/services/we-do-for-you.html) can surface exactly these blind spots.
+Full awareness of every plugin, theme, and custom component running on your site, not just what's installed through the admin panel but anything added through custom development too, is genuinely foundational to managing risk properly in 2026's faster-moving threat landscape. A thorough [website security audit](https://f9xr.org/services/we-do-for-you.html) can surface exactly these blind spots.
 
 ### 4. Consider Server-Level and Automated Protection Layers
 Given how quickly exploitation attempts now follow disclosure, security measures that can respond automatically within hours, rather than depending entirely on manual patching cycles, provide meaningfully better protection than a purely reactive approach.
@@ -162,7 +162,7 @@ Security in this current environment isn't a task you complete once. It's an ong
 
 As WordPress core security becomes faster and more proactive, the security of everything running on top of it, your plugins, themes, custom code, and overall site configuration, matters just as much, and that's exactly the layer many businesses overlook.
 
-The F9XR Team helps business owners, startups, and local businesses keep their WordPress sites genuinely secure and well maintained, offering [website development](https://f9xr.github.io/pages/services.html) and [website redesign](https://f9xr.github.io/pages/portfolio.html) work built with security and long-term maintainability as core priorities from the start, along with ongoing [website maintenance](https://f9xr.github.io/pages/services.html) that includes timely updates, monitoring, and proactive issue resolution, plus [local SEO](https://f9xr.github.io/services/google-business-optimization.html) and digital presence strategy that assumes and protects a genuinely secure technical foundation.
+The F9XR Team helps business owners, startups, and local businesses keep their WordPress sites genuinely secure and well maintained, offering [website development](https://f9xr.org/pages/services.html) and [website redesign](https://f9xr.org/pages/portfolio.html) work built with security and long-term maintainability as core priorities from the start, along with ongoing [website maintenance](https://f9xr.org/pages/services.html) that includes timely updates, monitoring, and proactive issue resolution, plus [local SEO](https://f9xr.org/services/google-business-optimization.html) and digital presence strategy that assumes and protects a genuinely secure technical foundation.
 
 If you're not confident your WordPress site's plugin and theme layer is being managed with the same rigor WordPress core itself is now getting, that's exactly the kind of audit worth running.
 
@@ -183,8 +183,8 @@ If you're not confident your WordPress site's plugin and theme layer is being ma
 
 WordPress's Core Security Initiative is a genuinely necessary response to a real, measurable shift in the threat landscape. AI has changed both sides of the equation, giving attackers and researchers faster tools to find vulnerabilities while also flooding WordPress's security team with a volume of reports, many low quality, that its previous processes simply weren't built to handle. Faster releases, a smaller backlog, and proactive AI-assisted scanning are a sound response, but it's worth remembering this initiative covers WordPress core specifically, not the plugins and themes running on top of it, which remain squarely your responsibility to manage.
 
-If you want a genuinely thorough look at your WordPress site's full security posture, not just core updates but everything running alongside it, the F9XR Team works with business owners on exactly this kind of [website development](https://f9xr.github.io/pages/services.html), [website redesign](https://f9xr.github.io/pages/portfolio.html), and ongoing digital presence management.
+If you want a genuinely thorough look at your WordPress site's full security posture, not just core updates but everything running alongside it, the F9XR Team works with business owners on exactly this kind of [website development](https://f9xr.org/pages/services.html), [website redesign](https://f9xr.org/pages/portfolio.html), and ongoing digital presence management.
 
 ---
 
-*Produced using AI-assisted research and drafting workflows, then reviewed and edited by the F9XR editorial team. See our [Editorial Policy](https://f9xr.github.io/articles/press/editorial-policy.html) for how we create and verify content.*
+*Produced using AI-assisted research and drafting workflows, then reviewed and edited by the F9XR editorial team. See our [Editorial Policy](https://f9xr.org/articles/press/editorial-policy.html) for how we create and verify content.*

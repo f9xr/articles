@@ -1,8 +1,8 @@
----
+﻿---
 layout: post
 title: "How We Audited Our Own Site for E-E-A-T Issues"
 description: "We ran a source-level SEO codebase audit across our own site and fixed schema fabrications, broken identifiers, and weak author signals. See the process."
-image: "https://f9xr.github.io/articles/assets/post-images/seo-codebase-e-e-a-t-audit-case-study.webp"
+image: "https://f9xr.org/articles/assets/post-images/seo-codebase-e-e-a-t-audit-case-study.webp"
 image_width: 1200
 image_height: 630
 date: 2026-08-22
@@ -33,7 +33,7 @@ So we turned our own audit process loose on ourselves. This is the full case stu
 
 ## Why We Audited Our Own Codebase
 
-Earlier this year we documented our [SEO CodeBase Auditor approach](https://f9xr.github.io/articles/2026/07/31/f9xr-seo-codebase-auditor-skill-guide.html), which reads source files directly instead of crawling deployed URLs. Writing about a method is easy. Applying it to your own production site, where you have to act on whatever turns up, is the honest test.
+Earlier this year we documented our [SEO CodeBase Auditor approach](https://f9xr.org/articles/2026/07/31/f9xr-seo-codebase-auditor-skill-guide.html), which reads source files directly instead of crawling deployed URLs. Writing about a method is easy. Applying it to your own production site, where you have to act on whatever turns up, is the honest test.
 
 There was also a practical reason. Google's guidance on [creating helpful, people-first content](https://developers.google.com/search/docs/fundamentals/creating-helpful-content){:target="_blank" rel="noopener noreferrer"} leans heavily on experience, expertise, authoritativeness, and trust. Most teams treat E-E-A-T as a content-writing concern. But several of its strongest signals are code artifacts: schema markup accuracy, author identity data, publisher consistency. Those live in templates and config files, and they rot silently.
 
@@ -97,7 +97,7 @@ YouTube video IDs are eleven characters. Two of our posts carried IDs of nine an
 
 ## Finding 3: Nine Logo URLs Pointing Off the Repository
 
-Our publisher logo appeared in Organization and BlogPosting JSON-LD, homepage mastheads, and avatar defaults across five files. All nine occurrences hardcoded one URL: `https://f9xr.github.io/logo.webp`. The repository actually serves the asset at `/articles/logo.webp`.
+Our publisher logo appeared in Organization and BlogPosting JSON-LD, homepage mastheads, and avatar defaults across five files. All nine occurrences hardcoded one URL: `https://f9xr.org/logo.webp`. The repository actually serves the asset at `/articles/logo.webp`.
 
 Hardcoded domains feel safe until infrastructure changes. Project sites on [GitHub Pages](https://docs.github.com/pages/getting-started-with-github-pages/what-is-github-pages){:target="_blank" rel="noopener noreferrer"} live under a repository path segment, which makes hand-typed root-relative URLs a recurring trap.
 
@@ -138,7 +138,7 @@ Fixes mean nothing without verification, so each category got a closing query ru
 | Fabricated duration fallback | 0 matches | 0 matches |
 | BOM bytes in posts | 0 files | 0 files |
 
-The final diff touched **38 files**, adding 96 lines and removing 263. The negative net total is what a cleanup should look like. Grading ourselves against the same rubric we apply to client work, the site moved from a C− to a B+, with the remaining gaps requiring business decisions rather than code changes: real address and phone data, named authors on older collective-bylined posts, and sourcing for statistics that predate this process.
+The final diff touched **38 files**, adding 96 lines and removing 263. The negative net total is what a cleanup should look like. Grading ourselves against the same rubric we apply to client work, the site moved from a Câˆ’ to a B+, with the remaining gaps requiring business decisions rather than code changes: real address and phone data, named authors on older collective-bylined posts, and sourcing for statistics that predate this process.
 
 ## What This Means for Your Site
 
@@ -153,7 +153,7 @@ A workable DIY sequence:
 5. Check whether your author data files contain everything your author schema could render
 6. Verify every fix with a targeted search expecting zero results
 
-For the deeper methodology, including the 24-pillar structure and report format, our [codebase auditor guide](https://f9xr.github.io/articles/2026/07/31/f9xr-seo-codebase-auditor-skill-guide.html) walks through running the same process on any stack. Pair it with our [E-E-A-T checklist](https://f9xr.github.io/articles/2026/08/04/google-e-e-a-t-checklist-every-seo-should-bookmark.html) for the content-side signals, and our [consistency audit framework](https://f9xr.github.io/articles/2026/08/13/consistency-audits-seo-aeo-geo.html) if local visibility is part of your scope. Image-heavy sites should add the [image SEO audit guide](https://f9xr.github.io/articles/2026/08/14/image-seo-audit-complete-guide.html), since media metadata hides similar surprises.
+For the deeper methodology, including the 24-pillar structure and report format, our [codebase auditor guide](https://f9xr.org/articles/2026/07/31/f9xr-seo-codebase-auditor-skill-guide.html) walks through running the same process on any stack. Pair it with our [E-E-A-T checklist](https://f9xr.org/articles/2026/08/04/google-e-e-a-t-checklist-every-seo-should-bookmark.html) for the content-side signals, and our [consistency audit framework](https://f9xr.org/articles/2026/08/13/consistency-audits-seo-aeo-geo.html) if local visibility is part of your scope. Image-heavy sites should add the [image SEO audit guide](https://f9xr.org/articles/2026/08/14/image-seo-audit-complete-guide.html), since media metadata hides similar surprises.
 
 ## Key Takeaways
 
@@ -167,4 +167,4 @@ For the deeper methodology, including the 24-pillar structure and report format,
 
 This audit started as an internal exercise and became a better piece of proof than anything we could have written about ourselves: here is what we found in our own house, here is exactly how we fixed it, and here is the diff. That standard, show the receipts, applies whether you run a two-person blog or a forty-property network. When you need help implementing this, teams like F9XR specialize in website development, redesigns, local SEO, and building the kind of technically clean foundation that lets content quality actually register with search engines.
 
-*Produced using AI-assisted research and drafting workflows, then reviewed and edited by the F9XR editorial team. See our [Editorial Policy](https://f9xr.github.io/articles/press/editorial-policy.html) for how we create and verify content.*
+*Produced using AI-assisted research and drafting workflows, then reviewed and edited by the F9XR editorial team. See our [Editorial Policy](https://f9xr.org/articles/press/editorial-policy.html) for how we create and verify content.*

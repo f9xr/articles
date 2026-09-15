@@ -1,8 +1,8 @@
----
+﻿---
 layout: post
 title: "Gemini Lets You Turn Off Visible AI Watermarks"
 description: "Google now lets you disable Gemini's visible watermark on images, video, and music. Here's what changed, what stays hidden, and why it matters."
-image: "https://f9xr.github.io/articles/assets/post-images/gemini-visible-watermark-toggle-off.webp"
+image: "https://f9xr.org/articles/assets/post-images/gemini-visible-watermark-toggle-off.webp"
 image_width: 1200
 image_height: 630
 date: 2026-08-17
@@ -44,7 +44,7 @@ Here is the update itself, based on Google's own announcement and the reporting 
 
 Google's VP for Gemini, Josh Woodward, [confirmed the change directly on X](https://x.com/joshwoodward/status/2088259242423968162), describing a new Media Watermark setting rolling out across the Gemini app and Google's Flow video editor.
 
-<blockquote class="twitter-tweet"><p lang="en" dir="ltr">✅ Papercut fixed: You can now toggle visible watermarks on or off in Gemini and Flow, with Search coming next.<br><br>This applies to watermarks on all images (Nano Banana), videos (Omni), and songs (Lyria) except in countries where it's required by law to keep them. <a href="https://t.co/utHN0yDmD3">pic.twitter.com/utHN0yDmD3</a></p>&mdash; Josh Woodward (@joshwoodward) <a href="https://x.com/joshwoodward/status/2088259242423968162?ref_src=twsrc%5Etfw">August 14, 2026</a></blockquote> <script async src="https://platform.x.com/widgets.js" charset="utf-8"></script>
+<blockquote class="twitter-tweet"><p lang="en" dir="ltr">âœ… Papercut fixed: You can now toggle visible watermarks on or off in Gemini and Flow, with Search coming next.<br><br>This applies to watermarks on all images (Nano Banana), videos (Omni), and songs (Lyria) except in countries where it's required by law to keep them. <a href="https://t.co/utHN0yDmD3">pic.twitter.com/utHN0yDmD3</a></p>&mdash; Josh Woodward (@joshwoodward) <a href="https://x.com/joshwoodward/status/2088259242423968162?ref_src=twsrc%5Etfw">August 14, 2026</a></blockquote> <script async src="https://platform.x.com/widgets.js" charset="utf-8"></script>
 
 
 The rollout began August 14, 2026, and Google said it would reach accounts gradually over the following days.
@@ -125,7 +125,7 @@ Like most platform changes, the honest answer depends on how you plan to use it.
 
 ### The Upside
 
-* **Cleaner, more professional output.** For business owners using Gemini to create marketing graphics, blog images, product mockups, or presentation visuals, removing the watermark means content that looks finished and polished without extra editing steps. For anyone optimizing AI-generated visuals for search, a complete [image SEO audit](https://f9xr.github.io/articles/2026/08/14/image-seo-audit-complete-guide.html) ensures those visuals also perform well in search results.
+* **Cleaner, more professional output.** For business owners using Gemini to create marketing graphics, blog images, product mockups, or presentation visuals, removing the watermark means content that looks finished and polished without extra editing steps. For anyone optimizing AI-generated visuals for search, a complete [image SEO audit](https://f9xr.org/articles/2026/08/14/image-seo-audit-complete-guide.html) ensures those visuals also perform well in search results.
 * **Faster workflows.** No more cropping out corner logos or running images through separate watermark removal tools before publishing.
 * **Better client-facing deliverables.** Agencies and freelancers using Gemini for client work can now deliver assets that do not visibly announce their AI origin, which matters for professional presentation.
 
@@ -171,7 +171,7 @@ For the strongest, most trustworthy brand presence, mix AI-generated visuals wit
 
 If you are a local business or a lean startup team using Gemini to speed up content creation on a tight budget, this update is mostly a practical win. Product mockups, social graphics, seasonal promotional content, and quick marketing visuals will now look more polished straight out of the tool, without extra editing steps.
 
-That said, local businesses in particular tend to rely heavily on trust and authenticity, real photos of your storefront, your team, your actual product. AI-generated visuals are useful for supplementary content, promotional graphics, and creative concepts, but they should not fully replace original brand imagery, especially on your Google Business Profile and core website pages, where authenticity tends to perform better with both customers and local search algorithms. For a full breakdown of building visibility across both traditional search and AI tools, see our [steps to make your business site visible to AI](https://f9xr.github.io/articles/2026/08/14/steps-make-business-site-visible-to-ai.html).
+That said, local businesses in particular tend to rely heavily on trust and authenticity, real photos of your storefront, your team, your actual product. AI-generated visuals are useful for supplementary content, promotional graphics, and creative concepts, but they should not fully replace original brand imagery, especially on your Google Business Profile and core website pages, where authenticity tends to perform better with both customers and local search algorithms. For a full breakdown of building visibility across both traditional search and AI tools, see our [steps to make your business site visible to AI](https://f9xr.org/articles/2026/08/14/steps-make-business-site-visible-to-ai.html).
 
 ---
 
@@ -180,10 +180,10 @@ That said, local businesses in particular tend to rely heavily on trust and auth
 Features like this Gemini watermark toggle can change how your business creates and presents content. The F9XR Team helps business owners, startups, and local businesses build a content and digital strategy that uses AI tools without sacrificing trust or brand authenticity. That includes:
 
 * Guidance on responsibly integrating AI-generated visuals into your marketing and website content
-* [Website development and website redesign](https://f9xr.github.io/pages/services.html) work that balances polished AI-assisted visuals with authentic, original brand imagery
-* [Local SEO strategy](https://f9xr.github.io/pages/services.html) that keeps your Google Business Profile and website content trustworthy, consistent, and backed by real brand assets
+* [Website development and website redesign](https://f9xr.org/pages/services.html) work that balances polished AI-assisted visuals with authentic, original brand imagery
+* [Local SEO strategy](https://f9xr.org/pages/services.html) that keeps your Google Business Profile and website content trustworthy, consistent, and backed by real brand assets
 * Content policy support to help your team decide when AI-generated content needs disclosure and when it does not
-* Ongoing [digital presence management](https://f9xr.github.io/pages/services.html) so you are never caught off guard by fast-moving platform updates like this one
+* Ongoing [digital presence management](https://f9xr.org/pages/services.html) so you are never caught off guard by fast-moving platform updates like this one
 
 If you are unsure how to fit new AI creative tools into your existing brand strategy without losing customer trust, reach out and we can work through it together.
 
@@ -208,9 +208,9 @@ Google letting you turn off the visible watermark in Gemini is a welcome, practi
 
 The smart move for business owners is treating this as a creative convenience, not a shortcut around transparency. Use it to make your content look more professional, keep disclosure practices in place where they genuinely matter, and continue balancing AI-generated visuals with authentic brand imagery your customers can actually trust.
 
-If you want help building a content strategy that uses tools like Gemini wisely while keeping your brand's website, local SEO, and digital presence consistent and trustworthy, the F9XR Team works with business owners and local brands on exactly this kind of [website development](https://f9xr.github.io/pages/services.html), [website redesign](https://f9xr.github.io/pages/services.html), and [digital presence strategy](https://f9xr.github.io/pages/services.html) every day.
+If you want help building a content strategy that uses tools like Gemini wisely while keeping your brand's website, local SEO, and digital presence consistent and trustworthy, the F9XR Team works with business owners and local brands on exactly this kind of [website development](https://f9xr.org/pages/services.html), [website redesign](https://f9xr.org/pages/services.html), and [digital presence strategy](https://f9xr.org/pages/services.html) every day.
 
 
 ---
 
-*Produced using AI-assisted research and drafting workflows, then reviewed and edited by the F9XR editorial team. See our [Editorial Policy](https://f9xr.github.io/articles/press/editorial-policy.html) for how we create and verify content.*
+*Produced using AI-assisted research and drafting workflows, then reviewed and edited by the F9XR editorial team. See our [Editorial Policy](https://f9xr.org/articles/press/editorial-policy.html) for how we create and verify content.*

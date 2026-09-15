@@ -1,8 +1,8 @@
----
+﻿---
 layout: post
 title: "Google Business Profile Posts Now Show View Counts"
 description: "Google Business Profile posts now show view counts globally. Learn what this means and how local businesses can use it to improve their strategy."
-image: "https://f9xr.github.io/articles/assets/post-images/google-business-profile-post-view-counts.webp"
+image: "https://f9xr.org/articles/assets/post-images/google-business-profile-post-view-counts.webp"
 image_width: 1200
 image_height: 630
 date: 2026-09-11
@@ -46,21 +46,21 @@ That last point matters if you're an agency or marketer managing multiple client
 
 This isn't a brand new feature so much as a resurrection. Business Profile used to report views and clicks for every post, but Google retired both metrics in February 2023 during its migration to the [Business Profile Performance API](https://developers.google.com/my-business){:target="_blank" rel="noopener noreferrer"}. Photo view counts went with them. The developer documentation never listed a replacement, which left owners with a frustrating gap: Google was actively encouraging businesses to post more frequently, without giving them any way to see whether those posts were being seen at all.
 
-Signs of this comeback started appearing in August 2026, when a screenshot circulated on LinkedIn showing view counts on posts for one account while other users couldn't replicate it, a telltale sign of limited testing. Google also recently added view counts to Business Profile photos and videos, pointing to a broader effort to restore the visibility metrics stripped away years ago. [Search Engine Journal confirmed the rollout](https://www.searchenginejournal.com/google-business-profile-post-view-counts/589128/){:target="_blank" rel="noopener noreferrer"} shortly after the announcement, so the dates and details above line up with the wider reporting. For background on how Google measures performance beyond rankings, our guide on [SEO metrics beyond rankings](https://f9xr.github.io/articles/2026/08/19/seo-metrics-beyond-rankings.html) walks through why raw numbers like views only tell part of the story.
+Signs of this comeback started appearing in August 2026, when a screenshot circulated on LinkedIn showing view counts on posts for one account while other users couldn't replicate it, a telltale sign of limited testing. Google also recently added view counts to Business Profile photos and videos, pointing to a broader effort to restore the visibility metrics stripped away years ago. [Search Engine Journal confirmed the rollout](https://www.searchenginejournal.com/google-business-profile-post-view-counts/589128/){:target="_blank" rel="noopener noreferrer"} shortly after the announcement, so the dates and details above line up with the wider reporting. For background on how Google measures performance beyond rankings, our guide on [SEO metrics beyond rankings](https://f9xr.org/articles/2026/08/19/seo-metrics-beyond-rankings.html) walks through why raw numbers like views only tell part of the story.
 
 ## Why This Update Matters for Local Businesses
 
 ### 1. You finally get a direct content performance signal
 
-Your local reports inside Business Profile have traditionally leaned on views, website clicks, and direction requests as the main health indicators for your overall profile. Post-level view counts add a more granular layer on top of that. Now you can see exactly which individual updates are landing instead of judging performance based on your profile as a whole. It's also a clearer read on how your profile performs as a [zero-click search surface](https://f9xr.github.io/articles/2026/08/16/zero-click-search-google-business-profile-homepage.html), which matters more as Google keeps answers inside the results page.
+Your local reports inside Business Profile have traditionally leaned on views, website clicks, and direction requests as the main health indicators for your overall profile. Post-level view counts add a more granular layer on top of that. Now you can see exactly which individual updates are landing instead of judging performance based on your profile as a whole. It's also a clearer read on how your profile performs as a [zero-click search surface](https://f9xr.org/articles/2026/08/16/zero-click-search-google-business-profile-homepage.html), which matters more as Google keeps answers inside the results page.
 
 ### 2. It helps you refine what you post
 
-Not all posts perform equally. A seasonal offer might pull in far more views than a generic company update, and without individual view data, there's no reliable way to know that. You can now directly compare performance across your posts and adjust your content strategy based on actual customer attention instead of guesswork. That kind of evidence-driven decision making is how you build a [local search presence that actually ranks](https://f9xr.github.io/articles/2026/08/16/rank-number-1-google-maps-2026.html).
+Not all posts perform equally. A seasonal offer might pull in far more views than a generic company update, and without individual view data, there's no reliable way to know that. You can now directly compare performance across your posts and adjust your content strategy based on actual customer attention instead of guesswork. That kind of evidence-driven decision making is how you build a [local search presence that actually ranks](https://f9xr.org/articles/2026/08/16/rank-number-1-google-maps-2026.html).
 
 ### 3. Posts feed into Google's AI-powered local answers
 
-Google keeps expanding how Posts get used across its local search space, including feeding into AI-powered summaries that answer customer questions directly in Search and Maps. Consistent, well-performing posts aren't just a nice-to-have anymore. They're becoming part of the input Google uses to surface information about your business through AI Overviews and conversational local search. If you want to understand how that plays out, our piece on [how AI picks local businesses in 2026](https://f9xr.github.io/articles/2026/08/16/how-ai-picks-local-businesses-2026.html) covers the mechanics behind those AI-generated answers.
+Google keeps expanding how Posts get used across its local search space, including feeding into AI-powered summaries that answer customer questions directly in Search and Maps. Consistent, well-performing posts aren't just a nice-to-have anymore. They're becoming part of the input Google uses to surface information about your business through AI Overviews and conversational local search. If you want to understand how that plays out, our piece on [how AI picks local businesses in 2026](https://f9xr.org/articles/2026/08/16/how-ai-picks-local-businesses-2026.html) covers the mechanics behind those AI-generated answers.
 
 ### 4. Posting frequency signals activity to both customers and Google
 
@@ -85,7 +85,7 @@ Industry data suggests businesses that post consistently see noticeably higher e
 2. **Compare post types, not just individual posts.** Look at patterns across offers, events, and updates separately. You might find that time-sensitive offers consistently outperform general updates, or the opposite, which should shape what you prioritize going forward.
 3. **Post consistently, not sporadically.** Many local SEO practitioners recommend posting at least once a week to keep a fresh, active signal. Use your view count data to figure out which day or type of content tends to perform best, then build a simple posting rhythm around it.
 4. **Don't read one high number in isolation.** A single post with strong views doesn't necessarily reveal a trend. Look at patterns across ten or more posts to understand what's actually connecting with your local audience.
-5. **Pair Posts with strong visuals.** Since photos and videos on your profile also now show view counts, use that data alongside your post performance to build a fuller picture of which content style drives the most engagement. Strong posts can also push people toward [optimized local ad campaigns](https://f9xr.github.io/articles/2026/09/09/google-ads-local-customer-optimization.html) that reinforce the same message.
+5. **Pair Posts with strong visuals.** Since photos and videos on your profile also now show view counts, use that data alongside your post performance to build a fuller picture of which content style drives the most engagement. Strong posts can also push people toward [optimized local ad campaigns](https://f9xr.org/articles/2026/09/09/google-ads-local-customer-optimization.html) that reinforce the same message.
 6. **Treat Posts as micro ads, not just announcements.** Well-crafted posts build trust and offer proof of your expertise at the exact moment a potential customer is deciding whether to choose your business. Write them with that intent, not as a formality.
 
 ## Key Takeaways
@@ -117,4 +117,4 @@ Post view counts might seem like a small addition to your Business Profile dashb
 
 The businesses that benefit most from this update won't be the ones who glance at the numbers occasionally. They'll be the ones who build a consistent, informed posting strategy around them. If you're ready to turn this new visibility into real local growth, the **F9XR Team** can help with local SEO, website development, and a digital presence strategy built to make every post, and every click, count.
 
-*Produced using AI-assisted research and drafting workflows, then reviewed and edited by the F9XR editorial team. See our [Editorial Policy](https://f9xr.github.io/articles/press/editorial-policy.html) for how we create and verify content.*
+*Produced using AI-assisted research and drafting workflows, then reviewed and edited by the F9XR editorial team. See our [Editorial Policy](https://f9xr.org/articles/press/editorial-policy.html) for how we create and verify content.*

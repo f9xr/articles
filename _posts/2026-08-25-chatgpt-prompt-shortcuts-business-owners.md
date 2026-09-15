@@ -1,8 +1,8 @@
----
+﻿---
 layout: post
 title: "99 ChatGPT Prompt Shortcuts for Business Owners"
 description: "99 ChatGPT prompt shortcuts business owners can use instantly, no prompt engineering, just command plus subject. Copy, paste, done."
-image: "https://f9xr.github.io/articles/assets/post-images/chatgpt-prompt-shortcuts-business-owners.webp"
+image: "https://f9xr.org/articles/assets/post-images/chatgpt-prompt-shortcuts-business-owners.webp"
 image_width: 1200
 image_height: 630
 date: 2026-08-25
@@ -88,7 +88,7 @@ Here's the full list, organized into ten categories. In every example below, the
 | 29 | Give me semantic keywords related to [topic] | Strengthens topical relevance |
 | 30 | Summarize this page the way an AI search engine would cite it | Helps optimize for ChatGPT and Perplexity citations |
 
-If the SEO and AEO section is your priority, our [AEO landing page optimization guide](https://f9xr.github.io/articles/2026/08/23/aeo-landing-page-optimization-guide.html) goes much deeper on structuring pages that AI search engines actually cite.
+If the SEO and AEO section is your priority, our [AEO landing page optimization guide](https://f9xr.org/articles/2026/08/23/aeo-landing-page-optimization-guide.html) goes much deeper on structuring pages that AI search engines actually cite.
 
 ### Social Media (31-40)
 
@@ -236,7 +236,7 @@ A command without any actual content or background information forces ChatGPT to
 
 ### Publishing the First Draft Without Review
 
-ChatGPT output is a strong starting point, not a finished product. Skipping the editing step is one of the most common reasons AI-assisted content underperforms, and unedited mass-produced text is exactly what Google warns against in its guidance on [creating helpful, people-first content](https://developers.google.com/search/docs/fundamentals/creating-helpful-content){:target="_blank" rel="noopener noreferrer"}. Even the tools themselves keep changing how they mark AI output, as we covered in our guide to [Gemini's visible watermark toggle](https://f9xr.github.io/articles/2026/08/17/gemini-visible-watermark-toggle-off.html).
+ChatGPT output is a strong starting point, not a finished product. Skipping the editing step is one of the most common reasons AI-assisted content underperforms, and unedited mass-produced text is exactly what Google warns against in its guidance on [creating helpful, people-first content](https://developers.google.com/search/docs/fundamentals/creating-helpful-content){:target="_blank" rel="noopener noreferrer"}. Even the tools themselves keep changing how they mark AI output, as we covered in our guide to [Gemini's visible watermark toggle](https://f9xr.org/articles/2026/08/17/gemini-visible-watermark-toggle-off.html).
 
 ### Not Iterating
 
@@ -246,7 +246,7 @@ If the first output isn't quite right, a quick follow-up like "make this shorter
 
 ## What This Means for Local Businesses and Startups
 
-If you're running a local business, shortcuts 81 through 90 are probably your most immediately useful starting point. They're built specifically around Google Business Profile descriptions, review responses, and local service page copy, exactly the kind of content local businesses need to produce consistently but rarely have time for. Getting the Profile side right matters even more when you consider how heavily AI systems lean on that data, something we explored in our guide to [how AI picks local businesses](https://f9xr.github.io/articles/2026/08/16/how-ai-picks-local-businesses-2026.html).
+If you're running a local business, shortcuts 81 through 90 are probably your most immediately useful starting point. They're built specifically around Google Business Profile descriptions, review responses, and local service page copy, exactly the kind of content local businesses need to produce consistently but rarely have time for. Getting the Profile side right matters even more when you consider how heavily AI systems lean on that data, something we explored in our guide to [how AI picks local businesses](https://f9xr.org/articles/2026/08/16/how-ai-picks-local-businesses-2026.html).
 
 For startups, the marketing, sales, and business strategy sections offer a fast way to produce solid first drafts across everything from cold outreach to pricing strategy, without needing a dedicated marketing or content team from day one.
 
@@ -260,11 +260,11 @@ Prompt shortcuts like these are a useful starting point, but they have a ceiling
 
 * A documented content strategy and editorial calendar, so content is planned around goals instead of generated ad hoc whenever someone remembers to post
 * Expert copywriting and multi-stage editing that turns AI-assisted first drafts into polished, on-brand writing
-* Local SEO execution, including Google Business Profile optimization and ongoing review management, building directly on the kind of content shortcuts 81 through 90 help you draft. Our [local SEO and Google Business Profile services](https://f9xr.github.io/services/google-business-optimization.html) cover this end to end
-* AI visibility optimization, helping your brand get cited inside ChatGPT, Gemini, Claude, and Perplexity, not just Google. Our [AI visibility optimization service](https://f9xr.github.io/services/ai-visibility-optimization.html) handles that side directly
+* Local SEO execution, including Google Business Profile optimization and ongoing review management, building directly on the kind of content shortcuts 81 through 90 help you draft. Our [local SEO and Google Business Profile services](https://f9xr.org/services/google-business-optimization.html) cover this end to end
+* AI visibility optimization, helping your brand get cited inside ChatGPT, Gemini, Claude, and Perplexity, not just Google. Our [AI visibility optimization service](https://f9xr.org/services/ai-visibility-optimization.html) handles that side directly
 * Website development and redesign, giving all this content a home that converts visitors into customers
 
-If you're using these shortcuts every week and keep running into the gap between fast drafts and publish-ready content, our [content creation and editorial operations](https://f9xr.github.io/services/content-creation-editorial-operations.html) service was built for exactly that.
+If you're using these shortcuts every week and keep running into the gap between fast drafts and publish-ready content, our [content creation and editorial operations](https://f9xr.org/services/content-creation-editorial-operations.html) service was built for exactly that.
 
 ---
 
@@ -285,4 +285,4 @@ You don't need a prompt engineering course, a 200-word instruction template, or 
 
 Where these shortcuts really pay off is when they feed into a bigger content and digital presence strategy, not just scattered quick wins. If you want help turning fast AI drafts into a consistent, polished content engine, along with the local SEO, website development, and AI visibility work that helps that content actually get found, teams like F9XR specialize in exactly that kind of complete digital presence strategy.
 
-*Produced using AI-assisted research and drafting workflows, then reviewed and edited by the F9XR editorial team. See our [Editorial Policy](https://f9xr.github.io/articles/press/editorial-policy.html) for how we create and verify content.*
+*Produced using AI-assisted research and drafting workflows, then reviewed and edited by the F9XR editorial team. See our [Editorial Policy](https://f9xr.org/articles/press/editorial-policy.html) for how we create and verify content.*

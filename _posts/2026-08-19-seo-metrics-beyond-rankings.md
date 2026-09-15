@@ -1,8 +1,8 @@
----
+﻿---
 layout: post
 title: "Beyond Rankings: 7 Metrics Proving SEO Works"
 description: "Rankings alone don't prove SEO works. Learn the 7 metrics, CTR, dwell time, conversions, that actually show real business results in 2026."
-image: "https://f9xr.github.io/articles/assets/post-images/seo-metrics-beyond-rankings.webp"
+image: "https://f9xr.org/articles/assets/post-images/seo-metrics-beyond-rankings.webp"
 image_width: 1200
 image_height: 630
 image_credit: "Parveender on Pixabay"
@@ -74,7 +74,7 @@ Bounce rate tracks the percentage of visitors who leave after viewing only one p
 
 **Why it matters:** A high bounce rate on a page meant to guide someone toward a next step, a service page, a pricing page, a contact form, is a real signal something is broken in the experience or the messaging. A high bounce rate on a single, self contained blog post that fully answers a question isn't automatically a problem; it might mean the content did its job efficiently.
 
-**Practical tip:** Never read bounce rate in isolation. Pair it with time on page and the page's actual purpose before deciding whether a high number is a red flag or simply expected behavior for that content type. Our [E-E-A-T checklist](https://f9xr.github.io/articles/2026/08/04/google-e-e-a-t-checklist-every-seo-should-bookmark.html){:target="_blank" rel="noopener noreferrer"} covers the quality signals that directly influence these engagement metrics.
+**Practical tip:** Never read bounce rate in isolation. Pair it with time on page and the page's actual purpose before deciding whether a high number is a red flag or simply expected behavior for that content type. Our [E-E-A-T checklist](https://f9xr.org/articles/2026/08/04/google-e-e-a-t-checklist-every-seo-should-bookmark.html){:target="_blank" rel="noopener noreferrer"} covers the quality signals that directly influence these engagement metrics.
 
 ---
 
@@ -108,7 +108,7 @@ Two related, often overlooked signals worth tracking together.
 
 **Content decay** tracks whether a previously strong performing page is quietly losing traffic over time, typically measured by comparing the last 28 days of clicks against the prior 28 day period. Content decay is one of the clearest early warning signs that a page needs updating before its performance drops far enough to require a full rebuild.
 
-**Practical tip:** Review content decay on a rolling monthly basis for your top 20 to 30 organic pages, and treat any page showing a consistent multi month decline as a priority for refreshing, not just replacing. Running a periodic [consistency audit](https://f9xr.github.io/articles/2026/08/13/consistency-audits-seo-aeo-geo.html){:target="_blank" rel="noopener noreferrer"} across your content helps you catch these declines before they compound.
+**Practical tip:** Review content decay on a rolling monthly basis for your top 20 to 30 organic pages, and treat any page showing a consistent multi month decline as a priority for refreshing, not just replacing. Running a periodic [consistency audit](https://f9xr.org/articles/2026/08/13/consistency-audits-seo-aeo-geo.html){:target="_blank" rel="noopener noreferrer"} across your content helps you catch these declines before they compound.
 
 ---
 
@@ -118,7 +118,7 @@ This is the newest addition to the list, and one of the most important. AI Overv
 
 **Why it matters:** A page that's frequently cited or referenced inside an AI generated answer is building brand visibility and trust even when it doesn't show up as a click in your analytics. Ignoring this layer entirely means missing a growing share of how customers encounter your business.
 
-**Practical tip:** Periodically test your own key topics directly inside ChatGPT, Gemini, Perplexity, and Google's AI Overviews to see whether your business or content is being referenced, since this kind of visibility won't show up cleanly in traditional traffic reports. For a deeper look at making your business visible to AI tools, see our guide on [making your business site visible to AI search](https://f9xr.github.io/articles/2026/08/14/steps-make-business-site-visible-to-ai.html){:target="_blank" rel="noopener noreferrer"}.
+**Practical tip:** Periodically test your own key topics directly inside ChatGPT, Gemini, Perplexity, and Google's AI Overviews to see whether your business or content is being referenced, since this kind of visibility won't show up cleanly in traditional traffic reports. For a deeper look at making your business visible to AI tools, see our guide on [making your business site visible to AI search](https://f9xr.org/articles/2026/08/14/steps-make-business-site-visible-to-ai.html){:target="_blank" rel="noopener noreferrer"}.
 
 ---
 
@@ -151,7 +151,7 @@ This is the newest addition to the list, and one of the most important. AI Overv
 
 Most business owners don't have the time to build and maintain a reporting system pulling from Search Console, GA4, and manual AI visibility checks every single month, on top of everything else running a business requires.
 
-F9XR Team builds this kind of outcome focused measurement directly into its [local SEO](https://f9xr.github.io/pages/services.html){:target="_blank" rel="noopener noreferrer"}, [website development](https://f9xr.github.io/pages/services.html){:target="_blank" rel="noopener noreferrer"}, and [website redesign](https://f9xr.github.io/pages/services.html){:target="_blank" rel="noopener noreferrer"} work, tracking CTR, engagement, conversions, and AI visibility together, not just rankings in isolation, so a business owner can see clearly whether their SEO investment is producing real customers, not just better looking numbers in a rank tracker.
+F9XR Team builds this kind of outcome focused measurement directly into its [local SEO](https://f9xr.org/pages/services.html){:target="_blank" rel="noopener noreferrer"}, [website development](https://f9xr.org/pages/services.html){:target="_blank" rel="noopener noreferrer"}, and [website redesign](https://f9xr.org/pages/services.html){:target="_blank" rel="noopener noreferrer"} work, tracking CTR, engagement, conversions, and AI visibility together, not just rankings in isolation, so a business owner can see clearly whether their SEO investment is producing real customers, not just better looking numbers in a rank tracker.
 
 ---
 
@@ -176,4 +176,4 @@ Building the kind of measurement system that connects rankings to revenue takes 
 
 
 
-*Produced using AI-assisted research and drafting workflows, then reviewed and edited by the F9XR editorial team. See our [Editorial Policy](https://f9xr.github.io/articles/press/editorial-policy.html) for how we create and verify content.*
+*Produced using AI-assisted research and drafting workflows, then reviewed and edited by the F9XR editorial team. See our [Editorial Policy](https://f9xr.org/articles/press/editorial-policy.html) for how we create and verify content.*

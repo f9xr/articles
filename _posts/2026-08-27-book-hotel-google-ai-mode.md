@@ -1,8 +1,8 @@
----
+﻿---
 layout: post
 title: "You Can Now Book Hotels in Google AI Mode"
 description: "Google is testing direct hotel booking inside AI Mode. Here's how it works, who's involved, and what it means for hotels and travelers in 2026."
-image: "https://f9xr.github.io/articles/assets/post-images/book-hotel-google-ai-mode.webp"
+image: "https://f9xr.org/articles/assets/post-images/book-hotel-google-ai-mode.webp"
 image_width: 1200
 image_height: 630
 date: 2026-08-27
@@ -117,7 +117,7 @@ A study analyzing 4,000 Google AI Mode queries across 8 cities found that 79 per
 
 These kinds of AI-generated hotel results, like the Google AI Mode comparison below for hotels in Lakshadweep, are exactly what travelers now see ahead of traditional blue links:
 
-<img src="https://f9xr.github.io/articles/assets/post-images/best-hotels-lakshadweep-google-ai-results.webp" alt="Google AI Mode results comparing best hotels in Lakshadweep" title="Google AI Mode hotel comparison results in Lakshadweep" width="1200" height="1059" loading="lazy" />
+<img src="https://f9xr.org/articles/assets/post-images/best-hotels-lakshadweep-google-ai-results.webp" alt="Google AI Mode results comparing best hotels in Lakshadweep" title="Google AI Mode hotel comparison results in Lakshadweep" width="1200" height="1059" loading="lazy" />
 
 ### The Numbers Are Still Small, For Now
 
@@ -178,7 +178,7 @@ While this specific rollout is focused on hotel booking, it's a meaningful signa
 
 For local businesses generally, the practical lesson mirrors what hotels are being told right now: a well-optimized, accurate, consistently maintained Google Business Profile is becoming a foundational requirement for AI-driven discovery and commerce, not just a nice-to-have addition to your marketing.
 
-This is the same conclusion our earlier look at Google's [Preferred Source button](https://f9xr.github.io/articles/2026/08/23/google-preferred-source-button-publishers-guide.html){:target="_blank" rel="noopener noreferrer"} reached, the way AI surfaces distribute traffic is fundamentally changing who benefits from a strong local and publisher presence. And as AI agents take on more of the work of running a business web presence, the [AI agents built into modern site platforms](https://f9xr.github.io/articles/2026/08/26/wix-introduces-symphony-ai-agents.html){:target="_blank" rel="noopener noreferrer"} are part of the same shift.
+This is the same conclusion our earlier look at Google's [Preferred Source button](https://f9xr.org/articles/2026/08/23/google-preferred-source-button-publishers-guide.html){:target="_blank" rel="noopener noreferrer"} reached, the way AI surfaces distribute traffic is fundamentally changing who benefits from a strong local and publisher presence. And as AI agents take on more of the work of running a business web presence, the [AI agents built into modern site platforms](https://f9xr.org/articles/2026/08/26/wix-introduces-symphony-ai-agents.html){:target="_blank" rel="noopener noreferrer"} are part of the same shift.
 
 ---
 
@@ -190,7 +190,7 @@ The F9XR Team helps business owners, startups, local businesses, and hospitality
 
 * Local SEO and Google Business Profile optimization, positioning your business correctly for AI Mode and other AI-driven discovery surfaces
 * Website development and website redesign work that ensures your booking flows, pricing information, and policies are clearly structured and machine-readable
-* [AI visibility optimization](https://f9xr.github.io/services/ai-visibility-optimization.html){:target="_blank" rel="noopener noreferrer"}, helping your business get accurately represented across ChatGPT, Gemini, Claude, and Perplexity, alongside Google's AI Mode
+* [AI visibility optimization](https://f9xr.org/services/ai-visibility-optimization.html){:target="_blank" rel="noopener noreferrer"}, helping your business get accurately represented across ChatGPT, Gemini, Claude, and Perplexity, alongside Google's AI Mode
 * Analytics setup guidance to properly track AI-referred traffic as these agentic commerce experiences continue to expand
 * Ongoing digital presence management so your business stays ahead of this shift rather than reacting to it after competitors have already adapted
 
@@ -213,6 +213,6 @@ If you run a hospitality or local service business and aren't sure whether your 
 
 Booking a hotel directly inside Google's AI Mode is no longer a hypothetical future feature. It's a live, if limited, test happening right now in the United States, backed by major hotel brands and OTAs alike. The bigger story here isn't just about travel. It's an early, concrete look at how AI-driven, conversational commerce is starting to reshape discovery and booking across entire industries, with local business visibility, particularly through Google Business Profile, emerging as a genuinely critical factor in whether a business shows up at all.
 
-Whether you run a hotel or any other local business, the fundamentals worth acting on now are the same: accurate, consistent, well-structured information across your website and Google presence. Businesses that get this foundation right are positioned for both traditional search and the AI-driven discovery layer that's just getting started. If you want help making sure your business is properly set up for this shift, the F9XR Team works with business owners on exactly this kind of [website development](https://f9xr.github.io/pages/services.html){:target="_blank" rel="noopener noreferrer"}, [website redesign](https://f9xr.github.io/pages/services.html){:target="_blank" rel="noopener noreferrer"}, and [local SEO](https://f9xr.github.io/services/google-business-optimization.html){:target="_blank" rel="noopener noreferrer"} strategy.
+Whether you run a hotel or any other local business, the fundamentals worth acting on now are the same: accurate, consistent, well-structured information across your website and Google presence. Businesses that get this foundation right are positioned for both traditional search and the AI-driven discovery layer that's just getting started. If you want help making sure your business is properly set up for this shift, the F9XR Team works with business owners on exactly this kind of [website development](https://f9xr.org/pages/services.html){:target="_blank" rel="noopener noreferrer"}, [website redesign](https://f9xr.org/pages/services.html){:target="_blank" rel="noopener noreferrer"}, and [local SEO](https://f9xr.org/services/google-business-optimization.html){:target="_blank" rel="noopener noreferrer"} strategy.
 
-*Produced using AI-assisted research and drafting workflows, then reviewed and edited by the F9XR editorial team. See our [Editorial Policy](https://f9xr.github.io/articles/press/editorial-policy.html) for how we create and verify content.*
+*Produced using AI-assisted research and drafting workflows, then reviewed and edited by the F9XR editorial team. See our [Editorial Policy](https://f9xr.org/articles/press/editorial-policy.html) for how we create and verify content.*

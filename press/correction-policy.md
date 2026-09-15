@@ -1,13 +1,13 @@
----
+﻿---
 layout: page
 permalink: /press/correction-policy.html
-title: "Correction Policy — F9XR Articles"
+title: "Correction Policy â€” F9XR Articles"
 description: "The process F9XR Articles follows to identify, report, and resolve technical errors, outdated information, and factual inaccuracies."
 keywords: "F9XR correction policy, error reporting, content updates, accuracy, technical corrections"
 dateModified: 2026-08-19
 ---
 
-F9XR Articles is committed to publishing accurate, current, and actionable technical content. When errors are identified — whether by readers, team members, or automated monitoring — a structured correction process ensures they are resolved transparently and promptly.
+F9XR Articles is committed to publishing accurate, current, and actionable technical content. When errors are identified â€” whether by readers, team members, or automated monitoring â€” a structured correction process ensures they are resolved transparently and promptly.
 
 ## Types of Corrections
 
@@ -26,9 +26,9 @@ Content that was accurate at the time of publication but is no longer current du
 
 Readers, collaborators, and team members can report errors through any of the following channels:
 
-- **GitHub Issues** — Open an issue at [github.com/f9xr/articles](https://github.com/f9xr/articles/issues) with a description of the error, the affected article, and the suggested correction.
-- **Email** — Contact the editorial team at [tontufytservices@gmail.com](mailto:tontufytservices@gmail.com) with the subject line "Correction Request" and the details above.
-- **Comments** — Where article comments are enabled, errors can be reported inline with a link to supporting evidence.
+- **GitHub Issues** â€” Open an issue at [github.com/f9xr/articles](https://github.com/f9xr/articles/issues) with a description of the error, the affected article, and the suggested correction.
+- **Email** â€” Contact the editorial team at [hello@f9xr.org](mailto:hello@f9xr.org) with the subject line "Correction Request" and the details above.
+- **Comments** â€” Where article comments are enabled, errors can be reported inline with a link to supporting evidence.
 
 When reporting an error, include:
 
@@ -80,6 +80,6 @@ Details on the content review cadence are documented in the [F9XR Editorial Poli
 
 ## Related Policies
 
-- [Editorial Policy]({{ '/press/editorial-policy.html' | relative_url }}) — How content is researched, written, and reviewed.
-- [Ethics & Fact-Checking Policy]({{ '/press/ethics-policy.html' | relative_url }}) — Standards for data integrity and conflict-of-interest management.
-- [Ownership, Funding, & Transparency]({{ '/press/transparency.html' | relative_url }}) — Organizational structure, funding model, and disclosure practices.
+- [Editorial Policy]({{ '/press/editorial-policy.html' | relative_url }}) â€” How content is researched, written, and reviewed.
+- [Ethics & Fact-Checking Policy]({{ '/press/ethics-policy.html' | relative_url }}) â€” Standards for data integrity and conflict-of-interest management.
+- [Ownership, Funding, & Transparency]({{ '/press/transparency.html' | relative_url }}) â€” Organizational structure, funding model, and disclosure practices.

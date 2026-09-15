@@ -1,9 +1,9 @@
----
+﻿---
 layout: post
 code: true
 title: "15+ Steps to Make Your Site Visible to AI"
 description: "Practical 2026 guide to AI search visibility: 15+ steps to help ChatGPT, Gemini, Claude, and Perplexity find, cite, and recommend your business site."
-image: "https://f9xr.github.io/articles/assets/post-images/steps-make-business-site-visible-to-ai.webp"
+image: "https://f9xr.org/articles/assets/post-images/steps-make-business-site-visible-to-ai.webp"
 image_width: 1200
 image_height: 630
 image_credit: "Photo by <a href=\"https://unsplash.com/@kmuza?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText\" target=\"_blank\" rel=\"noopener noreferrer\">Carlos Muza</a> on <a href=\"https://unsplash.com/photos/hpjSkU2UYSU?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText\" target=\"_blank\" rel=\"noopener noreferrer\">Unsplash</a>"
@@ -87,7 +87,7 @@ mindmap
 -->
 
 <figure class="post-figure">
-  <img src="https://f9xr.github.io/articles/assets/post-images/ai-search-ai-tools.webp" alt="AI search tools like ChatGPT and Perplexity answering a business question" title="More customers find answers through AI search tools than ever before" width="1379" height="884" loading="lazy" />
+  <img src="https://f9xr.org/articles/assets/post-images/ai-search-ai-tools.webp" alt="AI search tools like ChatGPT and Perplexity answering a business question" title="More customers find answers through AI search tools than ever before" width="1379" height="884" loading="lazy" />
   <figcaption>AI search tools now answer a growing share of business questions directly. Being cited here is a separate skill from ranking on Google.</figcaption>
 </figure>
 
@@ -107,7 +107,7 @@ This step gets overlooked constantly. ChatGPT Search is built on Bing's index as
 
 llms.txt is a plain text, Markdown formatted file placed at yoursite.com/llms.txt. It gives AI models a clean, curated summary of your site, cutting through navigation menus, ads, and clutter to hand the model exactly what it needs to understand your business. One honest note: llms.txt is a community convention, not an official web standard backed by a recognized standards body, and it won't fix a weak site on its own. But it costs about an hour to build, and it forces you to get clear on your own information architecture in the process.
 
-The [original llms.txt proposal](https://llmstxt.org){:target="_blank" rel="noopener noreferrer"} has the full background, and we've covered robots.txt, llms.txt, sitemap.xml, and the rest of these [essential txt files for SEO, AEO, and GEO](https://f9xr.github.io/articles/2026/08/08/essential-txt-files-seo-aeo-geo-2026.html){:target="_blank" rel="noopener noreferrer"} in a separate guide.
+The [original llms.txt proposal](https://llmstxt.org){:target="_blank" rel="noopener noreferrer"} has the full background, and we've covered robots.txt, llms.txt, sitemap.xml, and the rest of these [essential txt files for SEO, AEO, and GEO](https://f9xr.org/articles/2026/08/08/essential-txt-files-seo-aeo-geo-2026.html){:target="_blank" rel="noopener noreferrer"} in a separate guide.
 
 **Practical tip:** If you can't describe your business in 10 to 30 curated links with short descriptions, that's usually a sign your site's structure itself needs simplifying, not just your llms.txt file.
 
@@ -139,13 +139,13 @@ Content that includes citable data points, specific statistics, named examples, 
 
 ### 9. Keep metadata clean and consistent
 
-Titles, meta descriptions, alt text, and canonical tags should all reinforce the same core topics as your actual page content. Inconsistent or vague metadata gives AI models a weaker, less confident signal about what a page is about. For image-specific metadata like alt text and file names, our [image SEO audit guide](https://f9xr.github.io/articles/2026/08/14/image-seo-audit-complete-guide.html){:target="_blank" rel="noopener noreferrer"} covers the full checklist.
+Titles, meta descriptions, alt text, and canonical tags should all reinforce the same core topics as your actual page content. Inconsistent or vague metadata gives AI models a weaker, less confident signal about what a page is about. For image-specific metadata like alt text and file names, our [image SEO audit guide](https://f9xr.org/articles/2026/08/14/image-seo-audit-complete-guide.html){:target="_blank" rel="noopener noreferrer"} covers the full checklist.
 
 ## Building off site trust and entity authority
 
 ### 10. Keep your business information consistent everywhere
 
-This connects directly to what's often called entity confidence, the AI's working understanding of who your business is, based on patterns across many sources, not just one page. If your name, address, phone number, hours, and services vary across your website, Google Business Profile, and directories, AI tools have no reliable way to know which version is correct. They often default to leaving you out of an answer entirely rather than guessing wrong. This directly impacts your overall [website trust score](https://f9xr.github.io/articles/2026/08/15/how-to-increase-website-trust-score.html){:target="_blank" rel="noopener noreferrer"}. For the full audit method and the numbers behind it, see our [information consistency audit guide for SEO, AEO, and GEO](https://f9xr.github.io/articles/2026/08/13/consistency-audits-seo-aeo-geo.html){:target="_blank" rel="noopener noreferrer"}.
+This connects directly to what's often called entity confidence, the AI's working understanding of who your business is, based on patterns across many sources, not just one page. If your name, address, phone number, hours, and services vary across your website, Google Business Profile, and directories, AI tools have no reliable way to know which version is correct. They often default to leaving you out of an answer entirely rather than guessing wrong. This directly impacts your overall [website trust score](https://f9xr.org/articles/2026/08/15/how-to-increase-website-trust-score.html){:target="_blank" rel="noopener noreferrer"}. For the full audit method and the numbers behind it, see our [information consistency audit guide for SEO, AEO, and GEO](https://f9xr.org/articles/2026/08/13/consistency-audits-seo-aeo-geo.html){:target="_blank" rel="noopener noreferrer"}.
 
 ### 11. Build presence on platforms AI models trust as sources
 
@@ -153,7 +153,7 @@ Entity authority signals, being cited or reviewed on platforms like LinkedIn, in
 
 ### 12. Pursue expert placements and journalist requests
 
-Getting quoted or featured in a relevant publication, including through journalist request platforms, creates the kind of earned, third party citation that strengthens brand mentions for both traditional search engines and generative AI models. A single well placed mention in a respected industry publication often carries more weight than a dozen self published claims. For the broader picture, our guide to [free and paid backlink methods for 2026](https://f9xr.github.io/articles/2026/08/07/get-backlinks-2026-free-paid-ai-methods.html){:target="_blank" rel="noopener noreferrer"} is a good follow up.
+Getting quoted or featured in a relevant publication, including through journalist request platforms, creates the kind of earned, third party citation that strengthens brand mentions for both traditional search engines and generative AI models. A single well placed mention in a respected industry publication often carries more weight than a dozen self published claims. For the broader picture, our guide to [free and paid backlink methods for 2026](https://f9xr.org/articles/2026/08/07/get-backlinks-2026-free-paid-ai-methods.html){:target="_blank" rel="noopener noreferrer"} is a good follow up.
 
 ### 13. Collect and maintain customer reviews
 
@@ -195,10 +195,10 @@ The sites that show up most consistently across ChatGPT, Perplexity, and Claude 
 
 Working through 15 or more technical and content steps on top of running an actual business is a lot to take on alone. Getting even a few of them wrong, an accidentally blocked robots.txt or mismatched schema, can quietly undo the rest of the effort.
 
-F9XR Team builds AI visibility directly into its website development, website redesign, and local SEO work: crawler access, structured data, llms.txt setup, and the content and consistency work that gives both Google and AI search tools like ChatGPT, Gemini, and Perplexity a clear, trustworthy picture of your business. That means a business owner doesn't have to become a technical SEO expert to show up where customers are searching. If you want to see how the machine readable files and automated checks behind this work, the [F9XR SEO Codebase Auditor guide](https://f9xr.github.io/articles/2026/07/31/f9xr-seo-codebase-auditor-skill-guide.html){:target="_blank" rel="noopener noreferrer"} walks through the audit pillars it applies to every site.
+F9XR Team builds AI visibility directly into its website development, website redesign, and local SEO work: crawler access, structured data, llms.txt setup, and the content and consistency work that gives both Google and AI search tools like ChatGPT, Gemini, and Perplexity a clear, trustworthy picture of your business. That means a business owner doesn't have to become a technical SEO expert to show up where customers are searching. If you want to see how the machine readable files and automated checks behind this work, the [F9XR SEO Codebase Auditor guide](https://f9xr.org/articles/2026/07/31/f9xr-seo-codebase-auditor-skill-guide.html){:target="_blank" rel="noopener noreferrer"} walks through the audit pillars it applies to every site.
 
 <figure class="post-figure">
-  <img src="https://f9xr.github.io/assets/screenshots/F9XR_GoogleSearch.png" alt="F9XR Team appearing across Google search results" title="The end state this guide walks you toward: your business visible where customers search" width="1352" height="1107" loading="lazy" />
+  <img src="https://f9xr.org/assets/screenshots/F9XR_GoogleSearch.png" alt="F9XR Team appearing across Google search results" title="The end state this guide walks you toward: your business visible where customers search" width="1352" height="1107" loading="lazy" />
   <figcaption>F9XR Team showing up across Google search results, the same visibility this guide helps you build in AI search tools.</figcaption>
 </figure>
 
@@ -215,8 +215,8 @@ F9XR Team builds AI visibility directly into its website development, website re
 
 Making your business visible to AI search tools isn't about chasing a single trick or trend. It's a specific, layered set of steps: making sure AI can access your site at all, structuring your content so it can be understood and cited, building consistent trust signals across the web, and keeping all of it updated as your business changes. Skip the foundation and the rest of the effort doesn't matter. Get the foundation right, and every other step compounds.
 
-If working through all of this alongside running your actual business sounds like a lot, that's exactly the groundwork teams like F9XR build into [website development and website redesign](https://f9xr.github.io/pages/services.html){:target="_blank" rel="noopener noreferrer"}, alongside [local SEO](https://f9xr.github.io/services/google-business-optimization.html){:target="_blank" rel="noopener noreferrer"} and [AI visibility optimization](https://f9xr.github.io/services/ai-visibility-optimization.html){:target="_blank" rel="noopener noreferrer"}. The goal is simple: your business shows up clearly and accurately, not just in Google Search, but in the AI conversations increasingly deciding which businesses customers choose.
+If working through all of this alongside running your actual business sounds like a lot, that's exactly the groundwork teams like F9XR build into [website development and website redesign](https://f9xr.org/pages/services.html){:target="_blank" rel="noopener noreferrer"}, alongside [local SEO](https://f9xr.org/services/google-business-optimization.html){:target="_blank" rel="noopener noreferrer"} and [AI visibility optimization](https://f9xr.org/services/ai-visibility-optimization.html){:target="_blank" rel="noopener noreferrer"}. The goal is simple: your business shows up clearly and accurately, not just in Google Search, but in the AI conversations increasingly deciding which businesses customers choose.
 
 ---
 
-*Produced using AI-assisted research and drafting workflows, then reviewed and edited by the F9XR editorial team. See our [Editorial Policy](https://f9xr.github.io/articles/press/editorial-policy.html) for how we create and verify content.*
+*Produced using AI-assisted research and drafting workflows, then reviewed and edited by the F9XR editorial team. See our [Editorial Policy](https://f9xr.org/articles/press/editorial-policy.html) for how we create and verify content.*

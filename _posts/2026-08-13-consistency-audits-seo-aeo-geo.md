@@ -1,8 +1,8 @@
----
+﻿---
 layout: post
 title: "Why Consistency Audits Matter for SEO, AEO & GEO"
 description: "Learn why an information consistency audit is critical for SEO, AEO, and GEO in 2026, with real stats, examples, and a practical audit checklist."
-image: "https://f9xr.github.io/articles/assets/post-images/consistency-audits-seo-aeo-geo.webp"
+image: "https://f9xr.org/articles/assets/post-images/consistency-audits-seo-aeo-geo.webp"
 image_width: 1200
 image_height: 630
 image_credit: "Photo by <a href=\"https://unsplash.com/@kmuza?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText\" target=\"_blank\" rel=\"noopener noreferrer\">Carlos Muza</a> on <a href=\"https://unsplash.com/photos/hpjSkU2UYSU?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText\" target=\"_blank\" rel=\"noopener noreferrer\">Unsplash</a>"
@@ -31,7 +31,7 @@ Most businesses have at least one of these mismatches live right now. Name spell
 This post covers why an information consistency audit matters for classic SEO, for answer engine optimization (AEO), and for generative engine optimization (GEO) in 2026. It also covers what the latest data says about how often businesses get this wrong, and a five step checklist you can run without hiring anyone.
 
 <figure class="post-figure">
-  <img src="https://f9xr.github.io/articles/assets/post-images/ai-search-ai-tools.webp" alt="AI search tools like ChatGPT and Perplexity answering a business question" title="AI tools cross-check your business details across many sources before recommending you" width="1379" height="884" loading="lazy" />
+  <img src="https://f9xr.org/articles/assets/post-images/ai-search-ai-tools.webp" alt="AI search tools like ChatGPT and Perplexity answering a business question" title="AI tools cross-check your business details across many sources before recommending you" width="1379" height="884" loading="lazy" />
   <figcaption>AI tools cross-check your business details across many sources before recommending you. Inconsistent data is a fast way off the answer list.</figcaption>
 </figure>
 
@@ -67,7 +67,7 @@ Other research lands in the same range. Roughly 64% of small and mid sized busin
 
 The [Moz local search ranking factors](https://moz.com/local-search-ranking-factors/){:target="_blank" rel="noopener noreferrer"} research has treated citation consistency as a core local signal for years. Whitespark's 2026 Local Search Ranking Factors survey, which pools feedback from 47 practitioners scoring 187 factors, ranks your website's NAP matching your Google Business Profile at number 15. Consistency on obscure directories sits at 123, which tells you exactly where to focus your time.
 
-One more number matters here. Citation signals carry roughly 7% to 11% of local ranking weight depending on which study you read. That sounds small until you realize it's a hygiene layer. Inconsistency doesn't need to rank high to hurt you. It quietly caps how much your profile, reviews, and on page work can lift you. As one 2026 analysis put it, cleaning up three existing citations beats adding thirty new ones. For the broader link building picture, our [guide to backlink methods for 2026](https://f9xr.github.io/articles/2026/08/07/get-backlinks-2026-free-paid-ai-methods.html){:target="_blank" rel="noopener noreferrer"} covers how citations and backlinks work together to build authority.
+One more number matters here. Citation signals carry roughly 7% to 11% of local ranking weight depending on which study you read. That sounds small until you realize it's a hygiene layer. Inconsistency doesn't need to rank high to hurt you. It quietly caps how much your profile, reviews, and on page work can lift you. As one 2026 analysis put it, cleaning up three existing citations beats adding thirty new ones. For the broader link building picture, our [guide to backlink methods for 2026](https://f9xr.org/articles/2026/08/07/get-backlinks-2026-free-paid-ai-methods.html){:target="_blank" rel="noopener noreferrer"} covers how citations and backlinks work together to build authority.
 
 ### What the AI search data says
 
@@ -75,9 +75,9 @@ The AI side is where the gap is widening fastest. Consumers don't trust AI resul
 
 There's also the review summary angle. AI tools now summarize review sentiment for consumers, and those summaries pull from everywhere your business appears. A listing with stale hours or a closed marker feeds into that summary as negative context, even when your service is excellent.
 
-Consistency is how you get into the answer. [llms.txt and the machine readable files](https://f9xr.github.io/articles/2026/08/08/essential-txt-files-seo-aeo-geo-2026.html){:target="_blank" rel="noopener noreferrer"} we covered earlier give AI crawlers a clean description of your business. An audit makes sure the facts in those files, your listings, and your site all agree, so the description the AI reads matches what the customer sees.
+Consistency is how you get into the answer. [llms.txt and the machine readable files](https://f9xr.org/articles/2026/08/08/essential-txt-files-seo-aeo-geo-2026.html){:target="_blank" rel="noopener noreferrer"} we covered earlier give AI crawlers a clean description of your business. An audit makes sure the facts in those files, your listings, and your site all agree, so the description the AI reads matches what the customer sees.
 
-This ties back to the trust signals search engines have rewarded for years. If you've read our [E-E-A-T checklist](https://f9xr.github.io/articles/2026/08/04/google-e-e-a-t-checklist-every-seo-should-bookmark.html){:target="_blank" rel="noopener noreferrer"}, you know consistency feeds directly into the trustworthiness leg of the framework. AI engines are effectively doing a version of that check before they recommend anyone.
+This ties back to the trust signals search engines have rewarded for years. If you've read our [E-E-A-T checklist](https://f9xr.org/articles/2026/08/04/google-e-e-a-t-checklist-every-seo-should-bookmark.html){:target="_blank" rel="noopener noreferrer"}, you know consistency feeds directly into the trustworthiness leg of the framework. AI engines are effectively doing a version of that check before they recommend anyone.
 
 <figure class="post-figure">
   <img src="https://images.unsplash.com/photo-1498050108023-c5249f4df085?q=80&w=1200&h=800&auto=format&fit=crop" alt="Laptop displaying code next to a busy work desk" title="Consistency audits are a data problem, not a design problem" width="1200" height="800" loading="lazy" />
@@ -125,7 +125,7 @@ Move to the directories people actually use in your industry, plus the aggregato
 
 A time saving trick: search your business name in quotes and work through the first few pages of results. Anywhere your details show up differently, add it to your list. This catches listings no vendor tool will show you.
 
-[Our guide to free business directories](https://f9xr.github.io/articles/2026/07/29/free-business-directories-guide.html){:target="_blank" rel="noopener noreferrer"} covers which directories matter and how to prioritize when your time is limited.
+[Our guide to free business directories](https://f9xr.org/articles/2026/07/29/free-business-directories-guide.html){:target="_blank" rel="noopener noreferrer"} covers which directories matter and how to prioritize when your time is limited.
 
 ### Step 4: Check your website and schema
 
@@ -145,7 +145,7 @@ Twice a year is a reasonable baseline for most businesses. That cadence catches 
 
 Audit immediately after any change to your identity. A move, a rebrand, a new phone number, a new website URL. Those events are when mismatches multiply, because old details stay live on directories and aggregators for months. The Backlynk study found old addresses still live six months or more after a move on 19% of businesses that had relocated.
 
-If you're not sure you've covered everything, a professional audit is cheap compared with the alternative. Teams like F9XR run these as part of their [Google Business Profile optimization](https://f9xr.github.io/services/google-business-optimization.html){:target="_blank" rel="noopener noreferrer"} work, and they tend to find things owners miss, because they've seen where the data hides. The [F9XR SEO Codebase Auditor](https://f9xr.github.io/articles/2026/07/31/f9xr-seo-codebase-auditor-skill-guide.html){:target="_blank" rel="noopener noreferrer"} can also flag schema mismatches programmatically across your site.
+If you're not sure you've covered everything, a professional audit is cheap compared with the alternative. Teams like F9XR run these as part of their [Google Business Profile optimization](https://f9xr.org/services/google-business-optimization.html){:target="_blank" rel="noopener noreferrer"} work, and they tend to find things owners miss, because they've seen where the data hides. The [F9XR SEO Codebase Auditor](https://f9xr.org/articles/2026/07/31/f9xr-seo-codebase-auditor-skill-guide.html){:target="_blank" rel="noopener noreferrer"} can also flag schema mismatches programmatically across your site.
 
 ## Key Takeaways
 
@@ -162,8 +162,8 @@ The gap between your best online work and your actual online results is often a 
 
 An information consistency audit is cheap, repeatable, and increasingly non-negotiable now that both Google and AI tools verify your identity before they'll recommend you. The customers who ask an AI for a recommendation and then check the details on Google are a growing share of your market, and they notice when a business can't keep its own facts straight.
 
-If you'd rather not spend your weekends in directory dashboards, teams like F9XR handle this as part of [website development, website redesign, and local SEO engagements](https://f9xr.github.io/pages/services.html){:target="_blank" rel="noopener noreferrer"}, and their [AI visibility optimization](https://f9xr.github.io/services/ai-visibility-optimization.html){:target="_blank" rel="noopener noreferrer"} treats clean, consistent business data as the foundation for getting recommended at all.
+If you'd rather not spend your weekends in directory dashboards, teams like F9XR handle this as part of [website development, website redesign, and local SEO engagements](https://f9xr.org/pages/services.html){:target="_blank" rel="noopener noreferrer"}, and their [AI visibility optimization](https://f9xr.org/services/ai-visibility-optimization.html){:target="_blank" rel="noopener noreferrer"} treats clean, consistent business data as the foundation for getting recommended at all.
 
 ---
 
-*Produced using AI-assisted research and drafting workflows, then reviewed and edited by the F9XR editorial team. See our [Editorial Policy](https://f9xr.github.io/articles/press/editorial-policy.html) for how we create and verify content.*
+*Produced using AI-assisted research and drafting workflows, then reviewed and edited by the F9XR editorial team. See our [Editorial Policy](https://f9xr.org/articles/press/editorial-policy.html) for how we create and verify content.*

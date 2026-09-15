@@ -1,4 +1,4 @@
----
+﻿---
 layout: null
 ---
 {
@@ -10,7 +10,7 @@ layout: null
   "authors": [
     {
       "name": "{{ site.author | escape }}",
-      "url": "https://f9xr.github.io"
+      "url": "https://f9xr.org"
     }
   ],
   "items": [
