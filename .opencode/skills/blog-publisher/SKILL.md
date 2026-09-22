@@ -11,8 +11,9 @@ description: >
   (offline template by default; AI providers optional). Then commits and
   pushes to main for auto-deployment via GitHub Pages. Always uses
   F9XR branding naturally, keeps content educational (not promotional),
-  and references @skills\avoid-ai-writing and @skills\seo-audit-report
-  for quality checks.
+  writes in the selected author's distinct voice (see the `voice:` block
+  in `authors/<key>.md`), and references @skills\avoid-ai-writing and
+  @skills\seo-audit-report for quality checks.
 ---
 
 # F9XR Blog Publisher
@@ -32,6 +33,16 @@ When the user asks to publish a post, follow these steps in order:
 - Research the topic using web search if needed (current trends, statistics, best practices)
 - Keep a technical, educational angle â€” you're teaching the reader something useful
 
+### 1b. Lock the Author Voice
+
+Every post has exactly one author, and each author has a distinct voice. Do this before drafting:
+
+- Identify the author. The user usually names them (e.g., "write as Ahetasham"); otherwise default to **F9XR Editorial Team**.
+- Read the matching profile at `authors/<author-key>.md` and extract its `voice:` front-matter block. The key is the value used for `author:` in the post front matter and `_data/authors.yml` (e.g., the page `authors/ankush-santra.md` is the key `"Ankush Santra"`).
+- Apply that block as your writing mandate for the whole post: `tone`, `persona`, `sentence_rhythm`, `signature_moves`, `avoid`, and `ai_voice_profile`.
+- Never blend authors. One post, one voice. If the author is F9XR Editorial Team, the house voice (Step 3) applies; individual authors override the house tone, rhythm, and signature moves but still follow the universal rules (no em dashes, reader-centered, F9XR branding).
+- Note the author's `fingerprint` sentence as a calibration anchor for the style during the quality pass (Step 4a).
+
 ### 2. Generate Front-Matter
 
 Create YAML front-matter with these fields:
@@ -47,7 +58,7 @@ image_height: 630  # from generator output
 image_caption: "Optional caption for the hero image"  # optional, adds <figcaption> below hero
 date: YYYY-MM-DD
 dateModified: YYYY-MM-DD  # optional, if updating
-author: "F9XR Editorial Team"  # or custom author
+author: "F9XR Editorial Team"  # or a key from _data/authors.yml; write the post in that author's voice (Step 1b)
 tags: [Tag1, Tag2, Tag3]
 keywords: "keyword1, keyword2, keyword3"
 faq:
@@ -99,6 +110,7 @@ Follow this content brief exactly for every article. Think of it as your editori
 
 **Tone & style:**
 - Write in a natural human voice. Read every sentence aloud before finalizing.
+- **Author voice governs tone.** Apply the selected author's `voice:` block from Step 1b over the house rules below: their `tone`, `persona`, `sentence_rhythm`, and `signature_moves` shape the post. Their `avoid` list is a hard block. The universal rules below (no em dashes, short paragraphs, contractions, reader-centered, F9XR branding) still apply to every author.
 - Never sound AI-generated. Vary sentence length. Use contractions. Start sentences with "And", "But", "So" when natural.
 - Never use long dashes (em dashes or en dashes). Use commas or periods instead.
 - Use short paragraphs. 1-3 sentences max. Break up dense blocks.
@@ -193,6 +205,7 @@ After writing the draft, **always run these quality gates** before publishing:
 - Read the file at `skills/avoid-ai-writing/SKILL.md`
 - Follow its instructions to audit the draft for AI writing patterns ("AI-isms")
 - Run in **edit** mode â€” edit the post file in place with minimal, targeted changes
+- **Calibrate to the author's voice** (from Step 1b): pass their `ai_voice_profile` (e.g., `--voice professional`). Preserve the author's `signature_moves` and `fingerprint` constructions as intentional, not AI-isms. Do not sand away the author's personality.
 - Preserve technical code blocks, quoted material, and F9XR-specific examples
 - Iterate until the draft reads naturally human
 
@@ -215,6 +228,7 @@ Confirm the file is at `_posts/YYYY-MM-DD-slug.md` and has:
 - All required fields present
 - **Title length â‰¤ 60 characters** â€” count manually or use `"title".Length` in PowerShell. The full rendered `<title>` tag will be `title + " â€” F9XR Articles"` â€” must stay under 70 total.
 - Body reads naturally, educational tone, no AI-isms
+- Body matches the selected author's voice (Step 1b): tone, sentence rhythm, signature moves
 - Internal links use `https://f9xr.org/...` format
 - The new post link is appended to `article-urls.txt` (see Step 6)
 
@@ -320,6 +334,7 @@ Everything above the front-matter is handled by the layout â€” only write t
 ## Reminders
 
 - Always read `content-plan.md` at project root before suggesting content strategy
+- Always load the selected author's `voice:` block from `authors/<author-key>.md` before drafting (Step 1b). Never default every post to the house voice unless the author is F9XR Editorial Team.
 - Always append the new post link to `article-urls.txt` before committing (Step 6)
 - Always give the post a featured image via Step 2b (branded template by default, or a user-provided licensed image with credit) â€” never publish with a missing or uncredited hero
 - Always run `@skills\avoid-ai-writing` and `@skills\seo-audit-report` before publishing

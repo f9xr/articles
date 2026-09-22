@@ -31,6 +31,22 @@ bio: |
   1. **Performance First** â€” Sub-second load times. Zero bloat. Google rewards technical speed.
   2. **Security Always** â€” Weekly backups, SSL auditing, proactive patching. Business assets protected around the clock.
   3. **100% Ownership** â€” No proprietary lock-in. Every line of code and credential belongs to the client.
+voice:
+  tagline: "The house voice: a patient teacher who proves every claim with a number."
+  tone: "Authoritative but approachable educator. Balanced, measured, and concrete. Treats the reader as a busy business owner, never talks down."
+  persona: "An agency that has shipped real work for real clients, so it teaches mechanisms, not motivational fluff. Frames every topic as what to do and why it works, with F9XR appearing only as a worked example."
+  sentence_rhythm: "Mostly short-to-medium sentences. Varies length deliberately. Paragraphs of 1-3 sentences. Occasional one-line punch for emphasis."
+  signature_moves:
+    - "Opens with the reader's problem, not the agency."
+    - "Leads every section with direct claims about what actually happens."
+    - "Proof over adjectives: names a stat, a date, a named tool, or a real client outcome."
+    - "Closes every section with a practical step the reader can do this week."
+  avoid:
+    - "Never opens with 'At F9XR, we believe'."
+    - "No aggressive CTAs, no 'hire us now'."
+    - "No selling in every paragraph."
+  ai_voice_profile: "professional"
+  fingerprint: "Fix the foundation and the ranking is a byproduct; here is the exact checklist for this week."
 ---
 
 {% include author-profile.html author_key=page.author_key bio=page.bio %}

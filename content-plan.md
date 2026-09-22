@@ -133,3 +133,18 @@ Copy this into each post task:
 - Pitch services in every paragraph
 - Use aggressive CTAs like "hire us now"
 - Sound like a sales page disguised as a blog post
+
+---
+
+## Author Voices
+
+The house voice above is the **default for `F9XR Editorial Team`**. Every individual author carries a `voice:` block in their profile page (`authors/<key>.md`) that overrides tone, sentence rhythm, and signature moves. The publishing workflow loads it before drafting (see Step 1b in `.opencode/skills/blog-publisher/SKILL.md`) and calibrates the AI-writing audit to the author's `ai_voice_profile`.
+
+| Author | Voice | `ai_voice_profile` |
+|---|---|---|
+| F9XR Editorial Team | House voice: patient teacher proving every claim with a number | professional |
+| Mohammed Ahetasham Uddin | Commercially grounded analyst reading decisions as a balance sheet | professional |
+| Ankush Santra | Blunt founder/operator focused on what moves the needle | blunt |
+| Masna Sudhir | Data-first explainer showing the numbers step by step | technical |
+
+All authors still follow the house rules: reader-centered, educational tone, natural human voice, and no aggressive CTAs.
