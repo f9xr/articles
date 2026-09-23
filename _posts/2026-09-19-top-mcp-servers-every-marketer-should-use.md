@@ -6,6 +6,7 @@ image: "https://f9xr.org/articles/assets/post-images/top-mcp-servers-every-marke
 image_width: 1200
 image_height: 630
 date: 2026-09-19
+dateModified: 2026-09-19
 author: "F9XR Editorial Team"
 tags: [MCP servers, Model Context Protocol, AI marketing tools, Claude connectors, marketing automation, AI for small business, SEO tools, marketing analytics, digital marketing 2026, AI agents]
 keywords: "MCP servers, Model Context Protocol, AI marketing tools, Claude connectors, marketing automation, AI for small business, SEO tools, marketing analytics, AI agents"

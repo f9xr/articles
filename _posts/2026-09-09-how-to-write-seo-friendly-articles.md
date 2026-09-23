@@ -7,6 +7,7 @@ image_width: 1200
 image_height: 630
 image_caption: "A practical, step by step guide to SEO article writing for business owners."
 date: 2026-09-09
+dateModified: 2026-09-09
 author: "F9XR Editorial Team"
 tags: [SEO Writing, Content Strategy, On Page SEO, AEO, Keyword Research, Blog Writing Tips, Search Intent, AI Search Optimization, Schema Markup, Small Business SEO]
 keywords: "how to write SEO articles, SEO friendly articles, SEO writing tips, content strategy, keyword research, search intent, on page SEO, AI search optimization, AEO, schema markup, small business SEO"

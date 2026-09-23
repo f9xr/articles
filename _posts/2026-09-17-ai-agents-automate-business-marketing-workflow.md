@@ -6,6 +6,7 @@ image: "https://f9xr.org/articles/assets/post-images/ai-agents-automate-business
 image_width: 1200
 image_height: 630
 date: 2026-09-17
+dateModified: 2026-09-17
 author: "F9XR Editorial Team"
 tags: [AI agents, marketing automation, small business marketing, AI marketing tools, workflow automation, digital marketing 2026, local SEO, AI for startups, content automation, business growth]
 keywords: "AI agents marketing, marketing automation, agentic marketing, small business AI tools, workflow automation, local SEO automation, AI marketing workflow"

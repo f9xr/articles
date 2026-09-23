@@ -1,4 +1,4 @@
-﻿# F9XR Articles
+# F9XR Articles
 
 Technical insights, architecture notes, and digital growth strategies from the [F9XR Team](https://f9xr.org).
 
@@ -6,7 +6,7 @@ Built with [Jekyll](https://jekyllrb.com/), hosted on [GitHub Pages](https://pag
 
 ## About
 
-F9XR Articles is the blog platform for [F9XR Team](https://f9xr.org) â€” a digital architecture agency specializing in high-performance web ecosystems, AI integration, local SEO, and technical maintenance.
+F9XR Articles is the blog platform for [F9XR Team](https://f9xr.org) — a digital architecture agency specializing in high-performance web ecosystems, AI integration, local SEO, and technical maintenance.
 
 ## Tech Stack
 
@@ -21,40 +21,40 @@ F9XR Articles is the blog platform for [F9XR Team](https://f9xr.org) â€” a 
 
 ```
 articles/
-â”œâ”€â”€ _config.yml            # Site configuration
-â”œâ”€â”€ _includes/             # Reusable components
-â”‚   â”œâ”€â”€ head.html          # HTML head with SEO meta tags
-â”‚   â”œâ”€â”€ header.html        # Site navigation
-â”‚   â”œâ”€â”€ footer.html        # Site footer with social links
-â”‚   â”œâ”€â”€ navlinks.html      # Previous/next post navigation
-â”‚   â””â”€â”€ sharelinks.html    # Social share buttons
-â”œâ”€â”€ _layouts/              # Page layouts
-â”‚   â”œâ”€â”€ default.html       # Base layout
-â”‚   â””â”€â”€ post.html          # Blog post layout with JSON-LD
-â”œâ”€â”€ _posts/                # Blog articles (Markdown)
-â”œâ”€â”€ css/
-â”‚   â””â”€â”€ override.css       # Custom dark theme styles
-â”œâ”€â”€ js/
-â”‚   â””â”€â”€ highlightjs/       # Syntax highlighting assets
-â”œâ”€â”€ index.md               # Blog landing page
-â”œâ”€â”€ archive.md             # Article archive
-â”œâ”€â”€ robots.txt             # Search engine directives
-â”œâ”€â”€ feed.xml / feed.json   # RSS/JSON feeds
-â””â”€â”€ llms.txt               # LLM context file
+├── _config.yml            # Site configuration
+├── _includes/             # Reusable components
+│   ├── head.html          # HTML head with SEO meta tags
+│   ├── header.html        # Site navigation
+│   ├── footer.html        # Site footer with social links
+│   ├── navlinks.html      # Previous/next post navigation
+│   └── sharelinks.html    # Social share buttons
+├── _layouts/              # Page layouts
+│   ├── default.html       # Base layout
+│   └── post.html          # Blog post layout with JSON-LD
+├── _posts/                # Blog articles (Markdown)
+├── css/
+│   └── override.css       # Custom dark theme styles
+├── js/
+│   └── highlightjs/       # Syntax highlighting assets
+├── index.md               # Blog landing page
+├── archive.md             # Article archive
+├── robots.txt             # Search engine directives
+├── feed.xml / feed.json   # RSS/JSON feeds
+└── llms.txt               # LLM context file
 ```
 
 ## Features
 
-- **Dark theme** â€” Custom dark UI with brand-consistent colors and gradients
-- **SEO-optimized** â€” Open Graph, Twitter Cards, JSON-LD (BlogPosting, FAQ, BreadcrumbList), canonical URLs, XML sitemap
-- **Rich reading experience** â€” Reading progress bar, back-to-top button, smooth animations, responsive layouts
-- **Syntax highlighting** â€” highlight.js with GitHub Dark theme, gradient accent bar on code blocks
-- **Share buttons** â€” Facebook, LinkedIn, Instagram, YouTube, Email
-- **AI Summary** â€” Per-post AI summary box with links to ChatGPT, Gemini, Claude, and Copilot
-- **Author profiles** â€” Author badges, reading time estimates, tag filtering
-- **Comments** â€” GitHub issue-based commenting via utterances
-- **FAQ section** â€” Optional per-post structured FAQ with JSON-LD
-- **Accessibility** â€” Focus rings, skip-to-content link, semantic HTML
+- **Dark theme** — Custom dark UI with brand-consistent colors and gradients
+- **SEO-optimized** — Open Graph, Twitter Cards, JSON-LD (BlogPosting, FAQ, BreadcrumbList), canonical URLs, XML sitemap
+- **Rich reading experience** — Reading progress bar, back-to-top button, smooth animations, responsive layouts
+- **Syntax highlighting** — highlight.js with GitHub Dark theme, gradient accent bar on code blocks
+- **Share buttons** — Facebook, LinkedIn, Instagram, YouTube, Email
+- **AI Summary** — Per-post AI summary box with links to ChatGPT, Gemini, Claude, and Copilot
+- **Author profiles** — Author badges, reading time estimates, tag filtering
+- **Comments** — GitHub issue-based commenting via utterances
+- **FAQ section** — Optional per-post structured FAQ with JSON-LD
+- **Accessibility** — Focus rings, skip-to-content link, semantic HTML
 
 ## Post Features
 
@@ -108,4 +108,4 @@ Contributions are welcome! This site is open source.
 
 ## License
 
-Â© 2026 F9XR Team. All rights reserved.
+© 2026 F9XR Team. All rights reserved.

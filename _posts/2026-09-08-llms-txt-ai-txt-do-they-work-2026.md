@@ -6,6 +6,7 @@ image: "https://f9xr.org/articles/assets/post-images/llms-txt-ai-txt-do-they-wor
 image_width: 1200
 image_height: 630
 date: 2026-09-08
+dateModified: 2026-09-08
 author: "F9XR Editorial Team"
 tags: [llms.txt, ai.txt, AEO, AI Search Optimization, Robots.txt, Technical SEO, Generative Engine Optimization, AI Crawlers, Schema Markup, Website Structure]
 keywords: "llms.txt, ai.txt, llms-full.txt, AI search optimization, AI crawlers, robots.txt, generative engine optimization, technical SEO, schema markup, AI visibility"

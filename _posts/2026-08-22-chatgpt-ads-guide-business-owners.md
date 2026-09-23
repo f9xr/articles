@@ -2,10 +2,10 @@
 layout: post
 title: "ChatGPT Ads 2026: What Business Owners Should Know"
 description: "ChatGPT now shows ads and lets businesses advertise directly in conversations. Here's how ChatGPT Ads work, cost, and if they're worth it."
-image: "https://images.unsplash.com/photo-1712002641088-1191ef635cf2?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
-image_width: 2070
-image_height: 1381
-image_credit: "Photo by <a href=\"https://unsplash.com/@solenfeyissa?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText\" target=\"_blank\" rel=\"noopener noreferrer\">Solen Feyissa</a> on <a href=\"https://unsplash.com/photos/a-person-holding-a-cell-phone-in-their-hand-Aj7cDaR6QXs?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText\" target=\"_blank\" rel=\"noopener noreferrer\">Unsplash</a>"
+image: "https://f9xr.org/articles/assets/post-images/chatgpt-ads-guide-business-owners.webp"
+image_width: 1200
+image_height: 630
+image_credit: "Photo by Solen Feyissa on Unsplash"
 date: 2026-08-22
 dateModified: 2026-08-22
 author: "Mohammed Ahetasham Uddin"

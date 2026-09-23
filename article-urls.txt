@@ -1,4 +1,4 @@
-﻿https://f9xr.org/articles/2026/07/27/engineering-digital-growth-introduction-to-f9xr-team.html
+https://f9xr.org/articles/2026/07/27/engineering-digital-growth-introduction-to-f9xr-team.html
 https://f9xr.org/articles/2026/07/29/free-business-directories-guide.html
 https://f9xr.org/articles/2026/07/31/f9xr-seo-codebase-auditor-skill-guide.html
 https://f9xr.org/articles/2026/08/03/why-go-mobile-first.html
@@ -49,6 +49,7 @@ https://f9xr.org/articles/2026/08/29/buying-domain-name-for-business-guide.html
 https://f9xr.org/articles/2026/08/29/goatcounter-guide-what-it-is-how-to-set-it-up.html
 https://f9xr.org/articles/2026/08/29/fake-cloudflare-captcha-scam-business-guide.html
 https://f9xr.org/articles/2026/08/30/how-paid-indexing-services-work-tech-truth-risks.html
+https://f9xr.org/articles/2026/09/01/ai-companies-buying-old-books-secret-watermarks.html
 https://f9xr.org/articles/2026/09/01/rank-math-support-agent-paused-security-controversy.html
 https://f9xr.org/articles/2026/09/03/monthly-website-audit-checklist.html
 https://f9xr.org/articles/2026/09/04/block-ai-crawlers-on-your-site.html
@@ -82,3 +83,4 @@ https://f9xr.org/articles/2026/09/20/best-indian-beauty-brand-ads-marketing-less
 https://f9xr.org/articles/2026/09/21/google-local-businesses-eea-search-result-units.html
 https://f9xr.org/articles/2026/09/22/does-your-blog-need-faq-section.html
 https://f9xr.org/articles/2026/09/22/google-analytics-include-filters-hostnames.html
+https://f9xr.org/articles/2026/09/23/comscore-ai-intelligence-report-2026.html

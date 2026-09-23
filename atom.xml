@@ -31,7 +31,15 @@ permalink: /atom.xml
     {% for tag in post.tags %}
     <category term="{{ tag | xml_escape }}" label="{{ tag | xml_escape }}"/>
     {% endfor %}
-    <link rel="enclosure" href="{{ post.image | default: '/assets/og-image.webp' | absolute_url | xml_escape }}" type="image/webp"/>
+    {% assign img = post.image | default: '/assets/og-image.webp' %}
+    {% assign imgtype = 'image/webp' %}
+    {% assign ext = img | split: '.' | last | downcase %}
+    {% case ext %}
+    {% when 'jpg' or 'jpeg' %}{% assign imgtype = 'image/jpeg' %}
+    {% when 'png' %}{% assign imgtype = 'image/png' %}
+    {% when 'gif' %}{% assign imgtype = 'image/gif' %}
+    {% endcase %}
+    <link rel="enclosure" href="{{ img | absolute_url | xml_escape }}" type="{{ imgtype }}"/>
   </entry>
   {% endfor %}
 </feed>

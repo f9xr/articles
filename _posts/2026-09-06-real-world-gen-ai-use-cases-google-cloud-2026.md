@@ -7,6 +7,7 @@ image_width: 1200
 image_height: 630
 image_credit: "Image via Google Cloud Next 2026."
 date: 2026-09-06
+dateModified: 2026-09-06
 author: "Masna Sudhir"
 tags: [Generative AI, Gen AI Use Cases, Google Cloud, Business AI Adoption, AI for Small Business, Gemini Enterprise, AI Agents, Digital Transformation, AEO, AI Search Visibility]
 keywords: "generative AI, gen AI use cases, Google Cloud, business AI adoption, AI for small business, Gemini Enterprise, AI agents, digital transformation, AEO, AI search visibility"

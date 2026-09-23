@@ -6,6 +6,7 @@ image: "https://f9xr.org/articles/assets/post-images/google-pay-publishers-ai-an
 image_width: 1200
 image_height: 630
 date: 2026-09-15
+dateModified: 2026-09-15
 author: "Mohammed Ahetasham Uddin"
 author_key: "Mohammed Ahetasham Uddin"
 tags: [Google AI Contribution Pilot, Google Search Console, AI Overviews, AI Mode Google Search, Publisher monetization, Gemini AI search, SEO 2026, AI search visibility, Content licensing AI, Local business SEO]

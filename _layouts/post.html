@@ -1,4 +1,4 @@
-﻿---
+---
 layout: default
 ---
 
@@ -88,7 +88,7 @@ layout: default
         {%- assign date_format = site.minima.date_format | default: "%b %-d, %Y" -%}
         {{ page.date | date: date_format }}
       </time>
-      {%- if page.dateModified and page.dateModified != page.date | date: "%Y-%m-%d" %}
+      {%- if page.dateModified and (page.dateModified | date: "%Y-%m-%d") != (page.date | date: "%Y-%m-%d") %}
       <span class="post-updated-chip" title="Last updated {{ page.dateModified | date: date_format }}">Updated {{ page.dateModified | date: "%b %-d, %Y" }}</span>
       {%- endif %}
     </div>
@@ -421,7 +421,7 @@ layout: default
     <div class="share-box">
       <span class="share-box-icon"><i class="fa-solid fa-share-nodes"></i></span>
       <h2 class="share-box-title">Enjoyed this article?</h2>
-      <p class="share-box-text">Share it with your network â€” help someone else discover these insights.</p>
+      <p class="share-box-text">Share it with your network — help someone else discover these insights.</p>
       <div class="share-box-buttons">
         {% include sharelinks.html tooltip="footer" %}
       </div>
@@ -594,7 +594,7 @@ layout: default
       "https://github.com/f9xr",
       "https://linkedin.com/company/f9xrteam",
       "https://instagram.com/f9xrteam",
-      "https://www.threads.com/@f9xrteam",
+      "https://www.threads.net/@f9xrteam",
       "https://www.youtube.com/@QuarterlyLIV",
       "https://www.tumblr.com/f9xr"
     ]
@@ -1304,7 +1304,7 @@ function downloadPDF() {
       return;
     }
 
-    // Post navigation (N/P only) â€” only when not typing or in editable content
+    // Post navigation (N/P only) — only when not typing or in editable content
     if (tag === 'INPUT' || tag === 'TEXTAREA' || tag === 'SELECT' || e.target.isContentEditable) return;
     {% if page.next.url %}
     if (e.key === 'n' || e.key === 'N') {

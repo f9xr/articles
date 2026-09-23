@@ -6,6 +6,7 @@ image: "https://f9xr.org/articles/assets/post-images/best-claude-connectors-for-
 image_width: 1200
 image_height: 630
 date: 2026-09-10
+dateModified: 2026-09-10
 author: "F9XR Editorial Team"
 tags: [Claude connectors, AI for marketers, Claude AI tools, Model Context Protocol, small business AI, AI productivity tools, Claude MCP, digital marketing automation, AEO optimization, F9XR Team]
 keywords: "Claude connectors, AI for marketers, Claude AI tools, Model Context Protocol, small business AI, AI productivity tools"

@@ -1,4 +1,4 @@
-﻿---
+---
 layout: post
 code: true
 title: "Rank on TikTok & Instagram: The New Search Engine"
@@ -115,7 +115,7 @@ Use this structure for every business video. Swap in your keywords, business nam
 
 Here's what you'll see in this video: [one line summary]. 
 
-ðŸ“ [Business name], [City] | [Neighborhood or address]
+📍 [Business name], [City] | [Neighborhood or address]
 [One sentence about the business, hours, or offer]
 
 #primarykeyword #citykeyword #secondarykeyword
@@ -129,7 +129,7 @@ Here's the exact drink our customers order every morning.
 
 Watch how we pull it, then come try it this week. 
 
-ðŸ“ Mountain Pour Coffee, RiNo | 21st and Larimer
+📍 Mountain Pour Coffee, RiNo | 21st and Larimer
 Open daily 7am to 3pm, indoor and patio seating
 
 #coldbrew #denvercoffee #coffeeshop
@@ -175,7 +175,7 @@ Come find us in RiNo at 21st and Larimer, or follow us for tomorrow's special."
 
 Follow one customer through the system. A tourist lands in Austin, opens TikTok, and types "best tacos in Austin." The results page shows a mix of videos. The ones that rank first share three things: a caption that says "best tacos in Austin," an overlay that repeats it, and a voiceover that names the restaurant and the dish.
 
-The restaurant that posted a searchable video with all three layers wins that customer. The restaurant that posted a silent video of sizzling meat with the caption "taco night ðŸŒ®" doesn't appear at all, even though its tacos may be better.
+The restaurant that posted a searchable video with all three layers wins that customer. The restaurant that posted a silent video of sizzling meat with the caption "taco night 🌮" doesn't appear at all, even though its tacos may be better.
 
 That's the entire opportunity in one example. [Local SEO](https://f9xr.org/services/google-business-optimization.html){:target="_blank" rel="noopener noreferrer"} gets you on Google Maps. Native app search gets you in front of the people who skipped Google entirely.
 

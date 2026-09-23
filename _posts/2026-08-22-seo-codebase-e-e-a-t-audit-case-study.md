@@ -1,4 +1,4 @@
-﻿---
+---
 layout: post
 title: "How We Audited Our Own Site for E-E-A-T Issues"
 description: "We ran a source-level SEO codebase audit across our own site and fixed schema fabrications, broken identifiers, and weak author signals. See the process."
@@ -138,7 +138,7 @@ Fixes mean nothing without verification, so each category got a closing query ru
 | Fabricated duration fallback | 0 matches | 0 matches |
 | BOM bytes in posts | 0 files | 0 files |
 
-The final diff touched **38 files**, adding 96 lines and removing 263. The negative net total is what a cleanup should look like. Grading ourselves against the same rubric we apply to client work, the site moved from a Câˆ’ to a B+, with the remaining gaps requiring business decisions rather than code changes: real address and phone data, named authors on older collective-bylined posts, and sourcing for statistics that predate this process.
+The final diff touched **38 files**, adding 96 lines and removing 263. The negative net total is what a cleanup should look like. Grading ourselves against the same rubric we apply to client work, the site moved from a C− to a B+, with the remaining gaps requiring business decisions rather than code changes: real address and phone data, named authors on older collective-bylined posts, and sourcing for statistics that predate this process.
 
 ## What This Means for Your Site
 

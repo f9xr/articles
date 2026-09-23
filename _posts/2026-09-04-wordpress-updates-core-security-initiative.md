@@ -6,6 +6,7 @@ image: "https://f9xr.org/articles/assets/post-images/wordpress-updates-core-secu
 image_width: 1200
 image_height: 630
 date: 2026-09-04
+dateModified: 2026-09-04
 author: "F9XR Editorial Team"
 tags: [WordPress Security, WordPress Updates, Core Security Initiative, Vulnerability Disclosure Program, AI Cybersecurity, Website Security, WordPress Core, HackerOne, CMS Security 2026, Website Maintenance 2026]
 keywords: "WordPress security, Core Security Initiative, WordPress updates, vulnerability disclosure, AI cybersecurity, HackerOne, WordPress core security, website maintenance"

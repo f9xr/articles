@@ -7,6 +7,7 @@ image_width: 1200
 image_height: 630
 image_caption: "What Microsoft Advertising requires for AI-generated and AI-manipulated ad creative in 2026"
 date: 2026-09-14
+dateModified: 2026-09-14
 author: "Mohammed Ahetasham Uddin"
 author_key: "Mohammed Ahetasham Uddin"
 tags: [Microsoft Advertising, AI-generated ads, AI ad disclosure, Digital marketing compliance, PPC advertising 2026, EU AI Act, Bing Ads policy, AI marketing tools, Local business advertising, Ad platform policy update]

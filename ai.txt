@@ -1,4 +1,4 @@
-﻿# F9XR Articles â€” For AI Agents
+# F9XR Articles — For AI Agents
 
 This website is a static blog built with Jekyll and hosted on GitHub Pages.
 It is fully static: there are no server-side APIs, no databases, no dynamic

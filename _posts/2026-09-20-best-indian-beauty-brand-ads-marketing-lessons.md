@@ -6,6 +6,7 @@ image: "https://f9xr.org/articles/assets/post-images/best-indian-beauty-brand-ad
 image_width: 1200
 image_height: 630
 date: 2026-09-20
+dateModified: 2026-09-20
 author: "Ankush Santra"
 tags: [Indian beauty ads, beauty marketing India, advertising case studies, brand positioning, marketing for small business, Mamaearth marketing strategy, Whisper Touch the Pickle, Fair and Lovely rebrand, D2C beauty brands India, digital marketing India]
 keywords: "best Indian beauty brand ads, iconic Indian beauty advertisements, Indian beauty marketing campaigns, Whisper Touch the Pickle, Mamaearth Goodness Inside campaign, Fair and Lovely rebrand, beauty ad case studies India, D2C beauty brands India, brand positioning"

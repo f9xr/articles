@@ -6,6 +6,7 @@ image: "https://f9xr.org/articles/assets/post-images/best-indian-car-brand-ads-m
 image_width: 1200
 image_height: 630
 date: 2026-09-18
+dateModified: 2026-09-18
 author: "Ankush Santra"
 tags: [Indian car ads, automotive marketing, advertising case studies, brand positioning, marketing for small business, Indian advertising history, campaign strategy, Maruti Suzuki marketing, Mahindra Thar campaign, digital marketing India]
 keywords: "best Indian car ads, iconic Indian car advertisements, Indian automobile marketing campaigns, Kitna Deti Hai campaign, Mahindra Thar marketing, car ad case studies India, brand positioning, advertising case studies, digital marketing India"

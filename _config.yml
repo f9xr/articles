@@ -96,6 +96,9 @@ exclude:
   - seo_audit_report.csv
   - google_discover_audit_report.md
   - seo_image_audit_report.md
+  - ymyl-audit-report.md
+  - adcodes.txt
+  - mojibake-report.txt
   - bharat-by-day.html
   - f9xr-content-plan-mindmap.html
   - todo.txt

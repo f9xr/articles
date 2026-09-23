@@ -7,6 +7,7 @@ image_width: 1200
 image_height: 630
 image_credit: "Image via Google's WeatherNext 3 announcement."
 date: 2026-09-06
+dateModified: 2026-09-06
 author: "Mohammed Ahetasham Uddin"
 tags: [Google Weather AI, WeatherNext 3, Google DeepMind, AI Weather Forecasting, Google Search Update, Google Maps AI, Local Business Technology, AEO, Local SEO, F9XR Team]
 keywords: "Google Weather AI, WeatherNext 3, Google DeepMind, AI weather forecasting, hyper-local weather forecast, Google Maps AI, AEO, Local SEO"

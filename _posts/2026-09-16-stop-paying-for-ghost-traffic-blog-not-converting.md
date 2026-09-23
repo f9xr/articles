@@ -6,6 +6,7 @@ image: "https://f9xr.org/articles/assets/post-images/stop-paying-for-ghost-traff
 image_width: 1200
 image_height: 630
 date: 2026-09-16
+dateModified: 2026-09-16
 author: "F9XR Editorial Team"
 tags: [ghost traffic, search intent, conversion rate optimization, SEO strategy, AEO, content marketing, blog conversions, AI search optimization, small business marketing, F9XR Team]
 keywords: "ghost traffic, search intent, conversion rate optimization, intent mismatch, AI search optimization, AEO, content marketing, blog conversions, SEO strategy, F9XR Team"

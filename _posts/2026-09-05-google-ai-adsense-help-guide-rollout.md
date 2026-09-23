@@ -6,6 +6,7 @@ image: "https://f9xr.org/articles/assets/post-images/google-ai-adsense-help-guid
 image_width: 1200
 image_height: 630
 date: 2026-09-05
+dateModified: 2026-09-05
 author: "Mohammed Ahetasham Uddin"
 tags: [Google AdSense, AI Help Guide, AdSense Update 2026, Publisher Support, AI Search Optimization, Digital Marketing News, AEO, Website Monetization, Local SEO, F9XR Team]
 keywords: "Google AdSense AI Help guide, AdSense Help guide rollout, AI-powered AdSense support, AdSense 2026 update, AdSense publisher support, AI search optimization, AdSense Help Center accuracy"

@@ -1,4 +1,4 @@
-﻿---
+---
 layout: post
 title: "What Is YMYL in SEO? A Guide for Business Owners"
 description: "YMYL stands for Your Money or Your Life. Learn what it means in SEO, why Google scrutinizes it, and how to meet its higher standards."
@@ -7,6 +7,7 @@ image_width: 1200
 image_height: 630
 image_caption: "A plain-English guide to YMYL and what it means for your website rankings."
 date: 2026-09-14
+dateModified: 2026-09-14
 author: "F9XR Editorial Team"
 tags: [YMYL, E-E-A-T, Google Search Quality, SEO Fundamentals, Content Quality Guidelines, Health SEO, Finance SEO, Legal SEO, AEO, F9XR Team]
 keywords: "YMYL SEO, Your Money or Your Life, Google E-E-A-T, search quality guidelines, health SEO, finance SEO, legal SEO, content quality, YMYL content, YMYL sites"
@@ -78,10 +79,10 @@ Think of it this way: YMYL identifies which topics carry higher risk, while E-E-
 
 ### What Google Actually Looks For
 
-* **Experience** â€“ Does the content reflect real, first-hand experience with the topic?
-* **Expertise** â€“ Does the author have relevant qualifications, training, or demonstrated knowledge?
-* **Authoritativeness** â€“ Is the website or author recognized as a credible source in this space by others?
-* **Trustworthiness** â€“ Is the site secure, transparent about ownership, and accurate in its claims?
+* **Experience** – Does the content reflect real, first-hand experience with the topic?
+* **Expertise** – Does the author have relevant qualifications, training, or demonstrated knowledge?
+* **Authoritativeness** – Is the website or author recognized as a credible source in this space by others?
+* **Trustworthiness** – Is the site secure, transparent about ownership, and accurate in its claims?
 
 For non-YMYL content, like a blog about your favorite coffee shops, Google is more forgiving of a lower E-E-A-T bar. For YMYL content, all four elements need to be strong, particularly expertise and trustworthiness, since inaccurate advice in these categories carries real consequences. Building that trust takes work, and it starts with the basics like [improving your website's trust score](https://f9xr.org/articles/2026/08/15/how-to-increase-website-trust-score.html) through transparency, secure infrastructure, and consistent accuracy.
 

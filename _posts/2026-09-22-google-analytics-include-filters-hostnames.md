@@ -7,6 +7,7 @@ image_width: 895
 image_height: 573
 image_caption: "GA4's Data filters section now supports include filters for hostnames, so you can approve trusted domains instead of maintaining a growing blocklist."
 date: 2026-09-22
+dateModified: 2026-09-22
 author: "Mohammed Ahetasham Uddin"
 tags: [hostname filter, Google Analytics 4, ga4 update, data filters, analytics, website analytics, digital marketing tools, local seo, startup marketing, marketing analytics]
 keywords: "GA4 hostname filter, include filter, Google Analytics 4, data filters, exclude filter, referral spam, website analytics, local SEO, marketing analytics, GA4 update"

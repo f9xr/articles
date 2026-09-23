@@ -1,10 +1,10 @@
-﻿---
+---
 layout: post
 title: "EmDash: Cloudflare's New AI-Native CMS Explained"
 description: "Cloudflare launched EmDash, an open-source, AI-native CMS built as WordPress's successor. Here's what it does and if it fits your business."
-image: "https://blog.cloudflare.com/_image?href=https%3A%2F%2Fblog.cloudflare.com%2F_emdash%2Fapi%2Fmedia%2Ffile%2F01KW47GK0E0NESPW440Q8G2ZT4.png&w=1080&h=608&f=webp&fit=cover&position=center"
-image_width: 1080
-image_height: 608
+image: "https://f9xr.org/articles/assets/post-images/cloudflare-emdash-cms-explained.webp"
+image_width: 1200
+image_height: 630
 image_credit: "Image courtesy of Cloudflare"
 date: 2026-08-25
 dateModified: 2026-08-25
@@ -72,7 +72,7 @@ EmDash offers real deployment flexibility. It supports one-click deployment to C
 
 Cloudflare is [using EmDash to run its own blog](https://blog.cloudflare.com/cloudflare-blog-uses-emdash/){:target="_blank" rel="noopener noreferrer"}, making them Customer Zero for the platform.
 
-<blockquote class="twitter-tweet"><p lang="en" dir="ltr">We redesigned the Cloudflare Blog â€” dark mode, cleaner UI, faster load times. What you might not know: the whole thing runs on EmDash, a new CMS built on Cloudflare Workers. We were Customer Zero. <a href="https://t.co/XDj4qj4XUC">https://t.co/XDj4qj4XUC</a></p>&mdash; Cloudflare (@Cloudflare) <a href="https://x.com/Cloudflare/status/2091975362297090304?ref_src=twsrc%5Etfw">August 24, 2026</a></blockquote> <script async src="https://platform.x.com/widgets.js" charset="utf-8"></script>
+<blockquote class="twitter-tweet"><p lang="en" dir="ltr">We redesigned the Cloudflare Blog — dark mode, cleaner UI, faster load times. What you might not know: the whole thing runs on EmDash, a new CMS built on Cloudflare Workers. We were Customer Zero. <a href="https://t.co/XDj4qj4XUC">https://t.co/XDj4qj4XUC</a></p>&mdash; Cloudflare (@Cloudflare) <a href="https://x.com/Cloudflare/status/2091975362297090304?ref_src=twsrc%5Etfw">August 24, 2026</a></blockquote> <script async src="https://platform.x.com/widgets.js" charset="utf-8"></script>
 
 ---
 

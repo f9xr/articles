@@ -1,4 +1,4 @@
-﻿---
+---
 layout: post
 title: "Google E-E-A-T Checklist Every SEO Should Bookmark"
 description: "A one-page E-E-A-T checklist for Experience, Expertise, Authoritativeness, and Trustworthiness. Run it before you publish any page in 2026."
@@ -39,28 +39,28 @@ Google's own framing treats trust as the center of gravity. Expertise, experienc
 
 ## The 1-Page E-E-A-T Checklist
 
-### âœ… Experience
+### ✅ Experience
 
 - [ ] Author has visible, verifiable firsthand involvement with the topic (used the product, ran the process, lived the experience)
 - [ ] Original photos, screenshots, or video, not stock imagery, where firsthand proof is plausible
 - [ ] Specific, non-generic details that couldn't be written from research alone (exact numbers, timelines, edge cases encountered)
 - [ ] First-person language used honestly, not as a formatting trick
 
-### âœ… Expertise
+### ✅ Expertise
 
 - [ ] Author bio states relevant credentials, role, or track record on this specific topic
 - [ ] Content explains why, not just what. Reasoning is shown, not asserted
 - [ ] Claims are accurate and hold up against current authoritative sources, not outdated consensus
 - [ ] For YMYL topics (health, finance, legal, safety), the author's qualification for the subject is explicit, not implied
 
-### âœ… Authoritativeness
+### ✅ Authoritativeness
 
 - [ ] Site or author is referenced, linked to, or cited by other credible sources in the niche
 - [ ] Author has a dedicated bio or profile page, not just a byline
 - [ ] Structured author and entity data is present (Person schema, sameAs links to verified profiles)
 - [ ] Content sits inside a coherent topical cluster, not as an isolated one-off page with no supporting context
 
-### âœ… Trustworthiness
+### ✅ Trustworthiness
 
 - [ ] Factual claims align with current, verifiable consensus, not stale or contradicted data
 - [ ] Sources are cited clearly, with links to where the numbers came from

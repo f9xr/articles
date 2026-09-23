@@ -6,6 +6,7 @@ image: "https://f9xr.org/articles/assets/post-images/f9xr-domain-shift-to-f9xr-o
 image_width: 1200
 image_height: 630
 date: 2026-09-16
+dateModified: 2026-09-16
 author: "Mohammed Ahetasham Uddin"
 author_key: "Mohammed Ahetasham Uddin"
 tags: [domain migration, custom domain, website redesign, local SEO, digital presence, F9XR Team, brand trust, site performance, SEO best practices, business website tips]

@@ -6,6 +6,7 @@ image: "https://f9xr.org/articles/assets/post-images/google-eu-search-revamp-dma
 image_width: 1200
 image_height: 630
 date: 2026-09-08
+dateModified: 2026-09-08
 author: "Mohammed Ahetasham Uddin"
 tags: [Google Search Update, Digital Markets Act, EU Antitrust, Google EU Fine, Search Engine News, Local SEO, Digital Marketing News, AEO, European Businesses, F9XR Team]
 keywords: "Google EU search revamp, Digital Markets Act, DMA Google fine, EU antitrust, Google search changes, local SEO, AEO, European businesses"

@@ -6,6 +6,7 @@ image: "https://f9xr.org/articles/assets/post-images/google-business-profile-pos
 image_width: 1200
 image_height: 630
 date: 2026-09-11
+dateModified: 2026-09-11
 author: "Mohammed Ahetasham Uddin"
 tags: [Google Business Profile, Google Posts, Local SEO, Post View Counts, Google Maps Marketing, Local Business Tips, Business Profile Update, Google Small Business Bulletin, AEO, F9XR Team]
 keywords: "Google Business Profile post view counts, Google Posts Reporting, Local SEO, Google Maps Marketing, Google Posts analytics, Business Profile Performance API"

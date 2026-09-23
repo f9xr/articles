@@ -1,4 +1,4 @@
-﻿---
+---
 layout: null
 permalink: /llms.txt
 sitemap: false
@@ -19,29 +19,29 @@ sitemap: false
 
 ## Main Site
 
-- [F9XR Team Home](https://f9xr.org) â€” Main business site
-- [Services](https://f9xr.org/pages/services.html) â€” Web ecosystems, local SEO, AI integration, maintenance
-- [Portfolio](https://f9xr.org/pages/portfolio.html) â€” Client projects and case studies
-- [Contact](https://f9xr.org/pages/contact.html) â€” Get a free website audit
+- [F9XR Team Home](https://f9xr.org) — Main business site
+- [Services](https://f9xr.org/pages/services.html) — Web ecosystems, local SEO, AI integration, maintenance
+- [Portfolio](https://f9xr.org/pages/portfolio.html) — Client projects and case studies
+- [Contact](https://f9xr.org/pages/contact.html) — Get a free website audit
 
 ## Articles ({{ site.posts.size }})
 
 {% for post in site.posts %}
 {% assign llm_desc = post.description | strip_html %}{% if llm_desc == "" %}{% assign llm_desc = post.content | strip_html | truncate: 120 %}{% endif %}
-- [{{ post.title | escape }}]({{ post.url | absolute_url }}) â€” {{ llm_desc }}
+- [{{ post.title | escape }}]({{ post.url | absolute_url }}) — {{ llm_desc }}
 {% endfor %}
 
 ## About
 
-- [About F9XR Team]({{ '/authors/f9xr-team/' | absolute_url }}) â€” Team expertise, track record, and technical philosophy
-- [Article Archive]({{ '/archive.html' | absolute_url }}) â€” All published articles
+- [About F9XR Team]({{ '/authors/f9xr-team/' | absolute_url }}) — Team expertise, track record, and technical philosophy
+- [Article Archive]({{ '/archive.html' | absolute_url }}) — All published articles
 
 ## Social
 
 - GitHub: https://github.com/f9xr
 - LinkedIn: https://linkedin.com/company/f9xrteam
 - Instagram: https://instagram.com/f9xrteam
-- Threads: https://www.threads.com/@f9xrteam
+- Threads: https://www.threads.net/@f9xrteam
 - YouTube: https://www.youtube.com/@QuarterlyLIV
 
 ## Contact
@@ -57,8 +57,8 @@ sitemap: false
 
 ## Site Files
 
-- [llms-full.txt]({{ '/llms-full.txt' | absolute_url }}) â€” Full article content
-- [ai.txt]({{ '/ai.txt' | absolute_url }}) â€” Orientation for AI agents
-- [humans.txt]({{ '/humans.txt' | absolute_url }}) â€” Team and credits
-- [security.txt]({{ '/security.txt' | absolute_url }}) â€” Security contact
-- [sitemap.xml]({{ '/sitemap.xml' | absolute_url }}) â€” All crawlable pages
+- [llms-full.txt]({{ '/llms-full.txt' | absolute_url }}) — Full article content
+- [ai.txt]({{ '/ai.txt' | absolute_url }}) — Orientation for AI agents
+- [humans.txt]({{ '/humans.txt' | absolute_url }}) — Team and credits
+- [security.txt]({{ '/security.txt' | absolute_url }}) — Security contact
+- [sitemap.xml]({{ '/sitemap.xml' | absolute_url }}) — All crawlable pages

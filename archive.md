@@ -1,7 +1,7 @@
-﻿---
+---
 layout: page
 permalink: /archive.html
-title: Archive â€” F9XR Articles
+title: Archive — F9XR Articles
 title_hidden: true
 description: "Complete archive of all articles by F9XR Team covering web architecture, AI integration, local SEO, and digital growth strategies."
 keywords: "F9XR articles archive, web architecture, AI integration, local SEO, digital growth, technical SEO, all articles"
@@ -14,7 +14,7 @@ keywords: "F9XR articles archive, web architecture, AI integration, local SEO, d
   "@context": "https://schema.org",
   "@type": "CollectionPage",
   "@id": "{{ '/archive.html' | absolute_url }}#archive",
-  "name": "Archive â€” F9XR Articles",
+  "name": "Archive — F9XR Articles",
   "description": "Complete archive of all articles by F9XR Team covering web architecture, AI integration, local SEO, and digital growth strategies.",
   "url": "{{ '/archive.html' | absolute_url }}",
   "inLanguage": "{{ site.lang }}",
@@ -65,7 +65,7 @@ keywords: "F9XR articles archive, web architecture, AI integration, local SEO, d
   <div class="ed-archive-intro">
     <p class="ed-kicker"><i class="fa-solid fa-archive"></i> The Complete Archive</p>
     <h1 class="ed-archive-title">All Articles</h1>
-    <p class="ed-archive-sub">Engineering notes, architecture deep-dives, and growth strategies from the F9XR Team â€” everything published, indexed by topic.</p>
+    <p class="ed-archive-sub">Engineering notes, architecture deep-dives, and growth strategies from the F9XR Team — everything published, indexed by topic.</p>
   </div>
   <div class="ed-stats">
     <div class="ed-stat">

@@ -1,7 +1,7 @@
-﻿---
+---
 layout: page
 permalink: /press/refund.html
-title: "Refund Policy â€” F9XR Articles"
+title: "Refund Policy — F9XR Articles"
 description: "The refund policy for F9XR Articles. Reading the site is free; find out what applies to sponsored content, collaborations, and F9XR's paid services."
 keywords: "F9XR Articles refund policy, refund, paid content, sponsored content, F9XR services refund"
 dateModified: 2026-08-30
@@ -13,7 +13,7 @@ F9XR Articles is a free publication. You are never charged to read, share, or br
 
 ## Sponsored Content and Collaborations
 
-If you engage F9XR Team for sponsored content, a press release, or a placement on the F9XR publishing network, the commercial terms â€” including any eligibility for refunds or re-runs â€” are set out in the written agreement you receive before purchase. If you believe you qualify for a refund on such a service, contact us at [{{ site.email }}](mailto:{{ site.email }}) within **7 days** of purchase with your invoice number and the reason, and we will review it on those agreed terms.
+If you engage F9XR Team for sponsored content, a press release, or a placement on the F9XR publishing network, the commercial terms — including any eligibility for refunds or re-runs — are set out in the written agreement you receive before purchase. If you believe you qualify for a refund on such a service, contact us at [{{ site.email }}](mailto:{{ site.email }}) within **7 days** of purchase with your invoice number and the reason, and we will review it on those agreed terms.
 
 ## F9XR Team Services
 

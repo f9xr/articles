@@ -6,6 +6,7 @@ image: "https://f9xr.org/articles/assets/post-images/google-ads-local-customer-o
 image_width: 1200
 image_height: 630
 date: 2026-09-09
+dateModified: 2026-09-09
 author: "F9XR Editorial Team"
 tags: [Google Ads, Local Customer Optimization, Performance Max, Local SEO, Google Ads Update, Store Sales Measurement, Holiday Marketing, Local Business Advertising, Digital Marketing News, F9XR Team]
 keywords: "Google Ads, Local Customer Optimization, Performance Max, Local SEO, Store Sales Measurement, Holiday Marketing, local business advertising, Google Ads update"

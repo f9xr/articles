@@ -7,6 +7,7 @@ image_width: 1200
 image_height: 630
 image_credit: "Photo by <a href=\"https://unsplash.com/@harshitkatiyar?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText\" target=\"_blank\" rel=\"noopener noreferrer\">Harshit Katiyar</a> on <a href=\"https://unsplash.com/photos/people-browse-shops-on-a-street-at-night-KWHqWX485lk?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText\" target=\"_blank\" rel=\"noopener noreferrer\">Unsplash</a>"
 date: 2026-09-21
+dateModified: 2026-09-21
 author: "Mohammed Ahetasham Uddin"
 tags: [Google local search, EEA search results, Google aggregator unit, Google supplier unit, Local SEO Europe, Google Business Profile, Local business visibility, Google Search Central, Vertical Search Services, Local SEO strategy 2026]
 keywords: "Google local search, EEA search results, Google aggregator unit, Google supplier unit, Local SEO Europe, Google Business Profile, Local business visibility, Google Search Central, Vertical Search Services, Local SEO strategy 2026"

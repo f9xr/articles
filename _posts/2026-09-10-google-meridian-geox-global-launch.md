@@ -2,11 +2,12 @@
 layout: post
 title: "Google Launches Meridian GeoX Globally: What to Know"
 description: "Google's Meridian GeoX is now globally available, offering cheaper geo experiments and proven incrementality data. Here's what businesses should know."
-image: "https://storage.googleapis.com/gweb-uniblog-publish-prod/images/Header_EnnLoZX.width-2200.format-webp.webp"
-image_width: 2200
-image_height: 1229
+image: "https://f9xr.org/articles/assets/post-images/google-meridian-geox-global-launch.webp"
+image_width: 1200
+image_height: 630
 image_credit: "Image via Google."
 date: 2026-09-10
+dateModified: 2026-09-10
 author: "Mohammed Ahetasham Uddin"
 tags: [Meridian GeoX, Google Marketing Live, Marketing Mix Modeling, Incrementality Testing, Google Ads Measurement, Digital Advertising News, Causal Measurement, Local SEO, AEO, F9XR Team]
 keywords: "Meridian GeoX, Google Marketing Live, Marketing Mix Modeling, Incrementality Testing, Google Ads Measurement, Digital Advertising News, Causal Measurement, Local SEO"

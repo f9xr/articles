@@ -6,6 +6,7 @@ image: "https://f9xr.org/articles/assets/post-images/2026-09-04-block-ai-crawler
 image_width: 1200
 image_height: 630
 date: 2026-09-04
+dateModified: 2026-09-04
 author: "Masna Sudhir"
 tags: [Block AI Crawlers, Robots.txt Guide, GPTBot Blocking, AI Web Scraping, Technical SEO, Website Security, AI Search Visibility, Cloudflare Bot Management, Server Configuration SEO, Small Business Website Protection]
 keywords: "block AI crawlers, GPTBot blocking, robots.txt AI bots, AI web scraping, ClaudeBot blocking, server-level bot blocking, Cloudflare AI bots, technical SEO 2026"

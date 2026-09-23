@@ -1,12 +1,13 @@
-﻿---
+---
 layout: post
 title: "YouTube Get Feedback Tool: What Businesses Should Know"
 description: "YouTube's Get Feedback tool now reviews Shorts before you publish. Here's what business owners need to know and how to use it to get more views."
-image: "https://pbs.twimg.com/media/HQhbkVeaAAAMQPG?format=jpg&name=900x900"
-image_width: 900
-image_height: 900
+image: "https://f9xr.org/articles/assets/post-images/youtube-get-feedback-shorts-tool-us-expansion.webp"
+image_width: 1200
+image_height: 630
 image_credit: "Image: Neal Mohan (@nealmohan) on X, previewing Get Feedback ahead of its wider rollout"
 date: 2026-09-11
+dateModified: 2026-09-11
 author: "Ankush Santra"
 tags: [Get Feedback Tool, YouTube Shorts, YouTube creator tools, Short-form video marketing, YouTube algorithm 2026, Video SEO, Small business marketing, YouTube for business, Content creation tips, AEO and AI search optimization]
 keywords: "YouTube Get Feedback tool, YouTube Shorts, YouTube creator tools, Short-form video marketing, YouTube algorithm 2026, Video SEO, Small business marketing, AEO and AI search optimization"
@@ -104,7 +105,7 @@ YouTube has also been building similar feedback capabilities into Ask Studio, wh
 Alongside the Get Feedback rollout, YouTube also announced that Premium Lite, its lower-cost, mostly ad-free subscription tier, is expanding to more than 20 additional countries, including Indonesia, the Netherlands, and Portugal. Under the YouTube Partner Programme, 60% of net Premium Lite subscription revenue goes into a creator revenue pool, distributed based on watch time and views. That isn't directly related to Get Feedback, but it does signal that YouTube is pushing harder on both creator tools and its subscription business at the same time.
 
 <center>
-<blockquote class="twitter-tweet"><p lang="en" dir="ltr">A couple of new updates rolling out across <a href="https://x.com/YouTube?ref_src=twsrc%5Etfw">@YouTube</a>: <br> <br>ðŸ’¡ A &quot;Get Feedback&quot; tool, giving <a href="https://x.com/YouTubeCreators?ref_src=twsrc%5Etfw">@YouTubeCreators</a> actionable tips on their Shorts concepts before going live. Just upload an unlisted draft to get tailored suggestions on a video&#39;s hooks, pacing, and structure.<br><br>ðŸŒ Premiumâ€¦ <a href="https://t.co/sZMSrHIlmE">pic.twitter.com/sZMSrHIlmE</a></p>&mdash; Neal Mohan (@nealmohan) <a href="https://x.com/nealmohan/status/2092023125437538767?ref_src=twsrc%5Etfw">August 24, 2026</a></blockquote> <script async src="https://platform.x.com/widgets.js" charset="utf-8"></script>
+<blockquote class="twitter-tweet"><p lang="en" dir="ltr">A couple of new updates rolling out across <a href="https://x.com/YouTube?ref_src=twsrc%5Etfw">@YouTube</a>: <br> <br>💡 A &quot;Get Feedback&quot; tool, giving <a href="https://x.com/YouTubeCreators?ref_src=twsrc%5Etfw">@YouTubeCreators</a> actionable tips on their Shorts concepts before going live. Just upload an unlisted draft to get tailored suggestions on a video&#39;s hooks, pacing, and structure.<br><br>🌍 Premium… <a href="https://t.co/sZMSrHIlmE">pic.twitter.com/sZMSrHIlmE</a></p>&mdash; Neal Mohan (@nealmohan) <a href="https://x.com/nealmohan/status/2092023125437538767?ref_src=twsrc%5Etfw">August 24, 2026</a></blockquote> <script async src="https://platform.x.com/widgets.js" charset="utf-8"></script>
 </center>
 
 ---

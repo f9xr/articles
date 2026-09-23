@@ -1,4 +1,4 @@
-﻿---
+---
 layout: post
 title: "Gemini Lets You Turn Off Visible AI Watermarks"
 description: "Google now lets you disable Gemini's visible watermark on images, video, and music. Here's what changed, what stays hidden, and why it matters."
@@ -44,7 +44,7 @@ Here is the update itself, based on Google's own announcement and the reporting 
 
 Google's VP for Gemini, Josh Woodward, [confirmed the change directly on X](https://x.com/joshwoodward/status/2088259242423968162), describing a new Media Watermark setting rolling out across the Gemini app and Google's Flow video editor.
 
-<blockquote class="twitter-tweet"><p lang="en" dir="ltr">âœ… Papercut fixed: You can now toggle visible watermarks on or off in Gemini and Flow, with Search coming next.<br><br>This applies to watermarks on all images (Nano Banana), videos (Omni), and songs (Lyria) except in countries where it's required by law to keep them. <a href="https://t.co/utHN0yDmD3">pic.twitter.com/utHN0yDmD3</a></p>&mdash; Josh Woodward (@joshwoodward) <a href="https://x.com/joshwoodward/status/2088259242423968162?ref_src=twsrc%5Etfw">August 14, 2026</a></blockquote> <script async src="https://platform.x.com/widgets.js" charset="utf-8"></script>
+<blockquote class="twitter-tweet"><p lang="en" dir="ltr">✅ Papercut fixed: You can now toggle visible watermarks on or off in Gemini and Flow, with Search coming next.<br><br>This applies to watermarks on all images (Nano Banana), videos (Omni), and songs (Lyria) except in countries where it's required by law to keep them. <a href="https://t.co/utHN0yDmD3">pic.twitter.com/utHN0yDmD3</a></p>&mdash; Josh Woodward (@joshwoodward) <a href="https://x.com/joshwoodward/status/2088259242423968162?ref_src=twsrc%5Etfw">August 14, 2026</a></blockquote> <script async src="https://platform.x.com/widgets.js" charset="utf-8"></script>
 
 
 The rollout began August 14, 2026, and Google said it would reach accounts gradually over the following days.

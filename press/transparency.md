@@ -1,7 +1,7 @@
-﻿---
+---
 layout: page
 permalink: /press/transparency.html
-title: "Ownership, Funding, & Transparency â€” F9XR Articles"
+title: "Ownership, Funding, & Transparency — F9XR Articles"
 description: "Organizational ownership, funding model, sponsorship disclosures, and transparency practices for F9XR Articles."
 keywords: "F9XR ownership, funding transparency, sponsorship disclosure, F9XR Team, organizational structure"
 dateModified: 2026-08-19
@@ -81,6 +81,6 @@ Questions about ownership, funding, or commercial relationships can be directed 
 
 ## Related Policies
 
-- [Editorial Policy]({{ '/press/editorial-policy.html' | relative_url }}) â€” How content is researched, written, and reviewed.
-- [Correction Policy]({{ '/press/correction-policy.html' | relative_url }}) â€” How errors are identified, reported, and resolved.
-- [Ethics & Fact-Checking Policy]({{ '/press/ethics-policy.html' | relative_url }}) â€” Standards for data integrity and conflict-of-interest management.
+- [Editorial Policy]({{ '/press/editorial-policy.html' | relative_url }}) — How content is researched, written, and reviewed.
+- [Correction Policy]({{ '/press/correction-policy.html' | relative_url }}) — How errors are identified, reported, and resolved.
+- [Ethics & Fact-Checking Policy]({{ '/press/ethics-policy.html' | relative_url }}) — Standards for data integrity and conflict-of-interest management.

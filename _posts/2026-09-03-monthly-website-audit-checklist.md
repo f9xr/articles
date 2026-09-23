@@ -6,6 +6,7 @@ image: "https://f9xr.org/articles/assets/post-images/2026-09-03-monthly-website-
 image_width: 1200
 image_height: 630
 date: 2026-09-03
+dateModified: 2026-09-03
 author: "F9XR Editorial Team"
 tags: [Website Audit, Technical SEO, Local SEO, Core Web Vitals, Website Maintenance, Image SEO, Google Business Profile, WordPress Security, AEO, Small Business Website Tips]
 keywords: "monthly website audit checklist, website audit for small business, SEO audit, Core Web Vitals, Google Business Profile audit, website maintenance, technical SEO audit, AI search visibility"

@@ -7,6 +7,7 @@ image_width: 1200
 image_height: 630
 image_credit: "Hero image: Claude by Anthropic"
 date: 2026-09-11
+dateModified: 2026-09-11
 author: "F9XR Editorial Team"
 tags: [Claude AI, internal linking, SEO automation, content strategy, AEO optimization, AI search engines, blog SEO tips, small business SEO, Claude prompts, F9XR Team]
 keywords: "Claude AI, internal linking, SEO automation, content strategy, AEO optimization, AI search engines, blog SEO tips, small business SEO, Claude prompts"

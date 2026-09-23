@@ -6,6 +6,7 @@ image: "https://f9xr.org/articles/assets/post-images/ai-visibility-trending-topi
 image_width: 1200
 image_height: 630
 date: 2026-09-12
+dateModified: 2026-09-12
 author: "F9XR Editorial Team"
 tags: [AI visibility, Answer engine optimization, AEO, Trending topics content, ChatGPT SEO, Gemini search, Perplexity citations, Local SEO, Content marketing strategy, Small business SEO]
 keywords: "AI visibility, AEO, answer engine optimization, trending topics content, ChatGPT citations, Gemini search, Perplexity citations, local SEO, content marketing strategy"

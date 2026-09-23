@@ -1,14 +1,14 @@
-﻿---
+---
 layout: page
 title: F9XR Articles
 title_hidden: true
-description: "Engineering digital growth â€” technical insights, architecture notes, and strategies from the F9XR Team on web performance, AI integration, and local SEO."
+description: "Engineering digital growth — technical insights, architecture notes, and strategies from the F9XR Team on web performance, AI integration, and local SEO."
 keywords: "F9XR Articles, engineering digital growth, web architecture, AI integration, local SEO, web performance, Core Web Vitals, technical SEO, F9XR Team blog"
 ---
 
 <div class="ed-site">
 
-<h1 class="sr-only">F9XR Articles â€” Engineering Digital Growth</h1>
+<h1 class="sr-only">F9XR Articles — Engineering Digital Growth</h1>
 
 <script type="application/ld+json">
 {
@@ -17,7 +17,7 @@ keywords: "F9XR Articles, engineering digital growth, web architecture, AI integ
   "@id": "{{ '/' | absolute_url }}#website",
   "name": "F9XR Articles",
   "url": "{{ '/' | absolute_url }}",
-  "description": "Engineering digital growth â€” technical insights, architecture notes, and strategies from the F9XR Team on web performance, AI integration, and local SEO.",
+  "description": "Engineering digital growth — technical insights, architecture notes, and strategies from the F9XR Team on web performance, AI integration, and local SEO.",
   "potentialAction": {
     "@type": "SearchAction",
     "target": {
@@ -60,7 +60,7 @@ keywords: "F9XR Articles, engineering digital growth, web architecture, AI integ
     "https://github.com/f9xr",
     "https://linkedin.com/company/f9xrteam",
     "https://instagram.com/f9xrteam",
-    "https://www.threads.com/@f9xrteam",
+    "https://www.threads.net/@f9xrteam",
     "https://www.youtube.com/@QuarterlyLIV",
     "https://www.tumblr.com/f9xr"
   ],
@@ -419,7 +419,7 @@ keywords: "F9XR Articles, engineering digital growth, web architecture, AI integ
         <span class="ed-badge ed-badge-mono">S</span><span class="ed-badge">Schema.org</span>
       </div>
     </div>
-    <p class="ed-bulletin-note">The stack behind F9XR Articles â€” open source, static, and continuously measured.</p>
+    <p class="ed-bulletin-note">The stack behind F9XR Articles — open source, static, and continuously measured.</p>
     <a class="ed-panel-cta" href="{{ '/archive.html' | relative_url }}">Read the full archive <i class="fa-solid fa-arrow-right"></i></a>
   </div>
 
@@ -428,7 +428,7 @@ keywords: "F9XR Articles, engineering digital growth, web architecture, AI integ
     <div class="ed-video">
       <iframe class="youtube-embed" src="https://www.youtube-nocookie.com/embed/l-52kGRwH_Y" title="Introducing F9XR Team: Digital Growth Agency - AI-Powered Web Design &amp; Local SEO Growth Agency" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen loading="lazy"></iframe>
     </div>
-    <p class="ed-video-caption">Introducing F9XR Team â€” AI-powered web design &amp; local SEO growth agency.</p>
+    <p class="ed-video-caption">Introducing F9XR Team — AI-powered web design &amp; local SEO growth agency.</p>
     <a class="ed-panel-cta" href="https://f9xr.org/pages/about.html">About the team <i class="fa-solid fa-arrow-right"></i></a>
   </div>
 </section>

@@ -33,7 +33,7 @@ layout: default
       <!-- Hero Image -->
       {% if page.image %}
       <div class="post-hero">
-        <img src="{{ page.image }}" alt="{{ page.title }}" width="{{ page.image_width | default: 1200 }}" height="{{ page.image_height | default: 630 }}" loading="eager" fetchpriority="high" itemprop="image" />
+        <img src="{{ page.image | relative_url }}" alt="{{ page.title }}" width="{{ page.image_width | default: 1200 }}" height="{{ page.image_height | default: 630 }}" loading="eager" fetchpriority="high" itemprop="image" />
         {% if page.image_caption %}<p class="post-hero-caption">{{ page.image_caption }}</p>{% endif %}
       </div>
       {% endif %}

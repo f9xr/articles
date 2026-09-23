@@ -1,4 +1,4 @@
-﻿---
+---
 name: blog-publisher
 description: >
   Publish a blog post to the F9XR Articles Jekyll site on GitHub Pages.
@@ -31,7 +31,7 @@ When the user asks to publish a post, follow these steps in order:
 - Ask clarifying questions if the topic is vague
 - Identify which **content pillar** it belongs to (see `content-plan.md`)
 - Research the topic using web search if needed (current trends, statistics, best practices)
-- Keep a technical, educational angle â€” you're teaching the reader something useful
+- Keep a technical, educational angle — you're teaching the reader something useful
 
 ### 1b. Lock the Author Voice
 
@@ -71,7 +71,7 @@ video_duration: ""  # optional, ISO 8601
 
 **Rules:**
 - `layout` must always be `post`
-- `title` must be under 60 characters (ideally 50-55). The full rendered `<title>` tag appends ` â€” F9XR Articles` (~16 chars), so a 60-char title produces a 76-char tag which exceeds the 70-char SEO limit. Keep titles tight. Catchy, attractive, unique. Include the target keyword.
+- `title` must be under 60 characters (ideally 50-55). The full rendered `<title>` tag appends ` — F9XR Articles` (~16 chars), so a 60-char title produces a 76-char tag which exceeds the 70-char SEO limit. Keep titles tight. Catchy, attractive, unique. Include the target keyword.
 - `description` must be under 160 characters. Include target keyword and a CTA. This appears in the AI summary box, feeds, SEO meta, and JSON-LD.
 - `date` defaults to today unless specified
 - `tags` must be an array of exactly 10 relevant tags. Include the target keyword as the first tag.
@@ -156,17 +156,17 @@ Add tables where comparisons or data help clarity.
 **F9XR Branding Rules (critical):**
 - Write as an **educational guide**, not a sales pitch
 - Mention F9XR only when it serves the reader as a real example of how a technique works in practice
-- Never start with "At F9XR, we believe..." â€” start with the reader's problem
+- Never start with "At F9XR, we believe..." — start with the reader's problem
 - Use "you", "your site", "your business" to center the reader
 - When referencing F9XR, use phrases like: "Agencies like F9XR demonstrate this by...", "For example, F9XR has seen...", "In practice, teams like F9XR..."
 - Reference F9XR services as case-in-point illustrations, not advertisements
-- The author box at the bottom auto-shows "F9XR Editorial Team" â€” you don't need to over-brand the body
-- Keep technical depth high â€” teach the underlying concept, not just "hire us"
+- The author box at the bottom auto-shows "F9XR Editorial Team" — you don't need to over-brand the body
+- Keep technical depth high — teach the underlying concept, not just "hire us"
 - In the conclusion: one sentence mentioning F9XR Team's services (website development, website redesign, local SEO, digital presence). Subtle. Natural.
 
 **Content rules:**
-- Never use `<h1>` or `# ` in the post body â€” the layout auto-generates the H1 from the front-matter `title`. Using a second H1 creates duplicate H1 issues.
-- Use `##` and `###` headings (H2 â†’ auto-TOC, H3 â†’ sub-sections)
+- Never use `<h1>` or `# ` in the post body — the layout auto-generates the H1 from the front-matter `title`. Using a second H1 creates duplicate H1 issues.
+- Use `##` and `###` headings (H2 → auto-TOC, H3 → sub-sections)
 - Include real statistics with sources where possible
 - Use tables for comparisons, data, checklists
 - Use bullet lists for steps, features, takeaways
@@ -189,7 +189,7 @@ Alongside the article body, generate each of these as part of the post front-mat
 
 | Deliverable | Requirement |
 |---|---|
-| **SEO Title** | Under 60 characters (target 50-55). Full `<title>` tag (title + " â€” F9XR Articles") must stay under 70. Catchy, attractive, unique. Include target keyword. |
+| **SEO Title** | Under 60 characters (target 50-55). Full `<title>` tag (title + " — F9XR Articles") must stay under 70. Catchy, attractive, unique. Include target keyword. |
 | **Meta Description** | Under 160 characters. Include target keyword and a CTA. |
 | **URL Slug** | Short, keyword-rich, hyphenated. |
 | **FAQ** | Defined ONLY in front-matter `faq:`. The layout auto-renders both the visible "Related Questions" accordion and the FAQPage JSON-LD from it. **Do NOT** write a "## FAQ(s)" section or a raw FAQPage `<script>` block into the post body, or you will duplicate the FAQ content and create an invalid duplicate FAQPage schema. |
@@ -197,14 +197,14 @@ Alongside the article body, generate each of these as part of the post front-mat
 | **External Links** | 3 links from trusted, authoritative sites only (e.g., Google Developers, Moz, Search Engine Journal, Ahrefs blog, W3C, GitHub). Open in new tab. |
 | **Tags** | 10 relevant tags as a YAML array. |
 
-### 4. Quality Checks â€” Use `@skills` Pipeline
+### 4. Quality Checks — Use `@skills` Pipeline
 
 After writing the draft, **always run these quality gates** before publishing:
 
 #### Step 4a: Load `@skills\avoid-ai-writing`
 - Read the file at `skills/avoid-ai-writing/SKILL.md`
 - Follow its instructions to audit the draft for AI writing patterns ("AI-isms")
-- Run in **edit** mode â€” edit the post file in place with minimal, targeted changes
+- Run in **edit** mode — edit the post file in place with minimal, targeted changes
 - **Calibrate to the author's voice** (from Step 1b): pass their `ai_voice_profile` (e.g., `--voice professional`). Preserve the author's `signature_moves` and `fingerprint` constructions as intentional, not AI-isms. Do not sand away the author's personality.
 - Preserve technical code blocks, quoted material, and F9XR-specific examples
 - Iterate until the draft reads naturally human
@@ -214,7 +214,7 @@ After writing the draft, **always run these quality gates** before publishing:
 - Run a focused audit on the new post for:
   - Title tag optimization
   - Meta description length and quality
-  - Heading hierarchy (H1 â†’ H2 â†’ H3)
+  - Heading hierarchy (H1 → H2 → H3)
   - Keyword placement
   - Internal linking
   - FAQ schema readiness
@@ -226,7 +226,7 @@ Confirm the file is at `_posts/YYYY-MM-DD-slug.md` and has:
 - Valid YAML front-matter with no syntax errors
 - Correct Jekyll naming convention
 - All required fields present
-- **Title length â‰¤ 60 characters** â€” count manually or use `"title".Length` in PowerShell. The full rendered `<title>` tag will be `title + " â€” F9XR Articles"` â€” must stay under 70 total.
+- **Title length ≤ 60 characters** — count manually or use `"title".Length` in PowerShell. The full rendered `<title>` tag will be `title + " — F9XR Articles"` — must stay under 70 total.
 - Body reads naturally, educational tone, no AI-isms
 - Body matches the selected author's voice (Step 1b): tone, sentence rhythm, signature moves
 - Internal links use `https://f9xr.org/...` format
@@ -287,11 +287,11 @@ Ask the user which pillar to focus on (or suggest one based on their business go
 ### Step 2: Brainstorm Article Ideas
 
 For each pillar, suggest 3-5 article topics with:
-- **Title** â€” SEO-optimized headline
-- **Angle** â€” the educational hook
-- **Target keywords** â€” 2-3 primary + long-tail keywords
-- **Reader** â€” who this article is for (business owner, dev, marketer, etc.)
-- **Publish window** â€” suggested timeframe
+- **Title** — SEO-optimized headline
+- **Angle** — the educational hook
+- **Target keywords** — 2-3 primary + long-tail keywords
+- **Reader** — who this article is for (business owner, dev, marketer, etc.)
+- **Publish window** — suggested timeframe
 
 ### Step 3: Generate a Calendar
 
@@ -329,14 +329,14 @@ The post layout (`_layouts/post.html`) auto-generates:
 - Comments via utterances (GitHub issue-based)
 - JSON-LD: BlogPosting, BreadcrumbList, FAQPage, VideoObject
 
-Everything above the front-matter is handled by the layout â€” only write the body.
+Everything above the front-matter is handled by the layout — only write the body.
 
 ## Reminders
 
 - Always read `content-plan.md` at project root before suggesting content strategy
 - Always load the selected author's `voice:` block from `authors/<author-key>.md` before drafting (Step 1b). Never default every post to the house voice unless the author is F9XR Editorial Team.
 - Always append the new post link to `article-urls.txt` before committing (Step 6)
-- Always give the post a featured image via Step 2b (branded template by default, or a user-provided licensed image with credit) â€” never publish with a missing or uncredited hero
+- Always give the post a featured image via Step 2b (branded template by default, or a user-provided licensed image with credit) — never publish with a missing or uncredited hero
 - Always run `@skills\avoid-ai-writing` and `@skills\seo-audit-report` before publishing
 - Never commit secrets or API keys
 - Confirm with the user before publishing if they said "draft" or "plan" rather than "publish"
