@@ -88,8 +88,10 @@ layout: default
         {%- assign date_format = site.minima.date_format | default: "%b %-d, %Y" -%}
         {{ page.date | date: date_format }}
       </time>
-      {%- if page.dateModified and (page.dateModified | date: "%Y-%m-%d") != (page.date | date: "%Y-%m-%d") %}
-      <span class="post-updated-chip" title="Last updated {{ page.dateModified | date: date_format }}">Updated {{ page.dateModified | date: "%b %-d, %Y" }}</span>
+      {%- assign published_day = page.date | date: "%Y-%m-%d" -%}
+      {%- assign modified_day = page.dateModified | date: "%Y-%m-%d" -%}
+      {%- if page.dateModified and modified_day != published_day %}
+      <span class="post-updated-chip" title="Last updated {{ page.dateModified | date: date_format }}">Updated {{ page.dateModified | date: date_format }}</span>
       {%- endif %}
     </div>
 
