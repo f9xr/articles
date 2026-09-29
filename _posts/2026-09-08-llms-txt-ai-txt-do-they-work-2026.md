@@ -27,7 +27,7 @@ faq:
 
 If you've spent any time reading SEO newsletters or AI marketing content over the past year, you've probably been told you need an llms.txt file on your website, and maybe an ai.txt file too, or ChatGPT and Gemini simply won't understand your business. A whole small industry of generators, plugins, and "AI visibility audits" has grown up around this idea.
 
-Here's the honest version, backed by actual data rather than vibes: as of 2026, having an llms.txt file does not meaningfully improve your visibility in AI search tools, and no major AI company has confirmed reading it as part of how they answer questions. That's not our opinion, it's what [independent traffic analysis](https://ahrefs.com/blog/llmstxt-study/) and statements directly from Google have shown.
+Here's the honest version, backed by actual data rather than vibes: as of 2026, having an llms.txt file does not meaningfully improve your visibility in AI search tools, and no major AI company has confirmed reading it as part of how they answer questions. That's not our opinion, it's what [independent traffic analysis](https://ahrefs.com/blog/llmstxt-study/){:target="_blank" rel="noopener noreferrer"} and statements directly from Google have shown.
 
 That doesn't mean these files are pointless or that you shouldn't bother with any of it. It means the story is more nuanced than the "add this file and get cited by ChatGPT" pitch that's been circulating. This article walks through what llms.txt, llms-full.txt, and ai.txt actually do, what the current evidence says about whether they work, and where your time is better spent if you care about showing up in AI search.
 
@@ -50,7 +50,7 @@ The key distinction that trips most people up: robots.txt controls access, meani
 
 llms.txt is a Markdown file that sits at yoursite.com/llms.txt. It typically opens with an H1 title naming your business, a short blockquote summary, and then a curated list of your most important pages, each with a one sentence description. The idea, proposed in 2024, was to give language models a clean, distraction free map of your site instead of forcing them to parse navigation menus, ads, and scripts.
 
-You can read the original proposal at [llmstxt.org](https://llmstxt.org/), which lays out the format and intended use case.
+You can read the original proposal at [llmstxt.org](https://llmstxt.org/){:target="_blank" rel="noopener noreferrer"}, which lays out the format and intended use case.
 
 ### llms-full.txt: The Same Idea, More Content
 
@@ -58,7 +58,7 @@ llms-full.txt is a companion file that goes further, often including large chunk
 
 ### ai.txt: A Different Job Entirely
 
-ai.txt is often confused with llms.txt, but it solves a completely different problem. It was created by [Spawning AI](https://site.spawning.ai/spawning-ai-txt) specifically to let website owners declare permissions around AI training, essentially saying "you may or may not use my content to train your models." It's closer in spirit to a consent form than a site map, and it's read at the point content is downloaded for training rather than during general crawling.
+ai.txt is often confused with llms.txt, but it solves a completely different problem. It was created by [Spawning AI](https://site.spawning.ai/spawning-ai-txt){:target="_blank" rel="noopener noreferrer"} specifically to let website owners declare permissions around AI training, essentially saying "you may or may not use my content to train your models." It's closer in spirit to a consent form than a site map, and it's read at the point content is downloaded for training rather than during general crawling.
 
 ---
 
@@ -66,9 +66,9 @@ ai.txt is often confused with llms.txt, but it solves a completely different pro
 
 This is the part most articles gloss over, so let's be direct about it.
 
-Google has been unusually blunt on this topic. In mid 2025, Google's Gary Illyes confirmed on the record that [Google does not support llms.txt](https://developers.google.com/search/docs/appearance/ai-features) and has no plans to. John Mueller went further, comparing it to the old keywords meta tag, a self declared description of a page that search engines stopped trusting more than a decade ago because site owners could just write whatever they wanted.
+Google has been unusually blunt on this topic. In mid 2025, Google's Gary Illyes confirmed on the record that [Google does not support llms.txt](https://developers.google.com/search/docs/appearance/ai-features){:target="_blank" rel="noopener noreferrer"} and has no plans to. John Mueller went further, comparing it to the old keywords meta tag, a self declared description of a page that search engines stopped trusting more than a decade ago because site owners could just write whatever they wanted.
 
-Independent data backs this up. A widely cited [Ahrefs study](https://ahrefs.com/blog/llmstxt-study/) of over 137,000 domains found that 97 percent of llms.txt files received zero traffic from AI crawlers at all. A separate analysis covering more than 500 million bot traffic events found that requests to llms.txt made up a statistically negligible share of activity from the crawlers that actually feed AI search answers, including GPTBot, ClaudeBot, and PerplexityBot. Another large study, this one analyzing around 300,000 domains, found no meaningful correlation between having an llms.txt file and how often a site gets cited in AI generated answers. In that same study, removing llms.txt as a factor from their prediction model actually made the model more accurate, meaning the file was adding noise, not signal.
+Independent data backs this up. A widely cited [Ahrefs study](https://ahrefs.com/blog/llmstxt-study/){:target="_blank" rel="noopener noreferrer"} of over 137,000 domains found that 97 percent of llms.txt files received zero traffic from AI crawlers at all. A separate analysis covering more than 500 million bot traffic events found that requests to llms.txt made up a statistically negligible share of activity from the crawlers that actually feed AI search answers, including GPTBot, ClaudeBot, and PerplexityBot. Another large study, this one analyzing around 300,000 domains, found no meaningful correlation between having an llms.txt file and how often a site gets cited in AI generated answers. In that same study, removing llms.txt as a factor from their prediction model actually made the model more accurate, meaning the file was adding noise, not signal.
 
 As of this writing, none of OpenAI, Google, Anthropic, Meta, or Perplexity has publicly stated that their production systems read or rely on llms.txt when generating answers.
 

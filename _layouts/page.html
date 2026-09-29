@@ -34,7 +34,7 @@ layout: default
   "name": "{{ page.title | escape }}",
   "description": "{{ page.description | default: site.description | strip_html | truncatewords: 55 | escape }}",
   "url": "{{ page.url | absolute_url }}",
-  "datePublished": "{{ page.date | default: site.time | date_to_xmlschema }}",
+  "datePublished": "{{ page.date | default: page.dateModified | default: site.time | date_to_xmlschema }}",
   "dateModified": "{{ page.dateModified | default: page.date | default: site.time | date_to_xmlschema }}",
   "isPartOf": { "@id": "{{ '/' | absolute_url }}#website" },
   "breadcrumb": { "@id": "{{ page.url | absolute_url }}#breadcrumb" },

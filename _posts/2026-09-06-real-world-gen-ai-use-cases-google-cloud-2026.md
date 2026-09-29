@@ -71,7 +71,7 @@ A Hong Kong media company built a marketing tool that generates personalized tex
 
 ### Data and Operations
 
-A Colombian logistics company managing more than 20 million shipments a year used AI to predict package returns and automate delivery validation, improving real time data access by 80 percent and increasing delivery success by 15 percent. Even a much smaller logistics or delivery focused business could apply the same underlying idea, using AI to flag likely problem deliveries before they happen rather than after. Entry points like the [official list of real-world gen AI use cases](https://cloud.google.com/transform/101-real-world-generative-ai-use-cases-from-industry-leaders) are free to browse by industry and function.
+A Colombian logistics company managing more than 20 million shipments a year used AI to predict package returns and automate delivery validation, improving real time data access by 80 percent and increasing delivery success by 15 percent. Even a much smaller logistics or delivery focused business could apply the same underlying idea, using AI to flag likely problem deliveries before they happen rather than after. Entry points like the [official list of real-world gen AI use cases](https://cloud.google.com/transform/101-real-world-generative-ai-use-cases-from-industry-leaders){:target="_blank" rel="noopener noreferrer"} are free to browse by industry and function.
 
 ### Security
 
@@ -96,11 +96,11 @@ Here's a simple breakdown of how the list has grown and what it's organized arou
 
 ## Why This Matters Even If You've Never Used an AI Tool for Business
 
-It's easy to assume lists like this are just marketing material from a company that sells AI infrastructure, and to some extent that's true, this is a Google Cloud publication. But it's also one of the more useful, grounded snapshots available of how AI is actually being used across real operations, rather than in demos or predictions. Google's own [wrap-up of Cloud Next 2026](https://cloud.google.com/blog/topics/google-cloud-next/google-cloud-next-2026-wrap-up) shows the same themes running through the company's broader announcements.
+It's easy to assume lists like this are just marketing material from a company that sells AI infrastructure, and to some extent that's true, this is a Google Cloud publication. But it's also one of the more useful, grounded snapshots available of how AI is actually being used across real operations, rather than in demos or predictions. Google's own [wrap-up of Cloud Next 2026](https://cloud.google.com/blog/topics/google-cloud-next/google-cloud-next-2026-wrap-up){:target="_blank" rel="noopener noreferrer"} shows the same themes running through the company's broader announcements.
 
 The pattern to pay attention to isn't any single flashy example. It's how consistently the same few categories keep showing up: customer questions being answered faster, employees spending less time on repetitive writing and research, marketing content being produced at a fraction of the previous cost and time, and operational data being turned into decisions faster than a person could manually process it.
 
-None of that requires a massive budget or an in-house engineering team. Most of the tools referenced in the list are built on the same underlying AI models available through consumer and small business plans today, including product lines like [Gemini Enterprise](https://cloud.google.com/gemini-enterprise).
+None of that requires a massive budget or an in-house engineering team. Most of the tools referenced in the list are built on the same underlying AI models available through consumer and small business plans today, including product lines like [Gemini Enterprise](https://cloud.google.com/gemini-enterprise){:target="_blank" rel="noopener noreferrer"}.
 
 <img src="https://f9xr.org/articles/assets/post-images/gen-ai-next-conference.webp" alt="Attendees at Google Cloud Next 2026 where the gen AI use case list was expanded" title="Google Cloud Next 2026" width="1200" height="800" loading="lazy" />
 

@@ -34,7 +34,7 @@ We may collect information you voluntarily provide when you:
 - Contact us through our contact page or email
 - Subscribe to our RSS feed
 
-Comments on F9XR Articles are powered by [Utterances](https://utteranc.es/), which uses GitHub Issues for authentication. When you comment, Utterances will ask permission to access your GitHub profile. Your comment is stored as a GitHub Issue on our repository. Please review [GitHub's Privacy Policy](https://docs.github.com/en/site-policy/privacy-policies/github-privacy-statement) for details on how GitHub handles your data.
+Comments on F9XR Articles are powered by [Utterances](https://utteranc.es/){:target="_blank" rel="noopener noreferrer"}, which uses GitHub Issues for authentication. When you comment, Utterances will ask permission to access your GitHub profile. Your comment is stored as a GitHub Issue on our repository. Please review [GitHub's Privacy Policy](https://docs.github.com/en/site-policy/privacy-policies/github-privacy-statement){:target="_blank" rel="noopener noreferrer"} for details on how GitHub handles your data.
 
 ## How We Use Your Information
 
@@ -64,31 +64,31 @@ We use the following third-party services that may collect information:
 
 | Service | Purpose | Privacy Policy |
 |---|---|---|
-| Google Analytics | Website analytics | [Google Privacy Policy](https://policies.google.com/privacy) |
-| GoatCounter | Privacy-friendly website analytics | [GoatCounter Privacy Policy](https://www.goatcounter.com/privacy) |
-| GitHub (Utterances) | Comments system | [GitHub Privacy Policy](https://docs.github.com/en/site-policy/privacy-policies/github-privacy-statement) |
-| GitHub Pages | Website hosting | [GitHub Privacy Policy](https://docs.github.com/en/site-policy/privacy-policies/github-privacy-statement) |
-| Cloudflare CDN | Content delivery | [Cloudflare Privacy Policy](https://www.cloudflare.com/privacypolicy/) |
+| Google Analytics | Website analytics | [Google Privacy Policy](https://policies.google.com/privacy){:target="_blank" rel="noopener noreferrer"} |
+| GoatCounter | Privacy-friendly website analytics | [GoatCounter Privacy Policy](https://www.goatcounter.com/privacy){:target="_blank" rel="noopener noreferrer"} |
+| GitHub (Utterances) | Comments system | [GitHub Privacy Policy](https://docs.github.com/en/site-policy/privacy-policies/github-privacy-statement){:target="_blank" rel="noopener noreferrer"} |
+| GitHub Pages | Website hosting | [GitHub Privacy Policy](https://docs.github.com/en/site-policy/privacy-policies/github-privacy-statement){:target="_blank" rel="noopener noreferrer"} |
+| Cloudflare CDN | Content delivery | [Cloudflare Privacy Policy](https://www.cloudflare.com/privacypolicy/){:target="_blank" rel="noopener noreferrer"} |
 
 ## Google Analytics
 
 We use Google Analytics to analyze the use of our website. Google Analytics gathers information about website use by means of cookies. The information gathered relating to our website is used to create reports about the use of our website.
 
-Google's privacy policy is available at: [https://policies.google.com/privacy](https://policies.google.com/privacy)
+Google's privacy policy is available at: [https://policies.google.com/privacy](https://policies.google.com/privacy){:target="_blank" rel="noopener noreferrer"}
 
-You can opt out of Google Analytics by installing the [Google Analytics Opt-out Browser Add-on](https://tools.google.com/dlpage/gaoptout).
+You can opt out of Google Analytics by installing the [Google Analytics Opt-out Browser Add-on](https://tools.google.com/dlpage/gaoptout){:target="_blank" rel="noopener noreferrer"}.
 
 ## GoatCounter
 
 We also use GoatCounter for privacy-friendly, lightweight website analytics. GoatCounter does not use cookies, does not profile visitors, and only records anonymous, aggregated page-view statistics (such as page visited, referrer, and approximate country based on IP). Visit counts are processed in real time and stored without personal data.
 
-GoatCounter's privacy policy is available at: [https://www.goatcounter.com/privacy](https://www.goatcounter.com/privacy)
+GoatCounter's privacy policy is available at: [https://www.goatcounter.com/privacy](https://www.goatcounter.com/privacy){:target="_blank" rel="noopener noreferrer"}
 
 ## Advertising
 
 We may use Google AdSense to serve advertisements on our website. Google AdSense uses cookies to serve ads based on your prior visits to our website or other websites. Google's use of advertising cookies enables it and its partners to serve ads based on your visit to our site and/or other sites on the internet.
 
-You may opt out of personalized advertising by visiting [Google Ads Settings](https://adssettings.google.com/).
+You may opt out of personalized advertising by visiting [Google Ads Settings](https://adssettings.google.com/){:target="_blank" rel="noopener noreferrer"}.
 
 ## Data Retention
 

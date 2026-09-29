@@ -77,7 +77,7 @@ This transparency page is updated whenever there are material changes to the own
 Questions about ownership, funding, or commercial relationships can be directed to:
 
 - **Email:** [hello@f9xr.org](mailto:hello@f9xr.org)
-- **GitHub:** [github.com/f9xr/articles](https://github.com/f9xr/articles/issues)
+- **GitHub:** [github.com/f9xr/articles](https://github.com/f9xr/articles/issues){:target="_blank" rel="noopener noreferrer"}
 
 ## Related Policies
 

@@ -54,7 +54,7 @@ An SEO friendly article in 2026 typically has:
 
 Before writing a single sentence, a professional figures out what people are actually typing into Google, and just as importantly, what they mean when they type it. Two searches can look similar on the surface but want completely different answers.
 
-For example, "best CRM for small business" is someone comparing options and probably ready to choose one soon. "What is a CRM" is someone earlier in their research, who needs a plain explanation first. Writing the wrong type of content for the [search intent](https://searchengineland.com/guide/search-intent-seo) is one of the most common reasons articles don't rank, even when the writing itself is solid.
+For example, "best CRM for small business" is someone comparing options and probably ready to choose one soon. "What is a CRM" is someone earlier in their research, who needs a plain explanation first. Writing the wrong type of content for the [search intent](https://searchengineland.com/guide/search-intent-seo){:target="_blank" rel="noopener noreferrer"} is one of the most common reasons articles don't rank, even when the writing itself is solid.
 
 **Actionable tip:** Type your topic into Google first and look at what's already ranking on page one. If it's mostly comparison articles, write a comparison. If it's mostly beginner explainers, that's the gap your audience is searching to fill.
 
@@ -68,7 +68,7 @@ If your target keyword is "small business bookkeeping tips," a genuinely thoroug
 
 ### 3. Write a Title That's Honest and Clickable
 
-Your title needs to do two jobs at once: tell Google clearly what the page is about, and make an actual human want to click it. Titles under 60 characters display fully in search results, and titles that include the target keyword near the beginning tend to perform better for both click through rate and topical relevance. Google's own guidance on [writing effective titles and snippets](https://developers.google.com/search/docs/appearance/snippet) is a good baseline to keep handy.
+Your title needs to do two jobs at once: tell Google clearly what the page is about, and make an actual human want to click it. Titles under 60 characters display fully in search results, and titles that include the target keyword near the beginning tend to perform better for both click through rate and topical relevance. Google's own guidance on [writing effective titles and snippets](https://developers.google.com/search/docs/appearance/snippet){:target="_blank" rel="noopener noreferrer"} is a good baseline to keep handy.
 
 **Actionable tip:** Avoid vague titles like "Everything You Need to Know About Marketing." Be specific: "7 Local Marketing Tactics for Businesses Under $10K Budget" tells the reader exactly what they're getting and who it's for.
 
@@ -122,7 +122,7 @@ For example, a guide on SEO writing pairs naturally with [how to get cited by AI
 
 ### 11. Add Structured Data Where It Fits
 
-Schema markup helps both search engines and AI tools understand exactly what type of content is on your page. It's technical, but most modern website platforms and plugins can add it without needing custom code. You can check whether your markup is valid with [Google's Rich Results Test](https://search.google.com/test/rich-results).
+Schema markup helps both search engines and AI tools understand exactly what type of content is on your page. It's technical, but most modern website platforms and plugins can add it without needing custom code. You can check whether your markup is valid with [Google's Rich Results Test](https://search.google.com/test/rich-results){:target="_blank" rel="noopener noreferrer"}.
 
 **Actionable tip:** If your article includes a genuine FAQ section, add FAQ markup to it, since this is one of the more reliable ways to appear in Google's featured snippets and get pulled into AI generated answers.
 
@@ -150,7 +150,7 @@ Schema markup helps both search engines and AI tools understand exactly what typ
 * **Keyword stuffing.** Repeating your target phrase unnaturally throughout the article reads poorly to humans and hasn't helped rankings in years.
 * **Burying the answer.** Writing a long, generic introduction before getting to the actual point costs you both readers and AI citations.
 * **Ignoring search intent.** Writing a beginner explainer for a keyword where people actually want a comparison, or vice versa, means you're answering the wrong question entirely.
-* **Publishing unedited AI drafts.** AI writing tools are genuinely useful for a first draft, but publishing the raw output without adding real expertise, fact checking, or your own voice tends to produce exactly the kind of generic content search engines now actively deprioritize. Google's guidance on [creating helpful, reliable content](https://developers.google.com/search/docs/fundamentals/creating-helpful-content) makes this point directly.
+* **Publishing unedited AI drafts.** AI writing tools are genuinely useful for a first draft, but publishing the raw output without adding real expertise, fact checking, or your own voice tends to produce exactly the kind of generic content search engines now actively deprioritize. Google's guidance on [creating helpful, reliable content](https://developers.google.com/search/docs/fundamentals/creating-helpful-content){:target="_blank" rel="noopener noreferrer"} makes this point directly.
 * **Forgetting mobile readers.** Most readers will hit your article on a phone. Dense text blocks and tiny fonts lose readers fast, regardless of how good the writing is.
 
 ---

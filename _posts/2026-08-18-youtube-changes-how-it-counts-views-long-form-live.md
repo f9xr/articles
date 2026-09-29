@@ -38,7 +38,7 @@ So your view counts are about to look bigger. Whether that means anything for yo
 
 ## What's Actually Changing on August 24, 2026?
 
-Let's break down the announcement itself, straight from YouTube's own [Creator Insider account](https://support.google.com/youtube/thread/433409976) and [Help Center documentation](https://support.google.com/youtube/answer/12220281), with additional reporting from [9to5Google](https://9to5google.com/2026/08/17/youtube-view-counts-change/).
+Let's break down the announcement itself, straight from YouTube's own [Creator Insider account](https://support.google.com/youtube/thread/433409976){:target="_blank" rel="noopener noreferrer"} and [Help Center documentation](https://support.google.com/youtube/answer/12220281){:target="_blank" rel="noopener noreferrer"}, with additional reporting from [9to5Google](https://9to5google.com/2026/08/17/youtube-view-counts-change/){:target="_blank" rel="noopener noreferrer"}.
 
 ### The Core Change
 
@@ -111,7 +111,7 @@ Bringing every format under one consistent counting system does genuinely solve 
 
 ### The Case for Skepticism
 
-Not everyone is thrilled. The most common criticism is straightforward: a view counted the instant playback starts, even if the viewer scrolls away a second later, doesn't reflect genuine engagement or reach in any meaningful sense. [Search Engine Journal](https://www.searchenginejournal.com/youtube-changes-how-it-counts-views-on-long-form-live/586166/) and [Forbes](https://www.forbes.com/sites/gabrielalinzainescu/2026/08/17/youtube-changes-how-it-counts-views-handing-marketers-two-numbers-instead-of-one/) both flagged the same concern: public view counts are expected to climb across the board once this rolls out, not because content is performing better, but simply because the bar to count as a "view" has dropped. Some creators and marketers have raised concerns that this could make view counts easier to inflate through repeated quick refreshes or accidental autoplay triggers, and that inflated numbers could fuel more clickbait-style content designed purely to trigger that first frame, without any real intention of holding attention.
+Not everyone is thrilled. The most common criticism is straightforward: a view counted the instant playback starts, even if the viewer scrolls away a second later, doesn't reflect genuine engagement or reach in any meaningful sense. [Search Engine Journal](https://www.searchenginejournal.com/youtube-changes-how-it-counts-views-on-long-form-live/586166/){:target="_blank" rel="noopener noreferrer"} and [Forbes](https://www.forbes.com/sites/gabrielalinzainescu/2026/08/17/youtube-changes-how-it-counts-views-handing-marketers-two-numbers-instead-of-one/){:target="_blank" rel="noopener noreferrer"} both flagged the same concern: public view counts are expected to climb across the board once this rolls out, not because content is performing better, but simply because the bar to count as a "view" has dropped. Some creators and marketers have raised concerns that this could make view counts easier to inflate through repeated quick refreshes or accidental autoplay triggers, and that inflated numbers could fuel more clickbait-style content designed purely to trigger that first frame, without any real intention of holding attention.
 
 There's also a comparability issue worth noting for anyone tracking channel growth over time. A channel's view totals from September 2026 won't sit cleanly against numbers from July 2026, since the counting method itself changed in between. Reporting and historical trend analysis will need to account for that shift going forward.
 
@@ -123,7 +123,7 @@ If your business posts product videos, tutorials, testimonials, or livestreams o
 
 ### 1. Don't Mistake Bigger Numbers for Better Performance
 
-Once this rolls out, your view counts are almost certainly going to look higher, simply because the counting threshold dropped. Resist the urge to treat that as a genuine performance win. Look at engaged views and watch hours in [YouTube Analytics](https://support.google.com/youtube/answer/12220281) under Advanced Mode to understand what's actually happening with audience retention.
+Once this rolls out, your view counts are almost certainly going to look higher, simply because the counting threshold dropped. Resist the urge to treat that as a genuine performance win. Look at engaged views and watch hours in [YouTube Analytics](https://support.google.com/youtube/answer/12220281){:target="_blank" rel="noopener noreferrer"} under Advanced Mode to understand what's actually happening with audience retention.
 
 ### 2. Update How You Report Video Performance Internally
 

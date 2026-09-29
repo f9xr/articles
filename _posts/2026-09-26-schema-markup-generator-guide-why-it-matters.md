@@ -34,7 +34,7 @@ This guide covers what the markup actually does, what changed in 2026 that you n
 
 ## What schema markup actually does for your site
 
-Schema markup is a shared vocabulary published at [schema.org](https://schema.org/) and maintained by a community that includes Google, Microsoft, and Yandex. It describes your page's content in a machine-readable form that search engines parse precisely.
+Schema markup is a shared vocabulary published at [schema.org](https://schema.org/){:target="_blank" rel="noopener noreferrer"} and maintained by a community that includes Google, Microsoft, and Yandex. It describes your page's content in a machine-readable form that search engines parse precisely.
 
 The format you will use is JSON-LD, a block of text added to the page that changes nothing a visitor can see. Two fields do most of the work:
 
@@ -74,7 +74,7 @@ We covered the wider mechanics in our guide on [structuring local business data 
 
 This is the part most "schema markup is great" articles skip, and it matters for how you spend your time.
 
-**FAQ rich results stopped appearing in Google Search on May 7, 2026.** Google added a deprecation notice to its own [FAQ structured data documentation](https://developers.google.com/search/docs/appearance/structured-data/faqpage) stating that the feature no longer shows in Search, that the documentation was removed in June 2026, and that Search Console API support was dropped in August 2026. The original restriction dates to August 2023, when Google narrowed the feature to well-known, authoritative government and health sites.
+**FAQ rich results stopped appearing in Google Search on May 7, 2026.** Google added a deprecation notice to its own [FAQ structured data documentation](https://developers.google.com/search/docs/appearance/structured-data/faqpage){:target="_blank" rel="noopener noreferrer"} stating that the feature no longer shows in Search, that the documentation was removed in June 2026, and that Search Console API support was dropped in August 2026. The original restriction dates to August 2023, when Google narrowed the feature to well-known, authoritative government and health sites.
 
 What this means for you, concretely:
 
@@ -88,7 +88,7 @@ Google's language has not changed on eligibility: structured data makes a page e
 
 ## What Google's own usage data says to prioritize
 
-Since June 4, 2026, [schema.org publishes a public usage statistics dataset](https://blog.schema.org/2026/06/04/announcing-the-schema-org-usage-statistics-dataset/) built with Google from its own crawl data, updated monthly and grouped into domain-count buckets. The [documentation explains the method](https://schema.org/docs/usage_stats.html): terms are counted once per domain, not per page, so one popular site cannot skew a figure.
+Since June 4, 2026, [schema.org publishes a public usage statistics dataset](https://blog.schema.org/2026/06/04/announcing-the-schema-org-usage-statistics-dataset/){:target="_blank" rel="noopener noreferrer"} built with Google from its own crawl data, updated monthly and grouped into domain-count buckets. The [documentation explains the method](https://schema.org/docs/usage_stats.html){:target="_blank" rel="noopener noreferrer"}: terms are counted once per domain, not per page, so one popular site cannot skew a figure.
 
 The first release, covering May 2026, is a useful corrective to the "add every type you can find" instinct:
 
@@ -136,7 +136,7 @@ Pick the type that describes what the page actually is. This is the decision tha
 | A workshop, class, or event listing | Event |
 | A page displaying customer reviews | Review |
 
-Putting FAQ markup on a page with no visible questions violates [Google's structured data policies](https://developers.google.com/search/docs/appearance/structured-data/sd-policies). Putting Product markup on a category index is the same class of mistake.
+Putting FAQ markup on a page with no visible questions violates [Google's structured data policies](https://developers.google.com/search/docs/appearance/structured-data/sd-policies){:target="_blank" rel="noopener noreferrer"}. Putting Product markup on a category index is the same class of mistake.
 
 ### Step 2: enter details that already exist
 
@@ -152,7 +152,7 @@ JSON-LD goes inside a `script` tag with `type="application/ld+json"`, either in 
 
 ### Step 5: validate the live page
 
-Load the page in Google's [Rich Results Test](https://search.google.com/test/rich-results), not just the code. That checks what a crawler actually receives, which is not always what you think you pasted. One thing to know: Google removed FAQPage support from the Rich Results Test in June 2026, so check FAQ markup at [validator.schema.org](https://validator.schema.org/) instead.
+Load the page in Google's [Rich Results Test](https://search.google.com/test/rich-results){:target="_blank" rel="noopener noreferrer"}, not just the code. That checks what a crawler actually receives, which is not always what you think you pasted. One thing to know: Google removed FAQPage support from the Rich Results Test in June 2026, so check FAQ markup at [validator.schema.org](https://validator.schema.org/){:target="_blank" rel="noopener noreferrer"} instead.
 
 ---
 

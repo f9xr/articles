@@ -59,7 +59,7 @@ Published articles are not static. F9XR Articles applies the following review sc
 
 Content published on F9XR Articles is authored by members of the F9XR Team who have demonstrated expertise in the relevant subject matter. Author profiles, including professional backgrounds and areas of specialization, are maintained on individual [author pages]({{ '/authors/f9xr-team/' | relative_url }}).
 
-Guest contributions are accepted only when the contributor can demonstrate verifiable expertise and the content passes the same editorial and technical review process described above.
+Guest contributions are accepted only when the contributor can demonstrate verifiable expertise and the content passes the same editorial and technical review process described above. Pitches, topic areas, and submission details are covered in our [Write for Us guidelines]({{ '/press/write-for-us.html' | relative_url }}).
 
 ## Related Policies
 

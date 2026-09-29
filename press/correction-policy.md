@@ -26,7 +26,7 @@ Content that was accurate at the time of publication but is no longer current du
 
 Readers, collaborators, and team members can report errors through any of the following channels:
 
-- **GitHub Issues** — Open an issue at [github.com/f9xr/articles](https://github.com/f9xr/articles/issues) with a description of the error, the affected article, and the suggested correction.
+- **GitHub Issues** — Open an issue at [github.com/f9xr/articles](https://github.com/f9xr/articles/issues){:target="_blank" rel="noopener noreferrer"} with a description of the error, the affected article, and the suggested correction.
 - **Email** — Contact the editorial team at [hello@f9xr.org](mailto:hello@f9xr.org) with the subject line "Correction Request" and the details above.
 - **Comments** — Where article comments are enabled, errors can be reported inline with a link to supporting evidence.
 
@@ -58,7 +58,7 @@ When a correction is made to a published article, the following transparency mea
 
 - **Changelog.** Articles with multiple corrections maintain a changelog at the bottom of the page, listing each correction with its date and description.
 
-- **Version history.** The full edit history of each article is maintained in the [GitHub repository](https://github.com/f9xr/articles) and is publicly accessible.
+- **Version history.** The full edit history of each article is maintained in the [GitHub repository](https://github.com/f9xr/articles){:target="_blank" rel="noopener noreferrer"} and is publicly accessible.
 
 ## Scope of Corrections
 

@@ -37,7 +37,7 @@ Whatever your reason, this tutorial walks through exactly how to identify, block
 
 For most of the web's history, the only crawlers business owners cared about were Googlebot and Bingbot, because blocking them meant disappearing from search entirely. AI crawlers are a different category. They're not indexing your page to rank it in a search results list. Many of them are collecting your content to train a large language model, meaning your writing, your product descriptions, your locally-researched blog posts, could end up shaping an AI's answers without you ever being cited or credited.
 
-A 2023 to 2024 wave of reporting and legal action, including [major publisher lawsuits against AI companies](https://www.reuters.com/legal/litigation/us-government-backs-openai-new-york-times-copyright-case-2026-09-02/) over unauthorized training data use, pushed this issue into the mainstream. In response, a growing number of major publishers, and increasingly, small business owners, have started actively managing which bots can access their content.
+A 2023 to 2024 wave of reporting and legal action, including [major publisher lawsuits against AI companies](https://www.reuters.com/legal/litigation/us-government-backs-openai-new-york-times-copyright-case-2026-09-02/){:target="_blank" rel="noopener noreferrer"} over unauthorized training data use, pushed this issue into the mainstream. In response, a growing number of major publishers, and increasingly, small business owners, have started actively managing which bots can access their content.
 
 The tension here is real, though. Some AI crawlers, particularly ones tied to live answer engines like PerplexityBot or OAI-SearchBot, are the mechanism by which your business gets mentioned when a potential customer asks an AI assistant a direct question. Block the wrong bot and you might be cutting yourself off from a growing discovery channel, not protecting yourself from anything.
 
@@ -79,7 +79,7 @@ If your [Search Everywhere Optimization](https://f9xr.org/articles/2026/08/14/se
 
 ## Step 2: Blocking AI Crawlers with robots.txt
 
-The robots.txt file is the standard, first-line method for communicating crawler permissions. It lives at the root of your domain, `yourdomain.com/robots.txt`, and most reputable AI companies do respect the [official robots.txt specification](https://www.robotstxt.org/robotstxt.html).
+The robots.txt file is the standard, first-line method for communicating crawler permissions. It lives at the root of your domain, `yourdomain.com/robots.txt`, and most reputable AI companies do respect the [official robots.txt specification](https://www.robotstxt.org/robotstxt.html){:target="_blank" rel="noopener noreferrer"}.
 
 ### Basic Syntax Framework
 
@@ -213,7 +213,7 @@ If your site sits behind Cloudflare, this is the easiest and most reliable metho
 
 Set the action to **Block**.
 
-Cloudflare's approach is generally preferable for non-technical business owners because it doesn't require touching server files directly, and [Cloudflare updates its verified bot list](https://developers.cloudflare.com/bots/additional-configurations/block-ai-bots/) automatically as new AI crawlers emerge.
+Cloudflare's approach is generally preferable for non-technical business owners because it doesn't require touching server files directly, and [Cloudflare updates its verified bot list](https://developers.cloudflare.com/bots/additional-configurations/block-ai-bots/){:target="_blank" rel="noopener noreferrer"} automatically as new AI crawlers emerge.
 
 ---
 
@@ -231,7 +231,7 @@ Some platforms also recognize a more specific directive:
 <meta name="GPTBot" content="noindex">
 ```
 
-These tags are useful for CMS platforms where editing robots.txt or server config isn't straightforward, but they should be treated as a supplement to, not a replacement for, robots.txt and server-level rules. OpenAI's [official documentation on GPTBot](https://developers.openai.com/api/docs/bots) confirms that robots.txt is their primary mechanism for crawl control.
+These tags are useful for CMS platforms where editing robots.txt or server config isn't straightforward, but they should be treated as a supplement to, not a replacement for, robots.txt and server-level rules. OpenAI's [official documentation on GPTBot](https://developers.openai.com/api/docs/bots){:target="_blank" rel="noopener noreferrer"} confirms that robots.txt is their primary mechanism for crawl control.
 
 ---
 

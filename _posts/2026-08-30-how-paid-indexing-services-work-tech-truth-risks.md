@@ -41,7 +41,7 @@ Paid indexing services aren't magic. They lean on a handful of real, documented 
 
 ### Exploiting the Google Indexing API
 
-Google built the [Indexing API](https://developers.google.com/search/apis/indexing-api/v3/quickstart) for exactly two content types: job postings and livestream video pages. That's it. The API is designed so job boards and streaming platforms can notify Google the moment a listing goes live or a stream ends, since that content is time sensitive and stale versions are useless.
+Google built the [Indexing API](https://developers.google.com/search/apis/indexing-api/v3/quickstart){:target="_blank" rel="noopener noreferrer"} for exactly two content types: job postings and livestream video pages. That's it. The API is designed so job boards and streaming platforms can notify Google the moment a listing goes live or a stream ends, since that content is time sensitive and stale versions are useless.
 
 <img src="https://storage.googleapis.com/gweb-uniblog-publish-prod/original_images/Collection-Hero.gif" alt="Google Indexing API collection hero illustration" width="720" height="405" loading="lazy" style="max-width:100%; height:auto; border-radius:12px; border:1px solid #1e2024;">
 
@@ -51,7 +51,7 @@ This worked well for a long stretch. It's also exactly why Google tightened the 
 
 ### The IndexNow Protocol
 
-Unlike the Google Indexing API, IndexNow is not a workaround. It's an [open, legitimate protocol](https://www.indexnow.org/) originally developed by Bing and Yandex, since adopted by Seznam and other engines outside the Google ecosystem. When a URL is published or updated, a single API ping notifies every participating search engine at once, no separate submissions needed for each one.
+Unlike the Google Indexing API, IndexNow is not a workaround. It's an [open, legitimate protocol](https://www.indexnow.org/){:target="_blank" rel="noopener noreferrer"} originally developed by Bing and Yandex, since adopted by Seznam and other engines outside the Google ecosystem. When a URL is published or updated, a single API ping notifies every participating search engine at once, no separate submissions needed for each one.
 
 Paid indexing tools lean on IndexNow heavily because it's fast, free to use at the protocol level, and completely above board. The catch is obvious once you say it out loud: Google does not participate in IndexNow. So a tool that leans mostly on IndexNow is doing a great job getting you into Bing, Yandex, and some AI crawler indexes, while doing nothing directly for Google, where most of your traffic probably comes from.
 
@@ -86,7 +86,7 @@ This is exactly why you'll see a pattern with low-quality links, spun content, o
 
 Let's be straight about where these tools sit. Directing a crawler to visit a page you own is not, by itself, against Google's guidelines. Google's own documentation encourages submitting sitemaps and using URL Inspection to request indexing. The gray area starts when a tool submits content that was never meant to go through a given channel (like stuffing regular blog URLs through a job-posting API), or when the crawl injection method relies on shady, disposable networks that could themselves get flagged.
 
-Google's [public spam policies](https://developers.google.com/search/docs/essentials/spam-policies) are explicit that abusing the Indexing API through multiple accounts or quota workarounds can get access revoked. That's a real, stated consequence, not a rumor.
+Google's [public spam policies](https://developers.google.com/search/docs/essentials/spam-policies){:target="_blank" rel="noopener noreferrer"} are explicit that abusing the Indexing API through multiple accounts or quota workarounds can get access revoked. That's a real, stated consequence, not a rumor.
 
 ### Practical Rules for Using These Tools Safely
 

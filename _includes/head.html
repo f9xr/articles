@@ -123,7 +123,7 @@
   <meta name="dc.subject" content="{{ meta_keywords | escape }}">
   <meta name="dc.creator" content="{{ page.author | default: site.author | escape }}">
   <meta name="dc.publisher" content="{{ site.title | escape }}">
-  <meta name="dc.date" content="{{ page.date | default: site.time | date_to_xmlschema }}">
+  <meta name="dc.date" content="{{ page.date | default: page.dateModified | default: site.time | date_to_xmlschema }}">
   <meta name="dc.type" content="Text">
   <meta name="dc.format" content="text/html">
   <meta name="dc.language" content="{{ site.lang }}">

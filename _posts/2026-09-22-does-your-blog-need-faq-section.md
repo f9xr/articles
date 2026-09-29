@@ -51,7 +51,7 @@ That third one is newer, and it's a large part of why FAQ sections matter more i
 
 ### 1. Featured Snippets Still Drive Real Traffic
 
-Google's featured snippet box, the answer box above the normal search results, very often pulls directly from FAQ-formatted content because it's already structured as a clear question and a direct answer. If you're already writing solid content, an FAQ section is one of the lowest-effort ways to compete for that space. Google documents how it chooses [featured snippets](https://developers.google.com/search/docs/appearance/featured-snippets) if you want the details.
+Google's featured snippet box, the answer box above the normal search results, very often pulls directly from FAQ-formatted content because it's already structured as a clear question and a direct answer. If you're already writing solid content, an FAQ section is one of the lowest-effort ways to compete for that space. Google documents how it chooses [featured snippets](https://developers.google.com/search/docs/appearance/featured-snippets){:target="_blank" rel="noopener noreferrer"} if you want the details.
 
 ### 2. AI Search Engines Prefer Clean, Extractable Answers
 
@@ -73,7 +73,7 @@ FAQs aren't automatically good. Here's when they backfire.
 
 ### Repeating What You Already Said
 
-If your FAQ just restates the same three points already covered in the body, in slightly different wording, it adds nothing, and readers (and AI crawlers) notice the redundancy. Google's own guidance around [creating helpful content](https://developers.google.com/search/docs/fundamentals/creating-helpful-content) has increasingly flagged repetitive, low-value padding as a negative signal.
+If your FAQ just restates the same three points already covered in the body, in slightly different wording, it adds nothing, and readers (and AI crawlers) notice the redundancy. Google's own guidance around [creating helpful content](https://developers.google.com/search/docs/fundamentals/creating-helpful-content){:target="_blank" rel="noopener noreferrer"} has increasingly flagged repetitive, low-value padding as a negative signal.
 
 ### Generic Questions Nobody Actually Asks
 
@@ -113,7 +113,7 @@ Aim for one to three sentences per answer. If a question really needs a longer e
 
 ### Step 3: Add FAQ Schema Markup
 
-This is the technical piece that turns your FAQ section into something search engines and AI tools can parse cleanly, rather than just plain paragraphs. The FAQPage format is defined at [schema.org](https://schema.org/FAQPage), and on this site it's rendered automatically from each post's FAQ entries, so you don't hand-write the JSON-LD every time.
+This is the technical piece that turns your FAQ section into something search engines and AI tools can parse cleanly, rather than just plain paragraphs. The FAQPage format is defined at [schema.org](https://schema.org/FAQPage){:target="_blank" rel="noopener noreferrer"}, and on this site it's rendered automatically from each post's FAQ entries, so you don't hand-write the JSON-LD every time.
 
 ### Step 4: Place Questions in a Logical Order
 

@@ -39,7 +39,7 @@ Here is what is changing, why Google is doing it, whether it helps or hurts your
 
 Here are the facts, since there has been some confusion floating around. Google actually announced something similar back in August 2025 with a deadline that quietly slipped.
 
-Google [confirmed this update](https://support.google.com/google-ads/answer/1722078) again on August 13, 2026, with the change rolling out in late September 2026. Here is the breakdown.
+Google [confirmed this update](https://support.google.com/google-ads/answer/1722078){:target="_blank" rel="noopener noreferrer"} again on August 13, 2026, with the change rolling out in late September 2026. Here is the breakdown.
 
 ### For Search Campaigns
 
@@ -72,7 +72,7 @@ If you or your agency manages campaigns programmatically through the Google Ads 
 
 ## Why Is Google Doing This
 
-Google's official reasoning, as outlined in their [language targeting documentation](https://support.google.com/google-ads/answer/2756257?hl=en) and [ developer blog announcement](https://ads-developers.googleblog.com/2026/08/google-ads-language-targeting-changes.html), centers on accuracy and automation. Instead of relying on advertisers to manually flag which languages to target, an approach that has always been a bit blunt, Google wants its AI to read the actual language of your ad and landing page, then match it to real user context and preferences at the moment of the search.
+Google's official reasoning, as outlined in their [language targeting documentation](https://support.google.com/google-ads/answer/2756257?hl=en){:target="_blank" rel="noopener noreferrer"} and [ developer blog announcement](https://ads-developers.googleblog.com/2026/08/google-ads-language-targeting-changes.html){:target="_blank" rel="noopener noreferrer"}, centers on accuracy and automation. Instead of relying on advertisers to manually flag which languages to target, an approach that has always been a bit blunt, Google wants its AI to read the actual language of your ad and landing page, then match it to real user context and preferences at the moment of the search.
 
 There is a reasonable argument here. Manual language targeting has always had quirks, much like the challenge of optimizing for platforms beyond Google alone, which our [Search Everywhere optimization guide](https://f9xr.org/articles/2026/08/14/search-everywhere-optimization-youtube-google-seo.html) covers in detail. Someone searching in English while living in a Spanish-speaking household, a bilingual user switching languages mid-session, or a business running ads in a region with three official languages. These situations were never handled perfectly by a single dropdown setting.
 
@@ -97,7 +97,7 @@ This is the part everyone actually wants to know, and the honest answer is: it d
 * **Loss of control.** This is the big one. Advertisers who deliberately used language targeting to segment budgets, run different offers per language group, or exclude certain languages entirely are losing a lever they relied on.
 * **Language exclusions still are not supported.** If you were hoping this update would let you block ads from serving to certain language audiences, that capability is not part of the change. It simply is not supported, before or after.
 * **Multilingual businesses lose granular budget control.** If you ran separate campaigns per language specifically to control spend and performance by language segment, that structure now depends entirely on ad copy language and Google's signal accuracy, which is not something you can audit or adjust directly.
-* **A pattern of shrinking manual controls.** Individually, this change is incremental. But stacked on top of previous changes like automatically created assets, campaign-level broad match defaults, and Performance Max's already limited manual levers, it adds up. [Search Engine Journal](https://www.searchenginejournal.com/) and [PPC Land](https://ppcland.com/) have both noted this is part of a broader, ongoing trend of Google narrowing advertiser control in favor of automated signals.
+* **A pattern of shrinking manual controls.** Individually, this change is incremental. But stacked on top of previous changes like automatically created assets, campaign-level broad match defaults, and Performance Max's already limited manual levers, it adds up. [Search Engine Journal](https://www.searchenginejournal.com/){:target="_blank" rel="noopener noreferrer"} and [PPC Land](https://ppcland.com/){:target="_blank" rel="noopener noreferrer"} have both noted this is part of a broader, ongoing trend of Google narrowing advertiser control in favor of automated signals.
 
 So, good or bad? For simple, single-language businesses targeting one clear market, this is likely a non-event. For multilingual businesses, agencies managing complex international accounts, or advertisers who used language settings for reasons beyond pure language targeting, this is a real loss of control worth planning around.
 

@@ -42,7 +42,7 @@ Think of it this way. Google search sends users to websites. AI search engines s
 
 This is why a business can rank on page one of Google and still get completely skipped by ChatGPT or Gemini when someone asks for a recommendation in the same niche. The signals that matter aren't the same.
 
-The scale is hard to ignore. ChatGPT alone handles queries from more than 800 million weekly active users ([TechCrunch, February 2026](https://techcrunch.com/2026/02/27/chatgpt-reaches-900m-weekly-active-users)), and a meaningful share of those are commercial in nature. Every one is a chance for your brand to be named in the answer, or evidence that it never is. We covered the mechanics of making your [site visible to AI search engines](https://f9xr.org/articles/2026/08/14/steps-make-business-site-visible-to-ai.html) separately, but the short version is this: AI picks brands it can trust, not just brands that rank.
+The scale is hard to ignore. ChatGPT alone handles queries from more than 800 million weekly active users ([TechCrunch, February 2026](https://techcrunch.com/2026/02/27/chatgpt-reaches-900m-weekly-active-users){:target="_blank" rel="noopener noreferrer"}), and a meaningful share of those are commercial in nature. Every one is a chance for your brand to be named in the answer, or evidence that it never is. We covered the mechanics of making your [site visible to AI search engines](https://f9xr.org/articles/2026/08/14/steps-make-business-site-visible-to-ai.html) separately, but the short version is this: AI picks brands it can trust, not just brands that rank.
 
 ## 4 Key Strategies to Rank on AI Search Engines
 

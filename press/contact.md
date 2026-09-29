@@ -20,12 +20,13 @@ We aim to respond to every legitimate inquiry within **two business days**. For 
 - Questions or feedback about any [article]({{ '/archive.html' | relative_url }})
 - Error reports and correction requests — you can also use our [correction policy]({{ '/press/correction-policy.html' | relative_url }}) as a guide for what we cover
 - Collaboration, syndication, and original research inquiries
+- Guest article pitches — read our [Write for Us guidelines]({{ '/press/write-for-us.html' | relative_url }}) first, then email the editor
 - Sponsored content and [transparency]({{ '/press/transparency.html' | relative_url }}) related questions
 - Media and press requests about F9XR, F9XR Articles, or content published here
 
 ## What We Don't Do
 
-We do not respond to unsolicited link-building pitches, guest-post requests with paid placements, or bulk outreach. Please do not send those — they are deleted unread. See our [editorial policy]({{ '/press/editorial-policy.html' | relative_url }}) for what we publish and why.
+We do not respond to unsolicited link-building pitches, guest-post requests with paid placements, or bulk outreach. Please do not send those — they are deleted unread. See our [editorial policy]({{ '/press/editorial-policy.html' | relative_url }}) for what we publish and why. Unpaid guest articles are welcome, but only as pitches that follow our [Write for Us guidelines]({{ '/press/write-for-us.html' | relative_url }}).
 
 ## Other Channels
 

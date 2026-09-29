@@ -88,7 +88,7 @@ Run a broken link and image scan monthly, especially if you've recently removed 
 
 ### 3. Site Speed and Core Web Vitals Audit
 
-Google has been clear that page experience, measured through [Core Web Vitals](https://pagespeed.web.dev/), is part of how it evaluates sites. Slow loading times, layout shifts while a page loads, and delayed interactivity all hurt both user experience and rankings.
+Google has been clear that page experience, measured through [Core Web Vitals](https://pagespeed.web.dev/){:target="_blank" rel="noopener noreferrer"}, is part of how it evaluates sites. Slow loading times, layout shifts while a page loads, and delayed interactivity all hurt both user experience and rankings.
 
 Check your speed score monthly, especially after adding new plugins, images, or embedded videos, since these are the usual culprits behind a sudden slowdown.
 
@@ -132,7 +132,7 @@ Every month, check for plugin and theme updates, remove anything you're no longe
 
 ### 9. Google Search Console Errors Audit
 
-Search Console is where Google tells you, directly and for free, what's wrong with your site from its point of view. [Crawl errors, indexing issues, and manual actions](https://support.google.com/webmasters) all show up here, but only if you check.
+Search Console is where Google tells you, directly and for free, what's wrong with your site from its point of view. [Crawl errors, indexing issues, and manual actions](https://support.google.com/webmasters){:target="_blank" rel="noopener noreferrer"} all show up here, but only if you check.
 
 **Actionable tip:** Spend ten minutes each month reviewing the Coverage and Page Indexing reports for any new errors, and fix them before they pile up.
 
@@ -146,7 +146,7 @@ For local businesses, this is arguably the most important audit on the list. Sea
 
 Structured data, also called schema markup, helps search engines and AI tools understand exactly what's on your page, whether it's a product, a review, an FAQ, or a local business listing. It's also increasingly important for showing up in AI generated answers, since tools like ChatGPT and Perplexity often lean on well structured, clearly labeled data when summarizing information.
 
-**Actionable tip:** Run key pages through [Google's Rich Results Test](https://search.google.com/test/rich-results) monthly to confirm your schema is valid and nothing is broken after a plugin update.
+**Actionable tip:** Run key pages through [Google's Rich Results Test](https://search.google.com/test/rich-results){:target="_blank" rel="noopener noreferrer"} monthly to confirm your schema is valid and nothing is broken after a plugin update.
 
 ### 12. Analytics and Conversion Tracking Audit
 

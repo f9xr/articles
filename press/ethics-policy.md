@@ -77,7 +77,7 @@ F9XR Articles holds itself accountable to the standards described in this policy
 
 - **Transparent ownership.** The organizational structure and funding model are publicly documented in the [Ownership, Funding, & Transparency]({{ '/press/transparency.html' | relative_url }}) page.
 - **Open corrections.** The correction process is public and documented in the [F9XR Correction Policy]({{ '/press/correction-policy.html' | relative_url }}).
-- **Open source.** The source code for this publication is publicly available at [github.com/f9xr/articles](https://github.com/f9xr/articles), enabling independent review of publishing practices.
+- **Open source.** The source code for this publication is publicly available at [github.com/f9xr/articles](https://github.com/f9xr/articles){:target="_blank" rel="noopener noreferrer"}, enabling independent review of publishing practices.
 
 ## Related Policies
 

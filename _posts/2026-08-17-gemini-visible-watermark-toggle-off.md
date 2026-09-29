@@ -42,7 +42,7 @@ This update matters more than it looks at first glance. Here is what changed, wh
 
 Here is the update itself, based on Google's own announcement and the reporting that followed.
 
-Google's VP for Gemini, Josh Woodward, [confirmed the change directly on X](https://x.com/joshwoodward/status/2088259242423968162), describing a new Media Watermark setting rolling out across the Gemini app and Google's Flow video editor.
+Google's VP for Gemini, Josh Woodward, [confirmed the change directly on X](https://x.com/joshwoodward/status/2088259242423968162){:target="_blank" rel="noopener noreferrer"}, describing a new Media Watermark setting rolling out across the Gemini app and Google's Flow video editor.
 
 <blockquote class="twitter-tweet"><p lang="en" dir="ltr">✅ Papercut fixed: You can now toggle visible watermarks on or off in Gemini and Flow, with Search coming next.<br><br>This applies to watermarks on all images (Nano Banana), videos (Omni), and songs (Lyria) except in countries where it's required by law to keep them. <a href="https://t.co/utHN0yDmD3">pic.twitter.com/utHN0yDmD3</a></p>&mdash; Josh Woodward (@joshwoodward) <a href="https://x.com/joshwoodward/status/2088259242423968162?ref_src=twsrc%5Etfw">August 14, 2026</a></blockquote> <script async src="https://platform.x.com/widgets.js" charset="utf-8"></script>
 
@@ -91,13 +91,13 @@ This is the part that matters most, and the detail a lot of quick news coverage 
 
 ### What Is SynthID?
 
-SynthID is [Google DeepMind's imperceptible watermarking technology](https://deepmind.google/technologies/synthid/). It is built into the content itself at the pixel, frame, or audio level, depending on the media type, and it is designed to survive things like screenshots, cropping, resizing, and format conversion. Google has stated that SynthID has now been applied to more than 10 billion pieces of content across its products.
+SynthID is [Google DeepMind's imperceptible watermarking technology](https://deepmind.google/technologies/synthid/){:target="_blank" rel="noopener noreferrer"}. It is built into the content itself at the pixel, frame, or audio level, depending on the media type, and it is designed to survive things like screenshots, cropping, resizing, and format conversion. Google has stated that SynthID has now been applied to more than 10 billion pieces of content across its products.
 
 There is no user-facing way to disable SynthID. It is embedded automatically, every time, regardless of your visible watermark setting.
 
 ### What Is C2PA Metadata?
 
-C2PA stands for the [Coalition for Content Provenance and Authenticity](https://contentauthenticity.org/), an industry standard used across parts of the tech and media world to record information about how a piece of digital content was created. Every file Gemini generates carries this metadata, which records its AI origin.
+C2PA stands for the [Coalition for Content Provenance and Authenticity](https://contentauthenticity.org/){:target="_blank" rel="noopener noreferrer"}, an industry standard used across parts of the tech and media world to record information about how a piece of digital content was created. Every file Gemini generates carries this metadata, which records its AI origin.
 
 ### Why This Matters
 

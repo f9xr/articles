@@ -27,7 +27,7 @@ If you run a WordPress site, and roughly 40 percent of the web does, you've prob
 
 In August 2026, WordPress's own security team confirmed something that's been building for months. AI has fundamentally changed the pace and volume of vulnerability discovery, and the project's existing processes weren't built to keep up.
 
-The numbers behind this are genuinely striking. Monthly security reports to WordPress's HackerOne bug bounty program held steady at a decade-long baseline of 20 to 30 a month, right up until earlier this year. By July 2026, that number had jumped to 450. By August, it hit 773. That's not a gradual increase, that's a landscape shift happening in real time, and WordPress's response to it, a new effort called the Core Security Initiative, along with a tightened [Vulnerability Disclosure Program](https://www.hackerone.com/wordpress), is worth understanding if your business relies on WordPress in any way.
+The numbers behind this are genuinely striking. Monthly security reports to WordPress's HackerOne bug bounty program held steady at a decade-long baseline of 20 to 30 a month, right up until earlier this year. By July 2026, that number had jumped to 450. By August, it hit 773. That's not a gradual increase, that's a landscape shift happening in real time, and WordPress's response to it, a new effort called the Core Security Initiative, along with a tightened [Vulnerability Disclosure Program](https://www.hackerone.com/wordpress){:target="_blank" rel="noopener noreferrer"}, is worth understanding if your business relies on WordPress in any way.
 
 Let's walk through exactly what WordPress announced, why it happened now, and what it actually means for your website's security going forward.
 
@@ -35,7 +35,7 @@ Let's walk through exactly what WordPress announced, why it happened now, and wh
 
 ## What WordPress Actually Announced
 
-The announcement came from Automattic Senior Systems Engineer Rudy Faile, published on the official [Make WordPress Security blog](https://make.wordpress.org/security/2026/08/28/the-core-security-initiative/), and it was first discussed during a WordPress Security Team meeting at WordCamp US 2026 in Phoenix before being formalized publicly.
+The announcement came from Automattic Senior Systems Engineer Rudy Faile, published on the official [Make WordPress Security blog](https://make.wordpress.org/security/2026/08/28/the-core-security-initiative/){:target="_blank" rel="noopener noreferrer"}, and it was first discussed during a WordPress Security Team meeting at WordCamp US 2026 in Phoenix before being formalized publicly.
 
 ### The Core Security Initiative
 
@@ -43,7 +43,7 @@ WordPress is calling this new effort the Core Security Initiative, and it's spec
 
 ### Why Now: The Numbers Behind the Urgency
 
-Faile's post opened by naming the reason directly. WordPress's security team rep, John Blackbourn, shared a graph in the Post Status Slack community showing the trajectory clearly: after roughly a decade of steady, manageable volume, monthly HackerOne reports jumped to 450 in July 2026, then nearly doubled again to 773 in August. Blackbourn told [The Repository](https://www.therepository.email/wordpress-announces-core-security-initiative-as-ai-driven-vulnerability-reports-hit-record-levels) that the surge began in January and February 2026, driven mainly by researchers using GPT 5.3 and Claude Opus 4.6 to find vulnerabilities, and has accelerated since.
+Faile's post opened by naming the reason directly. WordPress's security team rep, John Blackbourn, shared a graph in the Post Status Slack community showing the trajectory clearly: after roughly a decade of steady, manageable volume, monthly HackerOne reports jumped to 450 in July 2026, then nearly doubled again to 773 in August. Blackbourn told [The Repository](https://www.therepository.email/wordpress-announces-core-security-initiative-as-ai-driven-vulnerability-reports-hit-record-levels){:target="_blank" rel="noopener noreferrer"} that the surge began in January and February 2026, driven mainly by researchers using GPT 5.3 and Claude Opus 4.6 to find vulnerabilities, and has accelerated since.
 
 Blackbourn summed up the shift plainly: "We're well into an entirely new era of AI-assisted security research."
 
@@ -101,7 +101,7 @@ This pressure led directly to a concrete policy change. After the August report 
 
 ### What This Means for Researchers Submitting Reports
 
-For anyone actually submitting a report to WordPress core's vulnerability disclosure program, the practical guidance now is stricter than before. Submissions are expected to include a clear description of the vulnerability classification, such as authenticated stored cross-site scripting, server-side request forgery, or a logic flaw, step-by-step proof-of-concept replication steps including explicit technical detail where applicable, the specific core file locations, functions, or REST API routes involved, and an accurate CVSS severity assessment grounded in practical exploitability rather than theoretical worst-case scenarios. The program remains open to legitimate reports through the official channel at [hackerone.com/wordpress](https://www.hackerone.com/wordpress), but low-quality, low-severity submissions are facing a higher bar than before.
+For anyone actually submitting a report to WordPress core's vulnerability disclosure program, the practical guidance now is stricter than before. Submissions are expected to include a clear description of the vulnerability classification, such as authenticated stored cross-site scripting, server-side request forgery, or a logic flaw, step-by-step proof-of-concept replication steps including explicit technical detail where applicable, the specific core file locations, functions, or REST API routes involved, and an accurate CVSS severity assessment grounded in practical exploitability rather than theoretical worst-case scenarios. The program remains open to legitimate reports through the official channel at [hackerone.com/wordpress](https://www.hackerone.com/wordpress){:target="_blank" rel="noopener noreferrer"}, but low-quality, low-severity submissions are facing a higher bar than before.
 
 ---
 

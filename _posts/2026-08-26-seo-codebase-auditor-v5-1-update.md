@@ -42,7 +42,7 @@ Most SEO tools look at your website from the outside. They crawl your pages the 
 A codebase auditor goes further. It looks at the actual source code, template structure, and rendering behavior behind your site, not just the surface-level output. This matters because a lot of SEO problems are baked into how a site is built long before a page ever gets indexed. Things like:
 
 - How pagination is handled across category or blog pages
-- Whether [structured data](https://schema.org/docs/documents.html) (schema markup) is implemented correctly
+- Whether [structured data](https://schema.org/docs/documents.html){:target="_blank" rel="noopener noreferrer"} (schema markup) is implemented correctly
 - Layout shift issues caused by how images and fonts load
 - Whether content actually demonstrates topical depth, or just repeats a keyword
 
@@ -50,7 +50,7 @@ Our auditor was built specifically for this kind of deep, code-level inspection,
 
 ## Why the Update? Even Good Tools Get Stale
 
-SEO is not static. Google changes its ranking signals, deprecates old standards, and updates its [Core Web Vitals](https://developers.google.com/search/docs/appearance/core-web-vitals) guidance regularly. A tool that was accurate two years ago can quietly start giving bad advice if nobody revisits it.
+SEO is not static. Google changes its ranking signals, deprecates old standards, and updates its [Core Web Vitals](https://developers.google.com/search/docs/appearance/core-web-vitals){:target="_blank" rel="noopener noreferrer"} guidance regularly. A tool that was accurate two years ago can quietly start giving bad advice if nobody revisits it.
 
 That is what happened here. During an [internal audit of the tool itself](https://f9xr.org/articles/2026/08/13/consistency-audits-seo-aeo-geo.html), we found ten issues in the guidance logic, three of which were genuinely outdated SEO recommendations that could have led site owners in the wrong direction. Rather than let those linger, we fixed them and used the opportunity to clean up some structural rough edges too.
 
@@ -75,7 +75,7 @@ This is the part that matters most if you are trying to understand your own site
 
 ### 1. Pagination: rel="next"/"prev" Is Dead for Google
 
-For years, the advice was to add `rel="next"` and `rel="prev"` tags to paginated content, like category pages or multi-page blog archives. [Google officially stopped using this signal](https://developers.google.com/search/blog/2011/09/pagination-with-relnext-and-relprev) back in March 2019. It genuinely does not affect Google rankings anymore.
+For years, the advice was to add `rel="next"` and `rel="prev"` tags to paginated content, like category pages or multi-page blog archives. [Google officially stopped using this signal](https://developers.google.com/search/blog/2011/09/pagination-with-relnext-and-relprev){:target="_blank" rel="noopener noreferrer"} back in March 2019. It genuinely does not affect Google rankings anymore.
 
 Bing still respects it, so there is no harm in leaving it in place if it is already there. But if you are building new pagination and someone tells you to prioritize `rel="next"/"prev"`, that advice is out of date. The better approach now is a self-referencing canonical tag on each paginated page, or a single "view all" page with its own canonical.
 
@@ -91,13 +91,13 @@ Plenty of audit checklists only flag the "Poor" tier as a problem. That leaves a
 
 ### 3. Meta Descriptions: Short Is Not What You Think It Is
 
-A common misconception is that meta descriptions under 120 characters are "too short." That is actually the mobile truncation point, the length at which Google starts cutting off your description on [mobile search results](https://developers.google.com/search/docs/appearance/snippet). It is not a minimum threshold.
+A common misconception is that meta descriptions under 120 characters are "too short." That is actually the mobile truncation point, the length at which Google starts cutting off your description on [mobile search results](https://developers.google.com/search/docs/appearance/snippet){:target="_blank" rel="noopener noreferrer"}. It is not a minimum threshold.
 
 The updated guidance now flags descriptions under 100 characters as too short to convey real value in search results, and separately flags anything over 155 to 160 characters as a truncation risk. Two different problems, two different thresholds, and now they are not conflated into one confusing rule.
 
 ## A Smarter Approach to Keyword Density
 
-This one is worth calling out because it reflects a bigger shift in how modern SEO actually works. Older tools obsess over keyword density, the percentage of times a target phrase appears on a page. Modern [semantic search](https://searchengineland.com/guide/semantic-seo) does not work that way anymore.
+This one is worth calling out because it reflects a bigger shift in how modern SEO actually works. Older tools obsess over keyword density, the percentage of times a target phrase appears on a page. Modern [semantic search](https://searchengineland.com/guide/semantic-seo){:target="_blank" rel="noopener noreferrer"} does not work that way anymore.
 
 Google, and increasingly AI answer engines like ChatGPT, Gemini, and Perplexity, evaluate content based on entity coverage and topical completeness rather than raw keyword repetition. A page can use zero exact-match repetitions of a phrase and still rank well if it thoroughly covers the topic using natural language variations.
 

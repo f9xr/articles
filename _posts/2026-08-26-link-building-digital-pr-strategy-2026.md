@@ -41,7 +41,7 @@ Build in this order:
 
 1. **Foundational brand profile links** — Google Business Profile, Bing Places, Apple Business Connect, and core social profiles (LinkedIn, Facebook, Instagram, X). These establish NAP (Name, Address, Phone) consistency, which is a foundational local and entity trust signal.
 2. **High-authority business directories** — Crunchbase, industry-specific directories, [Chamber of Commerce listings](https://f9xr.org/articles/2026/07/29/free-business-directories-guide.html), and vertical-specific databases relevant to your niche. These are typically nofollow or low-authority-pass links, but they are read as legitimacy signals, not ranking fuel.
-3. **Local citations** — for any business with a physical or service-area footprint, citation consistency across data aggregators ([Data Axle](https://www.data-axle.com/), Foursquare, Neustar Localeze) accelerates local pack eligibility far more than early editorial links do.
+3. **Local citations** — for any business with a physical or service-area footprint, citation consistency across data aggregators ([Data Axle](https://www.data-axle.com/){:target="_blank" rel="noopener noreferrer"}, Foursquare, Neustar Localeze) accelerates local pack eligibility far more than early editorial links do.
 
 At this stage, avoid contextual guest posts and niche edits entirely. A domain with no crawl history and no indexed content suddenly acquiring editorial contextual links looks anomalous to spam classifiers. Establish the skeleton first.
 
@@ -106,7 +106,7 @@ Programmatic, repeatable media coverage is not about "getting lucky" with a jour
 
 1. **Build a newsworthy hook, not a company announcement.** Journalists do not cover "we launched a product." They cover original data, a contrarian take on an industry trend, or a timely reaction to breaking news in your sector.
 2. **Run original data studies.** Survey your customer base, analyze proprietary usage data, or aggregate public data into a novel finding. A statistic a journalist can cite (with attribution to you) is the single most reliable way to earn coverage at scale.
-3. **Use structured journalist request platforms.** Services like [Qwoted](https://www.qwoted.com/) and [Featured](https://featured.com/) let you respond directly to reporters actively writing a story who need a quotable expert source.
+3. **Use structured journalist request platforms.** Services like [Qwoted](https://www.qwoted.com/){:target="_blank" rel="noopener noreferrer"} and [Featured](https://featured.com/){:target="_blank" rel="noopener noreferrer"} let you respond directly to reporters actively writing a story who need a quotable expert source.
 4. **Pitch with the headline already written.** Send a subject line that reads like the article title itself. Editors decide in seconds, not minutes.
 5. **Follow up once, then let it go.** A single, value-add follow-up after 4 to 5 days outperforms aggressive multi-touch sequences, which get pitches flagged as spam by journalist inboxes.
 

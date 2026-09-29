@@ -48,7 +48,7 @@ This isn't Google's first attempt at something like this. A similar AI help assi
 
 ### How the Rollout Happened
 
-Google didn't make a splashy announcement with a dedicated blog post or press release. Instead, the update appeared as a short entry in the AdSense Help Center's own [Announcements section](https://support.google.com/adsense/answer/17599631), dated September 3, 2026. The notice reads, in essence, that the feature has "rolled out to 100% of English Help Center traffic in Beta."
+Google didn't make a splashy announcement with a dedicated blog post or press release. Instead, the update appeared as a short entry in the AdSense Help Center's own [Announcements section](https://support.google.com/adsense/answer/17599631){:target="_blank" rel="noopener noreferrer"}, dated September 3, 2026. The notice reads, in essence, that the feature has "rolled out to 100% of English Help Center traffic in Beta."
 
 That phrasing matters. Google is calling this a distribution milestone, not a brand-new feature launch. The Help guide had already existed in a limited beta form. What changed is the audience size, not the underlying tool.
 
@@ -69,7 +69,7 @@ There are a few clear reasons behind this shift, and they line up with a broader
 
 Here's the part every business owner needs to pay close attention to. Google has been explicit that the Help guide's answers may not always be reliable. The company's own wording states that responses "may vary in accuracy" and that publishers remain responsible for any decisions made based on the tool's guidance.
 
-That's a meaningfully different posture compared to Google's official, written [AdSense policy pages](https://support.google.com/adsense/answer/17594499), which the company stands fully behind. A policy page is static, dated, and identical for every reader, which makes it citable if a dispute ever arises. A generated AI answer is none of those things. It can change from one conversation to the next, and it comes with no guarantee of correctness.
+That's a meaningfully different posture compared to Google's official, written [AdSense policy pages](https://support.google.com/adsense/answer/17594499){:target="_blank" rel="noopener noreferrer"}, which the company stands fully behind. A policy page is static, dated, and identical for every reader, which makes it citable if a dispute ever arises. A generated AI answer is none of those things. It can change from one conversation to the next, and it comes with no guarantee of correctness.
 
 ### Why This Matters for Your Business
 

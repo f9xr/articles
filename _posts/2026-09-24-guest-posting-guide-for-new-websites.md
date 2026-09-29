@@ -40,7 +40,7 @@ Backlinks remain one of the clearest trust signals search engines use to judge w
 
 There's a second, newer reason this matters. AI answer engines like ChatGPT, Gemini, and Perplexity tend to favor sources that show up consistently across multiple credible sites, not just your own domain talking about itself. Getting mentioned and linked from other established sites builds exactly that kind of cross-site presence. We covered this shift in depth in our guide on [monitoring AI search trends to boost visibility and citations](https://f9xr.org/articles/2026/08/26/monitor-ai-search-trends-boost-visibility-citations.html).
 
-Guest posting also sits inside a larger strategy. Our [guide to getting backlinks in 2026](https://f9xr.org/articles/2026/08/07/get-backlinks-2026-free-paid-ai-methods.html) lays out the free, paid, and AI-driven methods side by side, and guest posting is the piece that is cheapest to start and easiest to control. Google's own [spam policies](https://developers.google.com/search/docs/essentials/spam-policies) draw the line explicitly: paid link schemes and low-quality placements are exactly what those policies target, so know the rule before you start pitching.
+Guest posting also sits inside a larger strategy. Our [guide to getting backlinks in 2026](https://f9xr.org/articles/2026/08/07/get-backlinks-2026-free-paid-ai-methods.html) lays out the free, paid, and AI-driven methods side by side, and guest posting is the piece that is cheapest to start and easiest to control. Google's own [spam policies](https://developers.google.com/search/docs/essentials/spam-policies){:target="_blank" rel="noopener noreferrer"} draw the line explicitly: paid link schemes and low-quality placements are exactly what those policies target, so know the rule before you start pitching.
 
 ### Guest Posting vs. Other Link Building Methods
 
@@ -89,7 +89,7 @@ Look at where similar businesses in your space, a size or two above you rather t
 
 ### Prioritize Relevance Over Raw Authority
 
-A moderately known blog that your target audience actually reads is worth more than a huge, generic site with an audience that has nothing to do with your business. Relevance matters more than a vanity metric. Ahrefs keeps a running [write-up of guest blogging research](https://ahrefs.com/blog/guest-blogging/) that places guest posting inside a wider link building plan, and the pattern holds: the relevant mid-size site wins.
+A moderately known blog that your target audience actually reads is worth more than a huge, generic site with an audience that has nothing to do with your business. Relevance matters more than a vanity metric. Ahrefs keeps a running [write-up of guest blogging research](https://ahrefs.com/blog/guest-blogging/){:target="_blank" rel="noopener noreferrer"} that places guest posting inside a wider link building plan, and the pattern holds: the relevant mid-size site wins.
 
 ---
 
@@ -193,7 +193,7 @@ Two things matter more than the count. First, the sites have to be relevant to y
 * A brand new site needs a solid content and trust foundation in place before pitching anyone for a guest post.
 * Relevance to your niche matters more than chasing the highest-authority site you can find.
 * Short, specific, personalized pitches with real title ideas outperform generic mass outreach every time.
-* Write guest content that's actually valuable, not just a link vehicle. Editors and readers both notice the difference. Moz's [beginner guide to link building](https://moz.com/beginners-guide-to-link-building) is a good frame for why that distinction matters.
+* Write guest content that's actually valuable, not just a link vehicle. Editors and readers both notice the difference. Moz's [beginner guide to link building](https://moz.com/beginners-guide-to-link-building){:target="_blank" rel="noopener noreferrer"} is a good frame for why that distinction matters.
 * Track your outreach and follow up once. Guest posting is a numbers game, especially early on.
 
 ---

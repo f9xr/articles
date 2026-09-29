@@ -51,7 +51,7 @@ The Digital Markets Act is EU legislation meant to curb the dominance of large t
 
 The European Commission first found Google in breach of these rules in July 2026, issuing a 460 million euro fine specifically for favoring its own services in shopping, hotel, transport, and sports search results. The Commission gave Google 60 days to comply or face ongoing penalty payments of up to 5% of its total worldwide turnover. At Google's scale, that's a number big enough to make continued non-compliance costly even for a company its size.
 
-This isn't Google's first brush with EU antitrust enforcement, either. The company has now racked up a combined 10.38 billion euros in EU penalties over nearly two decades, one of the longest-running regulatory battles in tech history. You can read the Commission's overview of the [Digital Markets Act](https://digital-markets-act.ec.europa.eu/) for the official framing, while [Reuters' reporting](https://www.reuters.com/world/google-warns-lower-quality-it-revamps-europe-search-results-avoid-eu-fines-2026-09-08/) has the original details behind this announcement.
+This isn't Google's first brush with EU antitrust enforcement, either. The company has now racked up a combined 10.38 billion euros in EU penalties over nearly two decades, one of the longest-running regulatory battles in tech history. You can read the Commission's overview of the [Digital Markets Act](https://digital-markets-act.ec.europa.eu/){:target="_blank" rel="noopener noreferrer"} for the official framing, while [Reuters' reporting](https://www.reuters.com/world/google-warns-lower-quality-it-revamps-europe-search-results-avoid-eu-fines-2026-09-08/){:target="_blank" rel="noopener noreferrer"} has the original details behind this announcement.
 
 ---
 

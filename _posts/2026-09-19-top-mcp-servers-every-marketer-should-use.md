@@ -37,7 +37,7 @@ For a business owner or a two-person marketing team juggling ads, content, SEO, 
 
 Think of an MCP server as a translator that sits between an AI model and a piece of software. Without it, an AI assistant only knows what you type into the chat box. With an MCP server connected, that same assistant can reach into your Google Analytics account, your Meta Ads dashboard, your HubSpot CRM, or your Notion workspace and actually read (and sometimes act on) the real data inside. If you're still working from prompts alone rather than connectors, our guide on [ChatGPT prompt shortcuts for business owners](https://f9xr.org/articles/2026/08/25/chatgpt-prompt-shortcuts-business-owners.html) shows what that older setup can do.
 
-The term comes from Anthropic, which introduced the protocol as an open standard so any company could build a connector for their software, and so any AI assistant, not just one brand, could use it. That's part of why adoption spread so fast across marketing tools specifically. If you want the technical details, the spec lives at [modelcontextprotocol.io](https://modelcontextprotocol.io/) with the reference implementations on [GitHub](https://github.com/modelcontextprotocol). And according to [HubSpot's 2026 State of Marketing research](https://www.hubspot.com/state-of-marketing), a large majority of marketers now say they rely on AI assistance in some form of their daily workflow. MCP servers are quickly becoming the bridge that makes that assistance actually useful instead of theoretical.
+The term comes from Anthropic, which introduced the protocol as an open standard so any company could build a connector for their software, and so any AI assistant, not just one brand, could use it. That's part of why adoption spread so fast across marketing tools specifically. If you want the technical details, the spec lives at [modelcontextprotocol.io](https://modelcontextprotocol.io/){:target="_blank" rel="noopener noreferrer"} with the reference implementations on [GitHub](https://github.com/modelcontextprotocol){:target="_blank" rel="noopener noreferrer"}. And according to [HubSpot's 2026 State of Marketing research](https://www.hubspot.com/state-of-marketing){:target="_blank" rel="noopener noreferrer"}, a large majority of marketers now say they rely on AI assistance in some form of their daily workflow. MCP servers are quickly becoming the bridge that makes that assistance actually useful instead of theoretical.
 
 ### MCP Server vs. a Regular Integration or Plugin
 
@@ -62,7 +62,7 @@ These pull your website traffic, conversion, and search performance data directl
 
 ### 2. Ad Platform Connectors (Meta Ads, Google Ads)
 
-These let your AI assistant check spend, click-through rates, and conversion data straight from your ad accounts, and in some setups, suggest or even apply budget adjustments based on what's actually working. Meta's [Ads Manager resource center](https://www.facebook.com/business/tools/ads-manager) documents the account structure these connectors read from.
+These let your AI assistant check spend, click-through rates, and conversion data straight from your ad accounts, and in some setups, suggest or even apply budget adjustments based on what's actually working. Meta's [Ads Manager resource center](https://www.facebook.com/business/tools/ads-manager){:target="_blank" rel="noopener noreferrer"} documents the account structure these connectors read from.
 
 **Best for**: e-commerce stores and local businesses running paid campaigns without a dedicated ads manager.
 
@@ -74,7 +74,7 @@ These close the loop between marketing spend and actual sales pipeline. You can 
 
 ### 4. SEO Research Connectors (Semrush, Search Console)
 
-These bring keyword rankings, backlink data, and search visibility straight into a conversation, so you can ask things like "which pages lost ranking this month" and get a direct answer instead of digging through a dashboard. Google's [Search Console help documentation](https://support.google.com/webmasters/) is a useful reference for understanding the raw data behind those answers.
+These bring keyword rankings, backlink data, and search visibility straight into a conversation, so you can ask things like "which pages lost ranking this month" and get a direct answer instead of digging through a dashboard. Google's [Search Console help documentation](https://support.google.com/webmasters/){:target="_blank" rel="noopener noreferrer"} is a useful reference for understanding the raw data behind those answers.
 
 **Best for**: any business investing in organic search, including the growing number now tracking AI search visibility too, something we go deeper on in our guide to [key strategies to rank on AI search](https://f9xr.org/articles/2026/09/07/key-strategies-to-rank-on-ai.html). If you want to track how AI engines surface your content over time, our guide on [monitoring AI search trends](https://f9xr.org/articles/2026/08/26/monitor-ai-search-trends-boost-visibility-citations.html) is a good starting point.
 
@@ -98,7 +98,7 @@ These turn a data insight into an actual visual. An AI assistant can notice a tr
 
 ### 8. Automation and Workflow Connectors (Zapier)
 
-For anything not covered by a direct connector, Zapier-style connectors let an AI assistant trigger actions across thousands of other apps, effectively extending its reach to almost any tool your business already uses. [Zapier's guide to AI-powered automation](https://zapier.com/blog/ai-automation/) walks through practical examples of what these triggers look like in the real world.
+For anything not covered by a direct connector, Zapier-style connectors let an AI assistant trigger actions across thousands of other apps, effectively extending its reach to almost any tool your business already uses. [Zapier's guide to AI-powered automation](https://zapier.com/blog/ai-automation/){:target="_blank" rel="noopener noreferrer"} walks through practical examples of what these triggers look like in the real world.
 
 **Best for**: businesses with a scattered tech stack that doesn't have official native connectors yet.
 

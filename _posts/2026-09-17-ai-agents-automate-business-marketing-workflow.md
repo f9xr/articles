@@ -40,7 +40,7 @@ A simple way to separate the two:
 * **A chatbot** answers "Write me a caption for this product photo."
 * **An AI agent** notices a new product was added to your store, writes the caption, generates three image variations, schedules the post at your best-performing time slot, and flags the result in a report, without you asking for any of it individually.
 
-That second one is what people mean when they talk about "agentic marketing" or "marketing workflow automation" in 2026. If you want the technical underpinnings, [Anthropic's documentation on agentic tool use](https://platform.claude.com/docs/en/agents-and-tools/tool-use/overview) is a solid starting point, and [OpenAI's practical guide to building AI agents](https://openai.com/business/guides-and-resources/a-practical-guide-to-building-ai-agents) covers the same ideas framework-agnostically.
+That second one is what people mean when they talk about "agentic marketing" or "marketing workflow automation" in 2026. If you want the technical underpinnings, [Anthropic's documentation on agentic tool use](https://platform.claude.com/docs/en/agents-and-tools/tool-use/overview){:target="_blank" rel="noopener noreferrer"} is a solid starting point, and [OpenAI's practical guide to building AI agents](https://openai.com/business/guides-and-resources/a-practical-guide-to-building-ai-agents){:target="_blank" rel="noopener noreferrer"} covers the same ideas framework-agnostically.
 
 ### Why This Matters Right Now
 
@@ -70,11 +70,11 @@ Agents can crawl your own site for broken links, missing meta descriptions, or o
 
 ### 4. Ad Campaign Management
 
-Instead of manually adjusting bids or swapping creative, an agent can watch performance data and reallocate budget toward what's working, pause underperforming ads, and suggest new copy variations based on what's converting. [HubSpot's state of marketing research](https://www.hubspot.com/state-of-marketing) tracks how quickly teams are adopting these automation workflows.
+Instead of manually adjusting bids or swapping creative, an agent can watch performance data and reallocate budget toward what's working, pause underperforming ads, and suggest new copy variations based on what's converting. [HubSpot's state of marketing research](https://www.hubspot.com/state-of-marketing){:target="_blank" rel="noopener noreferrer"} tracks how quickly teams are adopting these automation workflows.
 
 ### 5. Local SEO and Review Management
 
-Agents can monitor your Google Business Profile, draft responses to new reviews (for your approval), and alert you when your business information is inconsistent across directories, something that quietly hurts local rankings more than most owners realize. That ties directly into the [official Google Business Profile management guidance](https://business.google.com/in/business-profile/).
+Agents can monitor your Google Business Profile, draft responses to new reviews (for your approval), and alert you when your business information is inconsistent across directories, something that quietly hurts local rankings more than most owners realize. That ties directly into the [official Google Business Profile management guidance](https://business.google.com/in/business-profile/){:target="_blank" rel="noopener noreferrer"}.
 
 ### 6. Reporting and Insights
 
@@ -138,7 +138,7 @@ Especially for anything customer-facing (replies, reviews, ad copy), review the 
 
 There's a second, less obvious benefit here. As you use agents to keep your website, content, and business listings accurate and current, you're also improving your **Answer Engine Optimization (AEO)**, meaning your chances of being cited when someone asks ChatGPT, Gemini, Claude, or Perplexity a question relevant to your business.
 
-AI answer engines favor businesses with consistent, structured, up-to-date information across the web. This is one reason we recommend pairing agent-based content workflows with the fundamentals covered in our guide to [key strategies to rank on AI search](https://f9xr.org/articles/2026/09/07/key-strategies-to-rank-on-ai.html), and [Search Engine Land's AI SEO explainer](https://searchengineland.com/guide/what-is-ai-seo) is a useful external reference for the same ideas. Automation without accuracy just scales the wrong things faster.
+AI answer engines favor businesses with consistent, structured, up-to-date information across the web. This is one reason we recommend pairing agent-based content workflows with the fundamentals covered in our guide to [key strategies to rank on AI search](https://f9xr.org/articles/2026/09/07/key-strategies-to-rank-on-ai.html), and [Search Engine Land's AI SEO explainer](https://searchengineland.com/guide/what-is-ai-seo){:target="_blank" rel="noopener noreferrer"} is a useful external reference for the same ideas. Automation without accuracy just scales the wrong things faster.
 
 ---
 

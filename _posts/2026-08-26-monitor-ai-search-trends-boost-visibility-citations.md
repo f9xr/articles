@@ -38,7 +38,7 @@ Traditional Google rankings reward consistency and accumulated authority built o
 - Most brands see measurable changes in AI citation rates within just 4 to 8 weeks of consistent, focused optimization, a far shorter feedback loop than the 6 to 12 months a typical new page needs to rank meaningfully in traditional search.
 - AI models draw heavily on recent, high signal content when answering time sensitive or trend adjacent questions, meaning a business that publishes quickly around an emerging topic has a real, if temporary, window where there's simply less established competition to beat.
 - Citation rates can shift suddenly. A sudden drop often signals a competitor publishing stronger content, an AI model update, or a genuine shift in what people are actually asking, all things you'll miss entirely without some form of ongoing monitoring.
-- ChatGPT alone processes queries from more than 800 million weekly active users ([TechCrunch, Feb 2026](https://techcrunch.com/2026/02/27/chatgpt-reaches-900m-weekly-active-users)), and a meaningful share of those queries touch on current events, recent product comparisons, or "what's the latest" style questions that reward businesses actively tracking what's trending in their space.
+- ChatGPT alone processes queries from more than 800 million weekly active users ([TechCrunch, Feb 2026](https://techcrunch.com/2026/02/27/chatgpt-reaches-900m-weekly-active-users){:target="_blank" rel="noopener noreferrer"}), and a meaningful share of those queries touch on current events, recent product comparisons, or "what's the latest" style questions that reward businesses actively tracking what's trending in their space.
 
 ## What "Trend Monitoring" Actually Means for a Business Owner
 
@@ -46,7 +46,7 @@ This isn't about becoming a social media trend chaser or jumping on every viral 
 
 ### Traditional Search Trend Signals
 
-[Google Trends](https://trends.google.com/trends/) remains a genuinely useful, free starting point for spotting rising interest in a topic, product category, or question relevant to your niche before it peaks. Watching related queries and breakout searches specifically can surface exactly the kind of emerging question your content could answer early.
+[Google Trends](https://trends.google.com/trends/){:target="_blank" rel="noopener noreferrer"} remains a genuinely useful, free starting point for spotting rising interest in a topic, product category, or question relevant to your niche before it peaks. Watching related queries and breakout searches specifically can surface exactly the kind of emerging question your content could answer early.
 
 ### Social and Community Conversation Signals
 
@@ -88,7 +88,7 @@ Generic trend coverage rehashing what everyone else is already saying rarely ear
 
 ### Step 4: Confirm the Content Is Actually Reachable
 
-Double check that your [robots.txt](https://developers.google.com/search/docs/crawling-indexing/robots/intro) isn't blocking major [AI crawlers](https://developers.cloudflare.com/ai-crawl-control/reference/bots/), and that the new content renders properly without depending on JavaScript that a crawler might not execute. A great, timely article that AI systems can't technically access never gets the citation it earned.
+Double check that your [robots.txt](https://developers.google.com/search/docs/crawling-indexing/robots/intro){:target="_blank" rel="noopener noreferrer"} isn't blocking major [AI crawlers](https://developers.cloudflare.com/ai-crawl-control/reference/bots/){:target="_blank" rel="noopener noreferrer"}, and that the new content renders properly without depending on JavaScript that a crawler might not execute. A great, timely article that AI systems can't technically access never gets the citation it earned.
 
 ### Step 5: Monitor Whether It Actually Gets Cited
 
