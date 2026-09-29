@@ -88,3 +88,4 @@ https://f9xr.org/articles/2026/09/24/guest-posting-guide-for-new-websites.html
 https://f9xr.org/articles/2026/09/26/google-safe-ai-slop-detection-system.html
 https://f9xr.org/articles/2026/09/26/schema-markup-generator-guide-why-it-matters.html
 https://f9xr.org/articles/2026/09/28/how-to-de-ai-slop-your-website.html
+https://f9xr.org/articles/2026/09/29/pabbly-connect-social-media-automation-guide.html
