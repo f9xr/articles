@@ -90,3 +90,4 @@ https://f9xr.org/articles/2026/09/26/schema-markup-generator-guide-why-it-matter
 https://f9xr.org/articles/2026/09/28/how-to-de-ai-slop-your-website.html
 https://f9xr.org/articles/2026/09/29/amazon-blocks-meta-muse-ai-assistant.html
 https://f9xr.org/articles/2026/09/29/pabbly-connect-social-media-automation-guide.html
+https://f9xr.org/articles/2026/09/30/google-analytics-app-conversions-cross-channel-reports.html
