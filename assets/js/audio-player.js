@@ -1,5 +1,5 @@
 /**
- * F9XRAudioPlayer — Custom podcast audio player
+ * F9XRAudioPlayer - Custom podcast audio player
  * Vanilla JS, no dependencies. Attaches to [data-f9xr-audio] containers.
  *
  * Usage in Liquid:

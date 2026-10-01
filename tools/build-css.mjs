@@ -19,7 +19,7 @@ const here = dirname(fileURLToPath(import.meta.url));
 const repo = join(here, '..');
 const SRC = join(repo, 'css', 'override.css');
 const OUT = join(repo, 'css', 'override.min.css');
-const BANNER = '/* F9XR Articles — dark theme. Generated from css/override.css by tools/build-css.mjs. Do not edit by hand. */\n';
+const BANNER = '/* F9XR Articles: dark theme. Generated from css/override.css by tools/build-css.mjs. Do not edit by hand. */\n';
 
 const check = process.argv.includes('--check');
 
@@ -51,6 +51,6 @@ if (check) {
   await writeFile(OUT, output, 'utf8');
   const pct = ((1 - output.length / source.length) * 100).toFixed(1);
   console.log(
-    `css/override.min.css written — ${(source.length / 1024).toFixed(1)}kB -> ${(output.length / 1024).toFixed(1)}kB (${pct}% smaller)`
+    `css/override.min.css written: ${(source.length / 1024).toFixed(1)}kB -> ${(output.length / 1024).toFixed(1)}kB (${pct}% smaller)`
   );
 }

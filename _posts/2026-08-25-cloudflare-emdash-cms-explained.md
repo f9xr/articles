@@ -72,7 +72,7 @@ EmDash offers real deployment flexibility. It supports one-click deployment to C
 
 Cloudflare is [using EmDash to run its own blog](https://blog.cloudflare.com/cloudflare-blog-uses-emdash/){:target="_blank" rel="noopener noreferrer"}, making them Customer Zero for the platform.
 
-<blockquote class="twitter-tweet"><p lang="en" dir="ltr">We redesigned the Cloudflare Blog — dark mode, cleaner UI, faster load times. What you might not know: the whole thing runs on EmDash, a new CMS built on Cloudflare Workers. We were Customer Zero. <a href="https://t.co/XDj4qj4XUC">https://t.co/XDj4qj4XUC</a></p>&mdash; Cloudflare (@Cloudflare) <a href="https://x.com/Cloudflare/status/2091975362297090304?ref_src=twsrc%5Etfw">August 24, 2026</a></blockquote> <script async src="https://platform.x.com/widgets.js" charset="utf-8"></script>
+<blockquote class="twitter-tweet"><p lang="en" dir="ltr">We redesigned the Cloudflare Blog - dark mode, cleaner UI, faster load times. What you might not know: the whole thing runs on EmDash, a new CMS built on Cloudflare Workers. We were Customer Zero. <a href="https://t.co/XDj4qj4XUC">https://t.co/XDj4qj4XUC</a></p>&mdash; Cloudflare (@Cloudflare) <a href="https://x.com/Cloudflare/status/2091975362297090304?ref_src=twsrc%5Etfw">August 24, 2026</a></blockquote> <script async src="https://platform.x.com/widgets.js" charset="utf-8"></script>
 
 ---
 

@@ -16,7 +16,11 @@
       <a href="https://f9xr.org/directories/index.html" style="color:#8b8b8b; font-size:0.78em; margin:0 0.6em;">Directories</a>
       <a href="https://growwithguidance.blogspot.com" target="_blank" rel="noopener noreferrer" style="color:#8b8b8b; font-size:0.78em; margin:0 0.6em;">Blog</a>
       <a href="{{ '/press/privacy.html' | relative_url }}" style="color:#8b8b8b; font-size:0.78em; margin:0 0.6em;">Privacy</a>
-      <a href="#" onclick="openSearch(); return false;" style="color:#8b8b8b; font-size:0.78em; margin:0 0.6em;" title="Search articles (Press / or Ctrl+K)" role="button" aria-label="Search articles"><i class="fa-solid fa-magnifying-glass"></i></a>
+      <button type="button" class="search-btn" data-cmdk-open aria-label="Search articles" title="Search articles (press / or Ctrl+K)">
+        <svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="11" cy="11" r="8"/><path d="m21 21-4.3-4.3"/></svg>
+        <span class="search-btn-label">Search</span>
+        <kbd class="search-btn-kbd">/</kbd>
+      </button>
     </nav>
   </div>
 </header>

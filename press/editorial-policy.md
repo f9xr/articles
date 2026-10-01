@@ -1,7 +1,7 @@
 ---
 layout: page
 permalink: /press/editorial-policy.html
-title: "Editorial Policy — F9XR Articles"
+title: "Editorial Policy: F9XR Articles"
 description: "How F9XR Articles researches, writes, reviews, and publishes technical content on web architecture, AI integration, local SEO, and digital systems."
 keywords: "F9XR editorial policy, content standards, fact-checking, human editing, technical writing"
 dateModified: 2026-08-19
@@ -13,13 +13,13 @@ F9XR Articles maintains a structured editorial process designed to produce accur
 
 Every article published on F9XR Articles follows a four-stage pipeline:
 
-1. **Research** — Topics are selected based on documented user needs, search demand analysis, and gaps in existing technical documentation. Sources include official documentation, peer-reviewed research, verified industry benchmarks, and first-hand testing.
+1. **Research:** Topics are selected based on documented user needs, search demand analysis, and gaps in existing technical documentation. Sources include official documentation, peer-reviewed research, verified industry benchmarks, and first-hand testing.
 
-2. **Drafting** — Content is drafted by team members with direct experience in the subject matter. Each draft must include working code examples (where applicable), real-world context, and citations for any external claims.
+2. **Drafting:** Content is drafted by team members with direct experience in the subject matter. Each draft must include working code examples (where applicable), real-world context, and citations for any external claims.
 
-3. **Technical Review** — Every code block, configuration example, and technical recommendation is tested in a live environment before publication. Outdated libraries, deprecated APIs, and unverified claims are flagged and resolved prior to publishing.
+3. **Technical Review:** Every code block, configuration example, and technical recommendation is tested in a live environment before publication. Outdated libraries, deprecated APIs, and unverified claims are flagged and resolved prior to publishing.
 
-4. **Editorial Review** — Content is reviewed for clarity, accuracy, adherence to style guidelines, and compliance with the standards outlined in the [F9XR Ethics & Fact-Checking Policy]({{ '/press/ethics-policy.html' | relative_url }}). Only after passing both technical and editorial review is content published.
+4. **Editorial Review:** Content is reviewed for clarity, accuracy, adherence to style guidelines, and compliance with the standards outlined in the [F9XR Ethics & Fact-Checking Policy]({{ '/press/ethics-policy.html' | relative_url }}). Only after passing both technical and editorial review is content published.
 
 ## Human Editing vs AI-Assisted Content
 
@@ -63,6 +63,6 @@ Guest contributions are accepted only when the contributor can demonstrate verif
 
 ## Related Policies
 
-- [Correction Policy]({{ '/press/correction-policy.html' | relative_url }}) — How errors are identified, reported, and resolved.
-- [Ethics & Fact-Checking Policy]({{ '/press/ethics-policy.html' | relative_url }}) — Standards for data integrity and conflict-of-interest management.
-- [Ownership, Funding, & Transparency]({{ '/press/transparency.html' | relative_url }}) — Organizational structure, funding model, and disclosure practices.
+- [Correction Policy]({{ '/press/correction-policy.html' | relative_url }}): How errors are identified, reported, and resolved.
+- [Ethics & Fact-Checking Policy]({{ '/press/ethics-policy.html' | relative_url }}): Standards for data integrity and conflict-of-interest management.
+- [Ownership, Funding, & Transparency]({{ '/press/transparency.html' | relative_url }}): Organizational structure, funding model, and disclosure practices.

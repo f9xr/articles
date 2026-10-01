@@ -79,10 +79,10 @@ Think of it this way: YMYL identifies which topics carry higher risk, while E-E-
 
 ### What Google Actually Looks For
 
-* **Experience** – Does the content reflect real, first-hand experience with the topic?
-* **Expertise** – Does the author have relevant qualifications, training, or demonstrated knowledge?
-* **Authoritativeness** – Is the website or author recognized as a credible source in this space by others?
-* **Trustworthiness** – Is the site secure, transparent about ownership, and accurate in its claims?
+* **Experience** - Does the content reflect real, first-hand experience with the topic?
+* **Expertise** - Does the author have relevant qualifications, training, or demonstrated knowledge?
+* **Authoritativeness** - Is the website or author recognized as a credible source in this space by others?
+* **Trustworthiness** - Is the site secure, transparent about ownership, and accurate in its claims?
 
 For non-YMYL content, like a blog about your favorite coffee shops, Google is more forgiving of a lower E-E-A-T bar. For YMYL content, all four elements need to be strong, particularly expertise and trustworthiness, since inaccurate advice in these categories carries real consequences. Building that trust takes work, and it starts with the basics like [improving your website's trust score](https://f9xr.org/articles/2026/08/15/how-to-increase-website-trust-score.html) through transparency, secure infrastructure, and consistent accuracy.
 

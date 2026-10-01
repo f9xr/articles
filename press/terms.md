@@ -1,7 +1,7 @@
 ---
 layout: page
 permalink: /press/terms.html
-title: "Terms of Service — F9XR Articles"
+title: "Terms of Service: F9XR Articles"
 description: "The terms and conditions for using F9XR Articles, the publishing platform by F9XR Team. Read before reusing or relying on our content."
 keywords: "F9XR Articles terms, terms of service, content licensing, acceptable use, disclaimer"
 dateModified: 2026-08-30
@@ -30,7 +30,7 @@ You may browse and share the Site freely. When you use the Site you agree not to
 
 Unless stated otherwise, the design, code, and written content of the Site are original works and protected by copyright. The Site's source code is published under an open source license in the [f9xr/articles repository](https://github.com/f9xr/articles){:target="_blank" rel="noopener noreferrer"}, where the specific license is recorded.
 
-Short excerpts of articles may be quoted with clear attribution and a link back to the original article. Full republication, translations, or commercial reuse requires written permission — contact us via the [contact page]({{ '/press/contact.html' | relative_url }}).
+Short excerpts of articles may be quoted with clear attribution and a link back to the original article. Full republication, translations, or commercial reuse requires written permission. Contact us via the [contact page]({{ '/press/contact.html' | relative_url }}).
 
 External logos, trademarks, screenshots, and quoted material from third parties remain the property of their respective owners and are used for editorial, commentary, or identification purposes only.
 

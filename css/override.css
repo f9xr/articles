@@ -1,5 +1,5 @@
 /* ============================================
-   F9XR Articles — Brand Dark Theme
+   F9XR Articles - Brand Dark Theme
    Colors matched to f9xr.org
    ============================================ */
 
@@ -1408,7 +1408,7 @@ body > .goog-te-gadget {
 }
 
 /* ===========================
-   FOOTER — Full Minima Override
+   FOOTER - Full Minima Override
    =========================== */
 footer.site-footer,
 .site-footer,
@@ -2168,6 +2168,77 @@ details summary:focus-visible {
   padding:0 1em;
 }
 
+/* --- Header search trigger --- */
+.search-btn {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.45em;
+  margin: 0 0.6em;
+  padding: 0.34em 0.7em;
+  background: rgba(255, 255, 255, 0.04);
+  border: 1px solid #262a31;
+  border-radius: 999px;
+  color: #b1bac4;
+  font-family: inherit;
+  font-size: 0.78em;
+  font-weight: 500;
+  line-height: 1.4;
+  cursor: pointer;
+  vertical-align: middle;
+  white-space: nowrap;
+  transition: background 0.15s ease, border-color 0.15s ease, color 0.15s ease;
+}
+.search-btn svg {
+  flex-shrink: 0;
+  opacity: 0.75;
+  transition: opacity 0.15s ease;
+}
+.search-btn:hover {
+  background: rgba(59, 130, 246, 0.12);
+  border-color: rgba(59, 130, 246, 0.45);
+  color: #e8ecf1;
+}
+.search-btn:hover svg {
+  opacity: 1;
+}
+.search-btn:focus-visible {
+  outline: 2px solid #3b82f6;
+  outline-offset: 2px;
+}
+.search-btn-kbd {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  min-width: 1.5em;
+  padding: 0.05em 0.35em;
+  background: rgba(255, 255, 255, 0.05);
+  border: 1px solid #2c3038;
+  border-radius: 4px;
+  color: #71717a;
+  font-family: inherit;
+  font-size: 0.85em;
+  line-height: 1.4;
+}
+.search-btn:hover .search-btn-kbd {
+  color: #93c5fd;
+  border-color: rgba(59, 130, 246, 0.4);
+}
+@media (max-width: 860px) {
+  .search-btn {
+    margin: 0 0.4em;
+    padding: 0.4em;
+  }
+  .search-btn-label,
+  .search-btn-kbd {
+    display: none;
+  }
+  .search-btn svg {
+    width: 14px;
+    height: 14px;
+    opacity: 1;
+  }
+}
+
 /* --- Search Command Palette (cmdk) --- */
 .cmdk[hidden] {
   display: none;
@@ -2178,7 +2249,8 @@ body.cmdk-open {
 .cmdk {
   position: fixed;
   inset: 0;
-  z-index: 9999;
+  /* Above the audio player bar and its tooltips, which both sit at 9999. */
+  z-index: 10001;
   display: flex;
   align-items: flex-start;
   justify-content: center;
@@ -2286,28 +2358,27 @@ body.cmdk-open {
   flex-shrink: 0;
   display: flex;
   align-items: center;
-  background: none;
-  border: none;
-  padding: 0.2em 0;
+  justify-content: center;
+  width: 2em;
+  height: 2em;
+  background: rgba(255,255,255,0.03);
+  border: 1px solid #262a31;
+  border-radius: 8px;
+  color: #71717a;
   cursor: pointer;
+  transition: background 0.15s ease, border-color 0.15s ease, color 0.15s ease;
 }
-.cmdk-close kbd {
-  display: inline-block;
-  background: #151515;
-  border: 1px solid #2a2d32;
-  border-bottom-width: 2px;
-  border-radius: 6px;
-  padding: 0.15em 0.5em;
-  font-family: inherit;
-  font-size: 0.7em;
-  font-weight: 600;
-  color: #8b8b8b;
-  transition: all 0.15s ease;
-}
-.cmdk-close:hover kbd {
-  background: rgba(255,255,255,0.05);
+.cmdk-close:hover {
+  background: rgba(255,255,255,0.07);
   border-color: #3d4148;
   color: #f0f0f0;
+}
+.cmdk-close:focus-visible,
+.cmdk-clear:focus-visible,
+.cmdk-tag:focus-visible,
+.cmdk-share:focus-visible {
+  outline: 2px solid #3b82f6;
+  outline-offset: 2px;
 }
 
 /* --- Status line --- */
@@ -2326,11 +2397,30 @@ body.cmdk-open {
 
 /* --- Result list --- */
 .cmdk-results {
-  flex: 1;
+  flex: 1 1 auto;
   min-height: 0;
   overflow-y: auto;
   overscroll-behavior: contain;
-  padding: 0.45em;
+  -webkit-overflow-scrolling: touch;
+  padding: 0.5em;
+  scrollbar-width: thin;
+  scrollbar-color: #2c3038 transparent;
+}
+.cmdk-results::-webkit-scrollbar {
+  width: 10px;
+}
+.cmdk-results::-webkit-scrollbar-track {
+  background: transparent;
+}
+.cmdk-results::-webkit-scrollbar-thumb {
+  background: #2c3038;
+  border: 3px solid transparent;
+  background-clip: content-box;
+  border-radius: 999px;
+}
+.cmdk-results::-webkit-scrollbar-thumb:hover {
+  background: #3b4149;
+  background-clip: content-box;
 }
 .cmdk-results::-webkit-scrollbar { width: 8px; }
 .cmdk-results::-webkit-scrollbar-track { background: transparent; }
@@ -2419,16 +2509,34 @@ body.cmdk-open {
 }
 
 /* --- Browse / empty states --- */
-.cmdk-browse-label {
-  padding: 0.7em 0.5em 0.5em;
-  color: #52525b;
-  font-size: 0.7em;
+.cmdk-section {
+  padding: 0.35em 0.15em 0.55em;
+}
+.cmdk-section + .cmdk-section {
+  border-top: 1px solid #17191c;
+  margin-top: 0.35em;
+  padding-top: 0.6em;
+}
+.cmdk-section-head {
+  display: flex;
+  align-items: baseline;
+  justify-content: space-between;
+  gap: 0.8em;
+  padding: 0.55em 0.6em 0.5em;
+}
+.cmdk-section-label {
+  margin: 0;
+  color: #71717a;
+  font-size: 0.68em;
   font-weight: 700;
   letter-spacing: 0.09em;
   text-transform: uppercase;
 }
-.cmdk-browse-label:first-child {
-  padding-top: 0.3em;
+.cmdk-section-hint {
+  color: #3f444c;
+  font-size: 0.68em;
+  font-weight: 500;
+  letter-spacing: 0.02em;
 }
 .cmdk-tags {
   display: flex;
@@ -2505,11 +2613,42 @@ body.cmdk-open {
   align-items: center;
   text-align: center;
   gap: 0.5em;
-  padding: 2.2em 1.2em 1.4em;
+  padding: 2.4em 1.2em 1.6em;
   color: #52525b;
 }
-.cmdk-noresults svg {
-  color: #30363d;
+.cmdk-noresults-icon {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 2.9em;
+  height: 2.9em;
+  margin-bottom: 0.35em;
+  background: rgba(255,255,255,0.03);
+  border: 1px solid #1e2024;
+  border-radius: 50%;
+  color: #3f444c;
+}
+.cmdk-noresults-clear {
+  margin-top: 1em;
+  padding: 0.5em 1em;
+  background: rgba(255,255,255,0.035);
+  border: 1px solid #262a31;
+  border-radius: 8px;
+  color: #b1bac4;
+  font-family: inherit;
+  font-size: 0.78em;
+  font-weight: 500;
+  cursor: pointer;
+  transition: background 0.15s ease, border-color 0.15s ease, color 0.15s ease;
+}
+.cmdk-noresults-clear:hover {
+  background: rgba(59,130,246,0.12);
+  border-color: rgba(59,130,246,0.45);
+  color: #e8ecf1;
+}
+.cmdk-noresults-clear:focus-visible {
+  outline: 2px solid #3b82f6;
+  outline-offset: 2px;
 }
 .cmdk-noresults-title {
   margin: 0.2em 0 0;
@@ -2521,6 +2660,16 @@ body.cmdk-open {
   margin: 0;
   font-size: 0.8em;
 }
+.cmdk-row-meta {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 0.45em;
+  color: #52525b;
+  font-size: 0.72em;
+  margin-top: 0.4em;
+  font-variant-numeric: tabular-nums;
+}
 .cmdk-noresults .cmdk-tags {
   justify-content: center;
   margin-top: 0.6em;
@@ -2528,16 +2677,6 @@ body.cmdk-open {
 }
 
 /* --- Palette footer --- */
-.cmdk-foot {
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-  gap: 1em;
-  flex-shrink: 0;
-  padding: 0.6em 1em;
-  border-top: 1px solid #16181b;
-  background: rgba(255,255,255,0.015);
-}
 .cmdk-count {
   color: #52525b;
   font-size: 0.74em;
@@ -5235,6 +5374,66 @@ a, button, summary, .ed-card, .post-nav-card {
   }
 }
 
+/* Search palette on phones: dock to the bottom, full height, roomier targets */
+@media (max-width: 640px) {
+  .cmdk {
+    padding: 0;
+    align-items: stretch;
+  }
+  .cmdk-panel {
+    max-width: none;
+    max-height: none;
+    height: 100vh;
+    /* dvh keeps the panel correct when mobile browser chrome collapses. */
+    height: 100dvh;
+    border-radius: 0;
+    border-left: none;
+    border-right: none;
+    border-bottom: none;
+    transform: translateY(14px);
+  }
+  .cmdk.is-open .cmdk-panel {
+    transform: translateY(0);
+  }
+  .cmdk-head {
+    padding: 0.7em 0.7em 0.7em 0.9em;
+    /* Clear of the notch and the iOS home indicator. */
+    padding-top: calc(0.7em + env(safe-area-inset-top));
+  }
+  .cmdk-results {
+    padding: 0.4em 0.55em;
+  }
+  .cmdk-row {
+    padding: 0.85em 0.8em;
+  }
+  .cmdk-row-desc {
+    -webkit-line-clamp: 3;
+  }
+  .cmdk-tag {
+    padding: 0.55em 0.85em;
+  }
+  .cmdk-recent {
+    padding: 0.7em 0.6em;
+  }
+  .cmdk-keys {
+    display: none;
+  }
+  .cmdk-foot {
+    padding: 0.6em 0.9em;
+    padding-bottom: calc(0.6em + env(safe-area-inset-bottom));
+  }
+  .cmdk-status {
+    padding: 0.7em 0.9em;
+  }
+}
+
+/* Tablet and small laptop: trim the outer padding a little */
+@media (min-width: 641px) and (max-width: 900px) {
+  .cmdk {
+    padding: 8vh 1em 1em;
+  }
+}
+
 /* Header nav: roomier tap targets on phones */
 @media (max-width: 480px) {
   .site-header nav a {
@@ -5627,7 +5826,7 @@ details.episode-transcript summary::marker {
 }
 
 /* ===========================
-   404 PAGE — keep footer covered
+   404 PAGE - keep footer covered
    =========================== */
 .page-404 .page-content {
   display: flex !important;

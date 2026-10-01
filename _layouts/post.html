@@ -185,25 +185,100 @@ layout: default
         e.preventDefault();
         var t = document.getElementById(id);
         if (t) {
-          var headerH = document.querySelector('.site-header').offsetHeight + 16;
-          var top = t.getBoundingClientRect().top + window.pageYOffset - headerH;
+          var top = t.getBoundingClientRect().top + window.pageYOffset - headerOffset();
           window.scrollTo({ top: top, behavior: 'smooth' });
         }
+        revealActiveLink(link);
       });
     });
 
-    if ('IntersectionObserver' in window && spyTargets.length) {
-      var spy = new IntersectionObserver(function(entries) {
-        entries.forEach(function(entry) {
-          if (entry.isIntersecting) {
-            spyTargets.forEach(function(item) {
-              item.link.classList.toggle('active', item.target === entry.target);
-            });
-          }
-        });
-      }, { rootMargin: '-90px 0px -70% 0px', threshold: 0 });
-      spyTargets.forEach(function(item) { spy.observe(item.target); });
+    if (!spyTargets.length) return;
+
+    // Scroll offset used for both the spy and the click handler so the heading
+    // always lands just below the fixed header.
+    function headerOffset() {
+      var h = document.querySelector('.site-header');
+      return (h ? h.offsetHeight : 64) + 16;
     }
+
+    // The sidebar is its own scroll container (sticky with a max height), so
+    // when the active heading changes we nudge that container rather than the
+    // page. Without this the active link drifts out of view on long articles.
+    var sidebar = toc.closest('.post-sidebar') || toc;
+    var keepActiveVisible = true;
+
+    function revealActiveLink(link) {
+      if (!keepActiveVisible || !link) return;
+      var box = sidebar.getBoundingClientRect();
+      var item = link.getBoundingClientRect();
+      var pad = 12;
+      if (item.top >= box.top + pad && item.bottom <= box.bottom - pad) return;
+      var delta;
+      if (item.top < box.top + pad) delta = item.top - box.top - pad;
+      else delta = item.bottom - box.bottom + pad;
+      if (typeof sidebar.scrollTo === 'function') {
+        sidebar.scrollTo({ top: sidebar.scrollTop + delta, behavior: 'smooth' });
+      } else {
+        sidebar.scrollTop += delta;
+      }
+    }
+
+    function setActiveLink(link) {
+      if (!link || link.classList.contains('active')) return;
+      links.forEach(function(l) { l.classList.remove('active'); });
+      if (link) link.classList.add('active');
+      revealActiveLink(link);
+    }
+
+    // Scroll-driven spy. IntersectionObserver alone leaves no link active in
+    // the gaps between headings and misses fast flicks, so pick the last
+    // heading that has passed the header line.
+    var ticking = false;
+    function updateSpy() {
+      ticking = false;
+      var line = headerOffset() + 8;
+      var current = null;
+      for (var i = 0; i < spyTargets.length; i++) {
+        if (spyTargets[i].target.getBoundingClientRect().top <= line) {
+          current = spyTargets[i];
+        } else {
+          break;
+        }
+      }
+      // At the very bottom of the page the last heading can never reach the
+      // header line, so pin it instead of leaving nothing highlighted.
+      if (window.innerHeight + window.pageYOffset >= document.body.scrollHeight - 2) {
+        current = spyTargets[spyTargets.length - 1];
+      }
+      setActiveLink(current ? current.link : null);
+    }
+
+    function onScroll() {
+      if (ticking) return;
+      ticking = true;
+      window.requestAnimationFrame(updateSpy);
+    }
+
+    window.addEventListener('scroll', onScroll, { passive: true });
+    window.addEventListener('resize', onScroll);
+    updateSpy();
+
+    // Do not fight the user when they scroll the TOC by hand.
+    var resumeTimer = null;
+    sidebar.addEventListener('wheel', function() {
+      keepActiveVisible = false;
+      clearTimeout(resumeTimer);
+      resumeTimer = setTimeout(function() { keepActiveVisible = true; }, 1400);
+    }, { passive: true });
+    sidebar.addEventListener('touchmove', function() {
+      keepActiveVisible = false;
+      clearTimeout(resumeTimer);
+      resumeTimer = setTimeout(function() { keepActiveVisible = true; }, 1400);
+    }, { passive: true });
+
+    links.forEach(function(link) {
+      link.addEventListener('focus', function() { revealActiveLink(link); });
+    });
   });
   </script>
 
@@ -423,7 +498,7 @@ layout: default
     <div class="share-box">
       <span class="share-box-icon"><i class="fa-solid fa-share-nodes"></i></span>
       <h2 class="share-box-title">Enjoyed this article?</h2>
-      <p class="share-box-text">Share it with your network — help someone else discover these insights.</p>
+      <p class="share-box-text">Share it with your network: help someone else discover these insights.</p>
       <div class="share-box-buttons">
         {% include sharelinks.html tooltip="footer" %}
       </div>
@@ -481,8 +556,13 @@ layout: default
   {% assign rel_seen = "" %}
   {% for rel_tag in page.tags %}
     {% for related in site.tags[rel_tag] %}
-      {% if related.url != page.url and rel_seen contains related.url == false %}
-        {% assign rel_seen = rel_seen | append: related.url | append: "||" %}
+      {% assign rel_marker = related.url | append: "||" %}
+      {% assign rel_is_new = false %}
+      {% unless rel_seen contains rel_marker %}
+        {% assign rel_is_new = true %}
+      {% endunless %}
+      {% if related.url != page.url and rel_is_new %}
+        {% assign rel_seen = rel_seen | append: rel_marker %}
         {% assign related_posts = related_posts | push: related %}
       {% endif %}
     {% endfor %}
@@ -1278,7 +1358,7 @@ function downloadPDF() {
       return;
     }
 
-    // Post navigation (N/P only) — only when not typing or in editable content
+    // Post navigation (N/P only): only when not typing or in editable content
     if (tag === 'INPUT' || tag === 'TEXTAREA' || tag === 'SELECT' || e.target.isContentEditable) return;
     {% if page.next.url %}
     if (e.key === 'n' || e.key === 'N') {

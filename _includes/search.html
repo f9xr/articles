@@ -5,13 +5,15 @@
     <div class="cmdk-head">
       <svg class="cmdk-icon" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="11" cy="11" r="8"/><path d="m21 21-4.3-4.3"/></svg>
       <input
-        type="text"
+        type="search"
+        name="q"
         class="cmdk-input"
-        placeholder="Search titles, topics and article text…"
+        placeholder="Search 90+ articles by title, topic or text"
         autocomplete="off"
         autocorrect="off"
         autocapitalize="off"
         spellcheck="false"
+        enterkeyhint="search"
         role="combobox"
         aria-expanded="false"
         aria-controls="cmdkResults"
@@ -21,7 +23,9 @@
       <button type="button" class="cmdk-clear" data-cmdk-clear aria-label="Clear search" hidden>
         <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" aria-hidden="true"><path d="M18 6 6 18M6 6l12 12"/></svg>
       </button>
-      <button type="button" class="cmdk-close" data-cmdk-close aria-label="Close search"><kbd>Esc</kbd></button>
+      <button type="button" class="cmdk-close" data-cmdk-close aria-label="Close search">
+        <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" aria-hidden="true"><path d="M18 6 6 18M6 6l12 12"/></svg>
+      </button>
     </div>
 
     <p class="cmdk-status" role="status"></p>
@@ -251,10 +255,20 @@
 
     resultsEl.innerHTML =
       '<div class="cmdk-browse">' +
-        '<div class="cmdk-browse-label" id="cmdkBrowseLabel">Browse by topic</div>' +
-        '<div class="cmdk-tags" role="group" aria-labelledby="cmdkBrowseLabel">' + chips + '</div>' +
-        '<div class="cmdk-browse-label">Latest articles</div>' +
-        '<div class="cmdk-recents">' + recent + '</div>' +
+        '<section class="cmdk-section">' +
+          '<div class="cmdk-section-head">' +
+            '<h3 class="cmdk-section-label" id="cmdkBrowseLabel">Browse by topic</h3>' +
+            '<span class="cmdk-section-hint">' + tagCounts.length + ' topics</span>' +
+          '</div>' +
+          '<div class="cmdk-tags" role="group" aria-labelledby="cmdkBrowseLabel">' + chips + '</div>' +
+        '</section>' +
+        '<section class="cmdk-section">' +
+          '<div class="cmdk-section-head">' +
+            '<h3 class="cmdk-section-label">Latest articles</h3>' +
+            '<span class="cmdk-section-hint">Newest first</span>' +
+          '</div>' +
+          '<div class="cmdk-recents">' + recent + '</div>' +
+        '</section>' +
       '</div>';
   }
 
@@ -276,11 +290,11 @@
         if (snip) bits += '<div class="cmdk-row-desc">' + highlight(snip, re) + '</div>';
       }
 
-      bits += '<div class="cmdk-row-meta">' + esc(d.date) + '</div>';
+      bits += '<div class="cmdk-row-meta">' + esc(d.date) + (d.tags && d.tags.length > 1 ? ' · ' + esc(d.tags.slice(1, 3).join(' · ')) : '') + '</div>';
       html += '<a class="cmdk-row" id="cmdk-opt-' + i + '" href="' + esc(d.url) + '" role="option" aria-selected="false">' + bits + '</a>';
     }
 
-    // The listbox role only wraps real options — the browse and no-results
+    // The listbox role only wraps real options: the browse and no-results
     // states are not selectable items, so they render without it. The overflow
     // notice is a sibling for the same reason.
     var more = total > matches.length
@@ -302,12 +316,15 @@
     input.setAttribute('aria-expanded', 'false');
     resultsEl.innerHTML =
       '<div class="cmdk-noresults">' +
-        '<svg width="26" height="26" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.75" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="11" cy="11" r="8"/><path d="m21 21-4.3-4.3"/></svg>' +
+        '<span class="cmdk-noresults-icon">' +
+          '<svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.75" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="11" cy="11" r="8"/><path d="m21 21-4.3-4.3"/></svg>' +
+        '</span>' +
         '<p class="cmdk-noresults-title">No articles match &ldquo;' + esc(query) + '&rdquo;</p>' +
-        '<p class="cmdk-noresults-hint">Try a shorter phrase, or pick a topic below.</p>' +
+        '<p class="cmdk-noresults-hint">Try fewer words, or pick a topic below.</p>' +
         (tagCounts.length ? '<div class="cmdk-tags">' + tagCounts.slice(0, 8).map(function(t) {
           return '<button type="button" class="cmdk-tag" data-cmdk-tag="' + esc(t.tag) + '">' + esc(t.tag) + '<span class="cmdk-tag-n">' + t.n + '</span></button>';
         }).join('') + '</div>' : '') +
+        '<button type="button" class="cmdk-noresults-clear" data-cmdk-clear-all>Clear search</button>' +
       '</div>';
   }
 
@@ -363,11 +380,15 @@
     var seq = ++openSeq;
     opener = document.activeElement;
     root.hidden = false;
+    // Hiding the scrollbar with overflow:hidden would shift the whole page
+    // sideways, so reserve its width before the class lands.
+    var sbw = window.innerWidth - document.documentElement.clientWidth;
+    document.body.style.paddingRight = sbw > 0 ? sbw + 'px' : '';
     document.body.classList.add('cmdk-open');
     requestAnimationFrame(function() {
       // close() keeps the node visible until its exit transition finishes, so
       // root.hidden is still false here. The sequence token is what actually
-      // detects that we were closed in the meantime — without it the class
+      // detects that we were closed in the meantime. Without it the class
       // lands after close() removed it and the next open skips its transition.
       if (seq === openSeq && !root.hidden) root.classList.add('is-open');
     });
@@ -385,6 +406,7 @@
     openSeq++;
     root.classList.remove('is-open');
     document.body.classList.remove('cmdk-open');
+    document.body.style.paddingRight = '';
     var finish = function() { root.hidden = true; };
     if (window.matchMedia && window.matchMedia('(prefers-reduced-motion: reduce)').matches) finish();
     else setTimeout(finish, 160);
@@ -404,7 +426,24 @@
       input.focus();
       return;
     }
+    if (e.target.closest('[data-cmdk-clear-all]')) {
+      input.value = '';
+      resetActive();
+      run();
+      input.focus();
+      return;
+    }
     if (e.target.closest('.cmdk-row, .cmdk-recent')) close();
+  });
+
+  // The header trigger lives outside the dialog, so listen on the document.
+  document.addEventListener('click', function(e) {
+    var trigger = e.target.closest('[data-cmdk-open]');
+    if (!trigger) return;
+    e.preventDefault();
+    // The palette has its own click handler for [data-cmdk-close], and the
+    // trigger is never inside the dialog, so there is no double handling.
+    if (!isOpen()) open();
   });
 
   input.addEventListener('input', function() {
@@ -456,8 +495,14 @@
     if (e.key !== 'Tab') return;
     var focusable = panel.querySelectorAll('input, button:not([hidden]), a[href]');
     if (focusable.length === 0) return;
-    var first = focusable[0];
-    var last = focusable[focusable.length - 1];
+    // Filter out anything not actually rendered, otherwise the trap can land
+    // on a hidden element and drop focus on the backdrop.
+    var list = Array.prototype.filter.call(focusable, function(el) {
+      return el.offsetParent !== null || el === input;
+    });
+    if (list.length === 0) return;
+    var first = list[0];
+    var last = list[list.length - 1];
     if (e.shiftKey && document.activeElement === first) { e.preventDefault(); last.focus(); }
     else if (!e.shiftKey && document.activeElement === last) { e.preventDefault(); first.focus(); }
   });

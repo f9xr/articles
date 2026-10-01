@@ -275,7 +275,7 @@ We submit your business to top local directories that drive real leads and build
 - Save 40+ hours of manual work
 - Professional submission process
 
-No Bots. Just Real Citations. Our team manually submits your business to the best local directories and citation platforms. No shortcuts - just real listings that get approved and indexed by search engines. Getting your business listed on 100+ directories sounds time consuming, right? That is where we come in. Simply fill out our quick form with your business details, and we will handle everything else.
+No Bots. Just Real Citations. Our team manually submits your business to the best local directories and citation platforms. No shortcuts, just real listings that get approved and indexed by search engines. Getting your business listed on 100+ directories sounds time consuming, right? That is where we come in. Simply fill out our quick form with your business details, and we will handle everything else.
 
 <a href="https://f9xr.org/services/we-do-for-you.html" target="_blank" rel="noopener noreferrer" style="display:inline-block; margin-top:0.5em; background:linear-gradient(135deg, #3b82f6, #2563eb); color:#fff !important; padding:0.7em 1.6em; border-radius:8px; font-weight:600; text-decoration:none !important; transition:opacity 0.2s;" onmouseover="this.style.opacity='0.9'" onmouseout="this.style.opacity='1'">Learn More</a>
 

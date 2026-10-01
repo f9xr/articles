@@ -1,7 +1,7 @@
 ---
 layout: page
 permalink: /press/ethics-policy.html
-title: "Ethics & Fact-Checking Policy — F9XR Articles"
+title: "Ethics & Fact-Checking Policy: F9XR Articles"
 description: "F9XR Articles standards for data integrity, conflict-of-interest management, technical claim verification, and ethical publishing practices."
 keywords: "F9XR ethics policy, fact-checking, data integrity, conflicts of interest, technical verification"
 dateModified: 2026-08-19
@@ -24,7 +24,7 @@ F9XR Articles applies the following standards to all data, claims, and assertion
 - **Dependencies are pinned.** Code examples that depend on external libraries specify minimum compatible versions to prevent breakage from upstream changes.
 
 ### Correction of Errors
-When inaccuracies are identified — whether by readers, team members, or automated monitoring — they are resolved through the process described in the [F9XR Correction Policy]({{ '/press/correction-policy.html' | relative_url }}).
+When inaccuracies are identified, whether by readers, team members, or automated monitoring, they are resolved through the process described in the [F9XR Correction Policy]({{ '/press/correction-policy.html' | relative_url }}).
 
 ## Conflict of Interest Management
 
@@ -81,6 +81,6 @@ F9XR Articles holds itself accountable to the standards described in this policy
 
 ## Related Policies
 
-- [Editorial Policy]({{ '/press/editorial-policy.html' | relative_url }}) — How content is researched, written, and reviewed.
-- [Correction Policy]({{ '/press/correction-policy.html' | relative_url }}) — How errors are identified, reported, and resolved.
-- [Ownership, Funding, & Transparency]({{ '/press/transparency.html' | relative_url }}) — Organizational structure, funding model, and disclosure practices.
+- [Editorial Policy]({{ '/press/editorial-policy.html' | relative_url }}): How content is researched, written, and reviewed.
+- [Correction Policy]({{ '/press/correction-policy.html' | relative_url }}): How errors are identified, reported, and resolved.
+- [Ownership, Funding, & Transparency]({{ '/press/transparency.html' | relative_url }}): Organizational structure, funding model, and disclosure practices.
