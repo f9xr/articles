@@ -49,7 +49,7 @@ keywords: "F9XR articles archive, web architecture, AI integration, local SEO, d
     <a href="https://f9xr.org/pages/services.html">Services</a>
     <a href="https://f9xr.org/pages/portfolio.html">Portfolio</a>
     <a href="https://f9xr.org/pages/contact.html">Contact</a>
-    <button type="button" class="ed-masthead-search" onclick="toggleSearch(); return false;"><i class="fa-solid fa-magnifying-glass"></i> Search</button>
+    <button type="button" class="ed-masthead-search" onclick="openSearch(); return false;"><i class="fa-solid fa-magnifying-glass"></i> Search <kbd class="ed-masthead-kbd">/</kbd></button>
   </nav>
 </header>
 

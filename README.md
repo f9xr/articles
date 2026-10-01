@@ -32,10 +32,14 @@ articles/
 │   ├── default.html       # Base layout
 │   └── post.html          # Blog post layout with JSON-LD
 ├── _posts/                # Blog articles (Markdown)
+├── search_index.json      # Search index source -> /search-index.json
 ├── css/
-│   └── override.css       # Custom dark theme styles
+│   ├── override.css       # Custom dark theme styles (source of truth)
+│   └── override.min.css   # Generated, minified, and the only file served
 ├── js/
 │   └── highlightjs/       # Syntax highlighting assets
+├── tools/                 # Build helpers (not part of the site)
+│   └── build-css.mjs      # Regenerates css/override.min.css
 ├── index.md               # Blog landing page
 ├── archive.md             # Article archive
 ├── robots.txt             # Search engine directives
@@ -45,6 +49,7 @@ articles/
 
 ## Features
 
+- **Command palette search** — Press <kbd>/</kbd> or <kbd>Ctrl</kbd>+<kbd>K</kbd> for a full-screen search palette. Searches titles, descriptions, tags, and article text, with relevance ranking, match highlighting, and `?q=` shareable links
 - **Dark theme** — Custom dark UI with brand-consistent colors and gradients
 - **SEO-optimized** — Open Graph, Twitter Cards, JSON-LD (BlogPosting, FAQ, BreadcrumbList), canonical URLs, XML sitemap
 - **Rich reading experience** — Reading progress bar, back-to-top button, smooth animations, responsive layouts
@@ -54,7 +59,7 @@ articles/
 - **Author profiles** — Author badges, reading time estimates, tag filtering
 - **Comments** — GitHub issue-based commenting via utterances
 - **FAQ section** — Optional per-post structured FAQ with JSON-LD
-- **Accessibility** — Focus rings, skip-to-content link, semantic HTML
+- **Accessibility** — Focus rings, skip-to-content link, semantic HTML, ARIA combobox pattern for search
 
 ## Post Features
 
@@ -72,21 +77,37 @@ Each post can include:
 
 - [Ruby](https://www.ruby-lang.org/) (latest stable)
 - [Jekyll](https://jekyllrb.com/) and [Bundler](https://bundler.io/)
+- [Node.js](https://nodejs.org/) (only for the CSS build)
 
 ### Local Development
 
 ```bash
-# Install Jekyll and Bundler
-gem install jekyll bundler
+# Install dependencies
+bundle install
 
 # Start the development server
-jekyll serve
+bundle exec jekyll serve
 
 # With live reload
-jekyll serve --livereload
+bundle exec jekyll serve --livereload
 ```
 
 The site will be available at `http://localhost:4000`.
+
+### CSS
+
+`css/override.css` is the source of truth, but it is listed under `exclude` in
+`_config.yml` and never served. The page loads `css/override.min.css`, which is
+**generated** — so any edit to `override.css` has no effect until you rebuild it.
+
+```bash
+cd tools
+npm install
+npm run css        # regenerate css/override.min.css
+npm run css:check  # fail if the minified file is out of date (for CI)
+```
+
+If a style change does not appear on the site, this step was missed.
 
 ## Contributing
 

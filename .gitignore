@@ -1,5 +1,7 @@
 ﻿_site
 .sass-cache
+.jekyll-cache
 todo.txt
 prompt.txt
 tools/node_modules
+Gemfile.lock

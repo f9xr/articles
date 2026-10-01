@@ -1,152 +1,493 @@
-<div class="search-container">
-  <div class="search-input-wrap">
-    <svg class="search-icon" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="11" cy="11" r="8"/><path d="m21 21-4.3-4.3"/></svg>
-    <input type="text" id="searchInput" class="search-input" placeholder="Search articles..." aria-label="Search articles">
-    <button id="searchClearBtn" class="search-clear-btn" onclick="clearSearch()" aria-label="Clear search">&times;</button>
+<div class="cmdk" id="cmdk" role="dialog" aria-modal="true" aria-label="Search articles" hidden>
+  <div class="cmdk-backdrop" data-cmdk-close></div>
+
+  <div class="cmdk-panel">
+    <div class="cmdk-head">
+      <svg class="cmdk-icon" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="11" cy="11" r="8"/><path d="m21 21-4.3-4.3"/></svg>
+      <input
+        type="text"
+        class="cmdk-input"
+        placeholder="Search titles, topics and article text…"
+        autocomplete="off"
+        autocorrect="off"
+        autocapitalize="off"
+        spellcheck="false"
+        role="combobox"
+        aria-expanded="false"
+        aria-controls="cmdkResults"
+        aria-autocomplete="list"
+        aria-haspopup="listbox"
+        aria-label="Search articles">
+      <button type="button" class="cmdk-clear" data-cmdk-clear aria-label="Clear search" hidden>
+        <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" aria-hidden="true"><path d="M18 6 6 18M6 6l12 12"/></svg>
+      </button>
+      <button type="button" class="cmdk-close" data-cmdk-close aria-label="Close search"><kbd>Esc</kbd></button>
+    </div>
+
+    <p class="cmdk-status" role="status"></p>
+
+    <div class="cmdk-results" id="cmdkResults"></div>
+
+    <div class="cmdk-foot">
+      <span class="cmdk-count" aria-live="polite"></span>
+      <span class="cmdk-foot-right">
+        <button type="button" class="cmdk-share" data-cmdk-share hidden>
+          <svg width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M10 13a5 5 0 0 0 7.5.5l3-3a5 5 0 0 0-7-7l-1.7 1.7"/><path d="M14 11a5 5 0 0 0-7.5-.5l-3 3a5 5 0 0 0 7 7l1.7-1.7"/></svg>
+          <span data-cmdk-share-label>Copy link</span>
+        </button>
+        <span class="cmdk-keys">
+          <kbd>&uarr;</kbd><kbd>&darr;</kbd> navigate
+          <kbd>&crarr;</kbd> open
+          <kbd>Esc</kbd> close
+        </span>
+      </span>
+    </div>
   </div>
-  <div id="searchShareRow" class="search-share-row">
-    <button type="button" id="searchShareBtn" onclick="shareSearch()" class="search-share-btn"><i class="fa-solid fa-link"></i> Copy link</button>
-    <span id="searchShareMsg" class="search-share-msg">Copied!</span>
-    <span class="search-hint">Press <kbd>/</kbd> or <kbd>Ctrl K</kbd> to search</span>
-  </div>
-  <div id="searchResults" class="search-results" role="listbox" aria-live="polite" aria-label="Search results"></div>
 </div>
 
 <script>
 (function() {
-  var searchIndex = [];
-  var posts = [
-    {% for post in site.posts %}
-    {
-      "title": {{ post.title | jsonify }},
-      "description": {{ post.description | default: '' | jsonify }},
-      "url": "{{ post.url | relative_url }}",
-      "date": "{{ post.date | date: '%b %d, %Y' }}",
-      "tags": {{ post.tags | join: ', ' | jsonify }}
-    }{% unless forloop.last %},{% endunless %}
-    {% endfor %}
-  ];
-  searchIndex = posts;
+  var INDEX_URL = {{ '/search-index.json' | relative_url | jsonify }};
+  var MAX_RESULTS = 12;
+  var SNIPPET_LEN = 150;
 
-  var input = document.getElementById('searchInput');
-  var results = document.getElementById('searchResults');
-  var clearBtn = document.getElementById('searchClearBtn');
-  var shareRow = document.getElementById('searchShareRow');
-  var shareMsg = document.getElementById('searchShareMsg');
-  var debounceTimer;
+  var root = document.getElementById('cmdk');
+  if (!root) return;
 
-  if (!input) return;
+  var panel = root.querySelector('.cmdk-panel');
+  var input = root.querySelector('.cmdk-input');
+  var resultsEl = root.querySelector('.cmdk-results');
+  var statusEl = root.querySelector('.cmdk-status');
+  var countEl = root.querySelector('.cmdk-count');
+  var clearBtn = root.querySelector('.cmdk-clear');
+  var shareBtn = root.querySelector('.cmdk-share');
+  var shareLabel = root.querySelector('[data-cmdk-share-label]');
 
-  function fromQueryParam() {
-    var params = new URLSearchParams(window.location.search);
-    return params.get('q') || '';
+  var docs = null;
+  var loading = false;
+  var failed = false;
+  var pending = [];
+  var tagCounts = [];
+  var rows = [];
+  var active = -1;
+  var opener = null;
+  var openSeq = 0;
+  var debounceTimer = null;
+  var shareTimer = null;
+  var urlTimer = null;
+
+  /* ---------- helpers ---------- */
+
+  function esc(str) {
+    return String(str).replace(/</g, '&lt;').replace(/>/g, '&gt;');
   }
 
-  input.addEventListener('input', function() {
-    clearTimeout(debounceTimer);
-    debounceTimer = setTimeout(performSearch, 200);
+  function escRe(str) {
+    return str.replace(/[.*+?^${}()|[\]\\]/g, '\\$&');
+  }
+
+  function setStatus(html) {
+    statusEl.innerHTML = html;
+    statusEl.classList.toggle('is-visible', !!html);
+  }
+
+  function setActive(next) {
+    if (rows.length === 0) {
+      active = -1;
+      input.removeAttribute('aria-activedescendant');
+      return;
+    }
+    if (next < 0) next = rows.length - 1;
+    if (next > rows.length - 1) next = 0;
+    active = next;
+    for (var i = 0; i < rows.length; i++) {
+      var on = i === active;
+      rows[i].classList.toggle('is-active', on);
+      rows[i].setAttribute('aria-selected', on ? 'true' : 'false');
+    }
+    var el = rows[active];
+    // Keep the combobox pattern honest: focus stays in the input, so the
+    // selected option is announced through aria-activedescendant.
+    input.setAttribute('aria-activedescendant', el.id);
+    if (el.scrollIntoView) { el.scrollIntoView({ block: 'nearest' }); }
+  }
+
+  function resetActive() {
+    active = -1;
+    input.removeAttribute('aria-activedescendant');
+  }
+
+  /* ---------- index loading ---------- */
+
+  function buildTags(list) {
+    var counts = {};
+    for (var i = 0; i < list.length; i++) {
+      for (var j = 0; j < list[i].tags.length; j++) {
+        var tag = list[i].tags[j];
+        if (tag) counts[tag] = (counts[tag] || 0) + 1;
+      }
+    }
+    return Object.keys(counts)
+      .map(function(tag) { return { tag: tag, n: counts[tag] }; })
+      .sort(function(a, b) { return b.n - a.n || a.tag.localeCompare(b.tag); })
+      .slice(0, 14);
+  }
+
+  function loadIndex(done) {
+    if (docs) { done(); return; }
+    if (failed) { done(); return; }
+    // Queue rather than drop: open() and run() can both ask for the index on
+    // the same tick (e.g. a ?q= deep link), and both callbacks must run.
+    pending.push(done);
+    if (loading) return;
+    loading = true;
+    setStatus('Loading search index…');
+    fetch(INDEX_URL, { credentials: 'same-origin' })
+      .then(function(res) {
+        if (!res.ok) throw new Error('HTTP ' + res.status);
+        return res.json();
+      })
+      .then(function(data) {
+        docs = (data || []).map(function(p) {
+          var tags = Array.isArray(p.g) ? p.g : (p.g ? [p.g] : []);
+          return {
+            title: p.t || '',
+            desc: p.d || '',
+            url: p.u || '',
+            ts: p.ts || 0,
+            date: p.dt || '',
+            tags: tags,
+            body: p.b || '',
+            lt: (p.t || '').toLowerCase(),
+            ld: (p.d || '').toLowerCase(),
+            lg: tags.join(' ').toLowerCase(),
+            lb: (p.b || '').toLowerCase()
+          };
+        });
+        tagCounts = buildTags(docs);
+        loading = false;
+        setStatus('');
+        flush();
+      })
+      .catch(function() {
+        loading = false;
+        failed = true;
+        rows = [];
+        resetActive();
+        resultsEl.textContent = '';
+        countEl.textContent = '';
+        setStatus('The search index could not be loaded. <a href="{{ "/archive.html" | relative_url }}">Browse all articles instead</a>.');
+        flush();
+      });
+  }
+
+  function flush() {
+    var queued = pending;
+    pending = [];
+    for (var i = 0; i < queued.length; i++) queued[i]();
+  }
+
+  /* ---------- matching ---------- */
+
+  function score(doc, terms, now) {
+    var total = 0;
+    for (var i = 0; i < terms.length; i++) {
+      var t = terms[i];
+      var hit = 0;
+      if (doc.lt.indexOf(t) !== -1) {
+        hit = 100;
+        if (doc.lt === t) hit += 70;
+        else if (doc.lt.indexOf(t) === 0) hit += 45;
+        else if (doc.lt.indexOf(' ' + t) !== -1) hit += 25;
+      }
+      if (doc.lg.indexOf(t) !== -1) hit += 45;
+      if (doc.ld.indexOf(t) !== -1) hit += 22;
+      if (doc.lb.indexOf(t) !== -1) hit += 8;
+      if (!hit) return 0;
+      total += hit;
+    }
+    if (doc.ts) {
+      var days = (now - doc.ts) / 86400;
+      if (days > 0) total += Math.max(0, 14 - days / 45);
+    }
+    return total;
+  }
+
+  function highlight(text, re) {
+    return esc(text).replace(re, function(m) { return '<mark class="cmdk-mark">' + m + '</mark>'; });
+  }
+
+  function snippet(body, terms) {
+    var at = -1;
+    for (var i = 0; i < terms.length; i++) {
+      var p = body.toLowerCase().indexOf(terms[i]);
+      if (p !== -1 && (at === -1 || p < at)) at = p;
+    }
+    if (at === -1) return '';
+    var start = Math.max(0, at - 45);
+    var end = Math.min(body.length, start + SNIPPET_LEN);
+    return (start > 0 ? '…' : '') + body.slice(start, end).trim() + (end < body.length ? '…' : '');
+  }
+
+  /* ---------- rendering ---------- */
+
+  function renderBrowse() {
+    rows = [];
+    resetActive();
+    countEl.textContent = '';
+    shareBtn.hidden = true;
+    input.setAttribute('aria-expanded', 'false');
+
+    var chips = tagCounts.map(function(t) {
+      return '<button type="button" class="cmdk-tag" data-cmdk-tag="' + esc(t.tag) + '">' + esc(t.tag) + '<span class="cmdk-tag-n">' + t.n + '</span></button>';
+    }).join('');
+
+    var recent = docs.slice().sort(function(a, b) { return b.ts - a.ts; }).slice(0, 5).map(function(d) {
+      return '<a class="cmdk-recent" href="' + esc(d.url) + '">' +
+        '<span class="cmdk-recent-title">' + esc(d.title) + '</span>' +
+        '<span class="cmdk-recent-date">' + esc(d.date) + '</span>' +
+        '</a>';
+    }).join('');
+
+    resultsEl.innerHTML =
+      '<div class="cmdk-browse">' +
+        '<div class="cmdk-browse-label" id="cmdkBrowseLabel">Browse by topic</div>' +
+        '<div class="cmdk-tags" role="group" aria-labelledby="cmdkBrowseLabel">' + chips + '</div>' +
+        '<div class="cmdk-browse-label">Latest articles</div>' +
+        '<div class="cmdk-recents">' + recent + '</div>' +
+      '</div>';
+  }
+
+  function renderResults(matches, terms, total) {
+    var re = new RegExp('(' + terms.map(escRe).join('|') + ')', 'gi');
+    var html = '';
+
+    for (var i = 0; i < matches.length; i++) {
+      var d = matches[i].doc;
+      var bits = '<div class="cmdk-row-head">' +
+        '<span class="cmdk-row-title">' + highlight(d.title, re) + '</span>' +
+        (d.tags.length ? '<span class="cmdk-row-tag">' + highlight(d.tags[0], re) + '</span>' : '') +
+        '</div>';
+
+      if (d.desc) {
+        bits += '<div class="cmdk-row-desc">' + highlight(d.desc.length > 130 ? d.desc.slice(0, 130) + '…' : d.desc, re) + '</div>';
+      } else if (d.body) {
+        var snip = snippet(d.body, terms);
+        if (snip) bits += '<div class="cmdk-row-desc">' + highlight(snip, re) + '</div>';
+      }
+
+      bits += '<div class="cmdk-row-meta">' + esc(d.date) + '</div>';
+      html += '<a class="cmdk-row" id="cmdk-opt-' + i + '" href="' + esc(d.url) + '" role="option" aria-selected="false">' + bits + '</a>';
+    }
+
+    // The listbox role only wraps real options — the browse and no-results
+    // states are not selectable items, so they render without it. The overflow
+    // notice is a sibling for the same reason.
+    var more = total > matches.length
+      ? '<div class="cmdk-more">' + (total - matches.length) + ' more result' + (total - matches.length === 1 ? '' : 's') + '</div>'
+      : '';
+    resultsEl.innerHTML = '<div class="cmdk-list" role="listbox" aria-label="Search results">' + html + '</div>' + more;
+    rows = Array.prototype.slice.call(resultsEl.querySelectorAll('.cmdk-row'));
+    resetActive();
+    input.setAttribute('aria-expanded', 'true');
+    countEl.textContent = total === 1 ? '1 result' : total + ' results';
+    shareBtn.hidden = false;
+  }
+
+  function renderEmpty(query) {
+    rows = [];
+    resetActive();
+    countEl.textContent = 'No results';
+    shareBtn.hidden = false;
+    input.setAttribute('aria-expanded', 'false');
+    resultsEl.innerHTML =
+      '<div class="cmdk-noresults">' +
+        '<svg width="26" height="26" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.75" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="11" cy="11" r="8"/><path d="m21 21-4.3-4.3"/></svg>' +
+        '<p class="cmdk-noresults-title">No articles match &ldquo;' + esc(query) + '&rdquo;</p>' +
+        '<p class="cmdk-noresults-hint">Try a shorter phrase, or pick a topic below.</p>' +
+        (tagCounts.length ? '<div class="cmdk-tags">' + tagCounts.slice(0, 8).map(function(t) {
+          return '<button type="button" class="cmdk-tag" data-cmdk-tag="' + esc(t.tag) + '">' + esc(t.tag) + '<span class="cmdk-tag-n">' + t.n + '</span></button>';
+        }).join('') + '</div>' : '') +
+      '</div>';
+  }
+
+  /* ---------- query pipeline ---------- */
+
+  function syncUrl(query) {
+    if (!window.history || !history.replaceState) return;
+    clearTimeout(urlTimer);
+    urlTimer = setTimeout(function() {
+      var url = query
+        ? window.location.pathname + '?q=' + encodeURIComponent(query)
+        : window.location.pathname;
+      history.replaceState(null, '', url);
+    }, 350);
+  }
+
+  function run() {
+    var query = input.value.trim();
+    clearBtn.hidden = query.length === 0;
+
+    if (!query) {
+      syncUrl('');
+      if (!docs) { setStatus('Loading search index…'); return; }
+      renderBrowse();
+      return;
+    }
+
+    syncUrl(query);
+    loadIndex(function() {
+      if (!docs) return;
+      var terms = query.toLowerCase().split(/\s+/).filter(Boolean);
+      if (terms.length === 0) { renderBrowse(); return; }
+
+      var now = Date.now() / 1000;
+      var scored = [];
+      for (var i = 0; i < docs.length; i++) {
+        var s = score(docs[i], terms, now);
+        if (s > 0) scored.push({ doc: docs[i], s: s });
+      }
+      scored.sort(function(a, b) { return b.s - a.s; });
+
+      if (scored.length === 0) renderEmpty(query);
+      else renderResults(scored.slice(0, MAX_RESULTS), terms, scored.length);
+    });
+  }
+
+  /* ---------- open / close ---------- */
+
+  function isOpen() { return !root.hidden; }
+
+  function open() {
+    if (isOpen()) return;
+    var seq = ++openSeq;
+    opener = document.activeElement;
+    root.hidden = false;
+    document.body.classList.add('cmdk-open');
+    requestAnimationFrame(function() {
+      // close() keeps the node visible until its exit transition finishes, so
+      // root.hidden is still false here. The sequence token is what actually
+      // detects that we were closed in the meantime — without it the class
+      // lands after close() removed it and the next open skips its transition.
+      if (seq === openSeq && !root.hidden) root.classList.add('is-open');
+    });
+
+    loadIndex(function() {
+      if (docs && !input.value.trim()) renderBrowse();
+    });
+
+    input.focus();
+    input.select();
+  }
+
+  function close() {
+    if (!isOpen()) return;
+    openSeq++;
+    root.classList.remove('is-open');
+    document.body.classList.remove('cmdk-open');
+    var finish = function() { root.hidden = true; };
+    if (window.matchMedia && window.matchMedia('(prefers-reduced-motion: reduce)').matches) finish();
+    else setTimeout(finish, 160);
+    if (opener && typeof opener.focus === 'function') opener.focus();
+    opener = null;
+  }
+
+  /* ---------- events ---------- */
+
+  root.addEventListener('click', function(e) {
+    if (e.target.closest('[data-cmdk-close]')) { close(); return; }
+    var tagBtn = e.target.closest('[data-cmdk-tag]');
+    if (tagBtn) {
+      input.value = tagBtn.getAttribute('data-cmdk-tag');
+      resetActive();
+      run();
+      input.focus();
+      return;
+    }
+    if (e.target.closest('.cmdk-row, .cmdk-recent')) close();
   });
 
-  input.addEventListener('focus', function() {
-    if (this.value.trim().length > 0) performSearch();
+  input.addEventListener('input', function() {
+    resetActive();
+    clearTimeout(debounceTimer);
+    debounceTimer = setTimeout(run, 120);
   });
 
   input.addEventListener('keydown', function(e) {
-    if (e.key === 'Escape') {
-      clearSearch();
-    }
-  });
-
-  document.addEventListener('click', function(e) {
-    if (!e.target.closest('.search-container')) {
-      results.style.display = 'none';
-    }
-  });
-
-  window.shareSearch = function() {
-    var query = input.value.trim();
-    if (!query) return;
-    var url = window.location.origin + window.location.pathname + '?q=' + encodeURIComponent(query);
-    if (navigator.clipboard && navigator.clipboard.writeText) {
-      navigator.clipboard.writeText(url).then(function() {
-        shareMsg.style.display = 'inline';
-        setTimeout(function() { shareMsg.style.display = 'none'; }, 2000);
-      });
-    }
-    if (history.replaceState) {
-      history.replaceState(null, '', '?q=' + encodeURIComponent(query));
-    }
-  };
-
-  function performSearch() {
-    var query = input.value.trim().toLowerCase();
-    if (query.length < 1) {
-      results.style.display = 'none';
-      clearBtn.style.display = 'none';
-      shareRow.style.display = 'none';
+    if (e.key === 'ArrowDown') { e.preventDefault(); setActive(active + 1); return; }
+    if (e.key === 'ArrowUp') { e.preventDefault(); setActive(active - 1); return; }
+    if (e.key === 'Home' && rows.length) { e.preventDefault(); setActive(0); return; }
+    if (e.key === 'End' && rows.length) { e.preventDefault(); setActive(rows.length - 1); return; }
+    if (e.key === 'Enter' && active >= 0 && rows[active]) {
+      e.preventDefault();
+      window.location.href = rows[active].getAttribute('href');
       return;
     }
-    clearBtn.style.display = 'flex';
-    shareRow.style.display = 'flex';
+    if (e.key === 'Escape') { e.preventDefault(); close(); }
+  });
 
-    var matches = searchIndex.filter(function(post) {
-      return post.title.toLowerCase().includes(query) ||
-             post.description.toLowerCase().includes(query) ||
-             post.tags.toLowerCase().includes(query);
-    }).slice(0, 8);
-
-    if (matches.length === 0) {
-      results.innerHTML = '<div class="search-no-results"><svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="11" cy="11" r="8"/><path d="m21 21-4.3-4.3"/></svg><span>No articles found</span></div>';
-      results.style.display = 'block';
-      return;
-    }
-
-    results.textContent = '';
-    matches.forEach(function(post) {
-      var link = document.createElement('a');
-      link.href = post.url;
-      link.className = 'search-result-item';
-      link.setAttribute('role', 'option');
-
-      var re = new RegExp('(' + query.replace(/[.*+?^${}()|[\]\\]/g, '\\$&') + ')', 'gi');
-      var titleHtml = post.title.replace(/</g, '&lt;').replace(/>/g, '&gt;').replace(re, '<mark class="search-highlight">$1</mark>');
-
-      var descHtml = '';
-      if (post.description) {
-        var desc = post.description.substring(0, 120).replace(/</g, '&lt;').replace(/>/g, '&gt;').replace(re, '<mark class="search-highlight">$1</mark>');
-        descHtml = '<div class="search-result-desc">' + desc + '</div>';
-      }
-
-      var tagHtml = post.tags ? '<span class="search-tag">' + post.tags.split(',')[0].trim() + '</span>' : '';
-
-      link.innerHTML =
-        '<div class="search-result-title">' + titleHtml + '</div>' +
-        descHtml +
-        '<div class="search-result-meta">' +
-          '<span class="search-result-date">' + post.date + '</span>' +
-          tagHtml +
-        '</div>';
-
-      results.appendChild(link);
-    });
-    results.style.display = 'block';
-  }
-
-  window.clearSearch = function() {
+  clearBtn.addEventListener('click', function() {
     input.value = '';
-    results.style.display = 'none';
-    clearBtn.style.display = 'none';
-    shareRow.style.display = 'none';
+    resetActive();
+    run();
     input.focus();
-  };
+  });
 
-  var initialQuery = fromQueryParam();
-  if (initialQuery) {
-    input.value = initialQuery;
-    var section = document.getElementById('searchSection');
-    if (section) { section.style.display = 'block'; }
-    input.focus();
-    performSearch();
+  shareBtn.addEventListener('click', function() {
+    var done = function() {
+      shareLabel.textContent = 'Copied';
+      shareBtn.classList.add('is-done');
+      clearTimeout(shareTimer);
+      shareTimer = setTimeout(function() {
+        shareLabel.textContent = 'Copy link';
+        shareBtn.classList.remove('is-done');
+      }, 2000);
+    };
+    var url = window.location.origin + window.location.pathname + '?q=' + encodeURIComponent(input.value.trim());
+    if (navigator.clipboard && navigator.clipboard.writeText) {
+      navigator.clipboard.writeText(url).then(done, done);
+    } else {
+      done();
+    }
+  });
+
+  // Keep Tab inside the dialog while it is open.
+  root.addEventListener('keydown', function(e) {
+    if (e.key !== 'Tab') return;
+    var focusable = panel.querySelectorAll('input, button:not([hidden]), a[href]');
+    if (focusable.length === 0) return;
+    var first = focusable[0];
+    var last = focusable[focusable.length - 1];
+    if (e.shiftKey && document.activeElement === first) { e.preventDefault(); last.focus(); }
+    else if (!e.shiftKey && document.activeElement === last) { e.preventDefault(); first.focus(); }
+  });
+
+  // Global shortcuts: "/" and Ctrl/Cmd+K open the palette, Escape closes it.
+  document.addEventListener('keydown', function(e) {
+    if (e.key === 'Escape' && isOpen()) { e.preventDefault(); close(); return; }
+    if (isOpen()) return;
+
+    var active_ = document.activeElement;
+    var typing = active_ && (active_.tagName === 'INPUT' || active_.tagName === 'TEXTAREA' || active_.isContentEditable);
+    var slash = e.key === '/' && !typing && !e.metaKey && !e.ctrlKey && !e.altKey;
+    var combo = (e.ctrlKey || e.metaKey) && (e.key === 'k' || e.key === 'K');
+    if (slash || combo) { e.preventDefault(); open(); }
+  });
+
+  /* ---------- deep link ---------- */
+
+  window.openSearch = open;
+  window.closeSearch = close;
+  window.toggleSearch = function() { isOpen() ? close() : open(); };
+
+  var initial = '';
+  try {
+    initial = new URLSearchParams(window.location.search).get('q') || '';
+  } catch (err) {}
+  if (initial) {
+    input.value = initial;
+    open();
+    run();
   }
 })();
 </script>

@@ -1,0 +1,7 @@
+---
+layout: null
+permalink: /search-index.json
+sitemap: false
+---
+[{% for post in site.posts %}{% if forloop.index0 > 0 %},{% endif %}{"t":{{ post.title | jsonify }},"d":{{ post.description | default: '' | jsonify }},"u":"{{ post.url | relative_url }}","ts":{{ post.date | date: '%s' | default: 0 }},"dt":"{{ post.date | date: '%b %d, %Y' }}","g":{{ post.tags | jsonify }},"b":{{ post.content | strip_html | normalize_whitespace | truncate: 1500 | jsonify }}}
+{% endfor %}]

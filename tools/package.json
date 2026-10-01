@@ -3,8 +3,15 @@
   "version": "1.0.0",
   "private": true,
   "type": "module",
-  "description": "Helpers for the F9XR Articles blog (featured image generation).",
+  "description": "Helpers for the F9XR Articles blog (featured image generation, CSS build).",
+  "scripts": {
+    "css": "node build-css.mjs",
+    "css:check": "node build-css.mjs --check"
+  },
   "dependencies": {
     "sharp": "^0.34.3"
+  },
+  "devDependencies": {
+    "clean-css": "^5.3.3"
   }
 }
