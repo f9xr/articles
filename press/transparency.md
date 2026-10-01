@@ -52,6 +52,8 @@ F9XR Articles may include affiliate links to third-party products, services, or 
 - The editorial recommendation is based on the same technical merit standards applied to non-affiliate content.
 - Affiliate relationships do not influence the ranking, placement, or tone of product comparisons or recommendations.
 
+Every affiliate link currently in use on this site, the referral IDs behind them, and the placement rules described above are listed on the [Affiliate Disclosure page]({{ '/press/affiliate-disclosure.html' | relative_url }}).
+
 ## Team Independence
 
 Members of the F9XR Team may have personal interests, investments, or advisory relationships with companies or products discussed in published content. The following standards apply:
@@ -82,5 +84,6 @@ Questions about ownership, funding, or commercial relationships can be directed 
 ## Related Policies
 
 - [Editorial Policy]({{ '/press/editorial-policy.html' | relative_url }}): How content is researched, written, and reviewed.
+- [Affiliate Disclosure]({{ '/press/affiliate-disclosure.html' | relative_url }}): Every affiliate link in use on the site and how commissions are earned.
 - [Correction Policy]({{ '/press/correction-policy.html' | relative_url }}): How errors are identified, reported, and resolved.
 - [Ethics & Fact-Checking Policy]({{ '/press/ethics-policy.html' | relative_url }}): Standards for data integrity and conflict-of-interest management.

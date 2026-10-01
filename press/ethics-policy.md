@@ -82,5 +82,6 @@ F9XR Articles holds itself accountable to the standards described in this policy
 ## Related Policies
 
 - [Editorial Policy]({{ '/press/editorial-policy.html' | relative_url }}): How content is researched, written, and reviewed.
+- [Affiliate Disclosure]({{ '/press/affiliate-disclosure.html' | relative_url }}): Every affiliate link in use on the site and how commissions are earned.
 - [Correction Policy]({{ '/press/correction-policy.html' | relative_url }}): How errors are identified, reported, and resolved.
 - [Ownership, Funding, & Transparency]({{ '/press/transparency.html' | relative_url }}): Organizational structure, funding model, and disclosure practices.

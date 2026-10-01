@@ -93,3 +93,4 @@ https://f9xr.org/articles/2026/09/29/pabbly-connect-social-media-automation-guid
 https://f9xr.org/articles/2026/09/30/google-analytics-app-conversions-cross-channel-reports.html
 https://f9xr.org/articles/2026/10/01/image-video-sitemap-does-your-website-need-one.html
 https://f9xr.org/articles/2026/10/01/monthly-website-audit-real-findings.html
+https://f9xr.org/articles/2026/10/01/google-gemini-utm-parameters-referral-attribution.html
