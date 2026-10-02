@@ -2,7 +2,7 @@
 layout: post
 title: "Google AI Content Guidance: Fact-Check by Hand"
 description: "Google AI content guidance now says fact-check by hand. What changed on October 1, 2026, and the review workflow worth putting in place."
-image: "https://f9xr.org/articles/assets/post-images/google-ai-content-guidance-fact-check-update.webp"
+image: "https://images.unsplash.com/photo-1688235142578-c4e1523c6347?q=80&w=2232&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
 image_width: 1200
 image_height: 630
 image_credit: "Photo by <a href=\"https://unsplash.com/@dyno8426?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText\" target=\"_blank\" rel=\"noopener noreferrer\">Adarsh Chauhan</a> on <a href=\"https://unsplash.com/photos/the-google-logo-is-displayed-on-the-side-of-a-building-r-oebX7qWxM?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText\" target=\"_blank\" rel=\"noopener noreferrer\">Unsplash</a>"

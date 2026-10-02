@@ -343,6 +343,31 @@ keywords: "F9XR Articles, engineering digital growth, web architecture, AI integ
   </div>
 </section>
 
+{% if site.data.dev9b and site.data.dev9b.size > 0 %}
+<section class="ed-dev9b" aria-label="F9XR's Dev9b developer blog">
+  <div class="ed-sec-head">
+    <h2 class="ed-sec-title"><i class="fa-solid fa-code" style="color:#3b82f6;"></i> F9XR's Dev9b <span class="ed-sec-sub">Developers Blog</span></h2>
+    <a class="ed-sec-link" href="https://f9xr.org/dev9b/" target="_blank" rel="noopener noreferrer">Visit Dev9b <i class="fa-solid fa-arrow-right"></i></a>
+  </div>
+  <p class="ed-dev9b-note">Practical developer guides from the F9XR engineering team, published on <a href="https://f9xr.org/dev9b/" target="_blank" rel="noopener noreferrer">f9xr.org/dev9b</a>. Opens on Dev9b.</p>
+  <div class="ed-grid">
+    {% for dpost in site.data.dev9b limit:8 %}
+    <article class="ed-card" itemscope itemtype="https://schema.org/BlogPosting">
+      <div class="ed-card-meta">
+        <span class="ed-tag"><i class="fa-solid fa-code"></i> Dev9b</span>
+        <span class="ed-mono"><time datetime="{{ dpost.date }}" itemprop="datePublished">{{ dpost.date | date: "%b %d, %Y" }}</time></span>
+        <span class="ed-mono" itemprop="author">{{ dpost.author }}</span>
+      </div>
+      <h3 class="ed-card-title" itemprop="headline"><a href="{{ dpost.url }}" itemprop="url" target="_blank" rel="noopener noreferrer">{{ dpost.title | escape }}</a></h3>
+      <p class="ed-card-desc" itemprop="description">{{ dpost.summary | escape }}</p>
+      <span class="ed-card-foot"><i class="fa-solid fa-arrow-up-right-from-square"></i> Read on Dev9b</span>
+    </article>
+    {% endfor %}
+  </div>
+  <a class="ed-trend-all ed-dev9b-all" href="https://f9xr.org/dev9b/archives/" target="_blank" rel="noopener noreferrer">Browse all {{ site.data.dev9b.size }} Dev9b posts <i class="fa-solid fa-arrow-right"></i></a>
+</section>
+{% endif %}
+
 <script>
 (function() {
   var btns = Array.prototype.slice.call(document.querySelectorAll('.ed-tabs .ed-tab-btn'));

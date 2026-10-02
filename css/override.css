@@ -4909,6 +4909,47 @@ body.cmdk-open {
   letter-spacing: 0.06em;
 }
 
+/* --- F9XR's Dev9b (cross-promotion to the developers blog) --- */
+.ed-dev9b {
+  margin-bottom: 2.2em;
+}
+.ed-dev9b .ed-sec-sub {
+  font-family: ui-monospace, SFMono-Regular, Menlo, Consolas, monospace;
+  font-size: 0.5em;
+  font-weight: 600;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  color: #52525b;
+  margin-left: 0.6em;
+  vertical-align: middle;
+}
+.ed-dev9b-note {
+  margin: -0.6em 0 1.4em 0;
+  color: #71717a;
+  font-size: 0.85em;
+  line-height: 1.55;
+}
+.ed-dev9b-note a {
+  color: #3b82f6;
+}
+.ed-dev9b-note a:hover {
+  color: #fff;
+}
+.ed-dev9b .ed-card-title a {
+  display: inline-block;
+}
+.ed-dev9b-all {
+  display: inline-block;
+  margin-top: 1.2em;
+  color: #3b82f6 !important;
+  font-size: 0.85em;
+  font-weight: 600;
+  text-decoration: none !important;
+}
+.ed-dev9b-all:hover {
+  color: #fff !important;
+}
+
 /* --- Explore by Category tabs --- */
 .ed-tabs {
   margin-bottom: 2.2em;
