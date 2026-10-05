@@ -181,7 +181,7 @@ Explain what you trust and what you avoid. Official documentation, government da
 
 ### 4. Fact-Checking and Review Process
 
-Describe the steps. Even a simple "draft, second-person check, publish" shows a process exists. For a deeper method, see our guide on [fact-checking your website content](https://f9xr.org/articles/2026/10/02/google-ai-content-guidance-fact-check-update.html).
+Describe the steps. Even a simple "draft, second-person check, publish" shows a process exists. For a deeper method, see our guide on [how to fact-check and audit your website](https://f9xr.org/articles/2026/10/04/how-to-fact-check-audit-your-website.html).
 
 ### 5. AI Use and Disclosure
 
