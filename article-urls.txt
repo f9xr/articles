@@ -97,5 +97,6 @@ https://f9xr.org/articles/2026/10/01/monthly-website-audit-real-findings.html
 https://f9xr.org/articles/2026/10/02/google-ai-content-guidance-fact-check-update.html
 https://f9xr.org/articles/2026/10/03/google-september-2026-spam-update-guide.html
 https://f9xr.org/articles/2026/10/04/how-to-fact-check-audit-your-website.html
-https://f9xr.org/articles/2026/10/05/editorial-policy-page-eeat-guide.html
 https://f9xr.org/articles/2026/10/05/check-if-your-site-is-ai-spam-google.html
+https://f9xr.org/articles/2026/10/05/editorial-policy-page-eeat-guide.html
+https://f9xr.org/articles/2026/10/06/how-hosting-provider-affects-website-seo.html
