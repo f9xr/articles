@@ -1,4 +1,4 @@
-﻿---
+---
 layout: post
 code: true
 title: "Essential Txt Files for SEO, AEO & GEO in 2026"
@@ -200,7 +200,7 @@ Most business owners didn't start their company to spend weekends figuring out .
 
 Rather than manually checking file by file, F9XR Team uses a purpose built Codebase Auditor skill that scans a website's root directory and codebase structure automatically. It checks for the presence, accuracy, and health of files like robots.txt, sitemap.xml, llms.txt, and security.txt, flags misconfigurations like an accidental Disallow blocking key pages, and generates missing files based on the business's actual services, location, and target audience.
 
-In practice, that means a business gets a clear report of what's missing, what's broken, and what's actively hurting its visibility with both Google and AI search tools, without needing to understand the underlying standards itself. You can read more about how that skill works in the [F9XR SEO Codebase Auditor guide](https://f9xr.org/articles/2026/07/31/f9xr-seo-codebase-auditor-skill-guide.html). It's the kind of quiet, technical groundwork that doesn't show up in a flashy before and after screenshot, but consistently shows up in whether a business actually gets found.
+In practice, that means a business gets a clear report of what's missing, what's broken, and what's actively hurting its visibility with both Google and AI search tools, without needing to understand the underlying standards itself. You can read more about how that skill works in the [F9XR SEO Codebase Auditor guide](https://f9xr.org/articles/2026/07/31/f9xr-seo-codebase-auditor-skill-guide.html). It's the kind of quiet, technical groundwork that doesn't show up in a flashy before and after screenshot, but consistently shows up in whether a business actually gets found. For the step-by-step flow, see our [Codebase Auditor install and update guide](https://f9xr.org/dev9b/p/how-to-install-update-f9xr-codebase-auditor-skill/).
 
 ## Key Takeaways:
 

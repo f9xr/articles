@@ -1,4 +1,4 @@
-﻿---
+---
 layout: post
 title: "Why Go Mobile-First in 2026: Design and Engineering"
 description: "Mobile-first design wins in 2026. See the traffic data, the behavior gap, and a practical plan to go mobile-first and close the mobile conversion gap."
@@ -100,7 +100,7 @@ Mobile-first has direct technical consequences for performance, discoverability,
 
 **Android's dominance changes the testing matrix.** Android's share of the mobile market has consistently been reported in the low-to-high 60s to low 70s percentage range across recent 2025 and 2026 data (StatCounter, Cloudflare), against roughly a quarter to a third for iOS depending on methodology. A mobile-first engineering approach has to be tested primarily against Android's much wider range of screen sizes, chipsets, and browser versions. Chrome alone leads the mobile browser market at roughly two-thirds share, well ahead of Safari. Don't assume iOS Safari behavior generalizes.
 
-This is the same discipline covered in our piece on [building a custom technical codebase auditor](https://f9xr.org/articles/2026/07/31/f9xr-seo-codebase-auditor-skill-guide.html). Render-blocking assets and hydration delays hurt mobile users first and hardest, and those are exactly the issues a code-level audit catches before they ship. If your site was built quickly with AI-assisted tools, our [vibe coded site to premium website guide](https://f9xr.org/articles/2026/08/12/vibe-coded-site-to-premium-website-tools.html){:target="_blank" rel="noopener noreferrer"} covers how to fix the mobile performance issues that typically come with rapid builds.
+This is the same discipline covered in our piece on [building a custom technical codebase auditor](https://f9xr.org/articles/2026/07/31/f9xr-seo-codebase-auditor-skill-guide.html). Render-blocking assets and hydration delays hurt mobile users first and hardest, and those are exactly the issues a code-level audit catches before they ship. If your site was built quickly with AI-assisted tools, our [vibe coded site to premium website guide](https://f9xr.org/articles/2026/08/12/vibe-coded-site-to-premium-website-tools.html){:target="_blank" rel="noopener noreferrer"} covers how to fix the mobile performance issues that typically come with rapid builds. For the step-by-step flow, see our [Codebase Auditor install and update guide](https://f9xr.org/dev9b/p/how-to-install-update-f9xr-codebase-auditor-skill/).
 
 ## What Going Mobile-First Looks Like in Practice
 

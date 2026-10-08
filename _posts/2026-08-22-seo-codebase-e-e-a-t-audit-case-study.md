@@ -33,7 +33,7 @@ So we turned our own audit process loose on ourselves. This is the full case stu
 
 ## Why We Audited Our Own Codebase
 
-Earlier this year we documented our [SEO CodeBase Auditor approach](https://f9xr.org/articles/2026/07/31/f9xr-seo-codebase-auditor-skill-guide.html), which reads source files directly instead of crawling deployed URLs. Writing about a method is easy. Applying it to your own production site, where you have to act on whatever turns up, is the honest test.
+Earlier this year we documented our [SEO CodeBase Auditor approach](https://f9xr.org/articles/2026/07/31/f9xr-seo-codebase-auditor-skill-guide.html), which reads source files directly instead of crawling deployed URLs. Writing about a method is easy. Applying it to your own production site, where you have to act on whatever turns up, is the honest test. (If you want to run the same skill on your own codebase, the [install and update guide](https://f9xr.org/dev9b/p/how-to-install-update-f9xr-codebase-auditor-skill/) walks through it.)
 
 There was also a practical reason. Google's guidance on [creating helpful, people-first content](https://developers.google.com/search/docs/fundamentals/creating-helpful-content){:target="_blank" rel="noopener noreferrer"} leans heavily on experience, expertise, authoritativeness, and trust. Most teams treat E-E-A-T as a content-writing concern. But several of its strongest signals are code artifacts: schema markup accuracy, author identity data, publisher consistency. Those live in templates and config files, and they rot silently.
 

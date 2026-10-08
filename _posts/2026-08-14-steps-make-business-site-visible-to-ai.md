@@ -1,4 +1,4 @@
-﻿---
+---
 layout: post
 code: true
 title: "15+ Steps to Make Your Site Visible to AI"
@@ -195,7 +195,7 @@ The sites that show up most consistently across ChatGPT, Perplexity, and Claude 
 
 Working through 15 or more technical and content steps on top of running an actual business is a lot to take on alone. Getting even a few of them wrong, an accidentally blocked robots.txt or mismatched schema, can quietly undo the rest of the effort.
 
-F9XR Team builds AI visibility directly into its website development, website redesign, and local SEO work: crawler access, structured data, llms.txt setup, and the content and consistency work that gives both Google and AI search tools like ChatGPT, Gemini, and Perplexity a clear, trustworthy picture of your business. That means a business owner doesn't have to become a technical SEO expert to show up where customers are searching. If you want to see how the machine readable files and automated checks behind this work, the [F9XR SEO Codebase Auditor guide](https://f9xr.org/articles/2026/07/31/f9xr-seo-codebase-auditor-skill-guide.html){:target="_blank" rel="noopener noreferrer"} walks through the audit pillars it applies to every site.
+F9XR Team builds AI visibility directly into its website development, website redesign, and local SEO work: crawler access, structured data, llms.txt setup, and the content and consistency work that gives both Google and AI search tools like ChatGPT, Gemini, and Perplexity a clear, trustworthy picture of your business. That means a business owner doesn't have to become a technical SEO expert to show up where customers are searching. If you want to see how the machine readable files and automated checks behind this work, the [F9XR SEO Codebase Auditor guide](https://f9xr.org/articles/2026/07/31/f9xr-seo-codebase-auditor-skill-guide.html){:target="_blank" rel="noopener noreferrer"} walks through the audit pillars it applies to every site. For the step-by-step flow, see our [Codebase Auditor install and update guide](https://f9xr.org/dev9b/p/how-to-install-update-f9xr-codebase-auditor-skill/).
 
 <figure class="post-figure">
   <img src="https://f9xr.org/assets/screenshots/F9XR_GoogleSearch.png" alt="F9XR Team appearing across Google search results" title="The end state this guide walks you toward: your business visible where customers search" width="1352" height="1107" loading="lazy" />

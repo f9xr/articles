@@ -1,4 +1,4 @@
-﻿---
+---
 layout: post
 title: "Let Claude Build Your Blog's Internal Links"
 description: "Stop guessing at internal links. Here is how to let Claude read your sitemap and suggest smart, contextual internal links for every new post."
@@ -119,7 +119,7 @@ Multiply that by every post you have ever written, and you can see why doing thi
 
 Setting this up once is easy enough. Keeping it consistent every single time you publish, across a growing archive of articles, client updates, and service pages, is where most small teams eventually drop the ball.
 
-F9XR Team works with Chartered Accountants, Company Secretaries, CMAs, and small business owners who want their content actually working for them, not just sitting online. Two of our public tools show what that looks like in practice. The [F9XR SEO Codebase Auditor skill guide](https://f9xr.org/articles/2026/07/31/f9xr-seo-codebase-auditor-skill-guide.html) walks through how we audit a site's technical foundation, and the [SEO Codebase Auditor v5.1 update](https://f9xr.org/articles/2026/08/26/seo-codebase-auditor-v5-1-update.html) breaks down the new checks we added, including the internal link and content analysis we now run by default. If you want a proper internal linking system built into your publishing workflow, along with website development, content strategy, and local SEO that is done right the first time, that is the kind of work we handle regularly.
+F9XR Team works with Chartered Accountants, Company Secretaries, CMAs, and small business owners who want their content actually working for them, not just sitting online. Two of our public tools show what that looks like in practice. The [F9XR SEO Codebase Auditor skill guide](https://f9xr.org/articles/2026/07/31/f9xr-seo-codebase-auditor-skill-guide.html) walks through how we audit a site's technical foundation, and the [SEO Codebase Auditor v5.1 update](https://f9xr.org/articles/2026/08/26/seo-codebase-auditor-v5-1-update.html) breaks down the new checks we added, including the internal link and content analysis we now run by default. If you want a proper internal linking system built into your publishing workflow, along with website development, content strategy, and local SEO that is done right the first time, that is the kind of work we handle regularly. For the step-by-step flow, see our [Codebase Auditor install and update guide](https://f9xr.org/dev9b/p/how-to-install-update-f9xr-codebase-auditor-skill/).
 
 ## Key Takeaways
 

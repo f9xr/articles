@@ -64,7 +64,7 @@ The main difference from SaaS tools: those check what a URL serves. This skill r
 
 ### Step 1: Download SKILL.md
 
-Head to the [GitHub repository](https://github.com/f9xr/seo-audit-report-skill){:target="_blank" rel="noopener noreferrer"}, grab `SKILL.md`. It's one file of structured instructions. No installation.
+Head to the [GitHub repository](https://github.com/f9xr/seo-audit-report-skill){:target="_blank" rel="noopener noreferrer"}, grab `SKILL.md`. It's one file of structured instructions. No installation. For the step-by-step install and update flow, see our guide on [how to install or update the F9XR Codebase Auditor SKILL](https://f9xr.org/dev9b/p/how-to-install-update-f9xr-codebase-auditor-skill/).
 
 ### Step 2: Drop It Into Your Project Root
 

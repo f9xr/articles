@@ -1,4 +1,4 @@
-﻿---
+---
 layout: post
 title: "Why Consistency Audits Matter for SEO, AEO & GEO"
 description: "Learn why an information consistency audit is critical for SEO, AEO, and GEO in 2026, with real stats, examples, and a practical audit checklist."
@@ -145,7 +145,7 @@ Twice a year is a reasonable baseline for most businesses. That cadence catches 
 
 Audit immediately after any change to your identity. A move, a rebrand, a new phone number, a new website URL. Those events are when mismatches multiply, because old details stay live on directories and aggregators for months. The Backlynk study found old addresses still live six months or more after a move on 19% of businesses that had relocated.
 
-If you're not sure you've covered everything, a professional audit is cheap compared with the alternative. Teams like F9XR run these as part of their [Google Business Profile optimization](https://f9xr.org/services/google-business-optimization.html){:target="_blank" rel="noopener noreferrer"} work, and they tend to find things owners miss, because they've seen where the data hides. The [F9XR SEO Codebase Auditor](https://f9xr.org/articles/2026/07/31/f9xr-seo-codebase-auditor-skill-guide.html){:target="_blank" rel="noopener noreferrer"} can also flag schema mismatches programmatically across your site.
+If you're not sure you've covered everything, a professional audit is cheap compared with the alternative. Teams like F9XR run these as part of their [Google Business Profile optimization](https://f9xr.org/services/google-business-optimization.html){:target="_blank" rel="noopener noreferrer"} work, and they tend to find things owners miss, because they've seen where the data hides. The [F9XR SEO Codebase Auditor](https://f9xr.org/articles/2026/07/31/f9xr-seo-codebase-auditor-skill-guide.html){:target="_blank" rel="noopener noreferrer"} can also flag schema mismatches programmatically across your site. For the step-by-step flow, see our [Codebase Auditor install and update guide](https://f9xr.org/dev9b/p/how-to-install-update-f9xr-codebase-auditor-skill/).
 
 ## Key Takeaways
 

@@ -1,4 +1,4 @@
-﻿---
+---
 layout: post
 code: true
 title: "7 AI Skills Saving Marketers 20+ Hours Weekly"
@@ -60,7 +60,7 @@ Keyword lists, competitor gap analysis, content audits, these used to eat entire
 
 ## 3. Automated Technical SEO and Codebase Audits
 
-This is one of the least talked about, most time consuming parts of marketing, and it's exactly where F9XR's [SEO Codebase Auditor skill](https://f9xr.org/articles/2026/07/31/f9xr-seo-codebase-auditor-skill-guide.html){:target="_blank" rel="noopener noreferrer"} comes in.
+This is one of the least talked about, most time consuming parts of marketing, and it's exactly where F9XR's [SEO Codebase Auditor skill](https://f9xr.org/articles/2026/07/31/f9xr-seo-codebase-auditor-skill-guide.html){:target="_blank" rel="noopener noreferrer"} comes in. For the step-by-step flow, see our [Codebase Auditor install and update guide](https://f9xr.org/dev9b/p/how-to-install-update-f9xr-codebase-auditor-skill/).
 
 Technical SEO issues, a misconfigured robots.txt, a missing sitemap, broken internal links, slow loading pages, or a website that's simply invisible to AI crawlers, quietly undermine every other marketing effort a business makes. Catching these used to mean hiring a technical SEO specialist or digging through a site's code yourself, which most marketers and small business owners don't have time for.
 

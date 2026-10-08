@@ -1,4 +1,4 @@
-﻿---
+---
 layout: post
 title: "10 Small Business Trends in India for 2026"
 description: "Discover the 10 biggest trends shaping small Indian businesses in 2026, from AI adoption to ONDC, and what they mean for your business."
@@ -135,7 +135,7 @@ Most of these trends share one requirement: a business that looks real, loads fa
 
 F9XR Team builds [websites](https://f9xr.org/pages/services.html){:target="_blank" rel="noopener noreferrer"} that are fast on mobile, redesigns outdated ones, and sets up the [local SEO](https://f9xr.org/services/google-business-optimization.html){:target="_blank" rel="noopener noreferrer"} foundations, Google Business Profile, directories, and consistent listings, that make a small business findable. For businesses targeting AI-driven discovery, F9XR's [AI visibility optimization](https://f9xr.org/services/ai-visibility-optimization.html){:target="_blank" rel="noopener noreferrer"} work focuses on being cited accurately by AI tools, not just ranked by Google.
 
-The goal is to put the technical foundation in place so the owner can focus on the business: serving customers, managing inventory, and building the team. Tools like the [SEO CodeBase Auditor](https://f9xr.org/articles/2026/07/31/f9xr-seo-codebase-auditor-skill-guide.html){:target="_blank" rel="noopener noreferrer"} keep the technical side running quietly in the background.
+The goal is to put the technical foundation in place so the owner can focus on the business: serving customers, managing inventory, and building the team. Tools like the [SEO CodeBase Auditor](https://f9xr.org/articles/2026/07/31/f9xr-seo-codebase-auditor-skill-guide.html){:target="_blank" rel="noopener noreferrer"} keep the technical side running quietly in the background. For the step-by-step flow, see our [Codebase Auditor install and update guide](https://f9xr.org/dev9b/p/how-to-install-update-f9xr-codebase-auditor-skill/).
 
 ## Key Takeaways
 

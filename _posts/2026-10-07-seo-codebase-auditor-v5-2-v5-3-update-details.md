@@ -146,7 +146,7 @@ The pillar count is still 24. New checks were folded into existing pillars rathe
 
 If you already use the skill, the practical steps are:
 
-1. Pull the latest SKILL.md from the [GitHub repo](https://github.com/f9xr/seo-audit-report-skill/commit/d288dfb6647c8e73889ebb63a65a35dede4a4260) and replace your copy.
+1. Pull the latest SKILL.md from the [GitHub repo](https://github.com/f9xr/seo-audit-report-skill/commit/d288dfb6647c8e73889ebb63a65a35dede4a4260) and replace your copy. The step-by-step install and update flow is in our [Codebase Auditor install guide](https://f9xr.org/dev9b/p/how-to-install-update-f9xr-codebase-auditor-skill/).
 2. Run the four new prompt templates on your site or a client site. The output plugs straight into the seo_audit_report.md format.
 3. If your site publishes YMYL content, run the YMYL Readiness Audit first. Harm-tier severity affects what you fix in week one.
 4. Re-run the rich results check. FAQ and How-To markup that no longer earns rich results should be re-scoped for AI extraction instead.
