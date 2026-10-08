@@ -25,8 +25,6 @@ faq:
     a: "The adapter documentation lists WordPress 6.9 or newer, because that release includes the Abilities API in core."
 ---
 
-*Last reviewed: October 8, 2026 | Reading time: about 11 minutes*
-
 Start with the number that matters. The WordPress MCP Adapter was already running on more than 40,000 sites before it had an official home, most of them through GitHub downloads or through other plugins quietly bundling their own copy. That is a lot of installs for a piece of plumbing most business owners have never heard of.
 
 On October 7, 2026, [Search Engine Journal reported](https://www.searchenginejournal.com/wordpress-releases-canonical-mcp-adapter-plugin/592159/){:target="_blank" rel="noopener noreferrer"} that WordPress had published version 0.7.0 of the **[MCP Adapter](https://wordpress.org/plugins/mcp-adapter/){:target="_blank" rel="noopener noreferrer"}** to the official WordPress.org plugin directory. It is now what the project calls the canonical choice: one plugin, installable from your dashboard, that other plugins can depend on instead of shipping their own copy.

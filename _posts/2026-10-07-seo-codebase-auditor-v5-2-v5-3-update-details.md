@@ -23,8 +23,6 @@ faq:
     a: "It is open source at github.com/f9xr/seo-audit-report-skill, with a guide and case study also published on f9xr.org."
 ---
 
-*Last reviewed: October 7, 2026 | Reading time: about 8 minutes*
-
 Every so often we ship a batch of updates to our free SEO Codebase Auditor skill. The v5.2 and v5.3 releases did two things: they made the audit sharper for high-stakes sites, and they closed several gaps users kept asking about. This post walks through every change, why it exists, and how to use it.
 
 You can find the skill itself at [github.com/f9xr/seo-audit-report-skill](https://github.com/f9xr/seo-audit-report-skill), the [SEO Codebase Auditor skill guide](https://f9xr.org/articles/2026/07/31/f9xr-seo-codebase-auditor-skill-guide.html), and the [v5.1 update notes](https://f9xr.org/articles/2026/08/26/seo-codebase-auditor-v5-1-update.html). A shorter version of these v5.2/v5.3 notes is also in our [September 17 post](https://f9xr.org/articles/2026/09/17/seo-codebase-auditor-v5-2-v5-3-update.html). This article is the fuller changelog-style reference.

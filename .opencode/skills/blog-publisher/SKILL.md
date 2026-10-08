@@ -166,6 +166,7 @@ Add tables where comparisons or data help clarity.
 
 **Content rules:**
 - Never use `<h1>` or `# ` in the post body — the layout auto-generates the H1 from the front-matter `title`. Using a second H1 creates duplicate H1 issues.
+- Never add a `*Last reviewed: ... | Reading time: about X minutes*` italic line (or any manual reading-time / reviewed-byline) to the body. The layout auto-renders the reading-time badge from the real word count (`_layouts/post.html`), and `dateModified` belongs in front matter only. This duplicate was removed from all posts on 2026-10-08; do not reintroduce it.
 - Use `##` and `###` headings (H2 → auto-TOC, H3 → sub-sections)
 - Include real statistics with sources where possible
 - Use tables for comparisons, data, checklists

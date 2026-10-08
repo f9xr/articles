@@ -23,8 +23,6 @@ faq:
     a: "Yes. AI answer engines such as ChatGPT, Gemini, Claude, and Perplexity rely on web content, so clear structure, trustworthy sourcing, consistent business details, and crawler access still matter. No one can promise AI citations, but a good SEO team makes your business easier to find and understand."
 ---
 
-*Last reviewed: October 7, 2026 | Reading time: about 14 minutes*
-
 Most business owners meet SEO the same way. A friend says "you should be on Google." A freelancer sends a proposal. Someone writes a few blog posts. Six months later, there is no plan, no owner, and no idea whether any of it worked.
 
 The problem is rarely effort. It is structure. SEO is not one skill. It is a handful of skills working together: strategy, writing, web development, local presence, analytics, and (in 2026) making sure AI tools like ChatGPT, Gemini, Claude, and Perplexity can understand and trust your business.

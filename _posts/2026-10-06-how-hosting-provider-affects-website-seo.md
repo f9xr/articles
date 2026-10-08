@@ -23,8 +23,6 @@ faq:
     a: "Google's web.dev guidance treats a Time to First Byte under 800 milliseconds as good, though faster is better. TTFB is not a Core Web Vital, but it feeds directly into Largest Contentful Paint, which should be 2.5 seconds or less for a good score."
 ---
 
-*Last reviewed: October 6, 2026 | Reading time: about 13 minutes*
-
 You wrote the blog posts. You paid for a fresh design. You even fixed your title tags. And your rankings still feel stuck.
 
 Before you hire another writer or buy another SEO tool, it is worth looking at something most owners never think about after the day they signed up: the company that actually serves your website to the world.

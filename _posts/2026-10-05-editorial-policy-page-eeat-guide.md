@@ -23,8 +23,6 @@ faq:
     a: "Place a link in your website footer so it appears on every page. Also link to it from your About page, your author pages, and ideally from a short note on each article. Use a clear URL such as /editorial-policy/ so people and crawlers can find it quickly."
 ---
 
-*Last reviewed: October 5, 2026 | Reading time: about 11 minutes*
-
 Picture two accounting firms in your city. Both publish a blog post on the same tax deadline. The advice is almost identical.
 
 One firm has a page that says who writes its articles, who checks the numbers, how often old posts get reviewed, and where to report a mistake. The other firm has nothing. Just a nice logo and a blog.
