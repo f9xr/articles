@@ -102,3 +102,4 @@ https://f9xr.org/articles/2026/10/05/editorial-policy-page-eeat-guide.html
 https://f9xr.org/articles/2026/10/06/how-hosting-provider-affects-website-seo.html
 https://f9xr.org/articles/2026/10/07/how-to-create-your-own-seo-team.html
 https://f9xr.org/articles/2026/10/07/seo-codebase-auditor-v5-2-v5-3-update-details.html
+https://f9xr.org/articles/2026/10/08/wordpress-canonical-mcp-adapter-plugin-guide.html
