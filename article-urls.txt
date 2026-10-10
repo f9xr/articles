@@ -106,3 +106,4 @@ https://f9xr.org/articles/2026/10/08/wordpress-canonical-mcp-adapter-plugin-guid
 https://f9xr.org/articles/2026/10/09/indexnow-api-2026-does-it-still-work.html
 https://f9xr.org/articles/2026/10/09/google-september-2026-spam-update-complete.html
 https://f9xr.org/articles/2026/10/09/recover-website-traffic-google-spam-update-2026.html
+https://f9xr.org/articles/2026/10/10/breadcrumbs-in-seo-complete-guide.html
