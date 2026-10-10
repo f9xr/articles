@@ -185,3 +185,5 @@ The businesses that move now, implementing complete LocalBusiness schema, aligni
 The good news is that this isn't a separate SEO strategy. It's an extension of the work you should already be doing for local search visibility. Structured data that helps Google understand your business also helps Meta. Consistent NAP data that improves your Google Business Profile also strengthens your Meta AI presence. The investment compounds across both AI ecosystems.
 
 Start with your website's JSON-LD schema. Make sure it's complete and accurate. Then audit your social profiles for consistency. Then verify with Meta's debugger. Each step builds on the last, and the cumulative effect is a business entity that AI systems across the web can find, trust, and recommend with confidence.
+
+*Produced using AI-assisted research and drafting workflows, then reviewed and edited by the F9XR editorial team. See our [Editorial Policy](https://f9xr.org/articles/press/editorial-policy.html) for how we create and verify content.*

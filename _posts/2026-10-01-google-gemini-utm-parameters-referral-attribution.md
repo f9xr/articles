@@ -129,4 +129,4 @@ Treat this as instrumentation, not as a growth channel. Fix the reporting this m
 
 ---
 
-*This article was researched and drafted with AI assistance, then reviewed and edited by a human before publication. GA4 channel rules change over time, so verify current behaviour in your own property before acting on it.*
+*Produced using AI-assisted research and drafting workflows, then reviewed and edited by the F9XR editorial team. See our [Editorial Policy](https://f9xr.org/articles/press/editorial-policy.html) for how we create and verify content.*
