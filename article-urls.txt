@@ -108,3 +108,4 @@ https://f9xr.org/articles/2026/10/09/google-september-2026-spam-update-complete.
 https://f9xr.org/articles/2026/10/09/recover-website-traffic-google-spam-update-2026.html
 https://f9xr.org/articles/2026/10/10/breadcrumbs-in-seo-complete-guide.html
 https://f9xr.org/articles/2026/10/10/types-of-sitemaps-seo-guide.html
+https://f9xr.org/articles/2026/10/11/jetpack-16-3-update-whats-new.html
