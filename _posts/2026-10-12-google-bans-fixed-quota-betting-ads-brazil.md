@@ -51,7 +51,7 @@ You may not run a betting brand. But if you buy ads, manage campaigns for client
 | Legal status | Still being challenged and debated, so details may change |
 
 <!--
-Brazil fixed-quota betting mind map (Mermaid source kept in a comment because Mermaid is not enabled on this site). To render it, swap this comment for a {% highlight mermaid %} block:
+Brazil fixed-quota betting mind map (Mermaid source kept in a comment because Mermaid is not enabled on this site). To render it, swap this comment for a {% raw %}{% highlight mermaid %}{% endraw %} block:
 
 mindmap
   root((Google bans fixed-quota betting ads in Brazil))

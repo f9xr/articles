@@ -56,7 +56,7 @@ One term to fix before we go further. Private preview means a feature is limited
 | Pricing | No separate price published at announcement |
 
 <!--
-Gemini agent mind map (Mermaid source kept in a comment because Mermaid is not enabled on this site). To render it, swap this comment for a {% highlight mermaid %} block:
+Gemini agent mind map (Mermaid source kept in a comment because Mermaid is not enabled on this site). To render it, swap this comment for a {% raw %}{% highlight mermaid %}{% endraw %} block:
 
 mindmap
   root((Google Cloud Gemini agent))
