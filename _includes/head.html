@@ -24,6 +24,11 @@
   <meta name="author" content="{{ page.author | default: site.author }}">
   <link rel="canonical" href="{{ page.url | replace:'index.html','' | absolute_url }}">
 
+  <!-- Agent discovery: ARD manifest, Agent Skills index, and the WebMCP surface -->
+  <link rel="ai-catalog" href="{{ '/.well-known/ai-catalog.json' | absolute_url }}">
+  <link rel="ard" href="{{ '/.well-known/ard.json' | absolute_url }}">
+  <link rel="agent-skills" href="{{ '/.well-known/agent-skills/index.json' | absolute_url }}">
+
   <meta name="theme-color" content="#0a0a0a">
   <meta name="msapplication-TileColor" content="#0a0a0a">
   <meta name="language" content="{{ page.lang | default: site.lang }}">
