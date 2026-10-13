@@ -1,0 +1,29 @@
+{
+  "$schema": "https://schemas.agentskills.io/discovery/0.2.0/schema.json",
+  "skills": [
+    {
+      "name": "avoid-ai-writing",
+      "type": "skill-md",
+      "description": "Audit and rewrite content to remove AI writing patterns (AI-isms). Use when asked to remove AI-isms, clean up AI writing, edit writing for AI patterns, audit writing for AI tells, or make text sound less like AI. Supports a detect-only mode, an edit-in-place mode, optional voice profiles, and an iterate-to-convergence pass.",
+      "url": "https://f9xr.org/articles/.well-known/agent-skills/avoid-ai-writing/SKILL.md",
+      "digest": "sha256:d3d1a2cc1971089efeb5575120082601be813a7a5d3926e7fe203cc4e2ce7099",
+      "sha256": "d3d1a2cc1971089efeb5575120082601be813a7a5d3926e7fe203cc4e2ce7099"
+    },
+    {
+      "name": "anti-ai-writing",
+      "type": "skill-md",
+      "description": "Voice and style guide for writing like a sharp, specific human. Use when drafting or editing prose to enforce varied sentence rhythm, natural contractions, direct address, and a list of anti-AI-tell rules so copy stops reading as machine-generated.",
+      "url": "https://f9xr.org/articles/.well-known/agent-skills/anti-ai-writing/SKILL.md",
+      "digest": "sha256:922363d698c332e6f3bf4d450ec82a83fb2a168ae09066acdfa925cdfe1db3eb",
+      "sha256": "922363d698c332e6f3bf4d450ec82a83fb2a168ae09066acdfa925cdfe1db3eb"
+    },
+    {
+      "name": "seo-audit-report",
+      "type": "skill-md",
+      "description": "Evidence-driven SEO audit of static code repositories across 24 audit pillars, including technical SEO, semantic SEO, structured data, Core Web Vitals, internal linking, competitor analysis, IndexNow, and E-E-A-T. Use when asked to audit a site or codebase and produce a prioritized seo_audit_report.md with CSV export.",
+      "url": "https://f9xr.org/articles/.well-known/agent-skills/seo-audit-report/SKILL.md",
+      "digest": "sha256:7cb8fb764154819f0920cbd94fb44693569aed2fb29aa5cfe87263ff455f25a5",
+      "sha256": "7cb8fb764154819f0920cbd94fb44693569aed2fb29aa5cfe87263ff455f25a5"
+    }
+  ]
+}

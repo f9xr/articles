@@ -71,6 +71,11 @@ defaults:
     values:
       layout: episode
 
+# Publish files under .well-known/ (Jekyll ignores dot-directories by default).
+# These are static agent-discovery assets (agent-skills index, ARD manifest).
+include:
+  - .well-known
+
 exclude:
   - README.md
   - AGENTS.md

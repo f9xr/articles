@@ -1,0 +1,45 @@
+{
+  "specVersion": "0.91",
+  "host": "f9xr.org",
+  "entries": [
+    {
+      "identifier": "urn:air:f9xr.org:articles:avoid-ai-writing",
+      "displayName": "avoid-ai-writing",
+      "type": "application/agent-skills+md",
+      "url": "https://f9xr.org/articles/.well-known/agent-skills/avoid-ai-writing/SKILL.md",
+      "description": "Audit and rewrite content to remove AI writing patterns (AI-isms). Supports detect-only, edit-in-place, optional voice profiles, and an iterate-to-convergence pass.",
+      "tags": ["writing", "editing", "voice", "quality"],
+      "representativeQueries": [
+        "edit this article so it doesn't sound like AI wrote it",
+        "remove the AI-isms from my draft",
+        "why does my writing sound like ChatGPT"
+      ]
+    },
+    {
+      "identifier": "urn:air:f9xr.org:articles:anti-ai-writing",
+      "displayName": "anti-ai-writing",
+      "type": "application/agent-skills+md",
+      "url": "https://f9xr.org/articles/.well-known/agent-skills/anti-ai-writing/SKILL.md",
+      "description": "Voice and style guide for writing like a sharp, specific human, with rules for rhythm, contractions, direct address, and avoiding AI tells.",
+      "tags": ["writing", "voice", "style", "editing"],
+      "representativeQueries": [
+        "give me rules for writing in a human voice",
+        "how do I make my prose sound less robotic",
+        "style guide to avoid common AI writing tells"
+      ]
+    },
+    {
+      "identifier": "urn:air:f9xr.org:articles:seo-audit-report",
+      "displayName": "SEO Codebase Audit",
+      "type": "application/agent-skills+md",
+      "url": "https://f9xr.org/articles/.well-known/agent-skills/seo-audit-report/SKILL.md",
+      "description": "Evidence-driven SEO audit of static code repositories across 24 pillars, producing a prioritized seo_audit_report.md with CSV export.",
+      "tags": ["seo", "audit", "technical-seo", "structured-data"],
+      "representativeQueries": [
+        "audit my Jekyll site for SEO problems",
+        "find technical SEO issues in my repository",
+        "create a prioritized SEO audit report for this codebase"
+      ]
+    }
+  ]
+}
