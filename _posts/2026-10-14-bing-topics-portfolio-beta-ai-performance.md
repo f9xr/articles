@@ -29,7 +29,13 @@ On October 13, 2026, Microsoft shipped a feature that helps. It is called **Topi
 
 **Quick answer:** Topics Portfolio is a beta tab in Bing Webmaster Tools' AI Performance report that groups the grounding queries where your site appears into broad topics. For each topic it shows how much AI search demand exists, how many sites are cited, and how many queries sit inside it. It also lists opportunity queries, which are searches where other sites get cited and yours does not.
 
+<img src="https://blogs.bing.com/api/media/assets/uploads/2026/10/50b7fb8e-d7fc-462e-a58b-00d32b35962d-Ex1_L1_View2.png" alt="The AI Performance report in Bing Webmaster Tools" title="Where Topics Portfolio lives in Bing Webmaster Tools" width="1200" height="675" loading="lazy" />
+
+*Screenshot via the [Bing Webmaster Blog](https://blogs.bing.com/webmaster/2026/10/introducing-topics-portfolio-beta-in-ai-performance/){:target="_blank" rel="noopener noreferrer"}. Copyright Microsoft.*
+
 Microsoft announced the feature on its [Bing Webmaster Blog](https://blogs.bing.com/webmaster/2026/10/introducing-topics-portfolio-beta-in-ai-performance/){:target="_blank" rel="noopener noreferrer"}. This guide explains what it shows, how to read each number, what the beta limits mean, and how to turn the data into a content plan you can start this week.
+
+<img src="https://f9xr.org/articles/assets/post-images/bing-topics-portfolio-beta-ai-performance.webp" alt="Bing Topics Portfolio: find your gaps in AI search" title="Bing Topics Portfolio: Find Your Gaps in AI Search" width="1200" height="630" loading="lazy" />
 
 ---
 
@@ -52,6 +58,10 @@ When an AI system answers a question, it often runs its own searches behind the 
 | October 13, 2026 | Bing announced Topics Portfolio (Beta) with aggregate measures and opportunity queries |
 
 Microsoft is clearly investing in giving site owners real data about AI search, something Google Search Console does not yet offer in the same depth. That gap makes Topics Portfolio the most useful free AI visibility data most small sites can get right now.
+
+<img src="https://blogs.bing.com/api/media/assets/uploads/2026/10/21caf4e6-6069-4e0e-a3ed-857102de79c4-Ex1_L2_View.png" alt="Topics Portfolio detail view with your grounding queries and opportunity queries" title="Your grounding queries compared with opportunity queries" width="1200" height="675" loading="lazy" />
+
+*Screenshot via the [Bing Webmaster Blog](https://blogs.bing.com/webmaster/2026/10/introducing-topics-portfolio-beta-in-ai-performance/){:target="_blank" rel="noopener noreferrer"}. Copyright Microsoft.*
 
 ---
 
