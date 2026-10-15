@@ -35,7 +35,6 @@ On October 13, 2026, Microsoft shipped a feature that helps. It is called **Topi
 
 Microsoft announced the feature on its [Bing Webmaster Blog](https://blogs.bing.com/webmaster/2026/10/introducing-topics-portfolio-beta-in-ai-performance/){:target="_blank" rel="noopener noreferrer"}. This guide explains what it shows, how to read each number, what the beta limits mean, and how to turn the data into a content plan you can start this week.
 
-<img src="https://f9xr.org/articles/assets/post-images/bing-topics-portfolio-beta-ai-performance.webp" alt="Bing Topics Portfolio: find your gaps in AI search" title="Bing Topics Portfolio: Find Your Gaps in AI Search" width="1200" height="630" loading="lazy" />
 
 ---
 
