@@ -115,3 +115,4 @@ https://f9xr.org/articles/2026/10/12/how-we-ran-ymyl-audit-our-site.html
 https://f9xr.org/articles/2026/10/13/top-wordpress-plugins-for-brand-marketing.html
 https://f9xr.org/articles/2026/10/13/is-your-site-agent-ready-cloudflare-free-tool.html
 https://f9xr.org/articles/2026/10/14/bing-topics-portfolio-beta-ai-performance.html
+https://f9xr.org/articles/2026/10/15/google-ads-channel-prioritization-budget-allocation.html
