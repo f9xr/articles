@@ -5,4 +5,41 @@ sitemap: false
 User-agent: *
 Allow: /
 
+# AI crawler governance
+# F9XR Articles is an open, CC BY 4.0 publication. We opt in to AI discovery
+# and citation, so the crawlers below are explicitly allowed. This block makes
+# the policy intentional and auditable rather than inherited from the wildcard.
+# To opt out of a specific crawler, change its Allow: / to Disallow: /.
+# Note: Google-Extended only controls Gemini/AI training; it does not affect
+# Google Search indexing or ranking.
+User-agent: GPTBot
+Allow: /
+
+User-agent: OAI-SearchBot
+Allow: /
+
+User-agent: ChatGPT-User
+Allow: /
+
+User-agent: Google-Extended
+Allow: /
+
+User-agent: ClaudeBot
+Allow: /
+
+User-agent: anthropic-ai
+Allow: /
+
+User-agent: PerplexityBot
+Allow: /
+
+User-agent: CCBot
+Allow: /
+
+User-agent: meta-externalagent
+Allow: /
+
+User-agent: Applebot-Extended
+Allow: /
+
 Sitemap: {{ '/sitemap.xml' | absolute_url }}

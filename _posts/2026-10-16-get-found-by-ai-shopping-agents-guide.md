@@ -7,6 +7,7 @@ image_width: 1200
 image_height: 630
 image_caption: "AI shopping agents read structured product data, not blue links. Clean feeds, schema and clear policies are what get a product shortlisted."
 date: 2026-10-16
+dateModified: 2026-10-16
 author: "F9XR Editorial Team"
 tags: [AI shopping agents, Agentic commerce, Answer engine optimization, Google Merchant Center, Universal Commerce Protocol, Product schema markup, ChatGPT shopping, Google AI Mode, Local SEO, Ecommerce SEO]
 keywords: "AI shopping agents, agentic commerce, AI product discovery, Google Merchant Center, Universal Commerce Protocol, Agentic Commerce Protocol, product schema, AI Mode shopping, answer engine optimization"

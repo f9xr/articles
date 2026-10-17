@@ -165,7 +165,7 @@ Not every business has an app, and that is fine. Position matters more than size
 
 **If you are considering building an app,** decide what you will measure before you build, not after. Tie app goals to orders, bookings, or qualified leads rather than downloads. A download is not revenue, and instrumenting for revenue takes planning you cannot retrofit cheaply. Our piece on [SEO metrics beyond rankings](https://f9xr.org/articles/2026/08/19/seo-metrics-beyond-rankings.html) covers the same principle for websites.
 
-**If you run local ads,** better attribution means fewer wasted rupees. See our guidance on [Google Ads for local customers](https://f9xr.org/articles/2026/09/09/google-ads-local-customer-optimization.html) and how to [outsmart competitors without increasing your ad budget](https://f9xr.org/articles/2026/09/15/outsmart-competifiers-without-increasing-ad-budget.html).
+**If you run local ads,** better attribution means fewer wasted rupees. See our guidance on [Google Ads for local customers](https://f9xr.org/articles/2026/09/09/google-ads-local-customer-optimization.html) and how to [outsmart competitors without increasing your ad budget](https://f9xr.org/articles/2026/09/15/outsmart-competitors-without-increasing-ad-budget.html).
 
 **Worth noting for every business:** a large share of app installs and orders begin on a mobile website, so the site is part of the app funnel whether you admit it or not. That argument for a fast, mobile-first site is in [why going mobile-first matters](https://f9xr.org/articles/2026/08/03/why-go-mobile-first.html).
 

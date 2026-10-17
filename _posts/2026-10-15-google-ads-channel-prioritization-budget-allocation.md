@@ -7,6 +7,7 @@ image_width: 1200
 image_height: 630
 image_caption: "Channel prioritization and budget allocation give small advertisers a capped way to test secondary channels in Google Ads."
 date: 2026-10-15
+dateModified: 2026-10-15
 author: "Mohammed Ahetasham Uddin"
 tags: [Google Ads, Google Ads update, channel prioritization, budget allocation, Google Display Network, Search partners, Performance Max, Demand Gen, PPC for small business, digital advertising news]
 keywords: "Google Ads channel prioritization, Google Ads budget allocation, Google Display Network budget cap, Search partners, Performance Max channel controls, Demand Gen, Target CPA, Target ROAS, Google Ads update, PPC for small business"

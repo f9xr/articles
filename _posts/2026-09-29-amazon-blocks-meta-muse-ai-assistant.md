@@ -7,6 +7,7 @@ image_width: 1200
 image_height: 630
 image_caption: "Amazon's advertising line passed $68 billion last year. An agent that skips the product page is an impression that never sells."
 date: 2026-09-29
+dateModified: 2026-09-29
 author: "Mohammed Ahetasham Uddin"
 tags: [Amazon blocks Meta Muse, Meta Muse AI, AI shopping agents, agentic commerce, AI search visibility, small business SEO, local SEO 2026, answer engine optimization, e-commerce news, website development]
 keywords: "Amazon blocks Meta Muse, Meta Muse AI agent, AI shopping agents, agentic commerce, Amazon Conditions of Use, AI agent for small business, AI search visibility, Amazon Rufus, Buy for Me, Perplexity Comet"

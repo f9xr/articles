@@ -160,6 +160,57 @@
   <link rel="alternate" type="text/plain" title="{{ site.title | escape }}: llms.txt" href="{{ '/llms.txt' | absolute_url }}">
   <link rel="alternate" type="text/plain" title="{{ site.title | escape }}: llms-full.txt" href="{{ '/llms-full.txt' | absolute_url }}">
 
+  {%- comment -%}
+    Site entity graph. The homepage (index.md) emits its own richer WebSite +
+    Organization nodes, so this block is skipped there to avoid duplicate @id
+    definitions. Every other page needs these nodes so that the @id references
+    emitted by post.html (".../#website", "https://f9xr.org#organization")
+    resolve to a real entity instead of dangling.
+  {%- endcomment -%}
+  {%- unless page.url == '/' %}
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "WebSite",
+    "@id": "{{ '/' | absolute_url }}#website",
+    "url": "{{ '/' | absolute_url }}",
+    "name": {{ site.title | jsonify }},
+    "description": {{ site.description | jsonify }},
+    "inLanguage": "{{ site.lang }}",
+    "publisher": { "@id": "https://f9xr.org#organization" }
+  }
+  </script>
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "Organization",
+    "@id": "https://f9xr.org#organization",
+    "name": "F9XR Team",
+    "url": "https://f9xr.org",
+    "email": "{{ site.email }}",
+    "logo": {
+      "@type": "ImageObject",
+      "url": "{{ '/logo.webp' | absolute_url }}",
+      "width": 512,
+      "height": 512
+    },
+    "sameAs": [
+      "https://github.com/f9xr",
+      "https://linkedin.com/company/f9xrteam",
+      "https://instagram.com/f9xrteam",
+      "https://www.threads.net/@f9xrteam",
+      "https://www.youtube.com/@QuarterlyLIV",
+      "https://www.tumblr.com/f9xr"
+    ],
+    "contactPoint": {
+      "@type": "ContactPoint",
+      "email": "hello@f9xr.org",
+      "contactType": "customer service"
+    }
+  }
+  </script>
+  {%- endunless %}
+
   <!-- Google Translate widget: pre-warm connections so the dropdown renders sooner -->
   <link rel="preconnect" href="https://translate.google.com" crossorigin>
   <link rel="preconnect" href="https://www.gstatic.com" crossorigin>

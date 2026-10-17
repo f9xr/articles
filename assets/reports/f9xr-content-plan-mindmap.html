@@ -1,0 +1,43 @@
+﻿<!DOCTYPE html>
+<html lang='en'>
+<head>
+<meta charset='utf-8'>
+<meta name='viewport' content='width=device-width, initial-scale=1'>
+<title>F9XR Articles — Content Plan Mindmap</title>
+<style>
+body{font-family:Inter,system-ui,Segoe UI,Arial,sans-serif;background:#0a0a0a;color:#e6e6e6;margin:0;padding:20px;line-height:1.4}
+h1{font-size:18px;margin:0 0 12px}
+#mm{height:80vh;overflow:auto;border:1px solid #2b2b2b;border-radius:12px;background:#111}
+</style>
+<link rel='stylesheet' href='https://cdn.jsdelivr.net/npm/jsmind/style/jsmind.css'>
+</head>
+<body>
+<h1>F9XR Articles — Content Plan Mindmap (as of 2026-10-17, 120 posts)</h1>
+<div id='mm'></div>
+<script src='https://cdn.jsdelivr.net/npm/jsmind/js/jsmind.js'></script>
+<script src='https://cdn.jsdelivr.net/npm/jsmind/js/jsmind.draggable.js'></script>
+<script>
+var mind = {
+  'meta':{'name':'F9XR Articles Content Plan','author':'F9XR Team','version':'2.0'},
+  'format':'node_array',
+  'data':[
+    {'id':'root','isroot':true,'topic':'F9XR Articles'},
+    {'id':'seo','parentid':'root','topic':'SEO (Technical/Local)'},
+    {'id':'ai','parentid':'root','topic':'AI Integration & GEO/AEO'},
+    {'id':'perf','parentid':'root','topic':'Performance & Architecture'},
+    {'id':'trust','parentid':'root','topic':'Trust & Policy'},
+    {'id':'recent','parentid':'root','topic':'Recent Highlights'},
+    {'id':'meta_terms','parentid':'recent','topic':'Meta Commercial Terms (2026-10-17)'},
+    {'id':'ai_shopping','parentid':'recent','topic':'AI Shopping Agents (2026-10-16)'},
+    {'id':'ads_priority','parentid':'recent','topic':'Google Ads Channel Prioritization (2026-10-15)'},
+    {'id':'cwv','parentid':'perf','topic':'Core Web Vitals, CWV'},
+    {'id':'crawlers','parentid':'ai','topic':'AI Crawlers Governance'},
+    {'id':'schema','parentid':'trust','topic':'Schema & Entity Graph'},
+    {'id':'reviewed','parentid':'trust','topic':'Reviewed-by Scaffolding'}
+  ]
+};
+var jm = new jsMind({container:'mm', editable:false, theme:'dark'});
+jm.show(mind);
+</script>
+</body>
+</html>

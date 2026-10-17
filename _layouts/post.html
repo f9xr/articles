@@ -114,6 +114,10 @@ layout: default
       {%- endif -%}
       <span class="post-meta-sep">&middot;</span>
       <span class="post-reading-time" id="reading-time"></span>
+      {%- if page.reviewed_by and author != "F9XR Editorial Team" -%}
+      <span class="post-meta-sep">&middot;</span>
+      <span class="post-reviewed-by" itemprop="reviewedBy">reviewed by {{ page.reviewed_by }}</span>
+      {%- endif -%}
     </div>
 
     {%- if page.tags and page.tags.size > 0 -%}
@@ -662,25 +666,8 @@ layout: default
       {% for item in sameas_items %}"{{ item }}"{% unless forloop.last %},{% endunless %}{% endfor %}
     ]
   },
-  "publisher": {
-    "@type": "Organization",
-    "name": "F9XR Team",
-    "url": "https://f9xr.org",
-    "logo": {
-      "@type": "ImageObject",
-      "url": {{ '/logo.webp' | absolute_url | jsonify }},
-      "width": 200,
-      "height": 200
-    },
-    "sameAs": [
-      "https://github.com/f9xr",
-      "https://linkedin.com/company/f9xrteam",
-      "https://instagram.com/f9xrteam",
-      "https://www.threads.net/@f9xrteam",
-      "https://www.youtube.com/@QuarterlyLIV",
-      "https://www.tumblr.com/f9xr"
-    ]
-  },
+{% if page.reviewed_by and author != "F9XR Editorial Team" %}  "reviewedBy": { "@type": "Organization", "name": {{ page.reviewed_by | jsonify }} },
+{% endif %}  "publisher": { "@id": "https://f9xr.org#organization" },
   "mainEntityOfPage": {
     "@type": "WebPage",
     "@id": "{{ page.url | absolute_url }}"
