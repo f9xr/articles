@@ -3,7 +3,7 @@ layout: page
 title: Authors - F9XR Articles
 title_hidden: true
 description: "Meet the F9XR Editorial Team and contributors behind F9XR Articles, engineering digital growth across web performance, AI integration, and local SEO."
-keywords: "F9XR Articles authors, F9XR Editorial Team, Mohammed Ahetasham Uddin, Ankush Santra, Masna Sudhir, F9XR Team"
+keywords: "F9XR Articles authors, F9XR Editorial Team, Mohammed Ahetasham Uddin, Ankush Santra, Masna Sudhir, Mishra Sheshamani, F9XR Team"
 ---
 
 <h1 class="sr-only">Authors - F9XR Articles</h1>

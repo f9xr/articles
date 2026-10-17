@@ -102,6 +102,24 @@
         </span>
       </a>
       {% endif %}
+      {% if ap.facebook %}
+      <a class="author-social" data-brand="facebook" href="{{ ap.facebook }}" target="_blank" rel="noopener noreferrer">
+        <span class="author-social-icon"><i class="fa-brands fa-facebook-f"></i></span>
+        <span class="author-social-info">
+          <span class="author-social-name">Facebook</span>
+          <span class="author-social-handle">Personal profile</span>
+        </span>
+      </a>
+      {% endif %}
+      {% if ap.quora %}
+      <a class="author-social" data-brand="quora" href="{{ ap.quora }}" target="_blank" rel="noopener noreferrer">
+        <span class="author-social-icon"><i class="fa-brands fa-quora"></i></span>
+        <span class="author-social-info">
+          <span class="author-social-name">Quora</span>
+          <span class="author-social-handle">Answers and questions</span>
+        </span>
+      </a>
+      {% endif %}
       {% if ap.github %}
       <a class="author-social" data-brand="github" href="{{ ap.github }}" target="_blank" rel="noopener noreferrer">
         <span class="author-social-icon"><i class="fa-brands fa-github"></i></span>
@@ -163,6 +181,8 @@
     {% assign sameas_items = "" | split: "" %}
     {% if ap.linkedin %}{% assign sameas_items = sameas_items | push: ap.linkedin %}{% endif %}
     {% if ap.instagram %}{% assign sameas_items = sameas_items | push: ap.instagram %}{% endif %}
+    {% if ap.facebook %}{% assign sameas_items = sameas_items | push: ap.facebook %}{% endif %}
+    {% if ap.quora %}{% assign sameas_items = sameas_items | push: ap.quora %}{% endif %}
     {% if ap.github %}{% assign sameas_items = sameas_items | push: ap.github %}{% endif %}
     {% if ap.threads %}{% assign sameas_items = sameas_items | push: ap.threads %}{% endif %}
     {% if ap.youtube %}{% assign sameas_items = sameas_items | push: ap.youtube %}{% endif %}

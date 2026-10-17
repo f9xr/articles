@@ -473,6 +473,16 @@ layout: default
           <i class="fa-brands fa-instagram"></i>
         </a>
         {% endif %}
+        {% if post_author.facebook %}
+        <a href="{{ post_author.facebook }}" target="_blank" rel="noopener noreferrer" title="Facebook" style="display:inline-flex; align-items:center; justify-content:center; width:32px; height:32px; border-radius:8px; background:rgba(59,130,246,0.08); border:1px solid #1e2024; color:#71717a; transition:all 0.2s;" onmouseover="this.style.color='#3b82f6'; this.style.borderColor='#2563eb';" onmouseout="this.style.color='#71717a'; this.style.borderColor='#1e2024';">
+          <i class="fa-brands fa-facebook-f"></i>
+        </a>
+        {% endif %}
+        {% if post_author.quora %}
+        <a href="{{ post_author.quora }}" target="_blank" rel="noopener noreferrer" title="Quora" style="display:inline-flex; align-items:center; justify-content:center; width:32px; height:32px; border-radius:8px; background:rgba(59,130,246,0.08); border:1px solid #1e2024; color:#71717a; transition:all 0.2s;" onmouseover="this.style.color='#3b82f6'; this.style.borderColor='#2563eb';" onmouseout="this.style.color='#71717a'; this.style.borderColor='#1e2024';">
+          <i class="fa-brands fa-quora"></i>
+        </a>
+        {% endif %}
         {% if post_author.threads %}
         <a href="{{ post_author.threads }}" target="_blank" rel="noopener noreferrer" title="Threads" style="display:inline-flex; align-items:center; justify-content:center; width:32px; height:32px; border-radius:8px; background:rgba(59,130,246,0.08); border:1px solid #1e2024; color:#71717a; transition:all 0.2s;" onmouseover="this.style.color='#3b82f6'; this.style.borderColor='#2563eb';" onmouseout="this.style.color='#71717a'; this.style.borderColor='#1e2024';">
           <i class="fa-brands fa-threads"></i>
@@ -661,6 +671,8 @@ layout: default
       {% if post_author.github %}{% assign sameas_items = sameas_items | push: post_author.github %}{% endif %}
       {% if post_author.linkedin %}{% assign sameas_items = sameas_items | push: post_author.linkedin %}{% endif %}
       {% if post_author.instagram %}{% assign sameas_items = sameas_items | push: post_author.instagram %}{% endif %}
+      {% if post_author.facebook %}{% assign sameas_items = sameas_items | push: post_author.facebook %}{% endif %}
+      {% if post_author.quora %}{% assign sameas_items = sameas_items | push: post_author.quora %}{% endif %}
       {% if post_author.threads %}{% assign sameas_items = sameas_items | push: post_author.threads %}{% endif %}
       {% if post_author.youtube %}{% assign sameas_items = sameas_items | push: post_author.youtube %}{% endif %}
       {% for item in sameas_items %}"{{ item }}"{% unless forloop.last %},{% endunless %}{% endfor %}
