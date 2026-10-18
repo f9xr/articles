@@ -229,4 +229,20 @@ If you would like help turning that checklist into action, F9XR Team supports bu
 }
 </script>
 
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "mainEntity": [
+    { "@type": "Question", "name": "What is Google's Universal Cart?", "acceptedAnswer": { "@type": "Answer", "text": "Google's Universal Cart is an AI powered shopping cart that saves products from different retailers in one place across Google Search and the Gemini app. It tracks price drops and restocks, suggests promo codes and the best payment card, and supports checkout through Google Pay or on the merchant's site." } },
+    { "@type": "Question", "name": "When did Google Universal Cart launch?", "acceptedAnswer": { "@type": "Answer", "text": "Google launched Universal Cart in the United States on October 15, 2026. It was first previewed at Google I/O on May 19, 2026. At launch it is available in Google Search and the Gemini app, with YouTube and Gmail planned later." } },
+    { "@type": "Question", "name": "How do I use Google's Universal Cart?", "acceptedAnswer": { "@type": "Answer", "text": "Sign in to your Google account, shop in Google Search AI Mode or the Gemini app, and add products to your cart from different stores. Your items are saved for later. When you are ready, pay with Google Pay or transfer the items to the merchant's site." } },
+    { "@type": "Question", "name": "Who is the seller when someone buys through Universal Cart?", "acceptedAnswer": { "@type": "Answer", "text": "The merchant remains the seller of record. Customers receive order confirmations and support directly from the merchant, even when they check out with Google Pay inside the cart. This means store owners keep the customer relationship and handle service and returns." } },
+    { "@type": "Question", "name": "How can store owners get their products into Universal Cart?", "acceptedAnswer": { "@type": "Answer", "text": "Google has not announced a separate sign up in its launch posts. The building blocks are an accurate product feed in Google Merchant Center and the Universal Commerce Protocol (UCP) integration hub for checkout features. Start by cleaning your feed and exploring the hub." } },
+    { "@type": "Question", "name": "Is Universal Cart available outside the U.S.?", "acceptedAnswer": { "@type": "Answer", "text": "Not yet. The launch is U.S. only. Google has said its UCP powered checkout will expand to Canada and Australia in the coming months and later to the U.K. Stores elsewhere can still prepare by improving their Merchant Center feed and tracking AI visibility." } }
+  ]
+}
+</script>
+
 *Produced using AI-assisted research and drafting workflows, then reviewed and edited by the F9XR editorial team. See our [Editorial Policy](https://f9xr.org/articles/press/editorial-policy.html) for how we create and verify content.*
+
