@@ -145,6 +145,8 @@ This is a general pattern, not a rule. Some heavy themes are well optimized, and
 
 Copy this list. Before you buy or install any theme, work through it. You can usually test everything on the theme's public demo, without installing a thing.
 
+> **Download the template:** grab the fillable Excel version of this checklist, complete with Pass/Fail/N/A dropdowns, the weighted theme scoring sheet with automatic totals, and a walk-away red flags tab: [website-theme-seo-checklist-2026.xlsx](https://f9xr.org/articles/assets/downloads/website-theme-seo-checklist-2026.xlsx){:target="_blank" rel="noopener noreferrer"}. Free, no sign-up needed.
+
 ### A. Speed and Core Web Vitals
 
 - [ ] Run the demo page through [PageSpeed Insights](https://pagespeed.web.dev/){:target="_blank" rel="noopener noreferrer"} on mobile and note LCP, INP and CLS
@@ -350,7 +352,7 @@ Not sure where your site stands? Reach out through our [contact page](https://f9
 - Google's Core Web Vitals targets are LCP at 2.5 seconds or less, INP at 200 milliseconds or less and CLS at 0.1 or less. LCP is the one most sites fail, and themes strongly affect it.
 - Major AI crawlers such as GPTBot and ClaudeBot do not execute JavaScript, so key content should be present in the initial HTML.
 - Heavy multipurpose themes with bundled builders, sliders and many fonts are the most common cause of slow, bloated sites.
-- Always test the theme's live demo with PageSpeed Insights, view source and a real phone before you buy.
+- Always test the theme's live demo with PageSpeed Insights, view source and a real phone before you buy. The [downloadable Excel checklist](https://f9xr.org/articles/assets/downloads/website-theme-seo-checklist-2026.xlsx){:target="_blank" rel="noopener noreferrer"} makes that testing repeatable.
 - Make sure your theme works cleanly with your SEO plugin, supports breadcrumbs and does not output duplicate or broken schema.
 - Choose themes with recent updates, a clear license and good support. Never use nulled themes.
 - Local businesses should look for tap to call buttons, LocalBusiness schema support and lightweight maps.
