@@ -126,3 +126,4 @@ https://f9xr.org/articles/2026/10/20/qualityrater-herringbone-ai-tool-review-how
 https://f9xr.org/articles/2026/10/20/meta-removes-train-crawling-clause-what-it-means.html
 https://f9xr.org/articles/2026/10/21/deepseek-search-api-geo-manipulation.html
 https://f9xr.org/articles/2026/10/22/why-small-business-needs-website-2026.html
+https://f9xr.org/articles/2026/10/23/google-robots-txt-video-what-site-owners-should-know.html
