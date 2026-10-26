@@ -97,7 +97,7 @@ Once your hostnames are clean, the numbers you stare at every month actually sta
 
 If you have been reporting on raw sessions and bounce rate, this is the moment to widen the lens. Clean hostname data makes conversion rate, engaged sessions, and revenue per user trustworthy, which are the metrics that separate real growth from inflated vanity numbers. Our deep dive on [SEO metrics beyond rankings](https://f9xr.org/articles/2026/08/19/seo-metrics-beyond-rankings.html) explains which of these to track once your data is actually clean.
 
-One practical point: if you are considering switching analytics tools entirely because the data has felt unreliable, a filtered GA4 property may be all you need. Our [GoatCounter guide](https://f9xr.org/articles/2026/08/29/goatcounter-guide-what-is-it-how-to-set-it-up.html) covers the tradeoffs if you do want to compare options, but the hostname include filter fixes the root cause without a migration.
+One practical point: if you are considering switching analytics tools entirely because the data has felt unreliable, a filtered GA4 property may be all you need. Our [GoatCounter guide](https://f9xr.org/articles/2026/08/29/goatcounter-guide-what-it-is-how-to-set-it-up.html) covers the tradeoffs if you do want to compare options, but the hostname include filter fixes the root cause without a migration.
 
 ---
 

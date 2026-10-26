@@ -58,8 +58,11 @@ function stripHtml(str) {
 
 function tidy(str) {
   // Decode first: the feed's descriptions are HTML-escaped, so tags arrive as
-  // &lt;p&gt; and would survive a tag strip that ran before decoding.
-  return stripHtml(decodeEntities(str)).replace(/\s+/g, ' ').trim();
+  // &lt;p&gt; and would survive a tag strip that ran before decoding. Decode a
+  // second time because the Hugo feed escapes the escaped entities: a curly
+  // apostrophe arrives as &amp;rsquo;, which the first pass turns into &rsquo;
+  // and the second pass turns into the actual character.
+  return stripHtml(decodeEntities(decodeEntities(str))).replace(/\s+/g, ' ').trim();
 }
 
 function truncate(str, max) {

@@ -38,17 +38,7 @@ layout: default
   "dateModified": "{{ page.dateModified | default: page.date | default: site.time | date_to_xmlschema }}",
   "isPartOf": { "@id": "{{ '/' | absolute_url }}#website" },
   "breadcrumb": { "@id": "{{ page.url | absolute_url }}#breadcrumb" },
-  "publisher": {
-    "@type": "Organization",
-    "name": "F9XR Team",
-    "url": "https://f9xr.org",
-    "logo": {
-      "@type": "ImageObject",
-      "url": {{ '/logo.webp' | absolute_url | jsonify }},
-      "width": 200,
-      "height": 200
-    }
-  },
+  "publisher": { "@id": "https://f9xr.org#organization" },
   "inLanguage": "{{ site.lang }}"
 }
 </script>

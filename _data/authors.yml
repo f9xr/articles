@@ -106,3 +106,29 @@
       location: "India"
       highlights:
         - "Supports F9XR Team with data analysis, reporting, and insights that inform digital growth decisions"
+
+"Mishra Sheshamani":
+  name: "Mishra Sheshamani"
+  role: "Online Coordinator at F9XR Team"
+  avatar: "/assets/authors/mishra-sheshamani.webp"
+  url: "/authors/mishra-sheshamani/"
+  email: "mishrasheshamani333@gmail.com"
+  linkedin: "https://www.linkedin.com/in/mishra-sheshamani-589872444/"
+  quora: "https://www.quora.com/profile/Mishra-Sheshamani"
+  facebook: "https://www.facebook.com/sheshamani.mishraji"
+  instagram: "https://www.instagram.com/sheshamanimishraji"
+  knowsAbout:
+    - "Digital Platform Management"
+    - "Virtual Operations"
+    - "E-Commerce Activities"
+    - "Remote Learning Schedules"
+    - "Online Community Coordination"
+  experience:
+    - title: "Online Coordinator"
+      company: "F9XR Team"
+      company_url: "https://f9xr.org"
+      employment_type: "Full-time"
+      period: "Present"
+      location: "India"
+      highlights:
+        - "Manages F9XR Team's digital platforms, virtual operations, e-commerce activities, and remote learning schedules"

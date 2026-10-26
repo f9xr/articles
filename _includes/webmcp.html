@@ -1,0 +1,101 @@
+<script>
+// WebMCP: expose an article-search tool to in-browser AI agents.
+// Feature-guarded: does nothing in browsers without the WebMCP API.
+(function () {
+  var ctx =
+    (typeof document !== "undefined" ? document.modelContext : undefined) ||
+    (typeof navigator !== "undefined" ? navigator.modelContext : undefined);
+  if (!ctx || typeof ctx.registerTool !== "function") return;
+
+  var INDEX_URL = {{ "/search-index.json" | relative_url | jsonify }};
+  var cached = null;
+
+  function loadIndex() {
+    if (cached) return cached;
+    return fetch(INDEX_URL, { credentials: "same-origin" })
+      .then(function (res) {
+        if (!res.ok) throw new Error("HTTP " + res.status);
+        return res.json();
+      })
+      .then(function (data) {
+        cached = Array.isArray(data) ? data : [];
+        return cached;
+      });
+  }
+
+  function execute(args) {
+    var query = args && typeof args.query === "string" ? args.query.trim() : "";
+    var limit = args && Number.isInteger(args.limit) ? args.limit : 8;
+    if (limit < 1) limit = 1;
+    if (limit > 20) limit = 20;
+    if (!query) return Promise.resolve({ query: "", count: 0, results: [] });
+
+    var terms = query.toLowerCase().split(/\s+/).filter(Boolean);
+    return loadIndex().then(function (records) {
+      var results = [];
+      for (var i = 0; i < records.length && results.length < limit; i++) {
+        var rec = records[i] || {};
+        var tags = rec.g && rec.g.join ? rec.g.join(" ") : "";
+        var haystack = (
+          (rec.t || "") + " " + (rec.d || "") + " " + (rec.b || "") + " " + tags
+        ).toLowerCase();
+        var match = true;
+        for (var j = 0; j < terms.length; j++) {
+          if (haystack.indexOf(terms[j]) === -1) {
+            match = false;
+            break;
+          }
+        }
+        if (match) {
+          results.push({
+            title: rec.t || "",
+            url: new URL(rec.u || "", window.location.origin).href,
+            description: rec.d || "",
+            date: rec.dt || "",
+            tags: rec.g || []
+          });
+        }
+      }
+      return { query: query, count: results.length, results: results };
+    });
+  }
+
+  var tool = {
+    name: "search_articles",
+    description:
+      "Search F9XR Articles, a blog about web architecture, AI integration, local SEO, and web performance. Returns matching article titles, URLs, descriptions, dates, and tags.",
+    inputSchema: {
+      type: "object",
+      properties: {
+        query: {
+          type: "string",
+          description:
+            'Keywords or a topic to search for, for example "Core Web Vitals" or "local SEO".'
+        },
+        limit: {
+          type: "integer",
+          description: "Maximum number of results to return (1-20). Defaults to 8.",
+          minimum: 1,
+          maximum: 20
+        }
+      },
+      required: ["query"]
+    },
+    execute: execute,
+    annotations: { readOnlyHint: true }
+  };
+
+  function register() {
+    if (!ctx || typeof ctx.registerTool !== "function") return;
+    try {
+      Promise.resolve(ctx.registerTool(tool)).catch(function (err) {
+        console.warn("WebMCP tool registration failed", err);
+      });
+    } catch (err) {
+      console.warn("WebMCP tool registration failed", err);
+    }
+  }
+
+  register();
+})();
+</script>

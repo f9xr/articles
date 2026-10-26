@@ -9,7 +9,7 @@ image_credit: "Photo by <a href=\"https://unsplash.com/@aaronburden?utm_source=u
 date: 2026-08-04
 dateModified: 2026-08-04
 author: "F9XR Editorial Team"
-tags: [E-E-A-T, AI Overviews, Content Marketing, SEO Strategy, Digital PR, F9XR]
+tags: [E-E-A-T, Google E-E-A-T checklist, SEO Checklist, Quality Rater Guidelines, SEO Strategy, On-Page SEO, AI Overviews, Content Marketing, YMYL, F9XR]
 keywords: "E-E-A-T, Google E-E-A-T checklist, E-E-A-T framework, SEO checklist, quality rater guidelines, Experience Expertise Authoritativeness Trustworthiness, AI Overview citations, YMYL content, F9XR Team"
 faq:
   - q: "What does E-E-A-T stand for?"
@@ -31,7 +31,7 @@ E-E-A-T is the framework Google's human quality raters use to judge whether a pa
 E-E-A-T stands for Experience, Expertise, Authoritativeness, and Trustworthiness.
 
 - **Experience:** Does the author or site show firsthand, lived involvement with the topic, not just research?
-- **Expertise:** Does the content demonstrate real knowledge, skill, or credentials in the subject?
+- **Expertise:** Does the content demonstrate knowledge, skill, or credentials in the subject?
 - **Authoritativeness:** Is the author or site recognized as a credible source by others in the field, not just by itself?
 - **Trustworthiness:** Is the information accurate, clearly sourced, and safe to act on?
 
@@ -39,28 +39,28 @@ Google's own framing treats trust as the center of gravity. Expertise, experienc
 
 ## The 1-Page E-E-A-T Checklist
 
-### ✅ Experience
+### Experience
 
 - [ ] Author has visible, verifiable firsthand involvement with the topic (used the product, ran the process, lived the experience)
 - [ ] Original photos, screenshots, or video, not stock imagery, where firsthand proof is plausible
 - [ ] Specific, non-generic details that couldn't be written from research alone (exact numbers, timelines, edge cases encountered)
 - [ ] First-person language used honestly, not as a formatting trick
 
-### ✅ Expertise
+### Expertise
 
 - [ ] Author bio states relevant credentials, role, or track record on this specific topic
 - [ ] Content explains why, not just what. Reasoning is shown, not asserted
 - [ ] Claims are accurate and hold up against current authoritative sources, not outdated consensus
 - [ ] For YMYL topics (health, finance, legal, safety), the author's qualification for the subject is explicit, not implied
 
-### ✅ Authoritativeness
+### Authoritativeness
 
 - [ ] Site or author is referenced, linked to, or cited by other credible sources in the niche
 - [ ] Author has a dedicated bio or profile page, not just a byline
 - [ ] Structured author and entity data is present (Person schema, sameAs links to verified profiles)
 - [ ] Content sits inside a coherent topical cluster, not as an isolated one-off page with no supporting context
 
-### ✅ Trustworthiness
+### Trustworthiness
 
 - [ ] Factual claims align with current, verifiable consensus, not stale or contradicted data
 - [ ] Sources are cited clearly, with links to where the numbers came from
@@ -70,7 +70,7 @@ Google's own framing treats trust as the center of gravity. Expertise, experienc
 - [ ] Site is secure (HTTPS) with no intrusive, trust-eroding ad experience
 
 <figure class="post-figure">
-  <img src="https://images.unsplash.com/photo-1579017308347-e53e0d2fc5e9?q=80&w=1200&h=800&auto=format&fit=crop" alt="Person writing in a notebook with a pen while reviewing notes" title="Checking an E-E-A-T content checklist before publishing" width="1200" height="800" loading="lazy" />
+  <img src="https://f9xr.org/articles/assets/post-images/eeat-checklist-notebook.webp" alt="Person writing in a notebook with a pen while reviewing notes" title="Checking an E-E-A-T content checklist before publishing" width="1200" height="800" loading="lazy" />
   <figcaption>Photo by <a href="https://unsplash.com/@marcospradobr?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText" target="_blank" rel="noopener noreferrer">Marcos Paulo Prado</a> on <a href="https://unsplash.com/photos/tcyW6Im5Uug?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText" target="_blank" rel="noopener noreferrer">Unsplash</a></figcaption>
 </figure>
 
@@ -114,7 +114,7 @@ Local businesses have a head start on some of these signals when they build cita
 
 E-E-A-T won't hand you a number to chase, but it's the closest thing SEO has to a content quality floor in 2026. Run the checklist, fix the weakest pillar, and re-check every page you publish. That habit is what separates sites that gain visibility from sites that lose it after each core update.
 
-If you need help implementing this, teams like F9XR specialize in [website development, website redesign, local SEO, and digital presence solutions](https://f9xr.org/pages/services.html), and they build trust signals into sites from the start.
+If you need help putting this checklist into practice, teams like F9XR specialize in [website development, website redesign, local SEO, and digital presence solutions](https://f9xr.org/pages/services.html).
 
 ---
 

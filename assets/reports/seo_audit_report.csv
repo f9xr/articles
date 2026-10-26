@@ -1,0 +1,13 @@
+#,Pillar,Issue,Severity,File,Effort,Traffic Impact,Fix Type,Status
+"1","8. Internal Linking & Link Equity","Broken internal link (competitors slug)","High","_posts/2026-09-30-*.md","S (<4hr)","+1–5%","linking","FIXED"
+"2","8. Internal Linking & Link Equity","Broken internal link (goatcounter slug)","High","_posts/2026-09-22-*.md","S (<4hr)","+1–5%","linking","FIXED"
+"3","2. Technical SEO","_config.yml excludes stale root paths","High","_config.yml","S (<4hr)","Crawl cleanup","config","FIXED"
+"4","2. Technical SEO","3 posts missing dateModified","Medium","_posts/2026-09-29/15/16","S (<4hr)","Small","metadata","FIXED"
+"5","2. Technical SEO + 17. Rich Results","Sitewide WebSite/Organization JSON-LD","Medium","_includes/head.html","S (<4hr)","Structured data","schema","FIXED"
+"6","17. Rich Results","Publisher WebPage reference @id","Medium","_layouts/post.html, page.html","S (<4hr)","Consistency","schema","FIXED"
+"7","9. XML Sitemap & Robots.txt","AI crawler governance in robots.txt","Low","robots.txt","S (<4hr)","Policy clarity","config","FIXED"
+"8","16. E-E-A-T Signals","reviewed_by scaffolding","Low","_config.yml, _layouts/post.html","S (<4hr)","E-E-A-T","metadata/schema","FIXED (scaffolding)"
+"9","10. Social & Regional SEO","Transparency ad disclosure (Eonads)","Low","press/transparency.md","S (<4hr)","Trust","content","FIXED"
+"10","16. E-E-A-T Signals","Missing real NAP/address/phone","High","press/*.md","L (1–4w, owner)","Trust/Local","content","OPEN (owner)"
+"11","11. Security SEO","Consistent ad disclosure across policies","Low","press/affiliate-disclosure.md","S (<4hr, review)","Consistency","content","OPEN (owner review)"
+"12","16. E-E-A-T Signals","reviewed_by population granularity","Low","_posts/*.md","S–M","E-E-A-T","metadata","OPEN (editorial)"
