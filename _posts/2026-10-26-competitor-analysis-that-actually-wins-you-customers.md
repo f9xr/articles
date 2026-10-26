@@ -24,8 +24,6 @@ faq:
     a: "Ask your customers' likely questions in ChatGPT, Gemini, Perplexity, and Claude, then record which businesses are named and which sources are cited. For ongoing tracking, AI visibility tools such as Semrush's AI Visibility Toolkit and Ahrefs Brand Radar compare your mentions against competitors."
 ---
 
-## Introduction
-
 Here's a scene that plays out in small businesses every week. You search for your own service on Google. A rival you've barely heard of sits in the top three map results, with more reviews than you and a website that looks like it was built last month. Then you ask ChatGPT or Gemini for a recommendation, and a completely different name comes up.
 
 That's the moment most owners realize they've been guessing about their competition.
