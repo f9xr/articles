@@ -27,7 +27,6 @@ faq:
   - q: "How do I measure whether clipping works?"
     a: "Look beyond views. Track watch time, profile visits, branded search growth, website traffic with UTM tags, Google Business Profile actions such as calls and direction requests, and finally leads and sales. If views rise but business results do not, adjust your hooks and calls to action."
 ---
-## Introduction
 
 Think about the last podcast, webinar, or live session your business recorded. It probably ran 30 to 60 minutes, got a handful of views, and then sank into your channel archive. 
 
