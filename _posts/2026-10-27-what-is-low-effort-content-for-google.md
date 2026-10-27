@@ -42,7 +42,7 @@ Four attributes now guide raters: effort, originality, talent or skill, and accu
 
 Google also warns about fake creators. It describes invented author names, AI generated headshots, and made up credentials as deceptive.
 
-Google also refreshed its generative AI guidance. It stresses manual fact checking before publishing and reminds creators that models predict likely words rather than retrieve facts.
+Google also refreshed its generative AI guidance. It stresses manual fact checking before publishing and reminds creators that models predict likely words rather than retrieve facts. Our post on [Google's AI content guidance and fact check update](https://f9xr.org/articles/2026/10/02/google-ai-content-guidance-fact-check-update.html) covers the changes in detail.
 
 One caveat. Quality raters do not set rankings directly. Their ratings help Google test and improve its systems. Treat the guidelines as a description of what Google rewards, not a switch you can flip.
 
