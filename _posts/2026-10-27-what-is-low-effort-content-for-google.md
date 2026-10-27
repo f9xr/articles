@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Is Your Content Low Effort? What Google Wants in 2026"
+title: "Is Your Content Low Effort? What Google Looks For in 2026"
 description: "Google just spelled out what low effort content means. Learn the four tests, the red flags, and a simple fix plan for small business websites."
 image: "https://f9xr.org/articles/assets/post-images/what-is-low-effort-content-for-google.webp"
 image_width: 1200
