@@ -26,7 +26,7 @@ faq:
     a: "Pull the quick answer into a social post, turn key steps into a carousel, explain one idea in a short video, send a summary by email, and post a tip on your Google Business Profile. One strong article can fuel a full week of content."
 ---
 
-## Introduction
+## The Problem: Blogging Takes Too Long
 
 Most business owners know they should publish a blog. But between client work and day-to-day operations, writing one post often means staring at a blank page for hours. 
 
