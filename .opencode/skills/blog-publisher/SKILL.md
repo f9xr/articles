@@ -9,8 +9,9 @@ description: >
   writes Markdown body with SEO metadata and FAQ section, and creates a
   branded self-hosted WEBP featured image via tools/generate-featured-image.mjs
   (offline template by default; AI providers optional). Then commits and
-  pushes to main for auto-deployment via GitHub Pages. Always uses
-  F9XR branding naturally, keeps content educational (not promotional),
+  pushes to main for auto-deployment via GitHub Pages, verifies the live URL,
+  and pings IndexNow through tools/ping-indexnow.mjs after the page is serving.
+  Always uses F9XR branding naturally, keeps content educational (not promotional),
   writes in the selected author's distinct voice (see the `voice:` block
   in `authors/<key>.md`), and references @skills\avoid-ai-writing and
   @skills\seo-audit-report for quality checks.
@@ -264,9 +265,54 @@ git commit -m "Add article: Article Title"
 git push origin main
 ```
 
-After push, confirm to the user:
+Then continue to Step 8. Do not ping IndexNow before the live URL returns HTTP 200.
+
+### 8. Verify Live URL and Ping IndexNow
+
+GitHub Pages needs a moment to deploy. Poll the new URL until it returns HTTP 200, with a five-minute cap:
+
+```powershell
+$url = "https://f9xr.org/articles/YYYY/MM/DD/slug.html"
+$deadline = (Get-Date).AddMinutes(5)
+do {
+  try {
+    $status = (Invoke-WebRequest -Uri $url -Method Head -UseBasicParsing -TimeoutSec 20).StatusCode
+  } catch {
+    $status = 0
+  }
+  if ($status -ne 200) { Start-Sleep -Seconds 15 }
+} until ($status -eq 200 -or (Get-Date) -gt $deadline)
+if ($status -ne 200) { throw "Page is not live yet: $url" }
+```
+
+If the page is not live within five minutes, report the pending deployment and stop. Retry Step 8 after GitHub Pages serves the page. Do not ping a draft, a 404, or a URL that is still deploying.
+
+Once the page returns HTTP 200, ping IndexNow with the helper:
+
+```powershell
+node tools/ping-indexnow.mjs "https://f9xr.org/articles/YYYY/MM/DD/slug.html"
+```
+
+Use `node tools/ping-indexnow.mjs --dry-run "<url>"` to inspect the JSON payload without sending it. The helper:
+- Reads the public IndexNow key file at the repo root. The current key file is `d6628032fa1e4b2ea31ba81441024687.txt`.
+- Checks that the key is live at `https://f9xr.org/<key>.txt`.
+- Submits the URL to `https://api.indexnow.org/indexnow`.
+- Exits with code 0 on HTTP 200 or 202.
+
+Expected result: `IndexNow HTTP 200 OK` or `IndexNow HTTP 202 Accepted`. Both mean the submission was accepted. That is a discovery signal, not a guarantee that the page will be indexed or ranked.
+
+If you get HTTP 403 or 422, check three things:
+1. The key file at `https://f9xr.org/<key>.txt` returns the key itself, with no extra text.
+2. The submitted URL uses the `f9xr.org` host, not `www.f9xr.org`.
+3. The page is live and returns HTTP 200.
+
+IndexNow notifies Bing, Yandex, Naver, Seznam and Yep. Google does not participate in IndexNow, so do not claim that this ping speeds up Google indexing.
+
+After push and the IndexNow ping, confirm to the user:
 > Published at `https://f9xr.org/articles/YYYY/MM/DD/slug.html`
-> Site will auto-deploy via GitHub Pages in 1-2 minutes.
+> Live URL verified with HTTP 200.
+> IndexNow ping returned HTTP 200 or 202.
+> GitHub Pages is serving the new page.
 
 ---
 
@@ -339,5 +385,7 @@ Everything above the front-matter is handled by the layout — only write the bo
 - Always append the new post link to `article-urls.txt` before committing (Step 6)
 - Always give the post a featured image via Step 2b (branded template by default, or a user-provided licensed image with credit) — never publish with a missing or uncredited hero
 - Always run `@skills\avoid-ai-writing` and `@skills\seo-audit-report` before publishing
+- Always verify the live URL returns HTTP 200 and ping IndexNow after the article is live. Use `node tools/ping-indexnow.mjs "<url>"`. Never ping a draft, a 404, or a URL that is still deploying
+- Never claim IndexNow speeds up Google indexing. Google does not participate in IndexNow
 - Never commit secrets or API keys
 - Confirm with the user before publishing if they said "draft" or "plan" rather than "publish"
