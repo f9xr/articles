@@ -5,8 +5,8 @@
 // Yep) that one or more f9xr.org URLs are live. Google does not participate
 // in IndexNow, so this is an extra discovery signal, not a ranking guarantee.
 //
-// The public key file lives at the repo root and is also served from:
-//   https://f9xr.org/<key>.txt
+// The public key file lives at the repo root and is served from:
+//   https://f9xr.org/articles/<key>.txt
 //
 // Usage:
 //   node tools/ping-indexnow.mjs https://f9xr.org/articles/YYYY/MM/DD/slug.html
@@ -64,7 +64,7 @@ if (!/^[a-f0-9]{8,128}$/i.test(key)) {
 const payload = {
   host: HOST,
   key,
-  keyLocation: `https://${HOST}/${key}.txt`,
+  keyLocation: `https://${HOST}/articles/${key}.txt`,
   urlList: urls,
 };
 

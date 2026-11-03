@@ -295,14 +295,14 @@ node tools/ping-indexnow.mjs "https://f9xr.org/articles/YYYY/MM/DD/slug.html"
 
 Use `node tools/ping-indexnow.mjs --dry-run "<url>"` to inspect the JSON payload without sending it. The helper:
 - Reads the public IndexNow key file at the repo root. The current key file is `d6628032fa1e4b2ea31ba81441024687.txt`.
-- Checks that the key is live at `https://f9xr.org/<key>.txt`.
+- Checks that the key is live at `https://f9xr.org/articles/<key>.txt`.
 - Submits the URL to `https://api.indexnow.org/indexnow`.
 - Exits with code 0 on HTTP 200 or 202.
 
 Expected result: `IndexNow HTTP 200 OK` or `IndexNow HTTP 202 Accepted`. Both mean the submission was accepted. That is a discovery signal, not a guarantee that the page will be indexed or ranked.
 
 If you get HTTP 403 or 422, check three things:
-1. The key file at `https://f9xr.org/<key>.txt` returns the key itself, with no extra text.
+1. The key file at `https://f9xr.org/articles/<key>.txt` returns the key itself, with no extra text. Use the `/articles/` key location for this site. The copy at the domain root may be rejected even when it returns the same key.
 2. The submitted URL uses the `f9xr.org` host, not `www.f9xr.org`.
 3. The page is live and returns HTTP 200.
 
