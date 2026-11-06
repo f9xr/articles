@@ -39,7 +39,9 @@ articles/
 ├── js/
 │   └── highlightjs/       # Syntax highlighting assets
 ├── tools/                 # Build helpers (not part of the site)
-│   └── build-css.mjs      # Regenerates css/override.min.css
+│   ├── build-css.mjs      # Regenerates css/override.min.css
+│   ├── fetch-dev9b.mjs    # Refreshes _data/dev9b.yml
+│   └── fetch-lucide-icons.mjs  # Regenerates the Lucide SVG sprite
 ├── index.md               # Blog landing page
 ├── archive.md             # Article archive
 ├── robots.txt             # Search engine directives
@@ -108,6 +110,26 @@ npm run css:check  # fail if the minified file is out of date (for CI)
 ```
 
 If a style change does not appear on the site, this step was missed.
+
+### Icons
+
+UI icons use a self-hosted Lucide SVG sprite at `assets/icons/lucide-sprite.svg`. Insert one with `{% include lucide.html name="arrow-right" %}`. To add a new icon, add its Lucide name to `tools/fetch-lucide-icons.mjs` and run:
+
+```bash
+cd tools
+npm run icons
+```
+
+Brand and social marks stay in Font Awesome. Lucide is ISC licensed; see `assets/icons/LUCIDE-LICENSE.txt`.
+
+### Dev9b Feed
+
+The homepage's Dev9b section reads a local snapshot in `_data/dev9b.yml` because GitHub Pages cannot fetch the remote feed during a Jekyll build. Refresh it after new Dev9b posts are published:
+
+```bash
+cd tools
+npm run dev9b
+```
 
 ## Contributing
 

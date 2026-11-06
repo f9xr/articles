@@ -22,7 +22,7 @@ F9XR Articles focuses on four core areas:
 
 Every article on F9XR Articles is written by members of the F9XR Team who have direct, hands-on experience in the subject matter. We don't outsource content creation. The same people building high-performance web ecosystems and managing local SEO infrastructure for clients are the ones writing about how these systems work in practice.
 
-Our [editorial process]({{ '/press/editorial-policy.html' | relative_url }}), [ethics standards]({{ '/press/ethics-policy.html' | relative_url }}), and [correction policy]({{ '/press/correction-policy.html' | relative_url }}) ensure that everything we publish meets the same technical bar we apply to client work.
+Our [editorial process]({{ '/press/editorial-policy.html' | relative_url }}), [ethics standards]({{ '/press/ethics-policy.html' | relative_url }}), [comment policy]({{ '/press/comment-policy.html' | relative_url }}), and [correction policy]({{ '/press/correction-policy.html' | relative_url }}) ensure that everything we publish meets the same technical bar we apply to client work.
 
 ## Why We Publish
 

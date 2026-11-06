@@ -10,6 +10,39 @@
 (function () {
   'use strict';
 
+  var SVG_NS = 'http://www.w3.org/2000/svg';
+
+  function spriteUrl() {
+    var script = document.currentScript || document.querySelector('script[data-sprite]');
+    if (script) {
+      var configured = script.getAttribute('data-sprite');
+      if (configured) return configured;
+    }
+    return '/assets/icons/lucide-sprite.svg';
+  }
+
+  var SPRITE = spriteUrl();
+
+  function makeIcon(name) {
+    var svg = document.createElementNS(SVG_NS, 'svg');
+    svg.setAttribute('class', 'lucide lucide-' + name);
+    svg.setAttribute('width', '1em');
+    svg.setAttribute('height', '1em');
+    svg.setAttribute('aria-hidden', 'true');
+    svg.setAttribute('focusable', 'false');
+    var use = document.createElementNS(SVG_NS, 'use');
+    use.setAttribute('href', SPRITE + '#' + name);
+    svg.appendChild(use);
+    return svg;
+  }
+
+  function setIcon(svg, name) {
+    if (!svg) return;
+    svg.setAttribute('class', 'lucide lucide-' + name);
+    var use = svg.querySelector('use');
+    if (use) use.setAttribute('href', SPRITE + '#' + name);
+  }
+
   function fmt(s) {
     if (!s || !isFinite(s)) return '0:00';
     var m = Math.floor(s / 60);
@@ -17,83 +50,166 @@
     return m + ':' + (sec < 10 ? '0' : '') + sec;
   }
 
-  function createPlayer(el) {
-    var src = el.dataset.src;
-    var type = el.dataset.type || 'audio/mpeg';
-    var vtt = el.dataset.vtt || '';
-    var dur = el.dataset.duration || '';
+  function makeSpan(className, text) {
+    var span = document.createElement('span');
+    span.className = className;
+    if (text !== undefined) span.textContent = text;
+    return span;
+  }
 
-    // Build DOM
-    el.innerHTML =
-      '<div class="f9xr-ap">' +
-        '<div class="f9xr-ap-header">' +
-          '<span class="f9xr-ap-icon"><i class="fa-solid fa-headphones"></i></span>' +
-          '<span class="f9xr-ap-label">Listen to this episode</span>' +
-          (dur ? '<span class="f9xr-ap-dur"><i class="fa-regular fa-clock"></i> ' + dur + '</span>' : '') +
-        '</div>' +
+  function makeButton(className, label) {
+    var button = document.createElement('button');
+    button.className = 'f9xr-ap-btn ' + className;
+    button.setAttribute('aria-label', label);
+    return button;
+  }
 
-        '<div class="f9xr-ap-controls">' +
-          '<button class="f9xr-ap-btn f9xr-ap-skip" data-skip="-15" aria-label="Skip back 15 seconds">' +
-            '<i class="fa-solid fa-rotate-left"></i><span class="f9xr-ap-skip-label">15</span>' +
-          '</button>' +
-          '<button class="f9xr-ap-btn f9xr-ap-play" aria-label="Play">' +
-            '<i class="fa-solid fa-play"></i>' +
-          '</button>' +
-          '<button class="f9xr-ap-btn f9xr-ap-skip" data-skip="15" aria-label="Skip forward 15 seconds">' +
-            '<i class="fa-solid fa-rotate-right"></i><span class="f9xr-ap-skip-label">15</span>' +
-          '</button>' +
-        '</div>' +
+  function buildHeader(duration) {
+    var header = document.createElement('div');
+    header.className = 'f9xr-ap-header';
 
-        '<div class="f9xr-ap-row">' +
-          '<span class="f9xr-ap-time f9xr-ap-current">0:00</span>' +
-          '<div class="f9xr-ap-bar-wrap">' +
-            '<div class="f9xr-ap-bar">' +
-              '<div class="f9xr-ap-bar-fill"></div>' +
-              '<div class="f9xr-ap-bar-knob"></div>' +
-            '</div>' +
-          '</div>' +
-          '<span class="f9xr-ap-time f9xr-ap-total">' + (dur || '0:00') + '</span>' +
-        '</div>' +
+    var iconWrap = makeSpan('f9xr-ap-icon');
+    iconWrap.appendChild(makeIcon('headphones'));
+    header.appendChild(iconWrap);
+    header.appendChild(makeSpan('f9xr-ap-label', 'Listen to this episode'));
 
-        '<div class="f9xr-ap-row f9xr-ap-bottom">' +
-          '<button class="f9xr-ap-btn f9xr-ap-volume" aria-label="Mute">' +
-            '<i class="fa-solid fa-volume-high"></i>' +
-          '</button>' +
-          '<div class="f9xr-ap-vol-wrap">' +
-            '<div class="f9xr-ap-vol-bar">' +
-              '<div class="f9xr-ap-vol-fill"></div>' +
-            '</div>' +
-          '</div>' +
-          '<button class="f9xr-ap-btn f9xr-ap-speed" aria-label="Playback speed">1x</button>' +
-        '</div>' +
-      '</div>' +
-      (vtt ? '<a class="f9xr-ap-vtt" href="' + vtt + '" download><i class="fa-solid fa-download"></i> Download transcript (.vtt)</a>' : '');
+    if (duration) {
+      var dur = makeSpan('f9xr-ap-dur');
+      dur.appendChild(makeIcon('clock'));
+      dur.appendChild(document.createTextNode(' ' + duration));
+      header.appendChild(dur);
+    }
+    return header;
+  }
 
-    // Audio element
-    var audio = document.createElement('audio');
-    audio.preload = 'metadata';
-    audio.src = src;
-    audio.innerHTML = '<source src="' + src + '" type="' + type + '">';
-    el.appendChild(audio);
+  function buildControls() {
+    var controls = document.createElement('div');
+    controls.className = 'f9xr-ap-controls';
 
-    // References
-    var ap = el.querySelector('.f9xr-ap');
-    var playBtn = el.querySelector('.f9xr-ap-play');
-    var playIcon = playBtn.querySelector('i');
-    var barWrap = el.querySelector('.f9xr-ap-bar-wrap');
-    var bar = el.querySelector('.f9xr-ap-bar');
-    var fill = el.querySelector('.f9xr-ap-bar-fill');
-    var knob = el.querySelector('.f9xr-ap-bar-knob');
-    var curTime = el.querySelector('.f9xr-ap-current');
-    var totTime = el.querySelector('.f9xr-ap-total');
-    var speedBtn = el.querySelector('.f9xr-ap-speed');
-    var volBtn = el.querySelector('.f9xr-ap-volume');
-    var volIcon = volBtn.querySelector('i');
-    var volWrap = el.querySelector('.f9xr-ap-vol-wrap');
-    var volBar = el.querySelector('.f9xr-ap-vol-bar');
-    var volFill = el.querySelector('.f9xr-ap-vol-fill');
-    var skipBtns = el.querySelectorAll('.f9xr-ap-skip');
+    var back = makeButton('f9xr-ap-skip', 'Skip back 15 seconds');
+    back.dataset.skip = '-15';
+    back.appendChild(makeIcon('rotate-ccw'));
+    back.appendChild(makeSpan('f9xr-ap-skip-label', '15'));
 
+    var play = makeButton('f9xr-ap-play', 'Play');
+    play.appendChild(makeIcon('play'));
+
+    var forward = makeButton('f9xr-ap-skip', 'Skip forward 15 seconds');
+    forward.dataset.skip = '15';
+    forward.appendChild(makeIcon('rotate-cw'));
+    forward.appendChild(makeSpan('f9xr-ap-skip-label', '15'));
+
+    controls.append(back, play, forward);
+    return controls;
+  }
+
+  function buildProgress(duration) {
+    var row = document.createElement('div');
+    row.className = 'f9xr-ap-row';
+    row.appendChild(makeSpan('f9xr-ap-time f9xr-ap-current', '0:00'));
+
+    var barWrap = document.createElement('div');
+    barWrap.className = 'f9xr-ap-bar-wrap';
+    var bar = document.createElement('div');
+    bar.className = 'f9xr-ap-bar';
+    var fill = document.createElement('div');
+    fill.className = 'f9xr-ap-bar-fill';
+    var knob = document.createElement('div');
+    knob.className = 'f9xr-ap-bar-knob';
+    bar.append(fill, knob);
+    barWrap.appendChild(bar);
+    row.appendChild(barWrap);
+
+    row.appendChild(makeSpan('f9xr-ap-time f9xr-ap-total', duration || '0:00'));
+    return row;
+  }
+
+  function buildVolumeRow() {
+    var row = document.createElement('div');
+    row.className = 'f9xr-ap-row f9xr-ap-bottom';
+
+    var mute = makeButton('f9xr-ap-volume', 'Mute');
+    mute.appendChild(makeIcon('volume-2'));
+
+    var volWrap = document.createElement('div');
+    volWrap.className = 'f9xr-ap-vol-wrap';
+    var volBar = document.createElement('div');
+    volBar.className = 'f9xr-ap-vol-bar';
+    var volFill = document.createElement('div');
+    volFill.className = 'f9xr-ap-vol-fill';
+    volBar.appendChild(volFill);
+    volWrap.appendChild(volBar);
+
+    var speed = makeButton('f9xr-ap-speed', 'Playback speed');
+    speed.textContent = '1x';
+
+    row.append(mute, volWrap, speed);
+    return row;
+  }
+
+  function buildTranscriptLink(url) {
+    var link = document.createElement('a');
+    link.className = 'f9xr-ap-vtt';
+    link.href = url;
+    link.setAttribute('download', '');
+    link.appendChild(makeIcon('download'));
+    link.appendChild(document.createTextNode(' Download transcript (.vtt)'));
+    return link;
+  }
+
+  function buildPlayerShell(container, duration, transcript) {
+    var shell = document.createElement('div');
+    shell.className = 'f9xr-ap';
+    shell.appendChild(buildHeader(duration));
+    shell.appendChild(buildControls());
+    shell.appendChild(buildProgress(duration));
+    shell.appendChild(buildVolumeRow());
+
+    container.replaceChildren(shell);
+    if (transcript) container.appendChild(buildTranscriptLink(transcript));
+  }
+
+  function wireProgress(audio, elements) {
+    var bar = elements.bar;
+    var barWrap = elements.barWrap;
+    var fill = elements.fill;
+    var knob = elements.knob;
+    var curTime = elements.curTime;
+    var totTime = elements.totTime;
+
+    audio.addEventListener('timeupdate', function () {
+      var pct = audio.duration ? (audio.currentTime / audio.duration) * 100 : 0;
+      fill.style.width = pct + '%';
+      knob.style.left = pct + '%';
+      curTime.textContent = fmt(audio.currentTime);
+    });
+    audio.addEventListener('loadedmetadata', function () {
+      totTime.textContent = fmt(audio.duration);
+    });
+
+    function seekFromEvent(e) {
+      var rect = bar.getBoundingClientRect();
+      var pct = Math.max(0, Math.min(1, (e.clientX - rect.left) / rect.width));
+      audio.currentTime = pct * audio.duration;
+    }
+    var dragging = false;
+    barWrap.addEventListener('mousedown', function (e) { dragging = true; seekFromEvent(e); });
+    document.addEventListener('mousemove', function (e) { if (dragging) seekFromEvent(e); });
+    document.addEventListener('mouseup', function () { dragging = false; });
+    barWrap.addEventListener('touchstart', function (e) { dragging = true; seekFromEvent(e.touches[0]); }, { passive: true });
+    barWrap.addEventListener('touchmove', function (e) { if (dragging) seekFromEvent(e.touches[0]); }, { passive: true });
+    barWrap.addEventListener('touchend', function () { dragging = false; });
+  }
+
+  function wireSkip(audio, buttons) {
+    buttons.forEach(function (btn) {
+      btn.addEventListener('click', function () {
+        audio.currentTime = Math.max(0, Math.min(audio.duration || 0, audio.currentTime + parseInt(btn.dataset.skip)));
+      });
+    });
+  }
+
+  function wireSpeed(audio, speedBtn) {
     var speeds = [1, 1.25, 1.5, 2, 0.75, 0.5];
     var speedIdx = 0;
     var savedSpeed = parseFloat(localStorage.getItem('f9xr-playback-speed'));
@@ -108,69 +224,21 @@
     }
     applySpeed();
 
-    // Play / Pause
-    function togglePlay() {
-      if (audio.paused) { audio.play(); } else { audio.pause(); }
-    }
-    playBtn.addEventListener('click', togglePlay);
-    audio.addEventListener('play', function () {
-      playIcon.className = 'fa-solid fa-pause';
-      playBtn.setAttribute('aria-label', 'Pause');
-      ap.classList.add('f9xr-ap-playing');
-    });
-    audio.addEventListener('pause', function () {
-      playIcon.className = 'fa-solid fa-play';
-      playBtn.setAttribute('aria-label', 'Play');
-      ap.classList.remove('f9xr-ap-playing');
-    });
-
-    // Time update
-    audio.addEventListener('timeupdate', function () {
-      var pct = audio.duration ? (audio.currentTime / audio.duration) * 100 : 0;
-      fill.style.width = pct + '%';
-      knob.style.left = pct + '%';
-      curTime.textContent = fmt(audio.currentTime);
-    });
-    audio.addEventListener('loadedmetadata', function () {
-      totTime.textContent = fmt(audio.duration);
-    });
-
-    // Seek
-    function seekFromEvent(e) {
-      var rect = bar.getBoundingClientRect();
-      var pct = Math.max(0, Math.min(1, (e.clientX - rect.left) / rect.width));
-      audio.currentTime = pct * audio.duration;
-    }
-    var dragging = false;
-    barWrap.addEventListener('mousedown', function (e) { dragging = true; seekFromEvent(e); });
-    document.addEventListener('mousemove', function (e) { if (dragging) seekFromEvent(e); });
-    document.addEventListener('mouseup', function () { dragging = false; });
-    barWrap.addEventListener('touchstart', function (e) { dragging = true; seekFromEvent(e.touches[0]); }, { passive: true });
-    barWrap.addEventListener('touchmove', function (e) { if (dragging) seekFromEvent(e.touches[0]); }, { passive: true });
-    barWrap.addEventListener('touchend', function () { dragging = false; });
-
-    // Skip
-    skipBtns.forEach(function (btn) {
-      btn.addEventListener('click', function () {
-        audio.currentTime = Math.max(0, Math.min(audio.duration || 0, audio.currentTime + parseInt(btn.dataset.skip)));
-      });
-    });
-
-    // Speed
     speedBtn.addEventListener('click', function () {
       speedIdx = (speedIdx + 1) % speeds.length;
       applySpeed();
     });
+  }
 
-    // Volume
+  function wireVolume(audio, volBtn, volIcon, volWrap, volBar, volFill) {
     var prevVol = 1;
     function setVolIcon() {
       if (audio.muted || audio.volume === 0) {
-        volIcon.className = 'fa-solid fa-volume-xmark';
+        setIcon(volIcon, 'volume-x');
       } else if (audio.volume < 0.5) {
-        volIcon.className = 'fa-solid fa-volume-low';
+        setIcon(volIcon, 'volume-1');
       } else {
-        volIcon.className = 'fa-solid fa-volume-high';
+        setIcon(volIcon, 'volume-2');
       }
     }
     volBtn.addEventListener('click', function () {
@@ -193,16 +261,77 @@
       volFill.style.width = (pct * 100) + '%';
       setVolIcon();
     });
+    return setVolIcon;
+  }
 
-    // Keyboard
-    el.setAttribute('tabindex', '0');
-    el.addEventListener('keydown', function (e) {
+  function wireKeyboard(container, audio, togglePlay, volFill, setVolIcon) {
+    container.setAttribute('tabindex', '0');
+    container.addEventListener('keydown', function (e) {
       if (e.code === 'Space') { e.preventDefault(); togglePlay(); }
       else if (e.code === 'ArrowLeft') { audio.currentTime = Math.max(0, audio.currentTime - 15); }
       else if (e.code === 'ArrowRight') { audio.currentTime = Math.min(audio.duration || 0, audio.currentTime + 15); }
       else if (e.code === 'ArrowUp') { audio.volume = Math.min(1, audio.volume + 0.1); audio.muted = false; volFill.style.width = (audio.volume * 100) + '%'; setVolIcon(); }
       else if (e.code === 'ArrowDown') { audio.volume = Math.max(0, audio.volume - 0.1); volFill.style.width = (audio.volume * 100) + '%'; setVolIcon(); }
     });
+  }
+
+  function createPlayer(container) {
+    var src = container.dataset.src;
+    var transcript = container.dataset.vtt || '';
+    var duration = container.dataset.duration || '';
+
+    buildPlayerShell(container, duration, transcript);
+
+    var audio = document.createElement('audio');
+    audio.preload = 'metadata';
+    audio.src = src;
+    container.appendChild(audio);
+
+    var ap = container.querySelector('.f9xr-ap');
+    var playBtn = container.querySelector('.f9xr-ap-play');
+    var playIcon = playBtn.querySelector('.lucide');
+    var barWrap = container.querySelector('.f9xr-ap-bar-wrap');
+    var bar = container.querySelector('.f9xr-ap-bar');
+    var fill = container.querySelector('.f9xr-ap-bar-fill');
+    var knob = container.querySelector('.f9xr-ap-bar-knob');
+    var curTime = container.querySelector('.f9xr-ap-current');
+    var totTime = container.querySelector('.f9xr-ap-total');
+    var speedBtn = container.querySelector('.f9xr-ap-speed');
+    var volBtn = container.querySelector('.f9xr-ap-volume');
+    var volIcon = volBtn.querySelector('.lucide');
+    var volWrap = container.querySelector('.f9xr-ap-vol-wrap');
+    var volBar = container.querySelector('.f9xr-ap-vol-bar');
+    var volFill = container.querySelector('.f9xr-ap-vol-fill');
+    var skipBtns = container.querySelectorAll('.f9xr-ap-skip');
+
+    // Play / Pause
+    function togglePlay() {
+      if (audio.paused) { audio.play(); } else { audio.pause(); }
+    }
+    playBtn.addEventListener('click', togglePlay);
+    audio.addEventListener('play', function () {
+      setIcon(playIcon, 'pause');
+      playBtn.setAttribute('aria-label', 'Pause');
+      ap.classList.add('f9xr-ap-playing');
+    });
+    audio.addEventListener('pause', function () {
+      setIcon(playIcon, 'play');
+      playBtn.setAttribute('aria-label', 'Play');
+      ap.classList.remove('f9xr-ap-playing');
+    });
+
+    wireProgress(audio, {
+      bar: bar,
+      barWrap: barWrap,
+      fill: fill,
+      knob: knob,
+      curTime: curTime,
+      totTime: totTime,
+    });
+    wireSkip(audio, skipBtns);
+    wireSpeed(audio, speedBtn);
+    var setVolIcon = wireVolume(audio, volBtn, volIcon, volWrap, volBar, volFill);
+    wireKeyboard(container, audio, togglePlay, volFill, setVolIcon);
   }
 
   function init() {

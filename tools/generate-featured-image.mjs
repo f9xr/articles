@@ -1,4 +1,4 @@
-﻿#!/usr/bin/env node
+#!/usr/bin/env node
 // tools/generate-featured-image.mjs
 //
 // Generates a featured image for an F9XR article and saves it as a self-hosted
@@ -283,14 +283,14 @@ function printFrontMatter(outPath) {
   console.log(`image_height: ${HEIGHT}`);
 }
 
-function deleteWithRetry(path, attempts = 5) {
+async function deleteWithRetry(path, attempts = 5) {
   for (let i = 0; i < attempts; i++) {
     try {
       rmSync(path, { force: true });
       return;
     } catch {
       if (i === attempts - 1) return;
-      awaitDelay(120);
+      await awaitDelay(120);
     }
   }
 }
@@ -309,7 +309,7 @@ async function selfTest() {
   );
   const out = resolve(tmpdir(), 'f9xr-self-test.webp');
   await convertToWebP(svg, out);
-  deleteWithRetry(out);
+  await deleteWithRetry(out);
   console.log('SELF-TEST OK');
 }
 

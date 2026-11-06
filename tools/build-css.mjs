@@ -42,7 +42,7 @@ if (check) {
   } catch {
     current = '';
   }
-  if (current !== output) {
+  if (current.replace(/\r\n/g, '\n') !== output) {
     console.error('css/override.min.css is out of date. Run: npm run css');
     process.exit(1);
   }

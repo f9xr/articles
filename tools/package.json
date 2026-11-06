@@ -6,7 +6,9 @@
   "description": "Helpers for the F9XR Articles blog (featured image generation, CSS build).",
   "scripts": {
     "css": "node build-css.mjs",
-    "css:check": "node build-css.mjs --check"
+    "css:check": "node build-css.mjs --check",
+    "icons": "node fetch-lucide-icons.mjs",
+    "dev9b": "node fetch-dev9b.mjs"
   },
   "dependencies": {
     "sharp": "^0.34.3"

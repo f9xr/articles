@@ -86,7 +86,7 @@ keywords: "F9XR Articles, engineering digital growth, web architecture, AI integ
     <a href="https://f9xr.org/pages/services.html">Services</a>
     <a href="https://f9xr.org/pages/portfolio.html">Portfolio</a>
     <a href="https://f9xr.org/pages/contact.html">Contact</a>
-    <button type="button" class="ed-masthead-search" onclick="openSearch(); return false;"><i class="fa-solid fa-magnifying-glass"></i> Search <kbd class="ed-masthead-kbd">/</kbd></button>
+    <button type="button" class="ed-masthead-search" onclick="openSearch(); return false;">{% include lucide.html name="search" %} Search <kbd class="ed-masthead-kbd">/</kbd></button>
   </nav>
 </header>
 
@@ -112,12 +112,12 @@ keywords: "F9XR Articles, engineering digital growth, web architecture, AI integ
       <img class="ed-byline-avatar" src="{{ featured_author.avatar | default: '/logo.webp' | relative_url }}" alt="{{ featured_author.name | default: 'F9XR Editorial Team' }}" width="200" height="200" loading="lazy">
       <a class="ed-byline-name" href="{{ featured_author.url | default: '/authors/f9xr-team/' | relative_url }}">{{ featured_author.name | default: "F9XR Editorial Team" }}</a>
       <span class="ed-byline-dot"></span>
-      <a class="ed-hero-cta" href="{{ featured.url | relative_url }}">Read article <i class="fa-solid fa-arrow-right"></i></a>
+      <a class="ed-hero-cta" href="{{ featured.url | relative_url }}">Read article {% include lucide.html name="arrow-right" %}</a>
     </div>
   </div>
 
   <aside class="ed-hero-trending" aria-label="Must read">
-    <h3 class="ed-panel-title"><i class="fa-solid fa-fire" style="color:#3b82f6;"></i> Must Read</h3>
+    <h3 class="ed-panel-title">{% include lucide.html name="flame" style="color:#3b82f6;" %} Must Read</h3>
     {% for post in site.posts offset:1 limit:3 %}
     {% assign t_author = site.data.authors[post.author] %}
     {% assign t_min = post.content | strip_html | number_of_words | divided_by: 200 | plus: 1 %}
@@ -132,14 +132,14 @@ keywords: "F9XR Articles, engineering digital growth, web architecture, AI integ
       <span class="ed-trend-author">{{ t_author.name | default: post.author }}</span>
     </article>
     {% endfor %}
-    <a class="ed-trend-all" href="{{ '/archive.html' | relative_url }}">View all articles <i class="fa-solid fa-arrow-right"></i></a>
+    <a class="ed-trend-all" href="{{ '/archive.html' | relative_url }}">View all articles {% include lucide.html name="arrow-right" %}</a>
   </aside>
 </section>
 
 <section class="ed-latest" aria-label="Latest insights">
   <div class="ed-sec-head">
     <h2 class="ed-sec-title">Latest Insights</h2>
-    <a class="ed-sec-link" href="{{ '/archive.html' | relative_url }}">Browse archive <i class="fa-solid fa-arrow-right"></i></a>
+    <a class="ed-sec-link" href="{{ '/archive.html' | relative_url }}">Browse archive {% include lucide.html name="arrow-right" %}</a>
   </div>
   <div class="ed-grid">
     {% for post in site.posts offset:4 limit:8 %}
@@ -164,7 +164,7 @@ keywords: "F9XR Articles, engineering digital growth, web architecture, AI integ
 <section class="ed-tabs" aria-label="Explore articles by category">
   <div class="ed-sec-head">
     <h2 class="ed-sec-title">Explore by Category</h2>
-    <a class="ed-sec-link" href="{{ '/archive.html' | relative_url }}">Browse archive <i class="fa-solid fa-arrow-right"></i></a>
+    <a class="ed-sec-link" href="{{ '/archive.html' | relative_url }}">Browse archive {% include lucide.html name="arrow-right" %}</a>
   </div>
 
   {% assign tab_featured = "google-e-e-a-t-checklist-every-seo-should-bookmark|steps-make-business-site-visible-to-ai|rank-number-1-google-maps-2026|cloudflare-emdash-cms-explained|consistency-audits-seo-aeo-geo|how-ai-picks-local-businesses-2026" | split: "|" %}
@@ -320,8 +320,8 @@ keywords: "F9XR Articles, engineering digital growth, web architecture, AI integ
 
 <section class="ed-episodes" aria-label="Podcast episodes">
   <div class="ed-sec-head">
-    <h2 class="ed-sec-title"><i class="fa-solid fa-podcast" style="color:#3b82f6;"></i> Episodes</h2>
-    <a class="ed-sec-link" href="{{ '/episodes/' | relative_url }}">All episodes <i class="fa-solid fa-arrow-right"></i></a>
+    <h2 class="ed-sec-title">{% include lucide.html name="podcast" style="color:#3b82f6;" %} Episodes</h2>
+    <a class="ed-sec-link" href="{{ '/episodes/' | relative_url }}">All episodes {% include lucide.html name="arrow-right" %}</a>
   </div>
   {% assign sorted_episodes = site.episodes | sort: "date" | reverse %}
   <div class="ed-grid">
@@ -331,11 +331,11 @@ keywords: "F9XR Articles, engineering digital growth, web architecture, AI integ
       <div class="ed-card-meta">
         <span class="ed-tag">{% if episode.episode_number %}Episode {{ episode.episode_number }}{% else %}Episode{% endif %}</span>
         <span class="ed-mono">{{ episode.date | date: "%b %d, %Y" }}</span>
-        {% if episode.audio_duration %}<span class="ed-mono"><i class="fa-solid fa-clock"></i> {{ episode.audio_duration }}</span>{% endif %}
+        {% if episode.audio_duration %}<span class="ed-mono">{% include lucide.html name="clock" %} {{ episode.audio_duration }}</span>{% endif %}
       </div>
       <h3 class="ed-card-title" itemprop="headline"><a href="{{ episode.url | relative_url }}" itemprop="url">{{ episode.title | escape }}</a></h3>
       <p class="ed-card-desc" itemprop="description">{{ episode.description | default: "Listen to the latest F9XR Articles episode." }}</p>
-      <span class="ed-card-foot"><i class="fa-solid fa-play"></i> Listen now</span>
+      <span class="ed-card-foot">{% include lucide.html name="play" %} Listen now</span>
     </article>
     {% else %}
     <p style="color:#71717a;">No episodes yet. Stay tuned.</p>
@@ -346,25 +346,25 @@ keywords: "F9XR Articles, engineering digital growth, web architecture, AI integ
 {% if site.data.dev9b and site.data.dev9b.size > 0 %}
 <section class="ed-dev9b" aria-label="F9XR's Dev9b developer blog">
   <div class="ed-sec-head">
-    <h2 class="ed-sec-title"><i class="fa-solid fa-code" style="color:#3b82f6;"></i> F9XR's Dev9b <span class="ed-sec-sub">Developers Blog</span></h2>
-    <a class="ed-sec-link" href="https://f9xr.org/dev9b/" target="_blank" rel="noopener noreferrer">Visit Dev9b <i class="fa-solid fa-arrow-right"></i></a>
+    <h2 class="ed-sec-title">{% include lucide.html name="code" style="color:#3b82f6;" %} F9XR's Dev9b <span class="ed-sec-sub">Developers Blog</span></h2>
+    <a class="ed-sec-link" href="https://f9xr.org/dev9b/" target="_blank" rel="noopener noreferrer">Visit Dev9b {% include lucide.html name="arrow-right" %}</a>
   </div>
   <p class="ed-dev9b-note">Practical developer guides from the F9XR engineering team, published on <a href="https://f9xr.org/dev9b/" target="_blank" rel="noopener noreferrer">f9xr.org/dev9b</a>. Opens on Dev9b.</p>
   <div class="ed-grid">
     {% for dpost in site.data.dev9b limit:8 %}
     <article class="ed-card" itemscope itemtype="https://schema.org/BlogPosting">
       <div class="ed-card-meta">
-        <span class="ed-tag"><i class="fa-solid fa-code"></i> Dev9b</span>
+        <span class="ed-tag">{% include lucide.html name="code" %} Dev9b</span>
         <span class="ed-mono"><time datetime="{{ dpost.date }}" itemprop="datePublished">{{ dpost.date | date: "%b %d, %Y" }}</time></span>
         <span class="ed-mono" itemprop="author">{{ dpost.author }}</span>
       </div>
       <h3 class="ed-card-title" itemprop="headline"><a href="{{ dpost.url }}" itemprop="url" target="_blank" rel="noopener noreferrer">{{ dpost.title | escape }}</a></h3>
       <p class="ed-card-desc" itemprop="description">{{ dpost.summary | escape }}</p>
-      <span class="ed-card-foot"><i class="fa-solid fa-arrow-up-right-from-square"></i> Read on Dev9b</span>
+      <span class="ed-card-foot">{% include lucide.html name="external-link" %} Read on Dev9b</span>
     </article>
     {% endfor %}
   </div>
-  <a class="ed-trend-all ed-dev9b-all" href="https://f9xr.org/dev9b/archives/" target="_blank" rel="noopener noreferrer">Browse all {{ site.data.dev9b.size }} Dev9b posts <i class="fa-solid fa-arrow-right"></i></a>
+  <a class="ed-trend-all ed-dev9b-all" href="https://f9xr.org/dev9b/archives/" target="_blank" rel="noopener noreferrer">Browse all {{ site.data.dev9b.size }} Dev9b posts {% include lucide.html name="arrow-right" %}</a>
 </section>
 {% endif %}
 
@@ -402,28 +402,28 @@ keywords: "F9XR Articles, engineering digital growth, web architecture, AI integ
 
 <section class="ed-cols" aria-label="Analytics, bulletins, and video">
   <div class="ed-col ed-col-analytics">
-    <h3 class="ed-panel-title"><i class="fa-solid fa-chart-line" style="color:#3b82f6;"></i> Publication Stats</h3>
+    <h3 class="ed-panel-title">{% include lucide.html name="chart-line" style="color:#3b82f6;" %} Publication Stats</h3>
     <div class="ed-metric">
-      <span class="ed-metric-label"><i class="fa-solid fa-file-lines"></i> Articles Published</span>
+      <span class="ed-metric-label">{% include lucide.html name="file-text" %} Articles Published</span>
       <span class="ed-metric-value">{{ site.posts.size }}</span>
     </div>
     <div class="ed-metric">
-      <span class="ed-metric-label"><i class="fa-solid fa-tags"></i> Topics Covered</span>
+      <span class="ed-metric-label">{% include lucide.html name="tags" %} Topics Covered</span>
       <span class="ed-metric-value">{{ site.tags.size }}</span>
     </div>
     <div class="ed-metric">
-      <span class="ed-metric-label"><i class="fa-solid fa-font"></i> Words Published</span>
+      <span class="ed-metric-label">{% include lucide.html name="type" %} Words Published</span>
       <span class="ed-metric-value">{{ metric_words_k }}K</span>
     </div>
     <div class="ed-metric">
-      <span class="ed-metric-label"><i class="fa-regular fa-clock"></i> Avg. Read Time</span>
+      <span class="ed-metric-label">{% include lucide.html name="clock" %} Avg. Read Time</span>
       <span class="ed-metric-value">~{{ metric_avg_min }} min</span>
     </div>
-    <a class="ed-panel-cta" href="https://f9xr.org/pages/services.html">Explore performance services <i class="fa-solid fa-arrow-right"></i></a>
+    <a class="ed-panel-cta" href="https://f9xr.org/pages/services.html">Explore performance services {% include lucide.html name="arrow-right" %}</a>
   </div>
 
   <div class="ed-col ed-col-bulletin">
-    <h3 class="ed-panel-title"><i class="fa-solid fa-newspaper" style="color:#3b82f6;"></i> Bulletin</h3>
+    <h3 class="ed-panel-title">{% include lucide.html name="newspaper" style="color:#3b82f6;" %} Bulletin</h3>
     <div class="ed-marquee" aria-hidden="true">
       <div class="ed-marquee-track">
         <span class="ed-badge ed-badge-mono">J</span><span class="ed-badge">Jekyll</span>
@@ -445,16 +445,16 @@ keywords: "F9XR Articles, engineering digital growth, web architecture, AI integ
       </div>
     </div>
     <p class="ed-bulletin-note">The stack behind F9XR Articles — open source, static, and continuously measured.</p>
-    <a class="ed-panel-cta" href="{{ '/archive.html' | relative_url }}">Read the full archive <i class="fa-solid fa-arrow-right"></i></a>
+    <a class="ed-panel-cta" href="{{ '/archive.html' | relative_url }}">Read the full archive {% include lucide.html name="arrow-right" %}</a>
   </div>
 
   <div class="ed-col ed-col-watch">
-    <h3 class="ed-panel-title"><i class="fa-solid fa-circle-play" style="color:#3b82f6;"></i> Watch &amp; Learn</h3>
+    <h3 class="ed-panel-title">{% include lucide.html name="circle-play" style="color:#3b82f6;" %} Watch &amp; Learn</h3>
     <div class="ed-video">
       <iframe class="youtube-embed" src="https://www.youtube-nocookie.com/embed/l-52kGRwH_Y" title="Introducing F9XR Team: Digital Growth Agency - AI-Powered Web Design &amp; Local SEO Growth Agency" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen loading="lazy"></iframe>
     </div>
     <p class="ed-video-caption">Introducing F9XR Team — AI-powered web design &amp; local SEO growth agency.</p>
-    <a class="ed-panel-cta" href="https://f9xr.org/pages/about.html">About the team <i class="fa-solid fa-arrow-right"></i></a>
+    <a class="ed-panel-cta" href="https://f9xr.org/pages/about.html">About the team {% include lucide.html name="arrow-right" %}</a>
   </div>
 </section>
 
@@ -470,7 +470,7 @@ keywords: "F9XR Articles, engineering digital growth, web architecture, AI integ
       <summary class="accordion-header">
         <span class="accordion-title">{{ group.name }}</span>
         <span class="accordion-count">{{ group.items.size }} article{% if group.items.size != 1 %}s{% endif %}</span>
-        <span class="accordion-chevron"><i class="fa-solid fa-chevron-down"></i></span>
+        <span class="accordion-chevron">{% include lucide.html name="chevron-down" %}</span>
       </summary>
       <div class="accordion-body">
         <ul class="accordion-list">
@@ -507,9 +507,9 @@ keywords: "F9XR Articles, engineering digital growth, web architecture, AI integ
 <section class="ed-topics" aria-label="Browse by topic">
   <details class="topic-dropdown">
     <summary class="topic-dropdown-summary">
-      <span class="topic-dropdown-title"><i class="fa-solid fa-tags"></i> Browse by Topic</span>
+      <span class="topic-dropdown-title">{% include lucide.html name="tags" %} Browse by Topic</span>
       <span class="topic-dropdown-count">{{ site.tags.size }} categories</span>
-      <span class="topic-dropdown-chevron"><i class="fa-solid fa-chevron-down"></i></span>
+      <span class="topic-dropdown-chevron">{% include lucide.html name="chevron-down" %}</span>
     </summary>
     <div class="topic-dropdown-body">
       <div class="index-tags">

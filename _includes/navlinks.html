@@ -7,7 +7,7 @@
       <h4 class="post-nav-title">{{ page.previous.title }}</h4>
       <span class="post-nav-date">{{ page.previous.date | date: "%b %-d, %Y" }}</span>
     </div>
-    <span class="post-nav-arrow"><i class="fa-solid fa-arrow-left-long"></i></span>
+    <span class="post-nav-arrow">{% include lucide.html name="arrow-left" %}</span>
   </a>
   {%- else -%}
   <a class="post-nav-card post-nav-prev" href="{{ '/' | absolute_url }}" title="F9XR Articles Home">
@@ -17,13 +17,13 @@
       <h4 class="post-nav-title">F9XR Articles</h4>
       <span class="post-nav-date">Browse all articles</span>
     </div>
-    <span class="post-nav-arrow"><i class="fa-solid fa-arrow-left-long"></i></span>
+    <span class="post-nav-arrow">{% include lucide.html name="arrow-left" %}</span>
   </a>
   {%- endif -%}
 
   {%- if page.next.url -%}
   <a class="post-nav-card post-nav-next" href="{{ page.next.url | relative_url }}" title="{{ page.next.title }}">
-    <span class="post-nav-arrow"><i class="fa-solid fa-arrow-right-long"></i></span>
+    <span class="post-nav-arrow">{% include lucide.html name="arrow-right" %}</span>
     <div class="post-nav-body">
       <span class="post-nav-chip">Next article</span>
       <h4 class="post-nav-title">{{ page.next.title }}</h4>
@@ -33,7 +33,7 @@
   </a>
   {%- else -%}
   <a class="post-nav-card post-nav-next" href="{{ 'archive.html' | absolute_url }}" title="Blog Archive">
-    <span class="post-nav-arrow"><i class="fa-solid fa-arrow-right-long"></i></span>
+    <span class="post-nav-arrow">{% include lucide.html name="arrow-right" %}</span>
     <div class="post-nav-body">
       <span class="post-nav-chip">View</span>
       <h4 class="post-nav-title">All Articles</h4>

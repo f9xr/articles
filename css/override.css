@@ -41,6 +41,16 @@
   overflow: visible;
 }
 
+/* --- Lucide Icons --- */
+.lucide {
+  display: inline-block;
+  width: 1em;
+  height: 1em;
+  vertical-align: -0.125em;
+  flex-shrink: 0;
+  overflow: visible;
+}
+
 /* --- Font Metric Overrides --- */
 /* Reduces CLS during web font swap by matching fallback font metrics to Inter */
 @font-face {
@@ -419,7 +429,7 @@ img:hover {
 }
 
 /* --- Main Container --- */
-.page-content, .home-page {
+.page-content {
   max-width: 1440px;
   margin: 0 auto;
   padding: 2.5em 2em;
@@ -1107,7 +1117,7 @@ body > .goog-te-gadget {
   justify-content: center;
   margin-bottom: 0.9em;
 }
-.f9xr-cta-icon i {
+.f9xr-cta-icon i, .f9xr-cta-icon .lucide {
   display: inline-flex;
   align-items: center;
   justify-content: center;
@@ -1151,7 +1161,7 @@ body > .goog-te-gadget {
   text-decoration: none;
   transition: transform 0.25s ease, box-shadow 0.25s ease, background 0.25s ease, border-color 0.25s ease, color 0.25s ease;
 }
-.f9xr-cta-btn i {
+.f9xr-cta-btn .lucide {
   font-size: 0.8em;
   transition: transform 0.25s ease;
 }
@@ -1164,7 +1174,7 @@ body > .goog-te-gadget {
   transform: translateY(-2px);
   box-shadow: 0 10px 28px rgba(59, 130, 246, 0.4);
 }
-.f9xr-cta-btn-primary:hover i {
+.f9xr-cta-btn-primary:hover .lucide {
   transform: translateX(3px);
 }
 .f9xr-cta-btn-ghost {
@@ -1634,7 +1644,7 @@ footer ul {
   align-items: center !important;
   gap: 0.45em !important;
 }
-.footer-bottom-open-source i {
+.footer-bottom-open-source .lucide {
   color: #8b8b8b;
   font-size: 1.05em;
 }
@@ -1750,7 +1760,7 @@ footer ul {
 
   /* Strip the layered paddings: page-content > wrapper > .post > .post-content
      each add their own gutters on mobile, which stacks into huge side padding */
-  .page-content, .home-page {
+  .page-content {
     padding: 1.25em 0.75em;
   }
   .page-content .wrapper {
@@ -1800,7 +1810,7 @@ footer ul {
     font-size: 1.5em;
   }
 
-  .page-content, .home-page {
+  .page-content {
     padding: 1em 0.5em;
   }
   .post-content {
@@ -1857,7 +1867,7 @@ details summary:focus-visible {
     background: #fff !important;
     color: #000 !important;
   }
-  .site-header, .site-footer, .share-links, .post_navi, .post-nav {
+  .site-header, .site-footer, .share-links, .post-nav {
     display: none !important;
   }
   a {
@@ -3099,7 +3109,7 @@ body.cmdk-open {
    MOBILE RESPONSIVENESS FIXES
    =========================== */
 /* Keep long words/URLs from blowing out the layout */
-.post-content, .post, .home-page, .archive-container, .error-container {
+.post-content, .post, .archive-container, .error-container {
   overflow-wrap: break-word;
   word-wrap: break-word;
 }
@@ -3457,30 +3467,15 @@ body.cmdk-open {
   font-weight: 600;
   transition: color 0.2s ease;
 }
-.featured-post-cta i {
+.featured-post-cta .lucide {
   font-size: 0.8em;
   transition: transform 0.25s ease;
 }
 .featured-post:hover .featured-post-cta {
   color: #60a5fa;
 }
-.featured-post:hover .featured-post-cta i {
+.featured-post:hover .featured-post-cta .lucide {
   transform: translateX(4px);
-}
-
-/* --- Stretched Link (whole-card click target) --- */
-.stretched-link {
-  position: relative;
-}
-.stretched-link::after {
-  content: "";
-  position: absolute;
-  top: 0;
-  right: 0;
-  bottom: 0;
-  left: 0;
-  z-index: 1;
-  background: transparent;
 }
 
 /* --- Post Card Grid --- */
@@ -3692,14 +3687,14 @@ body.cmdk-open {
   margin-top: auto;
   transition: color 0.2s ease;
 }
-.post-card-cta i {
+.post-card-cta .lucide {
   font-size: 0.8em;
   transition: transform 0.25s ease;
 }
 .post-card:hover .post-card-cta {
   color: #60a5fa;
 }
-.post-card:hover .post-card-cta i {
+.post-card:hover .post-card-cta .lucide {
   transform: translateX(4px);
 }
 
@@ -3854,7 +3849,7 @@ body.cmdk-open {
   font-size: 1em;
   font-weight: 600;
 }
-.topic-dropdown-title i {
+.topic-dropdown-title .lucide {
   color: #3b82f6;
   font-size: 0.9em;
 }
@@ -4169,7 +4164,7 @@ body.cmdk-open {
   text-decoration: none !important;
   transition: all 0.2s ease;
 }
-.author-btn i {
+.author-btn .lucide {
   font-size: 0.85em;
 }
 .author-btn-linkedin {
@@ -4312,8 +4307,8 @@ body.cmdk-open {
   font-size: 0.8em;
   font-family: ui-monospace, SFMono-Regular, Menlo, Consolas, monospace;
 }
-.author-exp-period i,
-.author-exp-location i {
+.author-exp-period .lucide,
+.author-exp-location .lucide {
   color: #3b82f6;
   font-size: 0.9em;
 }
@@ -4741,7 +4736,7 @@ body.cmdk-open {
   background: none;
   -webkit-text-fill-color: #fff;
 }
-.ed-panel-title i {
+.ed-panel-title .lucide {
   margin-right: 0.5em;
 }
 
@@ -5024,7 +5019,7 @@ body.cmdk-open {
   color: #a1a1aa;
   font-size: 0.85em;
 }
-.ed-metric-label i {
+.ed-metric-label .lucide {
   color: #3b82f6;
   width: 1.1em;
   text-align: center;
@@ -5571,7 +5566,7 @@ a, button, summary, .ed-card, .post-nav-card {
   color: #71717a;
   font-size: 0.8em;
 }
-.f9xr-ap-dur i { margin-right: 0.25em; }
+.f9xr-ap-dur .lucide { margin-right: 0.25em; }
 
 /* Controls row */
 .f9xr-ap-controls {
@@ -5603,7 +5598,7 @@ a, button, summary, .ed-card, .post-nav-card {
   color: #71717a;
 }
 .f9xr-ap-skip:hover { color: #b1bac4; }
-.f9xr-ap-skip i { font-size: 1.1em; }
+.f9xr-ap-skip .lucide { font-size: 1.1em; }
 .f9xr-ap-skip-label { font-size: 0.85em; font-weight: 600; }
 
 /* Play button */
@@ -5748,7 +5743,7 @@ a, button, summary, .ed-card, .post-nav-card {
 }
 
 /* Transcript accordion */
-details.episode-transcript[open] summary i.fa-chevron-right {
+details.episode-transcript[open] summary .lucide-chevron-right {
   transform: rotate(90deg);
 }
 details.episode-transcript summary::-webkit-details-marker {
@@ -5822,32 +5817,8 @@ details.episode-transcript summary::marker {
   flex-wrap: wrap;
 }
 
-/* Episodes index hero */
-.episodes-hero {
-  padding: 3em 2em 2em;
-  text-align: center;
-  border-bottom: 1px solid #1e2024;
-  margin-bottom: 2em;
-}
-.episodes-hero h1 {
-  font-size: 2em;
-  margin-bottom: 0.5em;
-}
-.episodes-hero p {
-  color: #71717a;
-  font-size: 1.05em;
-  max-width: 560px;
-  margin: 0 auto;
-}
-
 /* Small phone adjustments for episodes */
 @media (max-width: 560px) {
-  .episodes-hero {
-    padding: 2em 1.2em 1.5em;
-  }
-  .episodes-hero h1 {
-    font-size: 1.5em;
-  }
   .episode-card {
     padding: 1.2em;
   }
@@ -5884,8 +5855,7 @@ details.episode-transcript summary::marker {
    Fixed footer revealed as content scrolls to the bottom
    =========================== */
 main.page-content,
-.page-content,
-.home-page {
+.page-content {
   position: relative !important;
   z-index: 1 !important;
   background-color: #0a0a0a !important;

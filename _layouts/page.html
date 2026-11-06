@@ -4,8 +4,8 @@ layout: default
 
 <nav aria-label="Breadcrumb" style="margin-bottom:1.5em;">
   <ol style="display:flex; flex-wrap:wrap; align-items:center; gap:0.4em; list-style:none; margin:0; padding:0; font-size:0.8em;">
-    <li><a href="{{ '/' | relative_url }}" style="color:#71717a; text-decoration:none; transition:color 0.2s;" onmouseover="this.style.color='#3b82f6'" onmouseout="this.style.color='#71717a'"><i class="fa-solid fa-house" style="font-size:0.85em;"></i> Home</a></li>
-    <li style="color:#30363d;"><i class="fa-solid fa-chevron-right" style="font-size:0.6em;"></i></li>
+    <li><a href="{{ '/' | relative_url }}" style="color:#71717a; text-decoration:none; transition:color 0.2s;" onmouseover="this.style.color='#3b82f6'" onmouseout="this.style.color='#71717a'">{% include lucide.html name="house" style="font-size:0.85em;" %} Home</a></li>
+    <li style="color:#30363d;">{% include lucide.html name="chevron-right" style="font-size:0.6em;" %}</li>
     <li style="color:#8b8b8b;">{{ page.title | escape }}</li>
   </ol>
 </nav>

@@ -32,7 +32,7 @@
 |-------|------------|
 | Markup | Hand-authored HTML5 |
 | JavaScript | Vanilla JS (no framework) |
-| Icons | Font Awesome 6.5.0 (lazy-loaded) |
+| Icons | Lucide 1.70.0 (inline SVG sprite) for UI icons; Font Awesome 6.5.0 for brand marks |
 | Fonts | Google Fonts — Plus Jakarta Sans (300–800) |
 | Animations | GSAP 3.12.5 + ScrollTrigger |
 | Forms | Formspree |
@@ -42,6 +42,10 @@
 | Hosting | GitHub Pages (static) |
 | AI Discovery | `llms.txt`, `ai.txt`, WebMCP context provider |
 | Structured Data | Schema.org JSON-LD (Organization, FAQ, HowTo, Review, Service, etc.) |
+
+### Icons
+
+UI icons use Lucide through `_includes/lucide.html` and the self-hosted sprite at `assets/icons/lucide-sprite.svg`. Regenerate the sprite with `node tools/fetch-lucide-icons.mjs` after adding an icon name to the script. Social and brand marks stay in Font Awesome because Lucide does not cover every platform the site links to.
 
 ---
 

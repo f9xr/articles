@@ -25,7 +25,7 @@ layout: default
         {% if page.description %}<p class="post-description" itemprop="description">{{ page.description }}</p>{% endif %}
         <div class="post-meta">
           <span class="post-author-badge"><span class="author-dot"></span> {{ page.author | default: "F9XR Editorial Team" }}</span>
-          {% if page.audio_duration %}<span class="post-meta-sep">·</span><span style="color:#71717a;"><i class="fa-solid fa-clock" style="margin-right:0.3em;"></i>{{ page.audio_duration }}</span>{% endif %}
+          {% if page.audio_duration %}<span class="post-meta-sep">·</span><span style="color:#71717a;">{% include lucide.html name="clock" style="margin-right:0.3em;" %}{{ page.audio_duration }}</span>{% endif %}
         </div>
         {% if page.tags %}<div class="post-tags">{% for tag in page.tags %}<a href="{{ '/archive.html' | relative_url }}#{{ tag | slugify }}" class="post-tag">{{ tag }}</a>{% endfor %}</div>{% endif %}
       </header>
@@ -61,7 +61,7 @@ layout: default
       {% if page.audio_vtt or content != "" %}
       <details class="episode-transcript" style="margin-bottom:2em; border:1px solid #1e2024; border-radius:14px; overflow:hidden;">
         <summary style="cursor:pointer; padding:1.1em 1.4em; background:linear-gradient(135deg, rgba(59,130,246,0.06) 0%, rgba(10,10,10,0.85) 100%); color:#f0f0f0; font-weight:600; font-size:0.95em; list-style:none; display:flex; align-items:center; gap:0.5em;">
-          <i class="fa-solid fa-chevron-right" style="font-size:0.75em; color:#3b82f6; transition:transform 0.2s;"></i>
+          {% include lucide.html name="chevron-right" style="font-size:0.75em; color:#3b82f6; transition:transform 0.2s;" %}
           Read Transcript
         </summary>
         <div class="episode-transcript-body" itemprop="transcript" itemscope itemtype="https://schema.org/TextObject" style="padding:1.5em 1.4em; color:#b1bac4; font-size:0.95em; line-height:1.85; max-height:600px; overflow-y:auto;">
@@ -111,6 +111,6 @@ layout: default
   }
   </script>
 
-  <script defer src="{{ '/assets/js/audio-player.js' | relative_url }}"></script>
+  <script defer src="{{ '/assets/js/audio-player.js' | relative_url }}" data-sprite="{{ '/assets/icons/lucide-sprite.svg' | relative_url }}"></script>
 
 </article>

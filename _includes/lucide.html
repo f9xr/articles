@@ -1,0 +1,4 @@
+{%- assign icon_name = include.name | default: '' -%}
+{%- if icon_name != '' -%}
+<svg class="lucide lucide-{{ icon_name }}{% if include.class %} {{ include.class }}{% endif %}" xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" viewBox="0 0 24 24"{% if include.title %} role="img" aria-label="{{ include.title | escape }}"{% else %} aria-hidden="true"{% endif %} focusable="false"{% if include.style %} style="{{ include.style }}"{% endif %}><use href="{{ '/assets/icons/lucide-sprite.svg' | relative_url }}#{{ icon_name }}"></use></svg>
+{%- endif -%}

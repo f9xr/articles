@@ -49,7 +49,7 @@ keywords: "F9XR articles archive, web architecture, AI integration, local SEO, d
     <a href="https://f9xr.org/pages/services.html">Services</a>
     <a href="https://f9xr.org/pages/portfolio.html">Portfolio</a>
     <a href="https://f9xr.org/pages/contact.html">Contact</a>
-    <button type="button" class="ed-masthead-search" onclick="openSearch(); return false;"><i class="fa-solid fa-magnifying-glass"></i> Search <kbd class="ed-masthead-kbd">/</kbd></button>
+    <button type="button" class="ed-masthead-search" onclick="openSearch(); return false;">{% include lucide.html name="search" %} Search <kbd class="ed-masthead-kbd">/</kbd></button>
   </nav>
 </header>
 
@@ -63,7 +63,7 @@ keywords: "F9XR articles archive, web architecture, AI integration, local SEO, d
 
 <section class="ed-archive-hero" aria-label="Archive overview">
   <div class="ed-archive-intro">
-    <p class="ed-kicker"><i class="fa-solid fa-archive"></i> The Complete Archive</p>
+    <p class="ed-kicker">{% include lucide.html name="archive" %} The Complete Archive</p>
     <h1 class="ed-archive-title">All Articles</h1>
     <p class="ed-archive-sub">Engineering notes, architecture deep-dives, and growth strategies from the F9XR Team — everything published, indexed by topic.</p>
   </div>
@@ -90,9 +90,9 @@ keywords: "F9XR articles archive, web architecture, AI integration, local SEO, d
 <section class="ed-topics" aria-label="Browse by topic">
   <details class="topic-dropdown">
     <summary class="topic-dropdown-summary">
-      <span class="topic-dropdown-title"><i class="fa-solid fa-tags"></i> Browse by Topic</span>
+      <span class="topic-dropdown-title">{% include lucide.html name="tags" %} Browse by Topic</span>
       <span class="topic-dropdown-count">{{ site.tags.size }} categories</span>
-      <span class="topic-dropdown-chevron"><i class="fa-solid fa-chevron-down"></i></span>
+      <span class="topic-dropdown-chevron">{% include lucide.html name="chevron-down" %}</span>
     </summary>
     <div class="topic-dropdown-body">
       <div class="index-tags">
@@ -166,13 +166,13 @@ keywords: "F9XR articles archive, web architecture, AI integration, local SEO, d
       prevBtn.type = 'button';
       prevBtn.className = 'ed-pager-nav';
       prevBtn.setAttribute('aria-label', 'Previous page');
-      prevBtn.innerHTML = '<i class="fa-solid fa-angle-left"></i>';
+      prevBtn.innerHTML = '{% include lucide.html name="chevron-left" %}';
 
       var nextBtn = document.createElement('button');
       nextBtn.type = 'button';
       nextBtn.className = 'ed-pager-nav';
       nextBtn.setAttribute('aria-label', 'Next page');
-      nextBtn.innerHTML = '<i class="fa-solid fa-angle-right"></i>';
+      nextBtn.innerHTML = '{% include lucide.html name="chevron-right" %}';
 
       pager.appendChild(prevBtn);
       var pageBtns = [];

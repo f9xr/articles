@@ -64,5 +64,6 @@ Guest contributions are accepted only when the contributor can demonstrate verif
 ## Related Policies
 
 - [Correction Policy]({{ '/press/correction-policy.html' | relative_url }}): How errors are identified, reported, and resolved.
+- [Comment Policy]({{ '/press/comment-policy.html' | relative_url }}): Community standards, moderation, and reporting for article comments.
 - [Ethics & Fact-Checking Policy]({{ '/press/ethics-policy.html' | relative_url }}): Standards for data integrity and conflict-of-interest management.
 - [Ownership, Funding, & Transparency]({{ '/press/transparency.html' | relative_url }}): Organizational structure, funding model, and disclosure practices.

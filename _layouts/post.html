@@ -48,12 +48,12 @@ layout: default
     {% include translate.html %}
     <details class="sidebar-toc-details" open>
       <summary class="sidebar-toc-summary">
-        <span class="sidebar-toc-summary-label"><i class="fa-solid fa-list-ul" style="color:#3b82f6;"></i> Table of Contents</span>
-        <span class="sidebar-toc-chevron"><i class="fa-solid fa-chevron-down"></i></span>
+        <span class="sidebar-toc-summary-label">{% include lucide.html name="list" style="color:#3b82f6;" %} Table of Contents</span>
+        <span class="sidebar-toc-chevron">{% include lucide.html name="chevron-down" %}</span>
       </summary>
       <nav class="sidebar-toc" id="table-of-contents" aria-label="Table of contents">
         <h2 class="sidebar-toc-title">
-          <i class="fa-solid fa-list-ul" style="color:#3b82f6; font-size:0.9em;"></i>
+          {% include lucide.html name="list" style="color:#3b82f6; font-size:0.9em;" %}
           Table of Contents
         </h2>
         <ol class="sidebar-toc-list">
@@ -73,10 +73,10 @@ layout: default
   <!-- Breadcrumbs -->
   <nav aria-label="Breadcrumb" style="margin-bottom:1.5em;">
     <ol style="display:flex; flex-wrap:wrap; align-items:center; gap:0.4em; list-style:none; margin:0; padding:0; font-size:0.8em;">
-      <li><a href="{{ '/' | relative_url }}" style="color:#71717a; text-decoration:none; transition:color 0.2s;" onmouseover="this.style.color='#3b82f6'" onmouseout="this.style.color='#71717a'"><i class="fa-solid fa-house" style="font-size:0.85em;"></i> Home</a></li>
-      <li style="color:#30363d;"><i class="fa-solid fa-chevron-right" style="font-size:0.6em;"></i></li>
+      <li><a href="{{ '/' | relative_url }}" style="color:#71717a; text-decoration:none; transition:color 0.2s;" onmouseover="this.style.color='#3b82f6'" onmouseout="this.style.color='#71717a'">{% include lucide.html name="house" style="font-size:0.85em;" %} Home</a></li>
+      <li style="color:#30363d;">{% include lucide.html name="chevron-right" style="font-size:0.6em;" %}</li>
       <li><a href="{{ '/archive.html' | relative_url }}" style="color:#71717a; text-decoration:none; transition:color 0.2s;" onmouseover="this.style.color='#3b82f6'" onmouseout="this.style.color='#71717a'">Articles</a></li>
-      <li style="color:#30363d;"><i class="fa-solid fa-chevron-right" style="font-size:0.6em;"></i></li>
+      <li style="color:#30363d;">{% include lucide.html name="chevron-right" style="font-size:0.6em;" %}</li>
       <li style="color:#8b8b8b;">{{ page.title | escape }}</li>
     </ol>
   </nav>
@@ -335,9 +335,9 @@ layout: default
 
       {% if also_read %}
       <aside class="also-read">
-        <div class="also-read-label"><i class="fa-solid fa-book-open-reader"></i> Also Read</div>
+        <div class="also-read-label">{% include lucide.html name="book-open" %} Also Read</div>
         <a class="also-read-link" href="{{ also_read.url | relative_url }}">{{ also_read.title | escape }}</a>
-        <span class="also-read-arrow"><i class="fa-solid fa-arrow-right"></i></span>
+        <span class="also-read-arrow">{% include lucide.html name="arrow-right" %}</span>
       </aside>
       {% endif %}
 
@@ -346,9 +346,9 @@ layout: default
       {{ content }}
       {% if also_read %}
       <aside class="also-read">
-        <div class="also-read-label"><i class="fa-solid fa-book-open-reader"></i> Also Read</div>
+        <div class="also-read-label">{% include lucide.html name="book-open" %} Also Read</div>
         <a class="also-read-link" href="{{ also_read.url | relative_url }}">{{ also_read.title | escape }}</a>
-        <span class="also-read-arrow"><i class="fa-solid fa-arrow-right"></i></span>
+        <span class="also-read-arrow">{% include lucide.html name="arrow-right" %}</span>
       </aside>
       {% endif %}
     {% endif %}
@@ -406,7 +406,7 @@ layout: default
   {% if further_posts.size > 0 %}
   <section class="further-reading" style="margin-top:2.5em; padding-top:2em; border-top:1px solid #111111;">
     <h3 style="color:#f0f0f0; font-size:1.1em; margin-bottom:1.2em; display:flex; align-items:center; gap:0.4em;">
-      <i class="fa-solid fa-book-open" style="color:#3b82f6; font-size:0.85em;"></i>
+      {% include lucide.html name="book-open" style="color:#3b82f6; font-size:0.85em;" %}
       Further Reading
     </h3>
     <div style="display:flex; flex-direction:column; gap:0.7em;">
@@ -419,7 +419,7 @@ layout: default
           <span style="display:block; color:#71717a; font-size:0.82em; line-height:1.5; margin-top:0.4em;">{{ fr.description | truncate: 90 }}</span>
           {% endif %}
         </span>
-        <i class="fa-solid fa-arrow-right" style="color:#71717a; font-size:0.8em; margin-top:0.4em; flex-shrink:0;"></i>
+        {% include lucide.html name="arrow-right" style="color:#71717a; font-size:0.8em; margin-top:0.4em; flex-shrink:0;" %}
       </a>
       {% endfor %}
     </div>
@@ -430,7 +430,7 @@ layout: default
   {% if page.faq and page.faq.size > 0 %}
   <section class="post-faq" style="margin-top:2.5em; padding-top:2em; border-top:1px solid #111111;">
     <h2 style="font-size:1.3em; margin-bottom:1em; display:flex; align-items:center; gap:0.4em;">
-      <i class="fa-solid fa-circle-question" style="color:#3b82f6; font-size:0.85em;"></i>
+      {% include lucide.html name="circle-help" style="color:#3b82f6; font-size:0.85em;" %}
       Related Questions
     </h2>
     <div style="display:flex; flex-direction:column; gap:0.6em;">
@@ -438,7 +438,7 @@ layout: default
       <details style="background:rgba(59,130,246,0.03); border:1px solid #1e2024; border-radius:10px; overflow:hidden;">
         <summary style="cursor:pointer; padding:0.9em 1.2em; font-weight:600; color:#f0f0f0; font-size:0.92em; list-style:none; display:flex; align-items:center; justify-content:space-between; transition:background 0.2s;" onmouseover="this.style.background='rgba(59,130,246,0.06)'" onmouseout="this.style.background='transparent'">
           <span>{{ item.q }}</span>
-          <i class="fa-solid fa-chevron-down" style="color:#71717a; font-size:0.7em; transition:transform 0.2s;"></i>
+          {% include lucide.html name="chevron-down" style="color:#71717a; font-size:0.7em; transition:transform 0.2s;" %}
         </summary>
         <div style="padding:0 1.2em 1em 1.2em; color:#b1bac4; font-size:0.9em; line-height:1.7;">{{ item.a }}</div>
       </details>
@@ -454,7 +454,7 @@ layout: default
       <p style="margin:0 0 0.25em 0; color:#71717a; font-size:0.78em; text-transform:uppercase; letter-spacing:0.06em; font-weight:500;">Written by</p>
       <p style="margin:0 0 0.15em 0; font-weight:700; color:#f8f9fa; font-size:1.05em;">
         <a href="{{ post_author_url | relative_url }}" style="color:#f8f9fa; text-decoration:none;">{{ post_author.name | default: "F9XR Editorial Team" }}</a>
-        <span title="Verified Member of F9XR Team" style="display:inline-flex; align-items:center; justify-content:center; width:18px; height:18px; border-radius:50%; background:#3b82f6; color:#fff; font-size:0.65em; margin-left:0.35em; vertical-align:middle; position:relative; top:-1px;"><i class="fa-solid fa-check" style="font-size:0.7em;"></i></span>
+        <span title="Verified Member of F9XR Team" style="display:inline-flex; align-items:center; justify-content:center; width:18px; height:18px; border-radius:50%; background:#3b82f6; color:#fff; font-size:0.65em; margin-left:0.35em; vertical-align:middle; position:relative; top:-1px;">{% include lucide.html name="check" style="font-size:0.7em;" %}</span>
       </p>
       <p style="margin:0 0 0.6em 0; color:#8b8b8b; font-size:0.88em;">{{ post_author.role | default: "Digital Architecture Agency" }}</p>
       <div style="display:flex; gap:0.5em; flex-wrap:wrap;">
@@ -495,12 +495,12 @@ layout: default
         {% endif %}
         {% if post_author.website %}
         <a href="{{ post_author.website }}" target="_blank" rel="noopener noreferrer" title="Website" style="display:inline-flex; align-items:center; justify-content:center; width:32px; height:32px; border-radius:8px; background:rgba(59,130,246,0.08); border:1px solid #1e2024; color:#71717a; transition:all 0.2s;" onmouseover="this.style.color='#3b82f6'; this.style.borderColor='#2563eb';" onmouseout="this.style.color='#71717a'; this.style.borderColor='#1e2024';">
-          <i class="fa-solid fa-globe"></i>
+          {% include lucide.html name="globe" %}
         </a>
         {% endif %}
         {% if post_author.email %}
         <a href="mailto:{{ post_author.email }}" title="Email" style="display:inline-flex; align-items:center; justify-content:center; width:32px; height:32px; border-radius:8px; background:rgba(59,130,246,0.08); border:1px solid #1e2024; color:#71717a; transition:all 0.2s;" onmouseover="this.style.color='#3b82f6'; this.style.borderColor='#2563eb';" onmouseout="this.style.color='#71717a'; this.style.borderColor='#1e2024';">
-          <i class="fa-solid fa-envelope"></i>
+          {% include lucide.html name="mail" %}
         </a>
         {% endif %}
       </div>
@@ -510,7 +510,7 @@ layout: default
   <!-- Share -->
   <section class="post-footer-cta" aria-label="Share this article">
     <div class="share-box">
-      <span class="share-box-icon"><i class="fa-solid fa-share-nodes"></i></span>
+      <span class="share-box-icon">{% include lucide.html name="share-2" %}</span>
       <h2 class="share-box-title">Enjoyed this article?</h2>
       <p class="share-box-text">Share it with your network: help someone else discover these insights.</p>
       <div class="share-box-buttons">
@@ -519,7 +519,7 @@ layout: default
       <div class="share-box-copylink">
         <span class="share-box-url">{{ page.url | absolute_url }}</span>
         <button type="button" class="share-box-copylink-btn" onclick="copyPageLink('copyTooltipFooter')">
-          <i class="fa-regular fa-copy"></i> Copy link
+          {% include lucide.html name="copy" %} Copy link
           <span class="copy-tooltip" id="copyTooltipFooter">Copied!</span>
         </button>
       </div>
@@ -584,7 +584,7 @@ layout: default
   {% if related_posts.size > 0 %}
   <section class="related-posts" style="margin-top:3em; padding-top:2em; border-top:1px solid #111111;">
     <h3 style="color:#f0f0f0; font-size:1.1em; margin-bottom:1.2em; display:flex; align-items:center; gap:0.4em;">
-      <i class="fa-solid fa-link" style="color:#3b82f6; font-size:0.85em;"></i>
+      {% include lucide.html name="link" style="color:#3b82f6; font-size:0.85em;" %}
       Related Articles
     </h3>
     <div style="display:grid; grid-template-columns:repeat(auto-fill, minmax(min(280px, 100%), 1fr)); gap:1em;">
@@ -606,7 +606,8 @@ layout: default
 
   <!-- Comments Section -->
   <section class="post-comments" id="comments" style="margin-top:3em; padding-top:2em; border-top:1px solid #111111;">
-    <h3 style="color:#f0f0f0; font-size:1.1em; margin-bottom:1.2em;">Comments</h3>
+    <h3 style="color:#f0f0f0; font-size:1.1em; margin-bottom:0.6em;">{% include lucide.html name="message-square" style="color:#3b82f6; margin-right:0.4em;" %}Comments</h3>
+    <p style="color:#71717a; font-size:0.85em; margin:0 0 1.2em 0;">Join the discussion below. By commenting, you agree to our <a href="{{ '/press/comment-policy.html' | relative_url }}" style="color:#60a5fa;">Comment Policy</a>.</p>
     <script src="https://utteranc.es/client.js"
             repo="f9xr/articles"
             issue-term="pathname"
@@ -619,7 +620,7 @@ layout: default
   <!-- F9XR Team CTA -->
   <section class="f9xr-cta">
     <div class="f9xr-cta-icon">
-      <i class="fa-solid fa-rocket"></i>
+      {% include lucide.html name="rocket" %}
     </div>
     <h2 class="f9xr-cta-title">Ready to Build a Stronger Digital Presence?</h2>
     <p class="f9xr-cta-text">
@@ -628,7 +629,7 @@ layout: default
     <div class="f9xr-cta-actions">
       <a href="https://f9xr.org/pages/services.html" target="_blank" rel="noopener noreferrer" class="f9xr-cta-btn f9xr-cta-btn-primary">
         Explore Our Services
-        <i class="fa-solid fa-arrow-right"></i>
+        {% include lucide.html name="arrow-right" %}
       </a>
       <a href="https://f9xr.org/pages/contact.html" target="_blank" rel="noopener noreferrer" class="f9xr-cta-btn f9xr-cta-btn-ghost">
         Get a Free Website Audit
