@@ -64,7 +64,7 @@ The "SEO friendly Blogger templates" label is marketing until you test the demo.
 
 ## How we reviewed these Blogger template providers
 
-We checked the public pages for each provider on November 6, 2026. We looked at template types, free or paid status, prices shown, support and documentation, update history, and anything a buyer should double check, such as footer credits or license terms.
+We checked the public pages for each provider on November 6, 2026. We looked at template types, free or paid status, prices shown, support and documentation, update history, and anything a buyer should double check, such as footer credits or license terms. Screenshots show the public pages on November 7, 2026.
 
 We did not install every template or run speed tests on every demo. Prices change. Where a number is self-reported, we say so.
 
@@ -96,23 +96,57 @@ Here is what each provider looks like from the outside, plus a simple verdict.
 
 Templateify is a premium shop with a 30% sale banner. The catalog we saw included Everify (July 2026), Xapify, Marketify, and Plexify. Feature lists include an Ajax mega menu, one click dark mode, a table of contents plugin, and lifetime updates. Each theme links to web and video documentation. Sales counters are self-reported, so treat them as a signal. The [Templateify documentation](https://docs.templateify.com/){:target="_blank" rel="noopener noreferrer"} shows how the themes are supported.
 
+<figure class="post-figure">
+  <a href="https://www.templateify.com/" target="_blank" rel="noopener noreferrer">
+    <img src="{{ site.baseurl }}/assets/post-images/provider-screenshots/templateify.webp" alt="Templateify homepage showing premium Blogger template categories" title="Templateify premium Blogger templates" width="1200" height="750" loading="lazy" decoding="async">
+  </a>
+  <figcaption>Templateify homepage. Screenshot captured November 7, 2026.</figcaption>
+</figure>
+
 **Verdict:** a strong first stop if you want a feature rich paid theme and will read the license.
+
+**Browse:** [Templateify premium Blogger themes](https://www.templateify.com/){:target="_blank" rel="noopener noreferrer"}.
 
 ### 2. Piki Templates
 
 Piki sells free and premium news and magazine themes. Names we saw include Grid Mag, Quick Spot, Wind Spot, Nest Spot, Citron, and a store theme called Shopping. Prices start at $5, paid items run about $6 to $10.50, and Piki promises a 30 day money back guarantee. It says it has sold more than 4,333 templates. The copy leans hard on ranking promises. Judge the demo, not the slogan.
 
+<figure class="post-figure">
+  <a href="https://pikitemplates.com/" target="_blank" rel="noopener noreferrer">
+    <img src="{{ site.baseurl }}/assets/post-images/provider-screenshots/piki-templates.webp" alt="Piki Templates homepage with free and premium Blogger themes" title="Piki Templates Blogger themes" width="1200" height="750" loading="lazy" decoding="async">
+  </a>
+  <figcaption>Piki Templates homepage with its current promotion. Screenshot captured November 7, 2026.</figcaption>
+</figure>
+
 **Verdict:** a low cost magazine theme with a demo you can test. Skip if you need a custom design.
+
+**Browse:** [Piki Templates Blogger themes](https://pikitemplates.com/){:target="_blank" rel="noopener noreferrer"}.
 
 ### 3. BTO Themes (bloggertemplate.org)
 
 BTO Themes is a review site and directory, not a single shop. It publishes reviews with demos and tutorials, and sorts themes by free, SEO friendly, AdSense friendly, and premium. We saw the same template names on BTO and Piki, including Grid Mag, Quick Spot, Wind Spot, and Nest Spot. That makes sense for a review site, but compare the actual seller and support terms.
 
+<figure class="post-figure">
+  <a href="https://bloggertemplate.org/" target="_blank" rel="noopener noreferrer">
+    <img src="{{ site.baseurl }}/assets/post-images/provider-screenshots/bto-themes.webp" alt="BTO Themes homepage with Blogger template reviews" title="BTO Themes reviews and directory" width="1200" height="750" loading="lazy" decoding="async">
+  </a>
+  <figcaption>BTO Themes homepage. Screenshot captured November 7, 2026.</figcaption>
+</figure>
+
 **Verdict:** useful for research. Not a reason to skip the license check.
+
+**Browse:** [BTO Themes reviews and demos](https://bloggertemplate.org/){:target="_blank" rel="noopener noreferrer"}.
 
 ### 4. Igniel
 
 Igniel is an Indonesian developer with free themes such as Derelogy, Textrim, and Fiksioner, plus premium themes such as Igniplex and Grampedia. Premium prices we saw were around $21 to $28. Most pages are in Indonesian. Igniel uses a license and domain verification, and the Grampedia page we saw says there are no refunds. Buy from the official site, not a repost or a clone.
+
+<figure class="post-figure">
+  <a href="https://www.igniel.com/search/label/Template" target="_blank" rel="noopener noreferrer">
+    <img src="{{ site.baseurl }}/assets/post-images/provider-screenshots/igniel.webp" alt="Igniel template archive with Blogger theme thumbnails" title="Igniel Blogger template archive" width="1200" height="750" loading="lazy" decoding="async">
+  </a>
+  <figcaption>Igniel template archive. Screenshot captured November 7, 2026.</figcaption>
+</figure>
 
 **Verdict:** a good fit if you want a minimal theme and will follow the license. Skip if you need English language support.
 
@@ -122,6 +156,13 @@ Igniel is an Indonesian developer with free themes such as Derelogy, Textrim, an
 
 Temabanua is an Indonesian shop with free and premium themes across AMP, blog, magazine, landing page, portfolio, and eCommerce. It sells an annual membership for unlimited premium downloads and shows prices in IDR and USD. The catalog we saw included NStore, a store theme updated August 21, 2026; Take Bio, a link in bio and WhatsApp shop theme; and Monris, a digital agency theme.
 
+<figure class="post-figure">
+  <a href="https://www.temabanua.com/" target="_blank" rel="noopener noreferrer">
+    <img src="{{ site.baseurl }}/assets/post-images/provider-screenshots/temabanua.webp" alt="Temabanua homepage with premium Blogger template membership" title="Temabanua Blogger themes" width="1200" height="750" loading="lazy" decoding="async">
+  </a>
+  <figcaption>Temabanua homepage. Screenshot captured November 7, 2026.</figcaption>
+</figure>
+
 **Verdict:** one of the better fits for a local business that sells through chat or a simple store.
 
 **Browse:** [Temabanua Blogger themes](https://www.temabanua.com/){:target="_blank" rel="noopener noreferrer"}.
@@ -129,6 +170,13 @@ Temabanua is an Indonesian shop with free and premium themes across AMP, blog, m
 ### 6. Goomsite
 
 Goomsite sells premium Blogger themes for schools, magazines, personal blogs, and landing pages. Examples include EduZora and EduPress for education, GoomFlex and Eisha Mag for magazines, and Samira for a business landing page. The site has a FAQ, payment instructions, and a warning about lookalike sites. The homepage also shows WooCommerce and WordPress style stats such as 570+ demos and 160K+ customers. Those look like placeholder copy. Ignore them and judge the template pages, license, and support replies.
+
+<figure class="post-figure">
+  <a href="https://www.goomsite.net/" target="_blank" rel="noopener noreferrer">
+    <img src="{{ site.baseurl }}/assets/post-images/provider-screenshots/goomsite.webp" alt="Goomsite homepage with premium Blogger template demos" title="Goomsite premium Blogger templates" width="1200" height="750" loading="lazy" decoding="async">
+  </a>
+  <figcaption>Goomsite homepage. Screenshot captured November 7, 2026.</figcaption>
+</figure>
 
 **Verdict:** a solid option for education and landing page themes, if the support answer is clear.
 
@@ -138,11 +186,27 @@ Goomsite sells premium Blogger themes for schools, magazines, personal blogs, an
 
 Gooyaabi is a large free directory. It sorts themes by style, feature, and topic, and new entries kept appearing through October 2026. It is a good place to browse layouts quickly. Several names on Gooyaabi, including Everify, Xapify, Marketify, and Plexify, also appear as paid products in the Templateify store. That does not prove a problem. It does mean you should confirm the original author, the license, and whether the download includes encrypted scripts before you use it on a business site.
 
+<figure class="post-figure">
+  <a href="https://gooyaabitemplates.com/" target="_blank" rel="noopener noreferrer">
+    <img src="{{ site.baseurl }}/assets/post-images/provider-screenshots/gooyaabi-templates.webp" alt="Gooyaabi Templates homepage with free Blogger theme categories" title="Gooyaabi Templates free Blogger themes" width="1200" height="750" loading="lazy" decoding="async">
+  </a>
+  <figcaption>Gooyaabi Templates homepage. Screenshot captured November 7, 2026.</figcaption>
+</figure>
+
 **Verdict:** useful for ideas. Do not treat a free download as a free license.
+
+**Browse:** [Gooyaabi Templates free Blogger themes](https://gooyaabitemplates.com/){:target="_blank" rel="noopener noreferrer"}.
 
 ### 8. Danteizm
 
 Danteizm is the long running site of independent developer Mark Daniel Korvin. The homepage was updated on November 3, 2026, and offers a large free catalog, including landing pages for startups and agencies such as YVision, BrightAgency, and Lendos. The site also offers free tools such as a robots.txt creator and an H1 checker. Some themes are older, so test on a spare blog. Scan any template for scripts you do not recognize.
+
+<figure class="post-figure">
+  <a href="https://danteizm.blogspot.com/" target="_blank" rel="noopener noreferrer">
+    <img src="{{ site.baseurl }}/assets/post-images/provider-screenshots/danteizm.webp" alt="Danteizm homepage with free Blogger template downloads" title="Danteizm free Blogger templates" width="1200" height="750" loading="lazy" decoding="async">
+  </a>
+  <figcaption>Danteizm homepage. Screenshot captured November 7, 2026.</figcaption>
+</figure>
 
 **Verdict:** a good free starting point if you are comfortable testing before you go live.
 
@@ -152,7 +216,16 @@ Danteizm is the long running site of independent developer Mark Daniel Korvin. T
 
 ThemeXpose offers free Blogger themes with a required credit link. You can pay to remove the credit, with listings at $9.95 to $11.95, or $30 for the theme plus installation. The newest posts we saw were from 2021. That does not prove the themes are broken, but it raises a support question. Ask whether the developer still answers requests before you rely on the theme for a business site.
 
+<figure class="post-figure">
+  <a href="https://www.themexpose.com/" target="_blank" rel="noopener noreferrer">
+    <img src="{{ site.baseurl }}/assets/post-images/provider-screenshots/themexpose.webp" alt="ThemeXpose homepage with free Blogger template categories" title="ThemeXpose free Blogger templates" width="1200" height="750" loading="lazy" decoding="async">
+  </a>
+  <figcaption>ThemeXpose homepage. Screenshot captured November 7, 2026.</figcaption>
+</figure>
+
 **Verdict:** treat it as a legacy catalog until you confirm support.
+
+**Browse:** [ThemeXpose Blogger themes](https://www.themexpose.com/){:target="_blank" rel="noopener noreferrer"}.
 
 ---
 
