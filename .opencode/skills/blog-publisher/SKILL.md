@@ -13,8 +13,9 @@ description: >
   and pings IndexNow through tools/ping-indexnow.mjs after the page is serving.
   Always uses F9XR branding naturally, keeps content educational (not promotional),
   writes in the selected author's distinct voice (see the `voice:` block
-  in `authors/<key>.md`), and references @skills\avoid-ai-writing and
-  @skills\seo-audit-report for quality checks.
+  in `authors/<key>.md`), and references the human-article-writer skill,
+  @skills\avoid-ai-writing and @skills\seo-audit-report for researched,
+  human-sounding quality checks.
 ---
 
 # F9XR Blog Publisher
@@ -31,8 +32,17 @@ When the user asks to publish a post, follow these steps in order:
 
 - Ask clarifying questions if the topic is vague
 - Identify which **content pillar** it belongs to (see `content-plan.md`)
-- Research the topic using web search if needed (current trends, statistics, best practices)
+- **Lock the target market** (country, currency, spelling). Every example, price, platform, law and statistic must fit that one market. Never mix rupees and dollars, or UK and US spelling, in the same article.
 - Keep a technical, educational angle — you're teaching the reader something useful
+
+### 1a. Research Before Writing (mandatory)
+
+No source, no claim. Do this before drafting, not after:
+
+- Search the primary keyword and fetch the top 3 to 5 ranking pages. Note each page's angle, H2 list, what they all repeat, what none of them covers, and the questions that appear in People Also Ask.
+- Find 3 to 6 trustworthy sources for the facts you plan to use: official bodies, original studies, primary documentation, or reputable publishers. Record the URL and the exact fact.
+- Pick **one angle the competitors miss**. The article needs a point of view, not just coverage.
+- If the user supplies first-hand material (a client case, a number from their own work, a mistake they saw), use it and keep the exact details. If they supply none, do **not** invent anecdotes, clients, quotes or statistics. Write from verifiable specifics and clear opinions instead, and list suggested spots for their own examples outside the article.
 
 ### 1b. Lock the Author Voice
 
@@ -42,7 +52,7 @@ Every post has exactly one author, and each author has a distinct voice. Do this
 - Read the matching profile at `authors/<author-key>.md` and extract its `voice:` front-matter block. The key is the value used for `author:` in the post front matter and `_data/authors.yml` (e.g., the page `authors/ankush-santra.md` is the key `"Ankush Santra"`).
 - Apply that block as your writing mandate for the whole post: `tone`, `persona`, `sentence_rhythm`, `signature_moves`, `avoid`, and `ai_voice_profile`.
 - Never blend authors. One post, one voice. If the author is F9XR Editorial Team, the house voice (Step 3) applies; individual authors override the house tone, rhythm, and signature moves but still follow the universal rules (no em dashes, reader-centered, F9XR branding).
-- Note the author's `fingerprint` sentence as a calibration anchor for the style during the quality pass (Step 4a).
+- Note the author's `fingerprint` sentence as a calibration anchor for the style during the quality pass (Step 4).
 
 ### 2. Generate Front-Matter
 
@@ -117,6 +127,11 @@ Follow this content brief exactly for every article. Think of it as your editori
 - Use short paragraphs. 1-3 sentences max. Break up dense blocks.
 - Be specific. Use real numbers, names, and concrete examples.
 - Write with authority but not arrogance. Demonstrate expertise through specifics, not claims.
+- **Vary the rhythm.** Aim for a sentence-length standard deviation of 7+ words. Put a 4-word sentence next to a 25-word one. Vary paragraph and section lengths; if three sections sit within 20% of each other in word count, rebalance them.
+- **Keep passive voice under 10%** of sentences. Prefer "the agent finds the page" over "the page is found by the agent".
+- **Cap the tells.** One "not X, it's Y" contrast per article at most. No aphorism endings. No "It describes something more useful: ..." colon reveals. No performed candour ("honestly", "the truth is", "most guides"). No fake reassurance one-liners ("It didn't." "You're not alone."). Use a three-item list only when there really are three things.
+- **Use data like a person.** Cite the number, then add the context a reader would ask for (year, sample size, country). Where it helps, include one fact that complicates your point instead of decorating it.
+- **Never invent first-hand experience.** If the user gave you no anecdote, write without one and suggest spots for their own examples after the article. A fabricated client story is worse than none.
 
 **AEO (Answer Engine Optimization):**
 - Optimize for AI search engines: ChatGPT, Gemini, Claude, Perplexity.
@@ -153,6 +168,10 @@ Add tables where comparisons or data help clarity.
 ```
 
 > **Do NOT add a FAQ / "Frequently Asked Questions" section, "Related Questions", or any FAQPage `<script>` JSON-LD to the post body.** Those are rendered automatically by the layout from the front-matter `faq:` entries. Adding them in the body duplicates content and emits a second, invalid FAQPage schema. FAQ is boilerplate-only in front matter.
+
+**Make the structure uneven.** Do not copy a competitor template or give every section the same length. Spend the most words on the reader's real question. H2s should be specific, and some can be phrased as a question ("Why does the calculator show 4?"). Answer the main query in the first 100 words in plain sentences, without a "The short answer" label. Use an H3 only where an H2 truly has sub-parts.
+
+The F9XR layout requires `## Key Takeaways` and `## Conclusion`, so those two headings stay even though the human-article-writer skill usually avoids template headings. Keep the takeaway list to 3-5 points, and make the Conclusion a specific next step or honest limit, not a recap of the article. The linter's template-heading check expects those two exceptions via `--allow-heading`.
 
 **F9XR Branding Rules (critical):**
 - Write as an **educational guide**, not a sales pitch
@@ -199,11 +218,21 @@ Alongside the article body, generate each of these as part of the post front-mat
 | **External Links** | 3 links from trusted, authoritative sites only (e.g., Google Developers, Moz, Search Engine Journal, Ahrefs blog, W3C, GitHub). Open in new tab. |
 | **Tags** | 10 relevant tags as a YAML array. |
 
-### 4. Quality Checks — Use `@skills` Pipeline
+### 4. Quality Checks — Run the Full Pipeline
 
-After writing the draft, **always run these quality gates** before publishing:
+After writing the draft, **always run these quality gates in order** before publishing. Fix every FAIL and judge every WARN.
 
-#### Step 4a: Load `@skills\avoid-ai-writing`
+#### Step 4a: Load the human-article-writer skill and run the linter
+- Read `.opencode/skills/human-article-writer/SKILL.md` and its references (`ai-tells.md`, `human-craft.md`, `structure.md`).
+- Run the repo linter on the post:
+  ```powershell
+  python tools/lint-article.py _posts/YYYY-MM-DD-slug.md --keywords "<primary keyword>" --allow-heading "key takeaways" "conclusion"
+  ```
+- Fix every FAIL. For WARNs, fix the ones that genuinely read worse, and leave F9XR-mandated patterns (bold lead-ins in lists, Key Takeaways, Conclusion) when they serve the layout.
+- Re-run until there are no FAILs. Then do a read-aloud pass and rewrite the three most polished-but-empty sentences.
+- If the linter reports low sentence-length variation or flat runs, rewrite a few sentences before moving on. Do not fake burstiness with fragments everywhere.
+
+#### Step 4b: Load `@skills\avoid-ai-writing`
 - Read the file at `skills/avoid-ai-writing/SKILL.md`
 - Follow its instructions to audit the draft for AI writing patterns ("AI-isms")
 - Run in **edit** mode — edit the post file in place with minimal, targeted changes
@@ -211,7 +240,7 @@ After writing the draft, **always run these quality gates** before publishing:
 - Preserve technical code blocks, quoted material, and F9XR-specific examples
 - Iterate until the draft reads naturally human
 
-#### Step 4b: Load `@skills\seo-audit-report`
+#### Step 4c: Load `@skills\seo-audit-report`
 - Read the file at `skills/seo-audit-report/SKILL.md`
 - Run a focused audit on the new post for:
   - Title tag optimization
@@ -222,6 +251,14 @@ After writing the draft, **always run these quality gates** before publishing:
   - FAQ schema readiness
 - Apply any high-severity fixes to the post file
 
+#### Step 4d: De-template pass
+- Reread as a skeptical editor. Delete every sentence that announces honesty, humility or opinion. Delete Q-and-answer fragments except at most one.
+- Check each statistic: does it just decorate a conclusion you already reached? Add context or a counterpoint, or drop it.
+- Check the arc: if it runs problem, stat, reframe, moral, restructure it.
+- Check locale: one currency, one spelling system, local examples.
+- Check paragraph openings: no two consecutive paragraphs should open with the same claim-then-explanation shape.
+- Run the linter once more after this pass.
+
 ### 5. Verify Final File
 
 Confirm the file is at `_posts/YYYY-MM-DD-slug.md` and has:
@@ -231,6 +268,9 @@ Confirm the file is at `_posts/YYYY-MM-DD-slug.md` and has:
 - **Title length ≤ 60 characters** — count manually or use `"title".Length` in PowerShell. The full rendered `<title>` tag will be `title + " — F9XR Articles"` — must stay under 70 total.
 - Body reads naturally, educational tone, no AI-isms
 - Body matches the selected author's voice (Step 1b): tone, sentence rhythm, signature moves
+- `python tools/lint-article.py ...` exits with **0 FAILs**
+- Every number, date and factual claim traces to a source; at least 3 external sources are cited inline
+- The target market is consistent: one currency, one spelling system, local examples
 - Internal links use `https://f9xr.org/...` format
 - The new post link is appended to `article-urls.txt` (see Step 6)
 
@@ -382,6 +422,10 @@ Everything above the front-matter is handled by the layout — only write the bo
 
 - Always read `content-plan.md` at project root before suggesting content strategy
 - Always load the selected author's `voice:` block from `authors/<author-key>.md` before drafting (Step 1b). Never default every post to the house voice unless the author is F9XR Editorial Team.
+- Always research 3 to 6 sources and pick one angle competitors miss before drafting (Step 1a). No source, no claim.
+- Never invent an anecdote, client, quote or statistic. If the user supplied no first-hand material, write without it and suggest spots outside the article.
+- Lock one target market (country, currency, spelling) for the whole article.
+- Always run the human-article-writer linter (Step 4a) and clear every FAIL before publishing.
 - Always append the new post link to `article-urls.txt` before committing (Step 6)
 - Always give the post a featured image via Step 2b (branded template by default, or a user-provided licensed image with credit) — never publish with a missing or uncredited hero
 - Always run `@skills\avoid-ai-writing` and `@skills\seo-audit-report` before publishing

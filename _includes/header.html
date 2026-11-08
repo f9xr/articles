@@ -1,25 +1,27 @@
-﻿<header class="site-header">
-  <div class="wrapper" style="text-align:center; padding:0.1em 0;">
-    <a href="{{ '/' | absolute_url }}" style="text-decoration:none;" aria-label="F9XR Articles Home">
-      <img src="{{ '/logo.webp' | absolute_url }}" alt="F9XR Team" width="512" height="512" loading="eager" style="height:22px; width:auto; vertical-align:middle;">
-      <span style="color:#30363d; font-size:0.8em; margin:0 0.2em; vertical-align:middle;">/</span>
-      <span style="color:#71717a; font-size:0.8em; vertical-align:middle;">Articles</span>
+<header class="site-header">
+  <div class="wrapper site-header-wrapper">
+    <a href="{{ '/' | absolute_url }}" class="site-header-brand" aria-label="F9XR Articles Home">
+      <img src="{{ '/logo.webp' | absolute_url }}" alt="F9XR Team" width="512" height="512" loading="eager" class="site-header-logo">
+      <span class="site-header-slash">/</span>
+      <span class="site-header-title">Articles</span>
     </a>
-    <nav aria-label="Main navigation" style="margin-top:0;">
-      <a href="{{ '/' | absolute_url }}" style="color:#8b8b8b; font-size:0.78em; margin:0 0.6em;">Home</a>
-      <a href="https://f9xr.org/pages/about.html" style="color:#8b8b8b; font-size:0.78em; margin:0 0.6em;">About</a>
-      <a href="https://f9xr.org/pages/services.html" style="color:#8b8b8b; font-size:0.78em; margin:0 0.6em;">Services</a>
-      <a href="https://f9xr.org/pages/portfolio.html" style="color:#8b8b8b; font-size:0.78em; margin:0 0.6em;">Portfolio</a>
-      <a href="{{ '/' | relative_url }}" style="color:#3b82f6; font-size:0.78em; margin:0 0.6em;">Articles</a>
-      <a href="{{ '/episodes/' | relative_url }}" style="color:#8b8b8b; font-size:0.78em; margin:0 0.6em;">Episodes</a>
-      <a href="https://f9xr.org/troolify/tools/seo" style="color:#8b8b8b; font-size:0.78em; margin:0 0.6em;">Tools</a>
-      <a href="https://f9xr.org/directories/index.html" style="color:#8b8b8b; font-size:0.78em; margin:0 0.6em;">Directories</a>
-      <a href="{{ '/press/privacy.html' | relative_url }}" style="color:#8b8b8b; font-size:0.78em; margin:0 0.6em;">Privacy</a>
+    <nav class="site-header-nav" aria-label="Main navigation">
+      <a href="{{ '/' | absolute_url }}" class="site-nav-link">Home</a>
+      <a href="https://f9xr.org/pages/about.html" class="site-nav-link">About</a>
+      <a href="https://f9xr.org/pages/services.html" class="site-nav-link">Services</a>
+      <a href="https://f9xr.org/pages/portfolio.html" class="site-nav-link">Portfolio</a>
+      <a href="{{ '/' | relative_url }}" class="site-nav-link site-nav-link-active">Articles</a>
+      <a href="{{ '/episodes/' | relative_url }}" class="site-nav-link">Episodes</a>
+      <a href="https://f9xr.org/troolify/tools/seo" class="site-nav-link">Tools</a>
+      <a href="https://f9xr.org/directories/index.html" class="site-nav-link">Directories</a>
+      <a href="{{ '/press/privacy.html' | relative_url }}" class="site-nav-link">Privacy</a>
+    </nav>
+    <div class="site-header-actions">
       <button type="button" class="search-btn" data-cmdk-open aria-label="Search articles" title="Search articles (press / or Ctrl+K)">
-        <svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="11" cy="11" r="8"/><path d="m21 21-4.3-4.3"/></svg>
-        <span class="search-btn-label">Search</span>
+        <svg width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="11" cy="11" r="8"/><path d="m21 21-4.3-4.3"/></svg>
+        <span class="search-btn-label">Search articles...</span>
         <kbd class="search-btn-kbd">/</kbd>
       </button>
-    </nav>
+    </div>
   </div>
 </header>

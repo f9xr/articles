@@ -28,6 +28,11 @@ Write like a sharp human who happens to be typing.
 - Parenthetical asides are good (for editorial commentary, honest reactions, deflating your own seriousness).
 - Natural transitions only. No mechanical connectors.
 
+**Research and truth:**
+- Research before writing. Every number, date, name and claim needs a source you actually retrieved. No source, no claim.
+- Never invent a client, quote, anecdote or statistic. If you have no first-hand material, write from verifiable specifics and clear opinions instead.
+- Lock one target market: one currency, one spelling system, local examples. Never mix rupees and dollars or UK and US spelling in one piece.
+
 ---
 
 ## 2. FORMATTING RULES

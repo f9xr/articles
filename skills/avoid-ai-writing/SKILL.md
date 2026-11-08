@@ -65,6 +65,31 @@ In **edit** mode, your job is to:
 
 ---
 
+## High-signal additions (from human-article-writer)
+
+For blog posts and long-form articles, also run the stricter pass in `.opencode/skills/human-article-writer/` and its linter. These patterns show up most in "thought leadership" prose:
+
+- **Hook and pivot openers.** A blunt contrarian line ("The honest answer is plain.") followed by an instant pivot ("Most guides skip the uncomfortable numbers."). Both halves are tells. Never open by announcing honesty or attacking "most guides".
+- **Performed candour.** "honestly", "the honest answer", "let's be real", "here's the thing", "the truth is", "nobody talks about". State the claim and move on.
+- **Self-aware hedge tags.** "which is my opinion and yours may differ", "your mileage may vary", "take this with a grain of salt". A human states the opinion; a model pre-apologises for it.
+- **Mini Q&A fragments.** "Boring? Yes." / "The catch?" / "Terrifying? Absolutely." Max one per article, ideally zero.
+- **Aphorism endings.** A last line that restates the paragraph as a quotable maxim. Cut it; the paragraph already said it.
+- **Colon reveals.** "It describes something far more useful: your relationship with..." Rewrite as a direct sentence.
+- **Mirrored pairs.** "In the positive state... In the negative state..." repeated across every section.
+- **Fake reassurance one-liners.** "It didn't." "Neither." "And that's okay." "You're not alone."
+- **Stats as decoration.** A big-name statistic dropped into a paragraph whose conclusion was already decided. Add context (year, sample, country) or a fact that complicates the point.
+- **Neat moral arc.** Problem, scary stat, reassuring reframe, "focus on skills instead" lesson. Break the arc: lead with the practical answer, put the nuance where it applies, end on a specific action.
+- **Locale leaks.** Mixed currencies or UK/US spelling in one piece. Pick one market.
+- **Shipping unfinished drafts.** `[ADD YOUR EXAMPLE]`, `[insert ...]`, `TODO`, `XX%` are the loudest tell of all.
+
+Repo command for the linter:
+
+```powershell
+python tools/lint-article.py _posts/YYYY-MM-DD-slug.md --keywords "<primary keyword>" --allow-heading "key takeaways" "conclusion"
+```
+
+---
+
 ## What to remove or fix
 
 ### Formatting
