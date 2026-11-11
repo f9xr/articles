@@ -1,4 +1,4 @@
-﻿{% assign ap = site.data.authors[include.author_key] %}
+{% assign ap = site.data.authors[include.author_key] %}
 {% assign ap_name = ap.name | default: include.author_key %}
 {% assign ap_avatar = ap.avatar | default: '/logo.webp' | absolute_url %}
 {% assign ap_role = ap.role | default: 'Author at F9XR Articles' %}
@@ -14,10 +14,10 @@
       <p class="author-role">{{ ap_role }}</p>
       <div class="author-actions">
         {% if ap.linkedin %}
-        <a href="{{ ap.linkedin }}" target="_blank" rel="noopener noreferrer" class="author-btn author-btn-linkedin"><i class="fa-brands fa-linkedin-in"></i> LinkedIn</a>
+        <a href="{{ ap.linkedin }}" target="_blank" rel="noopener noreferrer" class="author-btn author-btn-linkedin">{% include brandicon.html name="linkedin" %} LinkedIn</a>
         {% endif %}
         {% if ap.instagram %}
-        <a href="{{ ap.instagram }}" target="_blank" rel="noopener noreferrer" class="author-btn author-btn-instagram"><i class="fa-brands fa-instagram"></i> Instagram</a>
+        <a href="{{ ap.instagram }}" target="_blank" rel="noopener noreferrer" class="author-btn author-btn-instagram">{% include brandicon.html name="instagram" %} Instagram</a>
         {% endif %}
         <a href="{{ '/archive.html' | relative_url }}" class="author-btn author-btn-ghost">{% include lucide.html name="newspaper" %} Articles</a>
       </div>
@@ -86,7 +86,7 @@
     <div class="author-socials">
       {% if ap.linkedin %}
       <a class="author-social" data-brand="linkedin" href="{{ ap.linkedin }}" target="_blank" rel="noopener noreferrer">
-        <span class="author-social-icon"><i class="fa-brands fa-linkedin-in"></i></span>
+        <span class="author-social-icon">{% include brandicon.html name="linkedin" %}</span>
         <span class="author-social-info">
           <span class="author-social-name">LinkedIn</span>
           <span class="author-social-handle">Professional profile</span>
@@ -95,7 +95,7 @@
       {% endif %}
       {% if ap.instagram %}
       <a class="author-social" data-brand="instagram" href="{{ ap.instagram }}" target="_blank" rel="noopener noreferrer">
-        <span class="author-social-icon"><i class="fa-brands fa-instagram"></i></span>
+        <span class="author-social-icon">{% include brandicon.html name="instagram" %}</span>
         <span class="author-social-info">
           <span class="author-social-name">Instagram</span>
           <span class="author-social-handle">Behind the scenes</span>
@@ -104,7 +104,7 @@
       {% endif %}
       {% if ap.facebook %}
       <a class="author-social" data-brand="facebook" href="{{ ap.facebook }}" target="_blank" rel="noopener noreferrer">
-        <span class="author-social-icon"><i class="fa-brands fa-facebook-f"></i></span>
+        <span class="author-social-icon">{% include brandicon.html name="facebook" %}</span>
         <span class="author-social-info">
           <span class="author-social-name">Facebook</span>
           <span class="author-social-handle">Personal profile</span>
@@ -113,7 +113,7 @@
       {% endif %}
       {% if ap.quora %}
       <a class="author-social" data-brand="quora" href="{{ ap.quora }}" target="_blank" rel="noopener noreferrer">
-        <span class="author-social-icon"><i class="fa-brands fa-quora"></i></span>
+        <span class="author-social-icon">{% include brandicon.html name="quora" %}</span>
         <span class="author-social-info">
           <span class="author-social-name">Quora</span>
           <span class="author-social-handle">Answers and questions</span>
@@ -122,7 +122,7 @@
       {% endif %}
       {% if ap.github %}
       <a class="author-social" data-brand="github" href="{{ ap.github }}" target="_blank" rel="noopener noreferrer">
-        <span class="author-social-icon"><i class="fa-brands fa-github"></i></span>
+        <span class="author-social-icon">{% include brandicon.html name="github" %}</span>
         <span class="author-social-info">
           <span class="author-social-name">GitHub</span>
           <span class="author-social-handle">Open source work</span>
@@ -131,7 +131,7 @@
       {% endif %}
       {% if ap.threads %}
       <a class="author-social" data-brand="threads" href="{{ ap.threads }}" target="_blank" rel="noopener noreferrer">
-        <span class="author-social-icon"><i class="fa-brands fa-threads"></i></span>
+        <span class="author-social-icon">{% include brandicon.html name="threads" %}</span>
         <span class="author-social-info">
           <span class="author-social-name">Threads</span>
           <span class="author-social-handle">Short-form updates</span>
@@ -140,7 +140,7 @@
       {% endif %}
       {% if ap.youtube %}
       <a class="author-social" data-brand="youtube" href="{{ ap.youtube }}" target="_blank" rel="noopener noreferrer">
-        <span class="author-social-icon"><i class="fa-brands fa-youtube"></i></span>
+        <span class="author-social-icon">{% include brandicon.html name="youtube" %}</span>
         <span class="author-social-info">
           <span class="author-social-name">YouTube</span>
           <span class="author-social-handle">Video insights</span>

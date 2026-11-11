@@ -498,27 +498,27 @@ keywords: "F9XR Articles, engineering digital growth, web architecture, AI integ
     </div>
     <div class="ed-community-socials">
       <a href="https://linkedin.com/company/f9xrteam" target="_blank" rel="noopener noreferrer" class="ed-social-btn" title="LinkedIn">
-        <i class="fa-brands fa-linkedin-in"></i>
+        {% include brandicon.html name="linkedin" %}
         <span>LinkedIn</span>
       </a>
       <a href="https://github.com/f9xr" target="_blank" rel="noopener noreferrer" class="ed-social-btn" title="GitHub">
-        <i class="fa-brands fa-github"></i>
+        {% include brandicon.html name="github" %}
         <span>GitHub</span>
       </a>
       <a href="https://www.youtube.com/@QuarterlyLIV" target="_blank" rel="noopener noreferrer" class="ed-social-btn" title="YouTube">
-        <i class="fa-brands fa-youtube"></i>
+        {% include brandicon.html name="youtube" %}
         <span>YouTube</span>
       </a>
       <a href="https://www.threads.net/@f9xrteam" target="_blank" rel="noopener noreferrer" class="ed-social-btn" title="Threads">
-        <i class="fa-brands fa-threads"></i>
+        {% include brandicon.html name="threads" %}
         <span>Threads</span>
       </a>
       <a href="https://instagram.com/f9xrteam" target="_blank" rel="noopener noreferrer" class="ed-social-btn" title="Instagram">
-        <i class="fa-brands fa-instagram"></i>
+        {% include brandicon.html name="instagram" %}
         <span>Instagram</span>
       </a>
       <a href="https://whatsapp.com/channel/0029VbEC55y6mYPK9Ru9Fy2B" target="_blank" rel="noopener noreferrer" class="ed-social-btn" title="WhatsApp Channel">
-        <i class="fa-brands fa-whatsapp"></i>
+        {% include brandicon.html name="whatsapp" %}
         <span>WhatsApp</span>
       </a>
     </div>

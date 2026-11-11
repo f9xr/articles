@@ -188,6 +188,7 @@ async function generateTemplateImage(title, outPath) {
   const meta = await sharp(outPath).metadata();
   const kb = Math.max(1, Math.round(statSync(outPath).size / 1024));
   console.log(`WROTE ${outPath} (${meta.width}x${meta.height}, ${kb} KB)`);
+  await writeVariant640(outPath);
 }
 
 async function generatePollinations(prompt) {
@@ -274,6 +275,22 @@ async function convertToWebP(buffer, outPath) {
   const meta = await sharp(outPath).metadata();
   const kb = Math.max(1, Math.round(statSync(outPath).size / 1024));
   console.log(`WROTE ${outPath} (${meta.width}x${meta.height}, ${kb} KB)`);
+  await writeVariant640(outPath);
+}
+
+// The post hero srcset serves a 640px candidate to phones (see
+// tools/optimize-images.mjs and the hero markup in _layouts/post.html).
+// Keep it in sync whenever a new featured image is written.
+async function writeVariant640(outPath) {
+  try {
+    const dot = outPath.lastIndexOf('.');
+    const variantPath = dot === -1 ? `${outPath}-640` : `${outPath.slice(0, dot)}-640${outPath.slice(dot)}`;
+    await sharp(outPath).resize({ width: 640, withoutEnlargement: true }).webp({ quality: 75 }).toFile(variantPath);
+    const kb = Math.max(1, Math.round(statSync(variantPath).size / 1024));
+    console.log(`WROTE ${variantPath} (${kb} KB)`);
+  } catch (err) {
+    console.warn(`WARN: 640px variant not written for ${outPath} (${err.code || err.message}). Run "npm run images" in tools/ to regenerate variants.`);
+  }
 }
 
 function printFrontMatter(outPath) {
@@ -310,6 +327,7 @@ async function selfTest() {
   const out = resolve(tmpdir(), 'f9xr-self-test.webp');
   await convertToWebP(svg, out);
   await deleteWithRetry(out);
+  await deleteWithRetry(resolve(tmpdir(), 'f9xr-self-test-640.webp'));
   console.log('SELF-TEST OK');
 }
 
