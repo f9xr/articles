@@ -2,7 +2,7 @@
 layout: page
 title: "Episodes"
 title_hidden: true
-description: "Listen to the F9XR Articles podcast — episodes on web architecture, AI integration, local SEO, and digital systems for business owners and developers."
+description: "Listen to the F9XR Articles podcast: episodes on web architecture, AI integration, local SEO, and digital systems for business owners and developers."
 permalink: /episodes/
 ---
 

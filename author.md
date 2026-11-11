@@ -13,7 +13,7 @@ permalink: /author/
 <meta name="robots" content="noindex, follow">
 <link rel="canonical" href="{{ '/authors/f9xr-team/' | absolute_url }}">
 <meta http-equiv="refresh" content="0; url={{ '/authors/f9xr-team/' | absolute_url }}">
-<title>F9XR Editorial Team — Moved</title>
+<title>F9XR Editorial Team | Moved</title>
 </head>
 <body>
 <p>This page has moved. Redirecting to <a href="{{ '/authors/f9xr-team/' | absolute_url }}">the F9XR Editorial Team author profile</a>…</p>

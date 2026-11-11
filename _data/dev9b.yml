@@ -2,6 +2,21 @@
 # Source: https://f9xr.org/dev9b/index.xml
 # Re-run `node tools/fetch-dev9b.mjs` after new posts are published on Dev9b.
 
+- title: "Dev.to API Key Guide: Publish Articles From Code"
+  url: "https://f9xr.org/dev9b/p/how-to-get-devto-api-key-post-articles-api/"
+  date: "2026-11-10"
+  author: "F9XR Team"
+  summary: "If you write on your own blog and then copy and paste every post into Dev.to by hand, you already know how tedious it gets. Open the editor, paste the Markdown, fix the formatting, add tags, set the…"
+- title: "Use Cline Free With OpenRouter Models"
+  url: "https://f9xr.org/dev9b/p/use-cline-free-openrouter-models/"
+  date: "2026-11-09"
+  author: "F9XR Team"
+  summary: "Cline is one of the better open-source coding agents you can drop into VS Code. It reads your files, proposes edits, runs terminal commands, and waits for your approval before it touches anything…"
+- title: "Discord Drops Electron for Rust: Should You Follow?"
+  url: "https://f9xr.org/dev9b/p/discord-leaves-electron-rust-rewrite-should-you/"
+  date: "2026-11-06"
+  author: "F9XR Team"
+  summary: "If you have ever alt-tabbed out of a game and watched Discord sit on a gigabyte of RAM, you already understand why this news landed so loudly. On November 4, 2026, Discord co-founder and CTO…"
 - title: "Supastarter Explained: Build Your Next.js SaaS Faster"
   url: "https://f9xr.org/dev9b/p/supastarter-nextjs-saas-starter-kit-guide/"
   date: "2026-11-05"
