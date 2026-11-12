@@ -22,6 +22,70 @@
         <span class="search-btn-label">Search articles...</span>
         <kbd class="search-btn-kbd">/</kbd>
       </button>
+      <button type="button" class="nav-toggle" id="site-nav-toggle" aria-expanded="false" aria-controls="site-mobile-nav" aria-label="Open menu">
+        <span class="nav-toggle-bar"></span>
+        <span class="nav-toggle-bar"></span>
+        <span class="nav-toggle-bar"></span>
+      </button>
     </div>
   </div>
+  <nav class="site-mobile-nav" id="site-mobile-nav" hidden>
+    <a href="{{ '/' | absolute_url }}" class="site-mobile-link">Home</a>
+    <a href="https://f9xr.org/pages/about.html" class="site-mobile-link">About</a>
+    <a href="https://f9xr.org/pages/services.html" class="site-mobile-link">Services</a>
+    <a href="https://f9xr.org/pages/portfolio.html" class="site-mobile-link">Portfolio</a>
+    <a href="{{ '/' | relative_url }}" class="site-mobile-link site-nav-link-active">Articles</a>
+    <a href="{{ '/episodes/' | relative_url }}" class="site-mobile-link">Episodes</a>
+    <a href="https://f9xr.org/troolify/tools/seo" class="site-mobile-link">Tools</a>
+    <a href="https://f9xr.org/directories/index.html" class="site-mobile-link">Directories</a>
+    <a href="{{ '/press/privacy.html' | relative_url }}" class="site-mobile-link">Privacy</a>
+  </nav>
+  <script>
+  // Mobile nav: toggle the dropdown panel below the sticky header.
+  (function() {
+    var toggle = document.getElementById('site-nav-toggle');
+    var nav = document.getElementById('site-mobile-nav');
+    if (!toggle || !nav) return;
+
+    function setOpen(open) {
+      nav.hidden = !open;
+      toggle.classList.toggle('is-open', open);
+      toggle.setAttribute('aria-expanded', String(open));
+      toggle.setAttribute('aria-label', open ? 'Close menu' : 'Open menu');
+      // body.nav-open also tells the hide-on-scroll handler to keep the
+      // header (and this panel) pinned while the menu is on screen.
+      document.body.classList.toggle('nav-open', open);
+    }
+
+    toggle.addEventListener('click', function() {
+      setOpen(nav.hidden);
+    });
+
+    // Follow a link, close the menu.
+    nav.addEventListener('click', function(e) {
+      if (e.target.closest && e.target.closest('a')) setOpen(false);
+    });
+
+    // Escape closes and returns focus to the toggle.
+    document.addEventListener('keydown', function(e) {
+      if (e.key === 'Escape' && !nav.hidden) {
+        setOpen(false);
+        toggle.focus();
+      }
+    });
+
+    // Tapping outside the header closes the menu.
+    document.addEventListener('click', function(e) {
+      if (nav.hidden) return;
+      if (e.target.closest && e.target.closest('.site-header')) return;
+      setOpen(false);
+    });
+
+    // Reset when the viewport grows into the desktop nav.
+    var mq = window.matchMedia('(min-width: 993px)');
+    function onDesktop() { if (mq.matches) setOpen(false); }
+    if (mq.addEventListener) mq.addEventListener('change', onDesktop);
+    else if (mq.addListener) mq.addListener(onDesktop);
+  })();
+  </script>
 </header>

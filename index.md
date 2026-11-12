@@ -2,13 +2,13 @@
 layout: page
 title: F9XR Articles
 title_hidden: true
-description: "Engineering digital growth: technical insights, architecture notes, and strategies from the F9XR Team on web performance, AI integration, and local SEO."
+description: "Engineering digital growth — technical insights, architecture notes, and strategies from the F9XR Team on web performance, AI integration, and local SEO."
 keywords: "F9XR Articles, engineering digital growth, web architecture, AI integration, local SEO, web performance, Core Web Vitals, technical SEO, F9XR Team blog"
 ---
 
 <div class="ed-site">
 
-<h1 class="sr-only">F9XR Articles: Engineering Digital Growth</h1>
+<h1 class="sr-only">F9XR Articles — Engineering Digital Growth</h1>
 
 <!-- Structured Data: WebSite -->
 <script type="application/ld+json">
@@ -18,7 +18,7 @@ keywords: "F9XR Articles, engineering digital growth, web architecture, AI integ
   "@id": "{{ '/' | absolute_url }}#website",
   "name": "F9XR Articles",
   "url": "{{ '/' | absolute_url }}",
-  "description": "Engineering digital growth: technical insights, architecture notes, and strategies from the F9XR Team on web performance, AI integration, and local SEO.",
+  "description": "Engineering digital growth — technical insights, architecture notes, and strategies from the F9XR Team on web performance, AI integration, and local SEO.",
   "potentialAction": {
     "@type": "SearchAction",
     "target": {
@@ -91,7 +91,7 @@ keywords: "F9XR Articles, engineering digital growth, web architecture, AI integ
     </h2>
 
     <p class="ed-hero-lead">
-      Deep-dives into web architecture, Core Web Vitals, AI search visibility (AEO/GEO), and local search ranking from the F9XR Team, written by practitioners for measurable results.
+      Deep-dives into web architecture, Core Web Vitals, AI search visibility (AEO/GEO), and local search ranking from the F9XR Team — written by practitioners for measurable results.
     </p>
 
     <!-- Social Proof / Authors Stack (Directly matching reference) -->
@@ -122,12 +122,12 @@ keywords: "F9XR Articles, engineering digital growth, web architecture, AI integ
     </div>
   </div>
 
-  <!-- Side Latest Articles Stack (Right column in LTR) -->
-  <aside class="ed-hero-side" aria-label="Latest articles">
+  <!-- Side Featured Picks Stack (Right column in LTR) -->
+  <aside class="ed-hero-side" aria-label="Must-read articles">
     <div class="ed-side-header">
       <span class="ed-side-header-title">
-        {% include lucide.html name="newspaper" style="color:#3b82f6;" %}
-        Latest Articles
+        {% include lucide.html name="flame" style="color:#3b82f6;" %}
+        Must-Read Picks
       </span>
       <a href="{{ '/archive.html' | relative_url }}" class="ed-side-header-all">View all &rarr;</a>
     </div>
@@ -135,63 +135,21 @@ keywords: "F9XR Articles, engineering digital growth, web architecture, AI integ
     <div class="ed-side-list">
       {% for post in site.posts limit:3 %}
       {% assign s_min = post.content | strip_html | number_of_words | divided_by: 200 | plus: 1 %}
-      {% assign s_author = site.data.authors[post.author] %}
       <a href="{{ post.url | relative_url }}" class="ed-side-item" aria-label="{{ post.title | escape }}">
+        <div class="ed-side-item-thumb" {% if post.image %}style="background-image:url('{{ post.image }}');"{% endif %}></div>
         <div class="ed-side-item-content">
           <div class="ed-side-item-meta">
             <span class="ed-tag">{{ post.tags.first | default: "Article" }}</span>
             <span class="ed-mono">{{ post.date | date: "%b %d, %Y" }}</span>
           </div>
           <h3 class="ed-side-item-title">{{ post.title | escape }}</h3>
-          <span class="ed-side-item-read">
-            <img class="ed-side-author-avatar" src="{{ s_author.avatar | default: '/logo.webp' | relative_url }}" alt="{{ s_author.name | default: post.author }}" width="18" height="18" loading="lazy">
-            {{ s_author.name | default: post.author }}
-            <span class="ed-dot-sep">&middot;</span>
-            {% include lucide.html name="clock" %} {{ s_min }} min read
-          </span>
+          <span class="ed-side-item-read">{% include lucide.html name="clock" %} {{ s_min }} min read</span>
         </div>
       </a>
       {% endfor %}
     </div>
   </aside>
 </section>
-
-<!-- ========================================================
-     PINNED ARTICLE
-     ======================================================== -->
-{% assign pinned_slug = "seo-codebase-auditor-v5-2-v5-3-update-details" %}
-{% for post in site.posts %}
-{% if post.slug == pinned_slug %}
-{% assign pin_author = site.data.authors[post.author] %}
-{% assign pin_min = post.content | strip_html | number_of_words | divided_by: 200 | plus: 1 %}
-{% assign pin_desc = post.description | default: post.content | strip_html | truncate: 180 %}
-<section class="ed-pinned" aria-label="Pinned article">
-  <a class="ed-pinned-media" href="{{ post.url | relative_url }}" aria-label="{{ post.title | escape }}"{% if post.image %} style="background-image:url('{{ post.image }}');"{% endif %}></a>
-  <div class="ed-pinned-body">
-    <div class="ed-pinned-kicker">
-      <span class="ed-pinned-badge">{% include lucide.html name="flag" %} Pinned Article</span>
-      <span class="ed-mono">{{ post.date | date: "%b %d, %Y" }}</span>
-      <span class="ed-dot-sep">&middot;</span>
-      <span class="ed-mono">{% include lucide.html name="clock" %} {{ pin_min }} min read</span>
-    </div>
-    <h2 class="ed-pinned-title">
-      <a href="{{ post.url | relative_url }}">{{ post.title | escape }}</a>
-    </h2>
-    <p class="ed-pinned-desc">{{ pin_desc }}</p>
-    <div class="ed-pinned-footer">
-      <div class="ed-card-author">
-        <img class="ed-card-avatar" src="{{ pin_author.avatar | default: '/logo.webp' | relative_url }}" alt="{{ pin_author.name | default: post.author }}" width="32" height="32" loading="lazy">
-        <span class="ed-card-author-name">{{ pin_author.name | default: post.author }}</span>
-      </div>
-      <a href="{{ post.url | relative_url }}" class="ed-pinned-btn">
-        Read the update
-        {% include lucide.html name="arrow-right" %}
-      </a>
-    </div>
-  </div>
-</section>
-{% endif %}
-{% endfor %}
 
 <!-- ========================================================
      CATEGORY TABS & ARTICLES (Inspired by reference layout)
@@ -514,15 +472,56 @@ keywords: "F9XR Articles, engineering digital growth, web architecture, AI integ
         </h3>
         <p class="ed-popular-desc">{{ post.description | default: p_desc }}</p>
         <div class="ed-popular-footer">
-          <span class="ed-popular-author">
-            <img class="ed-popular-avatar" src="{{ p_author.avatar | default: '/logo.webp' | relative_url }}" alt="{{ p_author.name | default: post.author }}" width="22" height="22" loading="lazy">
-            {{ p_author.name | default: post.author }}
-          </span>
+          <span class="ed-popular-author">{{ p_author.name | default: post.author }}</span>
           <span class="ed-popular-time">{% include lucide.html name="clock" %} {{ p_min }} min read</span>
         </div>
       </div>
     </article>
     {% endfor %}
+  </div>
+</section>
+
+<!-- ========================================================
+     COMMUNITY & SOCIAL BANNER (Inspired by reference banner)
+     ======================================================== -->
+<section class="ed-community-banner" aria-label="Join the community">
+  <div class="ed-community-glow"></div>
+  <div class="ed-community-inner">
+    <div class="ed-community-brand">
+      <div class="ed-community-icon">
+        <img src="{{ '/logo.webp' | absolute_url }}" alt="F9XR Team" width="56" height="56" loading="lazy">
+      </div>
+      <div class="ed-community-text">
+        <h2 class="ed-community-title">Follow F9XR Across the Digital Web</h2>
+        <p class="ed-community-sub">Engineering digital growth from India to the global stage. Stay in the loop with architectural breakdowns, SEO experiments, and engineering deep-dives.</p>
+      </div>
+    </div>
+    <div class="ed-community-socials">
+      <a href="https://linkedin.com/company/f9xrteam" target="_blank" rel="noopener noreferrer" class="ed-social-btn" title="LinkedIn">
+        {% include brandicon.html name="linkedin" %}
+        <span>LinkedIn</span>
+      </a>
+      <a href="https://github.com/f9xr" target="_blank" rel="noopener noreferrer" class="ed-social-btn" title="GitHub">
+        {% include brandicon.html name="github" %}
+        <span>GitHub</span>
+      </a>
+      <a href="https://www.youtube.com/@QuarterlyLIV" target="_blank" rel="noopener noreferrer" class="ed-social-btn" title="YouTube">
+        {% include brandicon.html name="youtube" %}
+        <span>YouTube</span>
+      </a>
+      <a href="https://www.threads.net/@f9xrteam" target="_blank" rel="noopener noreferrer" class="ed-social-btn" title="Threads">
+        {% include brandicon.html name="threads" %}
+        <span>Threads</span>
+      </a>
+      <a href="https://instagram.com/f9xrteam" target="_blank" rel="noopener noreferrer" class="ed-social-btn" title="Instagram">
+        {% include brandicon.html name="instagram" %}
+        <span>Instagram</span>
+      </a>
+      <a href="https://whatsapp.com/channel/0029VbEC55y6mYPK9Ru9Fy2B" target="_blank" rel="noopener noreferrer" class="ed-social-btn" title="WhatsApp Channel">
+        {% include brandicon.html name="whatsapp" %}
+        <span>WhatsApp</span>
+      </a>
+    </div>
   </div>
 </section>
 
@@ -536,18 +535,14 @@ keywords: "F9XR Articles, engineering digital growth, web architecture, AI integ
     <p class="ed-sec-sub-lead">Every insight is written and reviewed by experienced digital architects and specialists.</p>
   </div>
 
-  <div class="ed-authors-slider" data-authors-slider>
-    <button class="ed-slider-btn ed-slider-prev" type="button" aria-label="Show previous authors" data-slider-prev>
-      {% include lucide.html name="chevron-left" %}
-    </button>
-    <div class="ed-authors-track" data-slider-track tabindex="0" role="region" aria-label="Author profiles">
+  <div class="ed-authors-grid">
     <!-- Author 1: Editorial Team -->
     <article class="ed-author-card">
       <div class="ed-author-avatar-wrap">
         <img class="ed-author-avatar" src="{{ '/logo.webp' | absolute_url }}" alt="F9XR Editorial Team" width="80" height="80" loading="lazy">
         <span class="ed-author-badge-icon" title="Verified">{% include lucide.html name="check" %}</span>
       </div>
-      <h3 class="ed-author-name">{% include lucide.html name="user" style="color:#60a5fa; font-size:0.9em; margin-right:0.4em;" %}F9XR Editorial Team</h3>
+      <h3 class="ed-author-name">F9XR Editorial Team</h3>
       <p class="ed-author-role">Digital Architecture Agency</p>
       <div class="ed-author-topics">
         <span>Web Architecture</span>
@@ -563,7 +558,7 @@ keywords: "F9XR Articles, engineering digital growth, web architecture, AI integ
         <img class="ed-author-avatar" src="{{ '/assets/authors/ahetasham-uddin.webp' | absolute_url }}" alt="Mohammed Ahetasham Uddin" width="80" height="80" loading="lazy">
         <span class="ed-author-badge-icon" title="Verified">{% include lucide.html name="check" %}</span>
       </div>
-      <h3 class="ed-author-name">{% include lucide.html name="user" style="color:#60a5fa; font-size:0.9em; margin-right:0.4em;" %}Mohammed Ahetasham</h3>
+      <h3 class="ed-author-name">Mohammed Ahetasham</h3>
       <p class="ed-author-role">Client Relations Associate</p>
       <div class="ed-author-topics">
         <span>Client Relations</span>
@@ -579,7 +574,7 @@ keywords: "F9XR Articles, engineering digital growth, web architecture, AI integ
         <img class="ed-author-avatar" src="{{ '/assets/authors/masna-sudhir.webp' | absolute_url }}" alt="Masna Sudhir" width="80" height="80" loading="lazy">
         <span class="ed-author-badge-icon" title="Verified">{% include lucide.html name="check" %}</span>
       </div>
-      <h3 class="ed-author-name">{% include lucide.html name="user" style="color:#60a5fa; font-size:0.9em; margin-right:0.4em;" %}Masna Sudhir</h3>
+      <h3 class="ed-author-name">Masna Sudhir</h3>
       <p class="ed-author-role">Jr Data Analyst</p>
       <div class="ed-author-topics">
         <span>Data Analysis</span>
@@ -595,7 +590,7 @@ keywords: "F9XR Articles, engineering digital growth, web architecture, AI integ
         <img class="ed-author-avatar" src="{{ '/assets/authors/mishra-sheshamani.webp' | absolute_url }}" alt="Mishra Sheshamani" width="80" height="80" loading="lazy">
         <span class="ed-author-badge-icon" title="Verified">{% include lucide.html name="check" %}</span>
       </div>
-      <h3 class="ed-author-name">{% include lucide.html name="user" style="color:#60a5fa; font-size:0.9em; margin-right:0.4em;" %}Mishra Sheshamani</h3>
+      <h3 class="ed-author-name">Mishra Sheshamani</h3>
       <p class="ed-author-role">Online Coordinator</p>
       <div class="ed-author-topics">
         <span>Platforms</span>
@@ -611,7 +606,7 @@ keywords: "F9XR Articles, engineering digital growth, web architecture, AI integ
         <img class="ed-author-avatar" src="{{ '/assets/authors/ankush-santra.webp' | absolute_url }}" alt="Ankush Santra" width="80" height="80" loading="lazy">
         <span class="ed-author-badge-icon" title="Verified">{% include lucide.html name="check" %}</span>
       </div>
-      <h3 class="ed-author-name">{% include lucide.html name="user" style="color:#60a5fa; font-size:0.9em; margin-right:0.4em;" %}Ankush Santra</h3>
+      <h3 class="ed-author-name">Ankush Santra</h3>
       <p class="ed-author-role">Owner of SponsorLanes</p>
       <div class="ed-author-topics">
         <span>Sponsorships</span>
@@ -620,10 +615,6 @@ keywords: "F9XR Articles, engineering digital growth, web architecture, AI integ
       </div>
       <a href="{{ '/authors/ankush-santra/' | relative_url }}" class="ed-author-btn">View Profile &amp; Articles &rarr;</a>
     </article>
-    </div>
-    <button class="ed-slider-btn ed-slider-next" type="button" aria-label="Show next authors" data-slider-next>
-      {% include lucide.html name="chevron-right" %}
-    </button>
   </div>
 </section>
 
@@ -687,7 +678,6 @@ keywords: "F9XR Articles, engineering digital growth, web architecture, AI integ
   <p class="ed-dev9b-note">Practical developer guides from the F9XR engineering team, published on <a href="https://f9xr.org/dev9b/" target="_blank" rel="noopener noreferrer">f9xr.org/dev9b</a>.</p>
   <div class="ed-cards-grid">
     {% for dpost in site.data.dev9b limit:3 %}
-    {% assign d_author = site.data.authors[dpost.author] %}
     <article class="ed-card" itemscope itemtype="https://schema.org/BlogPosting">
       <div class="ed-card-body">
         <div class="ed-card-meta">
@@ -700,10 +690,7 @@ keywords: "F9XR Articles, engineering digital growth, web architecture, AI integ
         </h3>
         <p class="ed-card-desc" itemprop="description">{{ dpost.summary | escape }}</p>
         <div class="ed-card-footer">
-          <span class="ed-card-author" itemprop="author">
-            <img class="ed-card-avatar" src="{{ d_author.avatar | default: '/logo.webp' | relative_url }}" alt="{{ d_author.name | default: dpost.author }}" width="28" height="28" loading="lazy">
-            <span class="ed-card-author-name">{{ d_author.name | default: dpost.author }}</span>
-          </span>
+          <span class="ed-mono" itemprop="author">{{ dpost.author }}</span>
           <a href="{{ dpost.url }}" target="_blank" rel="noopener noreferrer" class="ed-card-arrow" aria-label="Read on Dev9b">
             {% include lucide.html name="external-link" %}
           </a>
@@ -716,24 +703,75 @@ keywords: "F9XR Articles, engineering digital growth, web architecture, AI integ
 {% endif %}
 
 <!-- ========================================================
-     CALL TO ACTION
+     PUBLICATION STATS & ARCHIVE ACCORDION
      ======================================================== -->
-<section class="f9xr-cta" aria-label="Work with F9XR">
-  <div class="f9xr-cta-icon">
-    {% include lucide.html name="rocket" %}
+{% assign metric_total_words = 0 %}
+{% for metric_post in site.posts %}
+  {% assign metric_post_words = metric_post.content | strip_html | number_of_words %}
+  {% assign metric_total_words = metric_total_words | plus: metric_post_words %}
+{% endfor %}
+{% assign metric_post_count = site.posts.size %}
+{% if metric_post_count == 0 %}
+  {% assign metric_post_count = 1 %}
+{% endif %}
+{% assign metric_words_k = metric_total_words | times: 1.0 | divided_by: 1000.0 | round: 1 %}
+{% assign metric_avg_min = metric_total_words | times: 1.0 | divided_by: 200.0 | divided_by: metric_post_count | round: 0 %}
+
+<section class="ed-cols" aria-label="Analytics, bulletins, and video">
+  <div class="ed-col ed-col-analytics">
+    <h3 class="ed-panel-title">{% include lucide.html name="chart-line" style="color:#3b82f6;" %} Publication Stats</h3>
+    <div class="ed-metric">
+      <span class="ed-metric-label">{% include lucide.html name="file-text" %} Articles Published</span>
+      <span class="ed-metric-value">{{ site.posts.size }}</span>
+    </div>
+    <div class="ed-metric">
+      <span class="ed-metric-label">{% include lucide.html name="tags" %} Topics Covered</span>
+      <span class="ed-metric-value">{{ site.tags.size }}</span>
+    </div>
+    <div class="ed-metric">
+      <span class="ed-metric-label">{% include lucide.html name="type" %} Words Published</span>
+      <span class="ed-metric-value">{{ metric_words_k }}K</span>
+    </div>
+    <div class="ed-metric">
+      <span class="ed-metric-label">{% include lucide.html name="clock" %} Avg. Read Time</span>
+      <span class="ed-metric-value">~{{ metric_avg_min }} min</span>
+    </div>
+    <a class="ed-panel-cta" href="https://f9xr.org/pages/services.html" target="_blank" rel="noopener noreferrer">Explore performance services &rarr;</a>
   </div>
-  <h2 class="f9xr-cta-title">Ready to Build a Stronger Digital Presence?</h2>
-  <p class="f9xr-cta-text">
-    The F9XR Team helps business owners turn websites into conversion engines. From website development and redesign to local SEO and AI-powered visibility, we engineer systems that bring in results, not just traffic.
-  </p>
-  <div class="f9xr-cta-actions">
-    <a href="https://f9xr.org/pages/services.html" target="_blank" rel="noopener noreferrer" class="f9xr-cta-btn f9xr-cta-btn-primary">
-      Explore Our Services
-      {% include lucide.html name="arrow-right" %}
-    </a>
-    <a href="https://f9xr.org/pages/contact.html" target="_blank" rel="noopener noreferrer" class="f9xr-cta-btn f9xr-cta-btn-ghost">
-      Get a Free Website Audit
-    </a>
+
+  <div class="ed-col ed-col-bulletin">
+    <h3 class="ed-panel-title">{% include lucide.html name="newspaper" style="color:#3b82f6;" %} Tech Stack</h3>
+    <div class="ed-marquee" aria-hidden="true">
+      <div class="ed-marquee-track">
+        <span class="ed-badge ed-badge-mono">J</span><span class="ed-badge">Jekyll</span>
+        <span class="ed-badge ed-badge-mono">G</span><span class="ed-badge">GitHub Pages</span>
+        <span class="ed-badge ed-badge-mono">R</span><span class="ed-badge">Ruby</span>
+        <span class="ed-badge ed-badge-mono">L</span><span class="ed-badge">Liquid</span>
+        <span class="ed-badge ed-badge-mono">H</span><span class="ed-badge">HTML5</span>
+        <span class="ed-badge ed-badge-mono">C</span><span class="ed-badge">CSS3</span>
+        <span class="ed-badge ed-badge-mono">W</span><span class="ed-badge">WebP</span>
+        <span class="ed-badge ed-badge-mono">S</span><span class="ed-badge">Schema.org</span>
+        <span class="ed-badge ed-badge-mono">J</span><span class="ed-badge">Jekyll</span>
+        <span class="ed-badge ed-badge-mono">G</span><span class="ed-badge">GitHub Pages</span>
+        <span class="ed-badge ed-badge-mono">R</span><span class="ed-badge">Ruby</span>
+        <span class="ed-badge ed-badge-mono">L</span><span class="ed-badge">Liquid</span>
+        <span class="ed-badge ed-badge-mono">H</span><span class="ed-badge">HTML5</span>
+        <span class="ed-badge ed-badge-mono">C</span><span class="ed-badge">CSS3</span>
+        <span class="ed-badge ed-badge-mono">W</span><span class="ed-badge">WebP</span>
+        <span class="ed-badge ed-badge-mono">S</span><span class="ed-badge">Schema.org</span>
+      </div>
+    </div>
+    <p class="ed-bulletin-note">The stack behind F9XR Articles — open source, static, and continuously measured.</p>
+    <a class="ed-panel-cta" href="{{ '/archive.html' | relative_url }}">Read the full archive &rarr;</a>
+  </div>
+
+  <div class="ed-col ed-col-watch">
+    <h3 class="ed-panel-title">{% include lucide.html name="circle-play" style="color:#3b82f6;" %} Watch &amp; Learn</h3>
+    <div class="ed-video">
+      <iframe class="youtube-embed" src="https://www.youtube-nocookie.com/embed/l-52kGRwH_Y" title="Introducing F9XR Team" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen loading="lazy"></iframe>
+    </div>
+    <p class="ed-video-caption">Introducing F9XR Team — AI-powered web design &amp; local SEO growth agency.</p>
+    <a class="ed-panel-cta" href="https://f9xr.org/pages/about.html" target="_blank" rel="noopener noreferrer">About the team &rarr;</a>
   </div>
 </section>
 
@@ -807,32 +845,6 @@ keywords: "F9XR Articles, engineering digital growth, web architecture, AI integ
       });
     });
   });
-
-  // Authors slider (single row, prev/next controls)
-  var slider = document.querySelector('[data-authors-slider]');
-  if (slider) {
-    var track = slider.querySelector('[data-slider-track]');
-    var prev = slider.querySelector('[data-slider-prev]');
-    var next = slider.querySelector('[data-slider-next]');
-    var step = function() {
-      var card = track.querySelector('.ed-author-card');
-      return card ? card.getBoundingClientRect().width + 20 : 280;
-    };
-    var updateButtons = function() {
-      var maxScroll = track.scrollWidth - track.clientWidth - 2;
-      prev.disabled = track.scrollLeft <= 2;
-      next.disabled = track.scrollLeft >= maxScroll;
-    };
-    prev.addEventListener('click', function() {
-      track.scrollBy({ left: -step(), behavior: 'smooth' });
-    });
-    next.addEventListener('click', function() {
-      track.scrollBy({ left: step(), behavior: 'smooth' });
-    });
-    track.addEventListener('scroll', updateButtons, { passive: true });
-    window.addEventListener('resize', updateButtons);
-    updateButtons();
-  }
 
   // Archive accordion exclusivity (one open at a time)
   var items = Array.prototype.slice.call(document.querySelectorAll('.index-accordion .accordion-item'));

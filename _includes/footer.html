@@ -10,28 +10,28 @@
         <p class="footer-sub">India to the global digital world.</p>
         <div class="footer-socials">
           <a href="https://github.com/f9xr" target="_blank" rel="noopener noreferrer" title="GitHub" class="social-pill" aria-label="GitHub">
-            <i class="fa-brands fa-github"></i>
+            {% include brandicon.html name="github" %}
           </a>
           <a href="https://linkedin.com/company/f9xrteam" target="_blank" rel="noopener noreferrer" title="LinkedIn" class="social-pill" aria-label="LinkedIn">
-            <i class="fa-brands fa-linkedin-in"></i>
+            {% include brandicon.html name="linkedin" %}
           </a>
           <a href="https://instagram.com/f9xrteam" target="_blank" rel="noopener noreferrer" title="Instagram" class="social-pill" aria-label="Instagram">
-            <i class="fa-brands fa-instagram"></i>
+            {% include brandicon.html name="instagram" %}
           </a>
           <a href="https://www.threads.net/@f9xrteam" target="_blank" rel="noopener noreferrer" title="Threads" class="social-pill" aria-label="Threads">
-            <i class="fa-brands fa-threads"></i>
+            {% include brandicon.html name="threads" %}
           </a>
           <a href="https://www.youtube.com/@QuarterlyLIV" target="_blank" rel="noopener noreferrer" title="YouTube" class="social-pill" aria-label="YouTube">
-            <i class="fa-brands fa-youtube"></i>
+            {% include brandicon.html name="youtube" %}
           </a>
           <a href="https://flipboard.com/@f9xr/f9xr-articles-e43aodb6y" target="_blank" rel="noopener noreferrer" title="Flipboard" class="social-pill" aria-label="Flipboard">
-            <i class="fa-brands fa-flipboard"></i>
+            {% include brandicon.html name="flipboard" %}
           </a>
           <a href="https://www.tumblr.com/f9xr" target="_blank" rel="noopener noreferrer" title="Tumblr" class="social-pill" aria-label="Tumblr">
-            <i class="fa-brands fa-tumblr"></i>
+            {% include brandicon.html name="tumblr" %}
           </a>
           <a href="https://whatsapp.com/channel/0029VbEC55y6mYPK9Ru9Fy2B" target="_blank" rel="noopener noreferrer" title="WhatsApp Channel" class="social-pill" aria-label="WhatsApp Channel">
-            <i class="fa-brands fa-whatsapp"></i>
+            {% include brandicon.html name="whatsapp" %}
           </a>
         </div>
       </div>
@@ -78,7 +78,7 @@
     </div>
     <div class="footer-bottom">
       <p>&copy; {{ 'now' | date: "%Y" }} F9XR Team. All rights reserved.</p>
-      <p class="footer-bottom-open-source"><i class="fa-brands fa-github"></i> This site is <a href="https://github.com/f9xr/articles" target="_blank" rel="noopener noreferrer">open source</a>.</p>
+      <p class="footer-bottom-open-source">{% include brandicon.html name="github" %} This site is <a href="https://github.com/f9xr/articles" target="_blank" rel="noopener noreferrer">open source</a>.</p>
       <p class="footer-bottom-credit">Powered by <a href="https://jekyllrb.com" target="_blank" rel="noopener noreferrer">Jekyll</a> on <a href="https://pages.github.com" target="_blank" rel="noopener noreferrer">GitHub Pages</a>. Website designed by <a href="https://f9xr.org/" target="_blank" rel="noopener noreferrer">F9XR Team</a>.</p>
     </div>
   </div>

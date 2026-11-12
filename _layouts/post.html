@@ -46,7 +46,7 @@ layout: default
   {% if toc_count >= 2 %}
   <aside class="post-sidebar" aria-label="Table of Contents">
     {% include translate.html %}
-    <details class="sidebar-toc-details" open>
+    <details class="sidebar-toc-details">
       <summary class="sidebar-toc-summary">
         <span class="sidebar-toc-summary-label">{% include lucide.html name="list" style="color:#3b82f6;" %} Table of Contents</span>
         <span class="sidebar-toc-chevron">{% include lucide.html name="chevron-down" %}</span>
@@ -65,6 +65,17 @@ layout: default
       </nav>
     </details>
   </aside>
+  <script>
+  // Desktop keeps the sidebar TOC expanded like before; phones start collapsed
+  // so the article begins right after the toolbar instead of a long link list.
+  // Runs inline (before first paint) so there is no layout shift on desktop.
+  (function() {
+    var details = document.querySelector('.sidebar-toc-details');
+    if (details && window.matchMedia('(min-width: 1024px)').matches) {
+      details.open = true;
+    }
+  })();
+  </script>
   {% endif %}
 
   <div class="post-main">
@@ -129,8 +140,10 @@ layout: default
   </header>
 
   {% if page.image %}
+  {%- assign hero_640 = page.image | replace: '.webp', '-640.webp' -%}
+  {%- assign hero_w = page.image_width | default: 1200 -%}
   <div class="post-hero">
-    <img src="{{ page.image }}" alt="{{ page.title | escape }}" title="{{ page.title | escape }}" width="{{ page.image_width | default: 1200 }}" height="{{ page.image_height | default: 630 }}" loading="eager" fetchpriority="high" itemprop="image">
+    <img src="{{ page.image }}" alt="{{ page.title | escape }}" title="{{ page.title | escape }}" width="{{ hero_w }}" height="{{ page.image_height | default: 630 }}" srcset="{{ page.image }} {{ hero_w }}w, {{ hero_640 }} 640w" sizes="(max-width: 1280px) 100vw, 1200px" loading="eager" fetchpriority="high" itemprop="image">
     {% if page.image_caption %}
     <figcaption class="post-hero-caption">{{ page.image_caption }}</figcaption>
     {% elsif page.image_credit %}
@@ -456,37 +469,37 @@ layout: default
       <div style="display:flex; gap:0.5em; flex-wrap:wrap;">
         {% if post_author.github %}
         <a href="{{ post_author.github }}" target="_blank" rel="noopener noreferrer" title="GitHub" style="display:inline-flex; align-items:center; justify-content:center; width:32px; height:32px; border-radius:8px; background:rgba(59,130,246,0.08); border:1px solid #1e2024; color:#71717a; transition:all 0.2s;" onmouseover="this.style.color='#3b82f6'; this.style.borderColor='#2563eb';" onmouseout="this.style.color='#71717a'; this.style.borderColor='#1e2024';">
-          <i class="fa-brands fa-github"></i>
+          {% include brandicon.html name="github" %}
         </a>
         {% endif %}
         {% if post_author.linkedin %}
         <a href="{{ post_author.linkedin }}" target="_blank" rel="noopener noreferrer" title="LinkedIn" style="display:inline-flex; align-items:center; justify-content:center; width:32px; height:32px; border-radius:8px; background:rgba(59,130,246,0.08); border:1px solid #1e2024; color:#71717a; transition:all 0.2s;" onmouseover="this.style.color='#3b82f6'; this.style.borderColor='#2563eb';" onmouseout="this.style.color='#71717a'; this.style.borderColor='#1e2024';">
-          <i class="fa-brands fa-linkedin-in"></i>
+          {% include brandicon.html name="linkedin" %}
         </a>
         {% endif %}
         {% if post_author.instagram %}
         <a href="{{ post_author.instagram }}" target="_blank" rel="noopener noreferrer" title="Instagram" style="display:inline-flex; align-items:center; justify-content:center; width:32px; height:32px; border-radius:8px; background:rgba(59,130,246,0.08); border:1px solid #1e2024; color:#71717a; transition:all 0.2s;" onmouseover="this.style.color='#3b82f6'; this.style.borderColor='#2563eb';" onmouseout="this.style.color='#71717a'; this.style.borderColor='#1e2024';">
-          <i class="fa-brands fa-instagram"></i>
+          {% include brandicon.html name="instagram" %}
         </a>
         {% endif %}
         {% if post_author.facebook %}
         <a href="{{ post_author.facebook }}" target="_blank" rel="noopener noreferrer" title="Facebook" style="display:inline-flex; align-items:center; justify-content:center; width:32px; height:32px; border-radius:8px; background:rgba(59,130,246,0.08); border:1px solid #1e2024; color:#71717a; transition:all 0.2s;" onmouseover="this.style.color='#3b82f6'; this.style.borderColor='#2563eb';" onmouseout="this.style.color='#71717a'; this.style.borderColor='#1e2024';">
-          <i class="fa-brands fa-facebook-f"></i>
+          {% include brandicon.html name="facebook" %}
         </a>
         {% endif %}
         {% if post_author.quora %}
         <a href="{{ post_author.quora }}" target="_blank" rel="noopener noreferrer" title="Quora" style="display:inline-flex; align-items:center; justify-content:center; width:32px; height:32px; border-radius:8px; background:rgba(59,130,246,0.08); border:1px solid #1e2024; color:#71717a; transition:all 0.2s;" onmouseover="this.style.color='#3b82f6'; this.style.borderColor='#2563eb';" onmouseout="this.style.color='#71717a'; this.style.borderColor='#1e2024';">
-          <i class="fa-brands fa-quora"></i>
+          {% include brandicon.html name="quora" %}
         </a>
         {% endif %}
         {% if post_author.threads %}
         <a href="{{ post_author.threads }}" target="_blank" rel="noopener noreferrer" title="Threads" style="display:inline-flex; align-items:center; justify-content:center; width:32px; height:32px; border-radius:8px; background:rgba(59,130,246,0.08); border:1px solid #1e2024; color:#71717a; transition:all 0.2s;" onmouseover="this.style.color='#3b82f6'; this.style.borderColor='#2563eb';" onmouseout="this.style.color='#71717a'; this.style.borderColor='#1e2024';">
-          <i class="fa-brands fa-threads"></i>
+          {% include brandicon.html name="threads" %}
         </a>
         {% endif %}
         {% if post_author.youtube %}
         <a href="{{ post_author.youtube }}" target="_blank" rel="noopener noreferrer" title="YouTube" style="display:inline-flex; align-items:center; justify-content:center; width:32px; height:32px; border-radius:8px; background:rgba(59,130,246,0.08); border:1px solid #1e2024; color:#71717a; transition:all 0.2s;" onmouseover="this.style.color='#3b82f6'; this.style.borderColor='#2563eb';" onmouseout="this.style.color='#71717a'; this.style.borderColor='#1e2024';">
-          <i class="fa-brands fa-youtube"></i>
+          {% include brandicon.html name="youtube" %}
         </a>
         {% endif %}
         {% if post_author.website %}
@@ -1086,6 +1099,8 @@ function updateListenButton(on) {
 function showListenBar() {
   if (!audioBar) return;
   audioBar.hidden = false;
+  // Lets CSS lift the back-to-top button clear of the bar (they used to overlap).
+  document.body.classList.add('audio-bar-open');
   if (audioPauseBtn) { audioPauseBtn.textContent = 'Pause'; audioPauseBtn.classList.remove('active'); }
   if (audioRateSelect) audioRateSelect.value = String(listenState.rate);
   updateListenProgress();
@@ -1093,6 +1108,7 @@ function showListenBar() {
 
 function hideListenBar() {
   if (audioBar) audioBar.hidden = true;
+  document.body.classList.remove('audio-bar-open');
 }
 
 function toggleAudioPlayback() {

@@ -51,6 +51,21 @@
   overflow: visible;
 }
 
+/* --- Brand Icons (inline SVGs via _includes/brandicon.html) --- */
+.brandicon {
+  display: inline-block;
+  width: 1em;
+  height: 1em;
+  vertical-align: -0.125em;
+  flex-shrink: 0;
+}
+.author-btn .brandicon {
+  font-size: 0.85em;
+}
+.ed-social-btn .brandicon {
+  font-size: 1.1em;
+}
+
 /* --- Font Metric Overrides --- */
 /* Reduces CLS during web font swap by matching fallback font metrics to Inter */
 @font-face {
@@ -554,16 +569,31 @@ img:hover {
 }
 
 /* --- Post Sidebar TOC: Responsive --- */
+/* Phones: the sidebar stops generating a box (display: contents), so its
+   children join the page grid and can be reordered. The collapsed TOC stays
+   above the article while the Translate widget and the sidebar ad drop below
+   it, so the article text starts near the top of the screen. */
 @media (max-width: 1023px) {
   .post.has-sidebar .post-layout {
     grid-template-columns: minmax(0, 1fr);
     gap: 1.5em;
   }
   .post-sidebar {
-    position: static;
-    max-height: none;
-    overflow: visible;
-    width: 100%;
+    display: contents;
+  }
+  .post-sidebar .sidebar-toc-details {
+    order: 0;
+  }
+  .post-main {
+    order: 1;
+  }
+  .post-sidebar .sidebar-translate {
+    order: 2;
+    margin-top: 1.5em;
+  }
+  .post-sidebar .eonads-slot {
+    order: 3;
+    margin-top: 1.5em;
   }
 }
 
@@ -685,12 +715,116 @@ img:hover {
   border-radius: 4px;
   color: #cbd5e1;
 }
+/* --- Mobile Nav (hamburger dropdown below the sticky header) --- */
+.nav-toggle {
+  display: none;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 4px;
+  width: 38px;
+  height: 38px;
+  padding: 0;
+  border-radius: 10px;
+  background: #111827;
+  border: 1px solid #1e293b;
+  color: #94a3b8;
+  cursor: pointer;
+  transition: all 0.2s ease;
+}
+.nav-toggle:hover {
+  border-color: #3b82f6;
+  color: #ffffff;
+  background: #1e293b;
+  box-shadow: 0 0 14px rgba(59, 130, 246, 0.25);
+}
+.nav-toggle:focus-visible {
+  outline: 2px solid #3b82f6;
+  outline-offset: 2px;
+}
+.nav-toggle-bar {
+  display: block;
+  width: 16px;
+  height: 2px;
+  border-radius: 2px;
+  background: currentColor;
+  transition: transform 0.25s ease, opacity 0.2s ease;
+}
+.nav-toggle.is-open .nav-toggle-bar:nth-child(1) {
+  transform: translateY(6px) rotate(45deg);
+}
+.nav-toggle.is-open .nav-toggle-bar:nth-child(2) {
+  opacity: 0;
+}
+.nav-toggle.is-open .nav-toggle-bar:nth-child(3) {
+  transform: translateY(-6px) rotate(-45deg);
+}
+
+/* The panel is absolutely positioned inside the sticky header, so it stays
+   attached to the header bar and scrolls with it. */
+.site-mobile-nav {
+  position: absolute;
+  top: 100%;
+  left: 0;
+  right: 0;
+  display: flex;
+  flex-direction: column;
+  background: rgba(10, 12, 18, 0.98);
+  backdrop-filter: blur(16px);
+  -webkit-backdrop-filter: blur(16px);
+  border-bottom: 1px solid #1e293b;
+  box-shadow: 0 24px 48px rgba(0, 0, 0, 0.5);
+  padding: 0.5em 0.8em calc(0.7em + env(safe-area-inset-bottom));
+  max-height: calc(100dvh - 120px);
+  overflow-y: auto;
+  -webkit-overflow-scrolling: touch;
+}
+.site-mobile-nav[hidden] {
+  display: none;
+}
+.site-mobile-nav:not([hidden]) {
+  animation: mobileNavIn 0.22s ease;
+}
+@keyframes mobileNavIn {
+  from {
+    opacity: 0;
+    transform: translateY(-6px);
+  }
+  to {
+    opacity: 1;
+    transform: none;
+  }
+}
+.site-mobile-link {
+  display: flex;
+  align-items: center;
+  min-height: 48px;
+  padding: 0.7em 1em;
+  border-radius: 10px;
+  color: #cbd5e1 !important;
+  font-size: 0.95em;
+  font-weight: 500;
+  text-decoration: none !important;
+}
+.site-mobile-link:hover {
+  background: rgba(255, 255, 255, 0.05);
+  color: #ffffff !important;
+}
+.site-mobile-link.site-nav-link-active {
+  color: #ffffff !important;
+  background: rgba(59, 130, 246, 0.15);
+  font-weight: 600;
+}
+
 @media (max-width: 992px) {
   .site-header-nav {
     display: none;
   }
   .site-header-actions .search-btn-label {
     display: none;
+  }
+  .nav-toggle {
+    display: flex;
   }
 }
 /* Google Translate widget in the post left sidebar (above the TOC) */
@@ -1866,6 +2000,10 @@ footer ul {
   color: #8b8b8b;
   font-size: 1.05em;
 }
+.footer-bottom-open-source .brandicon {
+  color: #8b8b8b;
+  font-size: 1.05em;
+}
 .footer-bottom-credit {
   color: #52525b !important;
 }
@@ -2220,7 +2358,7 @@ details summary:focus-visible {
 .audio-player-bar {
   position:fixed;
   left:50%;
-  bottom:16px;
+  bottom:calc(16px + env(safe-area-inset-bottom));
   transform:translateX(-50%);
   width:min(720px,calc(100% - 32px));
   background:linear-gradient(180deg,rgba(22,24,28,0.97),rgba(10,10,12,0.97));
@@ -3332,20 +3470,10 @@ body.cmdk-open {
   word-wrap: break-word;
 }
 
+/* NOTE: the header nav is hidden below 992px in favor of the hamburger +
+   mobile dropdown panel (see MOBILE NAV section). These old wrapped-nav
+   rules were removed for that; the wrapper padding tweak stays. */
 @media (max-width: 900px) {
-  /* Header nav: wrap instead of overflowing the viewport */
-  .site-header nav {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-    gap: 0.5em 0.9em;
-    padding: 0.5em 0.8em 0.3em;
-    line-height: 1.5;
-  }
-  .site-header nav a {
-    margin: 0 !important;
-    font-size: 0.75em !important;
-  }
   .site-header .wrapper {
     padding-left: 1em;
     padding-right: 1em;
@@ -3422,14 +3550,6 @@ body.cmdk-open {
 @media (max-width: 480px) {
   .post-title, .post-header h1 {
     font-size: 1.6em !important;
-  }
-
-  .site-header nav {
-    gap: 0.4em 0.7em;
-    padding: 0.4em 0.5em 0.2em;
-  }
-  .site-header nav a {
-    font-size: 0.72em !important;
   }
 
   .post-header-top time {
@@ -5644,8 +5764,7 @@ body.cmdk-open {
   text-decoration: none !important;
   transition: all 0.2s cubic-bezier(0.16, 1, 0.3, 1);
 }
-.ed-social-btn i {
-  font-size: 1.1em;
+.ed-social-btn .brandicon {
   color: #60a5fa;
 }
 .ed-social-btn:hover {
@@ -6462,17 +6581,6 @@ a, button, summary, .ed-card, .post-nav-card {
   }
 }
 
-/* Header nav: roomier tap targets on phones */
-@media (max-width: 480px) {
-  .site-header nav a {
-    padding: 0.35em 0.25em;
-    line-height: 1.7;
-  }
-  .site-header nav {
-    gap: 0.3em 0.5em;
-  }
-}
-
 /* Post toolbar: centre controls, comfortable touch sizes */
 @media (max-width: 560px) {
   .post-toolbar {
@@ -6520,6 +6628,13 @@ a, button, summary, .ed-card, .post-nav-card {
     width: 40px;
     height: 40px;
   }
+}
+
+/* Back to top vs TTS bar: both used to occupy the bottom-right corner, and
+   the fixed audio bar spanned nearly the full width on phones. While the
+   article audio bar is on screen, lift the button clear above it. */
+body.audio-bar-open .back-to-top {
+  bottom: calc(6.5em + env(safe-area-inset-bottom));
 }
 
 /* ───────────────────────────────────────────────
