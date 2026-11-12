@@ -42,4 +42,4 @@ Allow: /
 User-agent: Applebot-Extended
 Allow: /
 
-Sitemap: {{ '/sitemap.xml' | absolute_url }}
+Sitemap: https://f9xr.org/articles/sitemap.xml

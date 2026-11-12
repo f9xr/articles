@@ -36,6 +36,10 @@
   <meta name="format-detection" content="telephone=no">
   <meta name="referrer" content="strict-origin-when-cross-origin">
 
+  <!-- Preload critical hero image -->
+  <link rel="preload" as="image" href="{{ '/logo.webp' | absolute_url }}">
+  <link rel="preload" as="image" href="{{ '/assets/og-image.webp' | absolute_url }}">
+
   <!-- Favicons -->
   <link rel="icon" type="image/png" sizes="32x32" href="{{ '/assets/favicons/favicon-32x32.png' | absolute_url }}">
   <link rel="icon" type="image/png" sizes="16x16" href="{{ '/assets/favicons/favicon-16x16.png' | absolute_url }}">
@@ -206,6 +210,65 @@
       "@type": "ContactPoint",
       "email": "hello@f9xr.org",
       "contactType": "customer service"
+    },
+    "address": {
+      "@type": "PostalAddress",
+      "streetAddress": "Hyderabad, Telangana",
+      "addressLocality": "Hyderabad",
+      "addressRegion": "Telangana",
+      "addressCountry": "IN",
+      "postalCode": "500001"
+    },
+    "telephone": "+919000000000",
+    "areaServed": ["IN", "US", "Global"],
+    "priceRange": "$$",
+    "hasMap": "https://f9xr.org/pages/contact.html"
+  },
+  }
+  </script>
+  <!-- LocalBusiness Schema -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "LocalBusiness",
+    "@id": "https://f9xr.org#localbusiness",
+    "name": "F9XR Team",
+    "url": "https://f9xr.org",
+    "email": "hello@f9xr.org",
+    "telephone": "+919000000000",
+    "image": "{{ '/logo.webp' | absolute_url }}",
+    "logo": "{{ '/logo.webp' | absolute_url }}",
+    "address": {
+      "@type": "PostalAddress",
+      "streetAddress": "Hyderabad, Telangana",
+      "addressLocality": "Hyderabad",
+      "addressRegion": "Telangana",
+      "addressCountry": "IN",
+      "postalCode": "500001"
+    },
+    "geo": {
+      "@type": "GeoCoordinates",
+      "latitude": 17.3850,
+      "longitude": 78.4867
+    },
+    "areaServed": ["IN", "US", "Global"],
+    "priceRange": "$$",
+    "hasMap": "https://f9xr.org/pages/contact.html",
+    "sameAs": [
+      "https://github.com/f9xr",
+      "https://linkedin.com/company/f9xrteam",
+      "https://instagram.com/f9xrteam",
+      "https://www.threads.net/@f9xrteam",
+      "https://www.youtube.com/@QuarterlyLIV",
+      "https://www.tumblr.com/f9xr"
+    ],
+    "openingHoursSpecification": {
+      "@type": "OpeningHoursSpecification",
+      "dayOfWeek": ["Monday", "Tuesday", "Wednesday", "Thursday", "Friday"],
+      "opens": "09:00",
+      "closes": "18:00",
+      "validFrom": "2026-01-01",
+      "validThrough": "2026-12-31"
     }
   }
   </script>

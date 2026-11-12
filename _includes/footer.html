@@ -4,10 +4,16 @@
     <div class="footer-top">
       <div class="footer-brand">
         <a href="{{ '/' | absolute_url }}" class="footer-logo">
-          <img src="{{ '/logo.webp' | absolute_url }}" alt="F9XR Team" width="40" height="40" loading="lazy">
+          <img src="{{ '/logo.webp' | absolute_url }}" alt="F9XR Team" width="40" height="40" loading="eager">
         </a>
         <p class="footer-tagline">Engineering digital growth.</p>
         <p class="footer-sub">India to the global digital world.</p>
+        <div class="footer-nap" style="margin-top:1em; font-size:0.85em; color:#a3b3c9;">
+          <strong>F9XR Team</strong><br>
+          <span>📍 Hyderabad, Telangana, India</span><br>
+          <span>📞 +91 90000 00000</span><br>
+          <span>✉️ hello@f9xr.org</span>
+        </div>
         <div class="footer-socials">
           <a href="https://github.com/f9xr" target="_blank" rel="noopener noreferrer" title="GitHub" class="social-pill" aria-label="GitHub">
             {% include brandicon.html name="github" %}
@@ -48,13 +54,13 @@
         </div>
         <div class="footer-col">
           <h3 style="font-size:1em; margin:0 0 0.8em 0; color:#e6edf3;">{% include lucide.html name="folder-open" style="color:#3b82f6; margin-right:0.35em;" %}Resources</h3>
-          <a href="https://f9xr.org/troolify/"><span class="footer-dot"></span>Tools</a>
+          <a href="https://f9xr.org/troolify/" rel="sponsored"><span class="footer-dot"></span>Tools</a>
           <a href="https://f9xr.org/directories/index.html"><span class="footer-dot"></span>Directories</a>
           <a href="https://f9xr.org/seo-audit-report-skill/"><span class="footer-dot"></span>SEO Codebase Auditor</a>
-          <a href="https://f9xr.org/yoprompts/"><span class="footer-dot"></span>YoPrompts</a>
-          <a href="https://f9xr.org/boredpup/"><span class="footer-dot"></span>Bored Pup</a>
-          <a href="https://f9xr.org/dev9b/"><span class="footer-dot"></span>Dev9B</a>
-          <a href="https://f9xr.org/resumio/"><span class="footer-dot"></span>Resumio</a>
+          <a href="https://f9xr.org/yoprompts/" rel="sponsored"><span class="footer-dot"></span>YoPrompts</a>
+          <a href="https://f9xr.org/boredpup/" rel="sponsored"><span class="footer-dot"></span>Bored Pup</a>
+          <a href="https://f9xr.org/dev9b/" rel="sponsored"><span class="footer-dot"></span>Dev9B</a>
+          <a href="https://f9xr.org/resumio/" rel="sponsored"><span class="footer-dot"></span>Resumio</a>
         </div>
         <div class="footer-col">
           <h3 style="font-size:1em; margin:0 0 0.8em 0; color:#e6edf3;">{% include lucide.html name="building-2" style="color:#3b82f6; margin-right:0.35em;" %}Company</h3>
