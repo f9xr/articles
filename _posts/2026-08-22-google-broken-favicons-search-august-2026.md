@@ -1,4 +1,4 @@
-﻿---
+---
 layout: post
 title: "Google Favicons Broken in Search: What's Happening"
 description: "Google confirmed a bug causing broken favicons in Search results this August 2026. Here's what happened, why it matters, and what to do."
@@ -34,7 +34,7 @@ Google has explicitly said this is a Google-side issue, not something you broke 
 We'll walk through exactly what happened, Google's official response, why favicons matter more than they seem, and what steps to take whether you're affected by this bug or not.
 
 <div style="text-align:center; margin: 2em auto;">
-<blockquote class="twitter-tweet"><p lang="en" dir="ltr">It&#39;s an issue on our end. We identified the issue and we&#39;re addressing it as quickly as we can. Sorry that this happened.</p>&mdash; Rajan Patel (@rajanpatel) <a href="https://x.com/rajanpatel/status/2090852799982813612?ref_src=twsrc%5Etfw">August 21, 2026</a></blockquote> <script async src="https://platform.x.com/widgets.js" charset="utf-8"></script>
+<blockquote class="twitter-tweet"><p lang="en" dir="ltr">It&#39;s an issue on our end. We identified the issue and we&#39;re addressing it as quickly as we can. Sorry that this happened.</p>&ndash; Rajan Patel (@rajanpatel) <a href="https://x.com/rajanpatel/status/2090852799982813612?ref_src=twsrc%5Etfw">August 21, 2026</a></blockquote> <script async src="https://platform.x.com/widgets.js" charset="utf-8"></script>
 </div>
 
 ---

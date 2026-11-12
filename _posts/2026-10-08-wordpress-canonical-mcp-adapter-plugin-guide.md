@@ -40,7 +40,7 @@ Jason Adams, Director of Engineering, AI at Automattic, announced the release an
 <center>
 <blockquote class="twitter-tweet"><p lang="en" dir="ltr">The WordPress MCP Adapter is now released: https://t.co/PENFnzxSqb 🎉
 
-This is the canonical MCP plugin for WordPress, carefully architected for backwards-compatibility with MCP versions. If you want MCP in your site or plugins, I highly recommend using this.</p>&mdash; Jason Adams (@jasontheadams) <a href="https://x.com/jasontheadams/status/2107119026191348128?ref_src=twsrc%5Etfw">October 5, 2026</a></blockquote>
+This is the canonical MCP plugin for WordPress, carefully architected for backwards-compatibility with MCP versions. If you want MCP in your site or plugins, I highly recommend using this.</p>&ndash; Jason Adams (@jasontheadams) <a href="https://x.com/jasontheadams/status/2107119026191348128?ref_src=twsrc%5Etfw">October 5, 2026</a></blockquote>
 <script async src="https://platform.x.com/widgets.js" charset="utf-8"></script>
 </center>
 

@@ -3,7 +3,7 @@ layout: null
 permalink: /llms-full.txt
 sitemap: false
 ---
-# {{ site.title | escape }} — Full Content
+# {{ site.title | escape }}: Full Content
 
 > {{ site.description | escape }}
 
@@ -25,4 +25,4 @@ Tags: {{ post.tags | join: ", " }}
 
 ---
 
-*F9XR Team — Engineering digital growth from India to the global digital world.*
+*F9XR Team: Engineering digital growth from India to the global digital world.*

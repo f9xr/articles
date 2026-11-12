@@ -28,9 +28,9 @@ Because this site exposes no protected resources, there is no
 `/.well-known/oauth-protected-resource` document and no authorization server metadata.
 The discovery surfaces this site does publish are:
 
-- `/.well-known/agent-skills/index.json` — Agent Skills published by this site
-- `/.well-known/ard.json` and `/.well-known/ai-catalog.json` — Agentic Resource Discovery manifest
-- `/llms.txt` — a plain-language map of the site for language models
+- `/.well-known/agent-skills/index.json`: Agent Skills published by this site
+- `/.well-known/ard.json` and `/.well-known/ai-catalog.json`: Agentic Resource Discovery manifest
+- `/llms.txt`: a plain-language map of the site for language models
 
 ## Pick a method
 

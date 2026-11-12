@@ -64,7 +64,6 @@ layout: default
         </ol>
       </nav>
     </details>
-    {% include eonads.html sizes="300x600,300x250,160x600,120x600" %}
   </aside>
   <script>
   // Desktop keeps the sidebar TOC expanded like before; phones start collapsed
@@ -343,9 +342,6 @@ layout: default
       {% assign content_first = content_first | append: "</h2>" %}
       {{ content_first }}
 
-      <!-- In-article ad (mid-content) -->
-      {% include eonads.html sizes="728x90,336x280,300x250,300x50" %}
-
       {% if also_read %}
       <aside class="also-read">
         <div class="also-read-label">{% include lucide.html name="book-open" %} Also Read</div>
@@ -538,9 +534,6 @@ layout: default
       </div>
     </div>
   </section>
-
-  <!-- Anchor ad (bottom of content) -->
-  {% include eonads.html sizes="728x90,336x280,300x250,300x50" %}
 
   <!-- Keywords -->
   {% assign post_keywords = page.keywords | default: site.keywords | default: "" %}
