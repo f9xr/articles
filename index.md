@@ -136,7 +136,7 @@ keywords: "F9XR Articles, engineering digital growth, web architecture, AI integ
       {% for post in site.posts limit:3 %}
       {% assign s_min = post.content | strip_html | number_of_words | divided_by: 200 | plus: 1 %}
       <a href="{{ post.url | relative_url }}" class="ed-side-item" aria-label="{{ post.title | escape }}">
-        <div class="ed-side-item-thumb" {% if post.image %}style="background-image:url('{{ post.image }}');"{% endif %}></div>
+        <div class="ed-side-item-thumb" {% if post.image %}style="background-image:url('{{ post.image | relative_url }}');"{% endif %}></div>
         <div class="ed-side-item-content">
           <div class="ed-side-item-meta">
             <span class="ed-tag">{{ post.tags.first | default: "Article" }}</span>
@@ -199,7 +199,7 @@ keywords: "F9XR Articles, engineering digital growth, web architecture, AI integ
         {% assign g_desc = post.content | strip_html | truncate: 140 %}
         <article class="ed-card" itemscope itemtype="https://schema.org/Article">
           <div class="ed-card-media">
-            <a class="ed-card-img" href="{{ post.url | relative_url }}" aria-label="{{ post.title | escape }}"{% if post.image %} style="background-image:url('{{ post.image }}');"{% endif %}></a>
+            <a class="ed-card-img" href="{{ post.url | relative_url }}" aria-label="{{ post.title | escape }}"{% if post.image %} style="background-image:url('{{ post.image | relative_url }}');"{% endif %}></a>
             <span class="ed-card-badge">{{ post.tags.first | default: "Article" }}</span>
           </div>
           <div class="ed-card-body">
@@ -242,7 +242,7 @@ keywords: "F9XR Articles, engineering digital growth, web architecture, AI integ
         {% assign g_desc = post.content | strip_html | truncate: 140 %}
         <article class="ed-card" itemscope itemtype="https://schema.org/Article">
           <div class="ed-card-media">
-            <a class="ed-card-img" href="{{ post.url | relative_url }}" aria-label="{{ post.title | escape }}"{% if post.image %} style="background-image:url('{{ post.image }}');"{% endif %}></a>
+            <a class="ed-card-img" href="{{ post.url | relative_url }}" aria-label="{{ post.title | escape }}"{% if post.image %} style="background-image:url('{{ post.image | relative_url }}');"{% endif %}></a>
             <span class="ed-card-badge">{{ post.tags.first | default: "SEO" }}</span>
           </div>
           <div class="ed-card-body">
@@ -285,7 +285,7 @@ keywords: "F9XR Articles, engineering digital growth, web architecture, AI integ
         {% assign g_desc = post.content | strip_html | truncate: 140 %}
         <article class="ed-card" itemscope itemtype="https://schema.org/Article">
           <div class="ed-card-media">
-            <a class="ed-card-img" href="{{ post.url | relative_url }}" aria-label="{{ post.title | escape }}"{% if post.image %} style="background-image:url('{{ post.image }}');"{% endif %}></a>
+            <a class="ed-card-img" href="{{ post.url | relative_url }}" aria-label="{{ post.title | escape }}"{% if post.image %} style="background-image:url('{{ post.image | relative_url }}');"{% endif %}></a>
             <span class="ed-card-badge">{{ post.tags.first | default: "AI & Agents" }}</span>
           </div>
           <div class="ed-card-body">
@@ -328,7 +328,7 @@ keywords: "F9XR Articles, engineering digital growth, web architecture, AI integ
         {% assign g_desc = post.content | strip_html | truncate: 140 %}
         <article class="ed-card" itemscope itemtype="https://schema.org/Article">
           <div class="ed-card-media">
-            <a class="ed-card-img" href="{{ post.url | relative_url }}" aria-label="{{ post.title | escape }}"{% if post.image %} style="background-image:url('{{ post.image }}');"{% endif %}></a>
+            <a class="ed-card-img" href="{{ post.url | relative_url }}" aria-label="{{ post.title | escape }}"{% if post.image %} style="background-image:url('{{ post.image | relative_url }}');"{% endif %}></a>
             <span class="ed-card-badge">{{ post.tags.first | default: "Local SEO" }}</span>
           </div>
           <div class="ed-card-body">
@@ -371,7 +371,7 @@ keywords: "F9XR Articles, engineering digital growth, web architecture, AI integ
         {% assign g_desc = post.content | strip_html | truncate: 140 %}
         <article class="ed-card" itemscope itemtype="https://schema.org/Article">
           <div class="ed-card-media">
-            <a class="ed-card-img" href="{{ post.url | relative_url }}" aria-label="{{ post.title | escape }}"{% if post.image %} style="background-image:url('{{ post.image }}');"{% endif %}></a>
+            <a class="ed-card-img" href="{{ post.url | relative_url }}" aria-label="{{ post.title | escape }}"{% if post.image %} style="background-image:url('{{ post.image | relative_url }}');"{% endif %}></a>
             <span class="ed-card-badge">{{ post.tags.first | default: "News" }}</span>
           </div>
           <div class="ed-card-body">
@@ -461,7 +461,7 @@ keywords: "F9XR Articles, engineering digital growth, web architecture, AI integ
     {% assign p_min = post.content | strip_html | number_of_words | divided_by: 200 | plus: 1 %}
     {% assign p_desc = post.content | strip_html | truncate: 120 %}
     <article class="ed-popular-card">
-      <a class="ed-popular-thumb" href="{{ post.url | relative_url }}" aria-label="{{ post.title | escape }}"{% if post.image %} style="background-image:url('{{ post.image }}');"{% endif %}></a>
+      <a class="ed-popular-thumb" href="{{ post.url | relative_url }}" aria-label="{{ post.title | escape }}"{% if post.image %} style="background-image:url('{{ post.image | relative_url }}');"{% endif %}></a>
       <div class="ed-popular-content">
         <div class="ed-popular-meta">
           <span class="ed-tag">{{ post.tags.first | default: "Featured" }}</span>
@@ -634,7 +634,7 @@ keywords: "F9XR Articles, engineering digital growth, web architecture, AI integ
     {% for episode in sorted_episodes limit:3 %}
     <article class="ed-card" itemscope itemtype="https://schema.org/PodcastEpisode">
       <div class="ed-card-media">
-        <a class="ed-card-img" href="{{ episode.url | relative_url }}" aria-label="{{ episode.title | escape }}"{% if episode.image %} style="background-image:url('{{ episode.image }}');"{% endif %}></a>
+        <a class="ed-card-img" href="{{ episode.url | relative_url }}" aria-label="{{ episode.title | escape }}"{% if episode.image %} style="background-image:url('{{ episode.image | relative_url }}');"{% endif %}></a>
         <span class="ed-card-badge">{% include lucide.html name="headphones" %} Episode {% if episode.episode_number %}{{ episode.episode_number }}{% endif %}</span>
       </div>
       <div class="ed-card-body">

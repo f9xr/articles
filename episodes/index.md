@@ -23,7 +23,7 @@ permalink: /episodes/
 {% for episode in sorted_episodes %}
   <a href="{{ episode.url | relative_url }}" style="display:flex; gap:1.5em; padding:1.5em; background:linear-gradient(135deg, #0c0d10 0%, #111318 100%); border:1px solid #1e2024; border-radius:14px; text-decoration:none; transition:border-color 0.25s, transform 0.25s, box-shadow 0.25s; isolation:isolate; position:relative; overflow:hidden;" onmouseover="this.style.borderColor='#2563eb'; this.style.transform='translateY(-3px)'; this.style.boxShadow='0 8px 28px rgba(37,99,235,0.16)'" onmouseout="this.style.borderColor='#1e2024'; this.style.transform='none'; this.style.boxShadow='none'">
     {% if episode.image %}
-    <div style="flex:0 0 120px; height:120px; border-radius:12px; background-image:url('{{ episode.image }}'); background-size:cover; background-position:center; border:1px solid rgba(255,255,255,0.05);"></div>
+    <div style="flex:0 0 120px; height:120px; border-radius:12px; background-image:url('{{ episode.image | relative_url }}'); background-size:cover; background-position:center; border:1px solid rgba(255,255,255,0.05);"></div>
     {% endif %}
     <div style="flex:1; min-width:0; display:flex; flex-direction:column; justify-content:center;">
       {% if episode.episode_number %}<p style="margin:0 0 0.3em 0; color:#3b82f6; font-size:0.75em; font-weight:700; text-transform:uppercase; letter-spacing:0.1em;">Episode {{ episode.episode_number }}{% if episode.season %} · Season {{ episode.season }}{% endif %}</p>{% endif %}
