@@ -57,9 +57,11 @@ keywords: "F9XR articles archive, web architecture, AI integration, local SEO, d
 
 {% assign archive_total_words = 0 %}
 {% for p in site.posts %}
-  {% assign archive_total_words = archive_total_words | plus: p.content | strip_html | number_of_words %}
+  {% assign archive_post_words = p.content | strip_html | number_of_words %}
+  {% assign archive_total_words = archive_total_words | plus: archive_post_words %}
 {% endfor %}
 {% assign archive_avg_min = archive_total_words | divided_by: 200.0 | divided_by: site.posts.size | round: 0 %}
+{% assign archive_words_k = archive_total_words | times: 1.0 | divided_by: 1000.0 | round: 1 %}
 
 <section class="ed-archive-hero" aria-label="Archive overview">
   <div class="ed-archive-intro">
@@ -77,11 +79,11 @@ keywords: "F9XR articles archive, web architecture, AI integration, local SEO, d
       <span class="ed-stat-label">Topics</span>
     </div>
     <div class="ed-stat">
-      <span class="ed-stat-value">{{ archive_total_words | divided_by: 1000 }}K<em>+</em></span>
+      <span class="ed-stat-value"><em>{{ archive_words_k }}K+</em></span>
       <span class="ed-stat-label">Words Published</span>
     </div>
     <div class="ed-stat">
-      <span class="ed-stat-value">~<em>{{ archive_avg_min }}</em> min</span>
+      <span class="ed-stat-value"><em>~{{ archive_avg_min }} min</em></span>
       <span class="ed-stat-label">Avg. Read Time</span>
     </div>
   </div>
@@ -113,16 +115,22 @@ keywords: "F9XR articles archive, web architecture, AI integration, local SEO, d
     {% for post in site.posts limit:6 %}
     {% assign t_author = site.data.authors[post.author] %}
     {% assign t_min = post.content | strip_html | number_of_words | divided_by: 200 | plus: 1 %}
+    {% assign t_desc = post.description | default: post.content | strip_html | truncate: 140 %}
     <article class="ed-card" itemscope itemtype="https://schema.org/Article">
-      <a class="ed-card-img" href="{{ post.url | relative_url }}" aria-label="{{ post.title | escape }}"{% if post.image %} style="background-image:url('{{ post.image }}');"{% endif %}></a>
-      <div class="ed-card-meta">
-        <span class="ed-tag">{{ post.tags.first | default: "Article" }}</span>
-        <span class="ed-mono">{{ post.date | date: "%b %d, %Y" }}</span>
-        <span class="ed-mono">{{ t_author.name | default: post.author }}</span>
+      <div class="ed-card-media">
+        <a class="ed-card-img" href="{{ post.url | relative_url }}" aria-label="{{ post.title | escape }}"{% if post.image %} style="background-image:url('{{ post.image | relative_url }}');"{% endif %}></a>
+        <span class="ed-card-badge">{{ post.tags.first | default: "Article" }}</span>
       </div>
-      <h3 class="ed-card-title" itemprop="headline"><a href="{{ post.url | relative_url }}" itemprop="url">{{ post.title | escape }}</a></h3>
-      <p class="ed-card-desc" itemprop="description">{{ post.description }}</p>
-      <span class="ed-card-foot">{{ t_min }} min read</span>
+      <div class="ed-card-body">
+        <div class="ed-card-meta">
+          <span class="ed-mono">{{ post.date | date: "%b %d, %Y" }}</span>
+          <span class="ed-dot-sep">&middot;</span>
+          <span class="ed-mono">{{ t_author.name | default: post.author }}</span>
+        </div>
+        <h3 class="ed-card-title" itemprop="headline"><a href="{{ post.url | relative_url }}" itemprop="url">{{ post.title | escape }}</a></h3>
+        <p class="ed-card-desc" itemprop="description">{{ t_desc }}</p>
+        <span class="ed-card-foot">{{ t_min }} min read</span>
+      </div>
     </article>
     {% endfor %}
   </div>
