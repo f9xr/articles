@@ -8,7 +8,7 @@ category: "WordPress, SEO, Technical SEO"
 permalink: /2026/11/22/mobile-seo-audit-new-wordpress-site-guide.html
 tags: [Mobile SEO Audit, WordPress SEO, Mobile-First Indexing, Core Web Vitals, Technical SEO, Local SEO, Google Search Console, New Website Checklist, Small Business SEO]
 keywords: [mobile SEO audit, WordPress mobile SEO, mobile first indexing, Core Web Vitals WordPress, mobile SEO checklist, new website SEO audit, mobile usability audit, local mobile SEO]
-image: "https://f9xr.org/articles/assets/post-images/google-deep-review-header.webp"
+image: "https://f9xr.org/articles/assets/post-images/why-go-mobile-first.webp"
 image_width: 1200
 image_height: 630
 ---
@@ -37,9 +37,6 @@ Google also says a mobile version isn't strictly required for pages to appear in
 
 A fair warning from Google: good Core Web Vitals don't guarantee top rankings. They're one part of a good page experience, not a magic switch.
 
-image: "https://f9xr.org/articles/assets/post-images/google-deep-review-header.webp"
-image_width: 1200
-image_height: 630
 ---
 
 ## Before You Start: Setup and Tools
