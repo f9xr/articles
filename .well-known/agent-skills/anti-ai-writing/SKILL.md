@@ -1,3 +1,9 @@
+---
+layout: null
+sitemap: false
+robots: noindex
+---
+
 # VOICE DNA
 
 Source of truth for my writing voice. Apply with judgment. Spirit over letter. Always.

@@ -1,4 +1,4 @@
----
+﻿---
 layout: post
 code: true
 title: "Rank on TikTok & Instagram: The New Search Engine"
@@ -23,6 +23,7 @@ faq:
     a: "No. Auto-generated captions give TikTok and Instagram the exact words you say in the audio, and they give the algorithm a clean text transcript to index. Keep them on, and also add a keyword-rich caption overlay on the video itself, because that text is read as part of your searchable content."
   - q: "How many hashtags should a business use on a short-form video?"
     a: "Two to five highly relevant hashtags beat a long string of generic ones. The hashtags themselves are searchable, but they carry less weight than captions, overlays, and audio. Pick the hashtags your actual customers type when they search, then let the on-screen text do the heavy lifting."
+permalink: /2026/08/14/tiktok-instagram-search-optimization-guide.html
 ---
 
 Somewhere in the last two years, the way people search quietly changed. TikTok and Instagram aren't just social apps anymore. They're search engines. Prabhakar Raghavan, then Google's SVP of Knowledge and Information, told [Fortune](https://fortune.com/2022/07/13/google-tiktok-instagram-search-engine-brainstorm-tech/){:target="_blank" rel="noopener noreferrer"} that almost 40% of young people go to TikTok or Instagram to find a place for lunch instead of Google Search or Maps. That number has only grown since.
@@ -115,7 +116,7 @@ Use this structure for every business video. Swap in your keywords, business nam
 
 Here's what you'll see in this video: [one line summary]. 
 
-📍 [Business name], [City] | [Neighborhood or address]
+ðŸ“ [Business name], [City] | [Neighborhood or address]
 [One sentence about the business, hours, or offer]
 
 #primarykeyword #citykeyword #secondarykeyword
@@ -129,7 +130,7 @@ Here's the exact drink our customers order every morning.
 
 Watch how we pull it, then come try it this week. 
 
-📍 Mountain Pour Coffee, RiNo | 21st and Larimer
+ðŸ“ Mountain Pour Coffee, RiNo | 21st and Larimer
 Open daily 7am to 3pm, indoor and patio seating
 
 #coldbrew #denvercoffee #coffeeshop
@@ -175,7 +176,7 @@ Come find us in RiNo at 21st and Larimer, or follow us for tomorrow's special."
 
 Follow one customer through the system. A tourist lands in Austin, opens TikTok, and types "best tacos in Austin." The results page shows a mix of videos. The ones that rank first share three things: a caption that says "best tacos in Austin," an overlay that repeats it, and a voiceover that names the restaurant and the dish.
 
-The restaurant that posted a searchable video with all three layers wins that customer. The restaurant that posted a silent video of sizzling meat with the caption "taco night 🌮" doesn't appear at all, even though its tacos may be better.
+The restaurant that posted a searchable video with all three layers wins that customer. The restaurant that posted a silent video of sizzling meat with the caption "taco night ðŸŒ®" doesn't appear at all, even though its tacos may be better.
 
 That's the entire opportunity in one example. [Local SEO](https://f9xr.org/services/google-business-optimization.html){:target="_blank" rel="noopener noreferrer"} gets you on Google Maps. Native app search gets you in front of the people who skipped Google entirely.
 

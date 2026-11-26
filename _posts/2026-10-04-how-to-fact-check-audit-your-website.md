@@ -1,4 +1,4 @@
----
+﻿---
 layout: post
 title: "How to Fact-Check Audit Your Website in 2026"
 description: "Google says AI content must be fact-checked by hand. Run this 8-step fact-check audit on your site, page by page, before a wrong claim costs you a customer."
@@ -25,6 +25,7 @@ faq:
     a: "Outdated schema, like incorrect hours or pricing, can appear directly in search results and mislead customers before they even visit your site. That leads to lost trust, bad reviews, and in-person frustration when reality does not match what search results showed."
   - q: "Is a fact-check audit different from a content audit?"
     a: "Yes. A content audit evaluates writing quality, keyword targeting, and page performance. A fact-check audit verifies whether every checkable claim on a page is accurate and current, regardless of how well the page is written or how well it ranks."
+permalink: /2026/10/04/how-to-fact-check-audit-your-website.html
 ---
 
 Think about the last time you used AI to write something for your website. A service page, a product description, one FAQ answer.
@@ -201,6 +202,7 @@ Holding that standard across a growing site, alongside the technical and structu
 - [Search Engine Roundtable: Google updates AI content guidelines, fact-check and review](https://www.seroundtable.com/google-updates-ai-content-guidelines-factcheck-review-42217.html){:target="_blank" rel="noopener noreferrer"}
 - [Google Rich Results Test](https://search.google.com/test/rich-results){:target="_blank" rel="noopener noreferrer"}
 
+permalink: /2026/10/04/how-to-fact-check-audit-your-website.html
 ---
 
 *Produced using AI-assisted research and drafting workflows, then reviewed and edited by the F9XR editorial team. See our [Editorial Policy](https://f9xr.org/articles/press/editorial-policy.html) for how we create and verify content.*

@@ -1,4 +1,4 @@
----
+﻿---
 layout: post
 title: "Let Claude Build Your Blog's Internal Links"
 description: "Stop guessing at internal links. Here is how to let Claude read your sitemap and suggest smart, contextual internal links for every new post."
@@ -23,6 +23,7 @@ faq:
     a: "When set up with a clear prompt and a complete sitemap, AI suggested internal linking is often more thorough than manual linking, since it does not rely on the writer remembering every past article. A quick human review is still recommended before publishing."
   - q: "What is the difference between internal links and backlinks?"
     a: "Internal links connect pages within your own website, while backlinks are links from other websites pointing to yours. Both matter for SEO, but internal links are entirely within your control and cost nothing to set up."
+permalink: /2026/09/11/let-claude-do-internal-linking-for-blog-posts.html
 ---
 
 Be honest. When was the last time you finished writing a blog post and actually went back to add proper internal links? Most business owners skip it, or they add one or two links to their homepage and call it done. It is the part of SEO that everyone knows matters and almost nobody does well, because it is tedious and it needs you to remember every other article you have ever published.

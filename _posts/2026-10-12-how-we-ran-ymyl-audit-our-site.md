@@ -1,4 +1,4 @@
----
+﻿---
 layout: post
 title: "How We Ran a YMYL Audit on Our Own Site"
 description: "A YMYL audit is not only for finance and health sites. Here is how we audited our own site, what we found, and the process you can copy."
@@ -22,6 +22,7 @@ faq:
     a: "No. There is no YMYL score and no direct ranking switch. The Search Quality Rater Guidelines describe what a high-quality page looks like for raters, and Google's systems reward pages that demonstrate experience, expertise, authority, and trust. A YMYL audit is a way to find and close the trust gaps those systems look for."
   - q: "How long does a YMYL audit take?"
     a: "For a small site, the first pass can be done in an afternoon. You do not need paid tools. A spreadsheet of your pages plus a manual read of the highest-risk posts is enough to surface the biggest gaps. Fixing them is the longer job, and it becomes part of your regular content review."
+permalink: /2026/10/12/how-we-ran-ymyl-audit-our-site.html
 ---
 
 Two years ago, YMYL felt like a term for hospitals, banks, and law firms. Not a marketing blog run by a small agency.
@@ -48,6 +49,7 @@ That test catches more sites than people expect:
 
 We are the last example. Our content is educational marketing, not medical advice. But a post about hosting choice, or a [paid indexing service](https://f9xr.org/articles/2026/08/30/how-paid-indexing-services-work-tech-truth-risks.html), can steer a real purchase. That is a money decision. So we are in the YMYL conversation whether we like it or not.
 
+permalink: /2026/10/12/how-we-ran-ymyl-audit-our-site.html
 ---
 
 ## Why We Audited Our Own Site
@@ -78,6 +80,7 @@ We did not buy a tool. We read our own repository, counted things, and wrote dow
 
 The output looked like any audit report: findings, evidence, priority, fix. That structure matters, because it turns a vague worry into three or four concrete tasks.
 
+permalink: /2026/10/12/how-we-ran-ymyl-audit-our-site.html
 ---
 
 ## What We Found on Our Own Site
@@ -118,6 +121,7 @@ You do not need our specific numbers. You need a checklist that forces an honest
 
 A page that scores 16 is in good shape. A high-risk page that scores under 10 is where you start. The rubric is not a ranking formula. It is a way to make the invisible visible, the same idea behind our [E-E-A-T checklist](https://f9xr.org/articles/2026/08/04/google-e-e-a-t-checklist-every-seo-should-bookmark.html).
 
+permalink: /2026/10/12/how-we-ran-ymyl-audit-our-site.html
 ---
 
 ## How to Run This Audit on Your Site
@@ -154,6 +158,7 @@ A few traps showed up while we worked, and they are common enough to name.
 
 None of these are exotic. They are the defaults when a team grows faster than its process, which is exactly why the audit is worth running before someone else runs it on you.
 
+permalink: /2026/10/12/how-we-ran-ymyl-audit-our-site.html
 ---
 
 ## Key Takeaways

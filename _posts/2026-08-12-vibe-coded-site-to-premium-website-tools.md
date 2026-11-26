@@ -22,6 +22,7 @@ faq:
     a: "Most of these tools are designed to be copy paste friendly for developers with basic React, Next.js, or Tailwind CSS familiarity. Tools like Spline and LottieFiles are more visual and require less coding knowledge, though embedding them properly still benefits from some technical support."
   - q: "Can adding too many animations or effects hurt my website?"
     a: "Yes. Overusing motion, 3D elements, or custom visuals can slow down load times, hurt accessibility, and make a site feel cluttered rather than premium. It's best to pick one or two consistent styles and apply them deliberately rather than combining every available effect."
+permalink: /2026/08/12/vibe-coded-site-to-premium-website-tools.html
 ---
 
 You know the look the moment you see it. Generic rounded cards, a hero section with a gradient blob nobody chose on purpose, buttons that just appear instead of animating in, and spacing that feels almost right but not quite. That's the unmistakable fingerprint of a vibe coded site, something built fast with AI, that technically works but instantly reads as "made in an afternoon" instead of "built by a real team."

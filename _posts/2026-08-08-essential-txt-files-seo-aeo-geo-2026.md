@@ -1,4 +1,4 @@
----
+﻿---
 layout: post
 code: true
 title: "Essential Txt Files for SEO, AEO & GEO in 2026"
@@ -23,6 +23,7 @@ faq:
     a: "security.txt is a file located at yoursite.com/.well-known/security.txt that tells security researchers how to report vulnerabilities responsibly. It's also a general trust signal that a business takes its digital security seriously."
   - q: "How often should I update these files?"
     a: "Review robots.txt and sitemap.xml whenever you add or remove pages. Update llms.txt whenever your core services, offerings, or key pages change. A quarterly audit is a reasonable baseline for most small and mid sized businesses."
+permalink: /2026/08/08/essential-txt-files-seo-aeo-geo-2026.html
 ---
 
 Open the root of any healthy codebase and you'll find a small set of txt files sitting in the root directory. They explain the project, set the rules, and tell other people, and increasingly other machines, how to work with your code and your website safely and easily.

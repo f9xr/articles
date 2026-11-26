@@ -24,6 +24,7 @@ faq:
     a: "Check your Search Console performance data specifically around and after August 18, 2026. Rule out other causes like site changes or technical issues first, then audit your content against known spam policy violation categories."
   - q: "How long does it take to recover from a spam update penalty?"
     a: "According to Google's own documentation, recovery can take months, since its automated systems need an extended period to confirm that a site has genuinely and consistently changed its practices."
+permalink: /2026/08/19/google-august-2026-spam-update.html
 ---
 
 If your website traffic took a sudden dip this week and you've been racking your brain trying to figure out why, you're not imagining things. Google quietly released the August 2026 spam update on August 18, and it's already stirring up the usual mix of confusion, panic, and forum threads full of site owners comparing notes.
@@ -67,6 +68,7 @@ August's rollout window is looser by comparison. Google only said it would take 
 | Affects | Sites violating existing Google spam policies |
 | Does not target | Link spam update and site reputation abuse policy (separate, ongoing enforcement tracks) |
 
+permalink: /2026/08/19/google-august-2026-spam-update.html
 ---
 
 ## What a Spam Update Actually Does (And How It's Different From a Core Update)
@@ -108,6 +110,7 @@ Here's where things get genuinely relevant for a lot of business owners right no
 
 Google has not confirmed whether the August 2026 update specifically enforces that AI-manipulation provision. Given that a meaningful portion of Google's spam policy suspect list, scaled content, scraping, cloaking, is exactly the kind of behavior connected to AI-generated content farming, it wouldn't be surprising if improved SpamBrain models are catching more of it. But that's informed inference from industry analysts, not an official confirmation from Google.
 
+permalink: /2026/08/19/google-august-2026-spam-update.html
 ---
 
 ## Should You Be Worried? Signs You Might Be Affected
@@ -160,6 +163,7 @@ SEO analysts like Glenn Gabe, Marie Haynes, and Barry Schwartz have consistently
 ### 6. Avoid Panic-Driven Overcorrection
 Making large, reactive changes to your site immediately after noticing a ranking shift, before you've confirmed the actual cause, can sometimes create new problems on top of the original issue. Diagnose first, then act deliberately.
 
+permalink: /2026/08/19/google-august-2026-spam-update.html
 ---
 
 ## What This Means for Local Businesses and Startups
@@ -190,6 +194,7 @@ The [F9XR Team](https://f9xr.org/pages/services.html){:target="_blank" rel="noop
 
 If you've noticed unusual ranking movement since August 18 and aren't sure whether it's connected to this update, that's exactly the kind of diagnostic work worth getting a second opinion on.
 
+permalink: /2026/08/19/google-august-2026-spam-update.html
 ---
 
 ## Key Takeaways

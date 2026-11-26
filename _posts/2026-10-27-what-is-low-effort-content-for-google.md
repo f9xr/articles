@@ -1,4 +1,4 @@
----
+﻿---
 layout: post
 title: "Is Your Content Low Effort? What Google Looks For in 2026"
 description: "Google just spelled out what low effort content means. Learn the four tests, the red flags, and a simple fix plan for small business websites."
@@ -20,6 +20,7 @@ faq:
     a: "No. Quality raters do not decide where individual pages rank. Their ratings help Google evaluate and improve its search systems. The guidelines they follow are still a useful guide to the qualities Google wants to reward."
   - q: "How do I fix low effort pages?"
     a: "For each page, choose one of three actions. Improve it with first hand proof, original data, a named author, and checked facts. Merge it with similar pages into one stronger page. Or remove it if it cannot be saved. Start with your most important service and money pages."
+permalink: /2026/10/27/what-is-low-effort-content-for-google.html
 ---
 
 Google has never been short on rules about content quality. What it was short on was a plain answer to a simple question: what does low effort content actually look like?

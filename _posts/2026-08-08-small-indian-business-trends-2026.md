@@ -1,4 +1,4 @@
----
+﻿---
 layout: post
 title: "10 Small Business Trends in India for 2026"
 description: "Discover the 10 biggest trends shaping small Indian businesses in 2026, from AI adoption to ONDC, and what they mean for your business."
@@ -22,6 +22,7 @@ faq:
     a: "Start with one or two practical uses: AI for answering customer queries, drafting content, or organizing data. Set up the basics first: a fast website, a Google Business Profile, and clean business listings. Keep an eye on how customers discover you, because AI tools now recommend businesses too."
   - q: "What does ONDC mean for small businesses?"
     a: "ONDC is an open network that lets sellers on one platform reach buyers on any other connected platform, unlike closed marketplaces that lock you in. For a small seller, it means listing once and getting discovered across multiple apps, with lower fees than traditional marketplaces."
+permalink: /2026/08/08/small-indian-business-trends-2026.html
 ---
 
 Your small business in India runs on instincts, relationships, and daily decisions. But the ground under it is shifting. Ten changes are quietly reshaping how small companies in India sell, hire, borrow, and get found, and 2026 is the year they stop being optional.

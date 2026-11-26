@@ -1,4 +1,4 @@
----
+﻿---
 layout: post
 title: "Gemini Lets You Turn Off Visible AI Watermarks"
 description: "Google now lets you disable Gemini's visible watermark on images, video, and music. Here's what changed, what stays hidden, and why it matters."
@@ -23,6 +23,7 @@ faq:
     a: "It is a good practice, especially for sensitive content like testimonials, health, finance, or legal topics. Even though the visible mark can be turned off, transparency with your audience still matters for maintaining trust."
   - q: "What is SynthID?"
     a: "SynthID is Google DeepMind's invisible watermarking technology, embedded into AI-generated images, video, and audio at the file level. It is designed to survive screenshots, cropping, and format changes, and Google says it has been applied to more than 10 billion pieces of content."
+permalink: /2026/08/17/gemini-visible-watermark-toggle-off.html
 ---
 
 If you have ever generated a product image, a social media graphic, or a quick promotional video with Google's Gemini and gotten annoyed by that little sparkle logo stamped in the corner, you are not alone. Enough people complained about it that Google actually did something about it.
@@ -44,7 +45,7 @@ Here is the update itself, based on Google's own announcement and the reporting 
 
 Google's VP for Gemini, Josh Woodward, [confirmed the change directly on X](https://x.com/joshwoodward/status/2088259242423968162){:target="_blank" rel="noopener noreferrer"}, describing a new Media Watermark setting rolling out across the Gemini app and Google's Flow video editor.
 
-<blockquote class="twitter-tweet"><p lang="en" dir="ltr">✅ Papercut fixed: You can now toggle visible watermarks on or off in Gemini and Flow, with Search coming next.<br><br>This applies to watermarks on all images (Nano Banana), videos (Omni), and songs (Lyria) except in countries where it's required by law to keep them. <a href="https://t.co/utHN0yDmD3">pic.twitter.com/utHN0yDmD3</a></p>&ndash; Josh Woodward (@joshwoodward) <a href="https://x.com/joshwoodward/status/2088259242423968162?ref_src=twsrc%5Etfw">August 14, 2026</a></blockquote> <script async src="https://platform.x.com/widgets.js" charset="utf-8"></script>
+<blockquote class="twitter-tweet"><p lang="en" dir="ltr">âœ… Papercut fixed: You can now toggle visible watermarks on or off in Gemini and Flow, with Search coming next.<br><br>This applies to watermarks on all images (Nano Banana), videos (Omni), and songs (Lyria) except in countries where it's required by law to keep them. <a href="https://t.co/utHN0yDmD3">pic.twitter.com/utHN0yDmD3</a></p>&ndash; Josh Woodward (@joshwoodward) <a href="https://x.com/joshwoodward/status/2088259242423968162?ref_src=twsrc%5Etfw">August 14, 2026</a></blockquote> <script async src="https://platform.x.com/widgets.js" charset="utf-8"></script>
 
 
 The rollout began August 14, 2026, and Google said it would reach accounts gradually over the following days.
@@ -83,6 +84,7 @@ A few important exceptions to know about.
 | Excluded accounts | Google Workspace (work and school) accounts |
 | What stays embedded regardless | SynthID invisible watermark, C2PA provenance metadata |
 
+permalink: /2026/08/17/gemini-visible-watermark-toggle-off.html
 ---
 
 ## What Does Not Change: SynthID and C2PA Metadata
@@ -117,6 +119,7 @@ Google's own framing, in Woodward's words, was about striking "a balance between
 
 There is also a competitive angle. Nano Banana competes directly with a growing field of free AI image generators, many of which do not apply visible watermarks at all. A cleaner default output makes Gemini's content easier to use across marketing and creative workflows, closing a real usability gap against competitors.
 
+permalink: /2026/08/17/gemini-visible-watermark-toggle-off.html
 ---
 
 ## Is the Visible Watermark Toggle Good or Bad for Business?
@@ -165,6 +168,7 @@ Since Google has said this feature is coming to Search's AI creation tools next,
 
 For the strongest, most trustworthy brand presence, mix AI-generated visuals with real photography, original graphics, and authentic behind-the-scenes content. This builds customer trust that a clean AI image alone cannot fully replicate.
 
+permalink: /2026/08/17/gemini-visible-watermark-toggle-off.html
 ---
 
 ## What This Means for Local Businesses and Startups
@@ -187,6 +191,7 @@ Features like this Gemini watermark toggle can change how your business creates 
 
 If you are unsure how to fit new AI creative tools into your existing brand strategy without losing customer trust, reach out and we can work through it together.
 
+permalink: /2026/08/17/gemini-visible-watermark-toggle-off.html
 ---
 
 
@@ -211,6 +216,7 @@ The smart move for business owners is treating this as a creative convenience, n
 If you want help building a content strategy that uses tools like Gemini wisely while keeping your brand's website, local SEO, and digital presence consistent and trustworthy, the F9XR Team works with business owners and local brands on exactly this kind of [website development](https://f9xr.org/pages/services.html), [website redesign](https://f9xr.org/pages/services.html), and [digital presence strategy](https://f9xr.org/pages/services.html) every day.
 
 
+permalink: /2026/08/17/gemini-visible-watermark-toggle-off.html
 ---
 
 *Produced using AI-assisted research and drafting workflows, then reviewed and edited by the F9XR editorial team. See our [Editorial Policy](https://f9xr.org/articles/press/editorial-policy.html) for how we create and verify content.*

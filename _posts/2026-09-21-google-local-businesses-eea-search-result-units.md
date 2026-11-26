@@ -1,4 +1,4 @@
----
+﻿---
 layout: post
 title: "Google EEA Search Units Now Include Local Businesses"
 description: "Google added local business queries to its new EEA search units. Here's what local businesses in Europe need to know and do next."
@@ -24,6 +24,7 @@ faq:
     a: "Google updated its Search Central documentation on September 18, 2026, adding local business queries to both the aggregator unit and supplier unit pages, which had originally launched on September 8, 2026, covering hotels, flights, trains and buses, and products."
   - q: "How can my local business benefit from this change?"
     a: "Keep your Google Business Profile accurate and complete, make sure your website has clean local business structured data, and pay attention to which industry-relevant directories or comparison platforms might become approved aggregators in your category."
+permalink: /2026/09/21/google-local-businesses-eea-search-result-units.html
 ---
 
 If you run a local business anywhere in the European Economic Area, from a plumber in Berlin to a bakery in Lisbon, Google Search just changed how customers might find you, and it happened with barely any noise. On September 18, 2026, Google quietly updated its Search Central documentation to confirm that local business queries are now supported in two redesigned EEA search result units that first rolled out earlier that month.
@@ -67,6 +68,7 @@ Google EEA local search update (September 2026)
 
 The two units are a package deal, which is the single most important thing to understand about them. That's why the aggregator side and the supplier side keep coming up together throughout this guide.
 
+permalink: /2026/09/21/google-local-businesses-eea-search-result-units.html
 ---
 
 ## What Actually Changed on September 18
@@ -103,6 +105,7 @@ Getting into the aggregator unit isn't automatic. A platform has to:
 
 For local business queries specifically, Google points aggregators to its [Local Point of Interest Feed documentation](https://developers.google.com/actions-center/verticals/lodging/reference/point-of-interest-feed){:target="_blank" rel="noopener noreferrer"} as the relevant data channel. So the platforms that feed this unit are expected to keep structured, up-to-date information flowing into Google, not just a one-time listing.
 
+permalink: /2026/09/21/google-local-businesses-eea-search-result-units.html
 ---
 
 ## How the Supplier Unit Works
@@ -131,6 +134,7 @@ Because the supplier unit leans on data Google already crawls, the structured da
 | **Query types covered** | Hotels, flights, trains/buses, products, and now local businesses | Same categories, shown alongside the aggregator unit |
 | **Region** | EEA only | EEA only |
 
+permalink: /2026/09/21/google-local-businesses-eea-search-result-units.html
 ---
 
 ## Why These EEA Search Units Matter for Local Businesses
@@ -175,6 +179,7 @@ If you have access to international visibility tools or a local SEO partner, che
 
 This is a documentation update, not a dramatic algorithm shake-up. But it does reflect a real shift in how Google structures local search results in the EEA, and local SEO strategies that account for it early will be better positioned as the rollout matures.
 
+permalink: /2026/09/21/google-local-businesses-eea-search-result-units.html
 ---
 
 ## Key Takeaways
@@ -192,6 +197,7 @@ This is a documentation update, not a dramatic algorithm shake-up. But it does r
 
 Changes like this are exactly why local SEO can't be a one-time setup. It's an ongoing process of keeping your website, structured data, and business listings aligned with how search engines actually display local results, especially as Google keeps testing new formats across different regions. The **F9XR Team** helps local businesses and startups stay ahead of these shifts through hands-on local SEO management, technical website audits, and structured data implementation that keeps your business accurately represented no matter which unit, panel, or AI-generated summary Google decides to show. If you serve customers in the EEA or anywhere else, a proper local SEO foundation is what keeps you visible as these result formats continue to evolve. For businesses whose websites can't support clean structured data or clear NAP information yet, fixing the technical foundation, which we covered in our guide on [moving from a quick site build to a premium website](https://f9xr.org/articles/2026/08/12/vibe-coded-site-to-premium-website-tools.html), is usually the first and highest-impact step.
 
+permalink: /2026/09/21/google-local-businesses-eea-search-result-units.html
 ---
 
 ## Conclusion

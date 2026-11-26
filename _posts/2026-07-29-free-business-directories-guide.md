@@ -22,6 +22,7 @@ faq:
     a: "Most businesses see measurable local ranking improvements within 60 to 90 days after completing their directory submissions. Google Business Profile often shows results within 2 to 4 weeks when fully optimized with photos, posts, and regular updates."
   - q: "Can I list my business on multiple directories for free?"
     a: "Yes. The majority of business directories offer free listings. Some platforms offer paid upgrades for additional features like enhanced visibility or analytics, but the basic listing is typically free. F9XR Directories curates over 100 free platforms to help you get started."
+permalink: /2026/07/29/free-business-directories-guide.html
 ---
 
 Getting your business found online is harder than ever. You build a website, optimize your content, and still wonder why customers are not showing up.
@@ -61,6 +62,7 @@ Research shows that 67% of consumers check business directories weekly to find l
   <figcaption>Photo by <a href="https://unsplash.com/@drwmrk?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText" target="_blank" rel="noopener noreferrer">Andrew Stutesman</a> on <a href="https://unsplash.com/photos/l68Z6eF2peA?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText" target="_blank" rel="noopener noreferrer">Unsplash</a></figcaption>
 </figure>
 
+permalink: /2026/07/29/free-business-directories-guide.html
 ---
 
 ## Types of Business Directories You Should Know
@@ -147,6 +149,7 @@ F9XR Directories curates over 100 of these platforms in one place, organized by 
 <br><br>
 <a href="https://f9xr.org/directories" target="_blank" rel="noopener noreferrer" style="display:inline-block; background:transparent; color:#3b82f6 !important; border:2px solid #3b82f6; padding:0.6em 1.5em; border-radius:8px; font-weight:600; text-decoration:none !important; transition:all 0.2s;" onmouseover="this.style.background='rgba(59,130,246,0.1)'" onmouseout="this.style.background='transparent'">Browse All Directories &rarr;</a>
 
+permalink: /2026/07/29/free-business-directories-guide.html
 ---
 
 ## How to Submit Your Business to Free Directories
@@ -226,6 +229,7 @@ Set a quarterly reminder to audit your top 10 directories and make sure everythi
 
 **Forgetting niche directories.** General directories are the foundation. But niche directories reach your specific audience with higher intent. A SaaS company gets more value from a G2 listing than from a general Yellow Pages listing.
 
+permalink: /2026/07/29/free-business-directories-guide.html
 ---
 
 ## How Directory Listings Help with AI Search
@@ -255,6 +259,7 @@ The same consistency, completeness, and authority signals that help you rank on 
 - Maintain and update your listings quarterly for best results
 - <a href="https://f9xr.org/directories/business-listing-sites.html" target="_blank" rel="noopener noreferrer">F9XR Directories</a> curates over 100 free platforms to simplify the process
 
+permalink: /2026/07/29/free-business-directories-guide.html
 ---
 
 ## Tired of Manual Citations?

@@ -1,4 +1,4 @@
----
+﻿---
 layout: post
 title: "Google Universal Cart Is Live: What Store Owners Must Do"
 description: "Google's Universal Cart launched in the U.S. on Oct 15, 2026. See how it works, how to use it, and how store owners can get ready."
@@ -24,6 +24,7 @@ faq:
     a: "Google has not announced a separate sign up in its launch posts. The building blocks are an accurate product feed in Google Merchant Center and the Universal Commerce Protocol (UCP) integration hub for checkout features. Start by cleaning your feed and exploring the hub."
   - q: "Is Universal Cart available outside the U.S.?"
     a: "Not yet. The launch is U.S. only. Google has said its UCP powered checkout will expand to Canada and Australia in the coming months and later to the U.K. Stores elsewhere can still prepare by improving their Merchant Center feed and tracking AI visibility."
+permalink: /2026/10/18/google-universal-cart-store-owners-guide.html
 ---
 
 Think about how you shop online. You open one tab for a jacket, another for sneakers, a third for a gift, and then you forget where you saw the better price. Now imagine Google quietly fixing that problem for your customers, and in the process changing how they find, compare and buy from your store.
@@ -67,6 +68,7 @@ Per Google's launch post, the cart is available in the U.S. across Google Search
 
 <iframe width="100%" height="400" src="https://www.youtube.com/embed/T93imZMYNNw" title="Universal Cart - Google's AI Wants to Shop for You" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen loading="lazy"></iframe>
 
+permalink: /2026/10/18/google-universal-cart-store-owners-guide.html
 ---
 
 ## How Universal Cart Works
@@ -107,6 +109,7 @@ You do not need a special app. The flow is simple, and it is worth trying yourse
 
 **Practical tip:** Google has not published exact button names or screen layouts in the announcements, and interfaces change fast. Do a test run on your own phone this week and take notes on where your products appear.
 
+permalink: /2026/10/18/google-universal-cart-store-owners-guide.html
 ---
 
 <img src="https://f9xr.org/articles/assets/post-images/google-universal-cart-checkout-example.webp" alt="Checkout example showing transfer to merchant site via Universal Cart" width="1000" height="562" loading="lazy" />
@@ -155,6 +158,7 @@ Google updated its UCP integration hub in Merchant Center so merchants can turn 
 
 As agentic commerce grows, more of your customer acquisition happens inside platforms you do not control, and your costs rise with them. It is smart to benefit from Google's cart without letting it become your only sales channel. Keep building your email list, your direct traffic and your brand search. For local businesses, our guide on [how AI picks local businesses](https://f9xr.org/articles/2026/08/16/how-ai-picks-local-businesses-2026.html) explains how to stay visible across AI surfaces.
 
+permalink: /2026/10/18/google-universal-cart-store-owners-guide.html
 ---
 
 ## Your Universal Cart Action Plan
@@ -183,6 +187,7 @@ You do not need a giant budget to respond to this. Start small and be consistent
 - Collect real reviews. Fresh, genuine reviews help both shoppers and AI tools judge whether you can be trusted.
 - Track what you can. Tag your campaigns and watch referral sources so you spot new traffic from AI surfaces early.
 
+permalink: /2026/10/18/google-universal-cart-store-owners-guide.html
 ---
 
 ## Is This Available Outside the U.S.?
@@ -202,6 +207,7 @@ Not yet for Universal Cart itself. The launch is U.S. only. Google has said its 
 - Do not rely on one platform. Keep growing direct traffic, email and brand search.
 - Test the cart yourself, then fix your feed, schema, mobile speed and policies.
 
+permalink: /2026/10/18/google-universal-cart-store-owners-guide.html
 ---
 
 ## What This Comes Down To

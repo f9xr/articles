@@ -1,4 +1,4 @@
----
+﻿---
 layout: post
 title: "Google Ads Channel Prioritization: A Practical Guide"
 description: "Google Ads now lets you set High or Low channel priority and cap Display and Search partner spend. See how channel prioritization works and what changes next."
@@ -22,6 +22,7 @@ faq:
     a: "Starting in February 2027, for Search campaigns with the Google Display Network turned on, the current spend allocation setup goes away and advertisers may see a shift in channel spending. To keep the current configuration, Google says to set the Display Network to Low priority with a 50% budget allocation."
   - q: "Do channel priority settings work with Target CPA and Target ROAS?"
     a: "Yes. Campaigns with Target CPA or Target ROAS fund high priority channels within the target first. Google adds that when these campaigns are not limited by budget, prioritization alone generally will not change spend, so the budget allocation percentage is the more useful control."
+permalink: /2026/10/15/google-ads-channel-prioritization-budget-allocation.html
 ---
 
 Every rupee or dollar you point at a weak channel is money your strongest channel never got to spend. That single line is the whole problem with the network toggles in Google Ads, and it has been the problem for years.

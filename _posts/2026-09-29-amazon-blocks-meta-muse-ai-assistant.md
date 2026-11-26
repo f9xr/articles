@@ -1,4 +1,4 @@
----
+﻿---
 layout: post
 title: "Amazon Blocks Meta Muse: What Small Businesses Do"
 description: "Amazon blocked Meta's Muse AI agent from shopping. Here is what the standoff means for small businesses and how to get ready for AI shopping agents."
@@ -26,6 +26,7 @@ faq:
     a: "Decide deliberately rather than by default. Many small sites see agent traffic before they ever see agent orders, and a blanket block can remove a future sales channel at no measurable cost. Write your position into your terms of service, keep account and checkout pages off limits to automated tools, and revisit the decision once you can see real agent sessions."
   - q: "Is Meta's Muse safe to use for shopping?"
     a: "Meta says Muse cannot directly view passwords or payment methods, that credentials sit in secure storage, and that the agent runs inside an isolated virtual machine. Amazon disputes parts of that account. Whichever tool you use, turn on multi-factor authentication, review connected accounts periodically, and never share a password over chat or email."
+permalink: /2026/09/29/amazon-blocks-meta-muse-ai-assistant.html
 ---
 
 Amazon's advertising business passed $68 billion last year. Every one of those impressions is sold against a shopper who loaded a product page.

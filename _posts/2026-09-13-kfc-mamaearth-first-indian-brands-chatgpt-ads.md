@@ -1,4 +1,4 @@
----
+﻿---
 layout: post
 title: "KFC, Mamaearth Become First Indian Brands on ChatGPT Ads"
 description: "KFC India and Mamaearth are the first Indian brands advertising on ChatGPT. Here's what this shift to conversational AI ads means for your business."
@@ -21,7 +21,8 @@ faq:
   - q: "Who sees ads on ChatGPT in India?"
     a: "Ads are currently shown only to users on ChatGPT's Free and Go tiers who are 18 or older. Users on Plus, Pro, Business, Enterprise, and Education plans do not see ads."
   - q: "Can small businesses advertise on ChatGPT in India?"
-    a: "Yes. OpenAI launched a self-serve Ads Manager in India on September 4, 2026, allowing any business to create campaigns directly, with a minimum daily budget of roughly ₹725."
+    a: "Yes. OpenAI launched a self-serve Ads Manager in India on September 4, 2026, allowing any business to create campaigns directly, with a minimum daily budget of roughly â‚¹725."
+permalink: /2026/09/13/kfc-mamaearth-first-indian-brands-chatgpt-ads.html
 ---
 
 For years, the way Indian consumers discovered a quick meal or a new skincare product followed a familiar path: type a query into Google, scroll through results, maybe check a review site, then decide. That path just got a new competitor, and two Indian brands have already jumped in.
@@ -53,6 +54,7 @@ Both campaigns arrive alongside a third entrant, Sebamed, which worked with WPP 
 
 <iframe src="https://www.linkedin.com/embed/feed/update/urn:li:share:7500403076328026112?collapsed=1" height="669" width="504" frameborder="0" allowfullscreen="" title="Embedded post"></iframe>
 
+permalink: /2026/09/13/kfc-mamaearth-first-indian-brands-chatgpt-ads.html
 ---
 
 ## Why This Is Happening Now: OpenAI's Ad Rollout in India
@@ -62,7 +64,7 @@ These campaigns didn't happen in isolation. They're a direct result of OpenAI's 
 | Phase | Date | What Happened |
 |---|---|---|
 | Phase 1 | August 27, 2026 | OpenAI announced managed ads for ChatGPT's Free and Go tier users in India, with WPP and Omnicom as the first official agency partners. Over 50 brands launched campaigns in this initial wave. |
-| Phase 2 | September 4, 2026 | OpenAI opened self-serve access to its Ads Manager in India, letting any business, not just the initial agency-backed brands, create and run campaigns directly, with a minimum daily budget of roughly ₹725. |
+| Phase 2 | September 4, 2026 | OpenAI opened self-serve access to its Ads Manager in India, letting any business, not just the initial agency-backed brands, create and run campaigns directly, with a minimum daily budget of roughly â‚¹725. |
 
 Ads currently appear only for users on ChatGPT's Free and Go tiers. Users on Plus, Pro, Business, Enterprise, and Education plans remain ad-free, and ads are shown only to users aged 18 and above. That targeting detail matters. Free and Go tier users in India tend to skew toward students, early-career professionals, small business owners, and cost-conscious consumers, a meaningful audience for both consumer brands and budget-friendly B2B services.
 
@@ -78,6 +80,7 @@ For example, someone might ask ChatGPT "what are the best affordable meal option
 
 This is the shift Singh described when he called it the move "from the search bar to the conversation." Food decisions, and really most purchase decisions, have always happened through some form of internal or social conversation: what sounds good tonight, what's worth trying, what fits the budget. AI platforms like ChatGPT are now becoming part of that conversation directly, rather than just an information lookup tool.
 
+permalink: /2026/09/13/kfc-mamaearth-first-indian-brands-chatgpt-ads.html
 ---
 
 ## What ChatGPT Advertising Means for Business Owners and Startups
@@ -90,7 +93,7 @@ With more than 50 brands expected to onboard during India's initial commercial r
 
 ### 2. Small Businesses Can Test This Too
 
-While KFC and Mamaearth are large, well-known names, OpenAI's self-serve Ads Manager, live since September 4, 2026, lowers the barrier to entry considerably. With a minimum daily budget of around ₹725, small businesses and startups can realistically test conversational advertising without needing an agency partnership or a massive marketing budget.
+While KFC and Mamaearth are large, well-known names, OpenAI's self-serve Ads Manager, live since September 4, 2026, lowers the barrier to entry considerably. With a minimum daily budget of around â‚¹725, small businesses and startups can realistically test conversational advertising without needing an agency partnership or a massive marketing budget.
 
 ### 3. Being Recommended by AI Matters More Than Ever
 
@@ -112,6 +115,7 @@ You don't need a big campaign budget to start preparing. These moves are low-cos
 4. Watch how your competitors respond. If brands in your industry start testing ChatGPT ads, monitor how their campaigns perform and adjust your own strategy accordingly rather than waiting until the space becomes crowded.
 5. Don't abandon traditional SEO in the process. Conversational AI advertising is a new channel, not a replacement for the search visibility and website optimization that still drives a large share of discovery today. Making your [site visible to AI engines](https://f9xr.org/articles/2026/08/14/steps-make-business-site-visible-to-ai.html) works alongside classic SEO, not instead of it.
 
+permalink: /2026/09/13/kfc-mamaearth-first-indian-brands-chatgpt-ads.html
 ---
 
 ## Key Takeaways
@@ -139,6 +143,7 @@ The **F9XR Team** helps businesses prepare for this shift through:
 
 As conversational AI becomes a bigger part of how customers discover and decide, the businesses that prepare now, rather than waiting until it gets crowded, will have the clearer advantage.
 
+permalink: /2026/09/13/kfc-mamaearth-first-indian-brands-chatgpt-ads.html
 ---
 
 ## Conclusion

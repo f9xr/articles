@@ -1,4 +1,4 @@
----
+﻿---
 layout: post
 title: "Google Spam Update Is Over: What To Check This Week"
 description: "Google finished its September 2026 spam update on October 8 after 13 days and 16 hours. See what we know, what we don't, and how to check your site."
@@ -22,6 +22,7 @@ faq:
     a: "Open Search Console and compare clicks and impressions for the 14 days before September 24 with the rollout window of September 24 to October 8. Check the Manual actions report, rule out technical and seasonal causes, then look at which pages and queries changed."
   - q: "How long does recovery from a spam update take?"
     a: "There is no fixed timeline. Google has said recovery from spam related demotions can take many months. After you fix problems, its automated systems need time to recognize the improvement, so expect gradual change and keep monitoring."
+permalink: /2026/10/09/google-september-2026-spam-update-complete.html
 ---
 
 If you have spent the last two weeks refreshing Search Console and wondering whether your rankings were about to fall off a cliff, you can finally stop holding your breath. Google has confirmed that its **September 2026 spam update is complete**.
@@ -50,6 +51,7 @@ Here are the verified facts, based on Google's Search Status Dashboard and repor
 
 You can read Google's own explanation of what a spam update is on its [spam updates documentation page](https://developers.google.com/search/docs/appearance/spam-updates){:target="_blank" rel="noopener noreferrer"}. In short, it is a notable improvement to the automated systems that detect content and practices that break Google's spam policies.
 
+permalink: /2026/10/09/google-september-2026-spam-update-complete.html
 ---
 
 ## How This Rollout Compares With Earlier 2026 Spam Updates
@@ -80,6 +82,7 @@ This is the part that frustrates site owners, so let us be direct about it.
 
 Here is what that means in practice. A spam update enforces Google's existing spam policies. So instead of chasing rumors about one hidden tactic, your safest move is to check your site against the full policy list.
 
+permalink: /2026/10/09/google-september-2026-spam-update-complete.html
 ---
 
 ## What Early Data Shows (With Honest Caveats)
@@ -155,6 +158,7 @@ If you have a sustained, unexplained drop that lines up with the rollout, review
 
 For a deeper walkthrough, read our guide on [how to check if your site looks like AI spam](https://f9xr.org/articles/2026/10/05/check-if-your-site-is-ai-spam-google.html), and see how Google's own rules on AI content work in our post on [Google's fact check guidance for AI content](https://f9xr.org/articles/2026/10/02/google-ai-content-guidance-fact-check-update.html).
 
+permalink: /2026/10/09/google-september-2026-spam-update-complete.html
 ---
 
 ## What To Do Now (And What Not To Do)
@@ -188,6 +192,7 @@ Honestly, longer than anyone wants. Google has said that recovery after spam rel
 
 That is why steady improvement beats dramatic overhauls. Fix what is wrong, document it, and keep publishing useful content while you wait.
 
+permalink: /2026/10/09/google-september-2026-spam-update-complete.html
 ---
 
 ## What This Means for Local Businesses
@@ -211,6 +216,7 @@ Google has not said that spam updates influence other platforms, and we would no
 
 AI assistants that look up live information tend to rely on web pages and search results. Pages that are thin, copied, or full of unchecked claims are a shaky foundation for being quoted anywhere. Accurate, original, clearly attributed content with consistent business details is easier for both Google and AI tools to trust. No tactic guarantees a citation, but the habits that keep you safe in Google are the same habits that help you in AI search. See our guides on [how AI picks local businesses in 2026](https://f9xr.org/articles/2026/08/16/how-ai-picks-local-businesses-2026.html) and [steps to make your business site visible to AI](https://f9xr.org/articles/2026/08/14/steps-make-business-site-visible-to-ai.html).
 
+permalink: /2026/10/09/google-september-2026-spam-update-complete.html
 ---
 
 ## How F9XR Team Can Help You
@@ -237,6 +243,7 @@ If your traffic changed during the rollout and you want a second opinion, you ca
 - **Audit against Google's spam policies, not rumors.** Scaled content, doorway pages, and risky links are common problems on small business sites.
 - **Recovery can take months.** Fix the weak pages, keep a log, and avoid panic edits.
 
+permalink: /2026/10/09/google-september-2026-spam-update-complete.html
 ---
 
 ## Conclusion

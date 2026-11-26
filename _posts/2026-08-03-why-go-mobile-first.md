@@ -1,4 +1,4 @@
----
+﻿---
 layout: post
 title: "Why Go Mobile-First in 2026: Design and Engineering"
 description: "Mobile-first design wins in 2026. See the traffic data, the behavior gap, and a practical plan to go mobile-first and close the mobile conversion gap."
@@ -22,6 +22,7 @@ faq:
     a: "Mobile bounce rates hover around 50% and desktop conversion rates run roughly 1.5 to 2 percentage points higher, mostly because of screen size constraints, checkout form friction, and perceived payment security issues. The fix is mobile-first engineering of the flow itself, not mobile-friendly styling alone."
   - q: "How do I start designing mobile-first?"
     a: "Start from a 375px viewport, keep primary actions in the bottom half of the screen within thumb reach, use touch targets of at least 48 by 48 pixels, budget performance for the median device and connection, and redesign checkout for autofill and saved payment methods."
+permalink: /2026/08/03/why-go-mobile-first.html
 ---
 
 Open your phone. That's where most of your visitors already are, whether you built your site for them or not.

@@ -1,4 +1,4 @@
----
+﻿---
 layout: post
 title: "Herringbone Quality Rater Tool: We Tested It on Our Post"
 description: "We ran our own article through qualityrater.herringbone.ai. Here is how the AI quality rater works, what it scored us, and what it cannot see."
@@ -20,6 +20,7 @@ faq:
     a: "It cannot judge your reputation, your visual layout, your ad placement or your other pages. Those need human research, and the report includes a checklist for them."
   - q: "Does a High rating improve my Google rankings?"
     a: "Not directly. Treat the rating as a quality health check. Strong, helpful, trustworthy pages tend to perform better over time, but the score itself is not a ranking factor."
+permalink: /2026/10/20/qualityrater-herringbone-ai-tool-review-how-it-works.html
 ---
 
 Most business owners never see how Google thinks about content quality. You publish a page, you wait, and you hope for the best. Then a tool shows up that lets you grade any URL the way a human quality rater would, and it costs a fraction of a cent per run.
@@ -47,6 +48,7 @@ A few facts that matter before you try it:
 
 If you want the source material, Google publishes the full [Search Quality Rater Guidelines](https://static.googleusercontent.com/media/guidelines.raterhub.com/en//searchqualityevaluatorguidelines.pdf){:target="_blank" rel="noopener noreferrer"} as a public PDF, alongside its [guidance on helpful, people-first content](https://developers.google.com/search/docs/fundamentals/creating-helpful-content){:target="_blank" rel="noopener noreferrer"}.
 
+permalink: /2026/10/20/qualityrater-herringbone-ai-tool-review-how-it-works.html
 ---
 
 ## How qualityrater.herringbone.ai Works in Three Steps
@@ -128,6 +130,7 @@ The tool leaned Moderately Meets but also put 53% on Highly Meets for the single
 
 A model can feel nervous about a topic while the evidence stays clean. That is exactly why the report separates what the model thinks from what the code can prove. When the two disagree, a human has to make the call.
 
+permalink: /2026/10/20/qualityrater-herringbone-ai-tool-review-how-it-works.html
 ---
 
 ## What This Means for Business Owners and Local Businesses
@@ -164,6 +167,7 @@ Treat the score as a trend line. If quality moves from Medium toward High after 
 4. **Know your YMYL level.** Health, money and safety topics are held to a higher standard. Read [what YMYL means in SEO](https://f9xr.org/articles/2026/09/14/what-is-ymyl-in-seo.html) if your site touches those areas.
 5. **Do not chase the tool, chase the reader.** The best rating comes from content that helps someone.
 
+permalink: /2026/10/20/qualityrater-herringbone-ai-tool-review-how-it-works.html
 ---
 
 ## Key Takeaways
@@ -184,6 +188,7 @@ A good quality check should make you slightly uncomfortable and a lot more usefu
 
 Run it on your most important page this week, fix the top two items under "Why not higher," and test again. If you would rather have a team handle the heavy lifting, F9XR Team supports businesses with website development, website redesign, local SEO and complete digital presence solutions, so your content and your site both earn the trust they deserve.
 
+permalink: /2026/10/20/qualityrater-herringbone-ai-tool-review-how-it-works.html
 ---
 
 ## How F9XR Team Can Help

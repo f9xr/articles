@@ -1,4 +1,4 @@
----
+﻿---
 layout: post
 title: "Google Bans Fixed-Quota Betting Ads in Brazil"
 description: "Google now bans fixed-quota betting ads in Brazil. Learn what changed, who is affected, how recertification works, and what advertisers should do next."
@@ -21,6 +21,7 @@ faq:
     a: "Google said the update reflects recent regulatory changes in Brazil. A provisional measure published on September 25, 2026 prohibits operating, offering, intermediating and advertising fixed-odds betting in the country."
   - q: "What should advertisers do now?"
     a: "Pause Brazil campaigns for fixed quota betting, review Google's policy page, re-apply for certification if you advertise lotteries or horse racing, audit landing pages, consult a Brazilian lawyer and diversify beyond paid ads."
+permalink: /2026/10/12/google-bans-fixed-quota-betting-ads-brazil.html
 ---
 
 Brazil spent years building a licensed betting market. A federal licence was reported to cost around R$30 million, roughly US$6 million, before an operator could serve a single customer. On September 30, 2026, Google banned fixed-quota betting ads in Brazil and switched off the advertising channel that market leaned on. No warning period, no wind-down.
@@ -35,6 +36,7 @@ You may not run a betting brand. But if you buy ads, manage campaigns for client
 
 **Did Google ban fixed-quota betting ads in Brazil?** Yes. As of September 30, 2026, Google Ads disallows the promotion of fixed quota betting in Brazil, removes the category from the permitted gambling types, and will no longer certify advertisers for it. Existing Brazil certificates for lotteries and horse racing are also revoked, and those advertisers must re-apply.
 
+permalink: /2026/10/12/google-bans-fixed-quota-betting-ads-brazil.html
 ---
 
 ## Quick Facts at a Glance
@@ -101,11 +103,12 @@ Fixed quota betting is the English version of the Brazilian term *apostas de quo
 
 The distinction matters for compliance teams. The ban targets one category, not gambling as a whole. Lotteries that are authorized by law fall outside the measure, and daily fantasy sports still has its own path.
 
+permalink: /2026/10/12/google-bans-fixed-quota-betting-ads-brazil.html
 ---
 
 ## Why Google Banned Fixed-Quota Betting Ads in Brazil
 
-Google said the update reflects recent regulatory changes. The big one is Medida Provisória 1.394, signed by President Luiz Inácio Lula da Silva and published on September 25, 2026. The [full text on Planalto](https://www.planalto.gov.br/ccivil_03/_ato2023-2026/2026/mpv/mpv1394.htm){:target="_blank" rel="noopener noreferrer"} is short, and you should read it before you accept a client's version of what it says.
+Google said the update reflects recent regulatory changes. The big one is Medida ProvisÃ³ria 1.394, signed by President Luiz InÃ¡cio Lula da Silva and published on September 25, 2026. The [full text on Planalto](https://www.planalto.gov.br/ccivil_03/_ato2023-2026/2026/mpv/mpv1394.htm){:target="_blank" rel="noopener noreferrer"} is short, and you should read it before you accept a client's version of what it says.
 
 Based on that text and the [Ministry of Finance explainer](https://www.gov.br/fazenda/pt-br/composicao/orgaos/secretaria-de-premios-e-apostas/medida-provisoria-ndeg-1-394-2026-entenda-as-novas-regras-para-as-apostas-de-quota-fixa){:target="_blank" rel="noopener noreferrer"}, the measure:
 
@@ -123,9 +126,9 @@ The reversal is sharp. Brazil built this licensed market only recently. When Goo
 | September 25, 2026 | Provisional Measure 1.394 is published. New deposits into betting accounts stop. |
 | Late September 2026 | Industry groups challenge the measure at Brazil's Supreme Federal Court. |
 | September 30, 2026 | Google updates its Brazil Gambling and games policy. |
-| October 5, 2026 | Withdrawal window for players closes at 23:59 Brasília time. |
+| October 5, 2026 | Withdrawal window for players closes at 23:59 BrasÃ­lia time. |
 | October 6, 2026 | Licensed betting sites go offline. Government lawyers urge the court to keep the ban. |
-| October 8, 2026 | A São Paulo federal court grants one operator a partial injunction, valid until October 25. |
+| October 8, 2026 | A SÃ£o Paulo federal court grants one operator a partial injunction, valid until October 25. |
 | October 13, 2026 | Deadline for lawmakers to file amendments to the measure. |
 | October 25, 2026 | Authorizations expire under the measure, and the presidential runoff takes place. |
 
@@ -142,6 +145,7 @@ The reversal is sharp. Brazil built this licensed market only recently. When Goo
 | Sports media, clubs and creators | Sponsorship and promotional material tied to fixed-odds betting falls under the national measure | Review contracts and content with a lawyer |
 | Local and general businesses | No direct ban, but sports related promotions can drift near sensitive categories | Keep ads and pages clearly separate from betting content |
 
+permalink: /2026/10/12/google-bans-fixed-quota-betting-ads-brazil.html
 ---
 
 ## The Legal Picture Is Still Moving
@@ -170,6 +174,7 @@ Gambling, finance, health and similar topics sit in what search professionals ca
 
 Google handles gambling country by country. A campaign that is fine in one market can be disallowed in another. If you advertise across borders, check the local policy page and the local law for each market, every time.
 
+permalink: /2026/10/12/google-bans-fixed-quota-betting-ads-brazil.html
 ---
 
 ## Practical Steps You Can Take This Week
@@ -208,6 +213,7 @@ The strongest protection against a sudden policy shock is an online presence you
 
 Organic and local visibility will not replace every paid channel, but it softens the blow when one disappears. The return on that work is slower to show up than a paid click, and it does not vanish when a policy changes.
 
+permalink: /2026/10/12/google-bans-fixed-quota-betting-ads-brazil.html
 ---
 
 ## How F9XR Team Can Help
@@ -235,6 +241,7 @@ If you want a more resilient digital presence, you can [contact the F9XR Team](h
 - Treat Google's rule as in force until Google says otherwise, regardless of court news.
 - Every business can learn from this: diversify traffic, monitor policy changes and invest in channels you own.
 
+permalink: /2026/10/12/google-bans-fixed-quota-betting-ads-brazil.html
 ---
 
 ## Conclusion
@@ -243,6 +250,6 @@ Google's decision to ban fixed-quota betting ads in Brazil is a reminder that pa
 
 For everyone else, it is a good prompt to measure how much of your growth depends on a single channel. Owned assets such as a well built website, strong local SEO and clear, trustworthy content keep working when a platform changes its mind. If you are weighing website development, a website redesign, local SEO or a stronger digital presence, F9XR Team is here to help you build something that holds up when the rules change.
 
-*Sources used for reporting: Google Ads Advertising Policies Help Center, Brazil's Planalto and Ministry of Finance publications on Medida Provisória 1.394, the Congress Nacional matter page, and AGBrief. Details may change as courts and Congress act.*
+*Sources used for reporting: Google Ads Advertising Policies Help Center, Brazil's Planalto and Ministry of Finance publications on Medida ProvisÃ³ria 1.394, the Congress Nacional matter page, and AGBrief. Details may change as courts and Congress act.*
 
 *Produced using AI-assisted research and drafting workflows, then reviewed and edited by the F9XR editorial team. See our [Editorial Policy](https://f9xr.org/articles/press/editorial-policy.html) for how we create and verify content.*

@@ -1,4 +1,4 @@
----
+﻿---
 layout: post
 title: "Google Hands Restaurants the Off Switch for Ordering Apps"
 description: "Google now lets restaurant owners turn off third-party ordering providers from their Business Profile. Here is how it works and what to check first."
@@ -20,6 +20,7 @@ faq:
     a: "Not necessarily. Removing a link from your Google profile is separate from your agreement with the platform. Check your contract for fees, notice periods, and exclusivity terms, and contact the provider if you want to end the relationship."
   - q: "Should I remove all third-party providers from my profile?"
     a: "Not automatically. Google itself noted that a mix of trusted providers can work in your favor. Review order volume, fees, and your own delivery capacity first. Many restaurants keep one delivery partner while pushing direct orders for pickup."
+permalink: /2026/10/29/google-lets-restaurants-opt-out-third-party-ordering.html
 ---
 
 Picture a small restaurant owner on a busy Friday. A customer finds the place on Google Maps, taps "Order online," and lands on a delivery app the owner never really chose. The app takes its cut, the customer sees a competitor's suggestions on the next screen, and the owner finds out only when the numbers come in at the end of the month.

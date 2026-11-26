@@ -23,6 +23,7 @@ faq:
     a: "No. Google Search shows results based on a typed query, while Discover shows content proactively based on a user's interests and behavior, without any search input at all."
   - q: "How can I check if my site is getting organic Discover traffic?"
     a: "Use Google Search Console's Discover performance report, found under the Performance section. It shows impressions, clicks, and CTR specifically from the organic Discover feed."
+permalink: /2026/08/27/google-discover-ads-permanent-placement.html
 ---
 
 If you have ever seen your business ad pop up in someone's Google Discover feed and thought "great, now I'm in Discover for good," you are not alone. It's one of the most common misunderstandings we hear from business owners at F9XR Team, and honestly, it makes sense on the surface. You paid for visibility, Google showed your content, so shouldn't that visibility stick around?
@@ -57,6 +58,7 @@ Google's own [Discover guidelines](https://developers.google.com/search/docs/app
 
 None of these signals are influenced by whether you are running a Google Ads campaign.
 
+permalink: /2026/08/27/google-discover-ads-permanent-placement.html
 ---
 
 ## What Google Discover Ads Actually Are
@@ -94,6 +96,7 @@ Think of it the same way you would think about a billboard. Renting a billboard 
 | Long-term traffic | Stops immediately after campaign ends | Can generate ongoing traffic for weeks or months |
 | Does it help organic Discover later? | No direct ranking benefit | N/A, this is the organic system itself |
 
+permalink: /2026/08/27/google-discover-ads-permanent-placement.html
 ---
 
 ## So Why Do People Think Ads Get You Into Discover "Forever"?
@@ -148,6 +151,7 @@ Google has explicitly stated that exaggerated or misleading headlines can get co
 
 Make sure your site follows Google's Discover content policies (no spam, no misleading claims) and that structured data like Article schema is implemented correctly. Our guide to the [essential text files for SEO, AEO, and GEO](https://f9xr.org/articles/2026/08/08/essential-txt-files-seo-aeo-geo-2026.html) covers the robots and structured-data basics that keep pages eligible.
 
+permalink: /2026/08/27/google-discover-ads-permanent-placement.html
 ---
 
 ## Real-World Example
@@ -170,6 +174,7 @@ This is the pattern we see repeatedly with clients at F9XR Team: the ad spend di
 - Treating Discover ads as an SEO tool instead of a short-term visibility tool
 - Ignoring Search Console's [Discover performance report](https://support.google.com/webmasters/answer/9216516){:target="_blank" rel="noopener noreferrer"}, which is the only reliable way to see actual organic Discover data
 
+permalink: /2026/08/27/google-discover-ads-permanent-placement.html
 ---
 
 ## How F9XR Team Can Help
@@ -197,6 +202,7 @@ If you are currently running or considering Google Discover ads and want a strat
 - A sustainable content strategy will always outperform ad spend for long-term Discover visibility
 - Use Google Search Console's Discover report to separate paid results from organic performance
 
+permalink: /2026/08/27/google-discover-ads-permanent-placement.html
 ---
 
 ## Conclusion

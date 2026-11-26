@@ -1,4 +1,4 @@
----
+﻿---
 layout: post
 title: "Build Your Own SEO Team: The 3 Roles You Need First"
 description: "Learn how to build your own SEO team in-house, with freelancers, or hybrid. Roles, tools, hiring tips, and a 90-day plan for small and local businesses."
@@ -21,6 +21,7 @@ faq:
     a: "Be cautious of anyone who guarantees a #1 ranking, claims a special relationship with Google, offers a priority submission, or contacts you with unsolicited pitches. Also watch for secrecy about methods, vanity-only reporting, requirements to link to them, and refusal to give you ownership of your accounts."
   - q: "Do I still need an SEO team in the age of AI search?"
     a: "Yes. AI answer engines such as ChatGPT, Gemini, Claude, and Perplexity rely on web content, so clear structure, trustworthy sourcing, consistent business details, and crawler access still matter. No one can promise AI citations, but a good SEO team makes your business easier to find and understand."
+permalink: /2026/10/07/how-to-create-your-own-seo-team.html
 ---
 
 Most business owners meet SEO the same way. A friend says "you should be on Google." A freelancer sends a proposal. Someone writes a few blog posts. Six months later, there is no plan, no owner, and no idea whether any of it worked.
@@ -39,6 +40,7 @@ To build an SEO team, set clear business goals, choose a team model (in-house, f
 
 Notice the word "roles," not "people." In a small business, one person can wear two or three hats. What matters is that every job has an owner.
 
+permalink: /2026/10/07/how-to-create-your-own-seo-team.html
 ---
 
 ## What Does an SEO Team Actually Do in 2026?
@@ -64,6 +66,7 @@ Before you hire anyone, run a quick gut check. Google's own guidance on this top
 
 So the real question is not "Do I need a team?" It is "Do I have enough work, and enough ability to act on it, to justify dedicated people?" If the honest answer is "not yet," start with a lean version: you, a few free tools, and one part-time helper. You can always grow.
 
+permalink: /2026/10/07/how-to-create-your-own-seo-team.html
 ---
 
 ## The Three Roles to Fill First
@@ -94,6 +97,7 @@ If those three jobs are covered, you already have a real SEO team. Everything el
 
 If your business is local, our guides on [ranking in Google Maps in 2026](https://f9xr.org/articles/2026/08/16/rank-number-1-google-maps-2026.html) and [how AI picks local businesses](https://f9xr.org/articles/2026/08/16/how-ai-picks-local-businesses-2026.html) show what your local specialist should be working on.
 
+permalink: /2026/10/07/how-to-create-your-own-seo-team.html
 ---
 
 ## Choose Your Team Model
@@ -241,6 +245,7 @@ Check AI visibility manually at first. Ask ChatGPT, Gemini, Claude, and Perplexi
 
 Write down how you do things: your content checklist, your publishing steps, your naming rules, your approval process. Documentation protects you when a freelancer leaves or a staff member is on leave. Review the team every quarter. Ask whether each role is still needed, still performing, and still tied to a goal.
 
+permalink: /2026/10/07/how-to-create-your-own-seo-team.html
 ---
 
 ## A Realistic Week for a Solo Owner or Tiny Team
@@ -269,6 +274,7 @@ But treat AI as a team member who needs supervision, not as the team:
 - Mass-producing thin, generic pages is risky. Google has policies aimed at low-quality content created at scale, and our guides on [how to de-AI-slop your website](https://f9xr.org/articles/2026/09/28/how-to-de-ai-slop-your-website.html) and [checking if your site looks like AI spam](https://f9xr.org/articles/2026/10/05/check-if-your-site-is-ai-spam-google.html) explain what to watch for.
 - Be honest about how you use AI. Readers and search systems reward transparency.
 
+permalink: /2026/10/07/how-to-create-your-own-seo-team.html
 ---
 
 ## Your First 90 Days: A Simple Launch Plan
@@ -291,6 +297,7 @@ But treat AI as a team member who needs supervision, not as the team:
 - **Ignoring the basics of site health.** Great content on a slow or poorly hosted site underperforms. See how [your hosting provider affects SEO](https://f9xr.org/articles/2026/10/06/how-hosting-provider-affects-website-seo.html).
 - **Expecting instant results.** SEO usually takes months to build momentum, and no one can promise a timeline.
 
+permalink: /2026/10/07/how-to-create-your-own-seo-team.html
 ---
 
 ## How F9XR Team Can Help You
@@ -323,6 +330,7 @@ You can see our full range on the [services page](https://f9xr.org/pages/service
 - Use **AI tools to speed up work**, but keep a human reviewing facts and quality.
 - You can start lean: roughly **four to five focused hours a week** and free tools is enough to begin.
 
+permalink: /2026/10/07/how-to-create-your-own-seo-team.html
 ---
 
 ## Conclusion

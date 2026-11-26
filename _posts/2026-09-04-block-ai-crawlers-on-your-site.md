@@ -21,6 +21,7 @@ faq:
     a: "Not entirely. robots.txt is a voluntary standard that reputable companies generally respect, but it isn't technically enforced. For guaranteed blocking, you need server-level rules or a firewall service like Cloudflare."
   - q: "Should I block Perplexity or ChatGPT search bots?"
     a: "It depends on your goals. Blocking these retrieval bots, like PerplexityBot or OAI-SearchBot, will likely reduce your business's chances of being cited in AI-generated answers, so most businesses trying to grow visibility choose to allow them while blocking training-only bots instead."
+permalink: /2026/09/04/block-ai-crawlers-on-your-site.html
 ---
 
 Here's an uncomfortable fact for most business owners: your website is probably being crawled by AI companies right now, and unless you've specifically checked your server logs, you have no idea it's happening.
@@ -43,6 +44,7 @@ The tension here is real, though. Some AI crawlers, particularly ones tied to li
 
 We'll cover that distinction clearly below so you can make a deliberate choice, not a blanket one.
 
+permalink: /2026/09/04/block-ai-crawlers-on-your-site.html
 ---
 
 ## Step 1: Know Which AI Crawlers Actually Exist
@@ -167,6 +169,7 @@ This lets AI crawlers access your general marketing pages (good for AI discovera
 
 robots.txt changes typically take effect the next time a crawler revisits your site. That can range from a few hours to a few weeks depending on the crawler's revisit frequency.
 
+permalink: /2026/09/04/block-ai-crawlers-on-your-site.html
 ---
 
 ## Step 3: Server-Level Blocking (For Bots That Ignore robots.txt)
@@ -233,6 +236,7 @@ Some platforms also recognize a more specific directive:
 
 These tags are useful for CMS platforms where editing robots.txt or server config isn't straightforward, but they should be treated as a supplement to, not a replacement for, robots.txt and server-level rules. OpenAI's [official documentation on GPTBot](https://developers.openai.com/api/docs/bots){:target="_blank" rel="noopener noreferrer"} confirms that robots.txt is their primary mechanism for crawl control.
 
+permalink: /2026/09/04/block-ai-crawlers-on-your-site.html
 ---
 
 ## Step 5: Verify Your Blocks Are Actually Working
@@ -263,6 +267,7 @@ Setting the rules is only half the job. You need to confirm they're being enforc
 
 For most local businesses and startups actively trying to grow visibility, including through the [Search Everywhere Optimization](https://f9xr.org/articles/2026/08/14/search-everywhere-optimization-youtube-google-seo.html) strategies we've covered previously, blocking training bots while allowing retrieval and answer bots tends to be the balanced approach. It protects your original content from uncredited training use without cutting yourself out of AI-driven discovery.
 
+permalink: /2026/09/04/block-ai-crawlers-on-your-site.html
 ---
 
 ## Common Mistakes When Blocking AI Crawlers
@@ -293,6 +298,7 @@ At F9XR Team, we treat crawler management as part of a broader [technical SEO an
 
 This kind of technical configuration work sits alongside the [website development](https://f9xr.org/services/we-do-for-you.html) and [local SEO services](https://f9xr.org/services/google-business-optimization.html) we provide, because a site's crawler settings, server configuration, and search strategy all need to work together, not be managed in isolated silos.
 
+permalink: /2026/09/04/block-ai-crawlers-on-your-site.html
 ---
 
 ## Key Takeaways

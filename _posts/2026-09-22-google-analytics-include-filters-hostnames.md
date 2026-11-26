@@ -1,4 +1,4 @@
----
+﻿---
 layout: post
 title: "GA4 Adds Include Filters for Hostnames (Finally)"
 description: "Google Analytics now lets you include, not just exclude, hostnames. Here's what the new GA4 filter means for your reporting data."
@@ -22,6 +22,7 @@ faq:
     a: "It can, if you forget to add a valid subdomain to your approved list. That's why Google recommends starting in Testing mode and checking an Exploration report before switching the filter to Active."
   - q: "Can I use both include and exclude filters together?"
     a: "Yes, though for most single domain or small multi subdomain setups, an include filter alone is usually enough since it already blocks anything not on your approved list."
+permalink: /2026/09/22/google-analytics-include-filters-hostnames.html
 ---
 
 If you have ever opened your Google Analytics reports and quietly wondered "wait, is that even our traffic?", you are not alone. For years, one of the most common complaints from small business owners and marketing teams has been messy, unreliable hostname data cluttering up GA4 properties. Staging sites, scraped content, and the occasional spam bot have all found their way into reports that were supposed to reflect real visitors on the real website.
@@ -67,6 +68,7 @@ For most small businesses and startups running a single primary domain (plus may
 <img src="https://f9xr.org/articles/assets/post-images/ga4-hostname-filter-settings-diagram.webp" alt="Illustration of the GA4 Data filters section showing include and exclude hostname filter options side by side" title="GA4 hostname filter include and exclude options" width="895" height="517" loading="lazy" />
 <p style="text-align:center; color:#71717a; font-size:0.85em; margin-top:0.4em;">Include vs exclude hostname filters in GA4's Data filters section.</p>
 
+permalink: /2026/09/22/google-analytics-include-filters-hostnames.html
 ---
 
 ## Why This Update Matters for Business Owners
@@ -99,6 +101,7 @@ If you have been reporting on raw sessions and bounce rate, this is the moment t
 
 One practical point: if you are considering switching analytics tools entirely because the data has felt unreliable, a filtered GA4 property may be all you need. Our [GoatCounter guide](https://f9xr.org/articles/2026/08/29/goatcounter-guide-what-it-is-how-to-set-it-up.html) covers the tradeoffs if you do want to compare options, but the hostname include filter fixes the root cause without a migration.
 
+permalink: /2026/09/22/google-analytics-include-filters-hostnames.html
 ---
 
 ## How to Set Up an Include Filter for Hostnames in GA4
@@ -148,6 +151,7 @@ Once you're confident the filter is behaving correctly, switch it to Active. Set
 | E-commerce and DTC brands | Reduces skewed conversion metrics caused by scraper or spam traffic |
 | Agencies managing multiple client properties | Faster, more standardized setup across accounts using an approved domain list |
 
+permalink: /2026/09/22/google-analytics-include-filters-hostnames.html
 ---
 
 ## Key Takeaways
@@ -167,6 +171,7 @@ Setting up analytics correctly is one of those things that seems small until it 
 
 If you're not sure whether your GA4 data is even reliable right now, that's usually a good sign it's worth a second look. A quick hostname audit is low effort, and it tells you fast whether your reporting is built on solid ground.
 
+permalink: /2026/09/22/google-analytics-include-filters-hostnames.html
 ---
 
 ## Conclusion

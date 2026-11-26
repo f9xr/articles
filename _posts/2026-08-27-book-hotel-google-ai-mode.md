@@ -21,6 +21,7 @@ faq:
     a: "No. An AI agent improves how you search and compare options, but nightly rates are set by each hotel's own revenue management system, which has used AI-driven pricing for years and adjusts continuously based on demand."
   - q: "Why does Google Business Profile matter for AI Mode hotel visibility?"
     a: "Independent research analyzing thousands of Google AI Mode queries found that 79 percent of hotel links currently route through Google Business Profiles, far more than OTA listings, making profile accuracy and optimization a critical factor for hotel visibility in AI-driven search."
+permalink: /2026/08/27/book-hotel-google-ai-mode.html
 ---
 
 For years, booking a hotel meant the same routine. Search Google, click through to Booking.com or Expedia, compare a dozen nearly identical listings, second guess the cancellation policy, and eventually commit. That middleman step, the online travel agency sitting between you and the hotel, has been part of travel planning for two decades.
@@ -66,6 +67,7 @@ It's important to be honest about the current scope. This is a limited test, not
 | Confirmed partners | Booking Holdings, Expedia, Marriott, Wyndham, IHG, Choice Hotels |
 | Technical infrastructure partner | Amadeus (lodging), Sabre (advising on air travel side) |
 
+permalink: /2026/08/27/book-hotel-google-ai-mode.html
 ---
 
 ## How Agentic Hotel Booking Actually Works Inside AI Mode
@@ -103,6 +105,7 @@ Google has been fairly transparent about which major travel companies are partic
 
 Notably, this isn't only a Google story. Wyndham's parallel moves into Claude and ChatGPT show that major hotel brands are hedging across multiple AI platforms simultaneously, rather than betting exclusively on Google's approach.
 
+permalink: /2026/08/27/book-hotel-google-ai-mode.html
 ---
 
 ## What This Means for Hotels and the Broader Travel Industry
@@ -154,6 +157,7 @@ A streamlined checkout process matters more than ever if part of the booking flo
 ### 7. Track AI-Referred Traffic Properly in Your Analytics
 A booking that originates in an AI Mode response and completes on your official site may not track correctly in tools like Google Analytics 4 without proper UTM parameters and referral exclusions set up specifically for Google's AI surfaces. Set this up proactively rather than after the fact.
 
+permalink: /2026/08/27/book-hotel-google-ai-mode.html
 ---
 
 ## Is This Actually Good News for Hotels?
@@ -180,6 +184,7 @@ For local businesses generally, the practical lesson mirrors what hotels are bei
 
 This is the same conclusion our earlier look at Google's [Preferred Source button](https://f9xr.org/articles/2026/08/23/google-preferred-source-button-publishers-guide.html){:target="_blank" rel="noopener noreferrer"} reached, the way AI surfaces distribute traffic is fundamentally changing who benefits from a strong local and publisher presence. And as AI agents take on more of the work of running a business web presence, the [AI agents built into modern site platforms](https://f9xr.org/articles/2026/08/26/wix-introduces-symphony-ai-agents.html){:target="_blank" rel="noopener noreferrer"} are part of the same shift.
 
+permalink: /2026/08/27/book-hotel-google-ai-mode.html
 ---
 
 ## How F9XR Team Can Help
@@ -207,6 +212,7 @@ If you run a hospitality or local service business and aren't sure whether your 
 * Bookings coming through conversational AI agents currently represent less than 1 percent of total room nights industry-wide, according to Booking Holdings' own CFO, meaning this remains an early-stage shift rather than a fully transformed booking landscape.
 * An unresolved, genuinely important question remains around who owns the customer relationship and collects commission when an AI agent, rather than the traveler directly, handles the comparison and booking process.
 
+permalink: /2026/08/27/book-hotel-google-ai-mode.html
 ---
 
 ## Conclusion

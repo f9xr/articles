@@ -1,4 +1,4 @@
----
+﻿---
 layout: post
 title: "Robots.txt: Google Says Keep It Beautifully Boring"
 description: "Google's new Search Central video explains what robots.txt can and can't do, from AI crawlers to emoji rules, and what owners should fix."
@@ -21,6 +21,7 @@ faq:
     a: "No. Robots.txt blocks crawling, not indexing. A blocked URL can still show up in Google's results if other websites link to it, because Google never fetches the page to see a noindex tag. To keep a page out of search, use noindex and leave the page crawlable."
   - q: "What is Google-Extended?"
     a: "Google-Extended is a robots.txt token that controls whether content Google crawls can be used to train future Gemini models and for grounding in certain Gemini products. It has no crawler of its own, and Google says it does not affect Search inclusion or rankings."
+permalink: /2026/10/23/google-robots-txt-video-what-site-owners-should-know.html
 ---
 
 A typo in a 200-byte text file can keep a product page out of Google for months. The file costs nothing to fix, and almost nobody checks it.
@@ -43,6 +44,7 @@ It is the second episode of a series called The Non-Canonical Cabinet, hosted by
 
 A joke-filled video still deserves a news article, because Google rarely says this much, this plainly, about a file that quietly controls how search engines and AI systems treat your website.
 
+permalink: /2026/10/23/google-robots-txt-video-what-site-owners-should-know.html
 ---
 
 ## The six lessons from Google's robots.txt video
@@ -77,7 +79,7 @@ The safer habit is to write the encoded form directly:
 
 ```txt
 # Works for Google, riskier for other crawlers
-Disallow: /🐔-gear
+Disallow: /ðŸ”-gear
 
 # The safe, standard way
 Disallow: /%F0%9F%90%94-gear
@@ -106,6 +108,7 @@ The difference between a crawl rule and a usage rule is the difference between l
 
 The index point catches more businesses than any other row. A page blocked in robots.txt can still be indexed if enough external links point at it. Google sees the URL, not the content, and may list it with a thin snippet. If you need a page out of search, the page has to stay crawlable so the `noindex` tag can be read.
 
+permalink: /2026/10/23/google-robots-txt-video-what-site-owners-should-know.html
 ---
 
 ## What the video did not say, but you should know
@@ -148,6 +151,7 @@ The pattern is the same each time. One typo, one invented directive, or one wron
 
 The check costs about ten minutes. The recovery can take months.
 
+permalink: /2026/10/23/google-robots-txt-video-what-site-owners-should-know.html
 ---
 
 ## What a clean, boring robots.txt looks like
@@ -186,6 +190,7 @@ Blocking AI crawlers is a business decision. If you want your brand mentioned in
 7. **Add your sitemap line.** It helps crawlers find your important pages faster.
 8. **Test after every change.** Use Google Search Console to confirm important pages are not blocked, and re-check after any redesign or migration. A [monthly website audit checklist](https://f9xr.org/articles/2026/09/03/monthly-website-audit-checklist.html) keeps the check from slipping.
 
+permalink: /2026/10/23/google-robots-txt-video-what-site-owners-should-know.html
 ---
 
 ## Key takeaways
@@ -211,6 +216,7 @@ For most small businesses, the fix takes about ten minutes: open the file, remov
 
 If you would rather not run the technical side yourself, F9XR Team handles technical SEO audits, website development and redesign, local SEO, and AI visibility setup for small and local businesses. The robots.txt review is small, but it sits inside a larger system of crawl paths, sitemaps, and structured data that decides whether search engines and AI tools can read your site at all. You can see how that system connects in [why a small business needs a website in 2026](https://f9xr.org/articles/2026/10/22/why-small-business-needs-website-2026.html).
 
+permalink: /2026/10/23/google-robots-txt-video-what-site-owners-should-know.html
 ---
 
 *Sources: [Google Search Central video](https://www.youtube.com/watch?v=-jHONLQgE-s), [Search Engine Journal](https://www.searchenginejournal.com/google-illyes-robots-txt-crawling-ai-training/593957/), [PPC Land](https://ppc.land/google-says-robots-txt-limits-ai-crawling-not-what-bots-do-with-data/), [Google's robots.txt specification](https://developers.google.com/crawling/docs/robots-txt/robots-txt-spec), [RFC 9309](https://www.rfc-editor.org/rfc/rfc9309.html). Compliance figures come from third-party testing reported by PPC Land and should be treated as directional.*

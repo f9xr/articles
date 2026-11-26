@@ -1,4 +1,4 @@
----
+﻿---
 layout: post
 title: "Competitor Research in 2026: Beat Rivals on Google and AI"
 description: "Learn how to do competitor research step by step: find real rivals, check keywords, reviews, backlinks and AI answers, then act on what you find."
@@ -22,6 +22,7 @@ faq:
     a: "Most businesses do well with a full analysis once a year, a lighter keyword and traffic check every quarter, and quick spot-checks when something changes, such as a new competitor or a sudden drop in rankings. Local businesses should also review competitor reviews and profiles regularly."
   - q: "How do you track competitors in AI search results?"
     a: "Ask your customers' likely questions in ChatGPT, Gemini, Perplexity, and Claude, then record which businesses are named and which sources are cited. For ongoing tracking, AI visibility tools such as Semrush's AI Visibility Toolkit and Ahrefs Brand Radar compare your mentions against competitors."
+permalink: /2026/10/26/competitor-analysis-that-actually-wins-you-customers.html
 ---
 
 Here's a scene that plays out in small businesses every week. You search for your own service on Google. A rival you've barely heard of sits in the top three map results, with more reviews than you and a website that looks like it was built last month. Then you ask ChatGPT or Gemini for a recommendation, and a completely different name comes up.

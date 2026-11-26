@@ -24,6 +24,7 @@ faq:
   - q: "Will YouTube view counts look bigger after this change?"
     a: "Yes, most likely. Since the threshold for counting a view drops significantly, public view counts are expected to increase across most videos and channels, without necessarily reflecting better actual performance."
 youtube_id: "nuC5iwpNgIE"
+permalink: /2026/08/18/youtube-changes-how-it-counts-views-long-form-live.html
 ---
 
 If you've spent any time building a YouTube channel for your business, you already know that view count has always felt like a slightly fuzzy number. Was it 30 seconds of watch time? Some percentage of the video? Nobody outside YouTube really knew for sure. That confusion is about to end, sort of.
@@ -71,6 +72,7 @@ This is an important detail: existing videos will keep their current public view
 | Partner Program eligibility | Qualified Shorts views and watch hours | Unchanged, still based on qualified metrics |
 | Historical video view counts | N/A | Not retroactively recalculated |
 
+permalink: /2026/08/18/youtube-changes-how-it-counts-views-long-form-live.html
 ---
 
 ## Earnings Still Use a Different, Stricter Metric
@@ -115,6 +117,7 @@ Not everyone is thrilled. The most common criticism is straightforward: a view c
 
 There's also a comparability issue worth noting for anyone tracking channel growth over time. A channel's view totals from September 2026 won't sit cleanly against numbers from July 2026, since the counting method itself changed in between. Reporting and historical trend analysis will need to account for that shift going forward.
 
+permalink: /2026/08/18/youtube-changes-how-it-counts-views-long-form-live.html
 ---
 
 ## What This Means for Business Owners Using YouTube
@@ -151,6 +154,7 @@ Local businesses rarely rely on YouTube view counts alone to judge success. What
 
 For startups building brand awareness through video content, the takeaway is similar. Bigger view counts might look nice on a slide deck, but investors and serious marketing partners increasingly know to ask about engagement and watch time specifically, not just raw view totals.
 
+permalink: /2026/08/18/youtube-changes-how-it-counts-views-long-form-live.html
 ---
 
 ## Practical Tips to Adapt Your YouTube Strategy
@@ -184,6 +188,7 @@ The F9XR Team helps business owners, startups, and local businesses build a vide
 
 If you're not sure how to adjust your YouTube reporting or content strategy around this update, that's a conversation worth having before your next round of performance reports.
 
+permalink: /2026/08/18/youtube-changes-how-it-counts-views-long-form-live.html
 ---
 
 ## Key Takeaways
@@ -203,6 +208,7 @@ YouTube's move to count views from the first frame across every format is a genu
 
 The smartest move is treating this update as a reason to double down on content that genuinely holds attention, not just content that triggers a first-frame play. If you want help building a video and digital content strategy that's grounded in real engagement rather than inflated metrics, the F9XR Team supports business owners with exactly this kind of thinking across [website development](https://f9xr.org/pages/services.html), [website redesign](https://f9xr.org/pages/services.html), [local SEO](https://f9xr.org/pages/services.html), and broader [digital presence strategy](https://f9xr.org/pages/services.html).
 
+permalink: /2026/08/18/youtube-changes-how-it-counts-views-long-form-live.html
 ---
 
 

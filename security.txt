@@ -1,4 +1,4 @@
-﻿Contact: mailto:hello@f9xr.org
+Contact: mailto:hello@f9xr.org
 Expires: 2027-01-01T00:00:00.000Z
 Preferred-Languages: en
 Canonical: https://f9xr.org/articles/security.txt

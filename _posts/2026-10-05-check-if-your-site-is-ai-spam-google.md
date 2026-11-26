@@ -1,4 +1,4 @@
----
+﻿---
 layout: post
 title: "Is Your Site AI Spam? 9 Checks Before Google Decides"
 description: "Worried Google reads your site as AI spam? Run this 9-point self-audit on scaled content, thin pages, and trust signals before a spam update costs you traffic."
@@ -21,6 +21,7 @@ faq:
     a: "Not reliably. Detector tools give rough estimates, and independent audits have found false-positive rates above 60% for non-native English writers and overall misclassification rates above 70% on some open-source detectors. Nothing in Google's published guidance says detector scores affect rankings."
   - q: "How do I fix thin or duplicate location pages?"
     a: "For each weak page, decide in this order: improve it, merge it, or remove it. Improving means adding original local detail and verified facts. Merging means combining thin pages into one strong page and redirecting with a 301. Removing means deleting a page with no clear reason to exist. Google needs weeks to months to reassess a site after these changes."
+permalink: /2026/10/05/check-if-your-site-is-ai-spam-google.html
 ---
 
 You spent months building the site. A freelancer, or a chat window on a busy Sunday night, helped you fill it with service pages, city pages, and a blog.
@@ -201,6 +202,7 @@ Rule out the boring causes first: a broken analytics tag, a noindex tag added by
 
 **Pass:** no manual action, healthy indexing, no unexplained drop. **Fail:** large indexing gaps, or a drop that lines up with a spam update and a known weakness from the checks above.
 
+permalink: /2026/10/05/check-if-your-site-is-ai-spam-google.html
 ---
 
 ## Your Quick Risk Scorecard

@@ -1,4 +1,4 @@
----
+﻿---
 layout: post
 title: "Discord Chats Are Coming to Google: Is Your Brand Ready?"
 description: "Discord puts Discoverable Server pages on Google from Nov 16 and public messages in search from mid-December. Here is what business owners should do now."
@@ -21,6 +21,7 @@ faq:
     a: "According to Discord's guidance, usernames and avatars are not shown alongside indexed message content or channel summaries. Check Discord's official help pages for the latest details, since these settings and policies can change."
   - q: "Should small and local businesses worry about this Discord change?"
     a: "Most local businesses do not run a Discoverable Server, so the direct impact is small. The indirect impact is real, because public conversations about your brand can now appear in Google and AI search. Monitor mentions and keep your own website strong."
+permalink: /2026/11/01/discord-discoverable-servers-google-search-business-guide.html
 ---
 
 Discord says more than 63,000 public servers will get a searchable web page on November 16, 2026. For a business owner, the entry fee is zero. The cost of ignoring the change is lost influence over what a customer reads before they reach your website.

@@ -1,4 +1,4 @@
----
+﻿---
 layout: post
 title: "SEO Codebase Auditor v5.2 & v5.3: What Changed"
 description: "The free SEO Codebase Auditor skill adds YMYL audits, Google spam policy checks, AI crawler governance, and sharper local, international, and shopping checks."
@@ -21,6 +21,7 @@ faq:
     a: "Run the prompt '@SKILL.md run a Google spam policies & AI crawler governance audit'. It activates Pillars 02, 09, and 07, and checks robots.txt directives for GPTBot, Google-Extended, anthropic-ai, PerplexityBot, CCBot, and more, with a ready-to-use directive block you can paste in."
   - q: "Does v5.3 mean I should remove FAQ schema?"
     a: "No. Google stopped showing FAQ rich results for most sites in August 2023, so FAQ markup is no longer a rich result play for most businesses. But clean FAQPage schema is still useful for AI and voice extraction, and the layout on this site still renders it from front-matter. Keeping it is fine; counting on the snippet is not."
+permalink: /2026/09/17/seo-codebase-auditor-v5-2-v5-3-update.html
 ---
 
 SEO guidance rots. What reads as a solid practice today gets corrected or retired a year later, and the tools that don't stay current quietly start handing out wrong advice. That's why the F9XR SEO Codebase Auditor ships regular version bumps. The two latest, v5.2 and v5.3, landed in one working session, and together they add a proper YMYL audit process, bring the rich results guidance in line with Google's 2023 changes, and close a batch of gaps across the 24 pillars.

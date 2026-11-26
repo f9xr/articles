@@ -1,8 +1,8 @@
----
+﻿---
 layout: post
 title: "Structuring Local Business Data for Meta AI Indexers"
 description: "Meta crawls the web differently from Google. Learn how local businesses can structure their data so Meta's AI indexers actually find and surface them."
-image: "/articles/assets/post-images/structuring-local-business-data-meta-ai-indexers.webp"
+image: "https://f9xr.org/articles/assets/post-images/structuring-local-business-data-meta-ai-indexers.webp"
 image_width: 1200
 image_height: 630
 image_caption: "Conceptual illustration of AI web indexing and structured local business data"
@@ -22,6 +22,7 @@ faq:
     a: "Not fully. While optimizing your Google Business Profile and social profiles helps, Meta's AI indexers pull heavily from on-site structured data. Without JSON-LD or Open Graph markup on your website, you're leaving significant discoverability on the table."
   - q: "How do I verify that Meta's AI indexers are reading my data correctly?"
     a: "Use Meta's Sharing Debugger to preview how your pages render, monitor referral traffic from Meta platforms in analytics, and check whether your entity appears in Meta AI search results for branded and unbranded local queries."
+permalink: /2026/08/19/structuring-local-business-data-meta-ai-indexers.html
 ---
 
 The conversation around AI discoverability has been dominated by Google for years. Business owners know about Google Business Profile, Google's AI Overviews, and the constant cycle of core updates. But there's another AI-powered search layer growing quickly that most local businesses are completely ignoring: Meta's AI web indexers.

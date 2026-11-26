@@ -25,6 +25,7 @@ faq:
     a: "Instead of traditional keyword targeting, ChatGPT Ads use conversational context, including the current conversation topic, past chat history, and prior ad interactions, matched entirely within OpenAI's own infrastructure using anonymized signals."
   - q: "Is there a minimum spend requirement for ChatGPT Ads?"
     a: "No, not anymore. The original invite-only pilot required a reported 200,000 dollar minimum commitment, but that requirement was removed when the self-serve Ads Manager opened to all US businesses on May 5, 2026."
+permalink: /2026/08/22/chatgpt-ads-guide-business-owners.html
 ---
 
 For years, Sam Altman was pretty blunt about how he felt about mixing advertising into ChatGPT. Back in 2024, he called the idea of ads plus AI "sort of uniquely unsettling." Then, in February 2026, OpenAI quietly started showing ads to logged-in users anyway. By July, any business could self-serve their way into running campaigns inside actual ChatGPT conversations. By August, the whole thing expanded across 31 European countries.
@@ -64,6 +65,7 @@ Understanding the pace of this rollout matters, because it shows how quickly Ope
 <img src="https://images.ctfassets.net/j22is2dtoxu1/45gBDlpsPyrcBXyq6KoPOD/c8f39c602ea719d7ad9f14e774dd1aa4/97cc3e77-9a02-4ef4-bd75-d347531609b4.png" alt="Ads appearing inside ChatGPT responses" title="Ads in ChatGPT" width="1205" height="679" loading="lazy" />
 <p style="text-align:center; color:#71717a; font-size:0.85em; margin-top:0.5em;">Ads as they appear inside ChatGPT responses. Image: <a href="https://help.openai.com/en/articles/20001207-ads-in-chatgpt-the-basics" target="_blank" rel="noopener noreferrer" style="color:#71717a; text-decoration:underline;">OpenAI</a></p>
 
+permalink: /2026/08/22/chatgpt-ads-guide-business-owners.html
 ---
 
 ## How ChatGPT Ads Actually Work
@@ -125,6 +127,7 @@ To its credit, OpenAI has been explicit about three promises meant to distinguis
 
 Whether these commitments hold up as the platform scales and competitive pressure increases is something worth watching closely over the coming year.
 
+permalink: /2026/08/22/chatgpt-ads-guide-business-owners.html
 ---
 
 ## Is Advertising on ChatGPT Right for Your Business?
@@ -170,6 +173,7 @@ Given how new this platform is, resist judging success purely on impressions or 
 ### 6. Watch the European Expansion If You Operate Internationally
 If your business operates in any of the 31 newly announced European markets, keep an eye on when self-serve access becomes available there specifically, since initial access is starting through agency and technology partners first.
 
+permalink: /2026/08/22/chatgpt-ads-guide-business-owners.html
 ---
 
 ## What This Means for Local Businesses and Startups
@@ -196,6 +200,7 @@ The F9XR Team helps business owners, startups, and local businesses evaluate and
 
 If you're curious whether ChatGPT Ads deserves a spot in your marketing mix, that's exactly the kind of strategic conversation worth having before committing budget.
 
+permalink: /2026/08/22/chatgpt-ads-guide-business-owners.html
 ---
 
 ## Key Takeaways

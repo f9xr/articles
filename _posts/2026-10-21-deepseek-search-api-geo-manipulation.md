@@ -1,4 +1,4 @@
----
+﻿---
 layout: post
 title: "DeepSeek Opens Its Search API: What Businesses Must Know"
 description: "DeepSeek opened its in-house search engine to developers and says it filters GEO manipulation. Here is what it means for your business and AI visibility."
@@ -22,6 +22,7 @@ faq:
     a: "DeepSeek's privacy policy says it shares search keywords with third-party APIs and processes and stores personal data in China, and its search documentation does not state query retention. Avoid sending private customer or business information in search queries."
   - q: "Does DeepSeek Search replace Google for local businesses?"
     a: "No. It is a developer API, not a consumer search engine competing directly with Google. But apps and agents built on it may surface your business in AI answers, so accurate, trustworthy web content still matters."
+permalink: /2026/10/21/deepseek-search-api-geo-manipulation.html
 ---
 
 Most of the last two years of your SEO work went into one goal: showing up in ChatGPT, Gemini, Claude, and Perplexity. There is another name to add to that list now. On October 17, 2026, DeepSeek opened the search engine that powers its own web app and API to outside developers, so any developer with an API key can put the DeepSeek search API into their own apps, agents, and tools.
@@ -209,6 +210,7 @@ If you want a hand with the foundations, the F9XR Team works on website developm
 - [Search Engine Journal: I Tested DeepSeek's New Search API](https://www.searchenginejournal.com/i-tested-deepseeks-new-search-api-heres-how-it-ranks-and-scores-websites/593408/){:target="_blank" rel="noopener noreferrer"}
 - [The New Stack: DeepSeek made its name with cheap AI models. Now it's undercutting search API rivals, too.](https://thenewstack.io/deepseek-web-search-api/){:target="_blank" rel="noopener noreferrer"}
 
+permalink: /2026/10/21/deepseek-search-api-geo-manipulation.html
 ---
 
 *Produced using AI-assisted research and drafting workflows, then reviewed and edited by the F9XR editorial team. See our [Editorial Policy](https://f9xr.org/articles/press/editorial-policy.html) for how we create and verify content.*

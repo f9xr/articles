@@ -1,4 +1,4 @@
----
+﻿---
 layout: post
 title: "AI Slop Cleanup: Make Your Website Sound Human Again"
 description: "Is your website full of generic AI text? Learn how to spot AI slop, fix it page by page, and win back trust from Google, AI search, and customers."
@@ -22,6 +22,7 @@ faq:
     a: "Rewrite pages on topics that matter to your customers, merge pages that overlap, and delete pages with no traffic, links, or conversions. Work in batches so you can see what each change does."
   - q: "How long does it take for a content cleanup to improve rankings?"
     a: "Some rewritten pages improve within a few weeks after being recrawled, but recovery from an algorithmic demotion can take months, according to Google's documentation, because its systems need time to see sustained change."
+permalink: /2026/09/28/how-to-de-ai-slop-your-website.html
 ---
 Open your homepage in one tab and your closest competitor's in another. Read the first three paragraphs of each, then imagine swapping the logos. If nobody would notice, you have a problem, and it may be one you never meant to create.
 

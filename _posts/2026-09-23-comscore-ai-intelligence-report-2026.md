@@ -1,4 +1,4 @@
----
+﻿---
 layout: post
 title: "Comscore's 2026 AI Report: What It Means for You"
 description: "Mobile AI assistant visits up 107% year over year as ChatGPT's share slips. What Comscore's Q2 2026 AI report means for your marketing."
@@ -22,6 +22,7 @@ faq:
     a: "ChatGPT still leads the category, but its share of AI prompt volume fell from 70% to 50% between January and June 2026 as more consumers split their usage across Gemini, Claude and other tools. Its overall visits still grew year over year, though more slowly than its rivals."
   - q: "How does AI advertising appear in the report?"
     a: "The Q2 2026 report shows early ad monetization, including sponsored placements in ChatGPT. For example, ChatGPT ad share on hotel travel prompts rose from 6% in March 2026 to 14% in April and 24% in May, a sign that AI assistants are becoming a real ad channel."
+permalink: /2026/09/23/comscore-ai-intelligence-report-2026.html
 ---
 Here's the number that matters most from Comscore's latest data: mobile visits to AI assistants were up **107% year over year** in June 2026. Desktop managed 18% growth over the same window. The gap is the story, and it changes how you should think about where your customers are when they ask an AI a question.
 

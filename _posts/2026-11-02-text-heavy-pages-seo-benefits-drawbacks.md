@@ -1,4 +1,4 @@
----
+﻿---
 layout: post
 title: "Text-Heavy Pages: SEO Win or Costly Mistake?"
 description: "Are long, text-heavy pages good for SEO? See the real pros, cons and a simple way for business owners to decide what to publish."
@@ -20,6 +20,7 @@ faq:
     a: "Yes. Short pages rank well when they answer a simple query directly and quickly. Problems only appear when a page meant to be informational says too little to be useful."
   - q: "Do AI search engines prefer long articles?"
     a: "Not necessarily. AI tools favor clear, accurate and well structured answers. Both short and long pages appear in AI Overviews and AI citations, so focus on structure, trust and clarity."
+permalink: /2026/11/02/text-heavy-pages-seo-benefits-drawbacks.html
 ---
 
 Every business owner runs into this question. Your agency says write 2,000 words. A competitor ranks with a page that barely clears 300. A friend says nobody reads anymore. Someone on social media claims AI tools only trust long articles. The advice conflicts because each person is describing a different page.
@@ -40,6 +41,7 @@ The opposite is a lean page. A short answer, a simple service page, a landing pa
 
 Neither format wins by default. What matters is whether the page matches what the searcher wants.
 
+permalink: /2026/11/02/text-heavy-pages-seo-benefits-drawbacks.html
 ---
 
 ## What Google says about length
@@ -80,6 +82,7 @@ ChatGPT, Gemini, Claude and Perplexity pull from pages that explain a topic clea
 
 Detailed pages create room for specific examples, author credentials, sources and first-hand observations. Those are the building blocks of E-E-A-T, the experience, expertise, authoritativeness and trust that Google's quality guidelines emphasize.
 
+permalink: /2026/11/02/text-heavy-pages-seo-benefits-drawbacks.html
 ---
 
 ## Text-heavy pages SEO: the real drawbacks
@@ -123,6 +126,7 @@ SEO tools often warn when a page is very short. That warning is useful for an in
 | Main risk | Filler, slow loading, buried answers | Thin content, missing trust signals |
 | Maintenance | More frequent updates | Easier to keep current |
 
+permalink: /2026/11/02/text-heavy-pages-seo-benefits-drawbacks.html
 ---
 
 ## What the data says about length and rankings
@@ -166,6 +170,7 @@ Whatever the length, make the page easy to scan. Use descriptive headings, short
 
 Check Search Console and analytics for impressions, clicks, engagement and conversions. If a long page ranks but does not convert, tighten it. If a short page does not rank, add the missing depth. Let the data settle the argument.
 
+permalink: /2026/11/02/text-heavy-pages-seo-benefits-drawbacks.html
 ---
 
 ## Three examples
@@ -193,6 +198,7 @@ The pattern is the same in each row. Length follows the decision the reader is t
 9. Compress images and lazy load embeds so long pages stay fast.
 10. Write like a person. If it sounds like a template, readers and quality systems will treat it like one. Our piece on [how to write SEO friendly articles](https://f9xr.org/articles/2026/09/09/how-to-write-seo-friendly-articles.html) covers readability in detail.
 
+permalink: /2026/11/02/text-heavy-pages-seo-benefits-drawbacks.html
 ---
 
 ## Key takeaways

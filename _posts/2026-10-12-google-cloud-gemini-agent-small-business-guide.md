@@ -1,4 +1,4 @@
----
+﻿---
 layout: post
 title: "Google's Gemini Agent Wants a Job at Your Business"
 description: "Google Cloud just launched the Gemini agent. See what it does, how coworker agents work, what it means for small businesses, and how to prepare."
@@ -22,6 +22,7 @@ faq:
     a: "Google has not published a separate price. A Google spokesperson reportedly said the agent will come at no additional charge where Gemini Enterprise is available, including through existing Workspace business and enterprise subscriptions. Pricing for coworker agents is expected closer to wider availability."
   - q: "Is the Gemini agent safe for business data?"
     a: "Google says each agent has its own identity and minimal permissions, actions are logged in an audit trail under the agent's name, and agents run in a sandbox with traffic passing through an AI firewall called Agent Gateway. Businesses should still limit access and review outputs."
+permalink: /2026/10/12/google-cloud-gemini-agent-small-business-guide.html
 ---
 
 Google Cloud announced the Gemini agent on October 8, 2026, during its Gemini at Work 2026 keynote. Start with the scale number, because it explains why the announcement matters. Google says almost 90 percent of the Fortune 100 already use Gemini Enterprise, and close to 80 percent of Google Cloud customers use its AI products. Adoption is no longer the open question.
@@ -81,6 +82,7 @@ The table is the short version. Each row gets more detail below, in the order th
 
 <iframe width="100%" height="400" src="https://www.youtube.com/embed/ZoZlcmQG8SE" title="Gemini at Work 2026 keynote recap" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen loading="lazy"></iframe>
 
+permalink: /2026/10/12/google-cloud-gemini-agent-small-business-guide.html
 ---
 
 ## How the Google Cloud Gemini Agent Works
@@ -127,6 +129,7 @@ That last step is the one that matters. The agent moved a repetitive task from r
 
 How to look at this in your own data: pick one workflow you repeat every week, write down the minutes it takes, and ask whether an agent could do the mechanical part while a person keeps the judgment call. If the answer is yes, that workflow is your pilot candidate. If the answer is no, you have just saved yourself a project.
 
+permalink: /2026/10/12/google-cloud-gemini-agent-small-business-guide.html
 ---
 
 ## Gemini Agent vs OpenAI Dots and Meta Muse
@@ -160,6 +163,7 @@ Here is what it looks like by business type.
 
 If you want a wider view of where this is already working, our guide to [real-world generative AI use cases on Google Cloud in 2026](https://f9xr.org/articles/2026/09/06/real-world-gen-ai-use-cases-google-cloud-2026.html) covers companies at several stages.
 
+permalink: /2026/10/12/google-cloud-gemini-agent-small-business-guide.html
 ---
 
 ## What We Still Do Not Know
@@ -189,6 +193,7 @@ You do not need the agent to start getting ready. These steps pay off either way
 
 Step three is the one most teams skip, and it is the one that prevents the worst outcomes. Access rules are cheaper to set before an agent exists than after it has already been given the keys.
 
+permalink: /2026/10/12/google-cloud-gemini-agent-small-business-guide.html
 ---
 
 ## What the Gemini Agent Means for Your Website and AI Search
@@ -217,6 +222,7 @@ Agents depend on a foundation: a website and online presence that is accurate, f
 
 You can [reach the F9XR Team here](https://f9xr.org/pages/contact.html) if you want help getting your digital presence ready for how AI-driven search finds and cites businesses.
 
+permalink: /2026/10/12/google-cloud-gemini-agent-small-business-guide.html
 ---
 
 ## Key Takeaways

@@ -1,4 +1,4 @@
----
+﻿---
 layout: post
 title: "Cheap Hosting, Costly SEO? How Your Host Affects Rankings"
 description: "Does your web host affect SEO? Learn how speed, uptime, security, and server location impact rankings and AI visibility, plus how to choose a host wisely."
@@ -21,6 +21,7 @@ faq:
     a: "Not by itself. Google has said shared IP addresses are fine for search. The real risk is resource contention: on a crowded plan, other sites can slow your server during busy periods. If your response times stay fast and stable, shared hosting can work well for small sites."
   - q: "What is a good server response time (TTFB) for SEO?"
     a: "Google's web.dev guidance treats a Time to First Byte under 800 milliseconds as good, though faster is better. TTFB is not a Core Web Vital, but it feeds directly into Largest Contentful Paint, which should be 2.5 seconds or less for a good score."
+permalink: /2026/10/06/how-hosting-provider-affects-website-seo.html
 ---
 
 You wrote the blog posts. You paid for a fresh design. You even fixed your title tags. And your rankings still feel stuck.
@@ -39,6 +40,7 @@ The good news is that hosting problems are some of the easiest SEO problems to f
 
 Think of it like a shop's location and building. The address itself does not make customers love your products. But if the roof leaks, the doors are often locked, and the street is hard to reach, fewer people will ever find out how good you are.
 
+permalink: /2026/10/06/how-hosting-provider-affects-website-seo.html
 ---
 
 ## How Hosting Connects to SEO: The Big Picture
@@ -89,6 +91,7 @@ On crowded shared plans, many websites compete for the same CPU, memory, and dis
 
 If you want a deeper look at how mobile visitors experience your speed, read our guide on [why to go mobile-first](https://f9xr.org/articles/2026/08/03/why-go-mobile-first.html).
 
+permalink: /2026/10/06/how-hosting-provider-affects-website-seo.html
 ---
 
 ## 2. Uptime and Downtime: Can Your Host Make You Disappear?
@@ -138,6 +141,7 @@ What still matters for small sites is simple: a reliable, quick server means new
 
 Our [monthly website audit checklist](https://f9xr.org/articles/2026/09/03/monthly-website-audit-checklist.html) includes the recurring checks that catch these early.
 
+permalink: /2026/10/06/how-hosting-provider-affects-website-seo.html
 ---
 
 ## 4. Server Location and CDNs: Does "Hosting in My City" Help?
@@ -159,6 +163,7 @@ A common fear is that sharing an IP address with a spammy site will drag your ra
 
 The real problem with shared hosting is not reputation. It is **resource contention**. If other sites on the same server hog resources, your performance suffers. So judge a shared plan by its measured speed and stability, not by fear of its IP address.
 
+permalink: /2026/10/06/how-hosting-provider-affects-website-seo.html
 ---
 
 ## 6. Security and HTTPS: Protecting Rankings and Trust
@@ -192,6 +197,7 @@ Here is where hosting gets involved:
 
 Do not swing to the other extreme either. You may have good reasons to block some bots. The point is to decide deliberately, rather than letting a default setting decide for you. Our guides on [blocking AI crawlers](https://f9xr.org/articles/2026/09/04/block-ai-crawlers-on-your-site.html), [making your business site visible to AI](https://f9xr.org/articles/2026/08/14/steps-make-business-site-visible-to-ai.html), and [essential text files for SEO, AEO, and GEO](https://f9xr.org/articles/2026/08/08/essential-txt-files-seo-aeo-geo-2026.html) walk through the choices.
 
+permalink: /2026/10/06/how-hosting-provider-affects-website-seo.html
 ---
 
 ## Types of Hosting Compared (SEO Lens)
@@ -219,6 +225,7 @@ The owner moves to a managed WordPress plan with server-side caching and a CDN, 
 
 What the owner can reasonably expect: a better experience for visitors, healthier crawling, and no more technical ceiling on the content work. What the owner should **not** expect: an instant jump to position one. Hosting removes a bottleneck. It does not replace relevance, content quality, links, or reviews.
 
+permalink: /2026/10/06/how-hosting-provider-affects-website-seo.html
 ---
 
 ## How to Test Whether Your Hosting Is Hurting You
@@ -256,6 +263,7 @@ A cheap plan is not automatically a bad plan. A small, simple site with a light 
 
 If you are also choosing your domain, our [guide to buying a domain name for your business](https://f9xr.org/articles/2026/08/29/buying-domain-name-for-business-guide.html) pairs well with this checklist.
 
+permalink: /2026/10/06/how-hosting-provider-affects-website-seo.html
 ---
 
 ## Switching Hosts Without Losing Rankings
@@ -286,6 +294,7 @@ If any URLs must change, use 301 redirects from each old URL to its closest new 
 | "More crawl budget means better rankings." | Google says a higher crawl rate does not necessarily lead to better positions. |
 | "Only huge sites need to care about hosting." | Crawl budget mostly matters for large sites, but speed, uptime, and security matter for every site. |
 
+permalink: /2026/10/06/how-hosting-provider-affects-website-seo.html
 ---
 
 ## How F9XR Team Can Help You
@@ -318,6 +327,7 @@ You can browse everything on our [services page](https://f9xr.org/pages/services
 - Test before you decide: PageSpeed Insights, Search Console Crawl Stats, uptime monitoring, and evening speed checks.
 - If you move hosts, **keep URLs the same, test first, redirect carefully, and monitor for several weeks**.
 
+permalink: /2026/10/06/how-hosting-provider-affects-website-seo.html
 ---
 
 ## Conclusion

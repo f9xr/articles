@@ -1,4 +1,4 @@
----
+﻿---
 layout: post
 title: "Guest Posting for New Sites: A Real 2026 Playbook"
 description: "New website with zero authority? Here's how to actually land guest posts in 2026, what to pitch, where to find sites, and mistakes to skip."
@@ -22,6 +22,7 @@ faq:
     a: "A short, specific pitch that references the host site's actual content, offers 2 to 3 concrete article title ideas, and is honest about who you are tends to perform far better than a generic mass email."
   - q: "Can guest posting hurt my website instead of helping it?"
     a: "Yes, if you publish on low-quality, irrelevant, or spammy sites purely for a link. Prioritizing relevance and genuine content quality over volume protects your site's trust signals."
+permalink: /2026/09/24/guest-posting-guide-for-new-websites.html
 ---
 
 Launching a new website is the easy part. Getting anyone besides your own visitors to link to it is where most business owners quietly give up.
@@ -56,6 +57,7 @@ Digital PR sits at the opposite end of the effort spectrum. It can pull in far b
 
 If you haven't set up the basics yet, pairing guest posting with free listings is a smart early move. Our [guide to free business directories](https://f9xr.org/articles/2026/07/29/free-business-directories-guide.html) covers where to start.
 
+permalink: /2026/09/24/guest-posting-guide-for-new-websites.html
 ---
 
 ## Step 1: Get Your Own Site Ready Before You Pitch Anyone
@@ -91,6 +93,7 @@ Look at where similar businesses in your space, a size or two above you rather t
 
 A moderately known blog that your target audience actually reads is worth more than a huge, generic site with an audience that has nothing to do with your business. Relevance matters more than a vanity metric. Ahrefs keeps a running [write-up of guest blogging research](https://ahrefs.com/blog/guest-blogging/){:target="_blank" rel="noopener noreferrer"} that places guest posting inside a wider link building plan, and the pattern holds: the relevant mid-size site wins.
 
+permalink: /2026/09/24/guest-posting-guide-for-new-websites.html
 ---
 
 ## Step 3: Write a Pitch That Doesn't Get Deleted
@@ -152,6 +155,7 @@ If you want a refresher on structuring content that reads well and performs for 
 
 The same trust signals that decide whether a site ranks also decide whether an editor publishes your piece. Before you pitch, run your own content against the [Google E-E-A-T checklist](https://f9xr.org/articles/2026/08/04/google-e-e-a-t-checklist-every-seo-should-bookmark.html). A post with a named author, a clear source of expertise, and at least one specific detail is far easier to say yes to.
 
+permalink: /2026/09/24/guest-posting-guide-for-new-websites.html
 ---
 
 ## Step 5: Follow Up (Politely) and Track What Works
@@ -176,6 +180,7 @@ There's no magic number, and anyone promising one is guessing. Most new sites st
 
 Two things matter more than the count. First, the sites have to be relevant to your niche. Second, they have to be real sites with actual readers. Five guest posts on blogs your customers read will outrank fifty links from directories nobody visits. A 10 to 20 percent acceptance rate on well-targeted pitches is a realistic, healthy outcome for a new site, so expect to send five to ten pitches per acceptance.
 
+permalink: /2026/09/24/guest-posting-guide-for-new-websites.html
 ---
 
 ## Common Mistakes to Avoid
@@ -196,6 +201,7 @@ Two things matter more than the count. First, the sites have to be relevant to y
 * Write guest content that's actually valuable, not just a link vehicle. Editors and readers both notice the difference. Moz's [beginner guide to link building](https://moz.com/beginners-guide-to-link-building){:target="_blank" rel="noopener noreferrer"} is a good frame for why that distinction matters.
 * Track your outreach and follow up once. Guest posting is a numbers game, especially early on.
 
+permalink: /2026/09/24/guest-posting-guide-for-new-websites.html
 ---
 
 ## Conclusion

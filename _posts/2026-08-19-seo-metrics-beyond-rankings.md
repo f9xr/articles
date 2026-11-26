@@ -22,6 +22,7 @@ faq:
     a: "This usually points to either a weak, uncompelling title tag and meta description, or an AI Overview, featured snippet, or People Also Ask box answering the query directly and absorbing the click before it reaches your site. Checking your CTR against the benchmark for your position helps identify which is more likely."
   - q: "How often should I review these SEO metrics?"
     a: "A monthly review is a reasonable baseline for most small and mid sized businesses, checking impressions and CTR trends, engagement by content type, conversion tracking accuracy, and content decay, with a periodic manual check of AI search visibility added into the same routine."
+permalink: /2026/08/19/seo-metrics-beyond-rankings.html
 ---
 
 You finally hit position one for a keyword you've been chasing for months. You screenshot it, maybe even show your team. And then... nothing changes. Phone doesn't ring more. Form submissions stay flat. Revenue looks the same at the end of the month as it did before you got there. If that scenario sounds familiar, you're not imagining it, and you're not doing SEO wrong. You've just been tracking the wrong metrics.
@@ -42,6 +43,7 @@ Position tells you where you show up. It says nothing about what happens next. A
 
 None of this means rankings don't matter, they're still the foundation everything else is built on. But they're the beginning of the story, not the ending.
 
+permalink: /2026/08/19/seo-metrics-beyond-rankings.html
 ---
 
 ## 1. Click Through Rate (CTR)
@@ -66,6 +68,7 @@ Dwell time measures how long a visitor stays on your page before returning to th
 
 **Practical tip:** Weight the specific engagement signals that matter for each content type, dwell time and scroll depth for informational content, click to contact or click to cart speed for transactional pages, rather than judging every page against one universal standard.
 
+permalink: /2026/08/19/seo-metrics-beyond-rankings.html
 ---
 
 ## 3. Bounce Rate
@@ -88,6 +91,7 @@ This is the metric that ties SEO effort to actual business outcomes: the percent
 
 **Practical tip:** Before tracking this metric, explicitly define what counts as a conversion for your business, a demo request, a call, a booked appointment, a completed purchase, so the number reflects something meaningful rather than a vague, uncounted goal.
 
+permalink: /2026/08/19/seo-metrics-beyond-rankings.html
 ---
 
 ## 5. Organic Traffic Value
@@ -110,6 +114,7 @@ Two related, often overlooked signals worth tracking together.
 
 **Practical tip:** Review content decay on a rolling monthly basis for your top 20 to 30 organic pages, and treat any page showing a consistent multi month decline as a priority for refreshing, not just replacing. Running a periodic [consistency audit](https://f9xr.org/articles/2026/08/13/consistency-audits-seo-aeo-geo.html){:target="_blank" rel="noopener noreferrer"} across your content helps you catch these declines before they compound.
 
+permalink: /2026/08/19/seo-metrics-beyond-rankings.html
 ---
 
 ## 7. AI Search Visibility
@@ -134,6 +139,7 @@ This is the newest addition to the list, and one of the most important. AI Overv
 | Assisted conversions / content decay | Content's role in the full customer journey and its performance trend | GA4 attribution, Search Console 28 day comparisons | Stable or growing contribution, no unexplained multi month decline |
 | AI search visibility | Whether AI tools reference your business or content | Manual testing across ChatGPT, Gemini, Perplexity | Regular, accurate citations in AI generated answers |
 
+permalink: /2026/08/19/seo-metrics-beyond-rankings.html
 ---
 
 ## How to Build a Monthly SEO Reporting Habit Around These Metrics
@@ -153,6 +159,7 @@ Most business owners don't have the time to build and maintain a reporting syste
 
 F9XR Team builds this kind of outcome focused measurement directly into its [local SEO](https://f9xr.org/pages/services.html){:target="_blank" rel="noopener noreferrer"}, [website development](https://f9xr.org/pages/services.html){:target="_blank" rel="noopener noreferrer"}, and [website redesign](https://f9xr.org/pages/services.html){:target="_blank" rel="noopener noreferrer"} work, tracking CTR, engagement, conversions, and AI visibility together, not just rankings in isolation, so a business owner can see clearly whether their SEO investment is producing real customers, not just better looking numbers in a rank tracker.
 
+permalink: /2026/08/19/seo-metrics-beyond-rankings.html
 ---
 
 ## Key Takeaways
@@ -172,6 +179,7 @@ A first place ranking that nobody clicks, or clicks and immediately leaves, isn'
 
 Building the kind of measurement system that connects rankings to revenue takes ongoing attention most business owners don't have spare hours for. That's exactly the outcome focused approach F9XR Team brings to its local SEO, website development, and website redesign work, so your SEO strategy gets judged, and improved, by what it delivers, not just where it happens to rank.
 
+permalink: /2026/08/19/seo-metrics-beyond-rankings.html
 ---
 
 

@@ -23,6 +23,7 @@ faq:
     a: "Yes. Google previously reported views and clicks for individual posts, but retired both metrics in February 2023 during its migration to the Business Profile Performance API, along with photo view counts."
   - q: "Do Google Posts directly improve local search rankings?"
     a: "Posts don't directly boost your position in the local map pack, but they act as a trust and engagement signal, increasing click-through rates and website visits while helping feed Google's AI-powered local search summaries."
+permalink: /2026/09/11/google-business-profile-post-view-counts.html
 ---
 
 Ever posted an update, offer, or event on your Google Business Profile and wondered whether anyone actually saw it? Google just answered that question. On September 10, 2026, the company confirmed it's rolling out post view counts globally across Business Profile dashboards, giving owners a direct, per-post measure of how many people actually saw each update.

@@ -21,6 +21,7 @@ faq:
     a: "Gemini benefits directly from Google's existing local business ecosystem, including Google Business Profile data, Maps signals, reviews, and location relevance, giving it a deeper, more established information base to draw from compared to ChatGPT and Perplexity."
   - q: "How often should I check whether my business appears in AI recommendations?"
     a: "Regularly, ideally monthly. AI recommended businesses show roughly 85% volatility as models continuously re-evaluate fresh data, meaning a business that appears in AI answers today isn't guaranteed to still appear a few months later without ongoing attention."
+permalink: /2026/08/16/how-ai-picks-local-businesses-2026.html
 ---
 
 For years, "ranking for local business" meant one thing: cracking the Google Maps top three. You optimized your Google Business Profile, chased reviews, cleaned up your citations, and if you did it well, you showed up in the map pack when someone searched "plumber near me." That playbook still matters. But a second, quieter competition has opened up alongside it, and most business owners haven't noticed they're already playing it.

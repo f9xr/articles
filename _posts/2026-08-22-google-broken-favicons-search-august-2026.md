@@ -1,4 +1,4 @@
----
+﻿---
 layout: post
 title: "Google Favicons Broken in Search: What's Happening"
 description: "Google confirmed a bug causing broken favicons in Search results this August 2026. Here's what happened, why it matters, and what to do."
@@ -23,6 +23,7 @@ faq:
     a: "The icon should be square and sized as a multiple of 48 pixels, referenced with a proper link tag in your homepage head section, and both the favicon file and homepage must be crawlable by Googlebot."
   - q: "When will Google fix the broken favicon bug?"
     a: "Google has not given an exact timeline but confirmed it is actively working on a fix as of August 21, 2026. Some affected sites have already recovered, suggesting a gradual rollout is underway."
+permalink: /2026/08/22/google-broken-favicons-search-august-2026.html
 ---
 
 If you searched for your own website recently and noticed a plain gray globe icon sitting next to your listing instead of your actual logo, you're not losing your mind. You didn't break anything either. Google has confirmed a bug on its own end that's causing broken favicons across Search results, and it's been going on for over a week.
@@ -75,6 +76,7 @@ As of the most recent reporting, the picture is mixed. Some previously broken ex
 | Aug 21, 2026 | Google's Rajan Patel confirms a Google-side bug, says a fix is in progress |
 | Ongoing | Some sites recovering, others including LinkedIn still affected |
 
+permalink: /2026/08/22/google-broken-favicons-search-august-2026.html
 ---
 
 ## What the Broken Favicon Actually Looks Like
@@ -106,6 +108,7 @@ A missing favicon, swapped for a generic globe, can subtly read as less polished
 
 Favicons show up not just in organic listings but across other Google surfaces too, including certain ad placements and various search features. Losing consistency there fragments the brand experience across every way people encounter your site through Google, which is the same problem that makes [consistency audits valuable for SEO, AEO, and GEO](https://f9xr.org/articles/2026/08/13/consistency-audits-seo-aeo-geo.html).
 
+permalink: /2026/08/22/google-broken-favicons-search-august-2026.html
 ---
 
 ## Is This Bug Affecting Your Rankings?
@@ -163,6 +166,7 @@ Google has acknowledged the bug and is working on it, so periodic monitoring of 
 
 Google Search Central's official accounts and the [Search Status Dashboard](https://status.search.google.com/){:target="_blank" rel="noopener noreferrer"} are the most reliable places to confirm when this issue is fully resolved.
 
+permalink: /2026/08/22/google-broken-favicons-search-august-2026.html
 ---
 
 ## Common Reasons Favicons Break Beyond This Bug
@@ -189,6 +193,7 @@ Use it as a prompt anyway. If you've never verified your favicon meets Google's 
 
 For startups building recognition from scratch, getting favicon fundamentals right early, correct sizing, proper HTML implementation, stable URL, means one less thing to troubleshoot later as your search visibility grows.
 
+permalink: /2026/08/22/google-broken-favicons-search-august-2026.html
 ---
 
 ## How the F9XR Team Can Help
@@ -216,6 +221,7 @@ If you've noticed your favicon missing in search results and aren't sure whether
 * Verify your favicon against Google's specifications while waiting, but don't swap out an already-correct favicon file in response to this bug.
 * Favicons carry more weight than their size suggests, so this is a good moment to check your own setup even if you weren't affected.
 
+permalink: /2026/08/22/google-broken-favicons-search-august-2026.html
 ---
 
 ## Conclusion

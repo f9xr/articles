@@ -1,4 +1,4 @@
----
+﻿---
 layout: post
 title: "EmDash: Cloudflare's New AI-Native CMS Explained"
 description: "Cloudflare launched EmDash, an open-source, AI-native CMS built as WordPress's successor. Here's what it does and if it fits your business."
@@ -24,6 +24,7 @@ faq:
     a: "EmDash is written in TypeScript rather than PHP, stores content as structured JSON called Portable Text instead of HTML, runs serverless rather than requiring provisioned servers, and runs plugins in sandboxed isolates for improved security, compared to WordPress's more open plugin architecture."
   - q: "Should my small business switch to EmDash right now?"
     a: "For most small and local businesses without dedicated development resources, WordPress remains the safer, more supported choice for now, given EmDash's current lack of a mature plugin ecosystem. Businesses with in-house technical teams or those deeply invested in Cloudflare's infrastructure may want to start evaluating it early."
+permalink: /2026/08/25/cloudflare-emdash-cms-explained.html
 ---
 
 WordPress has run the internet for over two decades. Something like 40 percent of all websites today are still built on it. That kind of dominance rarely gets challenged in any serious way, which is exactly what makes Cloudflare's latest project notable.
@@ -74,6 +75,7 @@ Cloudflare is [using EmDash to run its own blog](https://blog.cloudflare.com/clo
 
 <blockquote class="twitter-tweet"><p lang="en" dir="ltr">We redesigned the Cloudflare Blog - dark mode, cleaner UI, faster load times. What you might not know: the whole thing runs on EmDash, a new CMS built on Cloudflare Workers. We were Customer Zero. <a href="https://t.co/XDj4qj4XUC">https://t.co/XDj4qj4XUC</a></p>&ndash; Cloudflare (@Cloudflare) <a href="https://x.com/Cloudflare/status/2091975362297090304?ref_src=twsrc%5Etfw">August 24, 2026</a></blockquote> <script async src="https://platform.x.com/widgets.js" charset="utf-8"></script>
 
+permalink: /2026/08/25/cloudflare-emdash-cms-explained.html
 ---
 
 ## The AI-Native CMS Angle: What That Actually Means
@@ -110,6 +112,7 @@ EmDash addresses this by running plugins in sandboxed Worker isolates, meaning e
 
 Authentication is another area where EmDash takes a notably different, more modern approach. Rather than relying on traditional username and password logins, EmDash uses passkey-based authentication by default, meaning there are no passwords to leak and no brute-force login attacks to defend against in the first place.
 
+permalink: /2026/08/25/cloudflare-emdash-cms-explained.html
 ---
 
 ## Is EmDash Actually Ready to Replace WordPress? A Balanced Look
@@ -149,6 +152,7 @@ This is the most important question for any business owner considering EmDash ri
 * Businesses relying heavily on specific WordPress plugins for critical functionality like e-commerce, membership systems, or industry-specific tools that don't yet have EmDash equivalents
 * Anyone prioritizing platform stability and long-term predictability over cutting-edge architecture, particularly for a business-critical website
 
+permalink: /2026/08/25/cloudflare-emdash-cms-explained.html
 ---
 
 ## What This Means for Local Businesses and Startups
@@ -175,6 +179,7 @@ The F9XR Team helps business owners, startups, and local businesses navigate exa
 
 If you're weighing your website platform options and want a clear-eyed recommendation based on your actual business needs, not just what's newest or trendiest, that's exactly the kind of conversation to have.
 
+permalink: /2026/08/25/cloudflare-emdash-cms-explained.html
 ---
 
 ## Key Takeaways

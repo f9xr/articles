@@ -21,6 +21,7 @@ faq:
     a: "Negative keywords prevent your ad from showing for searches that clearly do not match buyer intent, competing terms, job seekers, or free alternatives. A well maintained negative keyword list reduces wasted spend and improves both CTR and conversion rate by removing low intent impressions."
   - q: "What is a good ROAS for a small business in 2026?"
     a: "Cross industry ROAS benchmarks sit around 200 percent to 400 percent, with strong e-commerce campaigns often reaching 400 percent to 600 percent. The right target depends heavily on your specific profit margins, so ROAS should always be evaluated alongside actual margin, not compared to a generic industry average alone."
+permalink: /2026/08/23/sem-metrics-complete-guide-2026.html
 ---
 
 Open a Google Ads dashboard for the first time and it feels like reading a language nobody bothered to translate for you. Impressions, CTR, CPC, Quality Score, ROAS, impression share, a wall of numbers next to a wall of acronyms, and somewhere in there is supposedly the answer to whether your ad spend is working or quietly draining your budget. Most business owners either ignore half these metrics entirely, or fixate on the one number that sounds most familiar, usually cost, without understanding how the others explain why that cost is what it is.
@@ -111,6 +112,7 @@ The total revenue generated divided by total ad spend, usually expressed as a ra
 
 **2026 benchmark:** Cross industry ROAS sits around 200% to 400%, with strong e-commerce campaigns often pushing toward 400% to 600%. Read ROAS alongside your actual profit margin, not in isolation, since a high ROAS on low margin products can still mean thin or negative actual profit.
 
+permalink: /2026/08/23/sem-metrics-complete-guide-2026.html
 ---
 
 ## SEM Benchmarks at a Glance (2026)

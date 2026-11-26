@@ -1,4 +1,4 @@
----
+﻿---
 layout: post
 title: "Why Consistency Audits Matter for SEO, AEO & GEO"
 description: "Learn why an information consistency audit is critical for SEO, AEO, and GEO in 2026, with real stats, examples, and a practical audit checklist."
@@ -22,6 +22,7 @@ faq:
     a: "Run a full audit at least twice a year, and run a quick spot check whenever your business name, address, or phone number changes. After a move or rebrand, audit immediately, because old details can stay live on directories and data aggregators for months."
   - q: "What are the most common NAP inconsistencies?"
     a: "Suite and unit number variations are the most common, affecting 38% of businesses in a 2026 audit. Phone format differences affect 31%, address abbreviation differences affect 27%, and old phone numbers or addresses lingering after a change affect 19% each."
+permalink: /2026/08/13/consistency-audits-seo-aeo-geo.html
 ---
 
 If a customer finds your business on Google, taps your listing, and calls the number there, only to reach a receptionist who has never heard of your company, that's not a bad day. It's a data problem. The listing is pulling from an old source that nobody cleaned up.

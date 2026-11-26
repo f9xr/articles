@@ -1,4 +1,4 @@
----
+﻿---
 layout: post
 title: "How We Audited Our Own Site for E-E-A-T Issues"
 description: "We ran a source-level SEO codebase audit across our own site and fixed schema fabrications, broken identifiers, and weak author signals. See the process."
@@ -21,6 +21,7 @@ faq:
     a: "Across 34 posts and all site templates, the audit surfaced critical issues like a fabricated video duration fallback baked into the schema template and malformed YouTube embed IDs, plus high-severity items such as nine logo URLs pointing off the repository and author data files too thin to feed Person schema."
   - q: "How long does a codebase-level SEO audit take?"
     a: "A focused single-site pass took us one working session: scanning, classifying each finding by severity, fixing critical and high items, then verifying every fix with targeted searches until each problem pattern returned zero matches."
+permalink: /2026/08/22/seo-codebase-e-e-a-t-audit-case-study.html
 ---
 
 Our crawl reports looked clean. Sitemaps resolved, pages returned 200s, titles were unique, images had dimensions. Then we audited the actual source code behind this site and found problems no crawler would ever flag: schema values that were quietly false, identifiers that were structurally broken, and identity data that was too thin to mean anything.
@@ -138,7 +139,7 @@ Fixes mean nothing without verification, so each category got a closing query ru
 | Fabricated duration fallback | 0 matches | 0 matches |
 | BOM bytes in posts | 0 files | 0 files |
 
-The final diff touched **38 files**, adding 96 lines and removing 263. The negative net total is what a cleanup should look like. Grading ourselves against the same rubric we apply to client work, the site moved from a C− to a B+, with the remaining gaps requiring business decisions rather than code changes: real address and phone data, named authors on older collective-bylined posts, and sourcing for statistics that predate this process.
+The final diff touched **38 files**, adding 96 lines and removing 263. The negative net total is what a cleanup should look like. Grading ourselves against the same rubric we apply to client work, the site moved from a Câˆ’ to a B+, with the remaining gaps requiring business decisions rather than code changes: real address and phone data, named authors on older collective-bylined posts, and sourcing for statistics that predate this process.
 
 ## What This Means for Your Site
 

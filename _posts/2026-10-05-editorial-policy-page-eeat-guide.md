@@ -1,4 +1,4 @@
----
+﻿---
 layout: post
 title: "Editorial Policy Page: The Quiet Trust Booster for E-E-A-T"
 description: "Learn what an editorial policy page is, what to include, and how it strengthens E-E-A-T and trust for your business website, with a simple checklist."
@@ -21,6 +21,7 @@ faq:
     a: "Include your purpose, who writes and reviews content, sourcing standards, your fact-checking steps, AI use and disclosure, a corrections process, a review schedule, sponsorship or affiliate disclosures, and contact details. Add a Last reviewed date. Keep the language plain and the promises realistic."
   - q: "Where should I place my editorial policy page?"
     a: "Place a link in your website footer so it appears on every page. Also link to it from your About page, your author pages, and ideally from a short note on each article. Use a clear URL such as /editorial-policy/ so people and crawlers can find it quickly."
+permalink: /2026/10/05/editorial-policy-page-eeat-guide.html
 ---
 
 Picture two accounting firms in your city. Both publish a blog post on the same tax deadline. The advice is almost identical.
@@ -66,6 +67,7 @@ Many owners confuse these pages. They do different jobs, and the best sites have
 
 If you only have time for one new page this month, start with the editorial policy. It links naturally to everything else in that table.
 
+permalink: /2026/10/05/editorial-policy-page-eeat-guide.html
 ---
 
 ## E-E-A-T in 60 Seconds
@@ -128,6 +130,7 @@ Our guide on [how to increase your website trust score](https://f9xr.org/article
 | **Authoritativeness** | Reliable sourcing standards | "We prefer official documentation and primary research." |
 | **Trust** | Accuracy checks, AI disclosure, corrections | "Report an error and we reply within 2 working days." |
 
+permalink: /2026/10/05/editorial-policy-page-eeat-guide.html
 ---
 
 ## Does an Editorial Policy Page Help SEO and AI Search?
@@ -159,6 +162,7 @@ Notice what this example does well. It is specific. It uses numbers and timeline
 
 You do not need a four-stage pipeline if you run a flower shop. You do need honest, specific statements you can actually keep.
 
+permalink: /2026/10/05/editorial-policy-page-eeat-guide.html
 ---
 
 ## What to Include in Your Editorial Policy Page
@@ -237,6 +241,7 @@ Contact
 Last reviewed: [Date]
 ```
 
+permalink: /2026/10/05/editorial-policy-page-eeat-guide.html
 ---
 
 ## How to Publish Your Editorial Policy Page: Step by Step
@@ -272,6 +277,7 @@ Here is a simple example of the schema snippet:
 - **Being vague about AI.** Readers and platforms are becoming less tolerant of unclear AI use. Say what you actually do.
 - **Treating it as a one-time SEO trick.** The page only works when your real process matches the words.
 
+permalink: /2026/10/05/editorial-policy-page-eeat-guide.html
 ---
 
 ## Special Note for YMYL Businesses
@@ -303,6 +309,7 @@ Here is how F9XR Team can support you:
 
 You can see everything we do on our [services page](https://f9xr.org/pages/services.html), or reach us through the [contact page](https://f9xr.org/articles/press/contact.html).
 
+permalink: /2026/10/05/editorial-policy-page-eeat-guide.html
 ---
 
 ## Key Takeaways

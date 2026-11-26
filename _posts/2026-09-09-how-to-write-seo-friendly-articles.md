@@ -22,6 +22,7 @@ faq:
     a: "Focus on clear structure with direct headings, answer the main question early rather than burying it in a long introduction, add genuine expertise and specific examples, and use proper schema markup, particularly FAQ markup, since these elements correlate with higher rates of being cited in AI generated answers."
   - q: "Can I use AI tools to help write SEO content?"
     a: "Yes, AI tools can be useful for drafting, research, and overcoming writer's block. The key is not publishing the raw output. Add original insight, fact check the details, and edit for your own voice before publishing, since unedited AI content tends to read as generic and underperforms in both search rankings and AI citations."
+permalink: /2026/09/09/how-to-write-seo-friendly-articles.html
 ---
 
 Most business owners writing their own blog content fall into one of two traps. Either they write purely for search engines, stuffing in keywords until the article reads like it was written by a machine that hates humans, or they write purely from the heart, publish something genuinely nice, and wonder six months later why it has twelve total views.
@@ -46,6 +47,7 @@ An SEO friendly article in 2026 typically has:
 * Internal and external links that add real value
 * Fast loading, mobile friendly presentation
 
+permalink: /2026/09/09/how-to-write-seo-friendly-articles.html
 ---
 
 ## Step by Step: How an SEO Specialist Actually Writes an Article
@@ -143,6 +145,7 @@ Schema markup helps both search engines and AI tools understand exactly what typ
 | Schema markup | FAQ or article schema added where relevant |
 | Length | Long enough to be thorough, not padded to hit a word count |
 
+permalink: /2026/09/09/how-to-write-seo-friendly-articles.html
 ---
 
 ## Common Mistakes That Hurt SEO Writing
@@ -168,6 +171,7 @@ We work with Chartered Accountants, Company Secretaries, Cost and Management Acc
 
 If you've been publishing content that isn't gaining traction, the issue is very often the structure, not the effort, and that's a fixable problem. You can talk through it with the [F9XR team](https://f9xr.org/pages/contact.html) to see where the gaps are.
 
+permalink: /2026/09/09/how-to-write-seo-friendly-articles.html
 ---
 
 ## Key Takeaways

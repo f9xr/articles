@@ -22,6 +22,7 @@ faq:
     a: "Each run produces seo_audit_report.md and seo_audit_report.csv. The report contains an executive summary, a Priority Fix Matrix capped at 20 items, and granular per-pillar evaluations. Every finding lists the affected file and line, the evidence, the impact, and a copy-paste-ready fix block."
   - q: "How is this different from Screaming Frog or Ahrefs?"
     a: "Traditional tools crawl your live URLs and check server responses. The skill reads your source code directly, before you deploy, so it catches structural issues at the code level like missing schema, broken metadata, and performance anti-patterns. It also adapts the checks to your framework and project type."
+permalink: /2026/07/31/f9xr-seo-codebase-auditor-skill-guide.html
 ---
 
 SEO problems hide in code, not in content. A page can look perfect in a browser and still fail search engines because the title tag is missing, the images have no dimensions, or the schema is invalid. You rarely see those issues on the screen. You see them as rankings that slowly slide, months after a site ships.

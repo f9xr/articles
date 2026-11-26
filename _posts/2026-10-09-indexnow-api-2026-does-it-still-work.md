@@ -1,4 +1,4 @@
----
+﻿---
 layout: post
 title: "IndexNow in 2026: Does It Still Work? The Honest Answer"
 description: "IndexNow still works in 2026 for Bing, Yandex and more, but not Google. Learn what it does, who needs it and how to set it up."
@@ -21,6 +21,7 @@ faq:
     a: "Bing, Yandex, Naver, Seznam.cz, and Yep support IndexNow. The official documentation also lists an Amazon endpoint. DuckDuckGo does not run its own IndexNow system, but it relies heavily on Bing results."
   - q: "Does the F9XR SEO Codebase Auditor skill check for IndexNow?"
     a: "Yes. The F9XR SEO Codebase Auditor skill includes an IndexNow Protocol Setup check inside Pillar 9, XML Sitemap and Robots.txt. If the protocol is missing, the skill flags it and provides the key file, the JSON request body, and the expected response codes."
+permalink: /2026/10/09/indexnow-api-2026-does-it-still-work.html
 ---
 
 Here is one number worth holding onto before you read another word about the IndexNow API. Roughly nine out of ten searches worldwide still happen on Google, and Google does not participate in IndexNow. That single fact should shape how you read every "instant indexing" promise you see.

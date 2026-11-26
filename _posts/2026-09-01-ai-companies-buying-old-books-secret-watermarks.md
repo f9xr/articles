@@ -23,6 +23,7 @@ faq:
     a: "No. Older AI models that predate watermarking features, or heavily edited AI content, may show no detectable watermark at all, without that meaning the content wasn't originally AI-assisted."
   - q: "Should businesses stop using AI tools for content because of watermarking?"
     a: "Not necessarily. The practical approach is treating AI output as a first draft, editing it substantially with genuine expertise and original insight, and being transparent about AI assistance where it genuinely matters to your audience."
+permalink: /2026/09/01/ai-companies-buying-old-books-secret-watermarks.html
 ---
 
 Here's a strange but true snapshot of where AI is right now. On one hand, major [AI companies](https://www.404media.co){:target="_blank" rel="noopener noreferrer"} are spending real money buying up shipping containers full of old, printed books, specifically ones published before 2022, because those books are guaranteed to be free of AI-generated writing. On the other hand, those same companies are quietly baking invisible, undetectable signatures into the text their own AI models produce, so it can be traced back later.
@@ -70,6 +71,7 @@ Beyond avoiding AI slop, there's a second, more adversarial reason AI companies 
 | Legal precedent | Judge William Alsup ruled Anthropic's book scanning and destruction practice was "clearly transformative" fair use |
 | The controversial part | Scanning at scale typically destroys the physical book |
 
+permalink: /2026/09/01/ai-companies-buying-old-books-secret-watermarks.html
 ---
 
 ## The Uncomfortable Part: These Books Get Destroyed
@@ -120,6 +122,7 @@ There are real limits here:
 | OpenAI (ChatGPT) | Transparency tools for images and audio via SynthID licensing | No public text watermark detection system confirmed yet |
 | Detection tools | Third-party tools scan for statistical patterns, not just watermarks | Increasingly common, but imperfect |
 
+permalink: /2026/09/01/ai-companies-buying-old-books-secret-watermarks.html
 ---
 
 ## Why This Was Rolled Out So Quietly
@@ -136,6 +139,7 @@ Here's the bigger picture as a business owner. AI companies are dealing with a s
 
 For anyone publishing content online, this points to a future where the distinction between human-written and AI-generated content becomes increasingly detectable, whether you disclose it yourself or not. Treating your content strategy as though this distinction doesn't matter is becoming a riskier bet by the month. If your site is built to be [visible to AI search](https://f9xr.org/articles/2026/08/14/steps-make-business-site-visible-to-ai.html) in the first place, that foundation also makes authentic content easier for both people and machines to verify.
 
+permalink: /2026/09/01/ai-companies-buying-old-books-secret-watermarks.html
 ---
 
 ## What This Means Practically For Your Business
@@ -168,6 +172,7 @@ If you're running a local business or an early-stage startup relying on content 
 
 For local businesses specifically, this is a good moment to double down on original photography, real customer testimonials, and specific, local details in your website and Google Business Profile content, the exact kind of material that's both hardest to fake and least likely to raise any transparency concerns down the line. We've written before about [why your Google Business Profile is becoming a homepage](https://f9xr.org/articles/2026/08/16/zero-click-search-google-business-profile-homepage.html) for local search, and the authenticity argument only gets stronger from here.
 
+permalink: /2026/09/01/ai-companies-buying-old-books-secret-watermarks.html
 ---
 
 ## How the F9XR Team Can Help
@@ -195,6 +200,7 @@ If you're unsure whether your current content mix leans too heavily on unedited 
 * These watermarks work by subtly influencing which words a model chooses, forming a detectable pattern without changing the text's quality or meaning, though heavy editing can weaken or erase the signal.
 * Business owners should treat AI-generated content as a first draft requiring real human editing, and should recognize that original, human-authored content is becoming a more valuable, differentiated asset, not a less relevant one.
 
+permalink: /2026/09/01/ai-companies-buying-old-books-secret-watermarks.html
 ---
 
 ## Conclusion

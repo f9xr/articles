@@ -23,6 +23,7 @@ faq:
     a: "Security headers are HTTP response fields like Content-Security-Policy, Strict-Transport-Security, and X-Content-Type-Options that harden a site against common attacks. They are a signal of professional maintenance that both security scanners and technically savvy visitors check. Tools like securityheaders.com grade them from A to F."
   - q: "How can I audit my website's trust score?"
     a: "Run a structured audit covering five areas: technical security (HTTPS, headers, malware scans), content quality (E-E-A-T, citations, accuracy), business legitimacy (About page, contact info, address), social proof (reviews, testimonials, press), and consistency (same NAP and brand details everywhere). Fix the highest impact gaps first."
+permalink: /2026/08/15/how-to-increase-website-trust-score.html
 ---
 
 Your website's trust score is working against you the moment a visitor, or an AI assistant, suspects it can't be trusted. A missing padlock icon. An about page with no name on it. A statistic with no source. Each one is a small vote against your credibility, and they stack up fast.

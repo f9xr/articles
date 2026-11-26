@@ -1,4 +1,4 @@
----
+﻿---
 layout: post
 title: "Google Analytics App Conversions Go Cross-Channel"
 description: "Google Analytics now includes app conversions in cross-channel reports. See what changed, what still excludes apps, and how to set it up for your business."
@@ -21,6 +21,7 @@ faq:
     a: "Not yet. Google's September 29, 2026 update states plainly that cross-channel budgeting features currently support web conversions only. You can use the new conversion reports to analyze app performance, but projection plans and scenario plans still run on web data, so they should not be used to plan app budget for now."
   - q: "Why can't I see app conversions in my Google Analytics property?"
     a: "Google states the feature may not be available to your property yet and that the Analytics team is actively working to expand it. Before assuming it is a rollout issue, confirm your app events are marked as conversions, confirm your Google Ads account is linked, and check back in a few days."
+permalink: /2026/09/30/google-analytics-app-conversions-cross-channel-reports.html
 ---
 
 A customer sees your ad on a laptop, reads your website, then finishes the purchase inside your app three days later. Your reports show the website half of that journey in one place and the app half somewhere else entirely.
@@ -65,6 +66,7 @@ Google's commitment to this was public months earlier. Steve Ganem, Director of 
 
 Read that sentence as a sequence of steps rather than a single switch. Budgeting came first, then web conversions, then the API, and now apps. Web-only coverage in the budgeting tools is a leftover from that order, not an oversight.
 
+permalink: /2026/09/30/google-analytics-app-conversions-cross-channel-reports.html
 ---
 
 ## What Google Analytics App Conversions Actually Change for You
@@ -116,6 +118,7 @@ So even the web-only forecasting tools have a data maturity requirement. If your
 
 There is a wider limitation too. Google's cross-channel conversion reporting guidance notes that where a report does not support certain data, including app conversions and the Search Ads 360, Display & Video 360, and Campaign Manager 360 dimensions, you continue using key events. Those adjacent reports have not caught up.
 
+permalink: /2026/09/30/google-analytics-app-conversions-cross-channel-reports.html
 ---
 
 ## Conversions vs Key Events: Where the Gap Is
@@ -153,6 +156,7 @@ No large team required. Work through these in order.
 
 **7. Keep your key events intact.** Do not delete them. Reports that still rely on key events need them, and they remain the source for building conversions.
 
+permalink: /2026/09/30/google-analytics-app-conversions-cross-channel-reports.html
 ---
 
 ## What This Means If You Are a Small or Local Business
@@ -183,6 +187,7 @@ Not every business has an app, and that is fine. Position matters more than size
 
 **5. Not documenting your conversion setup.** Write down which events count and why. Six months from now, the person deciding whether to cut a channel will not remember, and neither will you.
 
+permalink: /2026/09/30/google-analytics-app-conversions-cross-channel-reports.html
 ---
 
 ## Key Takeaways

@@ -21,6 +21,7 @@ faq:
     a: "Yes. In response to an unmanageable volume of low-severity, often AI-generated reports, the WordPress Security Team tightened the scope of its HackerOne program, raising expectations for report quality including clear vulnerability classification and detailed proof-of-concept steps."
   - q: "Does this initiative cover WordPress plugins and themes too?"
     a: "No. The Core Security Initiative is specifically focused on WordPress core, the underlying software itself. Plugin and theme security remains a separate concern, and research shows a meaningful share of plugin vulnerabilities don't receive timely fixes from their developers."
+permalink: /2026/09/04/wordpress-updates-core-security-initiative.html
 ---
 
 If you run a WordPress site, and roughly 40 percent of the web does, you've probably noticed WordPress shipping security releases at a noticeably faster clip lately. That's not a coincidence.
@@ -63,6 +64,7 @@ Blackbourn summed up the shift plainly: "We're well into an entirely new era of 
 | Structure | Three pillars, referred to as "ABC" |
 | Recent security releases | 7.0.2 (July 17), 7.0.3 (August 6), 7.0.4 (a week later), three releases in four weeks |
 
+permalink: /2026/09/04/wordpress-updates-core-security-initiative.html
 ---
 
 ## The Three Pillars: Breaking Down "ABC"
@@ -103,6 +105,7 @@ This pressure led directly to a concrete policy change. After the August report 
 
 For anyone actually submitting a report to WordPress core's vulnerability disclosure program, the practical guidance now is stricter than before. Submissions are expected to include a clear description of the vulnerability classification, such as authenticated stored cross-site scripting, server-side request forgery, or a logic flaw, step-by-step proof-of-concept replication steps including explicit technical detail where applicable, the specific core file locations, functions, or REST API routes involved, and an accurate CVSS severity assessment grounded in practical exploitability rather than theoretical worst-case scenarios. The program remains open to legitimate reports through the official channel at [hackerone.com/wordpress](https://www.hackerone.com/wordpress){:target="_blank" rel="noopener noreferrer"}, but low-quality, low-severity submissions are facing a higher bar than before.
 
+permalink: /2026/09/04/wordpress-updates-core-security-initiative.html
 ---
 
 ## Recent WordPress Security Releases: A Sign of the Pace Shift
@@ -135,6 +138,7 @@ This distinction matters a lot practically. Independent security research has re
 
 There's also a regulatory dimension business owners with EU customers should be aware of. Under the EU's Cyber Resilience Act, commercial WordPress plugin vendors are increasingly required to establish formal vulnerability disclosure programs of their own to legally distribute software to European users. Many smaller plugin developers may not currently have the internal resources to manage a high volume of incoming security reports well, which could create real friction between when a vulnerability gets identified and when a genuine patch becomes available.
 
+permalink: /2026/09/04/wordpress-updates-core-security-initiative.html
 ---
 
 ## Practical Steps to Protect Your WordPress Site Right Now
@@ -167,6 +171,7 @@ The F9XR Team helps business owners, startups, and local businesses keep their W
 
 If you're not confident your WordPress site's plugin and theme layer is being managed with the same rigor WordPress core itself is now getting, that's exactly the kind of audit worth running.
 
+permalink: /2026/09/04/wordpress-updates-core-security-initiative.html
 ---
 
 ## Key Takeaways
@@ -186,6 +191,7 @@ WordPress's Core Security Initiative is a genuinely necessary response to a real
 
 If you want a genuinely thorough look at your WordPress site's full security posture, not just core updates but everything running alongside it, the F9XR Team works with business owners on exactly this kind of [website development](https://f9xr.org/pages/services.html), [website redesign](https://f9xr.org/pages/portfolio.html), and ongoing digital presence management.
 
+permalink: /2026/09/04/wordpress-updates-core-security-initiative.html
 ---
 
 *Produced using AI-assisted research and drafting workflows, then reviewed and edited by the F9XR editorial team. See our [Editorial Policy](https://f9xr.org/articles/press/editorial-policy.html) for how we create and verify content.*

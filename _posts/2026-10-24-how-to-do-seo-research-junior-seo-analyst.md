@@ -1,4 +1,4 @@
----
+﻿---
 layout: post
 title: "How to Do SEO Research as a Junior Analyst"
 description: "New to SEO? Learn how to do SEO research like a junior analyst: keywords, competitors, local rankings and AI search, step by step. Start here."
@@ -20,6 +20,7 @@ faq:
     a: "Local SEO research adds Google Business Profile, map pack rankings, reviews, local citations and NAP consistency to the usual keyword and competitor work. Searchers often use phrases like near me or a city name, so location signals carry extra weight."
   - q: "How do I do SEO research for AI search engines like ChatGPT and Gemini?"
     a: "Write the questions your customers ask, run them through ChatGPT, Gemini, Claude and Perplexity, and record which businesses and sources get mentioned. Then improve your content with clear answers, FAQs, fresh facts, structured data and consistent business details. Repeat the test monthly."
+permalink: /2026/10/24/how-to-do-seo-research-junior-seo-analyst.html
 ---
 
 Your manager says, "Can you do some SEO research on this client by Friday?" You nod, open a spreadsheet, and then stare at it for ten minutes.
@@ -46,6 +47,7 @@ A good junior analyst answers five questions:
 
 If your research does not end with a clear answer to question five, it is a data dump.
 
+permalink: /2026/10/24/how-to-do-seo-research-junior-seo-analyst.html
 ---
 
 ## Step 0: Understand the business before you touch a tool
@@ -111,6 +113,7 @@ These are examples. Real volumes and difficulty scores depend on your market and
 
 Group keywords into topic clusters, such as "root canal," "teeth whitening" and "braces," instead of treating each keyword as its own page. Search engines and AI systems both understand topics better than single phrases. When you are ready to write, this guide to [writing SEO friendly articles](https://f9xr.org/articles/2026/09/09/how-to-write-seo-friendly-articles.html) covers how to place those terms without stuffing them.
 
+permalink: /2026/10/24/how-to-do-seo-research-junior-seo-analyst.html
 ---
 
 ## Step 2: Search intent and SERP analysis
@@ -156,6 +159,7 @@ To find the real ones, search your top 10 keywords and list every domain that ap
 
 Backlink research also tells you what is realistic. If competitors have 500 referring domains and your client has 12, plan a longer road and say so in your report.
 
+permalink: /2026/10/24/how-to-do-seo-research-junior-seo-analyst.html
 ---
 
 ## Step 4: Local SEO research
@@ -192,6 +196,7 @@ You do not need to be a developer, but you do need to spot problems that block r
 
 For schema, start with [Schema.org](https://schema.org){:target="_blank" rel="noopener noreferrer"} and match the type to the page, not the other way around. Our [monthly website audit checklist](https://f9xr.org/articles/2026/09/03/monthly-website-audit-checklist.html) is a good routine to follow.
 
+permalink: /2026/10/24/how-to-do-seo-research-junior-seo-analyst.html
 ---
 
 ## Step 6: How to do SEO research for AI search (AEO)
@@ -247,6 +252,7 @@ Tie each recommendation to a number the client already cares about, whether that
 
 Always say what you could not verify. Being honest about limits builds trust faster than pretending the data is perfect.
 
+permalink: /2026/10/24/how-to-do-seo-research-junior-seo-analyst.html
 ---
 
 ## Tools every junior SEO analyst should know
@@ -275,6 +281,7 @@ Start free and add paid tools only when a real question demands one.
 - Trusting one tool. Tools disagree. Cross-check with Search Console and the live SERP.
 - No follow-through. Research that never becomes a task list does nothing for the client.
 
+permalink: /2026/10/24/how-to-do-seo-research-junior-seo-analyst.html
 ---
 
 ## A simple weekly workflow
@@ -300,6 +307,7 @@ Start free and add paid tools only when a real question demands one.
 - Test your visibility in ChatGPT, Gemini, Claude and Perplexity every month.
 - Finish every research project with a prioritized, plain-English action plan.
 
+permalink: /2026/10/24/how-to-do-seo-research-junior-seo-analyst.html
 ---
 
 ## Conclusion

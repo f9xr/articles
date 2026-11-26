@@ -1,3 +1,8 @@
+---
+layout: null
+sitemap: false
+robots: noindex
+---
 # auth.md
 
 This file tells AI agents how to authenticate with `f9xr.org` and the F9XR Articles blog.

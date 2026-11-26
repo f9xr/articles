@@ -1,4 +1,4 @@
----
+﻿---
 layout: post
 title: "WordPress MCP Adapter Goes Official: Should You Care?"
 description: "The WordPress MCP Adapter is now an official plugin for connecting AI tools to your site. Here is what business owners and startups should know."
@@ -23,6 +23,7 @@ faq:
     a: "It can be used safely when set up carefully. Test on a staging site, connect AI tools with a limited user account instead of a main administrator login, keep backups, and read the current plugin documentation. Remember that version 0.7.0 is still early."
   - q: "What version of WordPress do I need for the MCP Adapter?"
     a: "The adapter documentation lists WordPress 6.9 or newer, because that release includes the Abilities API in core."
+permalink: /2026/10/08/wordpress-canonical-mcp-adapter-plugin-guide.html
 ---
 
 Start with the number that matters. The WordPress MCP Adapter was already running on more than 40,000 sites before it had an official home, most of them through GitHub downloads or through other plugins quietly bundling their own copy. That is a lot of installs for a piece of plumbing most business owners have never heard of.
@@ -38,7 +39,7 @@ The plugin itself is not new. It existed on GitHub for some time and had already
 Jason Adams, Director of Engineering, AI at Automattic, announced the release and said the plugin was designed with backward compatibility in mind. He also noted that it leans on the Abilities API for authorization, which avoids duplicating functionality that WordPress core already provides.
 
 <center>
-<blockquote class="twitter-tweet"><p lang="en" dir="ltr">The WordPress MCP Adapter is now released: https://t.co/PENFnzxSqb 🎉
+<blockquote class="twitter-tweet"><p lang="en" dir="ltr">The WordPress MCP Adapter is now released: https://t.co/PENFnzxSqb ðŸŽ‰
 
 This is the canonical MCP plugin for WordPress, carefully architected for backwards-compatibility with MCP versions. If you want MCP in your site or plugins, I highly recommend using this.</p>&ndash; Jason Adams (@jasontheadams) <a href="https://x.com/jasontheadams/status/2107119026191348128?ref_src=twsrc%5Etfw">October 5, 2026</a></blockquote>
 <script async src="https://platform.x.com/widgets.js" charset="utf-8"></script>

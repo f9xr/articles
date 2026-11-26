@@ -21,6 +21,7 @@ faq:
     a: "Always pair the command with actual content or context, state your industry and audience once early in the conversation, and treat the first output as a draft you refine with quick follow-ups like 'make this shorter' or 'make this more formal.'"
   - q: "Are these prompts useful for local businesses specifically?"
     a: "Yes. A full section of this list is built for local business needs, including Google Business Profile descriptions, review responses, local SEO keyword ideas, and local service page copy."
+permalink: /2026/08/25/chatgpt-prompt-shortcuts-business-owners.html
 ---
 
 Forget everything you've read about "prompt engineering." You don't need a 200-word prompt with seven bullet points, a fake persona, and three examples just to get ChatGPT to write you a decent Instagram caption. Most business owners don't have time for that, and honestly, most of it isn't necessary anymore.
@@ -37,6 +38,7 @@ This approach works so well for busy business owners because modern versions of 
 
 Think of these prompts less like formal instructions and more like keyboard shortcuts. You wouldn't type out "please select all the text in this document" when you could just press Control plus A. These ChatGPT prompt shortcuts work the same way: short, memorable, and instantly useful.
 
+permalink: /2026/08/25/chatgpt-prompt-shortcuts-business-owners.html
 ---
 
 ## The 99 ChatGPT Prompt Shortcuts, Category by Category
@@ -222,6 +224,7 @@ Even a strong ChatGPT output benefits from a human review pass: adding your own 
 
 Keep a running list of the shortcuts you use most, whether that's a notes app, a pinned document, or a team wiki, so you're not hunting for the right phrasing every time you open ChatGPT.
 
+permalink: /2026/08/25/chatgpt-prompt-shortcuts-business-owners.html
 ---
 
 ## Common Mistakes Business Owners Make With ChatGPT Prompts
@@ -252,6 +255,7 @@ For startups, the marketing, sales, and business strategy sections offer a fast 
 
 In both cases, the value of these shortcuts comes down to removing the blank page problem. You get to a usable first draft faster and spend your limited time on the parts that need a human touch.
 
+permalink: /2026/08/25/chatgpt-prompt-shortcuts-business-owners.html
 ---
 
 ## Where Quick Prompts End and Strategy Takes Over
@@ -277,6 +281,7 @@ If you're using these shortcuts every week and keep running into the gap between
 * Local businesses will get the most immediate value from the Google Business Profile and local SEO focused shortcuts, while startups can lean on the marketing, sales, and strategy sections to move faster without a full team.
 * These shortcuts remove the blank page problem, not the need for strategy, editing, and human judgment, which is where quality still gets decided.
 
+permalink: /2026/08/25/chatgpt-prompt-shortcuts-business-owners.html
 ---
 
 ## Conclusion

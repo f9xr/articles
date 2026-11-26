@@ -1,4 +1,4 @@
----
+﻿---
 layout: post
 title: "What Is YMYL in SEO? A Guide for Business Owners"
 description: "YMYL stands for Your Money or Your Life. Learn what it means in SEO, why Google scrutinizes it, and how to meet its higher standards."
@@ -24,6 +24,7 @@ faq:
     a: "If inaccurate information on your page could cause someone financial loss, harm their health, affect their legal rights or safety, or influence a major life decision, it is very likely classified as YMYL content by Google's quality standards."
   - q: "What happens if my YMYL content doesn't meet Google's standards?"
     a: "Websites publishing YMYL content without sufficient expertise, accuracy, or trustworthiness signals often see weaker search rankings, even with strong technical SEO. This pattern became especially clear after Google's August 2018 Medic Update, which significantly affected health sites lacking demonstrable expertise."
+permalink: /2026/09/14/what-is-ymyl-in-seo.html
 ---
 
 If you run a website that touches on health, finances, legal matters, or anything that could directly affect someone's wellbeing, there's a term you need to understand: YMYL. It stands for Your Money or Your Life, and it's one of the most important concepts in Google's approach to ranking content, yet it's also one of the most misunderstood among business owners.
@@ -46,6 +47,7 @@ The core idea hasn't changed though: some content simply carries more real-world
 
 Search engines don't just want to rank popular content, they want to rank content that won't hurt the person reading it. Google's own quality rater guidelines describe the goal as delivering results that are helpful, and for topics like medical treatment or investment decisions, "helpful" also has to mean "not harmful." A well-written but factually wrong article about drug interactions or tax deductions can lead to real financial loss or physical harm, which is exactly the kind of outcome Google is trying to prevent from ranking well.
 
+permalink: /2026/09/14/what-is-ymyl-in-seo.html
 ---
 
 ## Which Topics and Industries Fall Under YMYL?
@@ -86,6 +88,7 @@ Think of it this way: YMYL identifies which topics carry higher risk, while E-E-
 
 For non-YMYL content, like a blog about your favorite coffee shops, Google is more forgiving of a lower E-E-A-T bar. For YMYL content, all four elements need to be strong, particularly expertise and trustworthiness, since inaccurate advice in these categories carries real consequences. Building that trust takes work, and it starts with the basics like [improving your website's trust score](https://f9xr.org/articles/2026/08/15/how-to-increase-website-trust-score.html) through transparency, secure infrastructure, and consistent accuracy.
 
+permalink: /2026/09/14/what-is-ymyl-in-seo.html
 ---
 
 ## What Happens If You Ignore YMYL Standards
@@ -128,6 +131,7 @@ Google's quality raters are trained to notice sites with excessive ads, misleadi
 
 Basic technical trust signals still matter. HTTPS, clear privacy policies, and secure handling of any personal or payment information on your site all contribute to the trustworthiness component Google evaluates.
 
+permalink: /2026/09/14/what-is-ymyl-in-seo.html
 ---
 
 ## A Quick Self-Check: Is Your Content YMYL?
@@ -154,6 +158,7 @@ If you answered yes to any of these, that page is very likely being evaluated un
 * Strong technical SEO cannot compensate for weak expertise or trustworthiness signals on YMYL content, as demonstrated by Google's 2018 Medic Update.
 * Practical steps like visible author credentials, expert review, credible sourcing, transparency, and regular content updates all help meet Google's elevated YMYL standards.
 
+permalink: /2026/09/14/what-is-ymyl-in-seo.html
 ---
 
 ## How the F9XR Team Can Help

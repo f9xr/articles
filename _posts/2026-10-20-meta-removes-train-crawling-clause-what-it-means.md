@@ -1,4 +1,4 @@
----
+﻿---
 layout: post
 title: "Meta Commercial Terms: 'Train' Removed, Crawl Remains"
 description: "Meta Commercial Terms dropped the word train, but Meta can still crawl sites linked to your business account. What to check before Oct. 30."
@@ -22,6 +22,7 @@ faq:
     a: "Meta says it respects robots.txt preferences and that its terms do not override them. However, the Commercial Terms do not mention robots.txt, and some Meta fetchers, such as Meta-ExternalFetcher and FacebookExternalHit, may bypass it in specific situations like user requested fetches or security checks."
   - q: "How do I block Meta's AI crawler?"
     a: "Add a robots.txt rule that disallows the meta-externalagent user agent, then confirm the current crawler names in Meta's documentation. Changes can take up to 24 hours to take effect. Do not block FacebookExternalHit unless you accept broken link previews on Facebook and Instagram."
+permalink: /2026/10/20/meta-removes-train-crawling-clause-what-it-means.html
 ---
 
 On October 30, 2026, the new Meta Commercial Terms take effect for every business that keeps using Meta's products, whether it buys ads or not. Two weeks before that deadline, Meta edited the crawling clause in its Commercial Terms preview. The word "train" came out. The permission to crawl stayed in.
@@ -54,6 +55,7 @@ What follows is what changed, what did not, and what to do before the deadline.
 | Did Meta tell users about the edit? | No. Ars Technica reported on Oct. 20 that a Meta spokesperson confirmed users were not notified |
 | What else changed on October 30? | A new AI features section makes businesses "solely responsible" for AI errors, and the warranty disclaimer now says "AS IS" |
 
+permalink: /2026/10/20/meta-removes-train-crawling-clause-what-it-means.html
 ---
 
 ## What Exactly Changed in the Meta Commercial Terms Crawling Clause
@@ -94,6 +96,7 @@ That is a helpful statement. The catch is that it is a statement, not a clause. 
 
 One more detail came out on October 20. [Ars Technica reported](https://arstechnica.com/tech-policy/2026/10/meta-drops-the-word-train-from-its-commercial-tos-after-ai-backlash/){:target="_blank" rel="noopener noreferrer"} that a Meta spokesperson confirmed the company did not notify users about the changed language. No email went out. The preview page just changed, and the change arrived without notice.
 
+permalink: /2026/10/20/meta-removes-train-crawling-clause-what-it-means.html
 ---
 
 ## Why Critics Are Not Fully Satisfied
@@ -117,6 +120,7 @@ The language editions do not match. [PPC Land](https://ppc.land/metas-ai-trainin
 
 Two stories, one contract. Meta's public account describes a document that PPC Land could not find on the published preview page, which leaves the statement as a description of intent. The safe move is to read the version in your own region and language, save a dated copy, and keep checking until October 30. If you operate in India, the UK, the EU or elsewhere, do not assume the US text is what you are accepting.
 
+permalink: /2026/10/20/meta-removes-train-crawling-clause-what-it-means.html
 ---
 
 ## Timeline of Events
@@ -150,6 +154,7 @@ The practical to do list barely changes, for five reasons:
 
 Treat the edit as a reason to be calmer, not to relax. And read the terms yourself, because Meta did not tell anyone what changed.
 
+permalink: /2026/10/20/meta-removes-train-crawling-clause-what-it-means.html
 ---
 
 ## Know Your Meta Crawlers Before You Touch robots.txt
@@ -192,6 +197,7 @@ Allow: /
 
 Test any change on a staging copy first, and double check that you are not blocking Googlebot or Bingbot by accident. For more detail, read our guide on [how to block AI crawlers](https://f9xr.org/articles/2026/09/04/block-ai-crawlers-on-your-site.html) and our explainer on the [essential txt files for SEO, AEO and GEO](https://f9xr.org/articles/2026/08/08/essential-txt-files-seo-aeo-geo-2026.html).
 
+permalink: /2026/10/20/meta-removes-train-crawling-clause-what-it-means.html
 ---
 
 ## Your Pre-October 30 Checklist for the Meta Commercial Terms
@@ -227,6 +233,7 @@ Probably not, for most small businesses.
 
 If you are unsure, the balanced posture is a sensible starting point. You can tighten or loosen it later.
 
+permalink: /2026/10/20/meta-removes-train-crawling-clause-what-it-means.html
 ---
 
 ## What to Watch After October 30
@@ -252,6 +259,7 @@ Platform terms will keep changing, and your website is the one asset you fully c
 
 Want a second opinion before October 30? Reach out through our [contact page](https://f9xr.org/pages/contact.html).
 
+permalink: /2026/10/20/meta-removes-train-crawling-clause-what-it-means.html
 ---
 
 ## Key Takeaways
@@ -272,6 +280,7 @@ The sensible response is calm and practical. Save dated copies of the terms for 
 
 If you would like help with any part of that, F9XR Team supports businesses with website development, website redesign, local SEO and digital presence solutions, so your online presence stays strong no matter how platform terms shift.
 
+permalink: /2026/10/20/meta-removes-train-crawling-clause-what-it-means.html
 ---
 
 *This article summarizes public reporting and Meta's published documentation as of October 20, 2026, including coverage from Search Engine Journal, Nieman Lab, Ars Technica, TechCrunch, The Verge, Digital Trends, SOFX, PPC Land and FourWeekMBA. It is not legal advice. Meta has edited its terms preview more than once, so read the current text and consult a qualified professional for decisions specific to your business.*

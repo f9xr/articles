@@ -1,4 +1,4 @@
----
+﻿---
 layout: post
 title: "Sitemap Types That Quietly Shape Your SEO (2026 Guide)"
 description: "Learn the main types of sitemaps, XML, HTML, image, video, news and index files, and which ones your business site needs to get crawled and indexed."
@@ -21,6 +21,7 @@ faq:
     a: "A single XML sitemap can contain up to 50,000 URLs or 50 MB uncompressed, whichever limit is reached first. If you need more, split the URLs into several sitemaps and list them in a sitemap index file."
   - q: "How do I submit a sitemap to Google?"
     a: "Open Google Search Console, select your site, go to the Sitemaps report, enter your sitemap URL, and click Submit. You can also add a Sitemap line to your robots.txt file so crawlers can find it automatically."
+permalink: /2026/10/10/types-of-sitemaps-seo-guide.html
 ---
 
 You launch a new website. The design is sharp, the copy is good, the photos look great. A month later you search for your own business and find nothing. Half your pages have not been indexed, and nobody can tell you why.
@@ -39,6 +40,7 @@ If you run a business, a startup, or a local shop, this guide explains the major
 
 Most business websites need only two: a standard **XML sitemap** and, if the site is large, an **HTML sitemap** for people.
 
+permalink: /2026/10/10/types-of-sitemaps-seo-guide.html
 ---
 
 ## What Does a Sitemap Actually Do?
@@ -86,6 +88,7 @@ Here is how the main types split by audience.
 
 Now let us go through each one.
 
+permalink: /2026/10/10/types-of-sitemaps-seo-guide.html
 ---
 
 ## 1. XML Sitemap (The Standard One)
@@ -153,6 +156,7 @@ Popular SEO plugins like Yoast SEO and Rank Math generate sitemap index files au
 
 Online stores, large blogs, directories, multi location businesses, or any site with several content types.
 
+permalink: /2026/10/10/types-of-sitemaps-seo-guide.html
 ---
 
 ## 3. HTML Sitemap
@@ -213,6 +217,7 @@ A heads up: Google has simplified its image sitemap support over time and now re
 
 Photographers, designers, ecommerce stores, restaurants, real estate sites, and portfolios. For the bigger picture on pictures and SEO, read our [image SEO audit guide](https://f9xr.org/articles/2026/08/14/image-seo-audit-complete-guide.html).
 
+permalink: /2026/10/10/types-of-sitemaps-seo-guide.html
 ---
 
 ## 5. Video Sitemap
@@ -259,6 +264,7 @@ These rules come from Google's [news sitemap documentation](https://developers.g
 
 Newsrooms, magazines, and publishers. A regular business blog does not need a news sitemap, even if the posts discuss industry news. Your standard XML sitemap does the job.
 
+permalink: /2026/10/10/types-of-sitemaps-seo-guide.html
 ---
 
 ## 7. Text Sitemap
@@ -279,6 +285,7 @@ It works, and Google accepts it, but you cannot add details like last modified d
 
 Google also accepts RSS and Atom feeds as sitemaps. Most blogs already publish a feed automatically. Feeds are good at announcing *recent* content, but they usually do not list the whole site, so treat them as a supplement, not a replacement for your XML sitemap.
 
+permalink: /2026/10/10/types-of-sitemaps-seo-guide.html
 ---
 
 ## 9. Multilingual Sitemaps (Hreflang Entries)
@@ -295,6 +302,7 @@ Businesses serving several languages or countries. For Indian businesses targeti
 
 You may still read about "mobile sitemaps" in older articles. They were designed for feature phones, not modern smartphones. If your website is responsive, you do not need one. Our piece on [why to go mobile first](https://f9xr.org/articles/2026/08/03/why-go-mobile-first.html) covers what actually matters today.
 
+permalink: /2026/10/10/types-of-sitemaps-seo-guide.html
 ---
 
 ## Which Sitemaps Does Your Business Need?
@@ -350,6 +358,7 @@ Return to the Sitemaps report after a few days. Look at the status, the number o
 
 *Note on pinging: Google retired its old sitemap ping tool in 2023, so submitting through Search Console and robots.txt is the right method. For faster notification to supporting engines like Bing, read about [how IndexNow works in 2026](https://f9xr.org/articles/2026/10/09/indexnow-api-2026-does-it-still-work.html).*
 
+permalink: /2026/10/10/types-of-sitemaps-seo-guide.html
 ---
 
 ## Sitemap Setup Rules That Actually Matter
@@ -379,6 +388,7 @@ Return to the Sitemaps report after a few days. Look at the status, the number o
 | Leaving a staging site sitemap live | Search engines may find test URLs | Remove or block it before launch |
 | Treating the sitemap as a ranking boost | Leads to wasted effort | Use it for discovery, then improve content quality |
 
+permalink: /2026/10/10/types-of-sitemaps-seo-guide.html
 ---
 
 ## Sitemaps and AI Search: What Is Fair to Say
@@ -404,6 +414,7 @@ If AI visibility is a goal, see our steps to [make your business site visible to
 - **Add an HTML sitemap** if visitors often struggle to find things.
 - **Schedule a monthly check.** Include your sitemap in your [monthly website audit routine](https://f9xr.org/articles/2026/09/03/monthly-website-audit-checklist.html).
 
+permalink: /2026/10/10/types-of-sitemaps-seo-guide.html
 ---
 
 ## How F9XR Team Can Help You
@@ -436,6 +447,7 @@ You can see the full list on the [F9XR services page](https://f9xr.org/pages/ser
 - Video and news sitemaps are specialized. Use them only if they match your content.
 - No AI platform has promised that a sitemap boosts citations, but clean discovery supports the indexes that feed AI answers.
 
+permalink: /2026/10/10/types-of-sitemaps-seo-guide.html
 ---
 
 ## Conclusion

@@ -1,4 +1,4 @@
----
+﻿---
 layout: post
 title: "Google AI Content Guidance: Fact-Check by Hand"
 description: "Google AI content guidance now says fact-check by hand. What changed on October 1, 2026, and the review workflow worth putting in place."
@@ -22,6 +22,7 @@ faq:
     a: "Not directly. Google states on the same page that the rater guidelines are not a guide to ranking first in Google, and that ratings do not directly influence ranking. Raters use the guidelines to help evaluate how well Google's ranking systems perform. Reading them is useful for understanding what low-value content looks like, not as a ranking checklist."
   - q: "How can a small business use AI for content safely?"
     a: "Use AI for research, outlines, and first drafts, then verify every checkable claim against a primary source before publishing. Add details only your business knows, such as local pricing, service area, and licensing. Check titles, meta descriptions, structured data, and image alt text separately, validate schema with the Rich Results Test, and get a second person to review anything touching health, finance, or legal topics."
+permalink: /2026/10/02/google-ai-content-guidance-fact-check-update.html
 ---
 
 If you use ChatGPT, Gemini, or Claude to help write your website copy, blog posts, product descriptions, or FAQs, think about the last time you verified every factual claim in that text before publishing.

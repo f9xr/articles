@@ -1,4 +1,4 @@
----
+﻿---
 layout: post
 title: "Is Your Site Agent-Ready? Cloudflare's Free Check"
 description: "Is your site ready for AI agents? Cloudflare's free tool checks robots.txt, MCP, OAuth, and more. See what it tests and how to fix your score."
@@ -21,6 +21,7 @@ faq:
     a: "It depends on which checks fail. Common fixes are updating robots.txt to allow legitimate agent crawlers, adding Markdown content negotiation, publishing an Agent Skills file, implementing MCP endpoints, and widening OAuth scopes so an agent can act for a user. A developer can usually implement the lower-effort items in hours and the commerce layer in days to weeks."
   - q: "Does agent readiness affect my Google SEO?"
     a: "They overlap but are not the same. Both reward crawlable, well-structured content, so solid SEO helps. Agent readiness adds MCP, OAuth, and Agent Skills, which do not change Google rankings today but decide whether an AI agent can complete a task on your site. Do both."
+permalink: /2026/10/13/is-your-site-agent-ready-cloudflare-free-tool.html
 ---
 
 Six checks. That is the entire scorecard that Cloudflare's free [Is It Agent Ready?](https://isitagentready.com/f9xr.github.io){:target="_blank" rel="noopener noreferrer"} tool returns for your website, and each one comes back pass or fail.
@@ -47,6 +48,7 @@ An **agent** is software that plans a sequence of steps and uses tools to carry 
 
 That framing matters, because the scan is narrow on purpose. Cloudflare built it around a specific job: can an automated buyer get in, understand the page, and complete a task. If you want the wider picture of how that fits into search and citation, our [AI visibility optimization service](https://f9xr.org/services/ai-visibility-optimization.html) page covers the full stack.
 
+permalink: /2026/10/13/is-your-site-agent-ready-cloudflare-free-tool.html
 ---
 
 ## Why Agent Readiness Matters When You Sell Files
@@ -109,6 +111,7 @@ Agentic commerce is the ability of an agent to complete a commercial transaction
 
 Score well here and you are set up for what some call headless commerce, where the storefront is not a page someone visits but an interface an agent calls. Score poorly and you are a window shopper in a market that increasingly buys through APIs.
 
+permalink: /2026/10/13/is-your-site-agent-ready-cloudflare-free-tool.html
 ---
 
 ## A Worked Example: One File Sale Through an Agent
@@ -143,6 +146,7 @@ That last step is the one people skip. For a file seller, MCP and agentic commer
 
 If you want to know which of these standards your specific stack already supports, a technical partner can save you the guesswork. We wrote about the same readiness mindset in the [steps to make your business site visible to AI](https://f9xr.org/articles/2026/08/14/steps-make-business-site-visible-to-ai.html), and the logic carries over cleanly.
 
+permalink: /2026/10/13/is-your-site-agent-ready-cloudflare-free-tool.html
 ---
 
 ## How to Read a Failing Score
@@ -173,6 +177,7 @@ One caution on the numbers. Track agent visits separately in your analytics, bec
 - Fix in revenue order: quick files first, commerce layer last, unless commerce is your whole business.
 - Agent readiness and Google SEO overlap but are not the same. Do both.
 
+permalink: /2026/10/13/is-your-site-agent-ready-cloudflare-free-tool.html
 ---
 
 ## Conclusion

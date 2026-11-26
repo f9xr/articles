@@ -21,6 +21,7 @@ faq:
     a: "Check the average position for that keyword. If it's ranking within the top 5 to 10 with a near zero CTR, that's likely a genuine snippet or intent problem worth fixing. If it's ranking beyond position 15 or so, low clicks are expected and the priority should be improving ranking position rather than the snippet."
   - q: "How can I fix ghost impression keywords on my website?"
     a: "Start by rewriting weak meta titles and descriptions to give searchers a clear reason to click, make sure your page content genuinely matches what the keyword's searchers are looking for, add relevant structured data like review stars or FAQ markup, and for keywords sitting near page one, focus on improving ranking position through stronger internal linking and content updates."
+permalink: /2026/08/18/ghost-impression-keywords-guide.html
 ---
 
 Open Google Search Console right now and you'll probably see it: that purple impressions line climbing steadily upward, month after month, while the orange clicks line sits flat, barely moving at all. Your business is technically showing up in search results. People are technically seeing your listing. And almost none of them are clicking through. That gap between visibility and actual traffic has a name, and once you understand it, it becomes a sharp diagnostic signal in Search Console.

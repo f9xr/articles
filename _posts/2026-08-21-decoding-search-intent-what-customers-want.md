@@ -21,6 +21,7 @@ faq:
     a: "Beyond the traditional four categories, AI search tools like ChatGPT, Perplexity, and Claude are surfacing new intent patterns: exploratory intent (broadly understanding a decision), comparative research intent (asking the AI to reason through options), and synthesis intent (wanting information pulled together from multiple sources into one answer)."
   - q: "Should I optimize for traditional search intent or AI search intent?"
     a: "Both. Traditional intent categories remain essential for ranking in Google, while the newer exploratory, comparative research, and synthesis intent types matter for visibility in AI tools like ChatGPT, Gemini, and Perplexity. The strongest content strategies in 2026 address both simultaneously rather than treating them as separate efforts."
+permalink: /2026/08/21/decoding-search-intent-what-customers-want.html
 ---
 
 Two people can type almost the exact same phrase into Google and want completely different things. One searches "best coffee maker" because they're three days from buying one and comparing final options. The other searches the same phrase because they're curious what separates a good coffee maker from a mediocre one, with no purchase in mind for months. If your page treats both of these searchers the same way, you're going to disappoint one of them, and disappointing searchers is exactly what tanks rankings, wastes ad spend, and quietly kills [conversion rates](https://f9xr.org/articles/2026/08/19/seo-metrics-beyond-rankings.html){:target="_blank" rel="noopener noreferrer"}.
@@ -59,6 +60,7 @@ Around 16% of searches show clear transactional intent, "buy running shoes onlin
 
 **What this means for your content:** Minimize friction. Clear pricing, an obvious call to action, and a fast, simple path to completing the action, a purchase, a booking, a form submission, matter far more here than persuasive copy or lengthy explanation.
 
+permalink: /2026/08/21/decoding-search-intent-what-customers-want.html
 ---
 
 ## Local Search Intent: A Blend Worth Calling Out Separately
@@ -77,6 +79,7 @@ For local and service based businesses, there's a fifth, practically important c
 | Transactional | ~16% | "book a dentist appointment near me" | To complete an action quickly | Clear pricing, simple forms, obvious calls to action |
 | Local | Blended across categories | "plumber near me" | Urgent help from someone nearby | Google Business Profile, location pages, click to call |
 
+permalink: /2026/08/21/decoding-search-intent-what-customers-want.html
 ---
 
 ## The New Frontier: How AI Search Is Adding New Intent Types
@@ -117,6 +120,7 @@ Plenty of keywords carry signals from more than one intent category at once. A s
 
 Beyond traditional SERP analysis, ask ChatGPT, Perplexity, and Gemini the kinds of open ended, conversational questions a real customer might ask about your industry. This reveals whether your content is structured well enough to be pulled into an AI generated answer, a signal traditional keyword tools don't capture at all.
 
+permalink: /2026/08/21/decoding-search-intent-what-customers-want.html
 ---
 
 ## Practical Tips for Matching Content to Intent
@@ -135,6 +139,7 @@ Figuring out what your customers actually want, then building content and page s
 
 F9XR Team builds this kind of intent focused strategy directly into its [website development](https://f9xr.org/pages/services.html){:target="_blank" rel="noopener noreferrer"}, website redesign, and local SEO work, structuring pages around what searchers are actually trying to accomplish, whether that's learning, comparing, or acting, so a business's website meets customers exactly where they are in their decision, instead of showing every visitor the same generic pitch.
 
+permalink: /2026/08/21/decoding-search-intent-what-customers-want.html
 ---
 
 ## Key Takeaways

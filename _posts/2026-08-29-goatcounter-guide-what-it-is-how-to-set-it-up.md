@@ -25,6 +25,7 @@ faq:
     a: "Yes, GoatCounter supports custom event tracking through simple data attributes, allowing you to track specific actions like button clicks, downloads, or outbound link clicks."
   - q: "Is GoatCounter better than Google Analytics for small businesses?"
     a: "For business owners who want a simple, privacy-friendly view of website traffic without a complex interface, GoatCounter is often easier to use than Google Analytics. However, it lacks the advanced marketing features and deep reporting that Google Analytics offers, so the right choice depends on how much detail your business actually needs."
+permalink: /2026/08/29/goatcounter-guide-what-it-is-how-to-set-it-up.html
 ---
 
 If you run a website for your business and dread opening Google Analytics because the dashboard feels like a cockpit built for a data scientist, you are not alone. Plenty of small business owners and startup founders just want one simple answer: who is visiting my site, and where are they coming from. That is exactly the gap GoatCounter was built to fill.
@@ -170,6 +171,7 @@ WATCH: Web Analytics Without the Creepy Tracking With GoatCounter!
   <iframe src="https://www.youtube.com/embed/qKSqTPY-qV8?si=aNY7cRtFnovQ90N4" title="Web Analytics Without the Creepy Tracking With GoatCounter!" style="position:absolute; top:0; left:0; width:100%; height:100%; border:0;" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen loading="lazy"></iframe>
 </div>
 
+permalink: /2026/08/29/goatcounter-guide-what-it-is-how-to-set-it-up.html
 ---
 
 ## Key Takeaways
@@ -198,6 +200,7 @@ Setting up analytics is one piece of a bigger puzzle. Knowing your traffic numbe
 * **Local SEO** so the traffic showing up in your analytics dashboard keeps growing month over month.
 * **Digital presence strategy** that ties analytics, search visibility, and site performance into one clear plan.
 
+permalink: /2026/08/29/goatcounter-guide-what-it-is-how-to-set-it-up.html
 ---
 
 *Produced using AI-assisted research and drafting workflows, then reviewed and edited by the F9XR editorial team. See our [Editorial Policy](https://f9xr.org/articles/press/editorial-policy.html) for how we create and verify content.*

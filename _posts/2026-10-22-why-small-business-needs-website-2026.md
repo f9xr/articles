@@ -1,4 +1,4 @@
----
+﻿---
 layout: post
 title: "Why Small Businesses Need a Website in 2026"
 description: "Why businesses need a website in 2026: local search and AI discovery numbers, what a site costs, and the nine pages to build. Start here."
@@ -20,6 +20,7 @@ faq:
     a: "Neither replaces the other, but the order matters. You do not own a social account, its reach can collapse overnight and Google treats a social page as a listing rather than a website. Use social media to start conversations and send people to the site. Never the other way around."
   - q: "What should a local business website include?"
     a: "Nine pages cover most cases: a home page that states what you do and where you work, one page per service, a service area page, an about page with real names and credentials, a page of reviews or case studies, a gallery, pricing or a price range, an FAQ built from the questions you answer on the phone, and a contact and booking page with a phone number and hours."
+permalink: /2026/10/22/why-small-business-needs-website-2026.html
 ---
 
 Someone needs a plumber, a birthday cake, or a dentist who is taking new patients. They open their phone, type a search and pick one. The search decides who gets the call.
@@ -62,6 +63,7 @@ Then there is the shift that makes this a 2026 story rather than a 2020 story.
 
 A quick test costs nothing. Search your business name, then search your main service plus your town. If you are not in either result set, fix that before spending anything on the site itself.
 
+permalink: /2026/10/22/why-small-business-needs-website-2026.html
 ---
 
 ## What a website does that a map listing cannot
@@ -116,6 +118,7 @@ The other losses are quieter. You cannot answer a pricing question without a cal
 
 Search your own business name as a stranger would. Whatever appears on that first screen is your shop window, and most people are judging it in a couple of seconds.
 
+permalink: /2026/10/22/why-small-business-needs-website-2026.html
 ---
 
 ## Why businesses need a website, not just a social media page
@@ -160,6 +163,7 @@ A site with no reviews, no case studies and no photographs of finished work asks
 
 Try this week: open your site on a mid-range Android phone using mobile data rather than wifi, and time how long the main content takes to appear.
 
+permalink: /2026/10/22/why-small-business-needs-website-2026.html
 ---
 
 ## What a website costs in 2026
@@ -200,6 +204,7 @@ Write down what the site would need to do for you, then price that scope rather 
 
 If you want to see where a customer would land, start with the [free digital presence check](https://f9xr.org/tools/digital-presence.html) and then work down the list. Tick off which of the nine you already have, and put the missing one first.
 
+permalink: /2026/10/22/why-small-business-needs-website-2026.html
 ---
 
 ## When to bring in a build partner instead of a template
@@ -222,6 +227,7 @@ Teams like F9XR build these sites day to day. A typical scope covers mobile-firs
 - Website links make up roughly 47% of the actions taken on a profile, ahead of direction requests and calls.
 - Budget $1,500 to $8,000 for a freelancer build and $6,000 to $35,000 for an agency, with 61% of buyers spending under $10,000.
 
+permalink: /2026/10/22/why-small-business-needs-website-2026.html
 ---
 
 ## Conclusion

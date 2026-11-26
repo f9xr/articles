@@ -22,6 +22,7 @@ faq:
     a: "Yes. A single video often ranks for the keyword in its title, several related keywords from its transcript, and longer tail questions the speaker answers on camera. That's why an FAQ style video that answers real customer questions can capture far more search real estate than one tightly titled video per keyword."
   - q: "What should I include in a YouTube video description for SEO?"
     a: "Include a keyword-rich summary of what the video covers, the answer to the main question it answers, links to your website and services, and chapter timestamps. The first two lines are the most important because they're what search engines and viewers see first, so put the primary keyword and the core answer there."
+permalink: /2026/08/14/search-everywhere-optimization-youtube-google-seo.html
 ---
 
 Somewhere in the last two years, the way people search quietly changed. Search stopped being one box on one website. Today your customers find you through Google, YouTube, TikTok, Instagram, Amazon, ChatGPT, Gemini, and Perplexity, and each one is its own search engine with its own rules. Search Everywhere Optimization is the discipline of being visible in all of them, and YouTube is where it pays off the fastest.

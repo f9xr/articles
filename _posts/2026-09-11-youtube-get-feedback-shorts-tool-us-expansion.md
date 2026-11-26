@@ -1,4 +1,4 @@
----
+﻿---
 layout: post
 title: "YouTube Get Feedback Tool: What Businesses Should Know"
 description: "YouTube's Get Feedback tool now reviews Shorts before you publish. Here's what business owners need to know and how to use it to get more views."
@@ -27,6 +27,7 @@ faq:
     a: "Yes. Get Feedback is a free feature built into the standard YouTube app for eligible creators, with no additional subscription or cost required."
   - q: "Can businesses use Get Feedback for marketing content?"
     a: "Yes. Any creator uploading Shorts through the main YouTube app, including business accounts, can use Get Feedback as part of their normal upload process to review marketing or promotional Shorts before publishing."
+permalink: /2026/09/11/youtube-get-feedback-shorts-tool-us-expansion.html
 ---
 
 If you've ever hit publish on a YouTube Short and immediately felt a small knot of doubt in your stomach, wondering whether the first three seconds would hook anyone, YouTube just handed you a second opinion before it's too late to change your mind.
@@ -86,6 +87,7 @@ Get Feedback moves part of that evaluation earlier in the process. It won't pred
 | Predicts views | No | N/A (shows actual results) |
 | Cost | Free | Free |
 
+permalink: /2026/09/11/youtube-get-feedback-shorts-tool-us-expansion.html
 ---
 
 ## How Get Feedback Fits Into YouTube's Bigger Creator Tools Push
@@ -105,7 +107,7 @@ YouTube has also been building similar feedback capabilities into Ask Studio, wh
 Alongside the Get Feedback rollout, YouTube also announced that Premium Lite, its lower-cost, mostly ad-free subscription tier, is expanding to more than 20 additional countries, including Indonesia, the Netherlands, and Portugal. Under the YouTube Partner Programme, 60% of net Premium Lite subscription revenue goes into a creator revenue pool, distributed based on watch time and views. That isn't directly related to Get Feedback, but it does signal that YouTube is pushing harder on both creator tools and its subscription business at the same time.
 
 <center>
-<blockquote class="twitter-tweet"><p lang="en" dir="ltr">A couple of new updates rolling out across <a href="https://x.com/YouTube?ref_src=twsrc%5Etfw">@YouTube</a>: <br> <br>💡 A &quot;Get Feedback&quot; tool, giving <a href="https://x.com/YouTubeCreators?ref_src=twsrc%5Etfw">@YouTubeCreators</a> actionable tips on their Shorts concepts before going live. Just upload an unlisted draft to get tailored suggestions on a video&#39;s hooks, pacing, and structure.<br><br>🌍 Premium… <a href="https://t.co/sZMSrHIlmE">pic.twitter.com/sZMSrHIlmE</a></p>&ndash; Neal Mohan (@nealmohan) <a href="https://x.com/nealmohan/status/2092023125437538767?ref_src=twsrc%5Etfw">August 24, 2026</a></blockquote> <script async src="https://platform.x.com/widgets.js" charset="utf-8"></script>
+<blockquote class="twitter-tweet"><p lang="en" dir="ltr">A couple of new updates rolling out across <a href="https://x.com/YouTube?ref_src=twsrc%5Etfw">@YouTube</a>: <br> <br>ðŸ’¡ A &quot;Get Feedback&quot; tool, giving <a href="https://x.com/YouTubeCreators?ref_src=twsrc%5Etfw">@YouTubeCreators</a> actionable tips on their Shorts concepts before going live. Just upload an unlisted draft to get tailored suggestions on a video&#39;s hooks, pacing, and structure.<br><br>ðŸŒ Premiumâ€¦ <a href="https://t.co/sZMSrHIlmE">pic.twitter.com/sZMSrHIlmE</a></p>&ndash; Neal Mohan (@nealmohan) <a href="https://x.com/nealmohan/status/2092023125437538767?ref_src=twsrc%5Etfw">August 24, 2026</a></blockquote> <script async src="https://platform.x.com/widgets.js" charset="utf-8"></script>
 </center>
 
 ---
@@ -132,6 +134,7 @@ There's no additional cost to use Get Feedback. For startups watching every mark
 
 Hook strength and pacing are two of the biggest factors in whether a viewer keeps watching past the first few seconds, which directly affects whether YouTube recommends your video to more people. Nothing in YouTube's announcement claims these suggestions predict views or guarantee better results, but stronger hooks and pacing line up with the retention signals YouTube has said help organic reach. It's the same story as YouTube's recent [changes to how it counts views](https://f9xr.org/articles/2026/08/18/youtube-changes-how-it-counts-views-long-form-live.html): how YouTube measures attention keeps evolving, so content built to hold it keeps its value.
 
+permalink: /2026/09/11/youtube-get-feedback-shorts-tool-us-expansion.html
 ---
 
 ## How to Use Get Feedback: A Practical Walkthrough
@@ -167,6 +170,7 @@ Make changes if the feedback flags a real problem, like a slow opening or unclea
 * **Test it on a range of content types.** Product demos, behind-the-scenes clips, and customer testimonials all pace differently, so see how the tool responds to each.
 * **Keep it in your regular workflow.** Treat Get Feedback the way you'd treat a proofreading pass on a blog post, the same quality-first habit behind [how to write SEO-friendly articles](https://f9xr.org/articles/2026/09/09/how-to-write-seo-friendly-articles.html), just applied to video.
 
+permalink: /2026/09/11/youtube-get-feedback-shorts-tool-us-expansion.html
 ---
 
 ## What This Means for AI Search and Discoverability
@@ -187,6 +191,7 @@ In other words, a tool that helps you avoid a weak hook isn't just about one vid
 * For business owners and startups, it's a free way to catch weak hooks and pacing issues before publishing, without hiring outside help.
 * It's part of a broader pattern of YouTube tools, including VibeCheck and Ask Studio's script review, focused on pre-publish content guidance.
 
+permalink: /2026/09/11/youtube-get-feedback-shorts-tool-us-expansion.html
 ---
 
 ## Conclusion

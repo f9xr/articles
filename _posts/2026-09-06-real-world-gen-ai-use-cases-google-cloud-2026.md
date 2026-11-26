@@ -23,6 +23,7 @@ faq:
     a: "Google Cloud organizes the use cases into six agent types: Customer agents, Employee agents, Creative agents, Code agents, Data agents, and Security agents, each representing a different functional area where AI is being applied."
   - q: "Can a small business realistically use the same AI tools mentioned in this list?"
     a: "Yes, in most cases. Many of the productivity gains described in the report come from AI features already built into everyday business software, like email, spreadsheets, and video conferencing tools, rather than custom built enterprise systems, making them accessible to smaller businesses as well."
+permalink: /2026/09/06/real-world-gen-ai-use-cases-google-cloud-2026.html
 ---
 
 Two years ago, Google Cloud published a list of 101 real world generative AI use cases, meant as a snapshot of how early adopters were using its AI tools. That list has now grown to 1,302 entries, updated as of April 2026, spanning eleven major industries and thousands of organizations, from global banks and hospital networks to five person architecture firms and solo consultants.
@@ -51,6 +52,7 @@ Google says it used its own AI tools, including Gemini, to help analyze the data
 
 <img src="https://f9xr.org/articles/assets/post-images/gen-ai-agent-types.webp" alt="The six agent types organizing Google Cloud's gen AI use case list" title="Six gen AI agent types" width="1200" height="801" loading="lazy" />
 
+permalink: /2026/09/06/real-world-gen-ai-use-cases-google-cloud-2026.html
 ---
 
 ## Real Examples That Matter for Small and Mid-Sized Businesses
@@ -92,6 +94,7 @@ Here's a simple breakdown of how the list has grown and what it's organized arou
 | Agent type categories | 6 (Customer, Employee, Creative, Code, Data, Security) |
 | Update frequency | Roughly twice a year since launch |
 
+permalink: /2026/09/06/real-world-gen-ai-use-cases-google-cloud-2026.html
 ---
 
 ## Why This Matters Even If You've Never Used an AI Tool for Business
@@ -128,6 +131,7 @@ We help businesses translate broad AI trends into practical improvements for the
 
 If this list made you curious about what AI could realistically do for your specific business, that's exactly the kind of conversation we have with clients regularly. A good starting point is auditing what you already have, and our [monthly website audit checklist](https://f9xr.org/articles/2026/09/03/monthly-website-audit-checklist.html) covers the AI visibility side of that process.
 
+permalink: /2026/09/06/real-world-gen-ai-use-cases-google-cloud-2026.html
 ---
 
 ## Key Takeaways

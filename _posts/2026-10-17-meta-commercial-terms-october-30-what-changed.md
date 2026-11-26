@@ -1,4 +1,4 @@
----
+﻿---
 layout: post
 title: "Meta's Oct. 30 Terms: What Business Owners Must Know"
 description: "Meta's updated Commercial Terms start Oct. 30 and add a website crawling and AI training clause. See what changed and what to do before the deadline."
@@ -22,6 +22,7 @@ faq:
     a: "Add a robots.txt rule that disallows Meta's crawler user agents, such as meta-externalagent, after confirming the current names in Meta's documentation. For stronger protection, add firewall or CDN bot rules and place valuable content behind authentication. Avoid blocking FacebookExternalHit unless you accept broken link previews on Facebook and Instagram."
   - q: "Do small and local businesses need to worry about these terms?"
     a: "Yes. The terms apply to any business using Meta's products commercially, including a simple Facebook Page with a link to a website. Local businesses should check which domains are linked to their accounts, review their robots.txt and make sure someone responsible owns their Meta admin access."
+permalink: /2026/10/17/meta-commercial-terms-october-30-what-changed.html
 ---
 
 If you run a Facebook Page, post on Instagram, or manage ads through Meta Business Suite, there is a deadline worth circling: **October 30, 2026**. That is the day Meta's updated Commercial Terms take effect. There is no "I agree" button. If you keep using Meta's business products after that date, you are treated as having accepted the new terms.
@@ -48,6 +49,7 @@ Below we break down what is new, what is confirmed, what is still disputed, and 
 | What does Meta say? | A Meta spokesperson says the update is about pulling accurate product information and does not change how Meta crawls the web |
 | What are critics saying? | Legal experts told Nieman Lab the text as written could support much broader use, including AI training on publisher content |
 
+permalink: /2026/10/17/meta-commercial-terms-october-30-what-changed.html
 ---
 
 ## What Is New in Meta's Commercial Terms?
@@ -109,6 +111,7 @@ The experts also raised the possibility that Meta could argue its contract overr
 
 *Why a small business owner gave the story its start:* reports say a small publisher who spotted the notice in his Meta Business Suite dashboard tipped off Nieman Lab. These notices are easy to miss, which is exactly why it pays to know where they appear.
 
+permalink: /2026/10/17/meta-commercial-terms-october-30-what-changed.html
 ---
 
 ## Why This Matters Beyond News Publishers
@@ -210,6 +213,7 @@ If your business sells premium content, owns valuable research, or has contractu
 
 Take dated screenshots of your robots.txt, your terms page and your key content. Keep a note of when you reviewed Meta's terms. If a dispute ever comes up, records help.
 
+permalink: /2026/10/17/meta-commercial-terms-october-30-what-changed.html
 ---
 
 ## Smart Moves to Protect Your Visibility at the Same Time
@@ -237,6 +241,7 @@ It is tempting to react by blocking everything. Resist that urge. Being visible 
 | October 28, 2026 | Product browsing reportedly switches on for existing Meta ads |
 | October 30, 2026 | Updated Commercial Terms take effect |
 
+permalink: /2026/10/17/meta-commercial-terms-october-30-what-changed.html
 ---
 
 ## How F9XR Team Can Help You
@@ -266,6 +271,7 @@ If you want a second pair of eyes before October 30, start from our [contact pag
 - Diversify with your own website, email list and local SEO so no single platform controls your business.
 - If your content is high value or contractually sensitive, get legal advice.
 
+permalink: /2026/10/17/meta-commercial-terms-october-30-what-changed.html
 ---
 
 ## Conclusion

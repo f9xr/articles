@@ -1,4 +1,4 @@
-﻿# Author registry
+# Author registry
 # Lookup key must match the `author:` value used in a post's front matter.
 "F9XR Editorial Team":
   name: "F9XR Editorial Team"

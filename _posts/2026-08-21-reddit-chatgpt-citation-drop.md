@@ -23,6 +23,7 @@ faq:
     a: "That AI search citation share can shift dramatically and without warning, even for large, well-established domains. Businesses should avoid over-relying on any single AI platform for visibility and instead diversify their AI search and SEO strategy across multiple platforms."
   - q: "Is this related to a specific ChatGPT algorithm update?"
     a: "It appears connected to a change in how ChatGPT selects and queries sources, evidenced by the sharp rise in site: operator usage starting August 8, 2026. However, this hasn't been officially confirmed by OpenAI as the direct cause of Reddit's citation collapse."
+permalink: /2026/08/21/reddit-chatgpt-citation-drop.html
 ---
 
 If you've been building any part of your content or marketing strategy around getting mentioned inside AI chat answers, the [Reddit ChatGPT citation drop](https://promptwatch.com/data/reddit-citations-are-dropping-in-chatgpt){:target="_blank" rel="noopener noreferrer"} should get your full attention. In the span of about a week in mid-August 2026, one of the most consistently cited domains on the entire internet nearly vanished from ChatGPT's search results.
@@ -77,6 +78,7 @@ This strongly suggests the change is specific to how ChatGPT itself selects and 
 | Google AI Mode decline, same period | Roughly 30% relative decline (gradual) |
 | Confirmed root cause | Not officially confirmed |
 
+permalink: /2026/08/21/reddit-chatgpt-citation-drop.html
 ---
 
 ## Why Did This Happen? What We Know and What We Don't
@@ -104,6 +106,7 @@ Reddit's own communications team has downplayed the significance of this shift f
 
 There's also useful historical context here. This isn't the first time this exact metric has moved markets. Reddit's stock fell sharply last October amid concerns about slowing user growth alongside earlier Promptwatch data showing a steep drop in ChatGPT citations at that time too. Notably, this latest citation collapse happened the same week Reddit joined the S&P 500, according to Forbes' reporting, a reminder that a single AI platform's citation behavior and a company's broader business fundamentals don't always move in lockstep.
 
+permalink: /2026/08/21/reddit-chatgpt-citation-drop.html
 ---
 
 ## Why This Matters Even If Your Business Has Nothing to Do With Reddit
@@ -156,6 +159,7 @@ If you notice your own citation share dropping inside a specific AI platform, ch
 
 Since AI search citation behavior remains this volatile and this opaque, strong, fundamentally sound SEO continues to be the most stable long-term foundation, regardless of which AI platform is currently favoring which sources. Our guide on [making your business site visible to AI](https://f9xr.org/articles/2026/08/14/steps-make-business-site-visible-to-ai.html) breaks down the fundamentals that carry across both traditional and generative search.
 
+permalink: /2026/08/21/reddit-chatgpt-citation-drop.html
 ---
 
 ## What This Means for Local Businesses and Startups
@@ -182,6 +186,7 @@ The F9XR Team helps business owners, startups, and local businesses build a resi
 
 If you're not sure how your business currently shows up across AI search platforms, or whether your visibility strategy is too concentrated on any one of them, that's exactly the kind of audit worth running now, before the next unexplained shift happens.
 
+permalink: /2026/08/21/reddit-chatgpt-citation-drop.html
 ---
 
 ## Key Takeaways

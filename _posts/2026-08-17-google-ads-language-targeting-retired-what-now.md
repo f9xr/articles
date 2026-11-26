@@ -23,6 +23,7 @@ faq:
     a: "No. Language exclusions were not supported before this change and remain unsupported afterward. If you need audience exclusion, look into negative keywords and audience targeting settings instead."
   - q: "What should I do to prepare for this Google Ads update?"
     a: "Audit where language targeting is currently used in your account, make sure ad copy and landing pages are clearly and consistently written in your intended language, and monitor campaign performance closely in the weeks following the September 2026 rollout."
+permalink: /2026/08/17/google-ads-language-targeting-retired-what-now.html
 ---
 
 If you manage Google Ads for your business, even casually, you are going to want to read this one carefully. Google just confirmed a change that quietly removes a setting many advertisers have relied on for years without thinking twice about it: campaign-level language targeting in Search campaigns.
@@ -68,6 +69,7 @@ If you or your agency manages campaigns programmatically through the Google Ads 
 | Performance Max (Shopping ads) | Not affected by language settings |
 | Existing single-language campaigns | Continue working as before, no restructuring required |
 
+permalink: /2026/08/17/google-ads-language-targeting-retired-what-now.html
 ---
 
 ## Why Is Google Doing This
@@ -101,6 +103,7 @@ This is the part everyone actually wants to know, and the honest answer is: it d
 
 So, good or bad? For simple, single-language businesses targeting one clear market, this is likely a non-event. For multilingual businesses, agencies managing complex international accounts, or advertisers who used language settings for reasons beyond pure language targeting, this is a real loss of control worth planning around.
 
+permalink: /2026/08/17/google-ads-language-targeting-retired-what-now.html
 ---
 
 ## What Business Owners Should Do Now
@@ -157,6 +160,7 @@ Make sure your landing pages match your ad language exactly. Mismatched language
 
 For businesses previously segmenting budgets by language, consider whether segmenting by geographic region achieves a similar practical outcome, since location and language often correlate closely in local and regional markets.
 
+permalink: /2026/08/17/google-ads-language-targeting-retired-what-now.html
 ---
 
 ## What This Means Specifically for Local and Small Businesses
@@ -185,6 +189,7 @@ The F9XR Team helps business owners, startups, and local businesses stay ahead o
 
 If you are not sure whether this specific change affects your account, that is a quick conversation worth having before late September.
 
+permalink: /2026/08/17/google-ads-language-targeting-retired-what-now.html
 ---
 
 ## Key Takeaways
@@ -205,6 +210,7 @@ Google Ads removing language targeting is not the kind of headline that makes wa
 
 Either way, the smartest move is auditing your account today rather than reacting to a performance drop later. If you would rather have an experienced team handle that audit, along with your broader [website development](https://f9xr.org/pages/services.html){:target="_blank" rel="noopener noreferrer"}, [website redesign](https://f9xr.org/pages/services.html){:target="_blank" rel="noopener noreferrer"}, [local SEO](https://f9xr.org/articles/2026/08/16/rank-number-1-google-maps-2026.html){:target="_blank" rel="noopener noreferrer"}, and [digital presence strategy](https://f9xr.org/articles/2026/08/14/steps-make-business-site-visible-to-ai.html){:target="_blank" rel="noopener noreferrer"}, the F9XR Team is built exactly for moments like this, when platform changes roll out fast and business owners need a steady hand keeping their campaigns and websites aligned.
 
+permalink: /2026/08/17/google-ads-language-targeting-retired-what-now.html
 ---
 
 *Produced using AI-assisted research and drafting workflows, then reviewed and edited by the F9XR editorial team. See our [Editorial Policy](https://f9xr.org/articles/press/editorial-policy.html) for how we create and verify content.*

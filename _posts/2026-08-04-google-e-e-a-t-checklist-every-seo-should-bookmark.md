@@ -1,4 +1,4 @@
----
+﻿---
 layout: post
 title: "Google E-E-A-T Checklist Every SEO Should Bookmark"
 description: "A one-page E-E-A-T checklist for Experience, Expertise, Authoritativeness, and Trustworthiness. Run it before you publish any page in 2026."
@@ -22,6 +22,7 @@ faq:
     a: "As AI-generated and AI-paraphrased content has flooded search results, E-E-A-T has become the differentiator between original expertise and content laundering. Industry analysis after the March 2026 Google core update found that sites publishing original data gained visibility while AI-paraphrased content lost most of its traffic."
   - q: "How do I check E-E-A-T before publishing?"
     a: "Run a one-line gut-check per pillar. Can someone tell this was written by someone who actually did the thing? Would an expert in the field find anything inaccurate or shallow? Would a stranger find a credible track record? Is it clear who's accountable and how to reach them? If any answer is no or not sure, fix that pillar before going live."
+permalink: /2026/08/04/google-e-e-a-t-checklist-every-seo-should-bookmark.html
 ---
 
 E-E-A-T is the framework Google's human quality raters use to judge whether a page deserves to rank. There's no toggle and no score to optimize; the signals just get stronger with every core update. In 2026 those same signals increasingly decide whether AI Overviews, ChatGPT, and Perplexity cite a page at all. This is the condensed, scannable version: one page, four pillars. Bookmark it, and run it against any page before you publish.

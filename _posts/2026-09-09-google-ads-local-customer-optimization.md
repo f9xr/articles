@@ -21,6 +21,7 @@ faq:
     a: "You can enable it by going to Campaigns, selecting the eligible Performance Max campaign, and turning on the Local Customer Optimization toggle within the budget and bidding optimization settings."
   - q: "Why did Google launch this feature before the holiday season?"
     a: "Google timed this update ahead of the Q4 holiday shopping season because the connection between online research and in-store purchasing becomes especially important during this period, and the feature helps businesses capture that high-intent local demand."
+permalink: /2026/09/09/google-ads-local-customer-optimization.html
 ---
 
 If your business has a physical storefront, office, or showroom, Google just made it a little easier to reach the exact people standing near your door, or about to be. Google Ads has introduced Local Customer Optimization, a new setting inside Performance Max campaigns built specifically to reach nearby customers who are actively planning a trip, navigating, or searching for a business like yours right now.
@@ -49,6 +50,7 @@ Performance Max is Google's automated campaign type that shows your ads across G
 
 This update is also connected to a bigger transition Google announced recently: the migration of Local Service Ads into the main Google Ads platform. Coverage like [Search Engine Land's breakdown](https://searchengineland.com/google-adds-local-customer-optimization-to-performance-max-484785){:target="_blank" rel="noopener noreferrer"} shows Local Customer Optimization is part of where that migration is heading, giving local-focused campaigns their own dedicated optimization path within Performance Max.
 
+permalink: /2026/09/09/google-ads-local-customer-optimization.html
 ---
 
 ## How to Turn On Local Customer Optimization
@@ -89,6 +91,7 @@ This feature isn't compatible with every type of campaign, so check your setup b
 
 If you're a retailer running feed-based Performance Max campaigns tied to Merchant Center, you won't be able to simply flip this toggle on inside your existing setup. You'll need a dedicated campaign built specifically around store visit goals.
 
+permalink: /2026/09/09/google-ads-local-customer-optimization.html
 ---
 
 ## Why This Update Is Landing Right Before the Holidays
@@ -107,6 +110,7 @@ Alongside Local Customer Optimization, Google has also been expanding [Store Sal
 4. **Pair it with Store Sales measurement if available.** If you're able to upload transaction data, combining Local Customer Optimization with Store Sales reporting gives you a much clearer view of actual ROI, not just clicks or impressions.
 5. **Double check your targeted locations.** Since this feature relies on selecting specific business locations, review your list carefully, especially if you operate multiple storefronts, to make sure every eligible location is included.
 
+permalink: /2026/09/09/google-ads-local-customer-optimization.html
 ---
 
 ## Who This Feature Is Actually Built For
@@ -128,6 +132,7 @@ That foundation is the part teams like [F9XR](https://f9xr.org/pages/about.html)
 
 If you're planning to lean on Google Ads to drive foot traffic this quarter, now's the time to make sure the rest of your digital presence is ready to back it up.
 
+permalink: /2026/09/09/google-ads-local-customer-optimization.html
 ---
 
 ## Key Takeaways
@@ -148,6 +153,7 @@ Local Customer Optimization is a solid reminder that Google Ads is increasingly 
 
 Making sure your Business Profile is accurate, your website converts visitors once they land, and your local SEO is dialed in all matter just as much as the ad campaign itself. If you're looking to get your local business fully prepared to take advantage of updates like this, teams like the F9XR Team can help with [website development](https://f9xr.org/services/we-do-for-you.html), [local SEO](https://f9xr.org/services/google-business-optimization.html), and a digital presence strategy built to turn nearby searchers into paying customers.
 
+permalink: /2026/09/09/google-ads-local-customer-optimization.html
 ---
 
 *Produced using AI-assisted research and drafting workflows, then reviewed and edited by the F9XR editorial team. See our [Editorial Policy](https://f9xr.org/articles/press/editorial-policy.html) for how we create and verify content.*

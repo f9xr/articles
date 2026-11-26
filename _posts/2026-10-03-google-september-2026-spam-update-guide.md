@@ -1,4 +1,4 @@
----
+﻿---
 layout: post
 title: "Google's September 2026 Spam Update: Don't Panic, Do This"
 description: "Google's September 2026 spam update started September 24. Learn what it means, how to check your traffic, and the safe steps to protect your site."
@@ -22,6 +22,7 @@ faq:
     a: "Not in a rush. First identify whether pages are thin, duplicated, or made only to catch searches. Improve pages that have a real purpose, merge near duplicates with redirects, and remove pages that serve no user need."
   - q: "How long does it take to recover from a spam update drop?"
     a: "There is no fixed timeline. After you fix policy problems, Google's automated systems need time to reassess your site, so recovery is usually gradual. Keep improving quality and monitor results over weeks and months."
+permalink: /2026/10/03/google-september-2026-spam-update-guide.html
 ---
 
 You open Search Console on a Monday morning, and the graph looks different. Clicks are down, or maybe up, or bouncing around like a nervous heartbeat. Your first instinct is to start changing things. Rewrite the homepage. Delete old blog posts. Email your developer at 7 a.m.
@@ -61,6 +62,7 @@ The dashboard entry itself is only two sentences long. There is no blog post and
 
 Reporters also noted that it arrived 37 days after the August update started, which is the shortest gap between spam updates on Google's dashboard. In plain terms, Google is tuning its spam defenses more often. We covered the previous round in our [August 2026 spam update guide](https://f9xr.org/articles/2026/08/19/google-august-2026-spam-update.html).
 
+permalink: /2026/10/03/google-september-2026-spam-update-guide.html
 ---
 
 ## Spam Update vs Core Update: What Is the Difference?
@@ -87,6 +89,7 @@ Because Google has not named a specific target, you will see some articles confi
 
 What we can say with confidence is this: **a spam update enforces Google's existing spam policies through its automated systems.** So the smartest way to prepare is to review those policies, not to guess at one hidden tactic.
 
+permalink: /2026/10/03/google-september-2026-spam-update-guide.html
 ---
 
 ## Google's Spam Policies in Plain English
@@ -141,6 +144,7 @@ A simple test: *If AI did not exist, would this page still deserve to exist?* If
 
 If your site already leans heavily on automated drafts, our guide on [how to de-AI-slop your website](https://f9xr.org/articles/2026/09/28/how-to-de-ai-slop-your-website.html) shows how to clean it up, and our explainer on [Google's SAFE AI slop detection system](https://f9xr.org/articles/2026/09/26/google-safe-ai-slop-detection-system.html) covers the wider context.
 
+permalink: /2026/10/03/google-september-2026-spam-update-guide.html
 ---
 
 ## Step 1: Do Not Panic During the Rollout
@@ -201,6 +205,7 @@ Look at which pages, queries, and countries lost traffic.
 
 Search your main keywords yourself. Does your page really answer what the person wants? Pages that miss intent can slide even without any spam. Our guide to [decoding search intent](https://f9xr.org/articles/2026/08/21/decoding-search-intent-what-customers-want.html) helps you check this properly.
 
+permalink: /2026/10/03/google-september-2026-spam-update-guide.html
 ---
 
 ## Step 3: Audit Your Site Against the Spam Policies
@@ -248,6 +253,7 @@ Spam updates reward honest, helpful sites over time. Strengthen the basics:
 
 Our [Google E-E-A-T checklist](https://f9xr.org/articles/2026/08/04/google-e-e-a-t-checklist-every-seo-should-bookmark.html) and our guide on [how to increase your website trust score](https://f9xr.org/articles/2026/08/15/how-to-increase-website-trust-score.html) walk through these in detail.
 
+permalink: /2026/10/03/google-september-2026-spam-update-guide.html
 ---
 
 ## Step 5: Be Patient With Recovery
@@ -268,6 +274,7 @@ Keep monitoring, keep your log updated, and avoid undoing good changes just beca
 | **Within 30 days** | Fix priority issues. Add real expertise and trust signals. Moderate user content |
 | **Ongoing** | Run monthly audits. Publish fewer, better pages. Keep AI as an assistant, not a factory |
 
+permalink: /2026/10/03/google-september-2026-spam-update-guide.html
 ---
 
 ## What Does This Mean for AI Search Engines Like ChatGPT, Gemini, Claude, and Perplexity?
@@ -289,6 +296,7 @@ Recovering from a spam related drop, or protecting yourself from one, is easier 
 
 If your traffic changed after September 24 and you would like a calm second opinion, [get in touch with the F9XR Team](https://f9xr.org/articles/press/contact.html).
 
+permalink: /2026/10/03/google-september-2026-spam-update-guide.html
 ---
 
 ## Key Takeaways

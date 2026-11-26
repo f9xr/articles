@@ -1,4 +1,4 @@
----
+﻿---
 layout: post
 title: "The 1 Hour AI Blog Workflow That Still Sounds Human"
 description: "A practical 6 step AI blogging workflow for business owners: nail intent, research, brief, voice, draft, publish. Fast, but still sounds like you."
@@ -24,6 +24,7 @@ faq:
     a: "Yes, it is a useful step for new or updated pages. The URL Inspection tool lets you ask Google to crawl a page. It does not guarantee indexing or ranking, so strong content and internal links still matter."
   - q: "How can I repurpose one blog post into more content?"
     a: "Pull the quick answer into a social post, turn key steps into a carousel, explain one idea in a short video, send a summary by email, and post a tip on your Google Business Profile. One strong article can fuel a full week of content."
+permalink: /2026/10/28/ai-seo-blogging-workflow-one-hour.html
 ---
 
 ## The 1 Hour AI Blog Workflow That Still Sounds Human

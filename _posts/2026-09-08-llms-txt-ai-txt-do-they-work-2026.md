@@ -23,6 +23,7 @@ faq:
     a: "As of 2026, no major AI provider, including OpenAI, Google, Anthropic, Meta, or Perplexity, has publicly confirmed that their production systems read or rely on llms.txt when generating search results or answers. The one area with more genuine adoption is developer documentation, where some AI coding assistants do appear to reference it."
   - q: "What should I focus on instead of llms.txt for AI search visibility?"
     a: "Focus on clear, well structured content with direct answers near the top of pages, proper schema markup, genuine expertise and regular content updates, a technically sound and mobile friendly website, and consistent brand mentions across other reputable sites, since these all show measurable correlation with AI search citations."
+permalink: /2026/09/08/llms-txt-ai-txt-do-they-work-2026.html
 ---
 
 If you've spent any time reading SEO newsletters or AI marketing content over the past year, you've probably been told you need an llms.txt file on your website, and maybe an ai.txt file too, or ChatGPT and Gemini simply won't understand your business. A whole small industry of generators, plugins, and "AI visibility audits" has grown up around this idea.
@@ -60,6 +61,7 @@ llms-full.txt is a companion file that goes further, often including large chunk
 
 ai.txt is often confused with llms.txt, but it solves a completely different problem. It was created by [Spawning AI](https://site.spawning.ai/spawning-ai-txt){:target="_blank" rel="noopener noreferrer"} specifically to let website owners declare permissions around AI training, essentially saying "you may or may not use my content to train your models." It's closer in spirit to a consent form than a site map, and it's read at the point content is downloaded for training rather than during general crawling.
 
+permalink: /2026/09/08/llms-txt-ai-txt-do-they-work-2026.html
 ---
 
 ## Does llms.txt Actually Work? Here's What the Data Shows
@@ -97,6 +99,7 @@ Here's the fair, balanced answer. Having an llms.txt file on your site is low ri
 
 ai.txt carries a different kind of consideration entirely, since it's about content permissions rather than AI search visibility. A handful of AI companies and researchers have said they respect ai.txt as a training data signal, and it plays a similar advisory role to robots.txt, meaning compliance depends on the AI company's willingness to honor it rather than any technical enforcement. If you're a content creator or publisher concerned specifically about your work being used to train AI models without consent, ai.txt is a reasonable, low effort step to take, understanding that adherence isn't guaranteed and it won't do anything for how you show up in AI generated answers.
 
+permalink: /2026/09/08/llms-txt-ai-txt-do-they-work-2026.html
 ---
 
 ## What Actually Helps You Show Up in AI Search Answers
@@ -140,6 +143,7 @@ At F9XR Team, we work with Chartered Accountants, Company Secretaries, Cost and 
 
 If you've been told you're falling behind because you don't have an llms.txt file, take a breath. You're not. There are more impactful places to focus first, and we can help you figure out exactly where those are for your specific business. [Get in touch](https://f9xr.org/pages/contact.html) to talk through what makes sense for your situation.
 
+permalink: /2026/09/08/llms-txt-ai-txt-do-they-work-2026.html
 ---
 
 ## Key Takeaways

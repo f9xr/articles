@@ -1,4 +1,4 @@
----
+﻿---
 layout: post
 title: "Jetpack 16.3 Is Out: Smarter Forms and Video Playlists"
 description: "Jetpack 16.3 adds conditional logic in forms, VideoPress playlists, a Zoom Scheduler block, and a new Features tab. Here is what business sites should know."
@@ -21,6 +21,7 @@ faq:
     a: "Yes. Jetpack says the Zoom Scheduler block is available on every plan, including the free plan. You paste in your Zoom Scheduler booking page URL, and visitors can book time from your post or page."
   - q: "Does Jetpack 16.3 improve SEO?"
     a: "Jetpack 16.3 has no direct SEO features, and Jetpack has not claimed it improves rankings. Some changes may help indirectly, such as easier forms and optional lighter player loading on video pages, but you should measure results on your own site."
+permalink: /2026/10/11/jetpack-16-3-update-whats-new.html
 ---
 
 If your business website runs on WordPress, there is a good chance Jetpack is installed on it. It handles contact forms, stats, backups, newsletters, security tools, and video hosting, all from one plugin. So when Jetpack ships a big update, a lot of small business sites feel it.
@@ -39,6 +40,7 @@ This article walks through what is new, who benefits, what to check before you u
 
 Conditional logic and the Zoom Scheduler block are both available on every Jetpack plan, including the free one.
 
+permalink: /2026/10/11/jetpack-16-3-update-whats-new.html
 ---
 
 ## Jetpack 16.3 at a Glance
@@ -119,6 +121,7 @@ The same release improves how you clean up form responses:
 
 If your forms get spammed regularly, that last change could save you a bad afternoon. Treat it as one free hour of admin time recovered each month.
 
+permalink: /2026/10/11/jetpack-16-3-update-whats-new.html
 ---
 
 ## 2. Two New VideoPress Playlist Blocks
@@ -160,6 +163,7 @@ Open My Jetpack and the first thing you will notice is the new **Features** tab.
 
 For owners who inherited a site and have no idea what Jetpack is doing in the background, this is a useful clean up point. Ten minutes here is one of the cheapest audits you can run on your own site. Open the tab and review what is switched on.
 
+permalink: /2026/10/11/jetpack-16-3-update-whats-new.html
 ---
 
 ## 4. A Clearer Newsletter Sidebar
@@ -176,6 +180,7 @@ The MCP setup page inside Jetpack AI now includes ChatGPT and Codex, alongside C
 
 **Our practical advice:** treat any AI connection like you would treat giving a new staff member access. Check what permissions you are granting, use accounts with limited roles where possible, and keep backups. We cover the bigger picture in our guide to the [WordPress Canonical MCP Adapter plugin](https://f9xr.org/articles/2026/10/08/wordpress-canonical-mcp-adapter-plugin-guide.html).
 
+permalink: /2026/10/11/jetpack-16-3-update-whats-new.html
 ---
 
 ## 6. New Zoom Scheduler Block
@@ -192,6 +197,7 @@ Anyone who has seen a scary red "connection problem" notice on a perfectly healt
 
 When there is a real issue, all errors now appear in a single notice that names the affected account. Reconnecting also now repairs just the owner's account, rather than disconnecting every user. The release notes add a few related improvements, such as a clearer Site Health result when WordPress.com cannot verify a site's SSL certificate, and a menu badge when a connection error is detected.
 
+permalink: /2026/10/11/jetpack-16-3-update-whats-new.html
 ---
 
 ## 8. More Changes Worth Knowing
@@ -216,6 +222,7 @@ Jetpack's announcement says the release includes security improvements across Fo
 
 We do not have details beyond what Jetpack has published, so we will not speculate. The takeaway is simple and not new: update promptly. For context, Jetpack also shipped a critical security update, version 16.1.3, in early September 2026. Jetpack said at the time that it had no evidence the issue had been exploited, and still urged site owners to update quickly. Our overview of the [WordPress core security initiative](https://f9xr.org/articles/2026/09/04/wordpress-updates-core-security-initiative.html) explains why fast updates matter more every year.
 
+permalink: /2026/10/11/jetpack-16-3-update-whats-new.html
 ---
 
 ## Does Jetpack 16.3 Help Your SEO?
@@ -250,6 +257,7 @@ Jetpack says you can update from your WordPress "Plugins" page. Check the [Jetpa
 9. **Check your caching and firewall plugins** for odd behavior after the update.
 10. **Log what you changed.** A simple note saves hours later. Our [monthly website audit checklist](https://f9xr.org/articles/2026/09/03/monthly-website-audit-checklist.html) can help you build the habit.
 
+permalink: /2026/10/11/jetpack-16-3-update-whats-new.html
 ---
 
 ## Practical Tips for Business Owners
@@ -279,6 +287,7 @@ For WordPress sites running Jetpack, we can help with:
 
 You run the business. We will watch the plumbing.
 
+permalink: /2026/10/11/jetpack-16-3-update-whats-new.html
 ---
 
 ## Key Takeaways

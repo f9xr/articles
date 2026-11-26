@@ -25,6 +25,7 @@ faq:
     a: "Only with documented, explicit consent from that person. Microsoft's guidance is clear that using someone's likeness or voice through AI without permission is a compliance and legal risk, regardless of intent."
   - q: "How do I disclose AI use in Microsoft Advertising campaigns?"
     a: "Microsoft's Realize platform includes an AI content checkbox in the creative's media section. Checking it logs your declaration and triggers a visible AI label on your ad in markets where disclosure is required."
+permalink: /2026/09/14/microsoft-advertising-ai-generated-ads-rules.html
 ---
 
 If you run ads on Bing or anywhere across the Microsoft Advertising network, the rules just changed. Microsoft has published dedicated guidance covering AI-generated, AI-manipulated, and other synthetic content used in ads. In plain terms, if artificial intelligence helped create or meaningfully alter your ad creative, whether that's an image, a voiceover, or a video, Microsoft now expects you to be upfront about it, and in many markets, to actually disclose it to the people who see your ads.
@@ -59,6 +60,7 @@ Microsoft isn't prohibiting AI-made ads. It's asking advertisers to be honest ab
 
 This lines up with broader moves across the ad industry. Microsoft's [Realize ad platform](https://help.ads.microsoft.com/apex/index/3/en/60265){:target="_blank" rel="noopener noreferrer"} already carries an "AI content" checkbox in the media section of every creative, letting advertisers flag AI involvement. When checked, a small "AI" label can appear on the ad in markets where disclosure is legally required, such as the European Union under the [EU AI Act](https://digital-strategy.ec.europa.eu/en/policies/regulatory-framework-ai){:target="_blank" rel="noopener noreferrer"} (effective August 2, 2026), and New York State.
 
+permalink: /2026/09/14/microsoft-advertising-ai-generated-ads-rules.html
 ---
 
 ## Why AI Ad Disclosure Rules Are Landing Now
@@ -99,6 +101,7 @@ This is the strictest area of the new guidance. Using someone's voice, face, or 
 
 In practice, ads are rarely rejected outright just for being AI-made. The bigger risk for local businesses is inconsistency, forgetting to flag AI content on one campaign while doing it correctly on another, which can trigger account-level reviews or warnings down the line. Consistency matters more than campaign scale, and that's a habit you can build in an afternoon.
 
+permalink: /2026/09/14/microsoft-advertising-ai-generated-ads-rules.html
 ---
 
 ## Microsoft's AI Ad Rules vs Other Platforms
@@ -144,6 +147,7 @@ If you have a marketing team, a freelancer, or an agency handling your ads, make
 
 None of these steps slows you down meaningfully. Most take minutes once they're part of the routine, and the payoff is an account that doesn't eat ad rejections or account warnings. The same discipline applies to how you [monitor AI search trends and visibility](https://f9xr.org/articles/2026/08/26/monitor-ai-search-trends-boost-visibility-citations.html){:target="_blank" rel="noopener noreferrer"} across your marketing, because the platforms enforcing these labels are the same ones deciding where your content shows up at all.
 
+permalink: /2026/09/14/microsoft-advertising-ai-generated-ads-rules.html
 ---
 
 ## Key Takeaways
@@ -162,6 +166,7 @@ None of these steps slows you down meaningfully. Most take minutes once they're 
 
 Keeping up with fast-moving ad platform policies while also running a business is a lot to juggle. This is exactly where the F9XR Team steps in. Beyond building and redesigning websites that convert, F9XR helps local businesses and startups handle the practical side of digital advertising and search visibility, including making sure your website, landing pages, and digital presence are structured to stay compliant and trustworthy as platform rules like Microsoft's AI disclosure policy evolve. Whether you need a compliant landing page built for an AI-assisted campaign, [local SEO](https://f9xr.org/services/google-business-optimization.html){:target="_blank" rel="noopener noreferrer"} work that keeps you visible in the markets you target, or [AI visibility optimization](https://f9xr.org/services/ai-visibility-optimization.html){:target="_blank" rel="noopener noreferrer"} to protect how AI tools describe your brand, F9XR builds the digital foundation that supports it.
 
+permalink: /2026/09/14/microsoft-advertising-ai-generated-ads-rules.html
 ---
 
 ## Conclusion

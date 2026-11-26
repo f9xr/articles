@@ -1,4 +1,4 @@
----
+﻿---
 layout: post
 title: "Breadcrumbs in SEO: The Trail Google and AI Both Follow"
 description: "Learn what breadcrumbs are in SEO, how they work, which types to use, and how to add BreadcrumbList schema so Google and AI search understand your site."
@@ -21,6 +21,7 @@ faq:
     a: "Google still shows breadcrumbs in desktop search results. On January 23, 2025, it stopped showing them in mobile results, where only the domain now appears. Breadcrumb markup remains supported."
   - q: "How do I add breadcrumbs to my website?"
     a: "On WordPress, use a plugin such as Yoast SEO or Rank Math, or a theme setting. On other platforms, use a theme option or an app. On a custom site, add an HTML trail plus BreadcrumbList JSON-LD markup to your page template."
+permalink: /2026/10/10/breadcrumbs-in-seo-complete-guide.html
 ---
 
 Picture walking into a large store with no signs. No aisle numbers, no section boards, nothing. You wander for a minute, feel lost, and leave.

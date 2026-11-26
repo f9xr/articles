@@ -21,6 +21,7 @@ faq:
     a: "SEO (Search Engine Optimization) focuses on ranking in traditional search engines like Google. AEO (Answer Engine Optimization) focuses on getting your content selected, cited, or summarized by AI-driven answer engines such as ChatGPT, Gemini, Perplexity, and AI Overviews."
   - q: "Does FAQ schema actually help with AI citations?"
     a: "Yes. FAQ schema helps both Google's featured snippets and AI models parse your content's question-and-answer structure more reliably, increasing the odds your content gets pulled into a direct answer."
+permalink: /2026/09/12/ai-visibility-trending-topics-citations.html
 ---
 
 Here's something most business owners haven't clocked yet: the way people find your business has quietly split into two paths. There's the old path, where someone types a query into Google and scrolls through blue links. And there's the newer path, where someone asks ChatGPT, Gemini, Perplexity, or Claude a question and gets a direct answer, sometimes with a handful of sources cited underneath it.

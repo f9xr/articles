@@ -1,4 +1,4 @@
----
+﻿---
 layout: post
 title: "Run Your WordPress Site From Chat: Claude and ChatGPT"
 description: "Manage your WordPress site with ChatGPT and Claude from chat: alt text, business details and comments. Free plans get access through November."
@@ -21,6 +21,7 @@ faq:
     a: "Only if you allow it. You choose which read and write tools the agent can use, and you decide whether it asks before each change or acts on its own. Some actions, such as permanent deletions, always ask first."
   - q: "Is it safe to let an AI agent edit my website?"
     a: "It can be, with sensible settings. Keep approvals on at first, ask for a list before any edit, check the Activity Log, and confirm that your plan includes restorable backups before you approve bulk changes."
+permalink: /2026/11/05/manage-wordpress-site-with-chatgpt-claude.html
 ---
 
 Count the minutes you spend each month correcting one detail across your website. A changed closing time can live on the homepage, the contact page, the footer, two old posts and in your site settings. At an hour of your time, that is a small bill. Repeat it for every price change, new photo and unread comment, and the yearly cost becomes a line item you never budgeted for.
@@ -45,6 +46,7 @@ WordPress.com also states that the MCP server does not share data with the AI mo
 
 Most small business websites do not fail from one big mistake. They drift. A price changes in one place but not another. Photos go up without descriptions. Comments pile up unread. None of it is hard, but all of it takes time from selling and serving customers. Handing the searching and sorting to an agent gives that time back. You still make every decision that carries risk.
 
+permalink: /2026/11/05/manage-wordpress-site-with-chatgpt-claude.html
 ---
 
 ## Who Can Manage a WordPress Site With ChatGPT and Claude?
@@ -76,6 +78,7 @@ Setup takes a few minutes. The connection stays available for the sites you allo
 
 If the agent cannot find your tools, restart the client and start a new chat. MCP connections and tool lists are cached.
 
+permalink: /2026/11/05/manage-wordpress-site-with-chatgpt-claude.html
 ---
 
 ## Four Website Chores You Can Hand Off
@@ -143,6 +146,7 @@ Backups deserve a careful reading. Restoring from a backup is available on Busin
 
 AI features are also opt-in. You can review individual features in your site's [AI tools settings](https://wordpress.com/support/ai/){:target="_blank" rel="noopener noreferrer"}, so nothing has to be switched on if you would rather not use it.
 
+permalink: /2026/11/05/manage-wordpress-site-with-chatgpt-claude.html
 ---
 
 ## Practical Tips Before You Hand Over the Keys
@@ -172,6 +176,7 @@ The financial case is simple. An agent that finds three outdated prices and fort
 
 If you want a routine to follow, our [monthly website audit checklist](https://f9xr.org/articles/2026/09/03/monthly-website-audit-checklist.html) pairs well with an agent. Let it do the finding. You do the judging.
 
+permalink: /2026/11/05/manage-wordpress-site-with-chatgpt-claude.html
 ---
 
 ## Limits Worth Knowing
@@ -199,6 +204,7 @@ Here is where we can help:
 
 You can read how we approach automation in our [guide to AI agents for marketing workflows](https://f9xr.org/articles/2026/09/17/ai-agents-automate-business-marketing-workflow.html) or reach us through the [contact page](https://f9xr.org/articles/press/contact.html).
 
+permalink: /2026/11/05/manage-wordpress-site-with-chatgpt-claude.html
 ---
 
 ## Key Takeaways

@@ -21,6 +21,7 @@ faq:
     a: "A quarterly update cadence is a reasonable baseline. Pages that aren't refreshed regularly lose AI citations at roughly three times the normal rate compared to consistently maintained pages, making freshness a measurable AEO factor, not just a nice habit."
   - q: "Do different AI search tools prefer different types of content?"
     a: "Yes. Different platforms weigh sources and formats differently, for example, Microsoft Copilot leans heavily on LinkedIn for B2B queries, while Claude tends to favor long form, comprehensive guides. Building well structured, entity consistent content tends to perform reasonably well across all major platforms rather than optimizing narrowly for just one."
+permalink: /2026/08/23/aeo-landing-page-optimization-guide.html
 ---
 
 Picture the last time you asked ChatGPT or Perplexity a question instead of Googling it, "best accountant for a small business near me," "which CRM actually works for a two person team," "how much should a website redesign cost." You got one direct answer, not a page of ten blue links to click through and compare yourself. That answer came from somewhere, and if it wasn't your business, a competitor just won a customer you never even had a chance to compete for.

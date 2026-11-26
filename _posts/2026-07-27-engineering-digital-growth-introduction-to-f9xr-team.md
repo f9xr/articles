@@ -1,4 +1,4 @@
----
+﻿---
 layout: post
 title: "Engineering Digital Growth with F9XR Team"
 description: "How F9XR Team builds high-performance web ecosystems, AI-powered systems, and local SEO infrastructure for measurable business growth."
@@ -20,6 +20,7 @@ faq:
     a: "Yes. While based in India, F9XR Team has a global client footprint and works with businesses worldwide on web development, AI integration, and SEO projects."
   - q: "What makes F9XR Team different from other agencies?"
     a: "We focus on building measurable revenue systems, not just websites. Every line of code and credential belongs to the client with zero proprietary lock-in."
+permalink: /2026/07/28/engineering-digital-growth-introduction-to-f9xr-team.html
 ---
 
 
@@ -51,6 +52,7 @@ F9XR Team exists to close this gap with precision-engineered solutions.
 
 
 
+permalink: /2026/07/28/engineering-digital-growth-introduction-to-f9xr-team.html
 ---
 
 ### Core Engineering Verticals
@@ -111,6 +113,7 @@ Every decision we make is driven by three principles:
 
 3. **100% Ownership** - No proprietary lock-in. After project completion, every line of code, design asset, and administrative credential belongs to the client.
 
+permalink: /2026/07/28/engineering-digital-growth-introduction-to-f9xr-team.html
 ---
 
 ### Our Engineering Approach
@@ -143,6 +146,7 @@ Beyond client projects, we build and maintain our own digital assets:
 
 These aren't side projects. They're live systems that generate revenue, serve real users, and stress-test the same techniques we apply to client work. When we recommend a caching strategy or an AI workflow, it's because we've already deployed it in production.
 
+permalink: /2026/07/28/engineering-digital-growth-introduction-to-f9xr-team.html
 ---
 
 ### Client Results
@@ -172,6 +176,7 @@ The digital agency space is crowded. Here's what separates us from the average w
 
 **We stay current.** Our team continuously tests new tools, frameworks, and AI capabilities on our own properties. By the time we recommend something to a client, it's already battle-tested.
 
+permalink: /2026/07/28/engineering-digital-growth-introduction-to-f9xr-team.html
 ---
 
 ### Working With F9XR Team
@@ -202,6 +207,7 @@ Every engagement starts with a **[free website audit](https://f9xr.org/pages/con
 - **YouTube:** [QuarterlyLIV](https://www.youtube.com/@QuarterlyLIV){:target="_blank" rel="noopener noreferrer"}
 - **Contact:** [Hire Us](https://f9xr.org/pages/contact.html)
 
+permalink: /2026/07/28/engineering-digital-growth-introduction-to-f9xr-team.html
 ---
 
 *F9XR Team - Engineering digital growth from India to the global digital world.*

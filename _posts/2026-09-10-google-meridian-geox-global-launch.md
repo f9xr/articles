@@ -24,6 +24,7 @@ faq:
     a: "GeoX results feed directly into Meridian, Google's open-source marketing mix modeling tool, providing it with causal experiment data that improves the accuracy and reliability of the overall model."
   - q: "Is incrementality testing only useful for large enterprise advertisers?"
     a: "No. While incrementality testing has historically been associated with large budgets, tools like GeoX are making the methodology more accessible and cost-effective, meaning even smaller businesses and local advertisers can benefit from understanding whether their campaigns are truly driving results."
+permalink: /2026/09/10/google-meridian-geox-global-launch.html
 ---
 
 If you've ever run an ad campaign and wondered whether it actually drove sales, or whether those sales would have happened anyway, Google just gave marketers a much better way to answer that question. On September 9, 2026, Google announced the global launch of Meridian GeoX, moving the tool out of beta and making it generally available to advertisers everywhere.
@@ -54,6 +55,7 @@ By feeding causal experiment data from GeoX into Meridian, marketers get a more 
 
 <img src="https://storage.googleapis.com/gweb-uniblog-publish-prod/images/Map.width-1600.format-webp.webp" alt="Geographic map showing Meridian GeoX experiment regions and control groups across different markets" width="1600" height="893" loading="lazy" class="post-inline-image">
 
+permalink: /2026/09/10/google-meridian-geox-global-launch.html
 ---
 
 ## Key Benefits of the Global Launch
@@ -93,6 +95,7 @@ This also means the tool improves over time through contributions from the commu
 | Codebase | Open source, publicly auditable |
 | Best suited for | Advertisers running multi-channel campaigns who want causal proof of impact, not just correlation |
 
+permalink: /2026/09/10/google-meridian-geox-global-launch.html
 ---
 
 ## Why This Matters Even If You're Not an Enterprise Marketer
@@ -123,6 +126,7 @@ Google has been steadily building toward this moment for over a year, from Merid
 4. **Use this as a prompt to audit your own tracking setup.** Google has noted that many current analytics implementations miss critical conversion tracking needed to power these more advanced measurement approaches. Before jumping into geo testing, make sure your basic tracking and analytics foundation is solid.
 5. **Treat this as validation, not replacement.** GeoX and Meridian are designed to complement, not replace, standard performance tracking. Use incrementality data to sharpen your existing strategy rather than abandoning the metrics you already rely on. The two views work best together: day-to-day dashboards for speed, geo experiments for the ground truth.
 
+permalink: /2026/09/10/google-meridian-geox-global-launch.html
 ---
 
 ## Key Takeaways
@@ -150,6 +154,7 @@ The **F9XR Team** helps businesses build the strong digital foundation needed to
 
 If Google is investing this heavily in proving what actually drives results, it's a good moment to make sure your own marketing foundation is built to be measured accurately in the first place.
 
+permalink: /2026/09/10/google-meridian-geox-global-launch.html
 ---
 
 *Produced using AI-assisted research and drafting workflows, then reviewed and edited by the F9XR editorial team. See our [Editorial Policy](https://f9xr.org/articles/press/editorial-policy.html) for how we create and verify content.*

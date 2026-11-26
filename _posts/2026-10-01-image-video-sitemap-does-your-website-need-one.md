@@ -1,4 +1,4 @@
----
+﻿---
 layout: post
 title: "Image and Video Sitemaps: Do You Really Need Them?"
 description: "Does your website need a separate image or video sitemap? Learn when it helps, when it does not, and how to set one up for better Google visibility."
@@ -21,6 +21,7 @@ faq:
     a: "Not directly. A sitemap helps Google discover and fetch your images, but it does not promise indexing or higher rankings. Google still decides what to show based on relevance, page context, alt text, filenames, and how fast the page loads."
   - q: "Are image:caption and image:title still used?"
     a: "No. Google deprecated image:caption, image:title, image:geo_location, and image:license in 2022. Google states these tags have no effect on indexing or search features, so leaving them in does no harm, but a lean sitemap carrying only image:loc is the current approach. Captions and titles still matter on the page itself."
+permalink: /2026/10/01/image-video-sitemap-does-your-website-need-one.html
 ---
 
 A restaurant owner spends a weekend photographing every dish, uploads a gallery to the website, and a month later searches Google Images for their own photos. Nothing comes up. The images are live. Visitors see them. Google never picked them up.
@@ -48,6 +49,7 @@ What decides the question is whether Google can already find your media. If it c
 | Video is core to the business, such as courses or property tours | Yes, recommended |
 | No images or videos that matter for search | No |
 
+permalink: /2026/10/01/image-video-sitemap-does-your-website-need-one.html
 ---
 
 ## What an image sitemap actually is
@@ -105,6 +107,7 @@ Google Search Central publishes its own walkthrough, and it is worth more than a
 
 <iframe width="100%" height="315" src="https://www.youtube.com/embed/SfC27XgelgE" title="SEO for Google Images, a walkthrough from Google Search Central" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen loading="lazy"></iframe>
 
+permalink: /2026/10/01/image-video-sitemap-does-your-website-need-one.html
 ---
 
 ## Four real cases, and what each one needs
@@ -139,6 +142,7 @@ An ecommerce store serves product images from a separate image domain. Google al
 
 Keep the caveat in view. **A sitemap is a suggestion, not a command.** It helps Google find your media. It does not guarantee indexing or rankings, and quality, relevance, and page context still decide what appears.
 
+permalink: /2026/10/01/image-video-sitemap-does-your-website-need-one.html
 ---
 
 ## What about AI search engines
@@ -229,6 +233,7 @@ Submit the file in the Search Console Sitemaps report and also list it in your r
 
 Re-check the tag requirements against Google's current documentation once a year, because that is the one part of this page that can quietly go stale. Search Engine Journal covered [which image and video sitemap tags were deprecated](https://www.searchenginejournal.com/some-image-and-video-sitemap-extensions-deprecated/448986/){:target="_blank" rel="noopener noreferrer"} at the time, and Google has changed its guidance since.
 
+permalink: /2026/10/01/image-video-sitemap-does-your-website-need-one.html
 ---
 
 ## Mistakes that cost the most
@@ -251,6 +256,7 @@ Pair video with schema and a transcript. Our [schema markup guide](https://f9xr.
 
 Add media checks to a recurring review. Our [monthly website audit checklist](https://f9xr.org/articles/2026/09/03/monthly-website-audit-checklist.html) has a place to put them. Remember that video shows up in YouTube search too, which is what [search everywhere optimization](https://f9xr.org/articles/2026/08/14/search-everywhere-optimization-youtube-google-seo.html) is about. And remember that sitemaps do not work alone. Our guide to [essential txt files for SEO, AEO, and GEO](https://f9xr.org/articles/2026/08/08/essential-txt-files-seo-aeo-geo-2026.html) explains how robots.txt and the other helper files fit together.
 
+permalink: /2026/10/01/image-video-sitemap-does-your-website-need-one.html
 ---
 
 ## Key takeaways

@@ -1,4 +1,4 @@
----
+﻿---
 layout: post
 title: "SEO Codebase Auditor v5.2 & v5.3: Full Changes"
 description: "v5.2 adds YMYL auditing to the SEO Codebase Auditor skill; v5.3 adds spam-policy checks, AI crawler governance, and deeper local and international audits."
@@ -21,6 +21,7 @@ faq:
     a: "Use the prompt templates that ship with the skill, for example: run a YMYL readiness audit, run a Google spam policies and AI crawler governance audit, run an international and local SEO audit, and run a Merchant Center feed readiness audit."
   - q: "Where can I get the SEO Codebase Auditor skill?"
     a: "It is open source at github.com/f9xr/seo-audit-report-skill, with a guide and case study also published on f9xr.org."
+permalink: /2026/10/07/seo-codebase-auditor-v5-2-v5-3-update-details.html
 ---
 
 Every so often we ship a batch of updates to our free SEO Codebase Auditor skill. The v5.2 and v5.3 releases did two things: they made the audit sharper for high-stakes sites, and they closed several gaps users kept asking about. This post walks through every change, why it exists, and how to use it.
@@ -75,6 +76,7 @@ Finally, the audit calibrates severity by harm tier: directly harmful, casually 
 
 Run it with: `@SKILL.md run a YMYL readiness audit`. Template count went from 22 to 23, and there is a copy-paste usage example in the "How a User Employs This Skill File" section. It also cross-references the existing YMYL bullet in Pillar 16, and cites our [what YMYL means in SEO](https://f9xr.org/articles/2026/09/14/what-is-ymyl-in-seo.html) guide in the report's Resources & References.
 
+permalink: /2026/10/07/seo-codebase-auditor-v5-2-v5-3-update-details.html
 ---
 
 ## v5.3: The Gap-Filling Batch
@@ -138,6 +140,7 @@ Template count went from 23 to 26, adding:
 
 The pillar count is still 24. New checks were folded into existing pillars rather than adding new ones, so any "24 SEO pillars" claim in the README and marketing copy stays accurate. Version History and CHANGELOG.md both carry the v5.2 and v5.3 entries, and the September 2026 spam update and Google's newer guidance shaped where the checks landed. See our [September 2026 spam update guide](https://f9xr.org/articles/2026/10/03/google-september-2026-spam-update-guide.html) and the [fact-check guidance update](https://f9xr.org/articles/2026/10/02/google-ai-content-guidance-fact-check-update.html) for the policy context.
 
+permalink: /2026/10/07/seo-codebase-auditor-v5-2-v5-3-update-details.html
 ---
 
 ## How to Use These Updates
@@ -165,6 +168,7 @@ For the commercial context, the skill ships inside our audit work on the [SEO Co
 - **Prompt templates grew 22 to 26** across v5.2 and v5.3, with ready-to-run commands for each new audit.
 - **Pillar count remains 24.** New checks were folded into existing pillars.
 
+permalink: /2026/10/07/seo-codebase-auditor-v5-2-v5-3-update-details.html
 ---
 
 ## Conclusion

@@ -1,4 +1,4 @@
----
+﻿---
 layout: post
 title: "AI Slop Is Quietly Hurting Your SEO: Here's the Fix"
 description: "AI slop can drain rankings, trust and AI search citations. Learn how Google sees low effort content and how to fix your site before it costs you."
@@ -21,6 +21,7 @@ faq:
     a: "Swap your business name with a competitor's. If the page still reads fine and has no specific prices, names, photos or examples, it is probably slop. Pages that fail three or more of the six checks in this guide need fixing."
   - q: "How long does it take to recover from AI slop?"
     a: "Some rewritten pages improve within a few weeks after Google recrawls them. Recovery from an algorithmic demotion can take months, because Google's systems need to see sustained improvement."
+permalink: /2026/11/04/ai-slop-seo-impact.html
 ---
 
 Open your main service page and read the first two sentences out loud. Now swap in your closest competitor's name. If nothing breaks, the page is not doing much work for you.

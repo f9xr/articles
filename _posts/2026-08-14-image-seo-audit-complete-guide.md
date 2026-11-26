@@ -1,4 +1,4 @@
----
+﻿---
 layout: post
 title: "Image SEO Audit: The Complete 2026 Guide"
 description: "Learn how to run a complete image SEO audit in 2026, alt text, file names, Core Web Vitals, schema, and more, with a practical step by step checklist."
@@ -22,6 +22,7 @@ faq:
     a: "WebP is the practical default for most websites: excellent compression, broad browser support, and easy generation from JPEG and PNG. AVIF offers even better compression where browser support is safe. JPEG is still fine for photos with a reasonable compression level, and PNG should be reserved for graphics that need transparency and sharp text."
   - q: "How long does an image SEO audit take?"
     a: "For a small business site, a thorough manual audit of every image usually takes half a day, with most effort going to alt text and image cleanup. Using an automated crawler or an AI assisted audit tool compresses that to an hour or less. Fixing the findings, converting formats, and recompressing, typically takes another day or two depending on how many images are involved."
+permalink: /2026/08/14/image-seo-audit-complete-guide.html
 ---
 
 Images quietly cost more than you think. A 2026 audit of real client sites at F9XR showed that images made up 37% of total page weight on average. Before any compression work, a single content page often shipped 2-4 MB of images alone. And yet, images are also one of the highest impact, most overlooked technical SEO exercises on any website. This guide walks you through a complete image SEO audit: why it matters, exactly what Google and AI search tools look at, an eight step audit you can run today, and a checklist you can reuse on every site.

@@ -24,6 +24,7 @@ faq:
     a: "Yes. Rank Math has said the feature will return once it redesigns the access request flow so that users are clearly and explicitly asked for permission before any credential is created."
   - q: "Does this affect all 4 million Rank Math users?"
     a: "Not automatically. The credential was only created under specific conditions, such as opening the Help and Support panel while connected to a free Rank Math account. Not every site running Rank Math will have triggered this behavior, but given the plugin's scale, the number of potentially affected sites is significant."
+permalink: /2026/09/01/rank-math-support-agent-paused-security-controversy.html
 ---
 
 If you run a WordPress site and use Rank Math for your SEO, you may have missed a quiet but important update this week. Rank Math, one of the most widely used SEO plugins on WordPress with a footprint of more than 4 million active installs, has temporarily pulled a feature called the Support Agent after users discovered it was creating administrator level site credentials without clearly asking for permission first.
@@ -87,6 +88,7 @@ Rank Math confirmed the feature is not gone for good. It plans to bring the Supp
 <img src="https://f9xr.org/articles/assets/post-images/rank-math-support-chat.webp" alt="Rank Math Support Agent chat interface inside WordPress" title="The Support Agent chat interface that triggered the controversy" width="1200" height="603" loading="lazy" />
 <small style="display:block; color:#71717a; font-size:0.82em; margin-top:0.5em; line-height:1.5;">Screenshot: The Support Agent chat interface. Source: Rank Math.</small>
 
+permalink: /2026/09/01/rank-math-support-agent-paused-security-controversy.html
 ---
 
 ## Why This Matters Even If You've Never Heard of "Application Passwords"
@@ -125,6 +127,7 @@ You do not need to be a developer to check this on your own site. Here is a simp
 
 This kind of quiet plugin audit is exactly what catches problems before they become [security incidents](https://f9xr.org/articles/2026/08/29/fake-cloudflare-captcha-scam-business-guide.html). You do not need expensive tools. You need 15 minutes and a checklist.
 
+permalink: /2026/09/01/rank-math-support-agent-paused-security-controversy.html
 ---
 
 ## What This Means for the Future of AI in WordPress
@@ -150,6 +153,7 @@ This episode is a useful reminder that speed to market and clear consent don't a
 - This incident is part of a wider trend of AI agents being built into WordPress plugins, and it highlights the importance of clear consent as these tools evolve.
 - Regular security audits and working with a [trusted web team](https://f9xr.org/pages/services.html) can help catch issues like this before they become a bigger problem.
 
+permalink: /2026/09/01/rank-math-support-agent-paused-security-controversy.html
 ---
 
 ## How F9XR Team Can Help

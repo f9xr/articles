@@ -22,6 +22,7 @@ faq:
     a: "Reviews are a major trust signal for local AI search recommendations. Consistent, recent, and genuine reviews help AI models recognize your business as active, trustworthy, and relevant for local queries."
   - q: "Should I stop investing in traditional SEO if I want to rank on AI search?"
     a: "No. Traditional SEO remains the foundation of your online presence. A well-optimized website still serves as a key source that both search engines and AI models reference when generating answers."
+permalink: /2026/09/07/key-strategies-to-rank-on-ai.html
 ---
 
 A few years ago, ranking meant one thing: getting your website onto the first page of Google. That's no longer the full picture. Millions of people now ask ChatGPT, Gemini, Claude, and Perplexity questions they used to type into a search bar, things like "what's the best plumber near me" or "which project management tool should I use for a small team." And here's the part that should catch every business owner's attention: these AI tools don't crawl a ranked list of ten blue links. They pick a handful of answers and present those as the answer.
@@ -82,6 +83,7 @@ Different AI models and search tools draw from different types of data. A short-
 
 <iframe width="100%" height="400" src="https://www.youtube.com/embed/TrAVBTFiDQ0?si=efo3hPFswO7D4dwQ" title="How to get recommended by ChatGPT and Gemini" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen loading="lazy"></iframe>
 
+permalink: /2026/09/07/key-strategies-to-rank-on-ai.html
 ---
 
 ## How to Check Whether AI Already Recommends Your Business

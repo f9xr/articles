@@ -22,6 +22,7 @@ faq:
     a: "No. It personalizes that specific reader's future search results and AI-generated answers to favor sources they've marked as preferred. It is not a universal ranking boost applied to everyone who searches."
   - q: "How do I add the Preferred Sources button to my website?"
     a: "Google provides the official embed code through its Search Central documentation. Publishers add this code directly to their site, ideally in a prominent location such as the homepage header or the end of popular articles."
+permalink: /2026/08/23/google-preferred-source-button-publishers-guide.html
 ---
 
 If you publish content online, blog posts, local news, product guides, service pages, you've probably felt the squeeze as AI-generated answers swallow up clicks that used to land on your website. Google knows this is happening too. On August 20, 2026, it rolled out a major upgrade to a tool built specifically to help publishers win some of that direct traffic back.
@@ -78,6 +79,7 @@ In Google's own words from the [announcement](https://blog.google/products-and-p
 | Where it influences results | Top Stories, AI Overviews, AI Mode, Discover, Google News |
 | Click-through impact (per Google) | Users twice as likely to click a preferred source |
 
+permalink: /2026/08/23/google-preferred-source-button-publishers-guide.html
 ---
 
 ## Why Google Built This: The AI Traffic Problem
@@ -119,6 +121,7 @@ This works across several Google surfaces at once:
 
 The reader keeps full control throughout. They can add or remove preferred sources at any time through [Google's source preferences page](https://support.google.com/websearch/answer/16379181){:target="_blank" rel="noopener noreferrer"}, and the whole system is opt-in, based on explicit reader action rather than automatic tracking.
 
+permalink: /2026/08/23/google-preferred-source-button-publishers-guide.html
 ---
 
 ## How to Add the Preferred Source Button to Your Website
@@ -168,6 +171,7 @@ Honest assessment time. There are good reasons to implement this, and reasonable
 * **It won't fully solve declining AI-driven traffic.** Even Google's own framing treats this as one tool among several, not a fix for the broader referral decline publishers are experiencing.
 * **Reader adoption requires active promotion.** The button does nothing on its own. Without promotion, most of your audience will never notice it exists.
 
+permalink: /2026/08/23/google-preferred-source-button-publishers-guide.html
 ---
 
 ## What This Means for Local Businesses and Startups
@@ -194,6 +198,7 @@ The [F9XR Team](https://f9xr.org/pages/services.html){:target="_blank" rel="noop
 
 If you're unsure whether the Preferred Sources button fits your specific business, or how to pair it with your broader content strategy, that's a practical question to work through together.
 
+permalink: /2026/08/23/google-preferred-source-button-publishers-guide.html
 ---
 
 ## Key Takeaways

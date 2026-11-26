@@ -1,4 +1,4 @@
----
+﻿---
 layout: post
 title: "Hit by Google's Spam Update? Your Recovery Plan"
 description: "Traffic drop after Google's September 2026 spam update? Diagnose it, fix the underlying issues and recover step by step, without panic edits."
@@ -21,6 +21,7 @@ faq:
     a: "Recovery can take months, and it is not guaranteed. After you fix real problems, Google's systems need time to reassess your site, so avoid expecting a rebound in days."
   - q: "Can I submit a reconsideration request after a spam update?"
     a: "No, not for an algorithmic spam update. Reconsideration requests apply to manual actions shown in Search Console. For algorithmic changes, you fix the issues and wait for your site to be reassessed."
+permalink: /2026/10/09/recover-website-traffic-google-spam-update-2026.html
 ---
 
 You open your analytics on a Monday morning and your stomach drops. Organic traffic is down, enquiries have slowed, and the pages that used to bring in customers are sitting several positions lower. Then you see the headline everyone is talking about: Google has just finished a spam update.
@@ -48,6 +49,7 @@ Two details stand out. It was the longest spam update of 2026, and the fourth th
 
 Volatility reports clustered around September 25 to 27, September 30, and October 4 to 6, according to industry trackers. Your own data matters more than those dates, though. We covered the launch of this round in our [September 2026 spam update guide](https://f9xr.org/articles/2026/10/03/google-september-2026-spam-update-guide.html).
 
+permalink: /2026/10/09/recover-website-traffic-google-spam-update-2026.html
 ---
 
 ## What Is a Google Spam Update?
@@ -96,6 +98,7 @@ Before changing anything, make sure you are fixing the right problem. A dip duri
 
 If you find a manual action, the process is different. You fix the issue and file a reconsideration request. Algorithmic spam updates do not have a request button, so your site is reassessed automatically over time.
 
+permalink: /2026/10/09/recover-website-traffic-google-spam-update-2026.html
 ---
 
 ## Step 2: Find the Pattern in the Damage
@@ -136,6 +139,7 @@ Now do an honest review. Ask these questions page by page. Our guide on [how to 
 
 Your results will usually fall into three groups: keep as is, improve, or remove.
 
+permalink: /2026/10/09/recover-website-traffic-google-spam-update-2026.html
 ---
 
 ## Step 4: Fix the Underlying Problems
@@ -170,6 +174,7 @@ Fixing pages is half the job. The other half is showing both people and search s
 - Collect customer reviews and respond to them.
 - Keep your Google Business Profile consistent with your website.
 
+permalink: /2026/10/09/recover-website-traffic-google-spam-update-2026.html
 ---
 
 ## Step 6: Monitor, Wait, and Keep Improving
@@ -197,6 +202,7 @@ This table is a planning guide, not a promise. Google does not publish a recover
 - Do not make constant tweaks every day. Make deliberate changes and give them time.
 - Do not copy competitors who are also being hit.
 
+permalink: /2026/10/09/recover-website-traffic-google-spam-update-2026.html
 ---
 
 ## What This Means for Local Businesses
@@ -213,6 +219,7 @@ Possibly, in an indirect way. AI search tools such as ChatGPT, Gemini, Claude, a
 
 The safest move is the same for both worlds: clear answers, accurate facts, visible expertise, and honest business information. If you want the broader checklist, see our guide on [how AI picks local businesses in 2026](https://f9xr.org/articles/2026/08/16/how-ai-picks-local-businesses-2026.html).
 
+permalink: /2026/10/09/recover-website-traffic-google-spam-update-2026.html
 ---
 
 ## How F9XR Team Can Help
@@ -240,6 +247,7 @@ If your traffic fell and you are not sure why, [contact the F9XR Team](https://f
 - Recovery can take **months**, and it is never guaranteed.
 - Local businesses should check **Google Maps and website traffic separately**.
 
+permalink: /2026/10/09/recover-website-traffic-google-spam-update-2026.html
 ---
 
 ## Conclusion

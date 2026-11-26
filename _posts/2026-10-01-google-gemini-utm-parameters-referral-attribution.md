@@ -1,4 +1,4 @@
----
+﻿---
 layout: post
 title: "Gemini Now Tags Its Links With UTMs: Track AI Traffic"
 description: "Google Gemini now adds UTM parameters to outgoing links. See what changed, what is still unclear, and how to track Gemini traffic in GA4."
@@ -24,6 +24,7 @@ faq:
     a: "Not by colliding with your own campaigns, because GA4 assigns AI Assistant traffic the reserved medium ai-assistant and the campaign name (ai-assistant). The likelier problem is double counting: an AI referral can be credited as a campaign and then re-credited to another channel by your attribution model, so keep it in a separate segment."
   - q: "How do I know whether AI traffic actually converts?"
     a: "Run the AI Assistant source / medium segment against a key event that matters commercially, such as a qualified lead or a purchase, and compare the result against what the cited content costs you to produce. Session counts alone will tell you the channel exists without telling you whether it is worth funding."
+permalink: /2026/10/01/google-gemini-utm-parameters-referral-attribution.html
 ---
 
 Google has started tagging the links Gemini cites, which means AI referrals can now carry a campaign marker all the way into your analytics. On the surface that is a small change. For reporting it is not, because for most of the past two years AI traffic has been arriving at your site as an anonymous direct visit.

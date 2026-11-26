@@ -1,4 +1,4 @@
----
+﻿---
 layout: post
 title: "Monthly Website Audit: 15 Checks, Real Findings"
 description: "What a real monthly website audit found on a 75 page site: 15 checks, 3 fixed defects, 3 false alarms, and the growth gap that mattered most."
@@ -21,6 +21,7 @@ faq:
     a: "Your backlink profile. Referring domains, anchor text distribution, and domain authority live in Google Search Console or a third-party index, never in your repository. An audit can confirm that no outbound link is marked nofollow and that every external link carries rel noopener, but the actual link graph has to come from a data source you do not own."
   - q: "How long does a full 15 check website audit take?"
     a: "Roughly two to four hours on a site of 50 to 100 pages, once the crawl script exists. Most of that time goes to judgment calls rather than scanning: deciding whether an empty alt value is correct, whether a duplicate title is a real conflict, and whether a passing check is actually a problem in disguise."
+permalink: /2026/10/01/monthly-website-audit-real-findings.html
 ---
 
 Most website audits produce a 40 page report nobody reads. The one behind this post produced three fixes, three false alarms worth understanding, and one growth problem hiding in plain sight.
@@ -156,6 +157,7 @@ A monthly website audit earns its keep through the boring checks that nobody ask
 
 The most useful output of the pass was the list of things that looked broken and turned out to be correct. That list is what stops a future audit from breaking a working site. If you want the same thing run against your own property, teams like F9XR handle this as part of ongoing [website development and redesign](https://f9xr.org/pages/services.html){:target="_blank" rel="noopener noreferrer"} and technical SEO maintenance, and the F9XR [SEO CodeBase Auditor skill](https://f9xr.org/articles/2026/07/31/f9xr-seo-codebase-auditor-skill-guide.html){:target="_blank" rel="noopener noreferrer"} reads your codebase and writes the same report automatically. For the step-by-step flow, see our [Codebase Auditor install and update guide](https://f9xr.org/dev9b/p/how-to-install-update-f9xr-codebase-auditor-skill/).
 
+permalink: /2026/10/01/monthly-website-audit-real-findings.html
 ---
 
 *Produced using AI-assisted research and drafting workflows, then reviewed and edited by the F9XR editorial team. See our [Editorial Policy](https://f9xr.org/articles/press/editorial-policy.html) for how we create and verify content.*

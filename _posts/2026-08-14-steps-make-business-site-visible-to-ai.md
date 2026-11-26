@@ -1,4 +1,4 @@
----
+﻿---
 layout: post
 code: true
 title: "15+ Steps to Make Your Site Visible to AI"
@@ -23,6 +23,7 @@ faq:
     a: "Yes, significantly. Research consistently shows that sites appearing most often in ChatGPT, Perplexity, and Claude responses tend to already have strong traditional SEO foundations, real topical authority, quality backlinks, and clean technical health. AI visibility builds on top of solid SEO rather than replacing it."
   - q: "How often should I update my AI visibility setup?"
     a: "Update your llms.txt file and schema markup any time your services, pricing, hours, or key pages change. Beyond that, a periodic check every few months, testing your visibility directly in AI tools and reviewing crawler access, helps catch issues before they affect real customers."
+permalink: /2026/08/14/steps-make-business-site-visible-to-ai.html
 ---
 
 Somewhere in the last two years, the way people search quietly changed. AI search visibility is now part of doing business, because a growing share of your potential customers aren't typing a query into Google and scrolling through ten blue links anymore. They're asking ChatGPT, Gemini, Claude, or Perplexity a direct question: "best plumber near me," "which accounting software works for small retailers," "who does website redesigns for local businesses." And they're getting a single, confident answer back. If your business isn't part of that answer, you're not losing a ranking spot. You're not in the conversation at all.

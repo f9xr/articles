@@ -1,4 +1,4 @@
----
+﻿---
 layout: post
 title: "Bing Topics Portfolio: Find Your Gaps in AI Search"
 description: "Bing Webmaster Tools just launched Topics Portfolio (Beta). Learn what it shows, how to read it, and how to find AI search content gaps for your business."
@@ -21,6 +21,7 @@ faq:
     a: "Bing only shows topics when your site has sufficient presence and the topic has enough activity. Smaller or newer sites may see a short list of topics or no Topics Portfolio tab at all. Keep publishing quality content and check again later."
   - q: "Is Topics Portfolio data accurate?"
     a: "It is directional, not exact. Bing says topic classification is AI generated and can be imperfect, and that Topic Size, Sites Cited, and Queries are approximate. Use the data to compare topics and plan content rather than relying on precise numbers."
+permalink: /2026/10/14/bing-topics-portfolio-beta-ai-performance.html
 ---
 
 Most business owners cannot answer one simple question: when someone asks an AI assistant about my industry, does my website come up?
@@ -62,6 +63,7 @@ Microsoft is clearly investing in giving site owners real data about AI search, 
 
 *Screenshot via the [Bing Webmaster Blog](https://blogs.bing.com/webmaster/2026/10/introducing-topics-portfolio-beta-in-ai-performance/){:target="_blank" rel="noopener noreferrer"}. Copyright Microsoft.*
 
+permalink: /2026/10/14/bing-topics-portfolio-beta-ai-performance.html
 ---
 
 ## How Topics Portfolio Works
@@ -115,6 +117,7 @@ Or take an online shoe store. You might see a topic around running shoes with a 
 
 These examples show how to read the data. They are not real figures from any Bing account.
 
+permalink: /2026/10/14/bing-topics-portfolio-beta-ai-performance.html
 ---
 
 ## Understanding the Beta: Limits You Should Know
@@ -145,6 +148,7 @@ Bing does not prescribe a scoring system, so this is our own working framework f
 | Many of your own citations already | A strength | Protect it. Refresh content and add proof of expertise |
 | Zero citations on a topic you care about | A gap | Audit the page and rewrite it to answer questions directly |
 
+permalink: /2026/10/14/bing-topics-portfolio-beta-ai-performance.html
 ---
 
 ## Step by Step: How to Use Topics Portfolio
@@ -197,6 +201,7 @@ Come back, compare the same topics, and note whether citations moved. Because th
 - Match search intent. An opportunity query is a clue to what people want. Read our piece on [decoding search intent](https://f9xr.org/articles/2026/08/21/decoding-search-intent-what-customers-want.html) before you write.
 - Do not forget local signals. If you serve a specific area, pair topic content with consistent business details and reviews. See [how AI picks local businesses in 2026](https://f9xr.org/articles/2026/08/16/how-ai-picks-local-businesses-2026.html).
 
+permalink: /2026/10/14/bing-topics-portfolio-beta-ai-performance.html
 ---
 
 ## Bing Is Only One Lens: Keep the Bigger Picture
@@ -216,6 +221,7 @@ Use Bing's data alongside your Google Search Console numbers, manual checks in t
 5. Skipping feedback. The thumbs buttons help Bing improve the classification, and better classification helps you.
 6. Only checking once. AI search shifts quickly. Make this a monthly habit.
 
+permalink: /2026/10/14/bing-topics-portfolio-beta-ai-performance.html
 ---
 
 ## Key Takeaways

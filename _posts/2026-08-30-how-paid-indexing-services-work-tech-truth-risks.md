@@ -22,6 +22,7 @@ faq:
     a: "Yes. You can manually set up the Google Indexing API through Google Cloud Platform for eligible content, use a free WordPress plugin like Instant Indexing by RankMath, or generate your own IndexNow key to ping supporting search engines directly, all without paying a subscription fee."
   - q: "Does IndexNow work for Google?"
     a: "No. IndexNow is supported by Bing, Yandex, Seznam, and several other engines, but Google does not participate in the IndexNow protocol. Tools relying heavily on IndexNow will speed up indexing on those other engines without directly affecting Google indexing."
+permalink: /2026/08/30/how-paid-indexing-services-work-tech-truth-risks.html
 ---
 You publish a guest post on a decent site, drop the link in Search Console, and wait. A week goes by. Then two. You check the URL Inspection tool and see the four most annoying words in SEO: "Discovered, currently not indexed." Meanwhile that backlink is doing absolutely nothing for your rankings because Google hasn't even bothered to store it yet.
 

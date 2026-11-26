@@ -1,4 +1,4 @@
----
+﻿---
 layout: post
 title: "Google's UGC Fresh Data Program: Should You Care?"
 description: "Google's UGC Fresh Data Program lets approved forums send posts to Search in minutes. See who qualifies and what local businesses should do now."
@@ -22,6 +22,7 @@ faq:
     a: "No. Google states that the program doesn't guarantee content will appear in Search, and applying doesn't guarantee acceptance either."
   - q: "Does the UGC Fresh Data Program affect local businesses?"
     a: "Indirectly. Local businesses can't use it unless they run a large UGC platform, but community discussions about their brand may appear in Search faster. That makes review management, reputation monitoring, and clean structured data more important."
+permalink: /2026/10/18/google-ugc-fresh-data-program.html
 ---
 
 Every few months Google quietly adds a page to its documentation and the SEO world scrambles to work out whether it matters. On October 8, 2026, that page was the [UGC Fresh Data Program](https://developers.google.com/search/docs/appearance/ugc-fresh-data-program). If you run a small business, a startup, or a local shop, you probably saw the headlines and wondered if you need to do something about it.

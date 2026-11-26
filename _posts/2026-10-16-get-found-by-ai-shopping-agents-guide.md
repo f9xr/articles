@@ -1,4 +1,4 @@
----
+﻿---
 layout: post
 title: "Get Found by AI Shopping Agents: A 2026 Guide"
 description: "Learn how to make your products visible to AI shopping agents on ChatGPT, Gemini and Perplexity with feeds, schema, policies and a simple checklist."
@@ -22,6 +22,7 @@ faq:
     a: "The Universal Commerce Protocol is an open standard Google announced in January 2026 to help AI agents handle shopping tasks such as discovery, checkout and post-purchase support. It powers a checkout feature on eligible products in Google AI Mode and Gemini. Availability has been limited to select merchants, mainly in the US, with wider rollout planned, so check current Google documentation for your country."
   - q: "Should I block AI crawlers on my online store?"
     a: "Not blindly. Blocking search and shopping crawlers can remove you from AI answers. You can choose to restrict training-focused crawlers while allowing the bots that power search and product discovery. Review each bot's purpose and update your robots.txt deliberately."
+permalink: /2026/10/16/get-found-by-ai-shopping-agents-guide.html
 ---
 
 A shopper opens ChatGPT, Gemini or Perplexity and types something like: "Find me a waterproof backpack under $80 that fits a 15 inch laptop and ships in three days." There is no list of ten blue links. There is no scrolling. The AI reads, compares, filters and gives a short list of products, sometimes even a buy button.
@@ -47,6 +48,7 @@ You will meet them in a few forms:
 
 The word that matters here is *agentic*. Traditional search shows options and waits for a human to choose. Agentic commerce lets software narrow the options, and sometimes complete the purchase, with the human approving the final step.
 
+permalink: /2026/10/16/get-found-by-ai-shopping-agents-guide.html
 ---
 
 ## Why This Matters for Your Business Right Now
@@ -95,6 +97,7 @@ Shipping times, returns, warranty, contact details and a real About page help ag
 
 If an agent cannot crawl your page, render your content or reach your feed, you do not exist to it. This is the part many small sites get wrong by accident.
 
+permalink: /2026/10/16/get-found-by-ai-shopping-agents-guide.html
 ---
 
 ## Step-by-Step: How to Let AI Shopping Agents Find Your Product
@@ -278,6 +281,7 @@ After a focused 30 day clean up, the owner:
 
 Nothing here is exotic. Yet the store now gives an AI agent everything it needs to answer "slim full-grain leather wallet with RFID protection, ships to India in a week." That is the difference between being skipped and being shortlisted.
 
+permalink: /2026/10/16/get-found-by-ai-shopping-agents-guide.html
 ---
 
 ## Common Mistakes to Avoid
@@ -301,6 +305,7 @@ Nothing here is exotic. Yet the store now gives an AI agent everything it needs 
 | 3 | Technical | Add Product and LocalBusiness schema, set up or fix Merchant Center, update sitemap |
 | 4 | Trust and testing | Launch review requests, add Q&A blocks, publish policy pages, re-run prompt tests |
 
+permalink: /2026/10/16/get-found-by-ai-shopping-agents-guide.html
 ---
 
 ## How F9XR Team Can Help You
@@ -332,6 +337,7 @@ If you are curious where you stand, start with our free guide on [steps to make 
 - Test monthly by asking AI tools real buying questions and tracking referrals.
 - Standards are still changing, so build a solid data foundation instead of betting on one button or protocol.
 
+permalink: /2026/10/16/get-found-by-ai-shopping-agents-guide.html
 ---
 
 ## Conclusion

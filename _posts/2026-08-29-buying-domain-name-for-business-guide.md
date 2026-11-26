@@ -21,6 +21,7 @@ faq:
     a: "Yes, especially the .com even if you plan to use a different extension as your primary site. This protects your brand from competitors or impersonators registering the name later."
   - q: "What happens if I let my domain expire?"
     a: "Once a domain expires and passes its grace and redemption periods, it becomes available for anyone to register, including competitors or domain squatters. Set up auto-renewal to avoid this entirely."
+permalink: /2026/08/29/buying-domain-name-for-business-guide.html
 ---
 
 You found a name you like. It is available for eleven dollars, and the checkout button is right there. Before you click it, know this: your domain name is one of the few branding decisions you almost never get to undo cleanly. Change your logo and nobody notices. Change your domain a year in, and you lose backlinks, search rankings, email deliverability, and every business card you already printed.
@@ -35,6 +36,7 @@ A domain name is not just a web address. It is your email address, your brand's 
 
 Get the domain wrong and you inherit problems quietly, for years. A confusing name loses referral traffic when people mishear it. A domain with a spammy history can hold back your rankings before you publish a single page. A name that is hard to spell costs you paid ad clicks every single month.
 
+permalink: /2026/08/29/buying-domain-name-for-business-guide.html
 ---
 
 ## Step 1: Match the Domain to Your Brand, Not Just a Keyword
@@ -67,6 +69,7 @@ The extension, or top-level domain (TLD), affects trust, memorability, and in so
 
 **Practical rule of thumb:** if your business serves a general or national audience, chase the .com even if it costs more or takes longer to negotiate. If you are a local business, a matching country-code domain paired with [strong local SEO signals](https://f9xr.org/articles/2026/08/16/how-ai-picks-local-businesses-2026.html) can help reinforce geographic relevance.
 
+permalink: /2026/08/29/buying-domain-name-for-business-guide.html
 ---
 
 ## Step 3: Check the Domain's History Before You Buy
@@ -95,6 +98,7 @@ Once you settle on a name, do not just buy the one extension you plan to use. At
 
 This is also where many businesses discover their ideal name is trademarked in their industry. That is far cheaper to find out now than after printing signage. You can run a quick check through the [USPTO trademark search](https://tmsearch.uspto.gov/search/search-information){:target="_blank" rel="noopener noreferrer"}.
 
+permalink: /2026/08/29/buying-domain-name-for-business-guide.html
 ---
 
 ## Step 5: Understand How Your Domain Affects SEO and AI Search Visibility
@@ -120,6 +124,7 @@ Getting the technical setup right is where websites either compound or waste the
 - Using a name too close to a competitor's, which risks both customer confusion and legal disputes
 - Overcomplicating the name with hyphens, numbers, or unnecessary keywords
 
+permalink: /2026/08/29/buying-domain-name-for-business-guide.html
 ---
 
 ## Key Takeaways

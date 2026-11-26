@@ -1,4 +1,4 @@
-﻿# F9XR Articles — Content Plan
+# F9XR Articles — Content Plan
 
 Strategic content roadmap for the F9XR Articles blog (updated 2026-10-17).
 

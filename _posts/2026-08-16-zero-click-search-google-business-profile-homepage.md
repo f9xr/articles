@@ -22,6 +22,7 @@ faq:
     a: "Yes. Review response rate and review quality, not just star rating, are increasingly treated as trust signals by both Google and AI systems when deciding which businesses to confidently recommend in a generated answer."
   - q: "If most searches are zero-click, is website traffic still worth measuring?"
     a: "Yes, but not as the only metric. Businesses cited in AI Overviews see roughly 35% more organic clicks and significantly higher conversion rates on the traffic that does arrive, since AI referred visitors have effectively already had their basic questions answered. Profile views, calls, and direction requests are equally important indicators of real customer interest in a zero-click environment."
+permalink: /2026/08/16/zero-click-search-google-business-profile-homepage.html
 ---
 
 Somebody searches for your business right now. They see your hours, your pricing, a handful of recent reviews, maybe an AI generated summary of what you offer, and they make a decision, call, visit, or move on, without ever clicking through to your website. From where you're sitting, nothing happened. No pageview, no session, no bounce rate to analyze. But something absolutely did happen: a customer just formed their entire impression of your business, and your website had nothing to do with it, a pattern closely tied to [ghost impression keywords](https://f9xr.org/articles/2026/08/18/ghost-impression-keywords-guide.html).

@@ -21,6 +21,7 @@ faq:
     a: "Google's manual action typically targets the host domain hosting the violating content, and there is no recovery through editorial improvement alone. The affected content usually needs to be removed entirely, followed by a reconsideration request, since moving it to another subdirectory or subdomain is treated as policy circumvention."
   - q: "What is the difference between parasite SEO and barnacle SEO?"
     a: "Parasite SEO tries to make a third party host's page rank for your commercial intent by exploiting its authority. Barnacle SEO instead accepts that a platform, like a Google Business Profile or a review site, already ranks well, and simply optimizes your presence within it. Barnacle SEO carries essentially none of the policy risk associated with parasite SEO."
+permalink: /2026/08/17/what-is-parasite-seo-should-business-use-it.html
 ---
 
 If you've spent any time in SEO forums or watched a marketing YouTuber promise you can "rank overnight by piggybacking on Forbes," you've bumped into parasite SEO, one of the most misunderstood tactics in the entire industry. Half the people talking about it are describing something that genuinely works and is completely within the rules. The other half are describing something Google has spent the last two years actively hunting down and penalizing, sometimes taking entire sections of major news sites down with it.

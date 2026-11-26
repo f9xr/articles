@@ -1,4 +1,4 @@
----
+﻿---
 layout: post
 title: "How to Use the Theme SEO Checklist Excel Template"
 description: "Downloaded our theme checklist? This guide walks you through every sheet: fill Pass/Fail, score themes 1 to 5, and pick a winner in 30 minutes."
@@ -20,6 +20,7 @@ faq:
     a: "Yes. Run the same checks against your live site instead of a demo. The checklist works as an audit too: any Fail tells you where to start improving, and the red flags sheet shows whether the theme itself is the bottleneck."
   - q: "How many themes should I compare?"
     a: "Two or three. The sheet has columns for Theme A, Theme B and Theme C. More than three usually means you are comparing too many to think clearly about, and fewer than two means you have no baseline."
+permalink: /2026/10/19/how-to-use-theme-seo-checklist-excel-template.html
 ---
 
 You downloaded the [theme SEO checklist spreadsheet](https://f9xr.org/articles/assets/downloads/website-theme-seo-checklist-2026.xlsx){:target="_blank" rel="noopener noreferrer"}, opened it, and saw four tabs of cells. Now what?
@@ -41,6 +42,7 @@ The workbook has four sheets. Each one has a job.
 
 Free to download, free to use. No sign-up, no email, no strings.
 
+permalink: /2026/10/19/how-to-use-theme-seo-checklist-excel-template.html
 ---
 
 ## Step 1: Download and Open the File
@@ -66,6 +68,7 @@ Run three tests first, because the answers feed the checklist:
 
 Now you have evidence instead of a first impression. A demo that looks beautiful and scores 34 on mobile PageSpeed is failing section A, no matter how many layouts it ships with.
 
+permalink: /2026/10/19/how-to-use-theme-seo-checklist-excel-template.html
 ---
 
 ## Step 3: Fill the Pre-Purchase Theme SEO Checklist
@@ -107,6 +110,7 @@ Do this before you score anything. The Red Flags sheet lists seven warnings, eac
 
 **One single Yes means you walk away**, no matter how good the theme looks. The sheet highlights any Yes in red so you cannot rationalize it away. Ten minutes here saves you from wasting an hour scoring a theme that was never a candidate.
 
+permalink: /2026/10/19/how-to-use-theme-seo-checklist-excel-template.html
 ---
 
 ## Step 5: Score and Let the Math Decide
@@ -154,6 +158,7 @@ Here is the whole workflow as one sitting:
 
 Thirty minutes replaces the weekend of guesswork most business owners spend browsing demos. If two themes land within a few percentage points of each other, take the lighter one. That advice has held up across every comparison we have run for clients.
 
+permalink: /2026/10/19/how-to-use-theme-seo-checklist-excel-template.html
 ---
 
 ## Common Mistakes to Avoid
@@ -176,6 +181,7 @@ You do not need a redesign to get value from the file. Open a blank copy and run
 
 When the audit shows the theme itself is the bottleneck, that is the moment to redesign. Until then, improve what you have.
 
+permalink: /2026/10/19/how-to-use-theme-seo-checklist-excel-template.html
 ---
 
 ## Key Takeaways
@@ -196,6 +202,7 @@ The spreadsheet does not make the decision for you. It forces the same checks in
 
 Download the [theme SEO checklist template](https://f9xr.org/articles/assets/downloads/website-theme-seo-checklist-2026.xlsx){:target="_blank" rel="noopener noreferrer"}, keep a dated copy for each project, and run the 30-minute routine before you buy or install anything. If the scores come back close and you want a second opinion, F9XR Team evaluates shortlisted themes against this exact checklist as part of website development, website redesign and technical SEO work, so the theme you pick helps your rankings instead of quietly holding them back.
 
+permalink: /2026/10/19/how-to-use-theme-seo-checklist-excel-template.html
 ---
 
 *Produced using AI-assisted research and drafting workflows, then reviewed and edited by the F9XR editorial team. See our [Editorial Policy](https://f9xr.org/articles/press/editorial-policy.html) for how we create and verify content.*

@@ -1,4 +1,4 @@
----
+﻿---
 layout: post
 title: "Pabbly Connect: Put Your Social Media on Autopilot"
 description: "What is Pabbly Connect? Learn what it costs, how it counts tasks, and how to automate Instagram, Facebook and LinkedIn posting. Build your first workflow free."
@@ -24,6 +24,7 @@ faq:
     a: "No. Pabbly Connect has no visual content calendar and no built-in analytics. It moves content between apps you already use. Most businesses pair it with a planner such as a Google Sheets content calendar or a dedicated scheduling tool."
   - q: "Do you earn a commission on the Pabbly links?"
     a: "Yes, and we would rather say so than hide it in a footnote. Pabbly pays F9XR Articles a commission if you buy through the links in this guide. You pay the same price either way, the money does not reach us from your bill, and Pabbly did not review or approve this article. Every price, task limit, and feature figure here comes from Pabbly's own pages."
+permalink: /2026/09/29/pabbly-connect-social-media-automation-guide.html
 ---
 
 Copy and paste kills more social accounts than bad content does.

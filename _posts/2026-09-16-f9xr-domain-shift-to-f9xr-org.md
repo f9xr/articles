@@ -1,4 +1,4 @@
----
+﻿---
 layout: post
 title: "F9XR Moves to f9xr.org: New Domain Live Now"
 description: "F9XR Team shifts from f9xr.github.io to f9xr.org for faster loading, better branding, and stronger SEO. Update your bookmarks and links today."
@@ -22,6 +22,7 @@ faq:
     a: "In most cases, yes. A custom domain looks more professional, supports branded email, and gives you ownership that free subdomains cannot match."
   - q: "How can F9XR Team help with my website or domain needs?"
     a: "We provide website development, redesign, local SEO, technical audits, and digital presence solutions tailored for business owners, startups, and local businesses."
+permalink: /2026/09/16/f9xr-domain-shift-to-f9xr-org.html
 ---
 
 If you have been following F9XR Team or bookmarked any of our guides, you may notice something different today. We have officially moved from f9xr.github.io to our permanent home at **f9xr.org**.
@@ -45,6 +46,7 @@ Over time, the limitations became clear:
 
 Moving to f9xr.org gives us full control. It lets us present a cleaner brand, improve load times, and prepare the site for stronger visibility in Google, ChatGPT, Gemini, Claude, Perplexity, and other answer engines.
 
+permalink: /2026/09/16/f9xr-domain-shift-to-f9xr-org.html
 ---
 
 ## What Changes for You
@@ -79,6 +81,7 @@ For local businesses and startups, this same principle applies. Owning your doma
 
 If you are new to domain strategy, our [complete guide to buying a domain name for your business](https://f9xr.org/articles/2026/08/29/buying-domain-name-for-business-guide.html) walks through the decision process step by step. And if you want to understand why domain signals matter to AI answer engines specifically, our post on [increasing your website trust score](https://f9xr.org/articles/2026/08/15/how-to-increase-website-trust-score.html) covers the technical foundations.
 
+permalink: /2026/09/16/f9xr-domain-shift-to-f9xr-org.html
 ---
 
 ## Practical Steps for Your Own Domain Migration
@@ -106,6 +109,7 @@ A monthly review catches problems early. If you want a standing process for this
 - Businesses that own their domain have more flexibility for email, analytics, and growth tools.
 - F9XR Team now operates fully from f9xr.org with the same focus on practical digital results.
 
+permalink: /2026/09/16/f9xr-domain-shift-to-f9xr-org.html
 ---
 
 ## Conclusion

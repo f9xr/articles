@@ -24,6 +24,7 @@ faq:
     a: "Google Search Console and Google PageSpeed Insights are free and cover a large part of this checklist. For broken link scanning and duplicate content, tools like Screaming Frog, Ahrefs, or Siteliner add more depth if your budget allows for a paid tool."
   - q: "Does website maintenance affect AI search visibility?"
     a: "Yes. AI search tools like ChatGPT, Gemini, and Perplexity tend to favor sites that are fast, well structured, and accurate, which means the same fundamentals that help traditional SEO, like clean content, working links, and proper schema markup, also improve your chances of being cited in AI generated answers."
+permalink: /2026/09/03/monthly-website-audit-checklist.html
 ---
 
 Most business owners treat their website like a signboard. Put it up once, check on it occasionally, and assume it's still doing its job. The problem is a website isn't a signboard. It's more like a shop with moving parts, and things quietly break without anyone noticing until a customer walks away or Google stops sending traffic.
@@ -42,6 +43,7 @@ Search engines also notice patterns over time. A site that loads slowly, has out
 
 Monthly audits catch problems while they're still small and cheap to fix. That's really the whole case for doing this.
 
+permalink: /2026/09/03/monthly-website-audit-checklist.html
 ---
 
 ## The Complete Monthly Website Audit Checklist
@@ -174,6 +176,7 @@ AI tools tend to favor sites with clear, well organized content, strong local si
 
 **Actionable tip:** Keep a simple log of a few AI search queries relevant to your business and check monthly whether your visibility is improving.
 
+permalink: /2026/09/03/monthly-website-audit-checklist.html
 ---
 
 ## A Simple Way to Stay Consistent
@@ -200,6 +203,7 @@ We work with Chartered Accountants, Company Secretaries, Cost and Management Acc
 
 If reading through this checklist made you realize it's been a while since anyone looked closely at your site, that's usually the clearest sign it's time for a [professional audit](https://f9xr.org/pages/contact.html).
 
+permalink: /2026/09/03/monthly-website-audit-checklist.html
 ---
 
 ## Key Takeaways
