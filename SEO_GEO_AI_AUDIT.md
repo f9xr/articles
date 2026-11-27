@@ -10,6 +10,15 @@
 
 ---
 
+## Update — 27 November 2026
+
+- **T1 feed.json:** Fixed. Live `https://f9xr.org/articles/feed.json` returns HTTP 200 with valid JSON Feed content.
+- **T2 Organization JSON-LD:** Current `_includes/head.html` Organization block is syntactically valid; keep rendered JSON-LD parse tests in CI to prevent regressions.
+- **T3/T4 deployment/article metadata:** Nov 22, Nov 24, and Nov 27 posts are live (HTTP 200) and present in live sitemap/feed. Mobile SEO audit YAML description was quoted to restore GitHub Pages builds; audit/report docs were excluded in `_config.yml`.
+- **T10 Deep Review ordering:** Moved "How to Use Deep Review: Step by Step" before "Mistakes to Avoid" so substantive how-to content appears before takeaways/conclusion.
+- **C3/LINKS C3 hotlinked hero:** Localized `2026-10-02-google-ai-content-guidance-fact-check-update.md` hero to self-hosted WEBP (+ 640 variant) with attribution preserved.
+- **Still open / owner-dependent:** GSC/Bing/CWV/backlink/AI-citation baselines, LocalBusiness entity factual validation (T6/T7 in report), taxonomy consolidation, analytics/privacy tag review, and external link crawl from a network-enabled environment.
+
 ## Dashboard summary
 
 | KPI | Assessment | Evidence / caveat |

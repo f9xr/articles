@@ -1,7 +1,7 @@
-﻿---
+---
 layout: post
 title: How to Do a Full-Scale Mobile SEO Audit for Your New WordPress Site
-description: Launching a new WordPress site? Follow this full mobile SEO audit: indexing, Core Web Vitals, content parity, UX and local checks, step by step.
+description: "Launching a new WordPress site? Follow this full mobile SEO audit: indexing, Core Web Vitals, content parity, UX and local checks, step by step."
 date: 2026-11-22
 author: "F9XR Editorial Team"
 category: "WordPress, SEO, Technical SEO"

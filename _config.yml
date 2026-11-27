@@ -104,3 +104,10 @@ exclude:
   - todo.txt
   - prompt.txt
   - css/override.css
+  - AUDIT.md
+  - LINKS_CONSISTENCY_AUDIT.md
+  - SEO_GEO_AI_AUDIT.md
+  - SEO_GEO_AUDIT_DASHBOARD.html
+  - SEO_consistency_audit.csv
+  - broken_links_audit.csv
+  - auth.md

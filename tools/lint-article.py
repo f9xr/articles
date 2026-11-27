@@ -103,6 +103,8 @@ def main():
     print(f"Words: {len(words)}")
 
     dash_hits = re.findall(r".{0,25}(?:—|–| - ).{0,25}", text)
+    # Ignore YAML/markdown list markers (e.g. "  - q:") which are not punctuation dashes.
+    dash_hits = [h for h in dash_hits if not re.match(r'^\s*-\s+\w+:', h)]
     if dash_hits:
         report("FAIL", f"{len(dash_hits)} dash(es) used as punctuation, e.g. '{dash_hits[0].strip()}'")
     else:
