@@ -7,10 +7,10 @@ image_width: 1200
 image_height: 630
 image_caption: "A site SEO audit is most useful when it ends with fixes, not just a report."
 image_alt: "Laptop and checklist representing a site SEO audit and fix workflow"
-date: 2026-11-28
+date: 2026-11-27
 author: "F9XR Editorial Team"
 category: "Technical SEO, Site Audits, Small Business SEO"
-permalink: /2026/11/28/site-seo-audit-fixes-playbook-small-blog.html
+permalink: /2026/11/27/site-seo-audit-fixes-playbook-small-blog.html
 tags: [Site SEO Audit, Technical SEO, SEO Checklist, Jekyll SEO, Structured Data, Sitemap, JSON Feed, Small Business SEO, Website Maintenance, Content Quality]
 keywords: "site seo audit, seo audit checklist for blogs, technical seo audit, fix seo issues, jekyll seo audit, website audit playbook, sitemap feed schema audit, blog seo maintenance"
 faq:
