@@ -140,6 +140,37 @@ Stress-test a pitch deck narrative so the numbers on slide 8 match the story on 
 
 Many people will use both: a chat assistant for drafting and fixing, and Deep Review as a final critical check.
 
+
+## How to Use Deep Review: Step by Step
+
+### Step 1: Prepare the document
+
+Save your document as a PDF or plain text file. Give it a clean title and make sure charts, tables and references are readable. Remove anything confidential you don't need to share.
+
+### Step 2: Open the tool
+
+Go to Google Deep Review and follow the on-screen prompts.
+
+### Step 3: Upload
+
+Select your PDF and click Upload. After submission, the results appear in the Your documents table once they're ready. Long documents take a while, so don't expect an instant answer.
+
+### Step 4: Decide on free or API access
+
+For one or two important documents a week, the free tier is plenty. If you need heavier settings, more volume or programmatic checks, connect a Gemini API key. Google's documentation points to its [Gemini API key page](https://ai.google.dev/gemini-api/docs/api-key) for setup.
+
+### Step 5: Read the review with a critical eye
+
+Sort the findings into three buckets:
+
+1. **Real errors:** math mistakes, contradictions, wrong figures. Fix these first.
+2. **Weak spots:** unsupported claims or unclear passages. Add evidence or rewrite.
+3. **Noise:** points that don't apply or misread your intent. Skip them.
+
+### Step 6: Verify before you change anything important
+
+Check any flagged fact or number against your original source. AI review tools can be wrong, and Google itself says final judgment stays with people.
+
 ## Mistakes to Avoid
 
 Treating it as legal or financial advice. It flags issues. A professional makes the call.
@@ -220,32 +251,3 @@ Use it as a smart reviewer, not a final authority.
 | Financial projections and pricing documents | Real-time legal or tax decisions |
 | Technical documentation and SOPs | Keyword research or ranking analysis |
 
-## How to Use Deep Review: Step by Step
-
-### Step 1: Prepare the document
-
-Save your document as a PDF or plain text file. Give it a clean title and make sure charts, tables and references are readable. Remove anything confidential you don't need to share.
-
-### Step 2: Open the tool
-
-Go to Google Deep Review and follow the on-screen prompts.
-
-### Step 3: Upload
-
-Select your PDF and click Upload. After submission, the results appear in the Your documents table once they're ready. Long documents take a while, so don't expect an instant answer.
-
-### Step 4: Decide on free or API access
-
-For one or two important documents a week, the free tier is plenty. If you need heavier settings, more volume or programmatic checks, connect a Gemini API key. Google's documentation points to its [Gemini API key page](https://ai.google.dev/gemini-api/docs/api-key) for setup.
-
-### Step 5: Read the review with a critical eye
-
-Sort the findings into three buckets:
-
-1. **Real errors:** math mistakes, contradictions, wrong figures. Fix these first.
-2. **Weak spots:** unsupported claims or unclear passages. Add evidence or rewrite.
-3. **Noise:** points that don't apply or misread your intent. Skip them.
-
-### Step 6: Verify before you change anything important
-
-Check any flagged fact or number against your original source. AI review tools can be wrong, and Google itself says final judgment stays with people.

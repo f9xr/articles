@@ -3,6 +3,15 @@
 **Audit date:** 26 November 2026 (Asia/Kolkata) · **Source of truth:** repository working copy + live spot-checks via browser
 **Method:** all links extracted from `_posts`, `_includes`, `_layouts`, `_data`, root files → internal links resolved against the repo file map; cross-domain F9XR URLs live-checked via in-browser `fetch()`; external third-party URLs could **not** be bulk-checked (sandbox blocks outbound HTTPS from shell processes — control test to google.com also failed). External-link status is therefore **untested**, not "passing".
 
+## Update — 27 November 2026
+
+- **B1 (Ahrefs 640 webp 404):** Fixed earlier; asset present in repo.
+- **B2 (feed.json raw Liquid/BOM):** Fixed; live `https://f9xr.org/articles/feed.json` now returns HTTP 200 with valid JSON Feed.
+- **C1 (stale live inventory/cache):** Resolved. Live sitemap/feed now include recent posts through 2026-11-27, including the imprint, mobile SEO audit, and original data backlinks articles; all three return HTTP 200.
+- **C3 (Unsplash hero hotlink):** Fixed. `2026-10-02-google-ai-content-guidance-fact-check-update.md` now uses self-hosted `assets/post-images/google-ai-content-guidance-fact-check-update.webp` (+ 640 variant) with attribution preserved in `image_credit`.
+- **Build/deploy blockers fixed:** `2026-11-22-mobile-seo-audit-new-wordpress-site-guide.md` YAML description quoted (restored Jekyll build); audit/report docs excluded in `_config.yml` to prevent GitHub Pages Liquid parsing failures.
+- **Remaining owner decisions:** C2 Pinterest (add to `sameAs`/footer or remove config), C4 category/taxonomy consolidation, and periodic external link crawling from a network-enabled environment.
+
 ---
 
 ## 1. Broken-link audit results
