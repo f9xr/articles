@@ -142,8 +142,9 @@ layout: default
   {% if page.image %}
   {%- assign hero_640 = page.image | replace: '.webp', '-640.webp' -%}
   {%- assign hero_w = page.image_width | default: 1200 -%}
+  {%- assign hero_alt = page.image_alt | default: page.title -%}
   <div class="post-hero">
-    <img src="{{ page.image }}" alt="{{ page.title | escape }}" title="{{ page.title | escape }}" width="{{ hero_w }}" height="{{ page.image_height | default: 630 }}" srcset="{{ page.image }} {{ hero_w }}w, {{ hero_640 }} 640w" sizes="(max-width: 1280px) 100vw, 1200px" loading="eager" fetchpriority="high" itemprop="image">
+    <img src="{{ page.image }}" alt="{{ hero_alt | escape }}" width="{{ hero_w }}" height="{{ page.image_height | default: 630 }}" srcset="{{ page.image }} {{ hero_w }}w, {{ hero_640 }} 640w" sizes="(max-width: 1280px) 100vw, 1200px" loading="eager" fetchpriority="high" itemprop="image">
     {% if page.image_caption %}
     <figcaption class="post-hero-caption">{{ page.image_caption }}</figcaption>
     {% elsif page.image_credit %}
